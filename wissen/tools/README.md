@@ -260,3 +260,12 @@ zweite Filter musste enger gefasst werden als der erste — die blossen Stichwor
 «Negativbefund» kommen auch in Einträgen vor, die genau deshalb offen *waren* und geschlossen
 wurden.
 
+
+## Verhältnis zum Skill `wissenscheck` (Querverweis Synergie-Lauf 33, 10.09.2026, SYN-82)
+
+Der monatliche Health-Check `skills/wissenscheck/SKILL.md` (Task `wissenscheck-monatlich`, am 1. des
+Monats 19:30) ruft keines der sieben Werkzeuge auf, obwohl drei davon Teile seiner Audits A, B und E
+maschinell prüfen. Zu beachten: sein Audit E misst Veraltung über `last_updated` plus neuere
+raw-Quelle; `datenstand-waechter.py` belegt genau dieses Mass als ungeeignet für Geld- und
+Marktzahlen («`last_updated` misst den letzten Zugriff, nicht das Alter der Zahlen»). Die Einbindung
+ist offen, Entscheid Wissens-Chef bzw. Raphael.

@@ -2,6 +2,22 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-10 (Synergie-Lauf 33, Tagestakt) — der Monats-Check kennt seine Werkzeuge nicht, und sein Prompt verlangt den verbotenen git-Weg
+
+Delta-Basis 09.09.2026 17:10, 115 Commits, kein neuer Baustein, vier geaenderte. Bericht:
+`outputs/2026-09-10_synergie-lauf-33.md`.
+
+- **SYN-81 neu (Prio 2):** `wissenscheck-monatlich` Schritt 4 und `immobewertung-training` Schritt 7
+  verlangen `git add/commit/push` ueber den SMB-Mount (Rule `sync-kanonische-quelle`). Nicht gesetzt,
+  Frist vor dem 01.10.2026 in `logbuch/fristen.md`.
+- **SYN-82 neu (Prio 2):** `wissenscheck` kennt keines der sieben Werkzeuge unter `wissen/tools/`;
+  Audit E widerspricht `datenstand-waechter.py`. Querverweise gesetzt in `skills/wissenscheck/SKILL.md`
+  und `wissen/tools/README.md` (active-with-flagging).
+- **SYN-80 nachgefuehrt:** Buendelung wirkt, erster Schadensfall im Blindtest, zwei Satzbau-Artefakte
+  in `wissen/twin/wiki/stimme.md` und `arbeitsweise.md` repariert, `build_dna.py` neu gefahren,
+  Reserve 15 B. SYN-43: erster Gegenfluss in die importierte Anrede-Rule.
+- Schreib-Kontrolle: alle Edits anker-basiert, keine Zeile entfernt.
+
 ## 2026-09-09 (Lauf 56, Abendlauf) — die fuehrende KB fuehrte die falsche Zahl, und der Wegweiser beschrieb eine KB mit 480 Artikeln als leer
 
 Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 55, adversariale Verifikation im

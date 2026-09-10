@@ -4,6 +4,16 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-10 (Synergie-Lauf 33, active-with-flagging) — zwei Satzbau-Artefakte der Verdichtung repariert
+
+Die Verdichtung des Fidelity-Reviews vom 10.09. (708 B) hat im Do/Don't-Block zwei Saetze
+beschaedigt: `wiki/stimme.md` Z. 104 begann mit einem verwaisten « . Der Abbruch …», `wiki/arbeitsweise.md`
+Z. 188 verlor den Satzpunkt («aus vier Richtungen Der Zwilling …»). Beide in der Quelle repariert
+(eine Reparatur byte-neutral, eine +1 B), `skills/twin/tools/build_dna.py` neu gefahren. Zeilen
+unveraendert (5782 / 4655 / Rule 390), Auto-Block 33'985 B, **Reserve 15 B**. Kein Inhalt geaendert.
+Vorschlag: nach jeder Verdichtung einen Satzbau-Check fahren (Zeilenanfang auf Satzzeichen,
+fehlender Punkt an der Schnittstelle). Details `wissen/koordination/SYNERGIE-REGISTER.md` SYN-80.
+
 ## 2026-09-10 (Fidelity-Review) — die Mikrotext-Gattung blind gemessen; der Byte-Riegel hat seinen ersten belegten Schadensfall
 
 Vier Golds vom **Oktober 2025** (klar vor-Claude), gezogen nach **Gattung** statt nach Fenster

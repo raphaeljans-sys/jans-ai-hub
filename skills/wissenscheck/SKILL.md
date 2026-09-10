@@ -14,6 +14,12 @@ description: "Wissens-Health-Check fuer die JANS-Wissensbasen (Wissens-Layer unt
 - **Abhaengige Rules:** wissens-bibliothekar, identifikatoren-verifizieren, umlaute-konvention,
   dokument-layout-standard, antwort-formatierung, sync-kanonische-quelle.
 - **Vorgelagert:** —  **Nachgelagert:** Skill `korrektur` (fuer Audit F, Schreibregeln).
+- **Querverweis (Synergie-Lauf 33, 10.09.2026, SYN-82):** Unter `wissen/tools/` liegen sieben
+  maschinelle Pruefwerkzeuge (Uebersicht `wissen/tools/README.md`), die Teile der Audits A, B und E
+  pruefen (`wiki-konsistenz.sh`, `link-zielabgleich.sh`, `datenstand-waechter.py`). Dieser Skill ruft
+  sie bisher nicht auf. Achtung: `datenstand-waechter.py` misst das Alter von Zahlen anders als
+  Audit E (dort `last_updated` plus neuere raw-Quelle). Ob und wie sie eingebunden werden, ist offen
+  (Wissens-Chef bzw. Raphael); bis dahin gilt die Audit-Definition unten unveraendert.
 
 ## Zweck
 

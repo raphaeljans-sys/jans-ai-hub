@@ -185,7 +185,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
   Baustein, nicht in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
-  **dieselbe** Unsicherheit aus vier Richtungen Der Zwilling glättet beides
+  **dieselbe** Unsicherheit aus vier Richtungen. Der Zwilling glättet beides
   reflexhaft zu einer bebulleteten, trennscharfen Liste und **erfindet dabei Inhalt**. Schluss
   knapp: «Danke für die Klärung.» **Auch die Vergabe-Alternative steht als EIN
   Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne jede Begründung**

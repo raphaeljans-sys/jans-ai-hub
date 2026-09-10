@@ -74,8 +74,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
-  «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer
- . Der Abbruch einer Zusage öffnet ohne
+  «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer.
+  Der Abbruch einer Zusage öffnet ohne
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
@@ -365,7 +365,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
   Baustein, nicht in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
-  **dieselbe** Unsicherheit aus vier Richtungen Der Zwilling glättet beides
+  **dieselbe** Unsicherheit aus vier Richtungen. Der Zwilling glättet beides
   reflexhaft zu einer bebulleteten, trennscharfen Liste und **erfindet dabei Inhalt**. Schluss
   knapp: «Danke für die Klärung.» **Auch die Vergabe-Alternative steht als EIN
   Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne jede Begründung**
