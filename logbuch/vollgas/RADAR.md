@@ -53,6 +53,35 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-10 12:57 — [FREI] **Regellauf ohne neuen Befund. Alle Lern-Loops haben geliefert, kein Delta-Null-Loop. Der Kontingent-Rückstand wächst auf -24.2 Punkte; der offene P1 vom Vorlauf (Zufluss `architektur-fachwissen`) steht unverändert.**
+
+**Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **7 s** (dritter Lauf in Folge
+im einstelligen Bereich, Symlink unverändert auf 2.1.236). Kontingent **19.2 %** von 167 Mio bei
+**43.4 %** verstrichener Woche, Vorsprung **-24.2 Punkte** (MacBook 22.51, Mini 9.60 Mio; beide
+Stationsdateien frisch). Ampel FREI, keine Drossel nötig. Keine Waisen (`claude -p` leer),
+Speicherdruck 1, rund 5.0 GB frei+inaktiv+purgeable (vm_stat).
+
+**Liefer-Delta seit 00:50 (über git gemessen, 25 Dateien ohne CHANGELOG/INDEX):** twin 11
+(Mailbatch 118, Fidelity 10.09., alle sechs Facetten-Artikel), normen 10 (Run 83, fünf
+VKF-Destillate), energie 4 (Nachtschicht Mini, SZ-Teil E-R189-1), claude-code 2 (Rücklauf
+logbuch-radar), auflagebereinigung 1, spec 1. Die beiden Nachtschicht-Dispatches des Mini (02:35,
+05:33) endeten mit rc=0 und je einem Commit. Operative Briefings alle gelaufen (logbuch-radar,
+hub-chef mit gesendetem Briefing, mahnwesen, zahlungsabgleich, ag-gruendung, heartbeat, fruehwarnung).
+
+**Feuermechanismen im Sollstand.** Beide `vollgas-*`-plists tragen weiterhin `.disabled-260729` und
+sind auf keiner Station geladen, `ch.jans.nachtschicht` auf dem Mini geladen, keine Doppelfeuerung.
+Mini-Registry weiterhin neun Tasks (Stand wie Vorlauf, inkl. `bauleitung-training`).
+
+**Selbstkontrolle bestanden.** Letzter Eintrag 10.09. 00:57, dieser Lauf 12:57, also 12 h bei 12 h
+Takt und 15 h Toleranz. `lastRunAt` der eigenen Task (10:57Z = 12:57 CEST) deckt sich mit diesem Lauf.
+
+**P1 (unverändert, Einzeiler):** Zufluss für `wissen/architektur-fachwissen/` weiterhin offen: 482
+Artikel, letzte Änderung 03.09. 23:30, jetzt 6.5 Tage ohne Zufluss. Vorlage an Raphael steht im
+Vorlauf, Wege (a) bis (c); der Radar handelt nicht selbst. Keine Mail (kein Sendegrund nach 260803).
+**P2:** Kontingent-Rückstand -24.2 Punkte (Vorlauf -19.7): Reserve im Sinne des Wochenentscheids
+vom 03.08., zugleich das Argument für eine Entscheidung zu P1.
+**P3:** Sollstand-Liste der Mini-Registry in der Task-Beschreibung (acht → neun) weiter offen.
+
 ## 2026-09-10 00:57 — [FREI] **Der P1 des Vorlaufs war halb falsch verortet: `wissen/archiv-fachwissen/` existiert nicht und hat nie existiert — `archiv-fachwissen` ist ein KORPUS-Name, nicht eine KB. Die Sache dahinter bleibt aber richtig und wird praeziser: die Ziel-KB `architektur-fachwissen` bekommt seit dem 03.09. keinen Zufluss mehr. Kontingent liegt 19.7 Punkte hinter dem Zeitverlauf.**
 
 **Lage.** Fenster FREI, PATH-Probe rc=0 in **8 s**. Kontingent 16.6 % von 167 Mio bei **36.3 %**
