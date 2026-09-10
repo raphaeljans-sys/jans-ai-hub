@@ -8848,13 +8848,22 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   fuehrt bisher nur die Postulate 87/2024 und 88/2024 zu diesem Sachfeld — KR-Nr. 17/2026 (ein
   neuerer, direkterer Vorstoss zum selben Gegenstand) fehlt dort.
 
-  **SZ und Bundesrat/Art. 24 Abs. 2 RPG bleiben offen** (P3, kein Terminrisiko). Ein
-  WebSearch-Treffer zu «§ 75a Abs. 4 PBG SZ» wurde **bewusst nicht** als Antwort verwendet: er
-  betrifft die Solaranlagen-Meldepflicht in Industrie-/Gewerbezonen (seit 1.7.2022, andere,
-  aeltere Rechtsgrundlage) und nicht die seit 1.1.2026 bestehende Kompetenznorm fuer
-  energetische Sanierungen. Fuer SZ braucht es eine gezielte PBG/PBV-Volltextpruefung (Skill
-  `oereb-schwyz`/`baurecht` als naechster Weg). Die UVEK-Medienmitteilung vom 15.10.2025 zur
-  RPV-Revision nennt keine Ausfuehrungsbestimmung zu Art. 24 Abs. 2 RPG.
+  **✓ SZ-Teil beantwortet, 10.09.2026 (Nachtschicht Mac Mini) — kein Gebrauch gemacht, kein
+  Vorstoss in Sicht.** Drei Quellen geprueft: (1) PBV SZ (SRSZ 400.111, Stand 1.2.2026, amtliches
+  PDF `sz.ch`) enthaelt keine Bestimmung zu bewilligungsfreien energetischen Sanierungen oder zu
+  «aesthetisch wenig empfindlichen» Bauzonentypen; (2) § 75a Abs. 4 PBG SZ bleibt bestaetigt die
+  aeltere, andersartige Solaranlagen-Meldepflicht Industrie-/Gewerbezone (seit 1.7.2022, nicht
+  die neue Kompetenznorm) — der fruehere WebSearch-Treffer war zu Recht nicht als Antwort
+  verwendet worden; (3) die aktuelle Liste der parlamentarischen Vorstoesse im Kantonsrat SZ
+  (`sz.ch/behoerden/kantonsrat/geschaefte/parlamentarische-vorstoesse`) fuehrt **kein** Geschaeft
+  zu energetischen Sanierungen/Solar-Baubewilligungen — anders als ZH (KR-Nr. 17/2026) gibt es in
+  SZ keinen erkennbaren politischen Vorlauf. Uebernommen in `wiki/pv-solar-technologien.md` und
+  `wiki/BAUHERREN-FAQ.md` F291. Kein Primaertext zum amtlichen Ablegen in `raw/` (Negativbefund
+  aus drei Sekundaerquellen, keine neue Norm gefunden).
+
+  **Bundesrat/Art. 24 Abs. 2 RPG bleibt offen** (P3, kein Terminrisiko). Die UVEK-
+  Medienmitteilung vom 15.10.2025 zur RPV-Revision nennt keine Ausfuehrungsbestimmung dazu;
+  ein erneuter, gezielter Check lohnt erst nach einer weiteren RPV-Teilrevision.
 
 - [x] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.** ✓ 2026-09-09 (Nachtschicht Mac Mini).
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von

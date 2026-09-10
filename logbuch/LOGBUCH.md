@@ -12176,3 +12176,25 @@ Commit `6eac133ad` nativ auf der Synology, gepusht.
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 3.75 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-10 02:30 Nachtschicht Mac Mini — energie: E-R189-1 SZ-Teil beantwortet
+
+Prioritaets-Check: remote-tasks/pending und sync-tasks/mac-mini leer. Synobsis-Embeddings
+(Stufe 2) laufen automatisiert per launchd, nichts offen. Trainierbare KBs geprueft: baurecht/
+normen/planungsgrundlagen/wettbewerbs-dna eigener Taktgeber (ausgeschlossen), bauprodukte
+und grobkosten laut eigener PROGRAMM.md/Inventar gesaettigt (Bestaetigungstakt bzw. Endbedingung
+erreicht), energie einziges freies, nicht gesaettigtes Ziel. Fortsetzung der letzten Nacht:
+offene Frage **E-R189-1** aus `wissen/energie/wiki/QUESTIONS.md` fuer den **Kanton Schwyz**
+recherchiert (hat SZ von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht — energetische Sanierungen
+bewilligungsfrei?). Drei Quellen geprueft: PBV SZ (SRSZ 400.111, Stand 1.2.2026) ohne
+einschlaegige Bestimmung, § 75a Abs. 4 PBG SZ bestaetigt als aeltere, andere Solaranlagen-
+Meldepflicht, aktuelle Liste der parlamentarischen Vorstoesse im Kantonsrat SZ ohne passendes
+Geschaeft. Ergebnis: SZ hat wie ZH keinen Gebrauch gemacht, anders als ZH aber auch keinen
+erkennbaren politischen Vorlauf (kein Postulat). Negativbefund aus Sekundaerquellen dokumentiert,
+kein neuer Primaertext. Bundesrat/Art. 24 Abs. 2 RPG bleibt offen (P3, kein Terminrisiko).
+Geaendert: `wissen/energie/{wiki/pv-solar-technologien.md,wiki/BAUHERREN-FAQ.md,
+wiki/QUESTIONS.md,CHANGELOG.md}`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 1.85 von 5 USD. Zyklus sauber beendet.

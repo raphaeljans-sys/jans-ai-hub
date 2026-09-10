@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-10 (Nachtschicht Mac Mini, Prioritaet 5) — E-R189-1 SZ-Teil beantwortet: kein Gebrauch, kein Vorstoss
+
+Offene Frage E-R189-1 (hat SZ von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht — energetische
+Sanierungen bewilligungsfrei?) fuer den Kanton Schwyz recherchiert, als Fortsetzung der ZH-Teilantwort
+vom Vorabend. Drei Quellen geprueft: PBV SZ (SRSZ 400.111, Stand 1.2.2026) ohne einschlaegige
+Bestimmung, § 75a Abs. 4 PBG SZ bestaetigt als aeltere, andersartige Solaranlagen-Meldepflicht
+(nicht die neue Kompetenznorm), aktuelle Liste der parlamentarischen Vorstoesse im Kantonsrat SZ
+ohne passendes Geschaeft. Ergebnis: SZ hat wie ZH noch keinen Gebrauch gemacht, aber anders als ZH
+existiert dort auch kein erkennbarer politischer Vorlauf (kein Postulat wie ZH KR-Nr. 17/2026).
+Negativbefund aus Sekundaerquellen, kein neuer Primaertext zum Ablegen in `raw/`.
+Geaenderte Dateien: `wiki/pv-solar-technologien.md` (SZ-Absatz ergaenzt, Frontmatter),
+`wiki/BAUHERREN-FAQ.md` (F291 um SZ-Satz ergaenzt), `wiki/QUESTIONS.md` (E-R189-1 SZ-Teil
+geschlossen, Bundesrat/Art. 24 Abs. 2 RPG bleibt offen).
+
 ## 2026-09-09 (Nachtschicht Mac Mini, Prioritaet 5) — E-R189-1 ZH-Teil beantwortet: Postulat KR-Nr. 17/2026 als Beleg
 
 Offene Frage E-R189-1 (hat ZH von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht?) recherchiert.
