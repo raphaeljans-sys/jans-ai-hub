@@ -3,7 +3,7 @@ title: "Baumschutz und Fällbewilligung: Stammumfang-Schwelle, Pflegepraxis (Sta
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Landschaftsarchitektur/07_Pflanzen_Produkte_Mobelierung_Belaege/00_Produkte/Stadtbaum_Luzern/100411_stadtbaeume08_Luzern.pdf, Faltbogen «Stadtbäume» Reihe Naturschauplätze, Herausgeber Umweltschutz Stadt Luzern/Stadtgärtnerei, 2008", "raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md Triage-Zeile Stadtbaum_Luzern, Abschnitt «Was hier für JANS drinsteckt» Punkt 6"]
-links: ["[[aussenbelaege-regelaufbauten-vogt-2012]]"]
+links: ["[[aussenbelaege-regelaufbauten-vogt-2012]]", "[[baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026]]"]
 ---
 
 # Baumschutz und Fällbewilligung: Stammumfang-Schwelle, Pflegepraxis (Stadt Luzern, 2008)
@@ -54,6 +54,8 @@ Stammumfang auf 1 m Höhe als gängige Messmethode), bevor eine Fällung eingepl
 
 Die Bewilligungsschwelle (80 cm), die Grenzabstände und die 6-m²-Flächenregel gelten
 nachweislich nur für die Stadt Luzern, Stand 2008. Für ein Projekt in einer anderen Gemeinde
-(namentlich Zürich, wo JANS überwiegend tätig ist) ist die dortige kommunale Baumschutz- bzw.
-Grünordnung eigenständig zu verifizieren, nicht diese Luzerner Zahl zu übernehmen — offener
-Punkt für einen künftigen Fund einer Zürcher Quelle, siehe `wiki/QUESTIONS.md`.
+ist die dortige kommunale Baumschutz- bzw. Grünordnung eigenständig zu verifizieren, nicht
+diese Luzerner Zahl zu übernehmen. **Für Zürich, wo JANS überwiegend tätig ist, liegt die
+Schwelle seit der BZO-Teilrevision «Baumerhalt» (Stadtrats-Beschluss 15.04.2026) vor** —
+siehe [[baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026]] (100 cm
+Einzelstamm, 80 cm in Baumschutzgebieten). Nachgetragen 11.09.2026, Nachtschicht Mac Mini.

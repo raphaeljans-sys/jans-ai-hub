@@ -12552,3 +12552,18 @@ Auftrag: verifizieren, ob der Umbau auf Git wirklich die beste Loesung ist, das 
 ## 2026-09-11 15:1x Interaktiv (Mac Mini, Freigabe Raphael) — V0+ begonnen: Vorarbeit V, Auto-Sync 15 Min, Aufsicht teilweise auf dem Mini
 
 Ausgefuehrt: `.gitattributes` (union-Merge fuer Append-Dateien), `.gitignore` (render-scratch, 70-MB-Dateiliste), Auto-Sync 300 → 900 s auf beiden Stationen, Sicherungen `~/jans-hub-daten/sicherung-260911/` je Station, drei Aufsichts-Tasks (`heartbeat-daily`, `vollgas-fruehwarnung`, `vollgas-chef-radar`) auf dem Mac Mini angelegt. Vom Auto-Mode-Klassifikator geblockt und als fertige Befehle vorgelegt: Index-Bereinigung nativ auf der Synology, Installation A1/A3/A4 und Tailscale-Waechter auf dem Mini. Handarbeit Raphael: MacBook-Fassungen der drei Tasks deaktivieren, `~/.bexio.env` auf den Mini, FileVault/Auto-Login. Details: Chronik 260911b, Fristen-Register 15:1x.
+
+## 2026-09-11 23:3x Nachtschicht Mac Mini (Prioritaet 5) — architektur-fachwissen: Frage #79 (Zürcher Baumschutz-Fällbewilligung) geschlossen
+
+Prioritaeten 1-2 leer (keine Sync-/Remote-Tasks, Synobsis seit Wochen gesaettigt); `energie`
+(freies Ziel) bereits um 22:59 im vorigen Zyklus bearbeitet (Run 191), daher Prioritaet 5:
+offene QUESTIONS.md-Positionen recherchiert. `architektur-fachwissen` #79 (seit 30.08.2026
+offen: keine Zürcher Quelle zur Baumschutz-Fällbewilligungsschwelle im Korpus) per WebSearch/
+WebFetch gegen die offiziellen stadt-zuerich.ch-Seiten geklaert: BZO-Teilrevision
+«Baumerhalt», Stadtratsbeschluss 15.04.2026, 100 cm Stammumfang (bzw. 80 cm in
+Baumschutzgebieten). Neuer Artikel
+`wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`, verlinkt
+mit dem bestehenden Luzern-Artikel, QUESTIONS #79 mit Schliessungsvermerk versehen (nicht
+geloescht), INDEX.md und CHANGELOG nachgezogen. Rechtskraft-Detail (Gemeinderat/kantonale
+Genehmigung) bleibt als offener Punkt im Artikel vermerkt. Budget-Verbrauch dieses Laufs:
+rund 1.90 USD von 5 USD.

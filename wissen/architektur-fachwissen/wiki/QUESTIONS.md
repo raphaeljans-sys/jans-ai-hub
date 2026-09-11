@@ -1095,6 +1095,17 @@ Stadt Zürich bzw. kantonales Naturschutzrecht) liegt in diesem Korpus nicht vor
 solche Quelle findet oder kennt: als Ergänzungsartikel oder Aktualisierung nachtragen,
 bevor die Luzerner Zahl versehentlich als Zürcher Praxis zitiert wird.
 
+**GESCHLOSSEN 11.09.2026 (Nachtschicht Mac Mini, Prioritaet 5).** Quelle ist keine
+Verordnung, sondern die BZO-Teilrevision «Baumerhalt» (Stadtrats-Beschluss 15.04.2026, laut
+stadt-zuerich.ch «per sofort in Baugesuchen zu berücksichtigen»): 100 cm Stammumfang
+einstämmig, 80 cm in bisherigen Baumschutzgebieten, Sonderregel für mehrstämmige Bäume.
+Recherchiert per WebSearch/WebFetch gegen die offiziellen stadt-zuerich.ch-Seiten (nicht aus
+dem Archiv-Korpus, da dort keine Zürcher Quelle vorlag). Neuer Artikel:
+[[baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026]], von dort und
+zurück verlinkt. Offen bleibt dort der genaue Rechtskraft-Stand (Gemeinderat, kantonale
+Genehmigung) — vor einer verbindlichen Bauherren-Zusage direkt bei Grün Stadt Zürich zu
+verifizieren.
+
 ## 30.08.2026 — `KORPUS-QUEUE.md`, Fortsetzungshinweis Sektion `02_Architekturtheorie` (Lane FACHWISSEN)
 
 **#80 Fortsetzungshinweis in `skills/wissens-destillat/KORPUS-QUEUE.md` (130. Lauf) veraltet.**

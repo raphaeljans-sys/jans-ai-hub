@@ -1,5 +1,21 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-11 (Nachtschicht Mac Mini, 23:3x, Prioritaet 5) — QUESTIONS #79 geschlossen: Zürcher Baumschutz-Fällbewilligung
+
+Neuer Wiki-Artikel `wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`:
+schliesst die seit 30.08.2026 offene Lücke (#79), dass für Zürich (Hauptwirkungsort JANS) keine
+eigene Baumschutz-Quelle im Korpus vorlag, nur die Luzerner Zahl (2008). Kein Archiv-Fund,
+sondern gezielte Recherche gegen die offiziellen stadt-zuerich.ch-Seiten (WebSearch + WebFetch,
+drei Unterseiten gegengelesen): BZO-Teilrevision «Baumerhalt», Stadtrats-Beschluss 15.04.2026,
+laut Quelle «per sofort in Baugesuchen zu berücksichtigen» — 100 cm Stammumfang einstämmig
+(Messhöhe 1 m), 80 cm in bisherigen Baumschutzgebieten, Summenregel bei mehrstämmigen Bäumen.
+Rückverweis in `baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008.md` ergänzt
+(Frontmatter-Link + Absatz «Offene Punkte»), `wiki/QUESTIONS.md` #79 mit Schliessungsvermerk
+versehen (nicht gelöscht), `wiki/INDEX.md` um datierten Abschnitt ergänzt. Ausdrücklich als
+`status: emerging` geführt: der volle Rechtskraft-Stand (Gemeinderat, kantonale Genehmigung)
+ist auf den konsultierten Seiten nicht dokumentiert und bleibt im Artikel als offener Punkt
+vermerkt — vor einer verbindlichen Bauherren-Zusage bei Grün Stadt Zürich zu verifizieren.
+
 ## 2026-09-11 (Nachtschicht Mac Mini, Prioritaet 5) — Frage #10 (VKF-Ausgabe) gegen wissen/normen geprueft
 
 `wiki/QUESTIONS.md` (+16/-0): Nachtrag zu **#10** («Welche VKF-Ausgabe ist im August 2026 in

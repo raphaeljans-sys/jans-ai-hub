@@ -3152,3 +3152,16 @@ zwei Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund.
 **Nächster Lauf:** rund 16 der ursprünglich 24 P2-Positionen bleiben offen. Nächstgrösste
 Position: Gartenmöblierung-Renaissance-Destillat, sonst gemäss Queue-Regel zur nächstgrössten
 Sektion mit offenem P2 übergehen.
+
+## 260911 — QUESTIONS #79 geschlossen: Zürcher Baumschutz-Fällbewilligung (Lane FACHWISSEN, Nachtschicht Mac Mini)
+
+Kein Archiv-Lauf, sondern Recherche gegen offizielle Webquelle (WebSearch/WebFetch), weil im
+Korpus keine Zürcher Baumschutzquelle vorliegt (offener Punkt seit 30.08.2026). Neuer Artikel
+[[baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026]]: BZO-Teilrevision
+«Baumerhalt», Stadtrats-Beschluss 15.04.2026, per sofort in Baugesuchen zu berücksichtigen —
+100 cm Stammumfang einstämmig (1 m Messhöhe), 80 cm in bisherigen Baumschutzgebieten,
+Summenregel bei mehrstämmigen Bäumen (zwei dickste Stämme zusammen > 120 cm). Verlinkt mit
+[[baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008]] (dort Rückverweis ergänzt).
+Offener Rest im neuen Artikel vermerkt: vollständiger Rechtskraft-Stand (Gemeinderat,
+kantonale Genehmigung) nicht auf den konsultierten Seiten dokumentiert, vor einer
+verbindlichen Bauherren-Zusage bei Grün Stadt Zürich zu verifizieren.
