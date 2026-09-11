@@ -12384,3 +12384,27 @@ Geaendert: `wissen/energie/{destillate/sia-181-schallschutz-anforderungswerte.md
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 2.4 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-11 05:3x Nachtschicht Mac Mini — energie: A-BLIND Rang 70 (WTA-Formular ZH) am Original gegengelesen
+
+Fortsetzung des 02:3x-Laufs: dort war der M365-Connector nicht verbunden, der fuer heute
+vorgemerkte A-BLIND-Kandidat Rang 70 `wta-formular-zh-waermetechnische-anlagen` damit nicht
+lesbar. In dieser Session war die M365-CLI ausserhalb des MCP-Servers verbunden (separate
+Zertifikats-Session) — PDF ueber `m365 spo file get`, Site `/sites/PL`, Bibliothek `04 Energie/
+endk.ch/Waermetechnischen Anlagen`, beschafft und vollstaendig (5 S.) gelesen.
+
+Zwei Abschreibfehler in der komprimierten Beilagen-Tabelle des seit 10.06.2026 `established`
+gefuehrten Destillats gefunden und korrigiert: (1) «Waermetauscher fuer Fernwaermeanschluss»
+war faelschlich als «reduziertes Verfahren» gefuehrt, braucht im Original aber wie die
+Standardanlagen alle vier Gesuchsseiten — reduziert ist im ganzen Formular einzig «Alleiniger
+Brenner-Ersatz». (2) «Holzfeuerung >70 kW» verlangt zusaetzlich AWEL/Lufthygiene, was die
+≤70kW-Zeile nicht braucht; die zusammengefasste Zeile bildete den Unterschied nicht ab. Alle
+uebrigen Tabellenzeilen, Verfahrenswege, die Seite-4-Paragraphenliste und die Brandschutz-
+angaben Seite 3/5 ohne Befund bestaetigt.
+
+Geaendert: `wissen/energie/{destillate/wta-formular-zh-waermetechnische-anlagen.md,
+wiki/QUESTIONS.md,CHANGELOG.md,outputs/2026-09-11_energie-e-ablind-rang70.md}`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 3.2 von 5 USD. Zyklus sauber beendet.

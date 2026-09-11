@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-09-11 (Nachtschicht Mac Mini, 05:3x) — A-BLIND Rang 70: WTA-Formular am Original gegengelesen, zwei Abschreibfehler behoben
+
+`destillate/wta-formular-zh-waermetechnische-anlagen.md` vollständig am Original neu gelesen
+(M365-CLI, Site `/sites/PL`, Bibliothek `04 Energie/endk.ch/Waermetechnischen Anlagen`, PDF
+`2024_01_08_WTA_Formular_Version_01-2024.pdf`, 5 S.). Zwei Befunde in der komprimierten
+Beilagen-Tabelle korrigiert: (1) «Wärmetauscher für Fernwärmeanschluss» war fälschlich als
+«reduziertes Verfahren» geführt, braucht im Original aber wie die Standardanlagen alle vier
+Gesuchsseiten — reduziert ist im ganzen Formular einzig «Alleiniger Brenner-Ersatz». (2)
+«Holzfeuerung >70 kW» verlangt zusätzlich AWEL/Lufthygiene, was die ≤70kW-Zeile nicht braucht;
+die zusammengefasste Zeile hatte den Unterschied nicht abgebildet. Klargestellt zusätzlich:
+«Abgasanlage für Holzfeuerung» ist eine eigene Checklisten-Position, keine Beilage der
+Holzfeuerungs-Zeile. Alle übrigen Tabellenzeilen, die drei Verfahrenswege, die Seite-4-
+Paragraphenliste und die Brandschutzangaben Seite 3/5 ohne Befund bestätigt. Details
+`wiki/QUESTIONS.md` Abschnitt «A-BLIND Rang 70», Bericht `outputs/2026-09-11_energie-e-ablind-rang70.md`.
+Nächster A-BLIND-Kandidat: Rang 67 `enfk-fensterblatt`.
+
 ## 2026-09-11 (Nachtschicht Mac Mini) — Cross-KB-Bringschuld aus `normen` Run 84 erledigt: Anhang G/H/J primärbelegt
 
 Bearbeitet der am 11.09.2026 von `normen` (Run 84, Anlass WC57-N2/KISPI PL57-1) eingetragene

@@ -5,7 +5,7 @@ ausgabe: Version 01-2024 (Ausgabe Januar 2024)
 gelesen: vollstaendig (5 S.)
 datenstand: 2024-01 (Formular-Mechanik aktuell; EnerG-Paragraphen Kt. ZH). ⚠ seit 1.1.2026 elektronischer Vollzug EVEN — Einreichweg vor Eingabe pruefen.
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-09-11
 ---
 
 # Destillat — Gesuch-/Meldeformular waermetechnische Anlagen (Kt. ZH, 01-2024)
@@ -34,15 +34,17 @@ im Neubau verboten / im Bestand nur mit Wirtschaftlichkeitsnachweis erlaubt**.
 | Waermeerzeuger | Wichtigste Beilagen / Hinweis |
 |---|---|
 | Oel-/Gasheizung, Dampfkessel ≤/>1000 kW | Feuerpolizei (i); >1000 kW zusaetzl. AWEL/Lufthygiene |
-| Alleiniger **Brenner-Ersatz** (sonst unveraendert) | reduziertes Verfahren |
+| Alleiniger **Brenner-Ersatz** (sonst unveraendert) | **einziger Fall mit reduziertem Gesuchsformular** (nur Seiten 1-3, ohne Seite 4 Technische Angaben) |
 | **Waermepumpe Luft** | **Private Kontrolle + Laermschutznachweis WP (LN-1a/1b)** |
 | **WP Erdwaermesonde** | **Gesuch AWEL/Gewaesserschutz** |
 | WP Erdwaermekoerbe/-register/Energiepfaehle | Gesuch AWEL |
 | **WP Grundwasser** | Kopie Gesuch AWEL/Gewaesserschutz |
 | WP Oberflaechenwasser | Kopie Gesuch AWEL/Wasserbau |
-| **Holzfeuerung** (Schnitzel/Pellets/Stueckholz/Cheminee) ≤/>70 kW | Feuerpolizei; Abgasanlage |
-| Fluessiggas ueber/unter Terrain, Biogas | Feuerpolizei; Stoerfallvorsorge bei Mengenschwellen |
-| **Waermetauscher fuer Fernwaermeanschluss** | reduziertes Verfahren (i Feuerpolizei) |
+| **Holzfeuerung** (Schnitzel/Pellets/Stueckholz/Cheminee) ≤70 kW | Feuerpolizei |
+| **Holzfeuerung** >70 kW | Feuerpolizei **und zusaetzlich AWEL/Lufthygiene** (Aktenbeilagen falls dort bewilligungspflichtig: Situationsplan, Kaminhoehen-Schnitt, hydraulisches Schema) |
+| Abgasanlage fuer Holzfeuerung (Cheminee/-oefen) | eigene Checklisten-Position, Feuerpolizei — kein Beilagen-Zusatz zur Holzfeuerung, sondern separat anzukreuzen |
+| Fluessiggas ueber/unter Terrain, Biogas | Feuerpolizei (unter Terrain zusaetzl. AWEL/Lufthygiene); Stoerfallvorsorge bei Mengenschwellen |
+| Waermetauscher fuer Fernwaermeanschluss | **volles Gesuchsformular (Seiten 1-4)** wie die Standardanlagen, Feuerpolizei nur zur Info (i) — **kein** reduziertes Verfahren |
 | Solaranlage | **separates Meldeformular Solaranlagen** |
 
 - **Bei Neubauten ist immer das Formular EN-103 (Private Kontrolle Heizung/WW) noetig.** Fehlt die
@@ -80,6 +82,15 @@ im Neubau verboten / im Bestand nur mit Wirtschaftlichkeitsnachweis erlaubt**.
   Zeit und Kosten bestimmt.
 - **Tiefe Vorlauftemperatur ist Pflicht und Vorteil zugleich** (§ 23 BBV I, max. 35 °C): Sie ist
   genau die Bedingung fuer eine effiziente Waermepumpe (hohe Jahresarbeitszahl) → `[[heizleistung-und-waermeerzeuger]]`.
+
+**A-BLIND-Gegenlese 11.09.2026 (Nachtschicht Mac Mini, Rang 70):** vollstaendig am Original
+(M365-CLI, Site `/sites/PL`, Bibliothek `04 Energie`) neu gelesen. Zwei Abschreibfehler in der
+Beilagen-Tabelle korrigiert (Wärmetauscher faelschlich als «reduziertes Verfahren» gefuehrt —
+er braucht wie die Standardanlagen alle vier Gesuchsseiten; Holzfeuerung >70 kW ohne den
+AWEL/Lufthygiene-Zusatz, den die >70kW-Zeile im Original zusaetzlich zur Feuerpolizei traegt;
+Abgasanlage fuer Holzfeuerung als eigene Checklisten-Position statt als Beilage der
+Holzfeuerungs-Zeile ausgewiesen). Alle uebrigen Tabellenzeilen, die Verfahrenswege, Seite-4-
+Paragraphenliste und Seite-3/5-Brandschutzangaben ohne Befund bestaetigt.
 
 ## Offene Punkte
 - WP-Systemvergleich (JAZ/COP Luft ↔ Sole ↔ Wasser) braucht eine eigene Fachgrundlage (F6 Restpunkt).

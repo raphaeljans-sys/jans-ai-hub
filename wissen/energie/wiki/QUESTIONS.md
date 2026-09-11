@@ -2,6 +2,23 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## A-BLIND Rang 70 (11.09.2026, Nachtschicht Mac Mini) — zwei Abschreibfehler in der Beilagen-Tabelle des WTA-Formulars
+
+`[[wta-formular-zh-waermetechnische-anlagen]]` am Original neu gelesen (M365-CLI, Site `/sites/PL`,
+Bibliothek `04 Energie/endk.ch/Waermetechnischen Anlagen`). Zwei Befunde in der komprimierten
+Beilagen-Tabelle: (1) **Wärmetauscher für Fernwärmeanschluss** war fälschlich als «reduziertes
+Verfahren» geführt — im Original braucht diese Zeile wie die Standardanlagen alle vier
+Gesuchsseiten (❶❷❸❹); reduziert ist im ganzen Formular einzig **Alleiniger Brenner-Ersatz**
+(nur ❶❷❸). (2) **Holzfeuerung >70 kW** verlangt im Original zusätzlich AWEL/Lufthygiene
+(Fussnote 2, Aktenbeilagen Situationsplan/Kaminhöhen-Schnitt/hydraulisches Schema), was die
+≤70kW-Zeile nicht braucht — die zusammengefasste Tabellenzeile hatte diesen Unterschied nicht
+abgebildet. Dabei auch klargestellt: «Abgasanlage für Holzfeuerung» ist im Original eine eigene
+Checklisten-Position, keine Beilage der Holzfeuerungs-Zeile. Alle übrigen Tabellenzeilen, die
+drei Verfahrenswege, die Seite-4-Paragraphenliste (§11/§11a/§10b EnerG, §16/§23/§26 BBV I) und
+die Brandschutzangaben Seite 3/5 **ohne Befund bestätigt**. Fix in `destillate/…md`, Tabelle +
+neuer Gegenlese-Vermerk, `last_updated` auf 2026-09-11. Nächster A-BLIND-Kandidat: Rang 67
+`[[enfk-fensterblatt]]`.
+
 ## Cross-KB-Eingang aus `wissen/normen` (Normen-Nacht Run 84, 11.09.2026) — SIA 181:2006 Anhang G jetzt primär destilliert
 
 `wissen/normen/destillate/sia-181-2006.md` führt Anhang G, H und J seit heute am Original
@@ -80,8 +97,8 @@ Abschnitt in `[[u-werte-grenzwerte-ch]]`, F2 praezisiert.
   Ordner `U Wert berechnung/` ausserhalb der hier genannten acht Dateien — ein weiterer Folgelauf
   waere nur noch punktuell ergiebig, die Methode selbst gilt als validiert (6 von 7 gepruefte Paare
   ohne Befund, 1 echtes Delta gefunden, Trefferquote konsistent mit der Erstanwendung in Run 190).
-- [ ] **A-BLIND naechster Kandidat:** Rang 70 `[[wta-formular-zh-waermetechnische-anlagen]]`
-  (PL-04-Original, «⚠ seit …»-Vermerk im Datenstand) oder Rang 67 `[[enfk-fensterblatt]]`.
+- [x] **A-BLIND Rang 70:** ✓ 11.09.2026 (Nachtschicht Mac Mini), siehe Abschnitt oben. Naechster
+  Kandidat: Rang 67 `[[enfk-fensterblatt]]`.
 
 ## Run 188 (08.09.2026, Tageslauf) — Pruefwarteschlange gezogen: null echte Fachbefunde, groesste Artefaktklasse behoben
 
