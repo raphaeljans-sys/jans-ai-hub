@@ -12474,3 +12474,24 @@ Monitor-Scan bestaetigt: **0 neue Mails** seit 31.08.2026 00:00 (Verifizierung: 
 3. Nach Eingang Notariat Mathies kontaktieren für Beurkundungstermin
 
 **Fristen.md + Spec-Output aktualisiert.**
+
+---
+
+## 2026-09-11 08:3x Interaktiv (MacBook Revendo, Auftrag Raphael) — 2619 KISPI: L. Bajrami (Jegen) in die Site-Members aufgenommen
+
+**Auftrag:** «kannst du dieser emailadresse den zugang zu den daten auf JANS - 2619-KISPI - Dokumente frei geben» (livdin.bajrami@jegen.ch).
+
+**Befund:** Bajrami konnte den am 10.09. 14:02 geteilten Terminplan nicht öffnen (Mail 11.09. 06:37). Die Datei
+`260902_Realisierungstermine_KISPI.pdf` ist nur über die Site-Gruppen berechtigt; Bajrami war als einziger
+Fachplaner nicht in «JANS - 2619-KISPI Members», sondern nur auf `LOS_291.00 .../02 Plangrundlagen Ausführung`.
+
+**Aktion (Whitelist A6, umkehrbar):** vom Mac Mini per `ssh mini` und M365-CLI (Zertifikat)
+`m365 spo group member add --webUrl https://raphaeljans.sharepoint.com/sites/kispi --groupId 5 --emails livdin.bajrami@jegen.ch`.
+Rückbau: dasselbe mit `remove`. Nachgemessen: effektive Rechte auf dem Web identisch mit L. Hiltmann (Member).
+
+**Nicht angefasst:** R. Grob (Jegen, ebenfalls nur Gast); Tenant-Richtlinie 60-Tage-Gastablauf (Sicherheitseinstellung,
+nicht von A6 gedeckt). Diese Station (MacBook Revendo) hat weder M365-CLI noch Zertifikat, `wege-doctor` meldet 4 Defekte;
+der Weg lief über den Mini.
+
+Register: `logbuch/fristen.md` Nachtrag 11.09. 08:3x · `connectors/WEGE.md` Nachtrag (Members-Gruppe als Soll-Zustand,
+`getuserbyid`, `GetUserEffectivePermissions`).

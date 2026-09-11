@@ -310,6 +310,27 @@ Zuverlaessig ist `--get "/sites?search=KISPI"`.
 Site **vorausschauend** liest, damit die Verlängerung nicht neun Tage vorher per Systemmail
 auffällt. Das Feld `Expiration` leistet das nach Punkt 2 nicht.
 
+**Nachtrag 11.09.2026 (interaktiv, Fall Bajrami/Terminplan) — was per Zertifikat GEHT, und der Soll-Zustand für Fachplaner:**
+
+- **Soll-Zustand für externe Fachplaner auf der KISPI-Site ist die Gruppe «JANS - 2619-KISPI Members» (Id 5).**
+  Gemessen 11.09.2026: Gruner, TeKoSi, JOMOS, RWD Schlatter, Röthlisberger, Estermann, Gastro-Online und die
+  KISPI-Leute sind dort Mitglied; Bajrami (Jegen) war es nicht und hatte nur eine Ordnerfreigabe. Folge: ein
+  «Personen in der Organisation»-Link auf eine Datei, die nur über die Site-Gruppen berechtigt ist, ist für ihn
+  tot. Wer «Zugang zur Bibliothek» braucht, gehört in die Members-Gruppe, nicht auf einen weiteren Ordner-Link.
+- **Gruppenmitgliedschaft setzen geht per Zertifikat:**
+  `"$M365" spo group member add --webUrl "$SITE" --groupId 5 --emails <mail>` (Rückbau: `remove`). Belegt 11.09.2026.
+- **Nachmessen:** `"$SITE/_api/web/GetUserEffectivePermissions(@u)?@u='<LoginName URL-kodiert>'"` liefert die
+  Rechtemaske (High/Low); gegen einen bekannten Member vergleichen. Auf einer Datei:
+  `GetFileByServerRelativePath(decodedurl='…')/ListItemAllFields/GetUserEffectivePermissions(@u)`.
+- **Falle:** `_api/web/siteusers(49)` antwortet **404**; richtig ist `_api/web/getuserbyid(49)`.
+- **Falle:** `graph …/shares/u!<base64-URL>/driveItem` antwortet app-only **404** für Sharing-Links; die Datei
+  stattdessen per `drives/<id>/root/search(q='<name>')` suchen und dann `/items/<id>/permissions` lesen.
+- **Ungeprüfter Kandidat für das Ablaufdatum (Punkt 2 oben):** Microsoft dokumentiert, dass `SPUser.Expiration`
+  per CSOM mit `user.Update()` setzbar ist (learn.microsoft.com/sharepoint/dev/solution-guidance/manage-user-sharing-expiration).
+  Das REST-Gegenstück wäre `POST …/_api/web/getuserbyid(<id>)` mit `X-HTTP-Method: MERGE` und Body
+  `{"Expiration":"<ISO>"}`. **Nicht getestet**, weil das Feld bei allen Gästen leer gemessen ist und unklar bleibt,
+  ob SharePoint es beim Ablauf überhaupt liest. Wer es testet, misst vorher und nachher und trägt das Ergebnis hier ein.
+
 ### Weg 2: Eigener Graph-Connector
 
 `connectors/m365-graph.mjs`, holt den Token selbst aus dem Zertifikat. Unabhängig von
