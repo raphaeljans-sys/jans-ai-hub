@@ -53,6 +53,38 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-11 12:57 — [FREI] **Regellauf ohne neuen Befund. Alle Lern-Loops haben geliefert, kein Delta-Null-Loop. Rückstand wächst auf -32.3 Punkte; P1 (Zufluss `architektur-fachwissen`) unverändert, jetzt 7.6 Tage.**
+
+**Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **6 s** (fünfter Lauf in Folge
+einstellig, Symlink unverändert auf 2.1.236, Caskroom nur diese Fassung). Kontingent **25.4 %** von
+167 Mio bei **57.7 %** verstrichener Woche, Vorsprung **-32.3 Punkte** (MacBook 31.10, Mini 11.37 Mio;
+beide Stationsdateien frisch). Ampel FREI, keine Drossel. Keine Waisen (`claude -p` auf beiden
+Stationen leer), Speicherdruck 1, rund 4.7 GB frei+inaktiv+purgeable (vm_stat).
+
+**Liefer-Delta seit 11.09. 00:50 (über git, 29 Dateien ohne CHANGELOG/INDEX):** normen 12 (Run 84,
+26 Destillate Textlayer-Klasse, SIA 181:2006 Anhang G/H/J), twin 11 (Batch 119, Fidelity 11.09.),
+energie 4 (A-BLIND Rang 70, Cross-KB-Bringschuld aus normen erledigt), je 1 projekt-lessons, spec.
+Beide Nachtschicht-Dispatches des Mini (02:41, 05:37) rc=0. Operative Briefings alle gelaufen
+(logbuch-radar, hub-chef mit gesendetem Briefing, mahnwesen, zahlungsabgleich, ag-gruendung,
+heartbeat, fruehwarnung, konversations-log).
+
+**Feuermechanismen im Sollstand.** `vollgas-*`-plists tragen `.disabled-260729` und sind auf keiner
+Station geladen, `ch.jans.nachtschicht` auf dem Mini geladen, keine Doppelfeuerung. Mini-Registry
+neun Tasks (unverändert), lokale Registry ohne Abweichung.
+
+**Selbstkontrolle bestanden.** Letzter Eintrag 11.09. 00:57, dieser Lauf 12:57, also 12 h bei 12 h
+Takt und 15 h Toleranz. `lastRunAt` der eigenen Task (10:57Z = 12:57 CEST) deckt sich mit diesem Lauf.
+
+**P1 (unverändert):** Zufluss `wissen/architektur-fachwissen/` offen, letzte Änderung 03.09. 23:30,
+jetzt 7.6 Tage. Vorlage an Raphael im Eintrag 10.09. 00:57, Wege (a) bis (c); der Radar handelt
+nicht selbst. Keine Mail (kein Sendegrund nach 260803).
+**P2:** Rückstand -32.3 Punkte (Vorlauf -28.6), rund ein Drittel des Wochenbudgets bleibt bei
+gleichmässigem Verbrauch voraussichtlich ungenutzt; weiteres Argument für eine Entscheidung zu P1.
+**P3:** Commit `1b5bef55b` richtet eine «station-03» ein. Der Radar prüft Feuermechanismen bisher
+nur auf MacBook und Mini; ob die neue Station launchd-Jobs oder eine eigene Task-Registry trägt,
+ist ungeprüft. Aufnahme in Schritt 3, sobald sie im Setup-Konnektor steht. Daneben weiter offen:
+Sollstand-Liste der Mini-Registry in der Task-Beschreibung (acht → neun).
+
 ## 2026-09-11 00:57 — [FREI] **Regellauf ohne neuen Befund. Zehn KBs haben geliefert, kein Delta-Null-Loop. Der Kontingent-Rückstand wächst auf -28.6 Punkte; P1 (Zufluss `architektur-fachwissen`) unverändert, jetzt 7.1 Tage.**
 
 **Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **7 s** (vierter Lauf in Folge
