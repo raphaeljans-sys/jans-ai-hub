@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.09.2026 08:59:10
+Stand: 11.09.2026 09:09:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 08:59:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1b5bef55b station-03: M365-CLI/Zertifikat/.env/venvs wie andere Stationen; Chronik 260911, Setup-Konnektor, Fristen-Restpunkte
+- 10b22cb2e nas-selfcommit: 2 Datei(en) 2026-09-11 09:00
