@@ -1763,7 +1763,7 @@ abgesicherten NAS-Arbeitsverzeichnis (SYN-67), Umfang vor und nach **jedem** Sch
 (SYN-81/82) → mit Fussnote, `logbuch/fristen.md` 5441 → 5441 (Nachtrag) → 5443 (neuer Befund);
 **in keiner Datei eine entfernte Zeile.** Nicht per `git` ueber SMB gemessen.
 
-Lauf 34: 11.09.2026 17:10-17:4x (Tagestakt, Delta-Basis 10.09.2026 17:10, Fenster 24,0 h,
+Lauf 34: 11.09.2026 17:10-17:2x (Tagestakt, Delta-Basis 10.09.2026 17:10, Fenster 24,0 h,
 117 Commits). Uhr gegen die native Synology-Uhr geprueft: Station 17:10 CEST, letzter
 selfcommit-Eintrag 17:00:07 — keine Abweichung. Delta nativ im SSD-Klon gemessen (nach
 `git pull --ff-only`), **nicht** per `git` ueber den SMB-Mount; Anschlussprobe lueckenlos
