@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 2026-09-11 (Nachtschicht Mac Mini) — Cross-KB-Bringschuld aus `normen` Run 84 erledigt: Anhang G/H/J primärbelegt
+
+Bearbeitet der am 11.09.2026 von `normen` (Run 84, Anlass WC57-N2/KISPI PL57-1) eingetragene
+Cross-KB-Hinweis (`wiki/QUESTIONS.md`, oberster Abschnitt): das Primärdestillat
+`wissen/normen/destillate/sia-181-2006.md` führt Anhang G/H/J seit Run 84 am Original,
+verifiziert durch einen unabhängigen Refuter-Agenten. Die acht Zeilen und L_H-Werte in
+`destillate/sia-181-schallschutz-anforderungswerte.md` stimmten bereits überein; ergänzt wurden
+drei dort fehlende Präzisierungen mit Healthcare-Relevanz: (1) die Tabellenwerte gelten ohne
+Einfluss der Türen und offener Treppen (Fussnote 1 zu Tab. 15); (2) Türen sind separat über das
+Labor-R_w festzulegen (G.1); (3) die Komfortstufen 1/2 der Empfehlung sind nicht dasselbe wie
+«Mindest-»/«erhöhte Anforderung» der Norm. Dazu eine Praxisfolge für Spital-/Heim-Korridore
+(Planlegende an Türen ist ein Elementwert R_w, nicht der D_i-Wert der Trennwand). Quellenabschnitt
+umformuliert: Anhang G/H/J gilt jetzt als primärbelegt durch die KB `normen`, der normative
+Hauptteil (Ziff. 2.2 ff.) bleibt vorerst auf der Büro-Zusammenfassung stehen, gesondert
+ausgewiesen. `last_updated` auf 2026-09-11 gesetzt, `wiki/QUESTIONS.md` mit ✓ geschlossen.
+Kein neues Rohmaterial gelesen, keine M365-Anbindung nötig (Session-Konnektor `microsoft-365`
+war diese Nacht ohnehin nicht verbunden) — reiner Cross-KB-Transfer aus bereits verifiziertem
+Bestand.
+
 ## 2026-09-10 (Nachtschicht Mac Mini) — E-R190-2 fortgesetzt: sechs Cross-KB-Diffs gegen `planungsgrundlagen`, ein Delta gefunden
 
 Fortsetzung des in Run 190 vorgeschlagenen A-BLIND-Folgeauftrags (`wiki/QUESTIONS.md` E-R190-2):

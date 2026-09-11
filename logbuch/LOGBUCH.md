@@ -12351,3 +12351,36 @@ Geaendert: `wissen/energie/{wiki/QUESTIONS.md,CHANGELOG.md}`,
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 0.7 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-11 02:3x Nachtschicht Mac Mini — energie: Cross-KB-Bringschuld aus `normen` Run 84 erledigt
+
+Prioritaets-Check: remote-tasks/pending und sync-tasks/mac-mini leer. Synobsis Stufe 2/3 laut
+eigenem Status seit 15.08.2026 erledigt (853/853, kein neues Rohmaterial seit 19.07.2026) —
+kein gueltiges Ziel. Fristen-/Pendenzen-Register bereits dicht von logbuch-radar/hub-chef
+bearbeitet (letzte Eintraege 09./10.09.), kein neuer Bearbeitungsbedarf ohne Doppelarbeit.
+Freie Trainings-KB `bauprodukte` traegt seit 15.08.2026 einen Stillgelegt-Statuskopf (erledigt,
+kein gueltiges Ziel mehr); `energie` bleibt einziges freies Ziel und hatte in
+`wiki/QUESTIONS.md` noch den am 11.09.2026 von `normen` Run 84 eingetragenen Cross-KB-Hinweis
+offen (Bringschuld gemaess Rule `wissens-bibliothekar`, Abschnitt Cross-KB-Bringschuld).
+
+Der `normen`-Loop hatte Anhang G/H/J von SIA 181:2006 primaer am Original destilliert und
+verifiziert (Run 84) und festgestellt, dass die energie-eigene Tabelle zwar zahlenmaessig
+stimmt, aber drei Praezisierungen fehlen: (1) Tabellenwerte gelten ohne Tuereinfluss
+(Fussnote 1 zu Tab. 15), (2) Tueren separat ueber Labor-R_w (G.1), (3) die Komfortstufen 1/2
+sind nicht dasselbe wie «Mindest-»/«erhoehte Anforderung». Alle drei als Zitatblock in
+`destillate/sia-181-schallschutz-anforderungswerte.md` ergaenzt, dazu eine Praxisfolge fuers
+Spital-/Heim-Beispiel (Planlegende an Tuer = Elementwert R_w, nicht der D_i-Wert der Trennwand).
+Quellenabschnitt umformuliert: Anhang G/H/J jetzt primaerbelegt durch `wissen/normen`, der
+normative Hauptteil bleibt gesondert ausgewiesen auf der Buero-Zusammenfassung. `wiki/
+QUESTIONS.md` mit ✓ geschlossen, `last_updated` auf 2026-09-11.
+
+M365-Connector diese Session nicht verbunden (CONNECTION_CLOSED) — ein A-BLIND-Original-Lauf
+(naechster Kandidat waere Rang 70 `wta-formular-zh-waermetechnische-anlagen`) war damit nicht
+moeglich; darum bewusst ein Cross-KB-Transfer aus bereits verifiziertem Bestand statt eines
+Leerlauf-Versuchs.
+
+Geaendert: `wissen/energie/{destillate/sia-181-schallschutz-anforderungswerte.md,wiki/QUESTIONS.md,CHANGELOG.md}`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 2.4 von 5 USD. Zyklus sauber beendet.

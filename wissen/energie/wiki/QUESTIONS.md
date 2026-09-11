@@ -13,6 +13,14 @@ gleich «erhöhte Anforderungen». Vorschlag: bei nächster Pflege des Abschnitt
 INNERHALB einer Nutzungseinheit» diese drei Punkte mit Verweis auf das Primärdestillat ergänzen
 und die Quelle von «Büro-Zusammenfassung» auf Primärbeleg heben. Nicht von `normen` aus editiert.
 
+✓ **11.09.2026 (Nachtschicht Mac Mini) umgesetzt.** Alle drei Punkte als Zitatblock in
+`destillate/sia-181-schallschutz-anforderungswerte.md` unter «Empfehlungen INNERHALB einer
+Nutzungseinheit» ergänzt (Fussnote 1 zu Tab. 15, G.1 Türen über Labor-R_w, Stufe 1/2 ≠ erhöhte
+Anforderungen), Praxisfolge fürs Spital-/Heim-Beispiel ergänzt. Quellenabschnitt umformuliert:
+Anhang G/H/J gilt jetzt als primärbelegt durch `wissen/normen/destillate/sia-181-2006.md`
+(Run 84), der normative Hauptteil (Ziff. 2.2 ff.) bleibt auf der Büro-Zusammenfassung stehen und
+ist das weiterhin gesondert ausgewiesen. `last_updated` auf 2026-09-11 gesetzt.
+
 ## Run 190 (10.09.2026, Tageslauf) — A-BLIND Rang 75 am Original: vier Abschreibfehler, einer davon Healthcare-relevant
 
 **Werkzeug zuerst:** E-R188-1 geschlossen (siehe dort). Pruefschritt 1 zeigt fuer `energie` jetzt
