@@ -64,15 +64,64 @@ BESTAND=$(awk -F'\t' '
     ' "$MAP" | sort)
 BGESAMT=$(printf '%s\n' "$BESTAND" | awk -F'\t' '{s+=$2} END{print s+0}')
 
-# --- 2. Laeufe einlesen: datum, loop, rc, sekunden, ergebnistext ------------
+# --- 2. Laeufe einlesen: datum, loop, rc, sekunden, ergebnistext, kosten ----
+# ZWEI Quellen, zusammengefuehrt (Umstellung 11.09.2026):
+#   (a) Runner-Logs logbuch/vollgas/<Station>.log — der vollgas-runner schrieb
+#       seit dem 27.07.2026 keine Zeile mehr; ab dem 26.08. lag er ganz ausserhalb
+#       jedes 30-Tage-Fensters, und die Bilanz meldete "keine Daten", waehrend die
+#       Loops laut Radar laengst lieferten. Bleibt fuer die Historie drin.
+#   (b) Lauf-Journal logbuch/laeufe/*.jsonl aus scripts/claude-run.sh bzw.
+#       vollgas-schub.sh — die Hauptquelle, sobald die produktiven Loops dort
+#       schreiben (Bedingung vom 31.07., am 11.09. mit 2'508 Laeufen erfuellt).
+#       Traegt zusaetzlich die KOSTEN je Lauf.
+# Keine Ueberlappung: die Runner-Logs enden am 27.07., das Journal beginnt am
+# 29.07. Wer eine neue Quelle anhaengt, prueft das erneut — sonst zaehlt ein Lauf
+# doppelt.
 cat "$LOGDIR"/*.log 2>/dev/null | sed -nE \
-    's/^([0-9]{4}-[0-9]{2}-[0-9]{2}) [0-9:]+ \[[A-Za-z]+\] ENDE +([a-z0-9-]+) \(rc=([0-9-]+), ([0-9]+)s\):? ?(.*)$/\1\t\2\t\3\t\4\t\5/p' \
+    's/^([0-9]{4}-[0-9]{2}-[0-9]{2}) [0-9:]+ \[[A-Za-z]+\] ENDE +([a-z0-9-]+) \(rc=([0-9-]+), ([0-9]+)s\):? ?(.*)$/\1\t\2\t\3\t\4\t\5\t/p' \
     | awk -F'\t' -v seit="$SEIT" '$1 >= seit' > "$TMP/laeufe"
+J_IM_FENSTER=0
+if ls "$HUB"/logbuch/laeufe/*.jsonl >/dev/null 2>&1; then
+    cat "$HUB"/logbuch/laeufe/*.jsonl 2>/dev/null | python3 -c '
+import json, sys
+seit = sys.argv[1]
+for zeile in sys.stdin:
+    try:
+        d = json.loads(zeile)
+    except Exception:
+        continue
+    if "rc" not in d:          # die zwei verschachtelten Testzeilen vom 29.07.
+        continue
+    datum = str(d.get("ts", ""))[:10]
+    if datum < seit:
+        continue
+    rc = d.get("rc", 1)
+    if d.get("is_error") and rc == 0:
+        rc = 1                 # SDK meldet Fehler trotz rc=0: nicht als Arbeit zaehlen
+    text = str(d.get("result_tail", "")).replace("\t", " ").replace("\n", " ")
+    kosten = d.get("cost_usd") or 0
+    print("%s\t%s\t%s\t%d\t%s\t%.4f" % (datum, d.get("loop", "unbenannt"), rc,
+          int(d.get("wall_s") or 0), text, float(kosten)))
+' "$SEIT" >> "$TMP/laeufe"
+    J_IM_FENSTER=$(awk -F'\t' '$6 != ""' "$TMP/laeufe" | wc -l | tr -d ' ')
+fi
 
 # Lauf-Klasse und Delta-Null-Marker je Lauf bestimmen.
 # Delta Null erkennt der Lauf selbst: er sagt im Ergebnistext, dass es nichts
 # Neues gab. Das ist ein schwaecheres Signal als das Liefer-Delta unten, aber es
 # ist da, wo kein Zielpfad hinterlegt ist, das einzige verfuegbare.
+# Nummerierte Serienlaeufe (mschub543, vollschub410, rev88 …) sind EIN Vorgang,
+# nicht 1'300 Loops. Steht der Name nicht im Register, wird die Endziffer durch
+# "#" ersetzt; das Register fuehrt die Serie dann als "mschub#". Ohne diese
+# Zusammenfassung stand am 11.09.2026 44 % der produktiven Zeit als
+# "unzugeordnet" und die Ertragstabelle haette ueber tausend Zeilen gezaehlt.
+awk -F'\t' '
+    NR == FNR { if ($0 !~ /^#/ && NF >= 3) reg[$1] = 1; next }
+    {
+        if (!($2 in reg) && $2 ~ /[0-9]+$/) { s = $2; sub(/[0-9]+$/, "#", s); if (s in reg) $2 = s }
+        print
+    }' OFS='\t' "$MAP" "$TMP/laeufe" > "$TMP/laeufe.norm" && mv "$TMP/laeufe.norm" "$TMP/laeufe"
+
 awk -F'\t' '{
         rc = $3 + 0
         if (rc == 0)       klasse = "geliefert"
@@ -84,7 +133,7 @@ awk -F'\t' '{
             || t ~ /delta[ -]?null/ || t ~ /bereits vollst/ || t ~ /bereits abgedeckt/ \
             || t ~ /unver.ndert/ || t ~ /keine neuen/ || t ~ /kein neuer/ \
             || t ~ /kein diff/ || t ~ /entf.llt, da keine/) leer = 1
-        printf "%s\t%s\t%s\t%s\t%d\n", $1, $2, klasse, $4, leer
+        printf "%s\t%s\t%s\t%s\t%d\t%s\n", $1, $2, klasse, $4, leer, ($6 == "" ? 0 : $6)
     }' "$TMP/laeufe" > "$TMP/klassiert"
 
 # --- 2b. Frische der Datenquelle -------------------------------------------
@@ -123,7 +172,7 @@ else
 fi
 
 # --- 3. Lauf-Qualitaet insgesamt -------------------------------------------
-QUAL=$(awk -F'\t' '{n[$3]++; s[$3]+=$4} END {for (k in n) printf "%s\t%d\t%d\n", k, n[k], s[k]}' "$TMP/klassiert")
+QUAL=$(awk -F'\t' '{n[$3]++; s[$3]+=$4; c[$3]+=$6} END {for (k in n) printf "%s\t%d\t%d\t%.2f\n", k, n[k], s[k], c[k]}' "$TMP/klassiert")
 GES_N=$(awk -F'\t' '{s+=$2} END{print s+0}' <<<"$QUAL")
 GES_S=$(awk -F'\t' '{s+=$3} END{print s+0}' <<<"$QUAL")
 PROD_S=$(awk -F'\t' '$1=="geliefert"{print $3+0}' <<<"$QUAL"); PROD_S=${PROD_S:-0}
@@ -153,9 +202,9 @@ ROLLENZEIT=$(awk -F'\t' '
     NR == FNR { if ($0 !~ /^#/ && NF >= 3 && $3 != "-") rolle[$1] = $3; next }
     $3 == "geliefert" {
         r = (($2 in rolle) ? rolle[$2] : "unzugeordnet")
-        sek[r] += $4; n[r]++; if ($5 == 1) leer[r]++
+        sek[r] += $4; n[r]++; if ($5 == 1) leer[r]++; kost[r] += $6
     }
-    END { for (r in sek) printf "%s\t%d\t%d\t%d\n", r, sek[r], n[r], leer[r]+0 }
+    END { for (r in sek) printf "%s\t%d\t%d\t%d\t%.2f\n", r, sek[r], n[r], leer[r]+0, kost[r] }
     ' "$MAP" "$TMP/klassiert" | sort)
 
 # --- 6. Report --------------------------------------------------------------
@@ -169,7 +218,7 @@ Taxonomie: docs/konzepte/260729-Rollen-Taxonomie/
 
 ## 0. Aktualität der Datenquelle
 
-**Stand der Quelle (Runner-Logs): $FRISCHE**
+**Stand der Quellen (Runner-Logs + Lauf-Journal): $FRISCHE**
 
 Diese Zeile steht vor allen Zahlen, weil eine Bilanz mit versiegter Quelle
 weiterhin plausible Werte liefert und nur nicht mehr die Gegenwart beschreibt.
@@ -179,24 +228,25 @@ kein Betriebszustand.
 Zweite Quelle, Lauf-Journal (\`logbuch/laeufe/\`): $J_N Einträge, jüngste Datei
 $J_JUENGST. Erfasste Loops: $J_LOOPS
 
-Das Journal aus \`scripts/claude-run.sh\` trägt rc, Laufzeit und Kosten je Lauf
-und wäre die bessere Grundlage. Es wird hier bewusst NICHT in die Rollenzahlen
-gemischt, solange dort nur Test- und Dispatch-Läufe stehen: eine Quelle, die
-etwas anderes zählt als sie vorgibt, ist schlimmer als eine fehlende. Sobald die
-produktiven Loops über \`claude-run.sh\` laufen, wird sie zur Hauptquelle.
+Davon im Messfenster: $J_IM_FENSTER Läufe. Seit dem 11.09.2026 ist das Journal die
+**Hauptquelle** der Bilanz: die Bedingung vom 31.07. (produktive Loops schreiben
+dort, nicht nur Tests) ist mit den Schub-Lanes erfüllt. Die Runner-Logs bleiben
+für die Historie eingelesen; sie enden am 27.07., das Journal beginnt am 29.07.,
+es zählt also kein Lauf doppelt. Das Journal trägt zusätzlich die **Kosten** je
+Lauf (USD, Selbstauskunft des SDK).
 
 ## 1. Lauf-Qualität — was von den Läufen überhaupt Arbeit war
 
 Diese Sektion steht bewusst zuoberst. Ohne sie liest man Betriebsstörungen als
 Auslastung.
 
-| Klasse | Läufe | Stunden | Anteil Zeit | Ø Dauer |
-|---|---|---|---|---|
+| Klasse | Läufe | Stunden | Anteil Zeit | Ø Dauer | Kosten USD |
+|---|---|---|---|---|---|
 HEAD
 
 printf '%s\n' "$QUAL" | sort | awk -F'\t' -v g="$GES_S" '
-    {printf "| %s | %d | %.1f | %.0f %% | %.0f s |\n", $1, $2, $3/3600, (g>0?100*$3/g:0), ($2>0?$3/$2:0)}'
-printf '| **Total** | **%d** | **%.1f** | | |\n' "$GES_N" "$(awk "BEGIN{print $GES_S/3600}")"
+    {printf "| %s | %d | %.1f | %.0f %% | %.0f s | %.0f |\n", $1, $2, $3/3600, (g>0?100*$3/g:0), ($2>0?$3/$2:0), $4}'
+printf '| **Total** | **%d** | **%.1f** | | | **%.0f** |\n' "$GES_N" "$(awk "BEGIN{print $GES_S/3600}")" "$(awk -F'\t' '{s+=$4} END{print s+0}' <<<"$QUAL")"
 
 cat <<MID
 
@@ -225,12 +275,12 @@ cat <<MID2
 Nur gelieferte Läufe ($PROD_N Läufe, $(awk "BEGIN{printf \"%.1f\", $PROD_S/3600}") Stunden).
 Die Spalte "Delta Null" zählt Läufe, die selbst melden, dass es nichts Neues gab.
 
-| Rolle | Stunden | Läufe | davon Delta Null | Anteil Zeit |
-|---|---|---|---|---|
+| Rolle | Stunden | Läufe | davon Delta Null | Anteil Zeit | Kosten USD |
+|---|---|---|---|---|---|
 MID2
 
 printf '%s\n' "$ROLLENZEIT" | awk -F'\t' -v g="$PROD_S" '
-    {printf "| %s | %.1f | %d | %d | %.0f %% |\n", $1, $2/3600, $3, $4, (g>0?100*$2/g:0)}'
+    {printf "| %s | %.1f | %d | %d | %.0f %% | %.0f |\n", $1, $2/3600, $3, $4, (g>0?100*$2/g:0), $5}'
 
 WAND=$(( TAGE * 24 * 2 ))
 cat <<MID3
@@ -313,7 +363,7 @@ if [ "$FRISCHE_ALT" -gt 1 ]; then
     echo
 fi
 printf '%s\n' "$QUAL" | sort | awk -F'\t' -v g="$GES_S" '
-    {printf "  %-11s %6d Laeufe  %6.1f h  %3.0f %% der Zeit\n", $1, $2, $3/3600, (g>0?100*$3/g:0)}'
+    {printf "  %-11s %6d Laeufe  %6.1f h  %3.0f %% der Zeit  USD %.0f\n", $1, $2, $3/3600, (g>0?100*$3/g:0), $4}'
 echo
 printf '%s\n' "$ROLLENZEIT" | awk -F'\t' -v g="$PROD_S" '
-    {printf "  %-14s %6.1f h produktiv  %3.0f %%  (%d Laeufe, %d Delta Null)\n", $1, $2/3600, (g>0?100*$2/g:0), $3, $4}'
+    {printf "  %-14s %6.1f h produktiv  %3.0f %%  (%d Laeufe, %d Delta Null, USD %.0f)\n", $1, $2/3600, (g>0?100*$2/g:0), $3, $4, $5}'

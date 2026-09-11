@@ -264,10 +264,13 @@ Task `wissenscheck-monatlich`.
 
 Jeder Baustein (Skill, Agent, Loop) traegt eine der fuenf Rollen prototyper ·
 builder · sweeper · grower · maintainer im Register `logbuch/rollen/rollen-map.tsv`
-(kanonisch, von Hand gepflegt). Messung via `/rollen` bzw. `scripts/rollen-bilanz.sh`,
-`scripts/nutzungs-radar.sh`, `scripts/schutzmechanik-selbsttest.sh` — alle drei nur auf
-Zuruf, keine Automatik (Befund methoden-radar 13.08.2026; der Selbsttest hing nie im
-heartbeat). Regeln: Rule `rollen-taxonomie`. Konzept + Zielbaender:
+(kanonisch, von Hand gepflegt). Messung via `/rollen`: `scripts/rollen-bilanz.sh`
+(Quelle seit 11.09.2026 das Lauf-Journal `logbuch/laeufe/`, mit Kosten je Rolle) und
+`scripts/nutzungs-radar.sh` laufen **nur auf Zuruf**; `scripts/schutzmechanik-selbsttest.sh`
+laeuft **taeglich im heartbeat** (seit 31.07.2026, Commit `0b91a8a95`; live nachgemessen
+11.09.2026 — der hier bis dahin stehende Vermerk «hing nie im heartbeat», Befund
+methoden-radar 13.08., traf nicht zu). Durchlaufzeit/Wartezeit: `scripts/vorgaenge-bilanz.sh`
+→ `logbuch/vorgaenge/`. Regeln: Rule `rollen-taxonomie`. Konzept + Zielbaender:
 `docs/konzepte/260729-Rollen-Taxonomie/`.
 
 ## Wichtige Regeln

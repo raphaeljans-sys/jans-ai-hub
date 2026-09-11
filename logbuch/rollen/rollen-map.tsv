@@ -138,3 +138,27 @@ vorgaenge-bilanz	script	grower	Misst Durchlaufzeit und Wartezeit aus logbuch/fri
 tiefenrecherche	command	builder	Orchestriert parallele recherche-Agenten zu einem belegten Recherchebericht	anlassgebunden	commands/tiefenrecherche.md
 speicher-hygiene-quartal	loop	maintainer	Quartals-Putz Speicher-Hygiene MacBook Pro: brew cleanup + Top-10-Mess-Report ins Logbuch, loescht sonst nichts	aktiv	~/.claude/scheduled-tasks/speicher-hygiene-quartal
 bauleitung-training	loop	sweeper	Woechentliches Audit je eines Bauleitungs-Skills gegen das Bauadministrations-Raster (wissensbasis/14), schliesst umkehrbare Luecken, fuehrt Register 15; angelegt 07.09.2026 nach bbase.ch-Scan	aktiv	~/.claude/scheduled-tasks/bauleitung-training
+#
+# ---- SCHUB-LANES UND KANAELE (Lauf-Journal logbuch/laeufe/, nachgetragen 11.09.2026) ----
+# Standen im Journal mit 1'100 Laeufen, aber nicht im Register — die Rollen-Bilanz
+# haette sie beim Umstieg auf das Journal komplett unter «unzugeordnet» gefuehrt.
+schub-synobsis	loop	prototyper	Schub-Lane KB architekten-synobsis (vollgas-schub.sh, Mac Mini); KB saturiert, Leerlauf-Beleg Rule auto-verbesserungen 260830 (344 Runden fuer 2 Dateien)	aktiv	wissen/architekten-synobsis
+schub-fachwissen	loop	prototyper	Schub-Lane KB architektur-fachwissen; destilliert neues Wissen aus den Korpora buero-referenzen/archiv-fachwissen	aktiv	wissen/architektur-fachwissen
+schub-normen-pruefstand	loop	sweeper	Schub-Lane Pruefstand normen: prueft bestehende established-Destillate auf Vollstaendigkeit, erzeugt kein neues Wissen, schaerft den Bestand	aktiv	wissen/normen
+schub-baurecht-thalwil	loop	builder	Schub-Lane projektbezogene Baurechtsgrundlage 2414 Thalwil	aktiv	wissen/baurecht
+schub-grobkosten	loop	prototyper	Schub-Lane Kennwerte KB grobkosten	aktiv	wissen/grobkosten
+dispatch-versuch1	loop	builder	Kanal, nicht Rolle: fuehrt Raphaels Handy-Auftraege via dispatch-run.sh aus. Vorlaeufig builder, weil die Mehrheit Ausfuehrung ist; bei Bedarf nach Auftragsinhalt aufteilen	aktiv
+#
+# ---- KAMPAGNEN UND EINZELLAEUFE (nummerierte Serien, "#" = beliebige Endziffer) ----
+# Die Rollen-Bilanz fasst unregistrierte Namen mit Endziffer zur Serie "<praefix>#"
+# zusammen. Rollen nach Inhalt bestimmt (Stichprobe der Ergebnistexte 11.09.2026).
+mschub#	loop	sweeper	Kampagne 23./24.08.2026 (Mac Mini, 667 Laeufe, 35 h, USD 837): wo der Ergebnistext klassifizierbar ist, 165 pruefend gegen 16 erzeugend — ueberwiegend Verifikation/Corrigenda/Nachtraege	erledigt
+rev#	loop	sweeper	Review-Kampagne 24.08.2026 (115 Laeufe), u.a. twin-fidelity	erledigt
+vollschub#	loop	prototyper	Vollgas-Kampagne 23.08.2026 (564 Laeufe, Ø 6 s, USD 11): Inhalt nicht bestimmbar, 562 von 564 Ergebnistexten ohne Marker — faktisch Leerlauf; Rolle als Default der Wissenskampagnen, wirkt unter 1 % der Zeit	erledigt
+bschub#	loop	maintainer	Kampagne 23.08.2026 (3 Laeufe): Connector-Pflege geo-zh.mjs und Kartenportale	erledigt
+baurecht-fragen	loop	sweeper	Einzellauf 23.08.2026: offene QUESTIONS der KB baurecht abgearbeitet	erledigt	wissen/baurecht
+energie-fragen	loop	sweeper	Einzellauf 23.08.2026: offene QUESTIONS der KB energie abgearbeitet	erledigt	wissen/energie
+planungsgrundlagen-fragen	loop	sweeper	Einzellauf 23.08.2026: offene QUESTIONS der KB planungsgrundlagen abgearbeitet	erledigt	wissen/planungsgrundlagen
+sia-sweep	loop	sweeper	Einzellauf: Sweep ueber den SIA-Bestand	erledigt	wissen/normen
+normen-training-vollgas	loop	prototyper	Einzellauf 17.08.2026 im Vollgas-Modus	erledigt	wissen/normen
+energie-training-vollgas	loop	prototyper	Einzellaeufe im Vollgas-Modus	erledigt	wissen/energie
