@@ -2,6 +2,61 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 191 (11.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 59: Bauherrenvorgaben der öffentlichen Hand als Recht geführt
+
+`[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (11 Backlinks, `established` seit Run 88, nie
+am Original gegengelesen) gegen fünf Originale gelesen: EN-102 Ausgabe Januar 2020 Kap. 8 (inkl.
+Abb. 2/3 als Bild), § 3 WDV Kt. ZH, Stadt-ZH-Wegleitung V1.3 (Okt. 2023), HBA-Richtlinie V5.1,
+EnDK-Vergleichsdokument MuKEn 2014 ↔ 2025; dazu SIA 180:2014 S. 42/43 am Normoriginal (SharePoint
+PL-02 per M365-CLI). **Fünf Befunde, alle berichtigt:**
+
+1. **P2 — Simulationspflicht falsch adressiert.** «Verfahren 1 und 2 lassen keine aktive Kühlung
+   (inkl. Geocooling) zu», «Verfahren 3 zwingend bei Kältemaschine/Ventilatoren» und die 100/400 h
+   standen als allgemeine Regel. Sie stammen aus der Wegleitung der Stadt Zürich, die nach Ziff. 1.1
+   nur für Vorhaben des städtischen Amts für Hochbauten gilt. Energierechtlich (§ 3 WDV, EN-102 8.4)
+   verlangt eine Kältemaschine g-Wert + automatische Steuerung + Windfestigkeit; Verfahren 3 erst,
+   wenn diese Vereinfachung nicht aufgeht. Bauherren-relevant: die Aussage stand in F88 und F145 und
+   im Themenartikel und hätte private Bauherren zu einer unnötigen Simulation geführt.
+2. **P3 — Rechtsgrundlage fehlte.** § 3 WDV (in Kraft 1.9.2022) war nirgends als Grundlage des
+   sommerlichen Wärmeschutzes genannt; der Themenartikel zitierte «Gesetz (EnFK EN-2)», die
+   Vollzugshilfe zur MuKEn 2008. Nachgetragen (auch F11).
+3. **P3 — «MuKEn 2025 erstmals eigener Artikel» widerlegt.** MuKEn 2014 Art. 1.8 enthält denselben
+   Artikel. Neu 2025 sind die Ausnahme für reversible Wärmepumpen in Wohnräumen und der Zusatz
+   «Behaglichkeit gewährleistet» in der Befreiung. Berichtigt in Destillat, Artikel, F145, INDEX.
+4. **P4 — Quellen vermischt.** Der Block «Berechnungsbasis (Stadt ZH)» enthielt RCP-2.6-Datensätze
+   und «Wohnbauten 400 h (SIA 382/1)» aus der **HBA**-Richtlinie; die Stadt verwendet RCP 8.5 und
+   bezieht 400 h auf Teilinstandsetzungen. Getrennt.
+5. **P4 — Unvollständig.** Verfahren-1-Liste ohne das Glasanteil-Kriterium; V2-Dachwert ist U24, nicht
+   U; «Faktor 4-5 aussen/innen» gilt nur für Wärmeschutzglas (Normalglas ≈ 3). Ergänzt (auch
+   `[[fenster-uw-g-wert-zielkonflikt]]`).
+
+**Geschlossen:** der seit 16.07.2026 offene Punkt **SIA 180 Figur 13** (Oberlichter). Die Formel
+steht in **Ziff. 5.2.4.7: g ≤ min [0,025/f_g; 1,00]** im hauseigenen Normoriginal; Run 104 hatte
+Vollzugshilfen, Korrigenda und die kostenpflichtige SIA 4001 durchsucht, das Original nicht. →
+übergeben an `wissen/normen` (Ziff. 5.2.4.6-5.2.4.8 in `destillate/sia-180-2014.md` nachgetragen,
+CHANGELOG dort). Ebenfalls geschlossen: die zwei stale ⚠-Vermerke «Audit 03.15 offener
+Abgleichspunkt» in F88/F145 (03.15 ist seit 24.08.2026 erledigt).
+
+**Verdichtung:** F293 neu (Klimaanlage → Simulation?), F294 neu (Oberlichter), F88/F145/F11 berichtigt.
+
+**Lehre:** Eine Richtlinie der öffentlichen Hand sagt in ihrem Geltungsbereich, **für wen** sie gilt.
+AHB-/HBA-Dokumente sind Bauherrenvorgaben für eigene Bauten; wer sie ohne diesen Satz destilliert,
+macht aus einer Vertragsbedingung ein Gesetz. Gleiche Familie wie die sechste Prüfung («den
+Geltungsbereich mitlesen, nicht nur die Zahlen»), hier auf den Adressaten statt auf die Ausgabe
+bezogen. In `training/PROGRAMM.md` ergänzt.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R191-1 (P3, Methode): Adressaten-Prüfung über alle AHB-/HBA-Destillate.** Die KB führt
+  mindestens `[[ahb-merkblatt-386-storensteuerung-2017]]`, `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`,
+  `[[ahb-zuerich-gt-rl9-gebaeudeautomation]]`, `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`
+  und weitere Stadt-ZH-Vorgaben. Je Destillat und je zitierende FAQ prüfen, ob eine AHB-/HBA-Vorgabe
+  als Pflicht für private Bauherren formuliert ist. Billig per grep auf «AHB»/«HBA» neben «muss»,
+  «Pflicht», «zwingend».
+- [ ] **E-R191-2 (P4, Cross-KB-Hinweis): `wissen/normen/wiki/QUESTIONS.md` zeigt 4 tote Wikilinks**
+  (Ziele `din-1961-2012`, `sia-180`, `sia-2024`, `wikilink`, hier bewusst ohne Link-Klammern zitiert), vorbestehend, nicht aus
+  diesem Lauf. Nur gemeldet, nicht dort editiert.
+
 ## A-BLIND Rang 70 (11.09.2026, Nachtschicht Mac Mini) — zwei Abschreibfehler in der Beilagen-Tabelle des WTA-Formulars
 
 `[[wta-formular-zh-waermetechnische-anlagen]]` am Original neu gelesen (M365-CLI, Site `/sites/PL`,

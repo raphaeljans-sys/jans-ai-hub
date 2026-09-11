@@ -1,9 +1,9 @@
 ---
 title: Sommerlicher Wärmeschutz & Hitzeschutz
 status: established
-last_updated: 2026-09-01
-datenstand: "2013 (ältester zitierter Quellenstand: EnFK-Vollzugshilfe EN-2 «Wärmeschutz von Gebäuden», Ausgabe Februar 2013, Basis SIA 380/1:2009 — im Artikelabschnitt «Vollzug» als «Gesetz [EnFK EN-2, Kap. 8]» direkt zitiert für die g-Wert-Pflicht des Sonnenschutzes und die Befreiungstatbestände. ⚠ Die Vollzugshilfen-Reihe wurde seither fortgeschrieben [Nachfolgeausgabe EN-102, Ausgabe Januar 2020, Basis SIA 380/1:2016, ebenfalls als Quelle geführt]; die zahlenmässigen Verfahrensdetails im Artikel stützen sich bereits auf EN-102/SIA 180:2014, EN-2 bleibt aber für den zitierten generischen Befreiungs-/Grundsatzteil tragend, ohne dass der Artikeltext dies ausdrücklich als Ablösung kennzeichnet.)"
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md, destillate/ahb-merkblatt-386-storensteuerung-2017.md, destillate/minergie-sommerlicher-waermeschutz-broschuere.md]
+last_updated: 2026-09-11
+datenstand: "2022 (Rechtsstand Kt. ZH § 3 WDV vom 8.6.2022, in Kraft 1.9.2022; Vollzug EN-102 Ausgabe Januar 2020, Basis SIA 380/1:2016, am 11.09.2026 als geltende Ausgabe bestätigt; Normbasis SIA 180:2014. Seit Run 191 stützt sich auch der Befreiungs-/Grundsatzteil auf EN-102 8.1 lit. a-e statt auf die Vorgänger-Vollzugshilfe EN-2 von 2013 — der frühere ⚠-Vermerk zu EN-2 ist damit erledigt.)"
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md, destillate/ahb-merkblatt-386-storensteuerung-2017.md, destillate/minergie-sommerlicher-waermeschutz-broschuere.md, destillate/waermedaemmvorschriften-zh-2022.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -50,18 +50,29 @@ Wetterdaten 2035**.
   höhere Nachbarn), sonst 20°.
 
 ## Vollzug
-- **Gesetz (EnFK EN-2, Kap. 8):** g-Wert des Sonnenschutzes nach Stand der Technik; bei gekühlten
-  Räumen + Steuerung/Windfestigkeit. Befreit: provisorische Bauten, Umnutzungen ohne neue betroffene
-  Räume, Nachweis «kein erhöhter Verbrauch».
+- **Recht (Kt. ZH § 3 WDV vom 8.6.2022, in Kraft 1.9.2022; Vollzug EnFK EN-102 Ausgabe Januar 2020,
+  Kap. 8):** g-Wert des Sonnenschutzes nach Stand der Technik bei allen Räumen; bei gekühlten
+  Räumen + automatische Steuerung/Windfestigkeit. Einstieg ist der g-Wert nach SIA 180 Verfahren 2;
+  erst wenn diese Vereinfachung nicht aufgeht, folgt ein voller SIA-180-Nachweis (V1, V2 oder V3).
+  Räume ohne Kühlung mit aussenliegendem Sonnenschutz erfüllen die Anforderung (EN-102 8.2).
+  Befreit: provisorische Bauten, Umnutzungen ohne neue betroffene Räume, Nachweis «kein erhöhter
+  Verbrauch», Kat. XII und Räume unter 1 h Aufenthalt, betrieblich nicht ausrüstbare Bauteile.
+  *(Berichtigt Run 191: hier stand «Gesetz (EnFK EN-2, Kap. 8)»; EN-2 ist die Vollzugshilfe zur
+  MuKEn 2008, die Rechtsgrundlage im Kt. ZH ist § 3 WDV,
+  `[[waermedaemmvorschriften-zh-2022]]`.)*
 - **Minergie (2023):** erhöhte Anforderung auf Basis **Wetterdaten 2035** (klimaangepasst).
 - **Nachweisverfahren SIA 180:2014 (Kt. ZH, ziffern-genau):** drei gestufte Verfahren — V1 einfache
   Kennwerte (Dach-U ≤ 0,20, g-Wert Sonnenschutz+Verglasung ≤ 0,10, Raumtiefe ≥ 3,5/7 m,
-  Nachtauskühlung ≥ 10 m³/h·m² EBF), V2 Berechnung (g_tot je Orientierung, Ziff. 5.2.4.1: N ≤ 0,20/f_g,
-  NO/NW ≤ 0,13/f_g, übrige inkl. O/W ≤ 0,07/f_g), V3 dynamische Simulation (zwingend bei
-  Kältemaschine/Ventilatoren) → volle Herleitung, Formularbezug EN-102a/b/EN-110-ZH und Beispielwerte
+  Nachtauskühlung ≥ 10 m³/h pro m² Geschossfläche), V2 Berechnung (g_tot je Orientierung, Ziff. 5.2.4.1:
+  N ≤ 0,20/f_g, NO/NW ≤ 0,13/f_g, übrige inkl. O/W ≤ 0,07/f_g; **Dachflächenfenster/Oberlichter
+  Ziff. 5.2.4.7: ≤ 0,025/f_g**, ohne Orientierung, Summe aller Oberlichter des Raumes), V3 dynamische
+  Simulation — **zwingend nur nach der Bauherrenvorgabe der Stadt Zürich** (AHB-Wegleitung V1.3
+  Ziff. 4.4, bei aktiver Kühlung und Ventilatoren, gilt für Vorhaben des Amts für Hochbauten), nicht
+  energierechtlich für private Bauherren → volle Herleitung, Formularbezug EN-102a/b/EN-110-ZH und Beispielwerte
   in `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`.
-- **MuKEn 2025 Art. 1.9 (Ausblick, Basismodul):** hebt den sommerlichen Wärmeschutz erstmals in
-  einen eigenen Gesetzesartikel (bisher nur über Vollzugshilfe EN-102 geregelt); Kernaussage: bei
+- **MuKEn 2025 Art. 1.9 (Ausblick, Basismodul):** führt den bereits in der MuKEn 2014 als Art. 1.8
+  bestehenden Artikel weiter (im Kt. ZH § 3 WDV) — *berichtigt Run 191, hier stand «erstmals in einen
+  eigenen Gesetzesartikel (bisher nur über Vollzugshilfe EN-102 geregelt)»*; Kernaussage: bei
   Kühlabsicht g-Wert + Windfestigkeit + Steuerung «nach Stand der Technik» (Ausnahme reversible
   Wärmepumpe ohne aktive Kühlabgabe), bei **allen übrigen Räumen inkl. Wohnbauten ohne Kühlung**
   bleibt zumindest der g-Wert-Nachweis Pflicht. ⚠ Empfehlung der EnDK, noch nicht automatisch
@@ -74,10 +85,14 @@ Wetterdaten 2035**.
 «Gegen Hitze hilft kein dickeres Glas, sondern **aussen** beschatten, **Masse** speichern, **nachts**
 auskühlen — und wo sinnvoll die Fassade begrünen statt/neben PV zu belegen.» Wer das in der
 Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfüllt zugleich Minergie. Wer
-grosse Glasflächen plant, führt den SIA-180-Nachweis früh (spätestens Vorprojekt) — sobald eine
-Kühlmaschine ins Spiel kommt, ändert sich das Nachweisregime komplett (Verfahren 3, Simulation,
-zusätzliches Formular).
-→ Bauherren-FAQ **F11**, **F67**, **F88**, **F145**.
+grosse Glasflächen plant, führt den SIA-180-Nachweis früh (spätestens Vorprojekt). Kommt eine
+Kühlmaschine ins Spiel, verlangt das Energierecht zusätzlich automatische Steuerung und
+Windfestigkeit des Sonnenschutzes sowie das Formular EN-110-ZH; eine dynamische Simulation ist für
+private Bauherren keine automatische Folge, für Bauten der Stadt Zürich dagegen Pflicht.
+Oberlichter brauchen rund dreimal strengeren Sonnenschutz als Südfenster.
+*(Berichtigt Run 191: hier stand «ändert sich das Nachweisregime komplett (Verfahren 3, Simulation,
+zusätzliches Formular)».)*
+→ Bauherren-FAQ **F11**, **F67**, **F88**, **F145**, **F293**, **F294**.
 
 ## Rückkühlwerk/Kühlturm bei aktiver Kühlung (Run 114, 2026-07-25)
 

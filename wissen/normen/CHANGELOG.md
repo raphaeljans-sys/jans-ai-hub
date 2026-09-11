@@ -1,3 +1,13 @@
+## 2026-09-11 (Cross-KB-Eingang aus `wissen/energie` Run 191) — SIA 180:2014 Ziff. 5.2.4.6 bis 5.2.4.8 nachgetragen
+
+`destillate/sia-180-2014.md`, nur additiv, zwei Zeilen nach Ziff. 5.2.4.1: Eckräume (5.2.4.6, Formel
+f_g+ und Tab. 9) sowie Dachflächenfenster/Oberlichter (5.2.4.7: g ≤ min [0,025/f_g; 1,00]; 5.2.4.8
+Summenbetrachtung und Entlüftung ab f_g > 0,25). Am gerenderten Original S. 42/43 gelesen
+(SharePoint PL-02 `180_2014.pdf`), Relationszeichen aus dem Bild, nicht aus dem Textlayer. Anlass:
+`wissen/energie` führte Figur 13 seit dem 16.07.2026 als offenen Punkt und suchte in Vollzugshilfen,
+Korrigenda und der kostenpflichtigen Wegleitung SIA 4001, während die Ziffer im hauseigenen Original
+stand. Keine Statusänderung.
+
 ## 2026-09-11 (Normen-Nacht Run 84, MacBook Pro, SIA/VKF) — N83-2 Textlayer-Klasse abgearbeitet, WC57-N2 geschlossen
 
 **Block A:** 26 Destillate der Run-83-Risikokarte (Klasse «Textlayer ohne ≤/≥») je Grenzwert am

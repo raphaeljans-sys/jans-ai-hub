@@ -2801,3 +2801,17 @@ berichtigt (τ-Formel, Spitaeler-Spalte Tab. 25, Industriebauten-Zeile). Werkzeu
 **Naechster Zuschnitt:** E-R190-2 (Doppel-Abschriften derselben Scans zwischen `energie` und
 `planungsgrundlagen` gegeneinander diffen — billig, weil ohne Original, und nach diesem Lauf
 mit hoher Trefferwahrscheinlichkeit), danach A-BLIND Rang 70 (`wta-formular-zh-waermetechnische-anlagen`).
+
+## Run 191 (11.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 59: sommerlicher Wärmeschutz, Recht und Bauherrenvorgabe getrennt
+
+Kein PDF-Transfer (Inventar erschöpft). A-BLIND nach der Prüfwarteschlange: der Kandidat Rang 67
+aus dem Nachtlauf (`enfk-fensterblatt`) war bereits in Run 164/165 vollständig am Original gelesen
+und wurde als Fehl-Kandidat übersprungen. Stattdessen `sommerlicher-waermeschutz-sia180-nachweisverfahren`
+(11 Backlinks, established, nie gegengelesen) an fünf Originalen und am SIA-180-Normoriginal
+geprüft. Fünf Befunde berichtigt, der älteste offene Punkt des Destillats (Figur 13, seit 16.07.)
+am Normtext geschlossen, Bringschuld an `normen` erfüllt. FAQ F293/F294 neu, F88/F145/F11 berichtigt.
+
+**Nächster Zuschnitt:** E-R191-1 (Adressaten-Prüfung über die AHB-/HBA-Destillate, billig per grep),
+danach A-BLIND auf das nächste nie gegengelesene `established`-Destillat der Ränge 56-70
+(Kandidaten: `sia-2001-waermedaemmstoffe-lambda`, `fenster-energieetikette-fea-bfe`,
+`clt-bauteilkatalog-stora-enso`).

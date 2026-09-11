@@ -236,3 +236,10 @@ Minergie-Produktreglement 2026.1 (`[[minergie-standards]]`, `[[graue-energie]]`:
 PV +7,1, Solarthermie +5,6 kg CO₂-eq/m²·a) — dasselbe Zahlenwerk in einem zweiten Regelwerk,
 dort ebenfalls ohne P/A-Faktor. Das wurde zum entscheidenden Zweitbeleg. **Der Cross-KB-Schritt
 ist deshalb immer auch ein KB-interner Querschnitt**, nicht nur ein Blick nach draussen.
+
+**Ergänzung Run 191 (11.09.2026): auch den ADRESSATEN der Quelle lesen.** Richtlinien und
+Wegleitungen der öffentlichen Hand (Stadt Zürich AHB, Kt. ZH Hochbauamt, KBOB) nennen in ihrem
+Geltungsbereich, für wessen Bauten sie gelten. Sie sind **Bauherrenvorgaben für eigene Bauten**,
+nicht Vollzug. Vor jeder Pflichtaussage aus einer solchen Quelle den Geltungsbereich-Absatz
+zitieren; fehlt er im Destillat, ist das ein Befund. Anlass: die Simulationspflicht bei jeder Kühlung
+aus der Stadt-ZH-Wegleitung stand seit Juli als allgemeine Regel in zwei FAQ.

@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 2026-09-11 (Run 191, Abendlauf Mac Mini 22:3x) — A-BLIND Rang 59: Simulationspflicht der Stadt ZH war als Recht geführt, Figur 13 am Normoriginal geschlossen
+
+`destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` (11 Backlinks, established seit
+Run 88) erstmals am Original gegengelesen: EN-102 Januar 2020 Kap. 8, § 3 WDV Kt. ZH,
+Stadt-ZH-Wegleitung V1.3, HBA-Richtlinie V5.1, EnDK-Vergleich MuKEn 2014 ↔ 2025, SIA 180:2014
+S. 42/43 (SharePoint PL-02 per M365-CLI). **Fünf Befunde berichtigt:** (1, P2) «Verfahren 3 zwingend
+bei Kältemaschine», «V1/V2 ohne aktive Kühlung» und 100/400 h stammen aus der Stadt-ZH-Wegleitung,
+die nur für Vorhaben des AHB gilt; energierechtlich reichen g-Wert, Steuerung und Windfestigkeit
+(EN-102 8.4). (2, P3) § 3 WDV als Rechtsgrundlage nachgetragen. (3, P3) «MuKEn 2025 erstmals eigener
+Artikel» widerlegt (MuKEn 2014 Art. 1.8). (4, P4) HBA- und Stadt-Quellen im Klimadaten-Block
+getrennt. (5, P4) V1-Glasanteil, U24, Faktor 4-5 nur bei Wärmeschutzglas. **Geschlossen:** Figur 13
+(Oberlichter) = SIA 180 Ziff. 5.2.4.7, g ≤ min [0,025/f_g; 1,00], offen seit 16.07.2026.
+Rückwärts-Diff: `wiki/sommerlicher-waermeschutz.md`, FAQ F88/F145/F11, `wiki/INDEX.md`,
+`wiki/fenster-uw-g-wert-zielkonflikt.md` nachgezogen, grep auf alte Wortlaute null ausser
+Korrekturvermerken. FAQ **F293** und **F294** neu (294). Zwei stale ⚠ «03.15 offen» entfernt.
+→ übergeben an `wissen/normen` (Ziff. 5.2.4.6-5.2.4.8 in `sia-180-2014.md`). `training/PROGRAMM.md`
+um «Adressaten der Quelle lesen» ergänzt. Fehl-Kandidat Rang 67 `enfk-fensterblatt` übersprungen
+(Run 164/165 bereits am Original). Bericht `outputs/2026-09-11_energie-run191.md`.
+
 ## 2026-09-11 (Nachtschicht Mac Mini, 05:3x) — A-BLIND Rang 70: WTA-Formular am Original gegengelesen, zwei Abschreibfehler behoben
 
 `destillate/wta-formular-zh-waermetechnische-anlagen.md` vollständig am Original neu gelesen

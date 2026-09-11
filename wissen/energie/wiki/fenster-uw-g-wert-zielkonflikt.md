@@ -112,7 +112,7 @@ Zwei grundsätzlich verschiedene Wege, den g-Wert im Sommer zu senken:
 | **Bauliche Voraussetzung** | keine — funktioniert auch bei Fixverglasung, Vorhangfassaden, hohen Fassaden ohne Storenkasten | braucht Storenkasten/Führungsschienen, Windwiderstandsklasse 6 nach SIA 342, meist automatische Steuerung |
 | **Normkonsequenz** | g < 0,3 löst nach EN-102 automatisch den **Systemnachweis** (statt Einzelbauteilnachweis) aus | bleibt i.d.R. im einfacheren Einzelbauteilnachweis, wenn g_tot-Grenzen eingehalten sind |
 | **Tageslicht/Aussicht** | dauerhaft reduzierte Lichttransmission (z.B. Typ «70/37»: 70 % Licht bei g 0,37) | bei offenem Storen volle Transparenz, nur bei geschlossenem Storen reduziert |
-| **Wirkungs-Faktor sommerlich** (SIA 382/1, Anhang C, Beispielwerte) | — | aussenliegend vs. innenliegend: **Faktor 4–5** bei sonst gleicher Verglasung (z.B. Dreifachglas + Aussenlamellen g 0,07 vs. + Innenlamellen g 0,36) |
+| **Wirkungs-Faktor sommerlich** (SIA 382/1, Anhang C, Beispielwerte) | — | aussenliegend vs. innenliegend: **Faktor 4–5** bei sonst gleicher **Wärmeschutz**verglasung (z.B. Dreifach-Wärmeschutzglas + Aussenlamellen g 0,07 vs. + Innenlamellen g 0,36); bei Normalglas rund Faktor 3 (0,13 ↔ 0,37), EN-102 Tab. 6, präzisiert Run 191 |
 
 **Faustregel (aus den CH-Quellen destilliert):** Sonnenschutzglas ist die richtige Wahl, wenn ein
 beweglicher Aussensonnenschutz baulich **nicht möglich oder nicht gewünscht** ist (grossflächige

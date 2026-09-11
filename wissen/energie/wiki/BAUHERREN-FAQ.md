@@ -1,7 +1,7 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
+last_updated: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
   **F258 neu** «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein?» —
   Free-Cooling via Erdsonde/Grundwasser loest die Pflicht zur automatischen Sonnenschutz-
   Steuerung NICHT aus (EN-102 Jan. 2020 Kap. 8.1, Ausloeser ist die Kaeltemaschine);
@@ -547,7 +547,9 @@ Gesamtenergiedurchlass von Glas + Beschattung: **g-Wert 0,1–0,15** — dann bl
   Überhitzungsschutz ab ~250 W/m² Globalstrahlung, Blendschutz ab ~25 kLux, Windschutz-Rückstellung
   erst 10 % unter dem Grenzwert (Hysterese gegen Storenflattern) → `[[ahb-merkblatt-386-storensteuerung-2017]]`.
 - **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert; bei gekühlten Räumen gelten
-  zusätzlich normierte Anforderungen an Steuerung und Windfestigkeit (EnFK EN-2, Kap. 8).
+  zusätzlich Anforderungen an Steuerung und Windfestigkeit (Kt. ZH § 3 WDV; Vollzug EN-102 Ausgabe
+  Januar 2020, Kap. 8; bis Run 191 hier als «EnFK EN-2» zitiert, die Vorgängerin zur MuKEn 2008).
+  Oberlichter brauchen einen rund dreimal strengeren Wert (→ [[F294]]).
 - **Speichermasse** (Massivdecken/-wände) puffert Tagesspitzen; in Kombination mit **Freecooling /
   Nachtauskühlung** (Lüftung, öffenbare Fenster) wird die Wärme nachts abgeführt.
 - **Fensterfläche/-orientierung**: grosse Süd-/Ostwest-Glasflächen ohne wirksame Verschattung sind
@@ -3999,31 +4001,38 @@ im Quelltext selbst).
 **Kurz-Antwort für den Bauherrn:** Ja — bei Neubauten und massgeblichen Umbauten der
 Gebäudehülle ist der sommerliche Wärmeschutz Teil des energierechtlichen Nachweises (Kt. ZH:
 Vollzugshilfe EN-102, Formulare EN-102a/b unter dem Hauptformular EN-ZH, seit 1.1.2026 via
-EVEN-Plattform). Der Aufwand hängt vom gewählten Verfahren ab: Erfüllen Sie die konservativen
-Kennwerte von Verfahren 1 (u. a. g-Wert Verglasung + Sonnenschutz ≤ 0,10, Raumtiefe ≥ 3,5 m,
-mittlere Speichermasse, Nachtauskühlung ≥ 10 m³/h·m²), ist kein Rechnen nötig. Reicht das nicht,
-wird über Verfahren 2 orientierungs- und glasanteilabhängig gerechnet (SIA 180 Figur 12/13).
-Sobald eine aktive Kühlung gewünscht oder nötig wird, ist zwingend eine dynamische Simulation
-(Verfahren 3) erforderlich — das bedeutet mehr Planungszeit, oft ein zusätzliches Formular
-(EN-110-ZH) und sollte deshalb früh im Vorprojekt geklärt werden. Der wirksamste und günstigste
-Hebel bleibt in jedem Fall der aussenliegende, automatisch gesteuerte Sonnenschutz.
+EVEN-Plattform; Rechtsgrundlage § 3 WDV). Der Aufwand ist im Normalfall klein: Nachzuweisen ist
+der g-Wert von Verglasung und Sonnenschutz nach SIA 180 Verfahren 2, abhängig von Himmelsrichtung
+und Glasanteil. Für Räume ohne Kühlung gilt die Anforderung mit **aussenliegendem Sonnenschutz**
+als erfüllt. Planen Sie eine Kältemaschine, kommen die automatische, fassadenweise Steuerung und
+die Windfestigkeit der Storen dazu, dazu das Formular EN-110-ZH. Erst wenn diese Vereinfachung
+nicht aufgeht, braucht es einen vollständigen SIA-180-Nachweis (Kennwerte, Berechnung oder
+dynamische Simulation). Eine Simulation ist für private Bauherren also keine automatische Folge
+einer Kühlung (→ [[F293]]); Pflicht ist sie bei Bauten für die Stadt Zürich. Der wirksamste und
+günstigste Hebel bleibt der aussenliegende Sonnenschutz.
 
-**Fachliche Begründung:** SIA 180:2014 kennt drei gestufte Nachweisverfahren; Verfahren 1 und 2
-lassen keine aktive Kühlung zu, Verfahren 3 (dynamische Simulation) ist zwingend bei
-Kältemaschine/Ventilatoreinsatz oder bei Räumen mit mehr als 2 Fassaden. Der energierechtliche
-ZH-Nachweis (EN-102 Kapitel 8) ist eine bewusste Vereinfachung von SIA 180. Aussenliegender
-Sonnenschutz erreicht gtot ≈ 0,07-0,13, innenliegender bei identischer Verglasung nur
-0,36-0,40 — Faktor 4-5.
+**Fachliche Begründung:** SIA 180:2014 kennt drei Nachweisverfahren (V1 einfache Kriterien,
+V2 Berechnung, V3 Simulation). Der energierechtliche ZH-Nachweis ist eine bewusste Vereinfachung
+davon: EN-102 8.2 verlangt den g-Wert nach V2 «bei allen Räumen» und erst bei Nichteinhaltung V1
+oder V3; das Ablaufschema 8.4 ergänzt bei Kältemaschine die Steuerung und Windfestigkeit. Die
+Regeln «V1/V2 lassen keine aktive Kühlung zu», «V3 zwingend bei Kältemaschine/Ventilatoren» und
+die 100/400 Überschreitungsstunden stammen aus der **Wegleitung der Stadt Zürich** (AHB, V1.3
+Okt. 2023, Ziff. 4.4/4.1.1) und gelten für Vorhaben des städtischen Amts für Hochbauten.
+Aussenliegender Sonnenschutz erreicht gtot ≈ 0,07-0,13, innenliegender 0,36-0,40; bei
+Wärmeschutzglas ist das Faktor 4-5, bei Normalglas rund Faktor 3 (EN-102 Tab. 6 nach SIA 382/1:2007).
+*(Berichtigt Run 191, 11.09.2026, A-BLIND-Gegenlesung am Original: hier stand, V3 sei «zwingend
+bei Kältemaschine/Ventilatoreinsatz oder bei Räumen mit mehr als 2 Fassaden»; für mehr als zwei
+Fassaden verlangt selbst die Stadt nur eine genauere Abschätzung der Speichermasse.)*
 
-**Quelle + Datenstand:** EnFK/EnDK Vollzugshilfe EN-102 (Ausgabe Januar 2020 zitiert, ⚠ Audit
-A-P3 03.15: das established-Destillat `[[enfk-en-102-waermeschutz-2018]]` nennt für dieselbe
-Vollzugshilfe «Ausgabe Dezember 2018» — offener Abgleichspunkt, Zahlenwerte unberührt, siehe
-QUESTIONS.md), Kapitel 8; Kt. ZH
-Vollzugsordner Energie (Sept. 2022); HBA Kt. ZH Richtlinie Sommerlicher Wärmeschutz
-(23.01.2023, Version 5.1); Stadt Zürich AHB Wegleitung Sommerlicher Wärmeschutz — alle per
-curl+pdftotext gelesen 16.07.2026. Destillat: `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`.
-Status **established** (SIA-180-Figur-12/13-Zahlentabelle selbst nur als Grafik verfügbar, nicht
-textextrahierbar).
+**Quelle + Datenstand:** § 3 WDV Kt. ZH (8.6.2022, LS 700.211, in Kraft 1.9.2022); EnFK/EnDK
+Vollzugshilfe EN-102 Ausgabe Januar 2020, Kapitel 8 (die Dezember-2018-Ausgabe in
+`[[enfk-en-102-waermeschutz-2018]]` ist eine echte Vorauflage mit identischen Grenzwerttabellen,
+Audit-Punkt 03.15 am 24.08.2026 geschlossen; Januar 2020 am 11.09.2026 als geltende Ausgabe
+bestätigt); Kt. ZH Vollzugsordner Energie (Sept. 2022); HBA Kt. ZH Richtlinie Sommerlicher
+Wärmeschutz (23.01.2023, V5.1, nur HBA-Bauten); Stadt Zürich AHB Wegleitung Sommerlicher
+Wärmeschutz (V1.3, Okt. 2023, nur AHB-Vorhaben); SIA 180:2014 Ziff. 5.2.4.1 und 5.2.4.7 am
+Original. Erstlesung 16.07.2026, Gegenlesung am Original 11.09.2026 (Run 191). Destillat:
+`[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`. Status **established**.
 
 ---
 
@@ -5698,31 +5707,37 @@ Kostenfolge einer Nachmessung amtlich nicht verifiziert).
 Sommer eher **anfälliger** für Überhitzung, nicht weniger: Sie hält die solaren Wärmegewinne durch
 die Verglasung genauso gut «drin» wie im Winter die Heizwärme. Der sommerliche Wärmeschutz ist
 deshalb ein **eigener, zwingender Nachweis** (SIA 180:2014, in Kt. ZH über die energierechtliche
-Vollzugshilfe EN-102 geführt) — unabhängig vom winterlichen U-Wert-Nachweis. Wirksamster Hebel ist
-in jedem Fall der **aussenliegende, automatisch gesteuerte Sonnenschutz** (Faktor 4–5 wirksamer als
-innenliegender Behang), kombiniert mit Speichermasse und Nachtauskühlung.
+Vollzugshilfe EN-102 geführt, Rechtsgrundlage § 3 WDV) — unabhängig vom winterlichen U-Wert-Nachweis.
+Wirksamster Hebel ist in jedem Fall der **aussenliegende, automatisch gesteuerte Sonnenschutz** (bei
+Wärmeschutzglas Faktor 4–5 wirksamer als innenliegender Behang), kombiniert mit Speichermasse und
+Nachtauskühlung.
 
 **Fachliche Begründung:** SIA 180:2014 kennt drei gestufte Nachweisverfahren. Verfahren 1
 (einfache Kennwerte: Dach-U ≤ 0,20 W/m²K, g-Wert Sonnenschutz+Verglasung ≤ 0,10, Raumtiefe
-≥ 3,5 m/7 m, Nachtauskühlung ≥ 10 m³/h·m² EBF) genügt im Standardfall ohne Kühlabsicht. Reicht das
-nicht, wird über Verfahren 2 mit dem orientierungsabhängigen g_tot-Grenzwert gerechnet (Nord
+≥ 3,5 m/7 m, Nachtauskühlung ≥ 10 m³/h pro m² Geschossfläche) ist eine der Möglichkeiten; der
+energierechtliche Einstieg ist aber der orientierungsabhängige g_tot-Grenzwert nach Verfahren 2 (Nord
 grosszügig ≤ 0,20/f_g, Nordost/-west ≤ 0,13/f_g, alle übrigen Fassaden inkl. Ost/West so streng wie
-Süd ≤ 0,07/f_g — das Vorurteil «Ost/West ist weniger kritisch als Süd» stimmt normativ nicht).
-Erst wenn eine Kühlmaschine geplant ist oder Ventilatoren zum Einsatz kommen, wird Verfahren 3
-(dynamische Simulation) zwingend — das ändert das Nachweisregime und die Formularlage (Kt. ZH
-zusätzlich Formular EN-110-ZH) grundlegend, weshalb eine Kühlabsicht früh im Vorprojekt geklärt
-werden sollte. Die MuKEn 2025 (EnDK, verabschiedet 29.08.2025, noch keine geltende kantonale
-Vorschrift) hebt diesen Nachweis erstmals in einen eigenen Basismodul-Artikel (Art. 1.9): auch bei
-**Wohnbauten ohne jede Kühlabsicht** bleibt mindestens der g-Wert-Nachweis für den Sonnenschutz
-Pflicht (Art. 1.9 Abs. 3). Für Kt. Schwyz konnte keine eigene, von der nationalen EN-102-
+Süd ≤ 0,07/f_g — das Vorurteil «Ost/West ist weniger kritisch als Süd» stimmt normativ nicht;
+Oberlichter ≤ 0,025/f_g, SIA 180 Ziff. 5.2.4.7, → [[F294]]). Mit einer Kühlmaschine kommen
+automatische Steuerung und Windfestigkeit des Sonnenschutzes sowie das Formular EN-110-ZH dazu;
+eine dynamische Simulation (Verfahren 3) ist energierechtlich erst nötig, wenn diese Vereinfachung
+nicht aufgeht, zwingend dagegen nach der Wegleitung der Stadt Zürich für deren eigene Bauten
+(→ [[F293]]). Die g-Wert-Pflicht auch für **Wohnbauten ohne jede Kühlabsicht** gilt schon heute
+(§ 3 Abs. 2 WDV, MuKEn 2014 Art. 1.8 Abs. 3) und bleibt in der MuKEn 2025 (EnDK, verabschiedet
+29.08.2025, noch keine geltende kantonale Vorschrift) als Art. 1.9 Abs. 3 bestehen; neu ist dort
+die Ausnahme von Steuerung und Windfestigkeit für reversible Wärmepumpen ohne aktive
+Kühlabgabeelemente in Wohnräumen. *(Berichtigt Run 191: hier stand, V3 werde mit Kühlmaschine
+oder Ventilatoren «zwingend» und die MuKEn 2025 hebe den Nachweis «erstmals in einen eigenen
+Basismodul-Artikel».)* Für Kt. Schwyz konnte keine eigene, von der nationalen EN-102-
 Vollzugshilfe abweichende Wegleitung gefunden werden (Negativbefund) — SZ dürfte denselben
 nationalen Massstab anwenden wie Kt. ZH, seit 1.1.2026 ebenfalls über die EVEN-Plattform
 eingereicht.
 
-**Quelle + Datenstand:** EnFK/EnDK-Vollzugshilfe EN-102 (Ausgabe Januar 2020 zitiert, ⚠ Audit
-A-P3 03.15: das established-Destillat `[[enfk-en-102-waermeschutz-2018]]` nennt «Ausgabe
-Dezember 2018» — offener Abgleichspunkt, Zahlenwerte unberührt, siehe QUESTIONS.md; Basis
-SIA 380/1:2016) Kap. 8 + Kt.-ZH-Vollzugsordner Energie (Sept. 2022) + HBA-Richtlinie Sommerlicher Wärmeschutz
+**Quelle + Datenstand:** EnFK/EnDK-Vollzugshilfe EN-102 (Ausgabe Januar 2020, geltend, am
+11.09.2026 bestätigt; die Dezember-2018-Ausgabe in `[[enfk-en-102-waermeschutz-2018]]` ist eine
+Vorauflage mit identischen Grenzwerttabellen, Audit-Punkt 03.15 geschlossen 24.08.2026; Basis
+SIA 380/1:2016) Kap. 8 + § 3 WDV Kt. ZH (in Kraft 1.9.2022) + EnDK-Vergleichsdokument MuKEn
+2014 ↔ 2025 Art. 1.8/1.9 (Gegenlesung Run 191, 11.09.2026) + Kt.-ZH-Vollzugsordner Energie (Sept. 2022) + HBA-Richtlinie Sommerlicher Wärmeschutz
 (23.01.2023) + Stadt-ZH-Wegleitung, alle per curl+pdftotext gelesen 16.07.2026; SIA 180:2014
 Ziff. 5.2.4.1 (g_tot-Grenzwerte Fassadenfenster) aus `wissen/normen/destillate/sia-180-2014`;
 MuKEn-2025-Originaltext Art. 1.7–1.11 (EnDK, amtl. PDF endk.ch, verabschiedet 29.08.2025) per
@@ -9787,3 +9802,82 @@ Zertifizierbare Bauvorhaben sind **Neubau und Erneuerung**; bei der Erneuerung k
 **Bauherren-Transfer:** Die Wahl Holz oder Massiv entscheiden Sie nicht über den Heizwärmebedarf. Für den Winter zählen Dämmung, Luftdichtheit und Kompaktheit ([[F2]]). Wer leicht baut, plant die Speichermasse dort ein, wo sie im **Sommer** fehlt: massive Böden oder Decken, keine flächige Verkleidung der Speicherflächen, wirksamer aussenliegender Sonnenschutz, Nachtauskühlung ([[sommerlicher-waermeschutz]]). Im Energienachweis rechnet die Software die Speicherfähigkeit ohnehin mit; eine Pauschalaussage «Holz braucht mehr Heizenergie» lässt sich aus der Bilanz nicht ableiten.
 
 **Quelle:** Kursauszug «Energetische Gesamtoptimierung», Bezeichnungen und Berechnung nach SIA 380/1, Buchseiten 104|105 (Formel, a_0, τ_0) und 106|107 (Rechenbeispiel, C/A_E ≈ 0,5 MJ/m²K), Scans auf SharePoint PL-04 `_Heizwaermebedarf`, am Original gegengelesen 10.09.2026 → `[[sia-380-1-heizwaermebedarf-berechnung]]`, `[[sia-380-1-beispiel-monatsbilanz]]`. ⚠ Der Auszug nennt kein Normjahr und verweist auf die zurückgezogenen SIA 381/2 und EN ISO 13790 (heute SIA 2028 und SN EN ISO 52016-1); die Bilanzstruktur ist in SIA 380/1:2016 weiterhin angelegt (`wissen/normen/destillate/sia-380-1-2016.md`, Vorschau-Destillat, `speculative`), die Zahlenwerte a_0/τ_0 sind nicht gegen die Ausgabe 2016 geprüft (Normkauf E-R148-1). Die Vergleichswerte 0,97 / 0,95 / 0,84 sind eigene Rechnungen mit der Formel der Quelle. Datenstand 10.09.2026. Verwandt: [[F2]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]].
+
+## F293 — «Wir möchten eine Klimaanlage einbauen. Brauchen wir dafür eine teure thermische Simulation?»
+
+**Kurz:** Als privater Bauherr im Kt. ZH in der Regel nicht. Das Energierecht verlangt bei einer
+Kühlung drei Dinge am Sonnenschutz: den g-Wert nach SIA 180 Verfahren 2, eine automatische,
+fassadenweise Steuerung und eine ausreichende Windfestigkeit der Storen. Dazu kommt das Formular
+EN-110-ZH. Eine dynamische Simulation wird erst nötig, wenn diese Vereinfachung nicht aufgeht,
+etwa bei sehr grossen Glasflächen. Anders, wenn Sie **für die Stadt Zürich** bauen: deren
+Wegleitung verlangt bei jeder aktiven Kühlung, auch bei Geocooling, den Nachweis per Simulation.
+
+**Fachlich:** § 3 Abs. 1 WDV (Kt. ZH, in Kraft 1.9.2022): «Bei gekühlten Räumen oder Räumen, bei
+denen eine Kühlung notwendig oder erwünscht ist, sind die Anforderungen an den g-Wert, die Steuerung
+und die Windfestigkeit des Sonnenschutzes nach dem Stand der Technik einzuhalten.» Die Vollzugshilfe
+EN-102 (Januar 2020) Kap. 8.4 zeigt den Ablauf: mit Kältemaschine sind «als Vereinfachung» der
+g-Wert nach Verfahren 2, die fassadenweise automatische Steuerung und die Windfestigkeit nach
+SIA 342:2009 einzuhalten; nur wenn das nicht erfüllt ist, folgt ein vollständiger Nachweis nach
+SIA 180 Verfahren 1, 2 oder 3. Das Minergie-Tool «Nachweis Sommerlicher Wärmeschutz Variante 2»
+gilt dabei als gleichwertig zu Verfahren 3. Ein energierechtlicher **Bedarfsnachweis** für
+Klimaanlagen wurde im Kt. ZH vor rund 15 Jahren aufgehoben; die baurechtliche Bewilligungspflicht
+nach § 309 PBG besteht weiter ([[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]). Die
+Simulationspflicht bei aktiver Kühlung und bei Ventilatoren steht in der Wegleitung des städtischen
+Amts für Hochbauten (V1.3, Okt. 2023, Ziff. 4.4) und gilt nach deren Ziff. 1.1 für Vorhaben, die
+das Amt abwickelt; die kantonale HBA-Richtlinie (V5.1, 23.01.2023) regelt Entsprechendes für
+Bauten des Kantons.
+
+**Bauherren-Transfer:** Budgetieren Sie bei einer Kühlung zuerst die Storen richtig:
+Motorisierung, Globalstrahlungs-Steuerung je Fassade und die Windwiderstandsklasse nach Standort
+und Einbauhöhe (EN-102 Tab. 7 nach SIA 342:2009: je nach Region, Geländekategorie und Einbauhöhe Klasse 3 bis über 6). Das ist die
+eigentliche Kostenfolge. Eine Simulation lohnt sich trotzdem, wenn Sie die Kühlleistung knapp
+auslegen, die Kältemaschine vermeiden oder hohe interne Lasten beurteilen wollen, etwa in
+Healthcare-Räumen; dann ist sie eine Planungsentscheidung, keine Auflage. Ohne Kältemaschine, mit
+reinem Free-Cooling über Erdsonde oder Grundwasser, entfällt nach EN-102 8.1 sogar die Pflicht zur
+automatischen Steuerung (→ [[F258]]).
+
+**Quelle + Datenstand:** § 3 WDV Kt. ZH vom 8.6.2022 (LS 700.211) mit Erläuterung; EnFK-Vollzugshilfe
+EN-102 Ausgabe Januar 2020, Kap. 8.1-8.5 (am 11.09.2026 als geltende Ausgabe bestätigt,
+energiehub-gebaeude.ch); Stadt Zürich AHB, Wegleitung Sommerlicher Wärmeschutz V1.3, Oktober 2023,
+Ziff. 1.1/4.4; Kt. ZH Hochbauamt, Richtlinie Sommerlicher Wärmeschutz V5.1, 23.01.2023; alle am
+11.09.2026 am Original gelesen (Run 191). Destillat
+`[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`. Status **established**. Kt. SZ: dieselbe
+nationale Vollzugshilfe, eigene Praxis nicht belegt (Negativbefund, [[F145]]). Datenstand 11.09.2026.
+Verwandt: [[F88]], [[F145]], [[F258]], [[sommerlicher-waermeschutz]].
+
+## F294 — «Wir möchten grosse Oberlichter über dem Wohnraum. Worauf müssen wir beim Hitzeschutz achten?»
+
+**Kurz:** Oberlichter sind im Sommer der heikelste Glasanteil. Die Norm verlangt für sie einen rund
+**dreimal besseren Sonnenschutz** als für ein Südfenster mit gleichem Glasanteil. Bei einem kleinen
+Oberlicht ist das mit einer aussenliegenden Beschattung lösbar. Deckt die Verglasung mehr als etwa
+ein Viertel der Dachfläche des Raumes, reicht eine konventionelle Beschattung eventuell nicht mehr,
+dann muss die Wärme über eine Entlüftung abgeführt werden.
+
+**Fachlich:** SIA 180:2014 Ziff. 5.2.4.7: Dachflächenfenster und Oberlichter müssen zusammen mit dem
+Sonnenschutz g_tot ≤ min [0,025/f_g; 1,00] einhalten, ohne Unterscheidung nach Himmelsrichtung
+(Figur 13). Nach Ziff. 5.2.4.8 zählt die **Summe aller** Dachflächenfenster und Oberlichter des
+Raumes, f_g ist der Glasanteil der Dachfläche; bei f_g > 0,25 ist die Wärme gegebenenfalls über eine
+Entlüftung abzuführen. Zum Vergleich Fassadenfenster Süd/Ost/West nach Ziff. 5.2.4.1:
+g_tot ≤ 0,07/f_g (max. 0,15). Rechenbeispiel (eigene Rechnung mit der Normformel): 10 % Glasanteil
+→ g_tot ≤ 0,25; 20 % → ≤ 0,125; 50 % → ≤ 0,05. Eine Dreifach-Wärmeschutzverglasung mit
+Aussenlamellen erreicht nach den Beispielwerten der EN-102 (Tab. 6, nach SIA 382/1:2007) g_tot 0,07,
+mit Innenlamellen 0,36. Ein innenliegender Behang genügt also schon bei 10 % Glasanteil nicht. Für
+das einfache Verfahren 1 gilt zusätzlich: Oberlichter mit Sonnenschutz unter 5 % der Nettogeschossfläche des Raumes
+(SIA 180 Ziff. 5.2.2.1).
+
+**Bauherren-Transfer:** Planen Sie Oberlichter von Anfang an mit **aussenliegendem**, beweglichem
+Sonnenschutz oder mit fest verschattender Geometrie (Sheds nach Norden), und halten Sie die
+Glasfläche knapp. Für einen Wohnraum mit 30 m² und einem Oberlicht von 3 m² (10 %) muss die
+Kombination aus Glas und Beschattung einen g_tot von höchstens 0,25 erreichen; das schafft ein
+aussenliegender Behang gut, eine Sonnenschutzverglasung allein nur mit Einbussen beim Tageslicht.
+Die Stadt Zürich empfiehlt für ihre eigenen Bauten Oberlichter in Summe höchstens 5 % der
+Raumgrundfläche. Wird die Fläche grösser, gehört eine öffenbare, automatisch gesteuerte Entlüftung
+im Oberlicht ins Konzept, die zugleich die Nachtauskühlung trägt.
+
+**Quelle + Datenstand:** SIA 180:2014 Ziff. 5.2.2.1, 5.2.4.1, 5.2.4.7, 5.2.4.8 und Figur 13, am
+Original gelesen (SharePoint PL-02, S. 43, 11.09.2026); EN-102 Ausgabe Januar 2020 Kap. 8.2,
+Abb. 3 und Tab. 6; Stadt-ZH-Wegleitung V1.3 (Oktober 2023) Ziff. 3.2 (Zielwert 5 %, Bauherrenvorgabe
+für städtische Bauten). Destillat `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`. Status
+**established** für die Normwerte; das Rechenbeispiel 30 m²/3 m² ist eine eigene Anwendung. Die
+Aussage zur Sonnenschutzverglasung ist eine Einordnung ohne Kennwert. Datenstand 11.09.2026.
+Verwandt: [[F88]], [[F145]], [[F11]], [[sommerlicher-waermeschutz]].

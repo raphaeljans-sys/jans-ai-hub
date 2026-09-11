@@ -459,3 +459,20 @@ Verdichtet: FAQ **F291**, `wiki/pv-solar-technologien.md` (neuer Abschnitt).
 Kein eigenes Destillat angelegt — die Quelle ist ein Gesetzesauszug von zwei Artikeln, der
 vollstaendig in die raw-Datei passt; ein Destillat waere eine Dublette (Kompoundieren statt
 Duplizieren).
+
+## 2026-09-11 (Run 191) — Gegenlesung sommerlicher Wärmeschutz: fünf Originale, kein neues Destillat
+
+Gelesen (Arbeitskopien im Session-Scratchpad, nicht in `raw/` abgelegt, weil die Quellen öffentlich
+und stabil adressierbar sind):
+- EN-102 «Wärmeschutz von Gebäuden», Ausgabe Januar 2020, `energiehub-gebaeude.ch/wp-content/uploads/2025/08/EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf`
+  (841'171 B, SHA-256 `6676ee00c12c19ee…`), Kap. 8 S. 12-18 per pdftotext, Abb. 2/3 als Bild.
+  REST-Abfrage `wp-json/wp/v2/media?search=EN-102`: keine neuere Ausgabe als Januar 2020.
+- Wärmedämmvorschriften der Baudirektion Kt. ZH vom 8.6.2022 (LS 700.211), `zh.ch/…/700-211_Waermedaemmvorschriften_8-6-22.pdf`, § 3 + Erläuterung.
+- Stadt Zürich AHB, «Wegleitung Sommerlicher Wärmeschutz bei Bauvorhaben der Stadt Zürich», Version 1.3, Oktober 2023, M-System-Nr. 238, `stadt-zuerich.ch/…/wegleitung-sommerlicher-waermeschutz.pdf`.
+- Kt. ZH Hochbauamt, «Richtlinie Sommerlicher Wärmeschutz bei Neubauten und Umbauten», Version 5.1, 23.01.2023.
+- EnDK, Vergleichsdokument MuKEn 2014 (Nachführung 2018) ↔ MuKEn 2025, Stand Entwurf 30.08.2024, Art. 1.8/1.9.
+- SIA 180:2014, SharePoint PL-02 `02_Normen/SIA_Norm/SIA_Normen/alle/180_2014.pdf` (Bibliothek-URL
+  `/sites/PL/PL  Immobilienpreise/…` — der interne Ordnername der Bibliothek «02_Recht_Norm» weicht vom
+  Anzeigenamen ab), S. 42/43 als Bild.
+Ergebnis → `destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` berichtigt,
+`wissen/normen/destillate/sia-180-2014.md` um Ziff. 5.2.4.6-5.2.4.8 ergänzt, FAQ F293/F294 neu.

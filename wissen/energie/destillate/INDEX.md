@@ -510,3 +510,14 @@ Beide Scans per M365-CLI geladen (`/sites/PL/04 Energie/_Heizwaermebedarf`), als
 |---|---|---|
 | [[sia-380-1-heizwaermebedarf-berechnung]] (18) | Scan Buchseiten 104\|105 «Energetische Gesamtoptimierung» | ✅ Kern treu; ⚠ Qi-/τ-Formel, a0/τ0, Grenzfaelle fehlten (nachgetragen), Symbol F_F statt F_r; **Registerzeile «SIA 380/1:2016» war durch die Quelle nicht gedeckt** — Quelle verweist auf SIA 381/2 und EN ISO 13790 |
 | [[sia-380-1-beispiel-monatsbilanz]] (7) | Scan Buchseiten 106\|107, alle zehn Schritte nachgerechnet | ⚠ **Quellen-Inkonsistenz:** τ im Original durch 33,2 statt QT+QV = 28,9 geteilt; konsistent ≈ 256 h statt 223 h, Qh 11,8 MJ/m² unveraendert; Pruefauftrag «aktuelle SIA 381/2» lief ins Leere (Norm zurueckgezogen), berichtigt |
+
+## Nachtrag Run 191 (11.09.2026) — A-BLIND Rang 59: sommerlicher Wärmeschutz am Original
+
+Backlink-Ranking neu gebildet (348 Destillate). Die Ränge verschieben sich bei Gleichstand von Lauf
+zu Lauf; gewählt wurde das bestverlinkte `established`-Destillat zu einem Prioritäts-1-Thema ohne
+Gegenlese-Vermerk.
+
+| Destillat (Backlinks) | Geprüft gegen | Ergebnis |
+|---|---|---|
+| [[sommerlicher-waermeschutz-sia180-nachweisverfahren]] (11) | EN-102 Jan. 2020 Kap. 8 (S. 12-18, Abb. 2/3 als Bild), § 3 WDV ZH, Stadt-ZH-Wegleitung V1.3, HBA-Richtlinie V5.1, EnDK-Vergleich MuKEn 2014 ↔ 2025, SIA 180:2014 S. 42/43 | ⚠ **fünf Befunde berichtigt:** Simulationspflicht der Stadt ZH als allgemeine Regel geführt (P2), § 3 WDV fehlte (P3), «MuKEn 2025 erstmals» falsch (P3), HBA/Stadt-Quellen vermischt (P4), V1-Liste/U24/Faktor unvollständig (P4). ✅ Figur 13 geschlossen: Ziff. 5.2.4.7, g ≤ min [0,025/f_g; 1,00] |
+
