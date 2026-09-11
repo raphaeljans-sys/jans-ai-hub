@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.09.2026 00:50:45
+Stand: 12.09.2026 01:11:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.09.2026 00:50:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3d67c9e43 nas-selfcommit: 3 Datei(en) 2026-09-12 00:45
+- 68977cd8f vollgas-radar: erster Mini-Lauf 12.09. 00:58, FREI, P1 architektur-fachwissen entschaerft, Kontingent -37.5 Pkt
