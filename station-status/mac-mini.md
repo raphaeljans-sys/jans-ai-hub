@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 07:42:06
+Stand: 11.09.2026 07:52:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 07:42:06
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6c325d25e nas-selfcommit: 2 Datei(en) 2026-09-11 07:30
+- 2fb443a9f ag-gruendung-monitor: Status 11.09. 07:30 — Kapitaleinzahlung 28 Tage überfällig, unverändert
