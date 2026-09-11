@@ -12538,3 +12538,9 @@ Vermerk mit Diagnose in `wiki/QUESTIONS.md` gesetzt; nächster Schritt (Material
 Sache Raphaels (Rule `auto-verbesserungen` 260814).
 
 Budget-Verbrauch dieses Laufs: rund 2.60 USD von 5 USD.
+
+## 2026-09-11 14:0x Interaktiv (Mac Mini, Auftrag Raphael) — Systemanalyse Hub-Architektur: NAS-Erreichbarkeit als Konstruktionsfehler, Umbau auf Git als einzige Quelle
+
+Auftrag: Systemanalyse des Hub zum mehrfachen NAS-Ausfall und Aufarbeitung des Vorschlags «Repos nur noch in Git, Systemdaten auf den Mac Mini». Die fruehere Session mit diesem Konzept wurde am Morgen (08:56) gesucht und nicht gefunden; das Konzept ist jetzt erstmals schriftlich belegt.
+
+Ergebnis: `docs/konzepte/260911-Systemanalyse-Hub-Architektur-NAS-Git/` (MD, DOCX, PDF). Kern: Git-Arbeitsbaum auf SMB plus drei Stationen plus Nachtlaeufe ist die falsche Bauweise; sieben Ausfalltage und zwei Repo-Spaltungen seit dem 25.07. belegt; acht Hilfs-Scripts und 696 Pfadzeilen halten die Bauweise am Leben. Empfehlung V2: GitHub als Origin, jede Station im lokalen Klon, Mac Mini als Zentrale fuer Loops und Aufsicht, NAS als Dateiserver fuer Archiv und Rohkorpora. Migration in fuenf reversiblen Etappen, rund drei Arbeitstage. Sechs Entscheide Raphaels im Fristen-Register (Eintrag 11.09.2026 14:0x). Nichts umgeschaltet. Korrektur-Harness (rechtschreibung + layout) gelaufen, Commit nativ ueber `nas-commit-now.sh`.

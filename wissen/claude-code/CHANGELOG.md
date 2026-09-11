@@ -2,6 +2,13 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-11 (Interaktiv Mac Mini, Systemanalyse Hub-Architektur) — Report: Git-Arbeitsbaum auf SMB ist ein Konstruktionsfehler
+
+Neuer Report `outputs/2026-09-11_git-arbeitsbaum-auf-smb-ist-ein-konstruktionsfehler.md` (status established, belegt aus
+Betriebs-Chronik und Systemanalyse `docs/konzepte/260911-Systemanalyse-Hub-Architektur-NAS-Git/`). Kern: bei mehreren
+Stationen ist ein Origin plus je ein lokaler Klon die tragfaehige Bauweise; ein Netz-Dateiserver bleibt Dateiserver.
+Wiki-Artikel entsteht erst nach dem Umbau-Entscheid Raphaels (Rueckfluss-Vermerk, keine Umstrukturierung).
+
 ## 2026-09-10 (Wissens-Chef Lauf 57) — Arbeitsregel aus dem Radar-Rücklauf im konsumierenden Skill verankert
 
 Die Arbeitsregel aus `outputs/2026-09-10_enge-suche-belegt-den-falschen-schluss.md` (zweimal
