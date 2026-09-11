@@ -2883,3 +2883,48 @@ Apple-Mail-Entwuerfe vom 24.03.2026. (4) Der unbearbeitete Rest von **Batch 65**
 IDs vorgemerkte Juli-Mails) ist auf `claude-aera`-Stuecke zu pruefen. (5) **Vorfilter-Standard
 neu:** die HTML-Klassen trennen **Kanal**, nicht Person — Gewichtung inhaltlich entscheiden
 (Befund 1).
+
+## Batch 119 (11.09.2026) — `rj@` + `mail@` Sent Items 09.09. 15:38 bis 10.09. 19:57 · **zwei Konten, und das zweite traegt die haertesten Mails**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 119 (11.09.2026)» in [[stimme]],
+[[denken]], [[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]];
+[[QUESTIONS]] 260911 #1-#4) · Detailregister: `raw/260911-mailbatch-119.md`
+
+**Abgedeckt:** `rj@` Sent Items **09.09.2026 15:38 bis 10.09.2026 19:57** (Ortszeit), alle 10
+Treffer (`totalResultCount: 10`); dazu `mail@` Sent Items **im selben Fenster** (1 Treffer,
+10.09. 04:35). Der Vorwaertsfaden `rj@` bleibt ohne Luecke.
+
+**Vorfilter:** 1 **Dublette aus Batch 118** («Dringend» 09.09. 15:38, **achter Lauf in Folge**;
+nur fuer die Werkzeug-Nachpruefung gelesen) · 1 Hub-Chef-Selbstmail `claude-aera` (08:48, nur
+Kontrolle, fuehrt keine autonome Aussendung) · 1 SharePoint-Freigabe ohne Text (14:02) · 2
+Nullform-Weiterleitungen (11:16, 13:28). Der `twin-fidelity-review` 260910 hat Oktober-2025-
+Material verbraucht, keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** «Guten Morgen Stefan» Rueckrufangebot 06:23 ·
+«Guten Morgen» namenlos, Freigabe an Jegen 11:23 · «Guten Tag Herr Bajrami» Maengelruege 13:46 ·
+Betreff-Mail «S1, UK Träger Rohmass: 2729mm» 19:51 · Betreff-Mail «Fabian; Bitte Träger …» 19:57 ·
+**`mail@`** «Ferienabwesenheit, offene Rechnungen» 04:35 (Ultimatum an die Bauherrenseite).
+
+**Kernbefunde:** (1) ⭐⭐ **Zweiter Sendekanal:** das Ultimatum steht in `mail@`, nicht in `rj@`;
+der `mail@`-Strang ruht seit Batch 79 (27.07.2026), seither 7 Sent Items, darunter zwei Geld- und
+Vertragsmails. (2) ⭐ **Plaintext wird nicht gekappt** — Batch 118 Befund 12 / [[QUESTIONS]]
+260910 #5 geschlossen; die Selbstnotiz ist ein echtes Fragment (285 Zeichen in beiden Kopien).
+(3) ⭐ **Inkasso-Du zweifach identisch** (Batch 40 und hier): Routine-Opener, «Freundlich[e]
+Grüsse», Vollname, neu «Danke der Kenntnisnahme.». (4) ⭐ **Ultimatum als Konditional-Kaskade**
+in sieben Stufen. (5) ⭐ **Spielraum ausdruecklich geschlossen** («kein Abgebot», «letztes
+Angebot») — Widerspruch zum Kern markiert. (6) ⭐ **Aussetzung gilt dem Vertrag, nicht der
+Baustelle** (Lesart, vorgelegt). (7) ⭐ **Betreff-Mail mit Baustellenfoto** als Abendrapport, mit
+Vokativ und Semikolon-Arbeitsfolge im Betreff. (8) ⭐ **Kein Tausender-Apostroph im Planmass**
+(«2729mm», Erstbeleg). (9) ⭐ **Dritter Abstieg im Unternehmer-Thread**, sechste Stufe bei einer
+Person. (10) Fehlerdichte **6.3 je 100 W** gegen 0, vierter Vergleich in Folge.
+**Werkzeug:** `skills/twin/tools/stilmetrik.py` Anreden-Muster repariert (lief ueber den
+Zeilenumbruch; «Guten Tag <Name>», namenlose Tageszeit-Anrede, «Hello/Hi», «Freundlich Grüsse»
+ergaenzt). **Nachgezogen:** [[QUESTIONS]] 260910c — datierte ⚠-Nachtraege an allen vier Stellen,
+die noch den widerlegten Wrapper-Standard trugen.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 10.09.2026 19:57** Ortszeit (`afterDateTime`
+UTC `2026-09-10T17:57:30`), `order: oldest`. (2) **Vorrangig: `mail@` Sent Items 27.07. bis
+09.09.2026 nachholen** (6 Treffer; mit eigenem Text zu erwarten 05.09. «Offene Rechnungen», 31.08.
+«WG: Sicherheitslücken festgestellt», 07.09. «Fwd: Auftragsbestätigung»). (3) **Ab jetzt je Fenster
+beide Konten**, gleiche Zeitgrenzen. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwuerfe
+vom 24.03.2026; der Rest von **Batch 65** auf `claude-aera` pruefen — unveraendert offen.

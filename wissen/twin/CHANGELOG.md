@@ -4,6 +4,39 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-11 (twin-mail-training Batch 119) — zwei Konten, und das zweite traegt die haertesten Mails
+
+Fenster `rj@` **Sent Items 09.09.2026 15:38 bis 10.09.2026 19:57** (Ortszeit), 10 Treffer
+gesichtet, dazu `mail@` Sent Items im selben Fenster (1 Treffer). 6 Golds (254 W, alle
+`authentisch`), 1 `claude-aera`-Kontrollstueck (Hub-Briefing). Register:
+`raw/260911-mailbatch-119.md`; Vorfilter fing 1 Dublette (achter Lauf in Folge), 1 Selbstmail,
+1 SharePoint-Freigabe und 2 Nullform-Weiterleitungen ab.
+
+**Geschrieben:** je ein Abschnitt «Batch 119 (11.09.2026)» in `wiki/stimme.md`, `wiki/denken.md`,
+`wiki/haltung.md`, `wiki/beziehungsregister.md`, `wiki/fachsignatur.md`, `wiki/arbeitsweise.md`
+(alle angehaengt, ausserhalb der Do/Don't-Bloecke); `wiki/QUESTIONS.md` 260911 #1-#4;
+`raw/_INGESTED.md` Batch 119; `last_updated: 2026-09-11` und `sources` in allen sechs Facetten.
+**Auto-Block unveraendert** (neu berechnet 33'985 B, woertlich identisch mit der Rule) — kein
+Kompilieren noetig, Reserve unberuehrt.
+
+**Wichtigster Befund — Korpus-Methodik:** das Zahlungs- und Vertragsultimatum vom 10.09.2026
+04:35 steht in **`mail@` Sent Items**, nicht in `rj@`. Der `mail@`-Strang ruht seit Batch 79
+(27.07.2026); ein Sweep nur ueber `rj@` verfehlt genau die Gattung, in der Raphael am haertesten
+schreibt. Ab Batch 120 werden beide Konten je Fenster gezogen, der Nachholbedarf 27.07.–09.09.
+ist vermerkt. Stilbefunde: Inkasso-Du jetzt **zweifach identisch** (Routine-Opener, Vollname,
+«Danke der Kenntnisnahme.»), Ultimatum als **Konditional-Kaskade**, Spielraum **ausdruecklich
+geschlossen** (Widerspruch zum Kern markiert), **Betreff-Mail mit Baustellenfoto**,
+**«2729mm» ohne Apostroph** (Erstbeleg Planmass), dritter Abstieg im Unternehmer-Thread.
+
+**Erledigt:** [[QUESTIONS]] **260910 #5** (Plaintext wird nicht gekappt, die Selbstnotiz ist ein
+echtes Fragment) und **260910c** (datierte ⚠-Nachtraege in `wiki/arbeitsweise.md` Batch 116,
+`CLAUDE.md` an vier Stellen, `wiki/stimme.md` Fidelity 260909b, Erledigt-Vermerk 260814b #2).
+**Werkzeug:** `skills/twin/tools/stilmetrik.py` — Anreden-Muster lief ueber den Zeilenumbruch
+(«Guten Morgen\nWir»); auf `[ \t]+` umgestellt, «Guten Tag/Abend <Name>», namenlose
+Tageszeit-Anrede, «Hello/Hi» und «Freundlich Grüsse» ergaenzt, vorher/nachher gemessen.
+**Operativ:** Nachtrag in `logbuch/fristen.md` zum Hub-Chef-Eintrag vom 10.09. 08:5x — die
+Jegen-Freigabe ist durch Raphaels eigene Mail 11:23 entschieden (eingehend ↔ ausgehend gepaart).
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, active-with-flagging) — Batch-118-Widerlegung im Wiki nicht nachgezogen, vorgelegt
 
 - `wiki/QUESTIONS.md` Block **260910c** (nur angefügt): die Methodenkorrektur aus Batch 118

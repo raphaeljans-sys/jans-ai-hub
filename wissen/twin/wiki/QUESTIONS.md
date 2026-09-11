@@ -3386,6 +3386,9 @@ Frage, die es nicht beantworten kann.
 in Apple Mail ein?) ist **erstmals gegengeprüft** — zwei handgetippte Apple-Mail-Texte desselben
 Fensters tragen den Wrapper **nicht** (→ `CLAUDE.md`, zwölfte Falle). Logisch ausgeschlossen ist
 der Fall damit nicht, aber er hat zwei Gegenbelege statt keinen; der Marker bleibt Lokalisator.
+⚠ *Ergänzt 11.09.2026 (Batch 119):* seit Batch 118 **positiv entschieden** — am 09.09.2026 trug eine
+Mail aus Raphaels eigener Hand den Wrapper (Gold A, `raw/260910-mailbatch-118.md` Befund 1). Er
+kann ihn also erzeugen; der Marker bleibt Lokalisator, taugt aber nicht als Ausschluss.
 **260815 #1** (rückwirkender Sendejournal-Abgleich) ist **methodisch erweitert, nicht erledigt**
 — siehe #4 unten. **Weiterhin offen:** 260814 #2/#5, 260814b #1/#3–#5, 260815 #2/#4–#6,
 260815b #1–#6.
@@ -6231,3 +6234,58 @@ Vorschlag für den nächsten `twin`-Lauf: je Stelle ein datierter ⚠-Nachtrag �
 Du-Grossschreibung, Abgleich mit der Hub-Chef-Selbstmail des Tages)». Bei `arbeitsweise.md` vorher
 prüfen, ob der Abschnitt im Do/Don't-Block liegt (Byte-Riegel `skills/twin/tools/build_dna.py`).
 Status: **offen**, Facette Arbeitsweise (Korpus-Methodik).
+
+## 260911 — nach Batch 119 (`rj@` + `mail@` Sent 09.09. 15:38 bis 10.09. 19:57)
+
+**Erledigt aus den Vorrunden:** **260910 #5** (Plaintext abgeschnitten?) — **nein, der Connector
+kappt nicht.** Das Ultimatum vom 10.09. 04:35 ist `contentType: text` und kommt vollstaendig
+zurueck; die Notiz «Dringend» endet in Absender- und Empfaengerkopie identisch nach 285 Zeichen.
+Sie ist ein echtes Fragment (`raw/260911-mailbatch-119.md` Befund 2). **260910c** (Batch 118 im
+Wiki nachziehen) — **alle vier Stellen mit datiertem ⚠-Nachtrag versehen**: `wiki/arbeitsweise.md`
+Abschnitt Batch 116 (ausserhalb des Do/Don't-Blocks, kein Byte-Einfluss), `CLAUDE.md` an den vier
+Stellen operativen Gebrauchs, `wiki/stimme.md` Fidelity 260909b, Erledigt-Vermerk 260814b #2
+ergaenzt statt ueberschrieben. Status **erledigt**.
+
+**#1 [Arbeitsweise, Korpus-Methodik] Schreibst Du die harten Mails bewusst ueber `mail@`?**
+Die Zahlungs- und Vertragsmail an die KISPI-Bauherrenseite vom 10.09. 04:35 ging ueber
+`mail@raphaeljans.ch`, ebenso die Mail «Offene Rechnungen» vom 05.09. Alles Operative desselben
+Tages lief ueber `rj@`.
+*Konkret:* Ist `mail@` fuer Honorar-, Vertrags- und Zahlungskonflikte gewaehlt (eigenes Konto,
+nicht der Projektverkehr), oder war es einfach das Konto, das auf dem Telefon oben lag?
+*Warum:* Wenn es Absicht ist, gehoert es in die Arbeitsweise und der Zwilling muss es fuer diese
+Gattung vorschlagen. Unabhaengig davon zieht der Lern-Loop ab jetzt beide Konten — dafuer brauche
+ich nichts von Dir.
+
+**#2 [Haltung] Die Aussetzung vom 10.09. 04:35 und die Freigabe von 11:23 — wie gehoeren sie
+zusammen?**
+Um 04:35 schreibst Du, bis zur Klaerung keine «Gut zur Ausführung» an irgendein Gewerk zu
+kommunizieren. Um 11:16 leitest Du die Stempelseite der Bauherrenseite an Jegen weiter, um 11:23
+schreibst Du Jegen «Wir haben Ihnen alle Pläne freigegeben.», am Abend gibst Du auf der
+Baustelle Rohmass und Arbeitsfolge durch.
+*Konkret:* Ist meine Lesart richtig — Du uebermittelst die Freigabe der Bauherrenseite, erteilst
+aber keine eigene, und der Druck liegt auf dem Vertrag, nicht auf der Baustelle? Oder hast Du
+die Aussetzung fuer Jegen bewusst aufgehoben?
+*Warum:* Der Zwilling muss wissen, ob er in einer solchen Lage eine Freigabe weitergeben darf.
+Liest er die Aussetzung woertlich, blockiert er die Baustelle; liest er sie wie Du, bleibt der
+Hebel beim Vertrag.
+
+**#3 [Beziehungsregister, Rule `anrede-kontakte`] Hebt das Gewicht eines Konflikts die Anrede
+nicht?**
+Zweimal an dieselbe Person, fuenf Monate auseinander, in der haertesten Gattung: «Guten Morgen
+Albin,» — nicht «Geschätzter Albin». Die Kaelte steht im Gruss («Freundlich Grüsse»), im
+Vollnamen und im Schluss «Danke der Kenntnisnahme.».
+*Konkret:* Darf ich der Anlassgewicht-Klausel einen Satz vorschlagen: «Das Gewicht eines
+**Ergebnisses** oder einer **Bitte** hebt die Stufe; das Gewicht eines **Konflikts** hebt sie
+nicht — dort bleibt die Routine-Anrede, und die Distanz steht in Gruss und Unterschrift»?
+*Warum:* Die Klausel liest sich heute so, als ziehe jede folgenreiche Mail «Geschätzte/r». Beim
+naechsten Zahlungskonflikt wuerde der Zwilling genau falsch aufwaerts greifen. Deckt sich mit
+dem UGZ-Befund (Lars Hansen) und dem Fidelity-Befund 260910 (das Gewicht senkt auch); die Rule
+aendere ich nicht selbst.
+
+**#4 [Stimme] «2729mm» — ist die Planschreibweise fuer Masse Absicht?**
+Das Rohmass steht ohne Tausender-Apostroph und ohne Leerschlag, wie «15mm» und «3cm».
+*Konkret:* Gilt fuer Masse in Mails immer die Planschreibweise (Zahl und Einheit zusammen, kein
+Apostroph), auch vierstellig — und nur Franken und Flaechen bekommen den Apostroph?
+*Warum:* Der Zwilling setzt reflexhaft «2'729 mm». Mit einem Ja kann der Marker in den Do-Block.
+
+---

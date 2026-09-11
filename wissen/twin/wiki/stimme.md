@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-09-10
+last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -5588,6 +5588,9 @@ Golds: `rj@` Sent 03.08.2026 12:46 «re-00100.pdf» an Privera + Huwiler Service
 (Gold D, 28 W); 03.08.2026 12:30 «zahlungserinnerung-re-00101.pdf» an Fam. Tschopp (Gold E,
 26 W); 07.09.2026 12:37 «Unterzüge & Gesamtkosten» an Estermann + KISPI (Gold C, 108 W). Alle
 drei authentisch (D/E ohne Claude-Marker, C mit `ms-outlook-mobile-*`, also eigene Hand).
+⚠ *Nachtrag 11.09.2026 (Batch 119):* «also eigene Hand» stuetzt sich seit Batch 118 nicht mehr auf
+die Klasse — sie zeigt den Kanal, nicht den Autor. Die Einstufung von C bleibt vertretbar, traegt
+aber nur noch Fehlerdichte und Satzbau als Beleg.
 
 - **⭐ Die Rechnungs-/Zahlungsmail ist ein BAUSTEIN, kein frei formulierter Text.** Gold D und
   Gold E liegen **16 Minuten** auseinander und gehen an voellig verschiedene Empfaenger — eine
@@ -5780,3 +5783,51 @@ stammt aus Verdichtung an anderer Stelle (siehe Report). Zur Grenze selbst
 **Präzisierung gegenüber der Batch-82-Fassung:** dort stand «der Zwilling darf». Nach dem
 heutigen Messwert (Faktor 10) ist es keine Erlaubnis, sondern die **Zielform** — beim reinen
 Durchstellen einer fremden Lieferung ist alles ausser dem Zwei-Wort-Hinweis Füllmaterial.
+
+## Batch 119 (11.09.2026) — `rj@` + `mail@` Sent 09.09. 15:38 bis 10.09. 19:57 · das Inkasso-Du ist zweifach identisch, und der Apostroph gilt nicht dem Mass
+
+Sechs Golds, 254 Woerter, alle `authentisch` (fuenf ueber `rj@`, eines ueber `mail@`), dazu das
+Hub-Briefing des Tages als `claude-aera`-Kontrolle. Quelle `raw/260911-mailbatch-119.md`.
+
+- **⭐ Das Inkasso-Du steht jetzt zweimal in identischer Form (bestaetigt Mailbatch 40 oben).**
+  Dieselbe Person, dieselbe Gattung, fuenf Monate Abstand (14.04. und 10.09.2026): «**Guten
+  Morgen Albin,**» → harter Sachkern → «**Freundlich[e] Grüsse**» → **Vollname** «Raphael Jans».
+  Neu dazu der Schluss «**Danke der Kenntnisnahme.**» statt eines warmen Satzes — eine
+  Kanzleiformel, die den Rahmen schliesst, ohne ihn zu waermen. Der Marker aus Batch 40 ist
+  damit nicht mehr Einzelbeleg: in der Zahlungs- und Vertragseskalation an einen Du-Kontakt
+  bleibt die Anrede auf der Routine-Stufe, und die Kaelte kommt aus Gruss, Unterschrift und
+  Schlusssatz.
+- **⭐ Der Tausender-Apostroph gilt nicht fuer Planmasse — Erstbeleg vierstellig:** «UK Träger
+  Rohmass: **2729mm**» (Betreff, 10.09. 19:51). Kein Apostroph, kein Leerschlag. Der Apostroph
+  gehoert dem Franken- und Flaechenbetrag (1'824, CHF 50'000), das Millimetermass folgt der
+  Planschreibweise. Ergaenzt «Masse ohne Leerschlag» (Batch 118, «15mm»): auch die vierte
+  Stelle bleibt ohne Trennzeichen. Fuer den Zwilling: «2'729 mm» waere doppelt falsch.
+- **⭐ «Guten Morgen» ohne Namen im Sie, als ganze Anrede:** «Guten Morgen / Wir haben Ihnen alle
+  Pläne freigegeben. / Teilen Sie uns den Montagetermin mit. / Freundliche Grüsse» — 16 Woerter,
+  vier Zeilen, kein Name weder oben noch unten. Die Gegenseite hatte «Guten Morgen Herr Jans»
+  geschrieben; gespiegelt wird die Tageszeit, nicht der Name.
+- **Imperativ ohne «bitte» im Sie** («Teilen Sie uns den Montagetermin mit.») und der
+  **Einwort-Schluss** «bitte anpassen. **Danke.**» ohne Gruss und Unterschrift — beides an einen
+  Unternehmer, beides nach einer Freigabe bzw. Pruefung, die er bereits geleistet hat.
+- **Subjekt-Ellipse mit Doppelpunkt:** «**Habe sie gesehen:** S1 Gliss Federzugtüre wurde der
+  Stahl Träger 3cm höher montiert als in Ihren Werkpläne vermasst; bitte anpassen.» Das «ich»
+  faellt weg, der Doppelpunkt eroeffnet den Befund. Zwei Fehler im Befundsatz (Praeposition
+  fehlt, Dativ-n fehlt), dazu das getrennte Kompositum «Stahl Träger».
+- **Betonungs-Grossschreibung, drei weitere Faelle** (praezisiert Batch 118): «Verzug im
+  Terminplan **Bitte** ich Dich … zu kommunizieren» (Du, Adressat der Handlung — deckt sich) ·
+  «aller **Ausstehenden** Rechnungen» · «daraus **Resultierenden** Mehrkosten». Die zwei
+  Partizip-Adjektive stehen beide an **Geldwoertern**; ob das Betonung oder Telefon ist, bleibt
+  offen (→ [[QUESTIONS]] 260910 #2, dort bereits gefragt).
+- **«etwelcher» — Erstbeleg:** «keine Gut zu Ausführung **etwelcher** Gewerke». Schweizerisch-
+  kanzleisprachlicher Verstaerker, nur im Ultimatum. Nicht nachbilden ausserhalb dieser Gattung.
+- **«Beste Grüsse,» mit Komma, dann der Vorname allein** an den Bauherr-Partner Thalwil (06:23),
+  eine Stunde und 48 Minuten nach dem Ultimatum. Bestaetigt «Beste Grüsse» als Mittelstufe im
+  vertrauten Du (260820).
+- **Metrik:** Fliesstext **12.4 W/Satz** (118: 15.4, 117: 16.8 — kuerzer, weil vier von sechs Golds
+  unter 30 Woertern liegen), das Ultimatum allein **13.5**. Du-Gross-Quote **1.0** (5/5).
+  **Fehlerdichte 6.3 je 100 W** gegen **0** im Kontrollstueck, vierter Vergleich in Folge in
+  derselben Richtung; hoechster Einzelwert **12.0** in der Maengelruege, das Ultimatum um 04:35
+  bei **5.8**. Drei der sechs Golds ohne jeden Gruss.
+- **Werkzeug:** `stilmetrik.py` zaehlte die namenlose Anrede als «Guten Morgen\nWir» (Muster lief
+  ueber den Zeilenumbruch) und liess «Guten Tag <Name>» und «Freundlich Grüsse» als Null
+  durch. Repariert am 11.09.2026, siehe Kommentar im Skript.

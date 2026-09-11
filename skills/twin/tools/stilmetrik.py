@@ -24,12 +24,23 @@ import sys
 from collections import Counter
 
 DU_FORMS = ["Du", "Dich", "Dir", "Dein", "Deine", "Deiner", "Deinem", "Deinen", "Euch", "Euer", "Eure"]
-ANREDEN = [r"Hoi\s+\w+", r"Geschaetzter?\s+\w+", r"Gesch[aä]tzte?r?\s+\w+",
-           r"Guten\s+Morgen\s+\w+", r"Sehr\s+geehrte[rs]?\s+\w+", r"Liebe[rs]?\s+\w+",
+# 11.09.2026 (Batch 119): zwischen Anredewort und Namen steht jetzt [ \t]+ statt \s+.
+# Mit \s+ lief das Muster ueber den Zeilenumbruch: die NAMENLOSE Anrede «Guten Morgen»
+# wurde mit dem ersten Wort der Folgezeile als «Guten Morgen\nWir» gezaehlt — eine
+# erfundene Anrede statt der belegten Nullstufe. Dazu neu: «Guten Tag/Abend <Name>»
+# (seit Batch 117 mehrfach belegt, lief bisher als Null durch), die namenlose
+# Tageszeit-Anrede als eigene Stufe und «Hello/Hi <Vorname>» (Batch 118, Rule anrede-kontakte).
+ANREDEN = [r"Hoi[ \t]+\w+", r"Geschaetzter?[ \t]+\w+", r"Gesch[aä]tzte?r?[ \t]+\w+",
+           r"Guten[ \t]+(?:Morgen|Tag|Abend)[ \t]+\w+", r"Sehr[ \t]+geehrte[rs]?[ \t]+\w+",
+           r"Liebe[rs]?[ \t]+\w+",
            # «werter» — eigene Waermestufe im Sie-Register, belegt Batches 100 und 101
            # (21.08.2026); stand bis dahin nicht im Muster und blieb ungezaehlt.
-           r"[Ww]erte[rs]?\s+\w+"]
-GRUESSE = [r"Freundliche\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
+           r"[Ww]erte[rs]?[ \t]+\w+",
+           r"(?m)^Guten[ \t]+(?:Morgen|Tag|Abend)(?=[ \t]*,?[ \t]*$)",
+           r"\bHello[ \t]+\w+", r"(?m)^Hi[ \t]+\w+"]
+# 11.09.2026 (Batch 119): «Freundlich Grüsse» (fehlendes e, eigene Hand 10.09.2026 04:35)
+# traf das Muster nicht; e? macht den Tippfehler zaehlbar statt unsichtbar.
+GRUESSE = [r"Freundliche?\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
            r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse",
            # Kurzformen, belegt Batch 98 (17.08.2026): «Lgr» als knappste Gruss-Stufe
            # 27.08.2026 (Batch 106): «Lgr» stand seit Batch 98 im Muster und traf trotzdem

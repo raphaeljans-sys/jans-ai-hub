@@ -289,6 +289,10 @@ ist nicht automatisch eine zweite Hand am Text — er kann blosses Material sein
 selbst recherchiert und selbst einfügt. Die achte Falle gilt nur, wenn der eingesetzte Block
 tatsächlich fremder/Hub-Herkunft ist (hier belegt durch den Wrapper), nicht bei eigener
 Recherche ohne diesen Wrapper.
+⚠ **Nachtrag 11.09.2026 (Batch 119, nach Batch 118):** «belegt durch den Wrapper» reicht seit dem
+10.09.2026 nicht mehr allein. Der Wrapper zeigt den eingesetzten Block, nicht wer ihn einsetzt;
+eine Mail aus Raphaels eigener Hand trug ihn am 09.09.2026 ebenfalls. Die Hub-Herkunft braucht
+einen zweiten, inhaltlichen Beleg (Fehlerdichte des Blocks, Abgleich mit der Hub-Chef-Selbstmail).
 
 **Neunte Falle, neu 14.08.2026 (Batch 93) — der mechanische Grep hat einen BLINDEN KANAL: was der
 Hub selbst als Apple-Mail-Entwurf sendet, trägt keines der drei Muster.** Die drei harten Muster
@@ -571,6 +575,10 @@ vier über Apple Mail gesendete Mails, und sie trennen sauber:
 erzeugen** — die Restunsicherheit «setzt er je selbst Text als Block ein?» ist zwar nicht
 logisch ausgeschlossen, aber sie hat jetzt zwei Gegenbelege statt keinen. Der Marker bleibt
 Lokalisator; er ist als solcher aber deutlich belastbarer geworden.
+⚠ **Nachtrag 11.09.2026 (Batch 119):** die Restunsicherheit ist seit Batch 118 **positiv
+entschieden** — am 09.09.2026 trug eine Mail aus Raphaels eigener Hand den Wrapper (Gold A,
+`raw/260910-mailbatch-118.md` Befund 1). Er tippt also meist ohne, **kann** ihn aber erzeugen.
+Lokalisator bleibt richtig; als Ausschlusskriterium allein taugt er nicht mehr.
 
 **Das sauberste Kontrollpaar zum Wrapper, und ein zweiter, kostenloser Diskriminator: die
 SIGNATURFORM (neu 19.08.2026, Fidelity-Review).** Der Vorgang «2414 Thalwil / Näherbaurecht
@@ -859,6 +867,12 @@ Handsignatur «Daher **B**itte ich Dich uns der Typ … anzugeben»). Ihr Body t
 `<div>` ohne jeden Wrapper**. Raphael erzeugt HTML, sobald er in Apple Mail formatiert oder
 einfuegt. **Der Ausschluss laeuft ueber den `Apple-Mail-URLShareWrapperClass`, nicht ueber
 `contentType`** — das Feld ist die billige Vorentscheidung nach Gold, nie nach Echo.
+⚠ **Nachtrag 11.09.2026 (Batch 119):** «Der Ausschluss laeuft ueber den Wrapper» ist durch
+Batch 118 ueberholt — der Wrapper ist ein **Verdachtsgrund**, kein Ausschluss. Ausgeschlossen wird
+erst, wenn der Block inhaltlich nicht Raphaels Hand traegt (Fehlerdichte, Satzbau,
+Du-Grossschreibungs-Bruch) oder die Hub-Chef-Selbstmail des Tages ihn als autonome Aussendung
+fuehrt. Der Satz zu `contentType` bleibt richtig; Plaintext wird dabei **nicht** gekappt
+(Batch 119, Befund 2).
 
 **Gegenprobe zum `text-transform:none`-Kandidaten geliefert — er wird EINGEGRENZT, nicht
 aufgenommen ([[QUESTIONS]] 260820 #2 damit beantwortet).** Drei Messungen desselben Fensters:
@@ -980,6 +994,9 @@ sieben Apple-Mail-Kandidaten der Batches 95–98 nachgeprueft, **kein einziger t
 `contentType: text`**. Es ist kein Gold zurueckzuholen; die Zuordnungen jener Batches bleiben
 gueltig. Der Ausschluss lief dort ohnehin ueber den Wrapper, nicht ueber den Kanal — die
 Nachpruefung bestaetigt damit die Methode, nicht nur das Einzelurteil.
+⚠ **Nachtrag 11.09.2026 (Batch 119):** «die Methode bestaetigt» gilt nur bis Batch 118. Die
+Zuordnungen der Batches 95–98 bleiben stehen, weil sie neben dem Wrapper auch die Fehlerdichte
+trugen; eine kuenftige Zuordnung stuetzt sich nicht mehr auf den Wrapper allein.
 
 ## Schreibregeln für dieses Wiki
 

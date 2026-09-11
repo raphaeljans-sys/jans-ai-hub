@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-10
+last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -4415,6 +4415,15 @@ nicht die Person. Sobald Raphael eine Claude-Fassung vom Handy weiterschickt, ze
 auf Outlook Mobile und die Hand ist trotzdem nicht seine. Er ersetzt die Fehlerdichte nicht, er
 stützt sie — und er ist wertlos, sobald der Harness selbst Mails über Outlook Mobile stellt.
 
+⚠ **Widerlegt durch Batch 118 (10.09.2026), nachgetragen Batch 119 (11.09.2026):** die Tabelle
+oben trennt **Kanal**, nicht Autor. Am 09.09.2026 trugen eine Mail aus Raphaels eigener Hand und
+ein `claude-aera`-Stueck **beide** Klassen zugleich, weil beide Wege durch Apple Mail laufen. Die
+Zeile «`Apple-Mail-URLShareWrapperClass` → Claude-Entwurfsweg» gilt nicht mehr; der Wrapper
+markiert einen **eingesetzten Block** (Definition `CLAUDE.md`), gleich wer ihn einsetzt. Die
+Gewichtung wird inhaltlich entschieden: Fehlerdichte, Satzbau, Bruch der Du-Grossschreibung,
+Abgleich mit der Hub-Chef-Selbstmail des Tages. Quelle `raw/260910-mailbatch-118.md` Befund 1,
+Gegenprobe `raw/260911-mailbatch-119.md` Befund 16.
+
 ## Fidelity 260908 — dreistufige Freigabekette, Betreff als Inhaltsverzeichnis, leere Mail
 
 - **Die Freigabekette hat drei Stufen und drei Zustaendige (Gold A, 04.02.2026).** Pruefung
@@ -4653,3 +4662,45 @@ schlechter aussehen lässt.
 gemessen (Befund 8 vom 09.09.: die Rechenkette weggelassen statt beschafft), hier erscheint sie
 als Verlängerung: wo Inhalt fehlt, wird Form ergänzt. Beides ist dieselbe Weigerung, eine Mail
 so knapp stehen zu lassen, wie ihr Anlass es zulässt.
+
+## Batch 119 (11.09.2026) — ⭐ Zwei Konten, und die Betreff-Mail wird zum Baustellenrapport
+
+Quelle `raw/260911-mailbatch-119.md`, 09.09.–10.09.2026, `authentisch`.
+
+- **⭐⭐ Korpus-Methodik: Raphael sendet ueber ZWEI Konten, und das zweite traegt die haertesten
+  Mails.** Das Zahlungs- und Vertragsultimatum vom 10.09.2026 04:35 steht in `mail@` Sent Items,
+  nicht in `rj@`. Der `mail@`-Strang wurde mit Batch 79 (27.07.2026) als «nahezu vollstaendig
+  gesichtet» geschlossen und nie vorwaerts gefuehrt; seither liegen dort sieben Sent Items,
+  darunter zwei Geld- und Vertragsmails an die Bauherrenseite. **Ab Batch 120 wird jedes Fenster
+  auf beiden Konten gezogen**; der Nachholbedarf 27.07.–09.09. ist im Register vermerkt
+  (`raw/_INGESTED.md`, Batch 119). Gleiche Familie wie die Rule `wege-und-vollmachten`: ein
+  Kanal, den niemand mehr ansieht, liefert trotzdem.
+- **⭐ Werkzeug: der Connector kappt Plaintext nicht — die Selbstnotiz war ein echtes
+  Fragment.** Das Ultimatum ist `contentType: text` und kommt vollstaendig bis zur Unterschrift
+  zurueck; die Notiz «Dringend» vom 09.09. endet in Absender- **und** Empfaengerkopie identisch
+  nach 285 Zeichen mitten im Wort. Schliesst [[QUESTIONS]] 260910 #5. Die Notiz war damit
+  abgeschickt, bevor sie fertig war — ein Geraete-Zwischenspeicher, der mitten im Tippen
+  gesichert wurde.
+- **⭐ Die Betreff-Mail mit Baustellenfoto als Abendrapport (19:51 und 19:57):** «S1, UK Träger
+  Rohmass: 2729mm» an den Unternehmer, «Fabian; Bitte Träger ggf ELE Anschlüsse installieren;
+  anschliessend Othmar/Estermann zum schliessen beauftragen» an die Bauherrenseite. Body leer,
+  je ein Handyfoto, sechs Minuten Abstand. Bestaetigt «der Betreff traegt die ganze Nachricht»
+  (vier Belege Maerz 2026, Fidelity 260908) und erweitert ihn: **Vokativ im Betreff**,
+  **Semikolon-Arbeitsfolge im Betreff**, **Foto als Beleg** statt Anhang-Dokument. Erst das Mass
+  an den Ausfuehrenden, dann die Reihenfolge an den Auftraggeber.
+- **⭐ Die Freigabe wird mit Beleg voraus uebermittelt:** 11:16 die Stempelseite der
+  Bauherrenseite wortlos an den Unternehmer, **sieben Minuten spaeter** die Zeile «Wir haben Ihnen
+  alle Pläne freigegeben. Teilen Sie uns den Montagetermin mit.» Erst der Beleg, dann die
+  Mitteilung, dann der naechste Schritt (Montagetermin) als Auftrag an die Gegenseite. Verwandt
+  mit «Freigaben werden delegiert, nicht selbst erteilt» (Batch 117).
+- **Die Maengelruege bekommt den Folgeunternehmer still ins «An»:** er muss nichts tun, aber er
+  soll wissen, dass der Traeger zu hoch sitzt, bevor er schliesst.
+- **Nullform-Weiterleitungen, zwei weitere Belege:** die Bauherrenfreigabe an den Unternehmer,
+  das Genehmigungsschreiben der Feuerpolizei an die Bauherrenseite. Kein Wort, kein Gruss, kein
+  Name (bestaetigt Fidelity 260910).
+- **⚠ Nachtrag zum Abschnitt «Geräte-Trennung ersetzt den verbrannten `_ `-Bullet» (Batch 116)
+  weiter oben:** durch Batch 118 widerlegt, heute gegengeprueft. Die eigenen Mails dieses Tages
+  tragen **keine** der beiden Klassen (nackte `<div>` aus Apple Mail) oder die Outlook-Mobile-
+  Klasse, das Hub-Briefing traegt den Wrapper. Das deckt sich mit der korrekten Definition in
+  `CLAUDE.md` («eingesetzter Block», Lokalisator), nicht mit der Tabellenzeile «Claude-
+  Entwurfsweg». Gewichtung weiter inhaltlich.

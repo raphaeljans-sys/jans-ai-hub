@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-09-10
+last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1714,3 +1714,36 @@ stellen sich zwischen die Zahl und den Empfänger.
 Der Marker «die administrative Fachsprache des Gegenübers übernehmen» (→ [[fachsignatur]],
 260805/260806) gilt den **Registerdaten** — Aktenzeichen, Formularbegriffe, Bezeichnungen —,
 nicht dem Verb des Sachverhalts. Nicht kompiliert (Byte-Riegel), hier belegt.
+
+## Batch 119 (11.09.2026) — Das Ultimatum ist eine Konditional-Kaskade, und jede Stufe koppelt Bedingung und Folge
+
+Quelle `raw/260911-mailbatch-119.md`, 10.09.2026, `authentisch` (Konto `mail@`, 04:35 Uhr).
+
+- **⭐ Sieben Stufen, keine Drohung in einem Satz.** Die Zahlungs- und Vertragsmail an die
+  Bauherrenseite baut sich auf: **Frist** («Teile mir bis heute Abend 17:00 Uhr mit, wann das
+  Transaktionsdatum der offenen Rechnungen ist.») → **Kondition** (kuenftig nur auf Vorkasse,
+  Grundlage das eigene Angebot, «kein Abgebot», «mein letztes Angebot») → **Leistungsstopp mit
+  dreigliedriger Bedingung** («Bis zur Unterzeichnung des Vertrages, Bezahlung aller Ausstehenden
+  Rechnungen und Leistung der Vorauszahlung werde ich keine Gut zu Ausführung etwelcher Gewerke
+  kommunizieren.») → **Folgen der Gegenseite zugewiesen** (Verzoegerung, Mehrkosten, Verzug «Bitte
+  ich Dich intern sowie mit den Unternehmern direkt zu kommunizieren») → **Abwesenheit ohne
+  Vertretung** → **zweite Frist mit Konsequenz** («Sollte bis Ende meiner Ferien (KW39) keine
+  Klärung der Auftragslage vorliegen (…) werde ich mich offiziell aus dem Planungsteam
+  verabschieden.») → **Uebergabe nur bis zum bezahlten Stand**. Der DNA-Kern «Konditional:
+  Bedingung + Folge + Aufwand koppeln» steht hier als Druckmittel; die Signatur-Phrase «Solltest
+  Du … muesste ich …» erscheint unpersoenlich («Sollte … keine Klärung … vorliegen … werde ich»).
+  Fuer den Zwilling: ein Ultimatum im JANS-Ton ist eine Kette pruefbarer Bedingungen mit Datum,
+  keine Tonverschaerfung.
+- **⭐ Die Bedingungen werden in der Klammer wiederholt, damit sie nicht ausgelegt werden
+  koennen.** Die dreigliedrige Bedingung steht zweimal: im Leistungsstopp als Fliesstext und in
+  der Austrittsdrohung als Klammer «(Unterzeichneter Vertrag, Begleichung aller offenen
+  Zahlungen, Leistung der Vorauszahlungen)». Dieselbe Redundanz als Missverstaendnis-Schutz wie
+  die zweimal verortete Mengenangabe (Batch 118), hier fuer eine Rechtsfolge.
+- **⭐ Der Befund wird als Soll gegen Ist mit Mass gefuehrt, dann die Handlung, dann Schluss:**
+  «Habe sie gesehen: S1 Gliss Federzugtüre wurde der Stahl Träger **3cm höher montiert als in
+  Ihren Werkpläne vermasst**; bitte anpassen. Danke.» Beobachtung, Abweichung mit Zahl und
+  Bezugsdokument, Auftrag im Infinitiv — ein Satz mit Semikolon.
+- **Die Arbeitsreihenfolge wird als Semikolon-Kette mit «anschliessend» gefuehrt:** «Bitte Träger
+  ggf ELE Anschlüsse installieren; **anschliessend** Othmar/Estermann zum schliessen beauftragen».
+  Bedingtes Zwischengewerk («ggf»), dann das Schliessen durch das Folgegewerk — die Gewerkefolge
+  in einer Zeile.
