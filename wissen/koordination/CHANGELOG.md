@@ -2,6 +2,23 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-11 (Synergie-Lauf 34, Tagestakt) — ein Loop war nie verschwunden, nur auf der anderen Station; und «0 Treffer» war das Suchmuster
+
+Delta-Basis 10.09.2026 17:10, 117 Commits, kein neuer Baustein, sechs geaenderte plus vier neue
+Mini-Task-Spiegel. Bericht: `outputs/2026-09-11_synergie-lauf-34.md`.
+
+- **SYN-76 in der Hauptsache widerlegt:** `bauleitung-training` liegt seit 07.09. 16:04 in der
+  Registry des Mac Mini. Aktion Raphael «Task anlegen» zurueckgenommen (Doppellauf-Gefahr),
+  Nachtraege in `logbuch/fristen.md` und `rules/betrieb-chronik.md` 260907; Rest: Lauf 08.09.
+  ohne Spur, Gegenmessung 14.09.
+- **SYN-81 verbreitert:** 6 von 12 Mini-Prompts mit git-Anweisung ohne `nas-commit-now`
+  (u.a. aktiver `grobkosten-training`); vor der zweiten V0+-Welle zu korrigieren. Fristen nachgetragen.
+- **SYN-80 nachgefuehrt:** Satzbau-Check (d) im Review uebernommen, SYN-78-Zeiger gestrichen,
+  zweite Schadensmessung, siebter Lauf. Fristen nachgetragen.
+- **SYN-83 neu (Prio 3):** WEGE-Diagnose zu `m365-graph.mjs` widerlegt (Abbruch in 0 s ohne
+  Zertifikat); Unterpunkt in `connectors/WEGE.md` gesetzt, Zeitdeckel im Werkzeug offen.
+- Schreib-Kontrolle: alle Edits anker-basiert, keine Zeile entfernt.
+
 ## 2026-09-10 (Lauf 57, Abendlauf) — die Bauherren-FAQ nannte fuer ZH das falsche Verfahren, und eine Cross-KB-Korrektur war im Zielartikel nur halb angekommen
 
 Zuschnitt: 7 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 56, je Melder ein adversarialer

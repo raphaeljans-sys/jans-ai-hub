@@ -3320,3 +3320,13 @@ ein Feld zu editieren, um einen Widerspruch zu heilen, kann einen produktiven Lo
 (Merksatz `vollgas-chef-radar`). Gleiche Familie wie Rule `auto-verbesserungen` 260807: dort
 widerspricht ein Konfigurationsfeld dem Betrieb, hier fehlt die Task ganz. Vorgelegt in
 `logbuch/fristen.md`, Eintrag 07.09.2026 17:2x.
+
+⚠⚠ **Nachtrag 11.09.2026 (Synergie-Lauf 34): der Gegenbefund darueber ist in der Hauptsache falsch — die
+Task existiert, in der Registry des Mac Mini.** `ssh mini` (lesend) zeigt
+`~/.claude/scheduled-tasks/bauleitung-training/SKILL.md`, angelegt 07.09.2026 16:04:51. Die Messung um
+17:2x sah nur die Registry des MacBook Pro; jede Station hat ihre eigene, und `list_scheduled_tasks`
+zeigt nur die lokale. Falsch ist damit auch der Titel dieses Eintrags («Scheduled Task MacBook Pro»)
+und die Ablage des Spiegels unter `templates/scheduled-tasks/macbook-pro/`. **Wer einen Loop
+gegenmisst, misst beide Registries.** Offen bleibt nur: der erste planmaessige Lauf (Mo 08.09.
+04:20) hat keine Spur hinterlassen; Gegenmessung Mo 14.09.2026. Belege: SYN-76 Nachtrag Lauf 34,
+`logbuch/fristen.md` Befund 07.09. mit Nachtrag.

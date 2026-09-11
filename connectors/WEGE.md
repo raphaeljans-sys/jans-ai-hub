@@ -1102,6 +1102,13 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   Minuten, Abbruch nur per `pkill`). Ein ausbleibendes Ergebnis ist hier eine Aussage über das
   fehlende Zertifikat, nicht über SharePoint. Vor jedem Graph-Aufruf auf dieser Station zuerst
   `ls ~/.cli-m365-cert-combined.pem`.
+  - ⚠ **Nachtrag 11.09.2026 (Synergie-Lauf 34, SYN-83): die Ursache ist ungeklaert, das fehlende
+    Zertifikat ist es nicht.** Das Script prueft die PEM vor dem ersten Netzaufruf und bricht mit
+    «FEHLER: Zertifikat fehlt …» ab (`zertifikatLesen()`, Z. 47-52; seit der Fassung vom 09.08.).
+    Gegenprobe 11.09. auf dem MacBook Pro mit leerem `HOME`: Abbruch in 0 s, kein Haenger.
+    Plausibler Kandidat, nicht belegt: die drei `fetch`-Aufrufe (Z. 120, 146, 168) haben keinen
+    Zeitdeckel. Die `ls`-Probe schadet nicht, schuetzt aber nicht vor einem Netz-Stall; fuer einen
+    Deckel `perl -e 'alarm N; exec @ARGV' -- node connectors/m365-graph.mjs …` (Punkt unten).
 - `ssh mini` (BatchMode, Schlüssel-Login) trägt von dieser Station wieder; die Sackgasse vom
   23.08. («scheitert, Mini offline») ist beendet. Regelmässig gegenmessen statt fortschreiben
   (`auto-verbesserungen` 260807, Spiegelfall). Über den Mini stehen Zertifikat und CLI bereit
