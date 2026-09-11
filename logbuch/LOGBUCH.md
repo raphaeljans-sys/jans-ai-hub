@@ -3,6 +3,25 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 11.09.2026 (08:39 bis 08:4x, Tagesbriefing gesendet) — KISPI schweigt ueber die Frist hinaus, die Samstagsbestaetigung ist heute faellig, LOS 281.21 laeuft direkt ueber KISPI
+
+**Pflichtlektuere:** Radar-Abschnitt 11.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut** (sechster Tag in Folge), obwohl der Monitor lief: sein Eintrag steht in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` (11.09. 07:30), im Fristen-Register (KRITISCH P1, Z. 83) und im Commit `2fb443a9f`; Befund unveraendert (Kapitaleinzahlung 28 Tage ueber Soll, Notariat 29 Tage stumm). Der methodische Vorbehalt vom 10.09. zur Monitor-Verifikation («0 .emlx seit 31.08.») gilt weiter. Konversations-Destillat `260911-konversationen.md` gelesen: kein neues Gespraech, dritter Tag.
+
+**Befunde nach dem Radar-Lauf:**
+
+1. **Terminplan Jegen erledigt:** rj@ sendet 08:36:56 das PDF `260902_Realisierungstermine_KISPI.pdf` direkt an L. Bajrami (Liefertermin Kuechenelement KW 40); die interaktive Session von 08:3x hat Bajrami zudem als Site-Mitglied aufgenommen (Register-Nachtrag dort, Commit `dc91e95d3`).
+2. **KISPI weiter stumm:** Graph-Suche Absender `kispi.uzh.ch` ab 10.09. 16:00 CEST: keine Mail (Stand 08:44). Frist 10.09. 17:00 verstrichen, Samstagsbestaetigung heute faellig; Kalender 19.09. unveraendert 08:00, kein Ferienblock.
+3. **LOS 281.21 Linoleum: Eingabefrist 11.09. gegenstandslos.** F. Wuersch hat am 27.08. 07:30 den Boden Kueche 2.339 (optional HWR) direkt bei INEVO (daniel.simmen@inevo.ch) angefragt, Ausfuehrung 21.09. bis 01.10.; das JANS-Dossier ging nie hinaus (Graph Empfaenger/Absender `inevo.ch` ab 20.08.). Die zwei LV-Vorbehalte (FB70/FB56) liegen INEVO nicht vor.
+4. WeTransfer «260814_BSP_SN» an M. Gantenbein laeuft am 12.09. ab; durch die Genehmigung Lueftung vom 10.09. gegenstandslos, kein Handlungsbedarf. iCloud-Speicher voll (08:10, privat).
+
+**A4 ausgefuehrt — Fristen-Register:** Nachtrag LOS 281.21 am Dateiende angehaengt; Diff gegen Kopie 2 Zeilen hinzu, 0 entfernt.
+
+**Keine weiteren Aktionen:** kein A2 (19.09. existiert, Uhrzeitaenderung bleibt Vorschlag), kein A5-Nachfass an Spahic (die Folge der verstrichenen Frist entscheidet RJ selbst), GLAESER-Entwurf vom 10.09. weiterhin unversandt. **bexio** `--verzug` 401 (Tag 34), `--abgleich` nicht gefahren, Guard A1 nicht erfuellbar.
+
+**Pflichtpruefungen:** `freigabe-status.sh --kurz` mac-mini 0 · macbook-pro 0 (rc 0); `--briefing` keine Eintraege ab 12 h; `stationen-watchdog.sh --briefing` alle Stationen fristgerecht (rc 0). Queues `sync-tasks/{macbook-pro,mac-mini,freigabe}` leer. Mail-Vorfilter 26 h rc 0 (274 Zeilen).
+
+**Briefing gesendet:** 11.09.2026 08:44:43 an rj@raphaeljans.ch ueber Weg 1 (Apple Mail, Konto Exchange), Betreff «Hub-Chef 11.09.2026: KISPI schweigt über Deine Frist hinaus, die Samstagsbestätigung ist heute fällig, der Linoleum-Boden läuft direkt über KISPI», Quelltext 2941 Zeichen, in den Gesendeten per Graph gegengemessen (Body nicht leer). QS: `rechtschreibung` gelb, `layout` gelb, beide nur «Stand 08:5x» als Platzhalter → auf 08:44 gesetzt; «GLAESER AG» als belegte Firmenschreibweise belassen. Sendegrund: Frist heute (Samstagsbestaetigung), verstrichene eigene Frist, Geld (SVA, bexio, AG), Registerkorrektur mit Ausfuehrung in den Ferien.
+
 ## Radar-Briefing 11.09.2026 (06:5x): Deine 17-Uhr-Frist an Spahic ist ohne Antwort verstrichen, die Feuerpolizei hat die Lüftung genehmigt, und die SVA hat eine neue Rechnung gestellt
 
 **Drei Dinge zuerst.** Erstens: Auf Deine Eskalation vom 10.09. 04:35 ist bis heute 06:56 keine Antwort zum Transaktionsdatum der offenen Rechnungen eingegangen, weder von Albin Spahic noch von der Kreditorenabteilung. Heute ist zudem die Bestätigung von KISPI für den Samstagseinsatz 19.09. fällig, und auch sie fehlt. Was aus der verstrichenen Frist folgt, entscheidest Du. Zweitens: Die Feuerpolizei hat die Lüftung genehmigt, Auflage Ziff. 21 des Bauentscheids 1171/26 ist mit Anmerkungen erfüllt. Drittens: Livdin Bajrami kann den Terminplan, den Du ihm gestern geteilt hast, nicht öffnen.
