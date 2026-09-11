@@ -3,6 +3,57 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 11.09.2026 (06:5x): Deine 17-Uhr-Frist an Spahic ist ohne Antwort verstrichen, die Feuerpolizei hat die Lüftung genehmigt, und die SVA hat eine neue Rechnung gestellt
+
+**Drei Dinge zuerst.** Erstens: Auf Deine Eskalation vom 10.09. 04:35 ist bis heute 06:56 keine Antwort zum Transaktionsdatum der offenen Rechnungen eingegangen, weder von Albin Spahic noch von der Kreditorenabteilung. Heute ist zudem die Bestätigung von KISPI für den Samstagseinsatz 19.09. fällig, und auch sie fehlt. Was aus der verstrichenen Frist folgt, entscheidest Du. Zweitens: Die Feuerpolizei hat die Lüftung genehmigt, Auflage Ziff. 21 des Bauentscheids 1171/26 ist mit Anmerkungen erfüllt. Drittens: Livdin Bajrami kann den Terminplan, den Du ihm gestern geteilt hast, nicht öffnen.
+
+### Erledigt seit gestern
+
+1. **Lüftung KISPI genehmigt.** Schreiben der Feuerpolizei vom 10.09. (Markus Gantenbein), um 13:26 an Jens Ziegel mit Kopie an Dich. Geprüft wurden der Lüftungsplan 1.OG und die Strangschemata LS036 und LS032. Anmerkungen: die Brandfallsteuerungen sind auf das neue Lüftungskonzept anzupassen, und Abweichungen sind vor der Ausführung zu melden. Du hast das Schreiben um 13:28 an Spahic, Spörri und Würsch weitergeleitet; damit ist auch Spahics Frage von 09:04 beantwortet. In der Weiterleitung fehlt die Lüftungsplanung (Cekdar Duran, Gruner), und Ziegel ist erst am Montag zurück.
+2. **Türe 01.2.339.1 freigegeben.** Du hast Jegen am 10.09. um 11:23 die Freigabe erteilt, gestützt auf die gestempelten Pläne von Fabian Würsch. Offen ist nur noch, was bei Dritten liegt: der Montagetermin und die Werkplankorrektur S1 (Träger 3 cm höher, UK Träger 2'729 mm) bei Jegen, die ELE-Anschlüsse am Träger und danach der Auftrag an Estermann bei KISPI.
+
+### Überfällig
+
+1. **KISPI, Frist 10.09. 17:00 ohne Antwort; Bestätigung Samstag heute fällig.** Angekündigt hattest Du Vorkasse, keine Freigaben an Gewerke bis Vertrag und Zahlung, und den Rückzug aus dem Planungsteam, falls bis KW39 keine Klärung kommt. Im Kalender stehen weiterhin kein Ferienblock und der 19.09. auf 08:00 statt 06:30.
+2. **bexio, Tag 34 ohne Zugang.** Heute erneut HTTP 401. Fünf offene Rechnungen über CHF 51'400.00 (Stand 08.08.) sind unverifiziert, die älteste RE-00087 (KISPI, CHF 15'000.00). Das ist dieselbe Lücke, wegen der Du das Transaktionsdatum bei KISPI erfragen musst. Ohne Entscheid stellt bexio am 08.10. auf Advanced um.
+3. **Kapitaleinzahlung AG, CHF 50'000.00, 28 Tage über dem Soll-Termin 14.08.** Kein Eingang von UBS, Notariat oder Handelsregister; das Notariat schweigt seit dem 13.08.
+4. **SVA Zürich: neue Beitragsrechnung, alte Mahnung ungeklärt.** Heute 06:33 meldet AHVeasy eine Beitragsrechnung (Abr.-Nr. 10.186.825), ohne Betrag und Fälligkeit in der Mail. Die Mahnung wegen ausstehender Zahlung vom 05.08. liegt seit 37 Tagen ungeöffnet im Portal. Beide Dokumente sind nur mit Deinem Login einsehbar.
+5. **new copy store, 2. Mahnung CHF 22.45, mit Berichtigung.** Die Adresse Saumstrasse 21 ist keine fremde Adresse, sondern Deine Liegenschaft bei der Verwaltung Salzmann; die gestrige Annahme, die erste Mahnung sei nie angekommen, war falsch. Offen bleibt die Zahlung.
+
+### In den nächsten 7 Tagen
+
+1. **Heute:** Terminplan für Jegen neu teilen. Bajrami schreibt um 06:37, der SharePoint-Link vom 10.09. 14:02 lasse sich nicht öffnen; er braucht ihn für den Montagetermin.
+2. **Heute:** Stefan Tschopp hatte für heute um einen Austausch gebeten; Dein Rückrufangebot steht, ein fixer Termin nicht.
+3. **Heute:** Die Absage an die GLAESER AG (LOS 273.35) liegt seit gestern als Entwurf bereit, versandt ist sie nicht.
+4. **Samstag 12.09., privat:** Monte-Rosa-Hütte; Berg+Tal hat die letzten Informationen geschickt.
+5. **Montag 14.09., 09:15 bis 09:45:** Abgleich Umbau PPTS mit Cornelia Schäfer, Claudia Allerkamp und Albin Spahic (Teams). Fällt in die angekündigten Ferien.
+6. **Mittwoch 16.09.:** Abrechnung Steinbrüchelstrasse, falls bis dahin keine Rückmeldung kommt; Kostendach CHF 1'800.00 exkl. MwSt. nach Aufwand, Rechnung an 1291 Die Schweizer Anlagestiftung, vertreten durch Nova, Aaron Tonet, Pfäffikon SZ.
+7. **Donnerstag 17.09., 13:00 bis 14:00:** Koordinationssitzung Gruner, Jans und KISPI. Ebenfalls in den Ferien.
+8. **Freitag 18.09.:** Vorleistungen abgeschlossen (Mobiliar draussen, Boden mit Hart-Pavatex geschützt).
+9. **Samstag 19.09., ab 06:30:** Umbau Schiebetüre und Einbau RHS durch Estermann.
+
+### In Beobachtung
+
+1. **Nova, neu:** Aaron Tonet schreibt am 10.09. um 12:16, nach Auskunft des Nova-Anwalts brauche die Verlegung der Hauptabwasserleitung auf WI1585 keine Einwilligung der Berechtigten (Art. 693 ZGB), mit dem Vorbehalt, der konkrete Fall sei noch zu prüfen. Dein Bericht sagt das Gegenteil; eine Antwort verlangt er nicht.
+2. **Steinbrüchelstrasse:** AfB-Bestätigung zu den Reduits, Kanalisationskataster, Anmeldung Wegrecht WI3366 bis 08.10.
+3. **Feuerpolizei:** Stellungnahme und Brandschutzkonzept von Gruner, Ziegel ab Montag zurück.
+4. **KISPI und Jegen:** Freigabe innere Verglasungen durch Würsch, Verschalung Jegen (CHF 1'050.00), Nachtrag Estermann (CHF 4'785.00), Vertragsbasis HOP2.
+5. **Thalwil:** Zustellung PDF und DXF an Josef Posch samt Bereinigung der zwei gerügten Planfehler.
+6. **Albertstrasse 7:** Roman Steinmann bis 21.09. abwesend.
+7. **Notariat:** Alternative zum Firmennamen.
+8. **MacBook Pro:** die OneDrive-Bereinigung wartet auf Deinen Terminal-Lauf.
+9. **Claude-Konto:** am 10.09. um 21:42 wurde ein neuer Passkey hinzugefügt; falls nicht von Dir, sofort prüfen.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen. Erstens ein Ferienblock ab Montag 14.09. über zwei Wochen. Zweitens den Termin am 19.09. von 08:00 auf 06:30 verschieben. Drittens Mittwoch 16.09. «Abrechnung Steinbrüchelstrasse, 1291 Anlagestiftung».
+
+### Token-Tempo
+
+Vortag 10.09.: MacBook Pro 165.6 Mio Tokens (134.24 USD API-Äquivalent), Mac Mini 48.5 Mio Tokens (25.39 USD), zusammen 214.1 Mio Tokens und 159.63 USD.
+
+**Laufvermerk 2026-09-11 (Journal):** Register 1 erledigt (Genehmigung Lüftung), 3 neu (Terminplan-Link Jegen, Tonet Art. 693 ZGB, SVA-Beitragsrechnung), 1 Berichtigung (Saumstrasse 21), 2 Nachträge (KISPI-Frist, bexio Tag 34); 14 Zeilen angehängt, 0 entfernt. Quellen: Konversations-Destillat 260911 (kein neues Gespräch, dritter Tag), alle sechs Apple-Mail-Konten 26 h (outlook.com ohne Eingang), Outlook-Kalender bis 19.09., bexio, Sync-Queues leer. QS: `rechtschreibung` grün, `layout` rot und umgesetzt (Beobachtung gegliedert, Betrag vereinheitlicht; «06:5x» als Logbuch-Konvention belassen). Keine eigene Mail: der Hub-Chef hat am 10.09. um 08:48 gesendet, und kein Punkt verlangt Handeln vor 08:39.
+
 ## Hub-Chef 10.09.2026 (08:39 bis 08:5x, Tagesbriefing gesendet) — Ziegel faellt die Woche aus, Jegen verlangt eine Freigabe trotz Aussetzung, der 19.09. steht auf 08:00
 
 **Pflichtlektuere:** Radar-Abschnitt 10.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut** (fuenfter Tag in Folge), obwohl der Monitor lief: sein Eintrag steht in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` (10.09. 07:30) und im Fristen-Register; Befund unveraendert (Kapitaleinzahlung 27 Tage ueber Soll, Notariat 28 Tage stumm). Methodischer Vorbehalt zum Monitor: seine Verifikation «0 .emlx-Dateien seit 31.08.» ist fuer das ganze Mail-Verzeichnis unplausibel und eher eine Aussage ueber das Werkzeug (TCC/Pfad) als ueber die Postfaecher; die Gegenprobe des Radars ueber beide Postfaecher traegt den Befund. Konversations-Destillat `260910-konversationen.md` gelesen: kein neues Gespraech im Fenster.
