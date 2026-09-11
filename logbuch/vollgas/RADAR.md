@@ -53,6 +53,48 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-12 00:58 — [FREI] **Erster Radar-Lauf auf dem Mac Mini (Umzug der Aufsicht, V0+). Kein Delta-Null-Loop. Der P1 zum Zufluss in `architektur-fachwissen` ist entschärft: die Mini-Nachtschicht hat am 11.09. zwei Einträge geliefert. Rückstand jetzt -37.5 Punkte.**
+
+**Umzug.** Das ist der erste Lauf der Mini-Fassung. Der letzte Eintrag (11.09. 12:57) stammt noch vom
+MacBook-Radar; dass er vom MacBook kommt, ist also kein Ausfall. Die MacBook-Fassung hat um 00:50 **nicht** gefeuert:
+Das MacBook ist wach und die App läuft (PID 90185), trotzdem gibt es seit 21:39 keine neue Session im Projekt-Transkriptordner und
+keinen Parallel-Eintrag in dieser Datei. Einen Doppellauf des Radars beobachte ich damit nicht. Ob Raphael die
+MacBook-Fassungen von heartbeat-daily, vollgas-fruehwarnung und vollgas-chef-radar in der App
+deaktiviert hat, lässt sich von hier aus nicht lesen (die Ordner liegen dort weiter, Chronik 260911b R11).
+Die Frühwarnung um 06:25 zeigt, ob sie doppelt läuft.
+
+**Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink 11.09. 05:15)
+rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, danach keine Waisen. Kontingent **27.3 %** von
+167 Mio bei **64.9 %** verstrichener Woche, Vorsprung **-37.5 Punkte** (MacBook 32.23, Mini
+13.42 Mio; beide Stationsdateien frisch). Ampel FREI, keine Drossel. Speicher Mini: Druckstufe 1,
+rund 11.5 GB frei+inaktiv+purgeable (vm_stat, 16-KB-Seiten).
+
+**Liefer-Delta seit 11.09. 12:50 (über git, ohne CHANGELOG/INDEX):** energie 9, architektur-fachwissen
+3, koordination 2, je 1 claude-code, kunde-bopp, normen (SIA 180, 23:00). twin 0 im Fenster (letzte
+Lieferung Fidelity 11.09. 06:06; bei Tagestakt nach einem einzigen Fenster noch kein Befund). Weitere
+Sachcommits: Systemanalyse Hub-Architektur samt Vertiefung, V0+-Vorarbeit, Synergie-Lauf 34,
+Rollen-Bilanz auf Lauf-Journal umgestellt. Beide Mini-Dispatches (13:36, 23:35) mit rc=0.
+
+**Feuermechanismen.** Mini: `ch.jans.nachtschicht` geladen, `vollgas-supervisor` nur als
+`.disabled-260729`, nicht geladen. MacBook: beide `vollgas-*`-plists `.disabled-260729`, nicht geladen.
+Die Mini-Registry hat zehn Einträge, sechs davon aktiv: energie-training, claude-abo-auslastung,
+bauleitung-training, heartbeat-daily, vollgas-fruehwarnung und dieser Radar. Die Registry stimmt mit
+dem neuen Sollstand überein. Keine Doppelfeuerung eines Lern-Loops.
+
+**Selbstkontrolle.** Letzter Eintrag 11.09. 12:57, dieser Lauf 00:58: 12 h bei 12 h Takt und 15 h
+Toleranz. `lastRunAt` der eigenen Task (22:58Z) deckt sich mit diesem Lauf.
+
+**P1 → P2 herabgestuft (Zufluss `architektur-fachwissen`):** Nach 7.6 Tagen Stillstand hat die
+Nachtschicht Priorität 5 am 11.09. geliefert: den neuen Artikel zur Baumschutz-Fällbewilligung in
+Zürich (#79 geschlossen, `status: emerging`) und den Nachtrag #10 zur VKF-Ausgabe. Beides kam aus
+Web-Recherche und Querprüfung, **nicht aus dem Korpus**. Die Korpus-Destillation (Inventare
+`buero-referenzen`/`archiv-fachwissen`) steht weiter. Die Vorlage vom 10.09. mit den Wegen (a)
+bis (c) bleibt deshalb offen, aber ohne Blocker-Rang.
+**P2:** Rückstand -37.5 Punkte (Vorlauf -32.3). Rund ein Drittel des Wochenbudgets bleibt bis zum
+Reset am Montag 12:00 voraussichtlich ungenutzt. Keine Mail (kein Sendegrund nach 260803).
+**P3:** Die Deaktivierung der drei MacBook-Fassungen in der App ist unbestätigt (siehe Umzug). Die
+station-03 ist in Schritt 3 weiterhin nicht erfasst.
+
 ## 2026-09-11 12:57 — [FREI] **Regellauf ohne neuen Befund. Alle Lern-Loops haben geliefert, kein Delta-Null-Loop. Rückstand wächst auf -32.3 Punkte; P1 (Zufluss `architektur-fachwissen`) unverändert, jetzt 7.6 Tage.**
 
 **Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **6 s** (fünfter Lauf in Folge
