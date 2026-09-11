@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 07:11:15
+Stand: 11.09.2026 07:21:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 07:11:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4e58401b8 logbuch-radar 2026-09-11: Register (Genehmigung Lüftung erledigt, KISPI-Frist verstrichen, Jegen-Link, Tonet Art. 693, SVA, Berichtigung Saumstrasse) + Radar-Briefing
+- 051003d42 vollgas-fruehwarnung 2026-09-11: Log-Eintrag ohne Meldekriterium (teuer 10.09. 10.37 Mio beide Stationen, 0 Limit-Ereignisse, Briefings ok, Radar frisch, Destillat-Stillstand ohne Verbrauch)

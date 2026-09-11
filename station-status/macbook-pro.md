@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.09.2026 07:16:17
+Stand: 11.09.2026 07:26:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:03)
@@ -12,4 +12,4 @@ Stand: 11.09.2026 07:16:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 96ae59bc7 nas-selfcommit: 4 Datei(en) 2026-09-11 07:15
+- 051003d42 vollgas-fruehwarnung 2026-09-11: Log-Eintrag ohne Meldekriterium (teuer 10.09. 10.37 Mio beide Stationen, 0 Limit-Ereignisse, Briefings ok, Radar frisch, Destillat-Stillstand ohne Verbrauch)
