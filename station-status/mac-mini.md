@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 17:28:26
+Stand: 11.09.2026 17:38:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 11.09.2026 17:28:26
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0b146371a Synergie-Lauf 34: SYN-76 widerlegt (bauleitung-training liegt auf dem Mac Mini, Aktion 'Task anlegen' zurueckgenommen), SYN-81 verbreitert (6/12 Mini-Prompts), SYN-80 nachgefuehrt, SYN-83 neu (WEGE m365-graph-Diagnose widerlegt)
+- 2e8546d0c nas-selfcommit: 3 Datei(en) 2026-09-11 17:30
