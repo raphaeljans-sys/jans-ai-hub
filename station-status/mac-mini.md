@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 03:55:48
+Stand: 11.09.2026 04:06:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 03:55:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 626a66401 nas-selfcommit: 4 Datei(en) 2026-09-11 03:45
+- 28e559d66 twin-mail-training Batch 119: rj@ + mail@ Sent 09.09.2026 15:38 bis 10.09.2026 19:57 (zweiter Sendekanal mail@, Plaintext-Befund geschlossen, 260910c nachgezogen, stilmetrik Anreden-Muster repariert)
