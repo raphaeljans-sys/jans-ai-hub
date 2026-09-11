@@ -19,6 +19,46 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260911 — Station-03 (revendo): M365-CLI, Zertifikat, .env und venvs wie auf den anderen Stationen
+
+Auftrag Raphael 11.09.2026 («genau die gleiche Einrichtung wie auf den anderen Stationen»).
+Bis dahin fehlten auf der dritten Station die Teile, die `neue-station.sh` als manuelle
+Restschritte ausgibt. Umgesetzt, alles umkehrbar, nichts davon in Git:
+
+- `npm install` im SSD-Klon (`@pnp/cli-microsoft365` 11.x, MCP-Server, docx, playwright).
+  Der erste Lauf scheiterte still mit rc=0 an `EACCES` im alten npm-Cache
+  (`~/.npm/_cacache`, Unterordner nicht beschreibbar); Abhilfe ohne sudo:
+  `npm config set cache ~/.npm-jans-cache` (benutzereigener `.npmrc`-Eintrag). Der
+  Dauer-Fix waere `sudo chown -R 501:20 ~/.npm`, den setzt Raphael selbst.
+- Zertifikat `~/.cli-m365-cert-combined.pem` per `scp` vom Mac Mini kopiert (Checkliste
+  `neue-station.sh` Schritt 8), chmod 600. SHA256-Fingerprint 26:53:C9:3F…82:78, gueltig bis
+  24.03.2028. **Befund nebenbei:** MacBook Pro und Mac Mini tragen ZWEI verschiedene
+  Zertifikate (MacBook CC:05:64:DD…, erstellt 24.03.2026 21:35; Mini 26:53:C9:3F…, erstellt
+  25.03.2026 10:24), beide offenbar in der App-Registration hinterlegt — der Login mit der
+  Mini-Kopie gelang sofort (`m365 status`: authType certificate, connectedAs «SharePoint MCP
+  Connector (JANS)»; Probe `sites/kispi` per Graph OK).
+- `.env` neu aufgebaut im Format des MacBook Pro (`MICROSOFT_TENANT_ID`, `MICROSOFT_CLIENT_ID`,
+  `MICROSOFT_CERTIFICATE_FILE`, dazu `WP_*` vom Mini uebernommen). **Befund nebenbei:** die
+  `.env` des Mac Mini traegt noch das ALTE Schema (`AZURE_TENANT_ID`/`AZURE_CLIENT_ID`/
+  `AZURE_CLIENT_SECRET`, App «JANS AI Hub» 296600a7…), das `scripts/m365-mcp-server.sh` gar
+  nicht liest; der Mini laeuft nur, weil `~/.cli-m365-connection.json` den Zertifikats-Login
+  persistiert. Bei einem Neulogin dort wuerde der Wrapper mit leerer App-ID scheitern —
+  Angleichen ans MacBook-Schema ist offen (Aktion Raphael, Werte nicht ueber Claude).
+- `~/.bexio.env` vom MacBook Pro kopiert (der Mini hat keins), chmod 600.
+- MCP-Wrapper `scripts/m365-mcp-server.sh` einmal gestartet: legt den Symlink
+  `~/.npm-global/lib/node_modules/@pnp/cli-microsoft365` an, startet ohne Fehler.
+- Python-venvs wie auf den Nachbarn: `~/.venvs/pdftools` (pypdf, openpyxl, pillow,
+  cryptography), `~/.venvs/pdf2dwg` (pymupdf, ezdxf, matplotlib), `~/.venvs/pdfforms`
+  (pypdf, pdfplumber, python-docx, reportlab, lxml, pypdfium2), alle Python 3.14.7;
+  `brew install libredwg` und `python@3.12` fuer `volumen3d` (rhino3dm hat kein 3.14-Wheel).
+  `synobsis` (Huggingface-Modelle) bleibt Mini-exklusiv.
+- FDA fuer /bin/bash war bereits erteilt (`check-launchd-fda.sh` rc=0).
+
+Umkehr: die kopierten Dateien loeschen (`~/.cli-m365-cert-combined.pem`, `~/.bexio.env`,
+`~/Developer/jans-ai-hub/.env`, `~/.cli-m365-*.json`), `npm config delete cache`,
+`rm -rf ~/.venvs/{pdftools,pdf2dwg,pdfforms,volumen3d}`. Die Quellen auf Mini und MacBook
+sind unveraendert.
+
 ## 260910 — MacBook Pro: OneDrive meldet «Gesichert und synchronisiert», synchronisiert aber nur 3 von 17 Bibliotheken
 
 Gemessen am 10.09.2026 auf Zuruf Raphaels (Finder zeigte `AR - 01 Projekte/2619_KINDERSPITAL/03_BKP`

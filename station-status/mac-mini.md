@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 08:33:31
+Stand: 11.09.2026 08:43:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 08:33:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 384e8ad3d nas-selfcommit: 2 Datei(en) 2026-09-11 08:30
+- dc91e95d3 KISPI: L. Bajrami (Jegen) in Site-Members aufgenommen; Fristen-Nachtrag, Logbuch, WEGE-Register (Members als Soll-Zustand, getuserbyid, EffectivePermissions)
