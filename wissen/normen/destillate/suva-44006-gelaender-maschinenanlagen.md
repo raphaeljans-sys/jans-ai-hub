@@ -5,7 +5,7 @@ ausgabe: "Merkblatt, Suva-Bestellnummer 44006.d — 1. Auflage September 1972, N
 gelesen: "alle 16 Seiten (Textlayer vorhanden, vollständig als PDF-Text gelesen, keine Bildlektüre nötig)"
 datenstand: "Februar 2007 (7., geänderte Auflage)"
 status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, 25 Einzelaussagen, VERDIKT BESTANDEN. Alle Masse und die Fanggitter-Formel Zahl fuer Zahl bestaetigt; 3 Formalien (Seitenzitate um eine Seite verschoben).)"
-last_updated: 2026-07-31
+last_updated: 2026-09-11
 links: [[REGISTER]]
 ---
 # Suva-Merkblatt «Geländer an ortsfesten Zugängen zu maschinellen Anlagen»
@@ -129,7 +129,9 @@ SN EN ISO 14122-3 (S. 15).
   Geländerhöhe, 500 mm-Absturzhöhen-Schwelle, 1000-N-Punktlast) sind spezifisch für
   Maschinenzugänge und Betriebsanlagen.
 - Für LV-Texte (`ausschreibung`, BKP-Bereich Metallbau-Geländer im Gewerbebau) die
-  Kennwerte Pfostenabstand ≤1,50 m, Knieleisten-Abstand ≤500 mm und Handlauf-Ø
+  Kennwerte Pfostenabstand ≤1,50 m (⚠ im Merkblatt nur «vorzugsweise», also als Richtwert
+  auszuschreiben, nicht als Abnahmegrenzwert; inline berichtigt Run 84), Knieleisten-Abstand
+  ≤500 mm und Handlauf-Ø
   25–50 mm direkt als Ausschreibungskriterien übernehmen.
 - Bei der Bauabnahme (`unternehmerkontrolle`) von Anlagenzugängen die 1000-N-
   Punktlast-Anforderung sowie die Fussleisten-Spaltmasse (max. 10 mm) als

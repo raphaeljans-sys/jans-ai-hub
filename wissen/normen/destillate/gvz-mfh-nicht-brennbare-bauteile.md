@@ -5,7 +5,7 @@ ausgabe: "Merkblatt Nr. 30.01 «Mehrfamilienhäuser MFH aus nicht brennbaren Bau
 gelesen: "alle 6 Seiten vollständig (echter Textlayer, PDF von Adobe InDesign/PDF Library erzeugt, direkt gelesen, kein Rendering nötig)"
 datenstand: "15. Februar 2005 (in Kraft 28. Februar 2005)"
 status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~50 Einzelaussagen, VERDIKT BESTANDEN. 2 Formalien, davon die Uebergeneralisierung bei den Servicetueren korrigiert. FW-Klassen-Tabelle Ziff. 2 zellengenau bestaetigt.)"
-last_updated: 2026-07-31
+last_updated: 2026-09-11
 links: [[REGISTER]]
 ---
 # GVZ-Merkblatt 30.01 — Mehrfamilienhäuser MFH aus nicht brennbaren Bauteilen
@@ -64,8 +64,8 @@ brandabschnittsbildenden Wände/Decken zwischen Wohnungen:
 | Geschosszahl | Tragwerk | Wände/Decken zw. Wohnungen |
 |---|---|---|
 | 1 Geschoss (Ziff. 2.2) | keine Anforderung | EI 30 (nbb) [F 30] |
-| 2 Geschosse, ≤ 1200 m² überbaut (Ziff. 2.3.1) | nicht brennbar, ausreichend dimensioniert | EI 30 (nbb) [F 30] |
-| 2 Geschosse, > 1200 m² überbaut (Ziff. 2.3.2) | R 30 (nbb) [F 30] | EI 30 (nbb) [F 30] |
+| 2 Geschosse, ≤ 1200 m² überbaut (Ziff. 2.3 Abs. 1; Wände/Decken Abs. 3) | nicht brennbar, ausreichend dimensioniert | EI 30 (nbb) [F 30] |
+| 2 Geschosse, > 1200 m² überbaut (Ziff. 2.3 Abs. 2; Wände/Decken Abs. 3) | R 30 (nbb) [F 30] | EI 30 (nbb) [F 30] |
 | 3 Geschosse (Ziff. 2.4) | R 30 (nbb) [F 30] | EI 30 (nbb) [F 30] |
 | 4 Geschosse bis Hochhausgrenze (Ziff. 2.5) | R 60 (nbb) [F 60] | EI 60 (nbb) [F 60] |
 
