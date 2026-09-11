@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-11 (Fidelity-Review) — erstmals wieder an ungesehenen Golds; zwei Regeln im Gehirn widersprachen sich
+
+Report `outputs/2026-09-11_fidelity.md`. **Gesamt 38** (Vorlauf 26, nicht direkt vergleichbar:
+drei der vier Golds nie ingestiert, das vierte nur mit dem Opener aus einer Zitatkette bekannt).
+Golds `rj@` Sent 15.02.2026 13:25/14:45 (KISPI-Betreiberin, Terminanfrage + Zusage), 23.08.2025
+(3D-Freelancer, Nachlieferung), 08.07.2025 (Microsoft-Support, Ticket-Abschluss nach verpasstem
+Termin) + Zitatkette 07.07.2025. Blindfassungen von einem getrennten Lauf mit Leck-Protokoll.
+
+**Befunde:** 0 von 4 Anreden, 1 von 4 Gruessen. Der Opener-im-Vorgang-Satz (260823) und die
+Senkungsregel (260910) widersprachen sich im Block; das Gold senkt im selben Thread nach 80 Minuten
+(«Geschätzte Stefanie,» → «Hoi Stefanie»). «Lgr» im Sie seit Batch 98 im Wiki, nie kompiliert.
+«Hello,» in deutscher Mail seit Batch 08 im Wiki, nie kompiliert. Stefanie Sonderegger fehlt in der
+Kontaktliste. Das eigene Versaeumnis wird mit «Ich entschuldige mich.» quittiert. Die Formel
+«Service-Satz: im Zweifel setzen» steuerte aktiv falsch. Keine Erfindungen (dritter sauberer Lauf).
+
+**Geschrieben:** Do/Don't-Bloecke `wiki/stimme.md` (Gruss im stehenden Thread, Service-Satz,
+«Hello,», Entschuldigung) und `wiki/beziehungsregister.md` (Gewicht senkt im Thread, Ticket-Desk
+namenlos); je ein Abschnitt «Fidelity 260911» in `wiki/stimme.md`, `wiki/beziehungsregister.md`,
+`wiki/denken.md`, `wiki/haltung.md`, `wiki/arbeitsweise.md` (angehaengt, darin die woertlich
+ausgelagerte Beleg-Prosa der Verdichtung); `sources` in diesen fuenf Frontmattern;
+`wiki/QUESTIONS.md` 260911b #1-#4 + Nachtrag zu 260911 #4. `build_dna.py` gefahren: Auto-Block
+**33'984 B, Reserve 16 B** (vorher 33'985 B); Text ausserhalb der Sentinels bytegleich.
+Zeilenbilanz gegen die Dateikopie 05:48: stimme +56/-15, beziehungsregister +34/-6, denken +20/-1,
+haltung +18/-1, arbeitsweise +17/-1, QUESTIONS +47/-0, jans-dna-facetten +16/-19 (Auto-Block,
+maschinell); jede Loeschung ist eine benannte Ersetzung im Block oder die `sources`-Zeile.
+**Empfehlung, siebter Lauf in Folge:** Grenze auf 36'000 B (260910b #6, SYN-69).
+
 ## 2026-09-11 (twin-mail-training Batch 119) — zwei Konten, und das zweite traegt die haertesten Mails
 
 Fenster `rj@` **Sent Items 09.09.2026 15:38 bis 10.09.2026 19:57** (Ortszeit), 10 Treffer

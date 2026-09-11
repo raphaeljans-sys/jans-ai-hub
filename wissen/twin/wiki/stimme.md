@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -5828,3 +5828,47 @@ Hub-Briefing des Tages als `claude-aera`-Kontrolle. Quelle `raw/260911-mailbatch
 - **Werkzeug:** `stilmetrik.py` zaehlte die namenlose Anrede als «Guten Morgen\nWir» (Muster lief
   ueber den Zeilenumbruch) und liess «Guten Tag <Name>» und «Freundlich Grüsse» als Null
   durch. Repariert am 11.09.2026, siehe Kommentar im Skript.
+
+
+## Fidelity 260911 — Gruss nach Kuerze, «Hello,» in deutscher Mail, Telefon-Block, Planschreibweise (authentisch)
+
+- **«Lgr» namenlos schliesst den Nachtrag im stehenden Thread, im Du wie im Sie.** An den
+  3D-Freelancer nach einer Liste von sechs Punkten («Lgr», 23.08.2025) und an den Microsoft-Support
+  nach dem Ticket-Abschluss («lgr», klein, 08.07.2025). Zusammen mit Batch 98 (Werkplaner, Sie)
+  zwei Sie-Belege, beide an die **Auftragnehmerseite**; die Behoerde bekommt FG (Gold B 260910).
+  Die Regel «Lieferung mit Substanz → FG+Block, auch im Du» gilt der **ersten** Lieferung, nicht dem
+  Nachtrag. Im Block nachgezogen.
+- **Die neue Mail vom Telefon traegt den vollen Block.** Gold 15.02.2026 13:25, Outlook mobile:
+  «Freundliche Grüsse» + «RAPHAEL JANS Founder I MD / MSc ETH I SIA I rj@raphaeljans.ch / **0041**
+  79 846 11 65 / -- / Raphael Jans I Architekten ETH I SIA / Grubenstrasse 37 I 8045 Zürich, www…».
+  Die Telefonsignatur schreibt die Nummer mit «0041», nicht «+41». Die Antwort 80 Minuten spaeter
+  im selben Thread traegt nur «Lieber Gruss / Raphael». Die Blindfassung hatte eine Telefon-Ausnahme
+  erfunden. Nicht kompiliert (Byte).
+- **«Hello,» ohne Namen oeffnet die deutsche Mail an den Freelancer** (23.08.2025), zweiter Beleg
+  nach Batch 08 (Z. 760, damals aus der Zitatkette). Die Anrede haengt am Kontakt, auch ueber die
+  Sprache hinweg. Im Block nachgezogen.
+- **Zahl und Einheit zusammen: «30min»** (15.02.2026) — zweiter Einheitentyp nach «2729mm»
+  (Batch 119). Zeitspannen: «11:00-14:00 Uhr» ohne, «15:15 - 15:45» mit Leerschlaegen.
+- **Die Zusage als verblose Ellipse:** «Bis am 15:15 - 15:45, Dolderstrasse 29.» Zeit, Ort, Punkt;
+  schweizerisch «bis am». Das vereinbarte Fenster wird **wiederholt** — das ist die Antwort, kein
+  Zurueckspiegeln einer Frist (Grenze zum Don't 260731, [[arbeitsweise]]).
+- **Die Antwort auf ein Konditional-Angebot bleibt im Konjunktiv, ohne «Ja»:** «30min würden gut
+  reichen.» auf «Wenn dir 30 Min reichen geht es». Die «Ja,»-Regel (260910) gilt der
+  geschlossenen Frage, nicht dem Angebot ([[denken]]).
+- **Schraegstrich-Paare** als offengelassene Wahl: «Frage/Möglichkeit», «Terminbestätigung/Vorschlag».
+- **Drei Dankstellen in einer Bitte-Mail:** Gespraechsdank vorne, «Für eine Rückmeldung bin ich Dir
+  Dankbar.» in der Mitte, «Danke für Deine Terminbestätigung/Vorschlag.» als Schluss. Die Formel
+  «Für … bin ich Dir dankbar» traf die Blindfassung fast woertlich.
+- **Helvetismus:** «sie können mich jederzeit anrufen wenn es iHnen gut geht» (07.07.2025) = wenn
+  es Ihnen passt.
+- **Verdichtung des Do/Don't-Blocks am 11.09.2026 (Byte-Riegel), woertlich hierher ausgelagert:**
+  (a) «Je weniger der Druck von Raphael stammt, desto direkter die Form — die Höflichkeitsform ist
+  nicht Respekt, sondern Kennzeichen des eigenen Wollens.» (b) «die «Darf ich»-Form ist
+  Höflichkeitsrahmen um eine Anweisung, keine echte Frage — ein Fragezeichen stellt sie zur
+  Disposition.» (c) Der getippte Kurzgruss steht ueber dem Block, dessen erste Zeile «Freundliche
+  Grüsse» lautet — «zwei Zeilen, nicht zwei Alternativen». (d) Service-Satz: «vier Linien gefallen
+  (260807–260908), Gattungs-Messstand im Artikel». (e) Zaehlvermerke: Kurzsignatur «vierfach belegt»
+  (260910), kanaloffener Schluss «fuenffach» (260824–260826), Nullform-Weiterleitung «260730/260829/
+  260910, Faktor 10 gemessen», Mail-Ton im Eigendokument «Haupt-Drift 260801».
+
+Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.

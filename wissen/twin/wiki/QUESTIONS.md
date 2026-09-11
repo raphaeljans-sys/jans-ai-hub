@@ -6289,3 +6289,50 @@ Apostroph), auch vierstellig — und nur Franken und Flaechen bekommen den Apost
 *Warum:* Der Zwilling setzt reflexhaft «2'729 mm». Mit einem Ja kann der Marker in den Do-Block.
 
 ---
+
+
+## 260911b — aus dem Fidelity-Review (vier Golds, drei davon nie ingestiert)
+
+Report: `../outputs/2026-09-11_fidelity.md`. Gesamt 38, Beziehungsregister wieder 10 (0 von 4
+Anreden). Nachgezogen im Block: Gewicht senkt im Thread, «Lgr» im Sie an die Auftragnehmerseite,
+«Hello,» in deutscher Mail, Ticket-Desk namenlos, «Ich entschuldige mich.» beim eigenen
+Versaeumnis, Service-Satz im stehenden Thread weglassen.
+
+**#1 [Beziehungsregister, Rule `anrede-kontakte`] Darf Stefanie Sonderegger in die Kontaktliste?**
+Vorschlag fuer die Zeile: «Stefanie Sonderegger | Universitäts-Kinderspital Zürich, Pflegeexpertin
+APN, Leiterin Wohnbereich und Pflege, Psychosomatische Therapiestation | 2619 KISPI | **Du** |
+«Geschätzte Stefanie,» bei Bitte/Gewicht, «Hoi Stefanie» operativ, «Werte Steffi» warm; nie
+«Liebe». Beleg 15.02.2026 13:25/14:45 aus eigener Hand».
+*Warum:* Der Zwilling liest die Kontaktliste, nicht das Wiki. Ohne Eintrag waehlte er «Liebe
+Stefanie» nach der Kategorie «branchenfern» — eine Stufe, die bei ihr nie vorkommt. Die Rule sieht
+die Aufnahme nur nach Deiner Bestaetigung vor, darum frage ich.
+
+**#2 [Beziehungsregister] Warum «Hoi Stefanie» 80 Minuten nach «Geschätzte Stefanie,»?**
+Meine Lesart: die Bitte war beantwortet, also fiel das Gewicht und mit ihm die Stufe. Moeglich ist
+auch: sie hatte mit «Lieber Raphael» geantwortet, und Du bist ihr ein Stueck entgegengekommen.
+*Konkret:* War es der Inhalt (nur noch eine Zusage) oder ihr warmer Ton?
+*Warum:* Im ersten Fall senkt der Zwilling nach jeder beantworteten Bitte; im zweiten nur, wenn das
+Gegenueber vorangeht. Kompiliert ist jetzt die erste Lesart.
+
+**#3 [Denken, Kern `rules/jans-dna.md`] Gehoert «beim Abschluss steht der Entscheid vorne» in den
+Kern-Fingerabdruck?**
+Der Ticket-Abschluss vom 08.07.2025: «Ich entschuldige mich. / Wir können das Ticket schliessen. /
+Lösung: …». Der Kern sagt «Frage spiegeln → Varianten → Fazit → Ausblick», und der Zwilling hat den
+Entscheid ans Ende gestellt.
+*Konkret:* Ist die Reihenfolge Entscheid → Beleg Deine Regel fuer jede Mail, die einen Vorgang
+schliesst (Ticket, Freigabe, Absage), waehrend die Varianten-Dramaturgie der Beratung gilt?
+*Warum:* Der Kern ist handgeschrieben; ich aendere ihn nicht selbst. Mit einem Ja steht es an der
+Stelle, die jeder Erzeugungslauf zuerst liest.
+
+**#4 [Stimme] «Lgr» im Sie: nur an die Auftragnehmerseite?**
+Belegt sind zwei Sie-Faelle, beide an Leute, die fuer Dich arbeiten (Werkplaner 17.08.2026,
+Microsoft-Support 08.07.2025). An Behoerden steht in allen Golds «Freundliche Grüsse».
+*Konkret:* Stimmt die Grenze «Auftragnehmer ja, Behoerde und Bauherrschaft nein»?
+*Warum:* Kompiliert ist «auch im Sie an Werkplaner/Support». Wenn die Grenze woanders liegt, greift
+der Zwilling beim naechsten Amts-Nachtrag falsch zu.
+
+**Nachtrag zu 260911 #4 («2729mm», Planschreibweise):** zweiter Einheitentyp, eigene Hand,
+15.02.2026: «**30min** würden gut reichen.» Zeitspannen «11:00-14:00 Uhr» (ohne Leerschlag) und
+«15:15 - 15:45» (mit). Die Frage bleibt offen; die Beleglage fuer ein Ja ist staerker.
+
+Status: #1-#4 **offen**.

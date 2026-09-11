@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2174,3 +2174,20 @@ Quelle `raw/260911-mailbatch-119.md`, 10.09.2026, `authentisch`.
   an die Bauherrenseite mit offenen Rechnungen, 06:23 an den Bauherr-Partner Thalwil «Du kannst
   mich in einem Dir passende Zeitpunkt anrufen» — der Zeitpunkt wird dem Bauherrn ueberlassen.
   Der Unterschied folgt der Vertragslage, nicht der Laune (Lesart).
+
+
+## Fidelity 260911 — das eigene Versaeumnis wird entschuldigt, nicht erklaert (authentisch)
+
+- «Guten Tag / **Ich entschuldige mich.** / Wir können das Ticket schliessen.» (08.07.2025), nachdem
+  der Support 15 Minuten im Teams-Meeting gewartet hatte. Drei Woerter, kein Grund, keine Ausrede,
+  kein Dank fuer eine Mail, die einen Vorwurf enthaelt. Zweiter Beleg nach Batch 95 (eigener
+  Zeichnungsfehler, «Ich entschuldige mich für die Unannehmlichkeiten»). Die Blindfassung stellte
+  fest («Das Meeting habe ich leider verpasst») und dankte. **Grenze zur Stimme-Regel «der Abbruch
+  einer Zusage oeffnet ohne Entschuldigungswort»:** die gilt der Absage **vorher** (dort Ursache +
+  Ersatz-Commitment); das Versaeumnis **nachher** bekommt das nackte Entschuldigungswort. Im Block
+  von [[stimme]] nachgezogen.
+- **Selbsthilfe vor Fremdhilfe:** das Problem, fuer das der Support-Termin angesetzt war, hat
+  Raphael bis zum naechsten Morgen selbst geloest und benennt den Weg ehrlich als «Workaround.» —
+  nicht als Loesung.
+
+Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.

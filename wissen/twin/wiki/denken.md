@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-09-11
 gewichtung: authentisch
-sources: [260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1747,3 +1747,22 @@ Quelle `raw/260911-mailbatch-119.md`, 10.09.2026, `authentisch` (Konto `mail@`, 
   ggf ELE Anschlüsse installieren; **anschliessend** Othmar/Estermann zum schliessen beauftragen».
   Bedingtes Zwischengewerk («ggf»), dann das Schliessen durch das Folgegewerk — die Gewerkefolge
   in einer Zeile.
+
+
+## Fidelity 260911 — beim Abschluss steht der Entscheid vorne (authentisch)
+
+- **Ticket-Abschluss nach eigenem Versaeumnis, Reihenfolge des Golds:** Entschuldigung → Entscheid
+  («Wir können das Ticket schliessen.») → Beleg («Lösung: …») → Handlung («Ich habe dem admin …») →
+  Etikett («Workaround.»). Die Blindfassung fuehrte die Herleitung zum Entscheid hin und setzte ihn
+  an den Schluss. Der Kern-Fingerabdruck («Varianten → Fazit → Ausblick») zieht dorthin; beim
+  **Abschluss** eines Vorgangs gilt er nicht, dort ist der Entscheid die Nachricht und die Herleitung
+  ihr Beleg. Nicht kompiliert (Kern handgeschrieben, [[QUESTIONS]] 260911b #3).
+- **Die Bedingung traegt die Ausweichoption:** «Sollte nur vormittags ein Termin möglich sein würde
+  ich versuchen den Massaufnahmetermin zu verschieben.» — Bedingung + eigene Folge + eigener Aufwand
+  in einem Satz. Getroffen.
+- **Grenze der «Ja,»-Regel (260910):** sie gilt der geschlossenen Frage. Auf ein Konditional-Angebot
+  («Wenn dir 30 Min reichen geht es») antwortet Raphael mit dem Inhalt im Konjunktiv, ohne «Ja»
+  («30min würden gut reichen.»). Die Blindfassung hatte die Regel ueber ihre Gattung hinaus
+  angewandt.
+
+Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.
