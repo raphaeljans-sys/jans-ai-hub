@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.09.2026 14:18:08
+Stand: 11.09.2026 14:28:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/amazing/meninsky/3e0f29  (letzte Aktivitaet 14:05)
@@ -23,4 +23,4 @@ Stand: 11.09.2026 14:18:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 35bb0c41e Vertiefung Systemanalyse 11.09.: Gegenpruefung V2/V0+, sieben neue Risiken, Routinen-Inventur Mini/MacBook/NAS mit Abnahmetests (MD/DOCX/PDF, Fristen, LOGBUCH)
+- 9747f1d44 Korrektur 11.09. 15:0x: Hauptarbeitsgeraet ist der Mac Mini (gemessen), Empfehlung zuerst V0+, V2 nach Messung; Nachtraege in Systemanalyse, Vertiefung, Fristen
