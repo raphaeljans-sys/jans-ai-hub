@@ -12459,3 +12459,18 @@ wiki/QUESTIONS.md,CHANGELOG.md,outputs/2026-09-11_energie-e-ablind-rang70.md}`.
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 3.2 von 5 USD. Zyklus sauber beendet.
+
+---
+
+## AG-Gruendung 11.09.2026 — Monitor-Lauf 07:30
+
+**Status: Keine Aenderung. Kapitaleinzahlung 28 Tage ueberfaellig.**
+
+Monitor-Scan bestaetigt: **0 neue Mails** seit 31.08.2026 00:00 (Verifizierung: `find ~/Library/Mail\ Data -type f -name "*.emlx" -newermt "2026-08-31"` = 0 Dateien). UBS-Kapitalbescheinigung fehlt. Notariat Mathies ohne Antwort seit 13.08. (29 Tage).
+
+**Aktion Raphael P1 — nicht verzögerbar:**
+1. CHF 50'000 auf UBS-Sperrkonto **IBAN CH46 0027 6276 1238 74D7 N** einzahlen (sollte ~14.08., ist 11.09., 28 Tage übers Ziel)
+2. UBS-Kapitalbescheinigung per Einschreiben anfordern (Voraussetzung für Notarsbeurkundung)
+3. Nach Eingang Notariat Mathies kontaktieren für Beurkundungstermin
+
+**Fristen.md + Spec-Output aktualisiert.**
