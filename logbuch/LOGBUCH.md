@@ -12514,3 +12514,27 @@ der Weg lief über den Mini.
 
 Register: `logbuch/fristen.md` Nachtrag 11.09. 08:3x · `connectors/WEGE.md` Nachtrag (Members-Gruppe als Soll-Zustand,
 `getuserbyid`, `GetUserEffectivePermissions`).
+
+## 2026-09-11 13:3x Nachtschicht Mac Mini (Versuchs-Slot, Prioritaet 5) — architektur-fachwissen Frage #10 gegen wissen/normen geschlossen, kunde-bopp-Recherche an OneDrive-Blocker gescheitert
+
+**Vorprüfung der Prioritäten 1-4:** remote-tasks/pending und sync-tasks/mac-mini leer.
+Synobsis Stufe 2 saturiert (853/853, Vektorindex aktuell seit 01.09.). Fristen-Register wird
+bereits mehrfach täglich von anderen Loops (hub-chef, Synergie-Lauf) gepflegt, kein Delta zu
+erwarten. Freie Trainings-KB `bauprodukte` seit 15.08. formal erledigt, `energie` heute bereits
+02:3x/05:3x gelaufen (Doppelarbeit-Guard) — Prioritaet 4 damit ohne gültiges Ziel für diesen Slot.
+
+**Prioritaet 5 — Ergebnis:** `wissen/architektur-fachwissen/wiki/QUESTIONS.md` Frage #10
+(«Welche VKF-Ausgabe gilt in ZH/SZ?») gegen `wissen/normen/wiki/REGISTER.md` geprüft und
+präzisiert: die Brandschutznorm 1-15 selbst gilt unverändert seit 01.01.2015, die zugehörigen
+Richtlinien sind grossteils jünger (Fassungs-Delta-Tabelle Run 59, 18 von 23 Publikationen per
+22.08. noch einzeln zu prüfen) — Antwort geschärft von «eine Ausgabe prüfen» auf «Norm und
+Richtlinie getrennt, je Publikation». CHANGELOG beider KBs nachgezogen.
+
+**Nebenbefund kunde-bopp:** Klärungsversuch der offenen Adress-Diskrepanz Baar Zugerstrasse
+46/49 (Projekt 2513 BAAR) scheiterte an lokal nicht lesbaren OneDrive-Dateien auf beiden
+Spiegel-Pfaden (EDEADLK-artiger Fehler) — isoliert auf dieses seit 26.01.2026 kalte Projekt,
+kein allgemeiner OneDrive-Ausfall (andere, aktuell bearbeitete Projekte lesen anstandslos).
+Vermerk mit Diagnose in `wiki/QUESTIONS.md` gesetzt; nächster Schritt (Materialisierung) ist
+Sache Raphaels (Rule `auto-verbesserungen` 260814).
+
+Budget-Verbrauch dieses Laufs: rund 2.60 USD von 5 USD.

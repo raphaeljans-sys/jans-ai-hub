@@ -56,6 +56,17 @@
   benachbarte Objekte handelt; nicht geraten. Der Ausgang der Ankaufsentscheidung selbst
   bleibt offen (kein Beleg im JANS-Archiv, in JANS-eigenen Unterlagen grundsätzlich auch nicht
   zu erwarten). In [[profil-christoph-bopp]] eingearbeitet.
+  ⚠ **Klärungsversuch 11.09.2026 (Nachtschicht Mac Mini) ergebnislos — technischer Blocker, keine
+  neue Erkenntnis.** Die betroffenen Dateien (`250627_Massnahmenkatalog_Zugerstrasse 46.pdf`,
+  `.xlsx`, sowie `Zusammenfassung Bauamt Baar.docx`) sind auf **beiden** Spiegel-Pfaden
+  (`AR - 03 Studien/2513 BAAR/…` und `IMMO - 01 Projekte/03 TDD PROJEKTE/2513 BAAR/…`) lokal
+  nicht lesbar (`head`/`pdftotext`/`textutil` scheitern übereinstimmend, u.a. mit einem
+  EDEADLK-artigen Fehler) — anders als aktuell bearbeitete OneDrive-Dateien in anderen
+  Projekten (z.B. 2619 KISPI), die anstandslos lesbar sind. Der Befund ist damit isoliert auf
+  das seit 26.01.2026 unveränderte Projekt 2513 BAAR beschränkt, kein allgemeiner
+  OneDrive-Ausfall — Materialisierung/Eviction ist gemäss Rule `auto-verbesserungen` 260814 ein
+  Schritt für Raphael selbst (Finder: Rechtsklick → «Jetzt herunterladen» auf dem
+  2513-BAAR-Ordner), danach ist die Adressfrage in einem der nächsten Läufe direkt lösbar.
 - **Giebelweg 12, 8135 Langnau a/A** — beantwortet 2026-07-24: Machbarkeitsstudie (Juni 2026)
   loeste den Baumasse-Konflikt (+176 m³) ueber den Hangschnitt-Nachweis massgebendes Terrain
   (volle Attika budgetkonform, Reserve 8 m³). Auf dieser Grundlage hat Christoph am 30.06.2026

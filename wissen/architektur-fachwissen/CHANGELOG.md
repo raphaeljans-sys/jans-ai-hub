@@ -1,5 +1,17 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-11 (Nachtschicht Mac Mini, Prioritaet 5) — Frage #10 (VKF-Ausgabe) gegen wissen/normen geprueft
+
+`wiki/QUESTIONS.md` (+16/-0): Nachtrag zu **#10** («Welche VKF-Ausgabe ist im August 2026 in
+ZH/SZ in Kraft?»). Gegen `wissen/normen/wiki/REGISTER.md` geprueft: die Brandschutznorm VKF
+1-15 selbst gilt unveraendert seit 01.01.2015 (naechste Vollrevision fruehestens nach
+IOTH-Plenum 03/2027), die **Richtlinien** dagegen sind grossteils juenger (Fassungs-Delta-Tabelle
+`REGISTER.md` Run 59, 23 Publikationen, 18 davon per 22.08.2026 noch einzeln zu pruefen).
+Antwort damit geschaerft statt pauschal: nicht «eine Ausgabe pruefen», sondern «Norm und
+Richtlinie getrennt, je Publikation». Reine Recherche/Verlinkung, keine neue Beschaffung, kein
+Eingriff in `raw/`. → Quelle bleibt `wissen/normen` fuehrend (Rule `normen-referenz`); keine
+Ruecktragung noetig, da `normen` die Information bereits selbst haelt.
+
 ## 2026-09-03 (Wissens-Chef Lauf 52) — Schema-Frage #64 gemessen statt entschieden
 
 `wiki/QUESTIONS.md` (+41/-0): Nachtrag zu **#64** (KB-Pfad im `links:`-Feld). **Kein Entscheid,

@@ -685,6 +685,25 @@ Stand 01.01.2015 (Brandschutznorm 1-15de, Richtlinie 15-15de). Ob und wie oft se
 wurde, ist aus beiden Korpora nicht ableitbar und gehört gegen `wissen/normen` geprüft.
 Achtung: im selben Ordner liegt die Generation von 1996 daneben, sie darf nie zitiert werden.
 
+> **Nachtrag Nachtschicht Mac Mini, 11.09.2026 (Prioritaet 5) — gegen `wissen/normen` geprueft,
+> mit einer Praezisierung.** Die **Brandschutznorm selbst (VKF 1-15)** traegt in ZH und SZ
+> weiterhin die Fassung **01.01.2015** und ist unveraendert gueltig; eine vollstaendige
+> Neuausgabe («BSV 2026») ist fruehestens nach dem IOTH-Plenum 03/2027 zu erwarten
+> (`wissen/normen/wiki/REGISTER.md` Z. 958, `status: established`). Die im Bestand
+> mitgenannte **Richtlinie 15-15de ist damit aber NICHT automatisch mitbelegt** — «BSV 2015»
+> bezeichnet das Vorschriftenwerk als Ganzes, nicht den Fassungsstand seiner einzelnen Teile
+> (derselbe REGISTER-Eintrag, Ergaenzung Run 58). Die Brandschutz**richtlinien** sind vielfach
+> juenger als die Norm: `wissen/normen` fuehrt fuer 23 BRL/BSE-Publikationen einen eigenen
+> Fassungs-Delta-Vergleich (`REGISTER.md` Z. 53, Run 59), u.a. BRL 10-15 → 01.01.2019,
+> BRL 11-15 → 01.01.2019, BRL 21-15/BSE 101-15 → 01.01.2017, BRL 108-15 → 01.08.2022,
+> BRL 104-15 → 01.12.2022, BRL 40-15 → 11.06.2025, BRL 12-15/26-15 → Teilrevision 01.04.2026
+> (`vkf-teilrevision-2026-pyrotechnik.md`); **18 der 23 Deltas waren per 22.08.2026 noch nicht
+> einzeln geprueft.** Praktische Folge: welche konkrete Richtlinien-Fassung 15-15de (oder eine
+> andere BRL) im Bestand gilt, ist **je Publikation einzeln** gegen `wissen/normen/destillate/`
+> zu pruefen, nicht pauschal ueber die Norm 1-15. Diese Praezisierung schliesst die Frage nicht
+> vollstaendig — sie ersetzt «einmal pruefen» durch «pro Richtlinie pruefen», was fuer eine
+> Verwendung in dieser KB (Zitat-/Beleg-Kontext) der richtige Massstab ist.
+
 ### C Rechte, Personendaten, Zugangsdaten
 
 **#11 Dürfen SEALS-Bestände in die KB?** Die INSA-PDF und die Archithese- und

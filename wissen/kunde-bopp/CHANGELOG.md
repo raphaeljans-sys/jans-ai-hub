@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-11 (Nachtschicht Mac Mini, Prioritaet 5) — Klärungsversuch Baar Zugerstrasse 46/49 ergebnislos (technischer Blocker)
+
+`wiki/QUESTIONS.md` (+9/-0): Versuch, die offene Adress-Diskrepanz «Zugerstrasse 46» vs. «49»
+am Projekt 2513 BAAR anhand der Fachplaner-Dateien zu klären, scheiterte an lokal nicht
+lesbaren OneDrive-Dateien (beide Spiegel-Pfade, isoliert auf dieses seit 26.01.2026 kalte
+Projekt beschränkt). Kein Eingriff an den Dateien selbst, nur Vermerk mit Diagnose und
+nächstem Schritt (Materialisierung durch Raphael). Keine neue Sachaussage zur eigentlichen
+Frage.
+
 ## 2026-09-03 (interaktive Session) — Neuer Auftrag Witikon Steinbrüchelstrasse 26/28 im Profil nachgetragen
 
 `wiki/profil-christoph-bopp.md`, Abschnitt «Laufende Projekte»: Auftrag vom 03.09.2026 (Nova
