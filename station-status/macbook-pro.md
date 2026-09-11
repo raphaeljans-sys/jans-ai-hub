@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.09.2026 14:38:43
+Stand: 11.09.2026 14:59:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:11)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 14:38:43
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 69f01782b Vorarbeit V (V0+, Freigabe Raphael 11.09.): .gitattributes union-Merge fuer Append-Dateien, .gitignore fuer render-scratch und 70-MB-Dateiliste (Index-Bereinigung folgt nativ)
+- 6ad21bab9 nas-selfcommit: 2 Datei(en) 2026-09-11 14:45
