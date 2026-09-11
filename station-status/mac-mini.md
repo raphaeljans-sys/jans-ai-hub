@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 08:43:48
+Stand: 11.09.2026 08:54:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 08:43:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dc91e95d3 KISPI: L. Bajrami (Jegen) in Site-Members aufgenommen; Fristen-Nachtrag, Logbuch, WEGE-Register (Members als Soll-Zustand, getuserbyid, EffectivePermissions)
+- 1b5bef55b station-03: M365-CLI/Zertifikat/.env/venvs wie andere Stationen; Chronik 260911, Setup-Konnektor, Fristen-Restpunkte
