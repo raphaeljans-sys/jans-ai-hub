@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 02:33:27
+Stand: 11.09.2026 02:43:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 02:33:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 36f2b9ae6 nas-selfcommit: 2 Datei(en) 2026-09-11 02:30
+- 2ea1a6336 energie: Cross-KB-Bringschuld aus normen Run 84 erledigt (SIA 181 Anhang G/H/J primaerbelegt); Logbuch-Nachtschicht 02:3x
