@@ -2,6 +2,16 @@
 
 Stand 11.09.2026, 14:45 · Auftrag Raphael Jans, 11.09.2026 · Vertiefung zu `docs/konzepte/260911-Systemanalyse-Hub-Architektur-NAS-Git/` · Verfasst auf dem Mac Mini
 
+## 00 Korrektur 11.09.2026, 15:0x (Rückmeldung Raphael, vor den Big Points zu lesen)
+
+**00.0.1 Die Annahme «das MacBook Pro ist Raphaels Hauptarbeitsgerät» war falsch.** Sie stand in Position 01.4 und in der Chat-Zusammenfassung, ohne Messung. Nachgemessen an den Transkripten beider Stationen (letzte 30 Tage): auf dem Mac Mini liegen 494 interaktive Sessions mit 506 MB Volumen, auf dem MacBook Pro 142 mit 31 MB. Raphael arbeitet auf dem Mac Mini. Das MacBook Pro trägt dagegen die Claude-Routinen: 34 der 43 Scheduled Tasks, darunter die gesamte Aufsicht (Hub-Chef, Radar, Heartbeat, Mahnwesen, Zahlungsabgleich, Frühwarnung), und rund 1'250 Routine-Sessions in 30 Tagen. Genau das hatte das Hub-Audit vom 12.08. als SPOF 2 benannt.
+
+**00.0.2 Was sich dadurch verschiebt.** Die sieben Ausfalltage der mobilen Station treffen nicht Raphaels Arbeit, sondern die Routinen. Die Routinen auf den Mac Mini zu verlegen (LAN, stabil, Audit B1) beseitigt damit den grössten Teil des gemessenen Schadens, und das ist der Kern von V0+. Das Argument «offline arbeitsfähig unterwegs» für V2 wiegt weniger, als Position 01.4 annahm.
+
+**00.0.3 Korrigierte Empfehlung.** Zuerst V0+ (Vorarbeit V, ein Schreiber, alle Routinen und die Aufsicht auf den Mini; rund ein bis zwei Tage), dann vier Wochen messen. V2 bleibt die saubere Zielarchitektur, weil Git über SMB, der native Committer, das zu 93 % volle NAS-Volume und der NAS-Neustart vom 07.09. (der auch den Mini traf) davon unberührt bleiben; aber V2 verliert seine Dringlichkeit, sobald die Routinen im LAN laufen. Der Entscheid V2 kann nach der Messung fallen. Die Etappen sind dieselben, nur die Reihenfolge der Freigaben ändert sich: 08.2 (Neustart-Festigkeit Mini) und B1 (Aufsicht auf den Mini) rücken nach vorn, 08.1 (Variante) darf warten.
+
+**00.0.4 Was unverändert gilt.** Vorarbeit V (grosse Binärdateien aus Git, union-Merge, Auto-Sync 15 Minuten) ist für jede Variante richtig und sofort sinnvoll. Die Routinen-Inventur in den Abschnitten 02 bis 04 bleibt gültig; die Spalte «Änderung» gilt für V0+ mit dem Unterschied, dass die Pfade beim NAS bleiben und nur die Station wechselt.
+
 ## 00 Big Points
 
 **00.1 Das Ergebnis der Gegenprüfung: V2 bleibt die beste Lösung, aber die erste Fassung hat vier Dinge unterschätzt.** Erstens ist der Mac Mini heute im LAN stabil (kein einziger Mount-Vorfall in seinen Nachtschicht-Blöcken, kein Mountpoint-Rest); der akute Schmerz sitzt auf der mobilen Station und in der Spaltung durch zwei Schreiber. Zweitens liegen im Repo Dateien, die GitHub nicht mehr annehmen wird, sobald sie wachsen (eine DXF mit 83.5 MB, eine Dateiliste mit 70 MB; Grenze 100 MB je Datei). Drittens hängt die Lebendmeldung der Stationen (Watchdog) an Stempeldateien auf dem NAS. Viertens sind neben den 696 Script-Zeilen noch 158 NAS-Pfade in 43 Task-Prompts und 6 launchd-Jobs umzustellen.
@@ -33,7 +43,7 @@ Stand 11.09.2026, 14:45 · Auftrag Raphael Jans, 11.09.2026 · Vertiefung zu `do
 | Aufwand | rund 1 Tag | rund 5 Tage |
 | Was Raphael verliert | nichts | den Sofort-Effekt einer Änderung auf der anderen Station (Latenz bis zum Pull, 5 Min) |
 
-**01.4 Urteil.** V0+ heilt die Sync-Kette und die Nachtläufe, nicht aber die mobile Station, und sie behält alle Umgehungen. V2 heilt beides und räumt die Umgehungen ab, kostet aber fünf Tage und eine kurze Übergangsphase. Weil das MacBook Pro Raphaels Hauptarbeitsgerät ist und dort sieben Ausfalltage in sechs Wochen belegt sind, bleibt V2 die Empfehlung. V0+ ist der richtige Weg, falls Raphael den grösseren Umbau nicht jetzt will: seine zwei Bausteine (ein Schreiber, Loops auf den Mini) sind ohnehin die Etappen E1 und E2 von V2 und gehen nicht verloren.
+**01.4 Urteil.** V0+ heilt die Sync-Kette und die Nachtläufe, nicht aber die mobile Station, und sie behält alle Umgehungen. V2 heilt beides und räumt die Umgehungen ab, kostet aber fünf Tage und eine kurze Übergangsphase. Weil auf dem MacBook Pro sieben Ausfalltage in sechs Wochen belegt sind, bleibt V2 die Empfehlung. (Berichtigt 15:0x: die hier ursprünglich stehende Annahme, das MacBook Pro sei Raphaels Hauptarbeitsgerät, war falsch; siehe Abschnitt 00 Korrektur. Die Empfehlung lautet seither: zuerst V0+, V2 nach Messung.) V0+ ist der richtige Weg, falls Raphael den grösseren Umbau nicht jetzt will: seine zwei Bausteine (ein Schreiber, Loops auf den Mini) sind ohnehin die Etappen E1 und E2 von V2 und gehen nicht verloren.
 
 **01.5 Sieben Risiken, die in der ersten Fassung fehlten.**
 

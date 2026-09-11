@@ -2,6 +2,8 @@
 
 Stand 11.09.2026, 14:00 · Auftrag Raphael Jans, 11.09.2026 · Verfasst auf dem Mac Mini (Station Always-On) · Ablage kanonisch `docs/konzepte/260911-Systemanalyse-Hub-Architektur-NAS-Git/`
 
+**Nachtrag 11.09.2026, 15:0x:** Die Vertiefung `docs/konzepte/260911-Vertiefung-Umbau-Verifikation-Routinen/` korrigiert die Gewichtung: Raphael arbeitet auf dem Mac Mini (494 interaktive Sessions in 30 Tagen gegen 142), das MacBook Pro trägt die Routinen. Empfehlung seither: zuerst V0+ (Routinen und Aufsicht auf den Mini, ein Schreiber), V2 nach vier Wochen Messung. Die Befunde dieses Dokuments bleiben gültig.
+
 ## 00 Big Points
 
 **00.1 Der Befund ist kein Betriebsfehler, sondern ein Konstruktionsfehler.** Der Hub hält seine gesamte Fähigkeit (Skills, Agenten, Rules, Wissens-Layer, Logbuch) auf einer SMB-Netzfreigabe und lässt drei Stationen samt Dutzenden Nachtläufen darin arbeiten. Jeder Mount-Abriss macht die Station für den ganzen Hub blind, und jeder Wächter heilt nur, was er nicht verhindern kann.
