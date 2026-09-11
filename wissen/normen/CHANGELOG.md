@@ -1,3 +1,25 @@
+## 2026-09-11 (Normen-Nacht Run 84, MacBook Pro, SIA/VKF) — N83-2 Textlayer-Klasse abgearbeitet, WC57-N2 geschlossen
+
+**Block A:** 26 Destillate der Run-83-Risikokarte (Klasse «Textlayer ohne ≤/≥») je Grenzwert am
+selbst gerenderten Original geprüft, fünf blinde Refuter-Agenten: 90 Werte, kein falscher Wert,
+keine falsche Richtung; **8 von 8 untergeschobene Kontrollwerte erkannt** (Gegenprobe der
+Prüfstufe erstmals gemessen). **Sieben neue Textlayer-Mechaniken** belegt (N82-3), darunter die
+Pi-Schrift SchwabePi (≤ → «9», ≥ → «0»), die Scheinzahlen erzeugt. Schrift-Zensur über 286
+Hausquellen: 92 mit verdächtigen Symbolschrift-Spans, relationsrelevante einzeln gegen die
+Destillate gehalten. **Inline korrigiert (Methodik-Pflicht 9):** `sia-181-2006` (Tab. 3
+L_r-Schwellen ≤ 64 / ≤ 56 dB(A) nachgetragen, «mittlerer» → «mässig»), `sia-108-2014` (fünf statt
+vier Kriterien, SIA 2024), `vkf-brl-24-15-waermetechnische-anlagen` (11 statt 9 Temperaturklassen,
+Kerosin), `suva-44006-gelaender-maschinenanlagen` («vorzugsweise» im Praxis-Transfer),
+`gvz-mfh-nicht-brennbare-bauteile` (Fundstelle Ziff. 2.3 Abs. 3),
+`vkf-brandschutznorm-1-15de-bspub57` (Wortlaut Kategorie [c]).
+**Block B:** `sia-181-2006` um Anhang G, H, J erweitert (am Rendering, Refuter: 27 bestätigt,
+4 eingeschränkt und eingearbeitet, 2 Lücken eingearbeitet, 2 Kontrollen erkannt), JANS-Praxis-
+Transfer zu PL57-1 (Tür R_w gegen Wand D_i, Ziff. 3.2.1.5); `sia-181-2020-faq` Verweis berichtigt.
+Neu: `training/n84-textlayer-mechaniken-260911.md`, `outputs/2026-09-11_normen-nacht-run84.md`.
+`wiki/QUESTIONS.md`: Abschnitt Run 84 (N84-1 bis N84-3), Vermerke an WC57-N2 und N83-2.
+Cross-KB: → übergeben an `wissen/projekt-lessons` (PL57-1) und `wissen/energie` (Anhang-G-Werte
+primär bestätigt). Keine Statushebung. Keine DIN/VSS/RAL-Position berührt.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Konsumentenliste zu N83-1, zwei Eingänge
 
 `wiki/QUESTIONS.md`, nur additiv: (1) an **N83-1** die Konsumenten ausserhalb der KB nachgetragen

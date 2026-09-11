@@ -7,7 +7,7 @@ gelesen: "S. 1-42 (komplett: Ziff. 1-9 vollständig, Anhang S. 18-42 komplett in
 datenstand: "2015, in Kraft 01.01.2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 379a079b9c8fe4fd74146cc41de0d82a). Nicht als geltende Fundstelle zitieren."
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 links: [[vkf-brl-24-15-fassung-2017-delta]], [[REGISTER]]
 ---
 
@@ -101,13 +101,13 @@ Ziff. 1 Abs. 1 (S. 5): Gilt für Aufstellung und Betrieb von wärmetechnischen A
 
 **Feuerwiderstand Heizräume nach Leistung (Ziff. 3.3):** ≤70 kW → EI 30, >70 kW → EI 60; Türen durchgehend EI 30, bei >70 kW zusätzlich in Fluchtrichtung öffnend.
 
-**Temperaturklassen Abgasanlagen (Anhang S. 27, Bst. A):** T080 (≤80°C) bis T600 (≤600°C) in 9 Stufen (T080/T100/T120/T140/T160/T200/T250/T300/T400/T450/T600 — Zwischenwerte im Original als eigene Zeilen, hier zusammengefasst).
+**Temperaturklassen Abgasanlagen (Anhang S. 27, Bst. A):** T080 (≤80°C) bis T600 (≤600°C) in **11** Stufen (T080/T100/T120/T140/T160/T200/T250/T300/T400/T450/T600, je eine Tabellenzeile; ⚠ inline berichtigt Run 84, vorher «9 Stufen», am 110-dpi-Rendering S. 27 gezählt).
 
 **Druckklassen (Anhang S. 27, Bst. B):** N1/N2 Unterdruck (Leckrate 2.0/3.0 L·s⁻¹·m⁻², Prüfdruck 40/20 Pa), P1/P2 Überdruck (0.006/0.120 L·s⁻¹·m⁻², 200 Pa), H1/H2 Hochdruck (0.006/0.120 L·s⁻¹·m⁻², 5'000 Pa).
 
 **Kondensatbeständigkeitsklassen (Anhang S. 27, Bst. C):** W (Nass-Betrieb) / D (Trocken-Betrieb).
 
-**Korrosionswiderstandsklassen 1-3 (Anhang S. 27, Bst. D):** je nach Brennstoffart (Erdgas L+H alle Klassen; Kerosin Klasse 1; Öl mit Schwefelgehalt ≤0.2%/>0.2% Klasse 2/3; naturbelassenes Holz Klasse 2-3; Kohle/Torf nur Klasse 3).
+**Korrosionswiderstandsklassen 1-3 (Anhang S. 27, Bst. D):** je nach Brennstoffart (Erdgas L+H alle Klassen; Kerosin in allen drei Klassen möglich (präzisiert Run 84, vorher «Klasse 1»); Öl mit Schwefelgehalt ≤0.2%/>0.2% Klasse 2/3; naturbelassenes Holz Klasse 2-3; Kohle/Torf nur Klasse 3).
 
 **Russbrandbeständigkeitsklassen (Anhang S. 28, Bst. E):** O (ohne) / G (mit Russbrandbeständigkeit).
 

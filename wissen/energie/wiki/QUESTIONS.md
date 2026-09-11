@@ -2,6 +2,17 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Cross-KB-Eingang aus `wissen/normen` (Normen-Nacht Run 84, 11.09.2026) — SIA 181:2006 Anhang G jetzt primär destilliert
+
+`wissen/normen/destillate/sia-181-2006.md` führt Anhang G, H und J seit heute am Original
+(Tabellen am Rendering, Refuter gelaufen). Die acht Zeilen und die L_H-Werte in
+`destillate/sia-181-schallschutz-anforderungswerte.md` **stimmen alle**. Was dort fehlt und für
+Healthcare/KISPI zählt: (1) Fussnote 1 zu Tab. 15, die Werte gelten **ohne Einfluss der Türen**;
+(2) G.1: Türen sind separat über das **Labor-R_w** festzulegen; (3) Komfortstufe 1/2 ist nicht
+gleich «erhöhte Anforderungen». Vorschlag: bei nächster Pflege des Abschnitts «Empfehlungen
+INNERHALB einer Nutzungseinheit» diese drei Punkte mit Verweis auf das Primärdestillat ergänzen
+und die Quelle von «Büro-Zusammenfassung» auf Primärbeleg heben. Nicht von `normen` aus editiert.
+
 ## Run 190 (10.09.2026, Tageslauf) — A-BLIND Rang 75 am Original: vier Abschreibfehler, einer davon Healthcare-relevant
 
 **Werkzeug zuerst:** E-R188-1 geschlossen (siehe dort). Pruefschritt 1 zeigt fuer `energie` jetzt

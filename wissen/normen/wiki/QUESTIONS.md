@@ -1,5 +1,43 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 84 (11.09.2026) — N83-2 (Textlayer-Klasse) abgearbeitet, WC57-N2 geschlossen, sieben neue Mechaniken
+
+**N83-2, Textlayer-Klasse: abgearbeitet.** 26 der 28 Destillate am Bild geprüft (2 hatte Run 83):
+90 Grenzwerte, kein falscher Wert, keine falsche Richtung; 8 von 8 untergeschobene Kontrollwerte
+erkannt. Offen bleibt die Typ-A-Klasse (N84-2). Anlage `training/n84-textlayer-mechaniken-260911.md`.
+
+**N82-3 substanziell beantwortet:** sieben weitere Mechaniken belegt (M3-M9 in der Anlage). Die
+gefährlichste ist die Pi-Schrift SchwabePi (SIA-Normen 2006, SIA 108:2014, SIA 110:2003):
+≤ → «9», ≥ → «0», ± → «8», ° → «5». Sie erzeugt Scheinzahlen («N ≤7» → «N 97»). Im Bestand keine
+übernommene Scheinzahl gefunden, aber eine Abdeckungslücke genau an einer solchen Stelle
+(SIA 181:2006 Tab. 3, L_r-Schwellen, inline nachgetragen).
+
+**WC57-N2 geschlossen:** SIA 181:2006 Anhang G, H, J destilliert und refutiert, siehe Vermerk am
+Punkt unten.
+
+### N84-1 — Vorschlag: Schrift-Vorfilter statt nur Producer-Vorfilter (Entscheid Raphael)
+
+N82-1 schlägt vor, den PDF-Producer als Vorfilter für die Textlayer-Qualität zu führen. Run 84
+zeigt, dass der Producer allein nicht trennt: dieselbe Mechanik M3 steckt in ApogeeX- und
+InDesign-Dateien, und Word-2010-Dateien kodieren teils sauber, teils im Privatbereich (M4).
+Trennscharf ist die **Schrift**: trägt eine Quelle Pi-, Symbol- oder Math-Schriften mit
+Nicht-Unicode-Abbildung, werden ihre Grenzwerte nur am Rendering gelesen. Die Messung dafür ist
+billig (`pdffonts`, PyMuPDF, Muster in der Anlage Ziff. 7). **Claude setzt keine
+Methodik-Pflicht selbst**; vorgelegt als Erweiterung von N82-1.
+
+### N84-2 — 24 Typ-A-Destillate der Run-83-Karte ungeprüft
+
+Quellen ohne Textlayer (Scan), dort war Rendering zwingend. Das Risiko ist nicht Encoding,
+sondern Ablesefehler am Bild. Arbeitsvorrat für eine nächste Runde, grösste zuerst
+(`lignum-4-2`, `lignum-4-1`, `lignum-lignatec`, `sia-384-201-2017`, `swki-va103-01-2017`,
+`sia-382-1-2014`).
+
+### N84-3 — PL57-1 (KISPI): die Vorfrage heisst «Nutzungseinheit»
+
+Übergeben an `wissen/projekt-lessons` (Zeile an PL57-1). Anhang G gilt **innerhalb**, Ziff.
+3.2.1.5 **zwischen** Nutzungseinheiten; welche Seite für Korridor/Zimmer im KISPI-Umbau gilt,
+entscheidet die Norm nicht. Beide Seiten stehen jetzt belegt in `destillate/sia-181-2006.md`.
+
 ## Normen-Nacht Run 83 (10.09.2026) — N82-2 geschlossen; eine zweite Verfälschungs-Mechanik gefunden
 
 Arbeitsgegenstand war die von Run 82 als «grösste offene Kante» ausgewiesene Frage **N82-2**.
@@ -71,6 +109,12 @@ der einzige Zahlenbestand im Hub ist sekundär (`wissen/energie/destillate/sia-1
 Büro-Zusammenfassung: Spital Korridor zu Zimmer D_i 30/35 dB). Kandidat für ein Destillat am
 Original-PDF `181_2006_d.pdf`.
 
+✅ **GESCHLOSSEN Run 84 (11.09.2026):** Anhang G, H und J am Original destilliert (Tabellen 15-18
+am Rendering abgelesen, unabhängiger Refuter, 2 Kontrollwerte erkannt, kein falscher Wert). Die
+Sekundärwerte in `wissen/energie` stimmen. Für PL57-1 entscheidend: Fussnote 1 (Werte ohne
+Türeinfluss) und G.1 (Türen separat über Labor-R_w); zwischen Nutzungseinheiten gilt Ziff. 3.2.1.5
+mit R'_w + C ≥ 37 dB. Siehe N84-3.
+
 ### N83-2 — 52 Destillate führen ≤/≥-Werte, deren Quelle diese Zeichen nicht kodiert
 
 Mechanik-unabhängige Risikokarte (Tabelle in `training/n83-quellenaufloesung-260910.md`): bei
@@ -86,6 +130,12 @@ und das Destillat übersetzt das korrekt in ≥20 und ≤ 150 m². Die Quelle ko
 sie keines braucht. **Wer die Karte abarbeitet, prüft zuerst, ob die Norm überhaupt symbolisch
 formuliert** — sonst entstehen Korrektur-Aufträge gegen richtige Destillate, der Fehlalarm-Typ
 aus Methodik-Pflicht 10. Die 52 sind **nicht** einzeln verifiziert; geprüft ist einer.
+
+**Stand Run 84 (11.09.2026):** die 28 Destillate der Klasse «Textlayer ohne ≤/≥» sind
+vollständig am Bild geprüft (26 in Run 84, 2 in Run 83), ohne falschen Wert; der Vorbehalt oben
+hat sich bestätigt (54 der geprüften Stellen sind sprachlich formuliert). Offen: die 24 Typ-A
+(N84-2). Zwei blinde Flecken der Karte belegt: Destillate mit «<=»/«>=» und Destillate, die einer
+Pi-Scheinzahl gefolgt wären (Anlage `training/n84-textlayer-mechaniken-260911.md`, Ziff. 3-5).
 
 
 ## Normen-Nacht Run 82 (09.09.2026) — N81-2 messend geschlossen; die Reichweite ist klein, der Nebenbefund gross

@@ -231,3 +231,12 @@ Mögliche erste Lessons, sobald Material vorliegt:
   zahlengleich mit Stufe 2; gilt sie als Rw, liegt der Bauwerkswert nach Nebenwegen tiefer. Zu
   klären beim Verfasser der Legende (JANS) bzw. in der Nutzungsvereinbarung. Anhang G selbst ist
   in `wissen/normen` noch nicht destilliert (`destillate/sia-181-2006.md`).
+  **Nachtrag `wissen/normen` Run 84 (11.09.2026):** Anhang G ist jetzt am Original destilliert
+  (`wissen/normen/destillate/sia-181-2006.md`). Belegt: Tab. 15 gibt D_i für Räume **ohne
+  Türeinfluss** (Fussnote 1); Türen innerhalb der Nutzungseinheit sollen separat über das
+  **bewertete Schalldämm-Mass R_w aus Labor-Eignungstests** festgelegt werden (G.1), ohne
+  Zahlenwert. Zwischen Nutzungseinheiten gilt normativ **R'_w + C ≥ 37 dB** für Türen an
+  Zugangskorridoren (Ziff. 3.2.1.5). Steht die Legende «35 dB» an einer Tür, ist sie nach der
+  Systematik von Anhang G ein R_w; steht sie an der Wand, deckt sie sich zahlengleich mit D_i
+  Stufe 2. Vorfrage bleibt, ob Korridor und Zimmer eine Nutzungseinheit bilden (normen N84-3).
+  Lesart, kein Normentscheid.

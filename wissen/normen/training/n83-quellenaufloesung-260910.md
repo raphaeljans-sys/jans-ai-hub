@@ -252,3 +252,10 @@ zulässt und relative Felder gegen mehrere Basen probiert. Wer sie neu baut, kal
 zuerst an `sia-416-1-2007` (absoluter Pfad mit Leerzeichen), `sia-184-1972` (relativ) und
 `ugz-hindernisfreie-aufzuege-2010` (doppelte Endung) — an diesen dreien ist jeder der vier
 Fehlversuche aus Ziff. 2 sofort sichtbar.
+
+## 8. Nachtrag Run 84 (11.09.2026)
+
+Die 28 Destillate der Klasse «Textlayer ohne ≤/≥» sind am Bild geprüft (26 in Run 84), ohne falschen
+Wert. Die Karte hat zwei blinde Flecken: Destillate mit «<=»/«>=» (9, davon 3 ausschliesslich) und
+Destillate, die einer Pi-Scheinzahl gefolgt wären (sie tragen dann kein ≤/≥ mehr). Beides und die
+sieben neuen Mechaniken: `n84-textlayer-mechaniken-260911.md`. Typ A (24) weiterhin offen.
