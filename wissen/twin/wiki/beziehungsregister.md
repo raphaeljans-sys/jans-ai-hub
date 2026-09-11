@@ -415,7 +415,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
-  unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
+  unbekanntes Postfach/Ticket-Desk (auch mit Bearbeitername, 260911): triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
@@ -446,12 +446,12 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822).**
-- **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
+- **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
   (Furrer, Stadelmann). Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
   **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
   gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
-  Datum. **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
+  Datum; im Thread fällt die Stufe mit dem Gewicht («Geschätzte» zur Bitte, 80 Min. später «Hoi», 260911). **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
   gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** nur der
@@ -464,14 +464,14 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des Eingangs;
-  gemessener Verstoss 260816. **Gestapelt wird nur bei
+  260816. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); ein Cc kann angeredet, ein anderer übergangen werden, die
   Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-Mitbeteiligten zu prüfen — sind mehrere am Vorgang
   beteiligt, gestapelte Anrede + kollektives «Euch»/«Ihr» statt des singulären «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
   zusammenziehen** — «Geschätzter Herr A, werter Herr B», nie «Sehr geehrte Herren A und B»
-  (gemessener Verstoss 260821, Marker seit 260714j).
+  (260821).
 
 ## Gestapelte Anrede + kollektives «Euch» auch im harten Mahn-/Zahlungskontext (belegt Fidelity 260725b, authentisch)
 Bestätigt «Register-Mix in EINER Mail» und «Kollektives ‹Euren Einsatz› trotz gemischtem Sie/Du-

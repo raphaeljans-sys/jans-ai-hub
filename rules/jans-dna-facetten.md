@@ -24,17 +24,15 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler
   (260813–260819); FG+Block ist der Default, auch im Du und bei vier
-  Zeilen:** operative Zwischenfrage →
-  Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
+  Zeilen:** operative Zwischenfrage/Nachtrag im stehenden Thread →
+  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, auch im Sie an Werkplaner/Support, 260911), gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt** — vier Linien gefallen (260807–260908),
-  Gattungs-Messstand im Artikel. **Im Zweifel setzen.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt.** **Im Zweifel setzen, im stehenden Thread nicht (260911).** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
-  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
-  Alternativen.
-  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910, vierfach belegt).** Anrede-Skala → [[beziehungsregister]].
+  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet.
+  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
   (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
@@ -52,17 +50,16 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   könnte auch nein sagen → **Empfehlung** «**Ich halte es für sinnvoll, dass Du …**»; das
   **Verfahren** selbst, mir bleibt nur die Ansage → **Sachzwang im Indikativ** «**Dann musst Du
   jetzt fragen, wer unterzeichnet**». Je weniger der Druck von Raphael stammt, desto direkter die
-  Form — die Höflichkeitsform ist nicht Respekt, sondern Kennzeichen des eigenen Wollens. Die
+  Form. Die
   **Abwicklungsbitte im laufenden Mandat trägt KEINE Begründung** (der angehängte Beleg IST die
   Begründung); die Begründungspflicht gilt der **substanziellen** Bitte — und **nicht** der
   Anforderung eines Dokuments, das einem ohnehin zusteht (260816). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**;
   das blosse Durchstellen einer fremden Lieferung trägt NUR «zur Info» — keine Anrede, kein
-  Gruss, kein Block, auch im Sie (260730/260829/260910, Faktor 10 gemessen).
+  Gruss, kein Block, auch im Sie (260730/260910).
   **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
   BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909):** die
-  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
-  Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
+  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
   EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
   Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** EIN Nebensatz.
@@ -74,9 +71,9 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
-  «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer.
+  «Hello,»/«Hello <Vorname>,» beim 3D-Freelancer, auch in deutscher Mail (260911), «**Hi Hleb**» beim Webprogrammierer.
   Der Abbruch einer Zusage öffnet ohne
-  Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
+  Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**; das eigene Versäumnis danach: «Ich entschuldige mich.», ohne Ausrede (260814/260911). Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
 - **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
@@ -89,7 +86,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
   wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
-  für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (Haupt-Drift 260801).
+  für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (260801).
 - **Eigendokument-Gattungen (Protokoll, Bewertungsdokument, Erläuterungsbericht):**
   Formregeln im Abschnitt «Gattungsregeln ausserhalb der Mail» unten — vor dem Schreiben eines
   Eigendokuments dort nachschlagen.
@@ -202,7 +199,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
-  unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
+  unbekanntes Postfach/Ticket-Desk (auch mit Bearbeitername, 260911): triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
@@ -233,12 +230,12 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822).**
-- **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
+- **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
   (Furrer, Stadelmann). Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
   **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
   gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
-  Datum. **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
+  Datum; im Thread fällt die Stufe mit dem Gewicht («Geschätzte» zur Bitte, 80 Min. später «Hoi», 260911). **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
   gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** nur der
@@ -251,14 +248,14 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des Eingangs;
-  gemessener Verstoss 260816. **Gestapelt wird nur bei
+  260816. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); ein Cc kann angeredet, ein anderer übergangen werden, die
   Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-Mitbeteiligten zu prüfen — sind mehrere am Vorgang
   beteiligt, gestapelte Anrede + kollektives «Euch»/«Ihr» statt des singulären «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
   zusammenziehen** — «Geschätzter Herr A, werter Herr B», nie «Sehr geehrte Herren A und B»
-  (gemessener Verstoss 260821, Marker seit 260714j).
+  (260821).
 
 ### Fachsignatur
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in

@@ -50,17 +50,15 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler
   (260813–260819); FG+Block ist der Default, auch im Du und bei vier
-  Zeilen:** operative Zwischenfrage →
-  Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
+  Zeilen:** operative Zwischenfrage/Nachtrag im stehenden Thread →
+  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, auch im Sie an Werkplaner/Support, 260911), gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt** — vier Linien gefallen (260807–260908),
-  Gattungs-Messstand im Artikel. **Im Zweifel setzen.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt.** **Im Zweifel setzen, im stehenden Thread nicht (260911).** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
-  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
-  Alternativen.
-  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910, vierfach belegt).** Anrede-Skala → [[beziehungsregister]].
+  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet.
+  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
   (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
@@ -78,17 +76,16 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   könnte auch nein sagen → **Empfehlung** «**Ich halte es für sinnvoll, dass Du …**»; das
   **Verfahren** selbst, mir bleibt nur die Ansage → **Sachzwang im Indikativ** «**Dann musst Du
   jetzt fragen, wer unterzeichnet**». Je weniger der Druck von Raphael stammt, desto direkter die
-  Form — die Höflichkeitsform ist nicht Respekt, sondern Kennzeichen des eigenen Wollens. Die
+  Form. Die
   **Abwicklungsbitte im laufenden Mandat trägt KEINE Begründung** (der angehängte Beleg IST die
   Begründung); die Begründungspflicht gilt der **substanziellen** Bitte — und **nicht** der
   Anforderung eines Dokuments, das einem ohnehin zusteht (260816). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**;
   das blosse Durchstellen einer fremden Lieferung trägt NUR «zur Info» — keine Anrede, kein
-  Gruss, kein Block, auch im Sie (260730/260829/260910, Faktor 10 gemessen).
+  Gruss, kein Block, auch im Sie (260730/260910).
   **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
   BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909):** die
-  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
-  Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
+  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
   EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
   Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** EIN Nebensatz.
@@ -100,9 +97,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
-  «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer.
+  «Hello,»/«Hello <Vorname>,» beim 3D-Freelancer, auch in deutscher Mail (260911), «**Hi Hleb**» beim Webprogrammierer.
   Der Abbruch einer Zusage öffnet ohne
-  Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
+  Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**; das eigene Versäumnis danach: «Ich entschuldige mich.», ohne Ausrede (260814/260911). Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
 - **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
@@ -115,7 +112,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
   wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
-  für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (Haupt-Drift 260801).
+  für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (260801).
 - **Eigendokument-Gattungen (Protokoll, Bewertungsdokument, Erläuterungsbericht):**
   Formregeln im Abschnitt «Gattungsregeln ausserhalb der Mail» unten — vor dem Schreiben eines
   Eigendokuments dort nachschlagen.
