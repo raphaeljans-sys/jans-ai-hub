@@ -19,6 +19,46 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260911b — V0+ begonnen (Freigabe Raphael 11.09. ~15:10): Vorarbeit V, Auto-Sync 15 Min, Aufsicht teilweise auf dem Mini; Index-Bereinigung und launchd-Installation vom Klassifikator geblockt
+
+**Anlass.** Systemanalyse und Vertiefung vom 11.09.2026 (`docs/konzepte/260911-*`), Korrektur
+15:0x: Raphael arbeitet auf dem Mac Mini, das MacBook Pro traegt die Routinen. Entscheid
+Raphael «ja bitte ausfuehren» fuer V0+ (Vorarbeit V, ein Schreiber, Routinen und Aufsicht
+auf den Mini). Interaktive Session auf dem Mac Mini, Eingriffe angekuendigt (Rule
+`interaktive-eingriffe`).
+
+**Ausgefuehrt, umkehrbar:**
+1. `.gitattributes` neu (union-Merge fuer CHANGELOG, QUESTIONS, KORPUS-QUEUE, fristen,
+   LOGBUCH, RADAR, FRUEHWARNUNG, betrieb-chronik, SYNERGIE-REGISTER); `.gitignore` um
+   `render-scratch/` und die 70-MB-Dateiliste ergaenzt. Commit nativ (`nas-commit-now.sh`).
+   Rueckweg: beide Dateien zuruecksetzen.
+2. `com.jans.git-auto-sync` StartInterval 300 → 900 s auf Mac Mini UND MacBook Pro (Plist
+   editiert, `bootout`/`bootstrap`, beide laufen). Sicherung je Station:
+   `~/Library/LaunchAgents/com.jans.git-auto-sync.plist.bak-300s-260911`.
+3. Sicherungskopien vor der Index-Bereinigung auf beiden Stationen:
+   `~/jans-hub-daten/sicherung-260911/` (render-scratch 277 MB + Dateiliste 70 MB, je 347 MB).
+4. Scheduled Tasks auf dem Mac Mini NEU angelegt (Registry Mini): `heartbeat-daily`
+   (werktags 08:00), `vollgas-fruehwarnung` (06:25), `vollgas-chef-radar` (00:50/12:50).
+   Prompts = Live-Fassung vom MacBook Pro, wortgleich, mit vorangestelltem STATION-Block
+   (`ssh macbook` statt `ssh mini`, LAN-Remount). Die MacBook-Fassungen muss Raphael in der
+   App deaktivieren (R11: Registry der anderen Station ist von hier nicht steuerbar); bis
+   dahin Doppellauf.
+
+**Vom Auto-Mode-Klassifikator geblockt, als fertige Befehle an Raphael vorgelegt (Rule
+`wege-und-vollmachten`: nie umgehen):**
+a. Nativ auf der Synology `git rm -r --cached render-scratch remote-tasks/results/20260628-scan-synopsis/dateiliste.txt`
+   plus Commit — ohne diesen Schritt bleibt der `.gitignore`-Eintrag wirkungslos.
+b. `bash docs/konzepte/260812-Hub-Audit/260812-installation-A1-A3-A4.sh --scharf` auf dem Mini
+   (A4 Auto-Mount + Keepalive, A1 Stations-Watchdog, A3 Job-Logs) und Laden des
+   Tailscale-Waechters (`templates/launchd/ch.jans.tailscale-waechter.plist`).
+
+**Nicht getan, bewusst:** `~/.bexio.env` auf den Mini (Secret, Handarbeit Raphael); FileVault/
+Auto-Login (Systemeinstellung, Raphael); die vier bexio-abhaengigen Aufsichts-Tasks
+(logbuch-radar, hub-chef-taeglich, mahnwesen-verzugscheck, zahlungsabgleich-check) bleiben
+bis dahin auf dem MacBook Pro; Lern-Loops noch nicht verschoben (zweite Welle nach Messung).
+
+**Offen im Fristen-Register** (Eintrag 11.09. 15:1x).
+
 ## 260911 — Station-03 (revendo): M365-CLI, Zertifikat, .env und venvs wie auf den anderen Stationen
 
 Auftrag Raphael 11.09.2026 («genau die gleiche Einrichtung wie auf den anderen Stationen»).

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 14:23:17
+Stand: 11.09.2026 14:33:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 14:16)
@@ -14,4 +14,4 @@ Stand: 11.09.2026 14:23:17
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9747f1d44 Korrektur 11.09. 15:0x: Hauptarbeitsgeraet ist der Mac Mini (gemessen), Empfehlung zuerst V0+, V2 nach Messung; Nachtraege in Systemanalyse, Vertiefung, Fristen
+- 69f01782b Vorarbeit V (V0+, Freigabe Raphael 11.09.): .gitattributes union-Merge fuer Append-Dateien, .gitignore fuer render-scratch und 70-MB-Dateiliste (Index-Bereinigung folgt nativ)
