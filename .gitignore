@@ -80,3 +80,11 @@ __pycache__/
 # 5 bzw. 30 Min je Station). Ein Commit-wuerdiger Inhalt sind sie nie — nur ihr Alter
 # zaehlt, das A1 (Stations-Watchdog) direkt auf dem NAS liest.
 logbuch/heartbeat/*.stamp
+
+# Vorarbeit V (11.09.2026, Freigabe Raphael, V0+): grosse Binaer-/Scratch-Daten gehoeren
+# nicht ins Git. GitHub nimmt keine Datei ueber 100 MB an; render-scratch trug 277 MB
+# (eine DXF mit 83.5 MB), die Synopsis-Dateiliste 70 MB. Dateien bleiben auf Platte
+# (NAS-Arbeitsbaum) und in ~/jans-hub-daten/sicherung-260911 je Station.
+# Wirksam erst nach dem nativen `git rm -r --cached` auf der Synology (Aktion Raphael).
+render-scratch/
+remote-tasks/results/20260628-scan-synopsis/dateiliste.txt

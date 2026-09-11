@@ -1,0 +1,15 @@
+# Vorarbeit V (11.09.2026, Freigabe Raphael, V0+): Dateien, an denen mehrere Laeufe
+# gleichzeitig oben anfuegen, werden per union-Merge zusammengefuehrt statt zu kollidieren.
+# Belegt: alle Spaltungen NAS/GitHub vom 24.08. und 29.08.-02.09.2026 sassen ausnahmslos
+# in solchen Append-at-top-Dateien (Chronik 260824e, Fristen-Register 30.08./31.08.).
+# Wirkung: beide Seiten bleiben erhalten, Reihenfolge kann abweichen; nie fuer
+# strukturierte Dateien (INDEX, JSON, Scripts) verwenden.
+**/CHANGELOG.md merge=union
+**/QUESTIONS.md merge=union
+**/KORPUS-QUEUE.md merge=union
+logbuch/fristen.md merge=union
+logbuch/LOGBUCH.md merge=union
+logbuch/vollgas/RADAR.md merge=union
+logbuch/vollgas/FRUEHWARNUNG.md merge=union
+rules/betrieb-chronik.md merge=union
+wissen/koordination/SYNERGIE-REGISTER.md merge=union
