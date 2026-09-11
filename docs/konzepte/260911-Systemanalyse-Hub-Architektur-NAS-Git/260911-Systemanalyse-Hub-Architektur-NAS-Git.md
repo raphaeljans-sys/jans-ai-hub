@@ -19,16 +19,16 @@ Stand 11.09.2026, 14:00 · Auftrag Raphael Jans, 11.09.2026 · Verfasst auf dem 
 **01.1 Architektur heute.** Kanonische Quelle ist das NAS-Repo `/volume2/daten/jans-ai-hub`, gemountet als `/Volumes/daten` per SMB auf jeder Station. Die Stationen halten daneben einen SSD-Klon `~/Developer/jans-ai-hub`, der laut Rule `sync-kanonische-quelle` nur Lesespiegel ist. Die Claude-Konfiguration `.claude/skills|agents|commands` zeigt per Symlink auf das NAS. Git darf nicht über SMB laufen; deshalb committet die Synology alle 15 Minuten selbst (`nas-selfcommit.sh`) und pusht nach GitHub, während `git-auto-sync.sh` auf jeder Station alle 5 Minuten den Klon mit GitHub abgleicht und dabei selbst pusht.
 
 ```
-                 GitHub (Backup, zwei Schreiber auf main)
-                    ▲                       ▲
-      nas-selfcommit│15 Min      git-auto-sync│5 Min je Station
-                    │                       │
-   NAS DS918+ ──────┴── SMB ──▶ Mac Mini ───┴──▶ SSD-Klon (Lesespiegel, faktisch beschrieben)
-   /volume2/daten          ──▶ MacBook Pro M2  ──▶ SSD-Klon
-   jans-ai-hub (KANONISCH) ──▶ MacBook Revendo ──▶ SSD-Klon
-        ▲                        │
-        │ Symlinks .claude/*     │ nas-auto-mount 180 s · nas-keepalive 60 s
-        └────────────────────────┘ ensure-nas-mounted vor jedem Lauf
+            GitHub (Backup, zwei Schreiber auf main)
+               ▲                    ▲
+ nas-selfcommit│15 Min   git-auto-sync│5 Min je Station
+               │                    │
+ NAS DS918+ ───┴─ SMB ─▶ Mac Mini ──┴─▶ SSD-Klon (faktisch beschrieben)
+ /volume2/daten       ─▶ MacBook M2   ─▶ SSD-Klon
+ (KANONISCH)          ─▶ MacBook Rev. ─▶ SSD-Klon
+      ▲                    │ nas-auto-mount 180 s
+      │ Symlinks .claude/* │ nas-keepalive 60 s
+      └────────────────────┘ ensure-nas-mounted je Lauf
 ```
 
 **01.2 Kennzahlen (gemessen 11.09.2026).**
@@ -86,18 +86,19 @@ Stand 11.09.2026, 14:00 · Auftrag Raphael Jans, 11.09.2026 · Verfasst auf dem 
 **04.1 Grundsatz.** Die einzige Quelle der Wahrheit ist das Git-Repository auf GitHub. Jede Station, auch der Mac Mini, arbeitet ausschliesslich in ihrem lokalen Klon `~/Developer/jans-ai-hub`. Es gibt keinen geteilten Arbeitsbaum mehr. Was geteilt werden soll, wird committet und gepusht; was gelesen werden soll, wird gepullt.
 
 ```
-                        GitHub  origin/main  (EINZIGE QUELLE, Off-Site)
-                       ▲        ▲          ▲
-                  push │        │          │ pull --rebase, push
-                       │        │          │
-   Mac Mini (ZENTRALE) │   MacBook Pro M2  │   MacBook Revendo
-   Klon + alle Loops   │   Klon, mobil,    │   Klon, Lern-Betrieb
-   Aufsicht, Queue,    │   offline fähig   │
-   Dispatch-Endpunkt   │                   │
-        │ liest Rohkorpora (Archiv, Bauprodukte, Synobsis) nur bei Bedarf
-        ▼
-   NAS DS918+  =  Dateiserver für Archiv, Rohkorpora, schwere Referenzen, Backup-Spiegel
-                  (kein Git-Arbeitsbaum, kein Committer, keine Symlinks mehr dorthin)
+           GitHub origin/main (EINZIGE QUELLE, Off-Site)
+             ▲              ▲              ▲
+        push │              │              │ pull --rebase, push
+             │              │              │
+ Mac Mini (ZENTRALE)   MacBook Pro M2   MacBook Revendo
+ Klon + alle Loops     Klon, mobil,     Klon, Lern-Betrieb
+ Aufsicht, Queue,      offline fähig
+ Dispatch-Endpunkt
+      │ liest Rohkorpora nur bei Bedarf
+      ▼
+ NAS DS918+ = Dateiserver: Archiv, Rohkorpora, schwere
+ Referenzen, Backup-Spiegel (kein Git-Arbeitsbaum,
+ kein Committer, keine Symlinks mehr dorthin)
 ```
 
 **04.2 Rollen der Geräte.**

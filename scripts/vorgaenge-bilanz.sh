@@ -154,7 +154,12 @@ mkdir -p "$OUTDIR"
             sub(/[.,;].*$/, "", ball)
             sub(/ (Haengt|Hängt|Beleg|Der|Die|Das|und) .*$/, "", ball)
             gsub(/[ ,.]+$/, "", ball)
-            if (length(ball) > 2) ball = "extern: " ball; else ball = "unbekannt"
+            # "Ball bei JANS" / "Ball bei Raphael" ist die eigene Seite, nicht
+            # extern (belegt 11.09.2026: zwei JANS-Vorgaenge standen als
+            # Nachfass-Kandidaten gegen Dritte in der Liste).
+            if (ball ~ /^(JANS|RJ)( |$)/)              ball = "JANS"
+            else if (ball ~ /^Raphael( |$)/)           ball = "Raphael"
+            else if (length(ball) > 2) ball = "extern: " ball; else ball = "unbekannt"
         }
         else if (zeile ~ /AKTION:/)                   ball = "JANS"
 
@@ -269,9 +274,18 @@ KENN=$(awk -F'\t' -v heute="$HEUTE_ISO" -v schwelle="$SCHWELLE" '
         ball[$6]++
         if ($6 == "unbekannt") ballunklar++
         t = tage($8)
-        if (t >= 0) { mitdatum++; summe += t; if (t > max) { max = t; maxtitel = $2 } }
+        # Plausibilitaet: ein "seit"-Datum ueber 180 Tage zurueck ist fast immer
+        # ein Sachdatum im Text, kein Eroeffnungsdatum. Belegt 11.09.2026: "seit
+        # 01.06.2020" (Aufhebung der StrAV) machte einen Thalwil-Vorgang 2293 Tage
+        # alt und hob das Mittel aller Vorgaenge von rund 30 auf 167 Tage. Nicht
+        # werten, aber ausweisen — nie still verwerfen.
+        if (t > 180) { unpl++; print "U\t" t "\t" $2 }
+        else if (t >= 0) { mitdatum++; summe += t; if (t > max) { max = t; maxtitel = $2 } }
         b = tage($7)
-        if (b >= 0 && b > schwelle && $6 ~ /extern/) { liegt++; liegtliste = liegtliste "\n- " $2 " (" b " Tage ohne Bewegung, " $6 ")" }
+        # Jede Zeile einzeln ausgeben. Die fruehere Fassung haengte die Liste mit
+        # "\n" an EIN Feld; die Rueckgabe las nur dessen erste (leere) Zeile —
+        # der Report nannte "8 Vorgaenge" und zeigte keinen einzigen (11.09.2026).
+        if (b >= 0 && b > schwelle && $6 ~ /extern/) { liegt++; print "N\t" b "\t" $2 " (" b " Tage ohne Bewegung, " $6 ")" }
     }
     END {
         # Median der abgeschlossenen Durchlaufzeiten — robuster als das Mittel,
@@ -287,7 +301,7 @@ KENN=$(awk -F'\t' -v heute="$HEUTE_ISO" -v schwelle="$SCHWELLE" '
         printf "abgn\t%d\nabgsumme\t%d\nabgmed\t%d\nabgmax\t%d\nabgmaxtitel\t%s\n", \
                abgn, abgsumme, med, abgmax, abgmaxtitel
         for (b in ball) printf "ball\t%s\t%d\n", b, ball[b]
-        printf "liegtliste\t%s\n", liegtliste
+        printf "unpl\t%d\n", unpl
     }' "$REGISTER" 2>/dev/null)
 
 hole() { printf '%s\n' "$KENN" | awk -F'\t' -v k="$1" '$1==k {print $2; exit}'; }
@@ -362,7 +376,16 @@ konsequent «AKTION JANS», «AKTION Raphael» oder «Ball bei \<Stelle\>» schr
 Vorgänge, die extern liegen und seit über $SCHWELLE Tagen keine Bewegung zeigen: **$LIEGT**
 MID
 
-printf '%s\n' "$KENN" | awk -F'\t' '$1=="liegtliste" {print $2}'
+printf '%s\n' "$KENN" | awk -F'\t' '$1=="N" {print $2 "\t- " $3}' | sort -rn | cut -f2-
+
+UNPL=$(printf '%s\n' "$KENN" | awk -F'\t' '$1=="unpl" {print $2; exit}')
+if [ "${UNPL:-0}" -gt 0 ]; then
+    echo
+    echo "Nicht gewertet, weil das «seit»-Datum über 180 Tage zurückliegt und damit"
+    echo "fast sicher ein Sachdatum im Text ist, kein Eröffnungsdatum ($UNPL):"
+    echo
+    printf '%s\n' "$KENN" | awk -F'\t' '$1=="U" {printf "- %s (%s Tage)\n", $3, $2}'
+fi
 
 cat <<NACHHEAD
 

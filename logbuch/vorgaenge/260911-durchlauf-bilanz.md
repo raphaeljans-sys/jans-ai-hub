@@ -10,11 +10,11 @@ Quelle: logbuch/fristen.md · Register: logbuch/vorgaenge/vorgaenge.tsv
 | Vorgänge insgesamt | 222 |
 | davon aktiv | 143 |
 | davon erledigt | 79 |
-| mit Eröffnungsdatum (messbar) | 21 von 143 |
-| mittleres Alter der messbaren | 167 Tage |
-| ältester offener Vorgang | 2293 Tage |
+| mit Eröffnungsdatum (messbar) | 19 von 143 |
+| mittleres Alter der messbaren | 52 Tage |
+| ältester offener Vorgang | 162 Tage |
 
-Ältester: Thalwil Bohlweg 3 — Begleitbeschrieb Projektänderung liegt fertig (Fassung 260731), Fre
+Ältester: Freigabe-Entscheid Raphael: Jurybericht 2507 Halden herunterladen?
 
 ## 2. Abgeschlossene Durchlaufzeit — die Zielgrösse
 
@@ -41,11 +41,9 @@ führt. Ältere Abschlüsse sind dort nicht mehr enthalten und fehlen hier.
 | Ball bei | Vorgänge |
 |---|---|
 | unbekannt | 87 |
-| JANS | 26 |
-| Raphael | 19 |
-| extern: JANS | 4 |
+| JANS | 30 |
+| Raphael | 20 |
 | extern: TeKoSi | 1 |
-| extern: Raphael | 1 |
 | extern: KISPI-Bauleitung | 1 |
 | extern: KISPI | 1 |
 | extern: Gruner | 1 |
@@ -59,8 +57,19 @@ konsequent «AKTION JANS», «AKTION Raphael» oder «Ball bei \<Stelle\>» schr
 
 ## 4. Nachfass-Schwelle (7 Tage)
 
-Vorgänge, die extern liegen und seit über 7 Tagen keine Bewegung zeigen: **8**
+Vorgänge, die extern liegen und seit über 7 Tagen keine Bewegung zeigen: **6**
+- KISPI Therapiestation — Installationsplan Lüftung vom QS Brandschutz zurückgewiesen (44 Tage ohne Bewegung, extern: Duran/Gruner)
+- NACHTRAG RADAR 01.08.2026: der Termin vom 31.07. 11:00 ist verstrichen, ein Ergebnisbeleg  (41 Tage ohne Bewegung, extern: Gruner)
+- KISPI — prüfbarer Lüftungsplan: Gruner-intern strittig, Terminvorgabe wird von RJ erwa (39 Tage ohne Bewegung, extern: Duran)
+- KISPI OG1 — Brandabschottung der Halfenschienen: vier Punkte gesetzt, drei davon mit Bal (23 Tage ohne Bewegung, extern: KISPI-Bauleitung)
+- TeKoSi-Türfachplanung: die finale Freigabe durch die KISPI-Fachstellen ist ausstehend (18 Tage ohne Bewegung, extern: KISPI)
+- Tuermatrix: L. Merci meldet sieben Korrekturen, und ohne sie geht das Tuerbuch nicht zur U (10 Tage ohne Bewegung, extern: TeKoSi)
 
+Nicht gewertet, weil das «seit»-Datum über 180 Tage zurückliegt und damit
+fast sicher ein Sachdatum im Text ist, kein Eröffnungsdatum (2):
+
+- NEU 10.09. — OneDrive-Bereinigung MacBook Pro: Quarantäne ~/OneDrive-Quarantaene-260910 (212 Tage)
+- Thalwil Bohlweg 3 — Begleitbeschrieb Projektänderung liegt fertig (Fassung 260731), Fre (2293 Tage)
 
 Das ist der Regelkreis: jeder Eintrag hier ist ein Kandidat für einen
 Nachfass-Entwurf. Erstellt wird er vom Skill `logbuch` bzw. auf Zuruf; versendet
@@ -103,7 +112,7 @@ Die zuletzt bewegten zuerst, weil sie am ehesten wieder angefasst werden:
 
 ## 6. Was diese Bilanz noch nicht kann
 
-- **Durchlaufzeit misst nur, wo ein Eröffnungsdatum steht.** Aktuell 21 von
+- **Durchlaufzeit misst nur, wo ein Eröffnungsdatum steht.** Aktuell 19 von
   143 aktiven Vorgängen. Das Feld wird nur gesetzt, wenn im Text ausdrücklich
   «seit \<Datum\>» steht; es wird nie geraten. Jeder neue Vorgang sollte es
   mitbekommen, dann wächst die Messbasis von selbst.
