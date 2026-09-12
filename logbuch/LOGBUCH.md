@@ -12590,3 +12590,54 @@ Korrigiert: Destillat (datenstand, Bemessungswerte-Grundsatz, Offene Punkte),
 Restfunde ausser Korrekturvermerken. QUESTIONS.md Run 192, CHANGELOG-Eintrag. Kein Original
 gelesen — die Bemessungswerte-Zuschlaege aus SIA 279:2018 Tabelle 1 bleiben offen fuer einen
 vollbudgetierten Folgelauf.
+
+## 2026-09-12 05:3x Nachtschicht Mac Mini — Fristen-Radar: Zusammenstellung Ueberfaelliges (Entwurf, nicht versendet)
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks/sync-tasks leer, Synobsis-Embeddings seit 08.09.
+bestaetigt aktuell, CHANGELOG-Eintrag desselben Tages). Prioritaet 3 gezogen: `logbuch/fristen.md`
+Aktiv-Block plus die seither prepended-chronologischen Kopfeintraege (01.-11.09.) durchsucht
+(awk-Extraktion Frist+Status, gezielte grep/sed-Zugriffe statt Volltextlesen, wegen Dateigroesse
+gut 1 MB). Fortsetzung der Zusammenstellung vom 10.09.2026 13:33 — jene fuenf Positionen einzeln
+nachgefuehrt, dazu ein neuer Fund. NICHT verifiziert durch frischen Mail-Abgleich ueber das
+bereits Dokumentierte hinaus, NICHT versendet:
+
+01 **bexio-Abo-Entscheid ueberfaellig, NEU seit dem letzten Radar.** Die Aktivzeile
+«08.09.2026 — bexio-Abo» (automatische Migration Starter auf Advanced am 08.10.2026, Entscheid
+noetig bis ca. 08.09. wegen der 30-Tage-Frist) ist ohne Vermerk verstrichen — Stand 11.09.
+06:5x (Logbuch-Radar) ausdruecklich "Abo-Umstellung ... weiterhin ohne Entscheid". Zusatzbefund:
+der bexio-API-Zugang ist am 11.09. 34 Tage tot (HTTP 401 an drei unabhaengigen Proben), die
+Debitoren-Aufsicht blind fuer RE-00087/98/99/100/101, zusammen ueber CHF 30'000 unverifiziert.
+Entscheidungsgrundlage liegt seit 30.08. fertig:
+`wissen/firmengruendung-ch/outputs/2026-08-30_bexio-vs-alternativen-buchhaltung.md`
+(2. bexio-Abo ca. CHF 924/Jahr vs. CashCtrl PRO fuer zwei Organisationen ca. CHF 350/Jahr).
+02 **Thalwil Bohlweg 3 (Position 01 der letzten Zusammenstellung) ist NICHT mehr die
+5-Wochen-Bringschuld von damals, sondern eine neue, seit 08.09. unverifizierte P1-Zusage.**
+Die alte Eingabe-Blockade loeste sich am 07.09. (Abaenderungseingabe versendet und von Tschopp
+freigegeben). Offen blieb danach die am 07.09. 14:14 selbst zugesagte Zustellung von PDF UND DXF
+an S. Tschopp und J. Posch (fuer deren Besprechung Di 08.09. 10:00), zuletzt als "P1, heute"
+eskaliert am 08.09. 07:07/07:28. Weder in `fristen.md` noch in `LOGBUCH.md` findet sich danach
+ein Erledigt-Vermerk zur DXF-Zustellung — Termin mit Posch liegt damit 4 Tage zurueck, Status
+unbekannt (moeglicherweise nur nicht nachgetragen).
+03 **2620 Albertstrasse 7 KV-Entwurf an R. Steinmann weiterhin unversendet** (Position 04 der
+letzten Zusammenstellung, seither keine neuere Fundstelle). Entwurf liegt seit 02.09. 08:49 im
+Ordner, Steinmann ist 03.09. bis 21.09. abwesend ohne Vertretung fuer Albertstrasse 7. Zeile vom
+04.09. benennt es explizit als Entscheid Raphaels: heute senden (liegt bei Rueckkehr im
+Postfach) oder bewusst auf 21.09. legen.
+04 **Steinbrüchelstrasse 26/28 (Position 02) ist erledigt** — Bericht ging bereits am 04.09.
+07:45 raus, nicht erst am 09.09.; die finale Einschaetzung folgte 09.09. Bopp ist ab 11.09. bis
+23.09. abwesend, keine weitere Aktion vor seiner Rueckkehr.
+05 **AG-Gruendung (Position 03) nicht neu geprueft** — die UBS-Kapitaleinzahlungskette war laut
+Register Ende Juli/Anfang August aufgeloest; ein `ag-gruendung-monitor`-Lauf ist am 11.09. 07:30
+gelaufen (separater Kopfblock in `fristen.md`, nicht ausgewertet). Fuer eine belastbare Aussage
+fehlt hier das Budget — bei Bedarf gezielt nachziehen.
+06 **KISPI Jegen (Position 05) ist ueberholt**, nicht mehr durch eine einzelne alte Zeile
+abbildbar: der Strang laeuft seit dem 09.09. taeglich mehrfach ueber Hub-Chef/Logbuch-Radar
+(Werkplan-Freigaben, Montagetermine, SharePoint-Zugriff Bajrami) — dort bereits aktiv
+nachgefuehrt, keine zusaetzliche Zusammenstellung noetig.
+
+Bewusst NICHT getan: keine Zeile in `fristen.md` editiert, kein Mail-Entwurf erstellt, nichts
+versendet, kein frischer Postfach-Abgleich zur Thalwil-DXF-Frage (Budget). Kein Sendegrund nach
+Rule 260803 — Punkt 01 (bexio) ist der einzige wirklich neue operative Fund gegenueber dem
+bereits Dokumentierten, er liegt zur naechsten Durchsicht bereit.
+
+Budget rund 0.6 von 5 USD. Zyklus sauber beendet.
