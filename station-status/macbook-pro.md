@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.09.2026 02:28:39
+Stand: 12.09.2026 02:38:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 12.09.2026 02:28:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 942f26b4b nas-selfcommit: 3 Datei(en) 2026-09-12 02:15
+- b3e9becb7 energie Run 192: SIA-2001-Widerspruch (naturdaemmstoffe vs. daemmstoffe-lambda) behoben, Nachtschicht-Journal

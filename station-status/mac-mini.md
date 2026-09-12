@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.09.2026 02:33:36
+Stand: 12.09.2026 02:43:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.09.2026 02:33:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c9fe3433e nas-selfcommit: 3 Datei(en) 2026-09-12 02:30
+- b3e9becb7 energie Run 192: SIA-2001-Widerspruch (naturdaemmstoffe vs. daemmstoffe-lambda) behoben, Nachtschicht-Journal
