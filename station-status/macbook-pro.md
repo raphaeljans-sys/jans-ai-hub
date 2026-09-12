@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.09.2026 13:06:31
+Stand: 12.09.2026 13:27:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 12.09.2026 13:06:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 7b65819ed vollgas-radar: 12.09. 12:58 FREI, P1 MacBook-App abgemeldet seit 11.09. 20:08, 12 Task-Starts gescheitert, gemailt
+- 015043b53 nas-selfcommit: 3 Datei(en) 2026-09-12 13:15
