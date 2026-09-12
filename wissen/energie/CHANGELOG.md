@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2026-09-12 (Run 192, Nachtschicht Mac Mini 02:3x) — A-BLIND Rang 56: SIA 2001 zurückgezogen, Widerspruch zwischen zwei Wiki-Artikeln behoben
+
+`destillate/sia-2001-waermedaemmstoffe-lambda.md` (established seit 09.06.2026, nie gegengelesen,
+6 Backlinks) gegen den Bestand geprüft — Original-PDF auf dieser Station nicht erreichbar (OneDrive-
+Mount für `PL - 04 Energie` zeigt eine fehlerhafte, mehrfach verschachtelte Ordnerstruktur mit
+"Resource deadlock avoided", Befund gehört in die Infrastruktur-Chronik, nicht in diese KB), darum
+Prüfung über KB-internen Quervergleich statt Refuter-Panel am Original. **Fund:** das Destillat
+führte «aktuelle SIA-2001-Ausgabe» als Nachschlagequelle, obwohl `wiki/daemmstoffe-lambda.md`
+an anderer Stelle bereits wusste, dass SIA 2001 zurückgezogen ist (abgelöst über SIA 2001:2015 durch
+SIA 279:2018 — Beleg `wissen/normen/destillate/sia-279-2018.md` Frontmatter `ersetzt:`). Dieselbe
+falsche Formulierung stand unkorrigiert acht Zeilen unterhalb der eigenen Warnbox in
+`daemmstoffe-lambda.md` selbst (Zeile 35). **Echter Widerspruch zwischen zwei KB-Artikeln:**
+`wiki/naturdaemmstoffe.md` führte die SIA-2001-Lambda-Werte im Frontmatter als «weiterhin
+massgebende Grundlage», das Gegenteil dessen, was `daemmstoffe-lambda.md` zur selben Quelle sagt.
+**Korrigiert:** Destillat (datenstand, Bemessungswerte-Grundsatz, Offene Punkte — erster Punkt
+geschlossen, zweiter präzisiert auf SIA 279:2018 Tabelle 1), `wiki/daemmstoffe-lambda.md` Zeile 35,
+`wiki/naturdaemmstoffe.md` Frontmatter-datenstand. Grep-Abschlussregel über `wiki/`+`destillate/`
+auf die alten Formulierungen: null Treffer ausser den gesetzten Korrekturvermerken. Kein Original
+gelesen — dieser Befund ist deshalb **kein** Ersatz für die reguläre Aktualitätsprüfung dieses
+Destillats, nur die Behebung eines bereits im Bestand bewiesenen Widerspruchs.
+
 ## 2026-09-11 (Run 191, Abendlauf Mac Mini 22:3x) — A-BLIND Rang 59: Simulationspflicht der Stadt ZH war als Recht geführt, Figur 13 am Normoriginal geschlossen
 
 `destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` (11 Backlinks, established seit

@@ -1,7 +1,7 @@
 ---
 title: Dämmstoffe & λ-Werte — Schnellreferenz
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-09-12
 datenstand: "2002 (ältester zitierter Quellenstand: BFE-U-Wert-Bauteilekatalog Neubauten 2002; SIA-Dokumentation D 0200/2001 «Wärmedämmstoffe» Ausgabe 2005 ist der jüngere der beiden Grundwerte — für die Baueingabe massgebend bleibt die aktuelle SIA-380/1-Ausgabe, hier nur Faustwerte)"
 sources: [destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]], [[u-werte-grenzwerte-ch]], [[BAUHERREN-FAQ]]
@@ -30,9 +30,11 @@ desto besser dämmt das Material bei gleicher Dicke. Er geht direkt in den U-Wer
 | PUR/PIR | 0,022–0,029 | 0,024–0,028 | 5.2/5.3 | dünne, hochdämmende Aufbauten |
 | Phenolharzschaum | 0,021–0,024 | 0,022–0,023 | 5.3 | tiefste λ der gängigen Schäume |
 
-⚠ Werte = Bandbreite aus SIA 2001 **Ausgabe 2005** (Produktbestätigungen liefen 2006 aus). Die
-Materialklassen-Bandbreiten sind physikalisch weiterhin als Orientierung brauchbar; **konkrete
-Produktwerte** stammen aus der aktuellen Herstellerdeklaration / aktuellen SIA-2001-Ausgabe.
+⚠ Werte = Bandbreite aus SIA 2001 **Ausgabe 2005** (Produktbestätigungen liefen 2006 aus; die Norm
+SIA 2001 selbst ist inzwischen zurückgezogen, siehe Kasten oben). Die Materialklassen-Bandbreiten
+sind physikalisch weiterhin als Orientierung brauchbar; **konkrete Produktwerte** stammen aus der
+aktuellen Herstellerdeklaration — nicht mehr aus einer "aktuellen SIA-2001-Ausgabe", die es nicht
+mehr gibt.
 
 ## Natur-/Faserdämmstoffe + Hochleistung (VIP) + Kompaktfassade
 | Dämmstoff | λ_D [W/(m·K)] | typisch | BKZ (VKF) | Einsatz |

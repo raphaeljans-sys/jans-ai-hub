@@ -12567,3 +12567,26 @@ mit dem bestehenden Luzern-Artikel, QUESTIONS #79 mit Schliessungsvermerk verseh
 geloescht), INDEX.md und CHANGELOG nachgezogen. Rechtskraft-Detail (Gemeinderat/kantonale
 Genehmigung) bleibt als offener Punkt im Artikel vermerkt. Budget-Verbrauch dieses Laufs:
 rund 1.90 USD von 5 USD.
+
+## 2026-09-12 02:3x Nachtschicht Mac Mini (Prioritaet 4) — energie: A-BLIND Rang 56 (SIA 2001), Widerspruch zwischen zwei Wiki-Artikeln behoben
+
+Prioritaeten 1-2 leer (keine Sync-/Remote-Tasks; Synobsis Stufe 2 seit 05.09. vollstaendig,
+853/853, kein offenes Ziel mehr). `energie` als einziges freies Prioritaet-4-Ziel (bauprodukte
+und grobkosten laut PROGRAMM.md erledigt/ausgesetzt) gewaehlt, dort naechster A-BLIND-Kandidat
+Rang 56 `sia-2001-waermedaemmstoffe-lambda` (`established`, nie gegengelesen). Original-PDF auf
+dieser Station nicht erreichbar: der OneDrive-Mount fuer `PL - 04 Energie` zeigt eine defekte,
+mehrfach verschachtelte Ordnerstruktur (`OneDrive-FreigegebeneBibliotheken–OneDrive-
+FreigegebeneBibliotheken–…`), `find`/`mdfind` liefern darauf «Resource deadlock avoided» statt
+das PDF zu finden — Infrastrukturbefund, nicht Teil dieses Laufs, hier nur vermerkt. Pruefung
+stattdessen ueber KB-internen Quervergleich: das Destillat fuehrte SIA 2001 als Norm mit
+«aktueller Ausgabe», obwohl `wiki/daemmstoffe-lambda.md` bereits wusste, dass SIA 2001 ueber
+SIA 2001:2015 durch **SIA 279:2018** abgeloest und zurueckgezogen ist (Beleg
+`wissen/normen/destillate/sia-279-2018.md`, Frontmatter `ersetzt:`). Dieselbe falsche
+Formulierung stand unkorrigiert acht Zeilen unter der eigenen Warnbox in
+`daemmstoffe-lambda.md` selbst. Echter Widerspruch gefunden: `wiki/naturdaemmstoffe.md` fuehrte
+dieselben SIA-2001-Werte im Frontmatter als «weiterhin massgebende Grundlage» — das Gegenteil.
+Korrigiert: Destillat (datenstand, Bemessungswerte-Grundsatz, Offene Punkte),
+`daemmstoffe-lambda.md` Zeile 35, `naturdaemmstoffe.md` Frontmatter. Grep-Abschlussregel: null
+Restfunde ausser Korrekturvermerken. QUESTIONS.md Run 192, CHANGELOG-Eintrag. Kein Original
+gelesen — die Bemessungswerte-Zuschlaege aus SIA 279:2018 Tabelle 1 bleiben offen fuer einen
+vollbudgetierten Folgelauf.

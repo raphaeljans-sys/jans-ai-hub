@@ -3,9 +3,9 @@ quelle: "SIA Merkblatt 2001 «Waermedaemmstoffe — Deklarierte Werte der Waerme
 herausgeber: "SIA — Schweizerischer Ingenieur- und Architektenverein, Zürich"
 ausgabe: "Ausgabe 2005 (1. Auflage 2005-04)"
 gelesen: "2026-06-07 (S. 1-14); 2026-06-09 (S. 15-17, Naturdaemmstoffe/VIP/WDVS)"
-datenstand: "⚠ 2005 — Produkt-Nennwerte/Bestaetigungen galten bis 31.12.2006; veraltet (>18 Mt.). Materialklassen-λ-Bandbreiten physikalisch weiterhin als Orientierung gueltig; konkrete Produktwerte = aktuelle Herstellerdeklaration / aktuelle SIA-2001-Ausgabe."
+datenstand: "⚠ 2005 — Produkt-Nennwerte/Bestaetigungen galten bis 31.12.2006; veraltet (>18 Mt.). Materialklassen-λ-Bandbreiten physikalisch weiterhin als Orientierung gueltig; konkrete Produktwerte = aktuelle Herstellerdeklaration. ⚠⚠ Nachgetragen 12.09.2026: SIA 2001 ist als Norm ZURUECKGEZOGEN — 2005 abgeloest durch SIA 2001:2015, diese wiederum durch SIA 279:2018 ersetzt (Frontmatter `ersetzt:`, wissen/normen/destillate/sia-279-2018.md). Es gibt keine 'aktuelle SIA-2001-Ausgabe' mehr, auf die verwiesen werden koennte — der gueltige Bemessungswert-Nachweis laeuft ueber SIA 279:2018 Tabelle 1."
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-09-12
 quelle_pfad: "PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf"
 ---
 
@@ -58,8 +58,8 @@ des Holzwolle-Produkts; der Kern (EPS/Steinwolle) zaehlt mit seinem eigenen λ_D
 ## Bemessungswerte — Grundsatz
 λ_D gilt fuer mittlere Temperatur 10 °C, Ausgleichsfeuchte 23 °C/50 % r.F., gealterten Zustand;
 statistisch aus der Werks-Eigenueberwachung (90-%-Vertrauensniveau). Fuer den rechnerischen
-U-Wert sind die **Bemessungswerte** zu verwenden — bestaetigte Nennwerte (Kontrollausschuss SIA 279)
-bzw. tabellierte Werte aus Vornorm **SIA 279**.
+U-Wert sind die **Bemessungswerte** zu verwenden — bestaetigte Nennwerte (Kontrollausschuss) bzw.
+tabellierte Werte aus **SIA 279:2018**, Tabelle 1 (Nachfolgenorm von SIA 2001, siehe `datenstand`).
 
 ## Bauherren-Transfer
 - **«λ klein = duenner daemmen bei gleicher Wirkung.»** Wo Platz/Dicke knapp ist (Innendaemmung,
@@ -69,9 +69,13 @@ bzw. tabellierte Werte aus Vornorm **SIA 279**.
   Brandschutz/Schall → Mineralwolle (nicht brennbar, BKZ 6q); oekologisch/diffusionsoffen → Holzfaser/Zellulose.
 - Mit der λ-Bandbreite laesst sich die **noetige Daemmstaerke** ueberschlagen, um die U-Wert-Grenze
   zu treffen (vgl. [[u-werte-grenzwerte-ch]], [[bfe-u-wert-bauteilekatalog-neubauten-2002]]).
-- ⚠ Konkrete Produktwerte beim Daemmstoff-Datenblatt / aktueller SIA-2001-Ausgabe pruefen — diese
-  Liste (2005) dient der **Orientierung der Klassenbandbreite**, nicht als aktuelle Produktdeklaration.
+- ⚠ Konkrete Produktwerte beim aktuellen Daemmstoff-Datenblatt pruefen — diese Liste (2005) dient
+  der **Orientierung der Klassenbandbreite**; die Norm SIA 2001 selbst ist zurueckgezogen, es gibt
+  keine neuere Ausgabe zum Nachschlagen mehr (→ SIA 279:2018 fuer den formalen Bemessungswert-Nachweis).
 
 ## Offene Punkte
-- Aktuelle SIA-2001-Ausgabe / Umstellung auf SN-EN-Bemessungswerte abzugleichen (Produktwerte 2005 veraltet).
-- Bemessungswerte-Zuschlag (λ_D → λ_Bemessung) je Materialklasse aus aktueller SIA 279 nachtragen.
+- ✅ Geklaert 12.09.2026: SIA 2001 ist zurueckgezogen, abgeloest ueber SIA 2001:2015 durch
+  **SIA 279:2018** (`wissen/normen/destillate/sia-279-2018.md`, Frontmatter `ersetzt:`). War bis
+  dahin hier als offene Umstellungsfrage gefuehrt, obwohl die KB `normen` die Antwort bereits kannte.
+- Bemessungswerte-Zuschlag (λ_D → λ_Bemessung) je Materialklasse aus SIA 279:2018 Tabelle 1
+  nachtragen (Anhänge A-D dieser Norm sind laut `normen`-Destillat noch nicht gelesen).

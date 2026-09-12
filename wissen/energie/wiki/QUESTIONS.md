@@ -2,6 +2,41 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 192 (12.09.2026, Nachtschicht Mac Mini) — A-BLIND Rang 56: SIA 2001 zurückgezogen, Widerspruch zwischen zwei Wiki-Artikeln
+
+`[[sia-2001-waermedaemmstoffe-lambda]]` (`established` seit 09.06.2026, nie gegengelesen, 6
+Backlinks) geprüft. **Original nicht lesbar auf dieser Station:** der OneDrive-Mount für
+`PL - 04 Energie` zeigt eine defekte, mehrfach ineinander verschachtelte Ordnerstruktur
+(`OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–…`), `find`/`mdfind` liefern
+darauf `Resource deadlock avoided`; das PDF selbst wurde nicht gefunden. **Kein Werkzeugbefund,
+Infrastruktur-Meldung wert** (nicht Teil dieser KB — gehört in `rules/betrieb-chronik.md` bzw. an
+Raphael, hier nur vermerkt, damit ein künftiger Lauf nicht erneut sucht). Prüfung deshalb über
+KB-internen Quervergleich statt Original-Refuter:
+
+1. **P2 — Norm als weiterhin geltend geführt, obwohl im eigenen Bestand als zurückgezogen bekannt.**
+   `wiki/daemmstoffe-lambda.md` (Zeilen 13-16) wusste bereits: SIA 2001:2005 → SIA 2001:2015 →
+   abgelöst durch **SIA 279:2018** (Beleg `wissen/normen/destillate/sia-279-2018.md`, Frontmatter
+   `ersetzt: "SIA 279:2011 und SIA 2001:2015"`). Das Destillat selbst verwies trotzdem auf eine
+   «aktuelle SIA-2001-Ausgabe», die es nicht gibt. Berichtigt: `datenstand`, Abschnitt
+   «Bemessungswerte — Grundsatz», Bauherren-Transfer-Bullet, «Offene Punkte» (Punkt 1 geschlossen,
+   Punkt 2 präzisiert auf SIA 279:2018 Tabelle 1).
+2. **P3 — dieselbe falsche Formulierung stand unkorrigiert in der Quelle, die die Korrektur bereits
+   kannte.** `wiki/daemmstoffe-lambda.md` Zeile 35 wiederholte «aktuellen SIA-2001-Ausgabe» acht
+   Zeilen unter der eigenen Warnbox. Berichtigt.
+3. **P2 — echter Widerspruch zwischen zwei Artikeln.** `wiki/naturdaemmstoffe.md` führte die
+   SIA-2001-Lambda-Werte im Frontmatter-`datenstand` als «weiterhin massgebende Grundlage» — das
+   Gegenteil dessen, was `daemmstoffe-lambda.md` zur selben Quelle sagt. Berichtigt.
+
+**Grep-Abschlussregel:** `weiterhin massgebende Grundlage` und Varianten von «aktuelle*
+SIA-2001-Ausgabe» über `wiki/`+`destillate/` — null Treffer ausser den gesetzten
+Korrekturvermerken (ein Treffer «massgebende Grundlage» in `bfe-komfortlueftung-
+dimensionierungshilfe-1.md` betrifft ein anderes Merkblatt, nicht SIA 2001, ungeprüft belassen).
+
+**Nicht geleistet, bewusst offen:** kein Original gelesen, also **kein** Ersatz für die reguläre
+A-BLIND-Prüfung dieses Destillats gegen SIA 279:2018 (Tabelle 1, Anhänge A-D). Die Bemessungswerte-
+Zuschläge (λ_D → λ_Bemessung) bleiben offen — nächster Kandidat für einen vollbudgetierten Lauf mit
+Zugriff auf `wissen/normen/destillate/sia-279-2018.md` Anhänge.
+
 ## Run 191 (11.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 59: Bauherrenvorgaben der öffentlichen Hand als Recht geführt
 
 `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (11 Backlinks, `established` seit Run 88, nie
