@@ -9,7 +9,9 @@ sources:
   - "energiehub-gebaeude.ch, WordPress-REST-API /wp-json/wp/v2/media — vollständige Dateiliste der EN-Dokumente (66 Treffer) am 2026-08-27 abgefragt; umgeht die JS-gerenderte Seitenansicht"
   - "12 Formular-PDFs (EN-101a, EN-102a/b/c, EN-103, EN-104, EN-105, EN-110, EN-111, EN-112, EN-120, EN-141), Upload 2026-01-13, je Fusszeile und pdfinfo-ModDate direkt ausgewertet"
   - "Vollzugshilfe EN-102 (Upload 2025-08-12, Datei EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf): PDF-Title «Vollzugshilfe EN-102», CreationDate 2020-02-20, Fusszeile durchgehend «Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016)»"
-last_updated: 2026-08-27
+  - "12.09.2026: REST-API-Suche + Download für EN-106, EN-113, EN-121-123, EN-130-136, EN-140,
+    EN-142 (14 PDFs), je pdfinfo (Title/ModDate) und pdftotext-Fusszeile ausgewertet"
+last_updated: 2026-09-12
 quelle_pfad: "Web (amtliche EnDK-Plattform)"
 ---
 
@@ -44,9 +46,44 @@ ist. Diese Verwechslungsgefahr ist die Hauptursache widersprüchlicher Datumsang
 | EN-112 Kühlräume | August 2017 | 31.12.2026 | 28.11.2025 |
 | EN-120 Erneuerbare Wärme b. Wärmeerzeugerersatz | Juni 2019 | 31.12.2026 | 28.11.2025 |
 | EN-141 Gebäudeautomation | September 2016 | 31.12.2026 | 28.11.2025 |
+| EN-130 Ferienhäuser/zeitw. belegte Räume | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-131 Beheizte Gewächshäuser | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-132 Beheizte Traglufthallen | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-133 Wärmenutzung Elektrizitätserzeugungsanlagen | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-134 Heizungen im Freien | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-135 Beheizte Freiluftbäder | August 2017 | 31.12.2026 | 28.11.2025 |
+| EN-136 Lüftung/Klima SIA 380/4 | August 2017 | 31.12.2026 | 28.11.2025 |
 
-**Lesart:** identischer ModDate-Tag über alle zwölf Dateien plus identische neue Gültigkeitsangabe bei
-unveränderten Sachversionen = **Sammel-Neustempelung der Gültigkeit**, keine inhaltliche Revision.
+**Lesart:** identischer ModDate-Tag über allen achtzehn Dateien plus identische neue
+Gültigkeitsangabe bei unveränderten Sachversionen = **Sammel-Neustempelung der Gültigkeit**,
+keine inhaltliche Revision. Ergänzt 12.09.2026 (Nachtschicht, E-R165-4): EN-130 bis EN-136
+gehören zur selben Welle wie die ursprünglich zwölf geprüften Nummern, nur mit Upload
+2026-01-13 statt 2026-08-27 auf der Plattform erschienen (Sachversion durchgehend August 2017,
+ModDate durchgehend 28.11.2025, `gültig bis 31.12.2026`, je gegen pdftotext-Fusszeile
+verifiziert).
+
+**⚠ Falle EN-136: eine zweite, abgelaufene Datei liegt unter einer anderen Upload-URL.**
+Die WordPress-Mediathek führt zu «EN-136» **drei** Treffer: die Vollzugshilfe (2017, Titel
+«Vollzugshilfe EN-136», kein Gültigkeitsdatum) und **zwei** gleichnamige Nachweisformulare —
+`.../2026/01/EN-136.pdf` (ModDate 28.11.2025, `gültig bis 31.12.2026`, aktuell) und
+`.../2026/03/EN-136.pdf` (ModDate 07.12.2023, `gültig bis 31.12.2025` — **abgelaufen**,
+Upload-Datum März 2026 täuscht Aktualität vor). Unterschiedliche SHA-256, identische
+Sachversion August 2017. Wer die Formularsuche nach Upload-Datum statt nach Fusszeile
+sortiert, zieht die falsche, bereits abgelaufene Fassung. Kein Analogfund bei EN-130 bis
+EN-135 (dort je genau ein Formular-Treffer neben der Vollzugshilfe) — offen, ob sich die
+Falle bei weiteren EN-Nummern wiederholt, in diesem Lauf nicht flächendeckend geprüft.
+
+## Sieben EN-Nummern ohne Nachweisformular-Familie (nur Vollzugshilfe, kein Gültigkeitsdatum)
+Geprüft 12.09.2026 (E-R165-4): **EN-106** (Definition Bauteilflächen), **EN-113** (VHKA),
+**EN-121/122/123** (Sanierung zentrale/dezentrale Elektroheizung/-boiler), **EN-140**
+(Grossverbraucher), **EN-142** (energetische Betriebsoptimierung) liefern in der
+REST-API-Suche **je nur einen Treffer** — die Vollzugshilfe von 2017 (Ausgabe 2006/2015 je
+nach Dokument), kein zusätzliches, jährlich neu befristetes Formular. Das erklärt, warum die
+zwölf ursprünglich geprüften Nummern und EN-130–136 ein Formular-Gültigkeitsdatum tragen und
+diese sieben nicht: es sind reine Fachdokumente/Merkblätter ohne eigenständige Einreichform,
+kein Erfassungsfehler der ursprünglichen Erhebung. Damit ist die Sammel-Neustempelung
+28.11.2025 für diese sieben **nicht einschlägig** — sie unterliegen keinem
+31.12.2026-Terminrisiko.
 
 ## Bestätigte Ausgabenstände (Gegenprobe, keine Korrektur nötig)
 - **Vollzugshilfe EN-102 = Ausgabe Januar 2020** (Basis SIA 380/1:2016). Die auf der amtlichen
@@ -76,11 +113,16 @@ Dateiliste mit Upload- und Änderungsdatum heraus. Damit ist der Blocker gegenst
 Ausgabenstand dieser Plattform jederzeit maschinell prüfbar.
 
 ## Offene Punkte
-- Die Erhebung deckt die **zwölf meistzitierten** EN-Nummern ab, nicht den ganzen Satz
-  (EN-106, EN-113, EN-121 bis EN-123, EN-130 bis EN-136, EN-140, EN-142 nicht einzeln geöffnet).
+- ✓ **12.09.2026 geschlossen (E-R165-4):** EN-130 bis EN-136 nachgetragen (Sammel-Neustempelung
+  bestätigt, EN-136-Falle dokumentiert), EN-106/113/121-123/140/142 als formularlose
+  Vollzugshilfen ohne Gültigkeitsdatum identifiziert. Der gesamte im ursprünglichen Auftrag
+  genannte Satz von EN-Nummern ist damit erhoben.
 - **Kein Publikationstermin** für die MuKEn-2025-Vollzugshilfen auffindbar; die Plattform führt dazu
   nur MuKEn-2025-Grunddokumente (`MuKEn2025_d-2025-08-29.pdf`, `Vergleich_MuKEn_14_25_D.pdf`).
 - Ob die Kantone die Gültigkeit über den 31.12.2026 hinaus erneut verlängern, ist offen.
+- Neu 12.09.2026: ob die EN-136-Doppeldatei-Falle (aktuelle + abgelaufene Fassung unter
+  verschiedenen Upload-URLs) bei weiteren EN-Nummern ausserhalb des hier geprüften Satzes
+  ebenfalls vorkommt, ist nicht flächendeckend geprüft.
 
 ## Verwandt
 `[[enfk-en-102-waermeschutz-2018]]` · `[[enfk-fensterblatt]]` · `[[en-zh-nachweis-uebersicht]]` ·

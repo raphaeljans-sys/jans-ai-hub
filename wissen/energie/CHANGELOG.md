@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-12 (Run 193, Nachtschicht Mac Mini 18:xx) — E-R165-4 geschlossen: EN-130-136 nachgetragen, EN-136-Doppeldatei-Falle gefunden
+
+Ausgabenstand-Sweep der zwölf noch nicht einzeln geöffneten EN-Nummern (E-R165-4, offen seit
+28.08.2026) komplettiert: EN-130 bis EN-136 als Teil der Sammel-Neustempelung 28.11.2025
+bestätigt (Sachversion August 2017, `gültig bis 31.12.2026`, via REST-API + pdftotext-Fusszeile
+verifiziert), EN-106/113/121-123/140/142 als formularlose Vollzugshilfen ohne Gültigkeitsdatum
+identifiziert (kein Terminrisiko). Nebenfund: EN-136 führt in der Mediathek eine zweite,
+bereits abgelaufene Formular-Fassung unter neuerem Upload-Datum als die gültige — Upload-Datum
+ist auf dieser Plattform kein verlässliches Aktualitätskriterium, nur die Fusszeile selbst
+(neuer Punkt E-R193-1, ob sich das bei weiteren EN-Nummern wiederholt). Geändert:
+`destillate/enfk-nachweisformulare-gueltigkeit-2026.md` (Tabelle erweitert, neuer Abschnitt),
+`wiki/QUESTIONS.md` (E-R165-4 geschlossen, Run 193 protokolliert). Kein neues
+Primärquellenmaterial in `raw/` (Web-Erhebung, wie im Vorlauf Run 165 gehandhabt).
+
 ## 2026-09-12 (Nachtschicht Mac Mini 13:3x) — E-R191-1 Adressaten-Prüfung AHB-/HBA-Destillate: kein Befund
 
 Prüfwarteschlange-Auftrag aus Run 191 abgearbeitet: alle 34 `ahb-*.md`-Destillate plus vier weitere

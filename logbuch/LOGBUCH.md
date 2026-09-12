@@ -12657,3 +12657,26 @@ Naechster A-BLIND-Kandidat fuer den Folgelauf: `fenster-energieetikette-fea-bfe`
 dieser Station defekt (Befund bereits 02:3x vermerkt).
 
 Budget rund 1.0 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-12 18:xx Nachtschicht Mac Mini (Prioritaet 4) — energie: E-R165-4 geschlossen, EN-136-Doppeldatei-Falle gefunden
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks und sync-tasks/mac-mini leer; Synobsis-Vektorindex
+853x768 deckungsgleich mit documents.jsonl, zuletzt 05.09. gebaut, kein offenes Ziel). Prioritaet 3
+(Fristen-Register) ist bereits mehrfach heute durch Radar/Hub-Chef bearbeitet, kein zusaetzlicher
+Entwurf noetig. Prioritaet 4: `energie` bleibt das einzige freie Ziel (baurecht/normen/
+planungsgrundlagen/wettbewerbs-dna dedizierter Taktgeber, projekt-lessons/grobkosten/bauprodukte
+ausgesetzt bzw. erledigt, spec/immobilienbewertung Ereignis-Trigger). Dort den offenen P3-Punkt
+E-R165-4 abgearbeitet: Ausgabenstand-Sweep der zwoelf bisher nicht einzeln geoeffneten
+EN-Nummern (EN-106, EN-113, EN-121 bis EN-123, EN-130 bis EN-136, EN-140, EN-142) ueber die
+REST-API der amtlichen Plattform vervollstaendigt. EN-130 bis EN-136 gehoeren zur selben
+Sammel-Neustempelung wie die zwoelf urspruenglich geprueften Formulare (Sachversion August 2017,
+ModDate 28.11.2025, gueltig bis 31.12.2026). EN-106/113/121-123/140/142 sind formularlose
+Vollzugshilfen ohne Gueltigkeitsdatum, kein Terminrisiko. Nebenfund: EN-136 fuehrt in der
+Mediathek eine zweite, bereits abgelaufene Formular-Fassung unter **neuerem** Upload-Datum als
+die gueltige Fassung (Upload-Datum ist auf dieser Plattform kein verlaessliches
+Aktualitaetskriterium, nur die Fusszeile) — als neuer P3-Punkt E-R193-1 vermerkt, ob sich das
+bei weiteren EN-Nummern der Plattform wiederholt. Geaendert: `destillate/enfk-nachweisformulare-
+gueltigkeit-2026.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`. Kein neues Primaerquellenmaterial in
+`raw/` (Web-Erhebung).
+
+Budget rund 2.3 von 5 USD. Zyklus sauber beendet.

@@ -8873,9 +8873,18 @@ CHF 100'000, Minergie-ECO-Sperre nach Einzelmassnahmen. Destillat
   Ob das AfU SZ ein entsprechendes Begleitdokument zum Förderprogramm 2026 publiziert, wurde nicht
   untersucht → `[[foerderprogramm-energie-sz-2026]]`. Gleiche Frage für die Folgejahre in ZH: ob das
   AWEL das Protokoll **jährlich** publiziert, ist nicht belegt (nur die Ausgabe 2026 aufgefunden).
-- [ ] **E-R165-4 (P3): Ausgabenstand-Sweep deckt zwölf EN-Nummern ab, nicht den ganzen Satz.**
-  Nicht einzeln geöffnet: EN-106, EN-113, EN-121 bis EN-123, EN-130 bis EN-136, EN-140, EN-142.
-  Geringe Priorität, weil die Sammel-Neustempelung vom 28.11.2025 alle Dateien gleich behandelt hat.
+- [x] **E-R165-4 (P3): Ausgabenstand-Sweep deckt zwölf EN-Nummern ab, nicht den ganzen Satz.**
+  ✓ 2026-09-12 (Nachtschicht Mac Mini) geschlossen. Nicht einzeln geöffnet waren: EN-106,
+  EN-113, EN-121 bis EN-123, EN-130 bis EN-136, EN-140, EN-142. Ergebnis: EN-130 bis EN-136
+  gehören zur selben Sammel-Neustempelung (Sachversion August 2017, ModDate 28.11.2025,
+  `gültig bis 31.12.2026`, verifiziert via pdftotext-Fusszeile). EN-106/113/121-123/140/142
+  sind formularlose Vollzugshilfen ohne Gültigkeitsdatum — kein Terminrisiko. **Nebenfund:**
+  EN-136 führt in der Mediathek eine zweite, bereits abgelaufene Formular-Fassung
+  (`.../2026/03/EN-136.pdf`, `gültig bis 31.12.2025`) unter neuerem Upload-Datum als die
+  gültige (`.../2026/01/EN-136.pdf`, `gültig bis 31.12.2026`) — Upload-Datum ist damit kein
+  verlässliches Aktualitätskriterium auf dieser Plattform, nur die Fusszeile selbst. Details
+  und Tabelle: `destillate/enfk-nachweisformulare-gueltigkeit-2026.md`. Ob sich die
+  Doppeldatei-Falle bei weiteren EN-Nummern wiederholt, bleibt offen (neuer P3-Punkt unten).
 
 **Unverändert blockiert, nicht erneut aufgreifen:** E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1
 (SN EN ISO 6946), E-R230-2 und E103 (beide Entscheid Raphael). **E-R163-1** (ewz-Fernwärmetarif,
@@ -9098,4 +9107,27 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   (29. Sept. 2023) treten **am selben Tag** (1.1.2026) in Kraft und ändern beide Art. 18a RPG.
   Nur die AS-Nummer unterscheidet sie: **AS 2025 640** = RPG 2 (Titel, Abs. 2 lit. a),
   **AS 2024 679 / 2025 636** = Stromversorgungs-BG (Abs. 1 Fassaden, Abs. 2bis Parkplätze).
+
+## Run 193 (12.09.2026, Nachtschicht Mac Mini) — E-R165-4 geschlossen: EN-130-136 nachgetragen, EN-136-Doppeldatei-Falle gefunden
+
+Vollständiger Ausgabenstand-Sweep der zwölf bisher nicht einzeln geöffneten EN-Nummern (via
+REST-API `energiehub-gebaeude.ch/wp-json/wp/v2/media?search=<EN-Nr>`, 14 PDFs geladen,
+pdfinfo+pdftotext-Fusszeile ausgewertet). **EN-130 bis EN-136** bestätigt als Teil der
+Sammel-Neustempelung 28.11.2025 (Sachversion August 2017, `gültig bis 31.12.2026`) — Tabelle
+in `destillate/enfk-nachweisformulare-gueltigkeit-2026.md` erweitert. **EN-106, EN-113,
+EN-121/122/123, EN-140, EN-142** sind formularlose Vollzugshilfen ohne Gültigkeitsdatum, damit
+kein Terminrisiko — neuer Abschnitt im Destillat. **Nebenfund (neuer Punkt):**
+
+- [ ] **E-R193-1 (P3, Werkzeug): Wiederholt sich die EN-136-Doppeldatei-Falle bei weiteren
+  EN-Nummern?** Die Mediathek führt zu EN-136 zwei Formular-Dateien unter verschiedenen
+  Upload-Pfaden (`.../2026/01/EN-136.pdf`, gültig bis 31.12.2026, aktuell) und
+  (`.../2026/03/EN-136.pdf`, gültig bis 31.12.2025, **abgelaufen**, aber mit dem **neueren**
+  Upload-Datum) — identische Sachversion, unterschiedliche SHA-256. Wer nach Upload-Datum
+  statt Fusszeile sortiert, zieht die falsche Fassung. Bei EN-130 bis EN-135 kein
+  Analogfund. Nicht geprüft: die übrigen rund 40 EN-Nummern der Plattform (66 Media-Treffer
+  laut Run-165-Erhebung, hier nur 14 zusätzliche stichprobenartig). Kein Terminrisiko, da die
+  aktuelle Fassung jeweils auffindbar bleibt — aber eine Quelle für stille Fehlzitate.
+
+Keine Datei ausser dem Destillat und diesem Eintrag geändert. Kein neues Primärquellenmaterial
+in `raw/` (Web-Erhebung, wie beim Vorlauf Run 165 gehandhabt).
 
