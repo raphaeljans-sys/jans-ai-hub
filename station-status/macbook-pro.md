@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.09.2026 13:27:06
+Stand: 12.09.2026 13:37:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 12.09.2026 13:27:06
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 015043b53 nas-selfcommit: 3 Datei(en) 2026-09-12 13:15
+- 5c6a15236 energie: E-R191-1 Adressaten-Pruefung AHB/HBA-Destillate (kein Befund) + Fristen-Radar-Journal 05:3x nachgetragen
