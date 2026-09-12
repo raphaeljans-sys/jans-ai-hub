@@ -12641,3 +12641,19 @@ Rule 260803 — Punkt 01 (bexio) ist der einzige wirklich neue operative Fund ge
 bereits Dokumentierten, er liegt zur naechsten Durchsicht bereit.
 
 Budget rund 0.6 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-12 13:3x Nachtschicht Mac Mini (Prioritaet 4) — energie: E-R191-1 Adressaten-Pruefung AHB-/HBA-Destillate, kein Befund
+
+Prioritaeten 1-2 weiterhin leer/gesaettigt; Prioritaet 3 (Fristen) bereits um 05:3x heute bearbeitet.
+`energie` einziges freies Prioritaet-4-Ziel, dort den von Run 191 vorgeschlagenen naechsten Zuschnitt
+E-R191-1 gezogen: grep-basierte Pruefung, ob eine AHB-/HBA-Stadt-Zuerich-Vorgabe irgendwo faelschlich
+als Pflicht fuer private Bauherren formuliert ist (Anlass war ein genau solcher Fehler in Run 191).
+Alle 34 `ahb-*.md`-Destillate plus vier weitere HBA-referenzierende Dateien und die zwei zitierenden
+Wiki-Stellen einzeln gegengelesen: kein einziger Fall gefunden, durchgehend korrekt als
+Stadt-ZH-/AHB-intern und nicht bindend fuer private JANS-Mandate gescopt. QUESTIONS.md E-R191-1 auf
+erledigt gesetzt, CHANGELOG-Eintrag, Protokoll `outputs/2026-09-12_energie-e-r191-1-adressatenpruefung.md`.
+Naechster A-BLIND-Kandidat fuer den Folgelauf: `fenster-energieetikette-fea-bfe` oder
+`clt-bauteilkatalog-stora-enso` — Original-PDF-Zugriff via OneDrive `PL - 04 Energie` bleibt auf
+dieser Station defekt (Befund bereits 02:3x vermerkt).
+
+Budget rund 1.0 von 5 USD. Zyklus sauber beendet.

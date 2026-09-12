@@ -82,12 +82,28 @@ bezogen. In `training/PROGRAMM.md` ergänzt.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R191-1 (P3, Methode): Adressaten-Prüfung über alle AHB-/HBA-Destillate.** Die KB führt
+- [x] **E-R191-1 (P3, Methode): Adressaten-Prüfung über alle AHB-/HBA-Destillate.** Die KB führt
   mindestens `[[ahb-merkblatt-386-storensteuerung-2017]]`, `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`,
   `[[ahb-zuerich-gt-rl9-gebaeudeautomation]]`, `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`
   und weitere Stadt-ZH-Vorgaben. Je Destillat und je zitierende FAQ prüfen, ob eine AHB-/HBA-Vorgabe
   als Pflicht für private Bauherren formuliert ist. Billig per grep auf «AHB»/«HBA» neben «muss»,
   «Pflicht», «zwingend».
+  ✓ **ERLEDIGT 12.09.2026 (Nachtschicht Mac Mini, Prioritaet 4), ohne Befund.** Alle 34
+  `ahb-*.md`-Destillate (per `ls ahb-*.md` vollständig erfasst) sowie die vier weiteren
+  HBA-referenzierenden Destillate (`muken-2025-modul-7-betriebsoptimierung-hlkkse`,
+  `eco-bau-merkblaetter-bkp-2008-technik-ausbau`, `ecobkp-2026-gebaeudetechnik`,
+  `sommerlicher-waermeschutz-sia180-nachweisverfahren`) einzeln per `grep -n -A 5-12
+  "^## Bauherren-Transfer"` gegengelesen, dazu die zitierenden Stellen in
+  `wiki/gebaeudetechnik-pflichtenheft.md` und `wiki/BAUHERREN-FAQ.md`. **Kein einziger Fall**
+  einer als private Bauherren-Pflicht formulierten Stadt-ZH-/AHB-/HBA-Vorgabe gefunden — jedes
+  Destillat scopt explizit («stadteigene Bauherren-Vorgabe», «für private JANS-Projekte nicht
+  bindend/nicht direkt anwendbar», «kein allgemeingültiges Recht»), und der Run-191-Fund
+  (Simulationspflicht) ist bereits im betroffenen Destillat `sommerlicher-waermeschutz-
+  sia180-nachweisverfahren.md` selbst korrigiert (Zeile 62/172-176: «Bauherrenvorgaben der
+  öffentlichen Hand für ihre eigenen Bauten», «keine Vollzugspraxis»). Der einzige P4-Nebenfund
+  (`eco-bau-merkblaetter-bkp-2008-technik-ausbau.md`, HBA BE Legionellen-Richtlinie) ist reine
+  Quellenzitierung ohne Pflicht-Zuschreibung, kein Korrekturbedarf. Keine Datei ausser diesem
+  Eintrag geändert. Protokoll: `outputs/2026-09-12_energie-e-r191-1-adressatenpruefung.md`.
 - [ ] **E-R191-2 (P4, Cross-KB-Hinweis): `wissen/normen/wiki/QUESTIONS.md` zeigt 4 tote Wikilinks**
   (Ziele `din-1961-2012`, `sia-180`, `sia-2024`, `wikilink`, hier bewusst ohne Link-Klammern zitiert), vorbestehend, nicht aus
   diesem Lauf. Nur gemeldet, nicht dort editiert.

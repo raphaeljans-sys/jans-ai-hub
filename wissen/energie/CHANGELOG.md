@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2026-09-12 (Nachtschicht Mac Mini 13:3x) — E-R191-1 Adressaten-Prüfung AHB-/HBA-Destillate: kein Befund
+
+Prüfwarteschlange-Auftrag aus Run 191 abgearbeitet: alle 34 `ahb-*.md`-Destillate plus vier weitere
+HBA-referenzierende Dateien (`muken-2025-modul-7-betriebsoptimierung-hlkkse`, `eco-bau-merkblaetter-
+bkp-2008-technik-ausbau`, `ecobkp-2026-gebaeudetechnik`, `sommerlicher-waermeschutz-sia180-
+nachweisverfahren`) sowie die zitierenden Stellen in `wiki/gebaeudetechnik-pflichtenheft.md` und
+`wiki/BAUHERREN-FAQ.md` auf den Run-191-Fehlertyp geprüft (Stadt-ZH-/AHB-Vorgabe fälschlich als
+private Bauherren-Pflicht formuliert). **Kein einziger Fall gefunden** — jedes Destillat scopt
+korrekt («stadteigene Bauherren-Vorgabe», «nicht bindend für private JANS-Projekte»). Der
+ursprüngliche Run-191-Fund ist bereits im betroffenen Destillat selbst korrigiert. Keine
+Datei geändert ausser `wiki/QUESTIONS.md` (E-R191-1 auf erledigt, Befund dokumentiert). Protokoll:
+`outputs/2026-09-12_energie-e-r191-1-adressatenpruefung.md`.
+
 ## 2026-09-12 (Run 192, Nachtschicht Mac Mini 02:3x) — A-BLIND Rang 56: SIA 2001 zurückgezogen, Widerspruch zwischen zwei Wiki-Artikeln behoben
 
 `destillate/sia-2001-waermedaemmstoffe-lambda.md` (established seit 09.06.2026, nie gegengelesen,
