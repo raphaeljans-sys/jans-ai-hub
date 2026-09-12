@@ -53,6 +53,42 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-12 12:58 — [FREI] / MacBook [LOGIN] **P1 neu: Die Claude-App auf dem MacBook Pro ist seit 11.09. 20:08 abgemeldet (OAuth «session_stale_relogin»). Zwölf Task-Starts sind gescheitert, darunter heute logbuch-radar und hub-chef. Raphael gemailt 13:01. Der Mac Mini läuft normal, Rückstand -44.1 Punkte.**
+
+**P1 (neu, nur Raphael):** `main.log` des MacBook (per ssh) zeigt ab **11.09. 20:08** `Cannot start session … OAuthError
+(session_stale_relogin)`, Meldung «Session is not fresh enough … Sign in again», danach je Task «Cleared stale pending
+dispatch». Seither ist dort keine einzige Scheduled Task angelaufen, zwölf Starts sind gescheitert: tenant-hygiene-weekly 20:08,
+wissens-chef 23:11, vollgas-chef-radar (MB) 00:57 und 12:57, normen-training-nacht 01:27, twin-mail-training 03:39,
+twin-fidelity-review 05:44, konversations-log 06:13, **logbuch-radar 06:55**, vollgas-fruehwarnung (MB) 07:15,
+zahlungsabgleich-check 08:22, **hub-chef-taeglich 08:39**. Letzte Session im Projekt-Transkriptordner: 11.09. 21:39 (interaktiv).
+Heute gab es damit **kein Tagesbriefing**. Nach 260824 ist das ein P1 mit Tageskanal, und weil der Hub-Chef selbst ausfällt,
+ist dieser Radar der einzige Kanal (260803, Ausnahme 1). **Mail an rj@ 12.09. 13:01** (Re-Login, dabei die drei MacBook-Fassungen
+deaktivieren, Briefing von Hand nachholen). Register: `logbuch/fristen.md`, Eintrag 12.09. 13:0x. Die CLI-Probe ist davon nicht
+betroffen: das CLI nutzt den Token aus `~/.jans-dispatch.env`, die App ihre eigene OAuth-Sitzung.
+**Warum die Frühwarnung um 06:33 es nicht sah:** sie mass vor dem ersten fälligen Briefing (06:55) und vermerkte nur «seit
+00:00 UTC keine Session auf dem MacBook». Die Ursache stand im App-Log, nicht in den Transkripten. **Für künftige Läufe:** fehlen
+auf einer wachen Station die Sessions, zuerst `grep "Cannot start session\|Cleared stale" ~/Library/Logs/Claude/main.log` lesen.
+
+**Doppellauf-Frage (P3 vom Vorlauf) beantwortet:** Die MacBook-Fassungen sind **nicht** deaktiviert. vollgas-chef-radar und
+vollgas-fruehwarnung feuern dort weiter, sie scheitern derzeit nur am Login. Nach dem Re-Login laufen sie doppelt, falls Raphael
+sie nicht zuerst ausschaltet (in der Mail genannt).
+
+**Lage Mini.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **6 s**, keine Waisen. Kontingent **27.9 %** von
+167 Mio bei **72.0 %** verstrichener Woche, Vorsprung **-44.1 Punkte** (Mini 14.32, MacBook 32.23 Mio unverändert seit dem
+Login-Ausfall). Ampel FREI, keine Drossel. Speicher Mini: Druckstufe 1, 10.3 GB frei+inaktiv+purgeable (vm_stat).
+
+**Liefer-Delta seit 00:50 (git):** energie 4 (Run 192, SIA-2001-Widerspruch, Mini-Nachtschicht 02:37). Sonst null, weil die
+MacBook-Loops nicht gestartet sind: **Null-Ertrag durch Ausfall, nicht Delta Null. Kein Loop wird zurückgetaktet.**
+Nachtschicht Mini 02:37 und 05:35 rc=0 (3.02 und 2.29 USD).
+
+**Feuermechanismen.** Mini-Registry unverändert (sechs aktiv, Sollstand), `ch.jans.nachtschicht` geladen,
+`vollgas-supervisor` nur `.disabled-260729`. MacBook: beide `vollgas-*`-plists `.disabled-260729`, nicht geladen.
+
+**Selbstkontrolle.** Letzter Eintrag 00:58, dieser Lauf 12:58, also 12 h bei 15 h Toleranz; `lastRunAt` 10:58Z deckt sich.
+
+**P2 (unverändert):** Rückstand -44.1 Punkte (Vorlauf -37.5). Der Login-Ausfall vergrössert ihn, weil das MacBook die meisten Loops trägt.
+**P2:** Korpus-Front `architektur-fachwissen` steht weiter, `inventar.sh --stand` sucht am falschen Pfad (Frühwarnung 12.09.).
+
 ## 2026-09-12 00:58 — [FREI] **Erster Radar-Lauf auf dem Mac Mini (Umzug der Aufsicht, V0+). Kein Delta-Null-Loop. Der P1 zum Zufluss in `architektur-fachwissen` ist entschärft: die Mini-Nachtschicht hat am 11.09. zwei Einträge geliefert. Rückstand jetzt -37.5 Punkte.**
 
 **Umzug.** Das ist der erste Lauf der Mini-Fassung. Der letzte Eintrag (11.09. 12:57) stammt noch vom
