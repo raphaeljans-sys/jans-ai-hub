@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.09.2026 23:28:26
+Stand: 12.09.2026 23:38:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.09.2026 23:28:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e590fd51d nas-selfcommit: 2 Datei(en) 2026-09-12 23:15
+- 1286143ed energie: E-R165-4 geschlossen (EN-130-136 nachgetragen, EN-136-Doppeldatei-Falle), Nachtschicht 12.09.
