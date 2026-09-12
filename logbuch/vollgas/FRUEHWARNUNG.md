@@ -4410,3 +4410,75 @@ Leerlauf-Wächters, und der Radar führt ihn als P1 (Zufluss `architektur-fachwi
 established gegen 480 Artikel — bleiben bei ihm.
 
 Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
+
+## 2026-09-12, 06:33 CEST — Rohmessung (erster Lauf auf dem Mac Mini; Bewertung folgt unten im selben Block)
+
+Stationswechsel: ab heute misst die Frühwarnung auf dem **Mac Mini** (lokal), das MacBook Pro
+über `ssh macbook`. Messskript unverändert in der Logik (rekursives Glob inkl. Subagenten,
+mtime-Vorfilter 9 Tage, Zeilenfilter je timestamp[:10] UTC-Tag, Dedupe message.id+requestId).
+Gegenprobe: die Mac-Mini-Werte 05.–10.09. decken sich exakt mit dem Vorlauf vom 11.09. (damals via
+`ssh mini`), die MacBook-Werte 07.–10.09. ebenso — der Stationswechsel verschiebt die Messung nicht.
+
+Verbrauch teuer (in+cache_creation+out) / total, Mio Token:
+MacBook Pro (via `ssh macbook`, erreichbar): 12.09. 0.00 (noch keine Session seit 00:00 UTC) ·
+11.09. 4.24/98.08 · 10.09. 9.10/227.37 · 09.09. 7.35/173.72 · 08.09. 7.02/144.98 · 07.09. 10.34/239.38.
+Mac Mini (lokal): 12.09. 0.63/16.71 (Tag läuft) · 11.09. 2.97/84.58 · 10.09. 1.27/48.54 ·
+09.09. 1.17/42.49 · 08.09. 3.23/77.38 · 07.09. 5.42/101.12 · 06.09. 1.59/39.68 · 05.09. 1.28/35.30.
+Beide Stationen teuer zusammen: 12.09. 0.63 (läuft) · 11.09. 7.21 · 10.09. 10.37 · 09.09. 8.52 ·
+08.09. 10.25 · 07.09. 15.76.
+
+Blockade: 0 echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h auf beiden Stationen
+(strukturell). Kein 5-Stunden-, kein Wochenlimit.
+
+**Bewertung: keines der sieben Meldekriterien erreicht, daher keine Mail.**
+
+(a) Kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop, auf keiner Station.
+(b) Höchster Tageswert beider Stationen zusammen im Fenster: 15.76 Mio am 07.09.; der 11.09. schliesst
+mit 7.21 Mio. Weder die 35er-Tages- noch die 18er-Doppeltagesschwelle ist berührt. (c) Kein
+erschöpftes Wochenkontingent; der Radar misst um 00:58 27.3 % bei 64.9 % verstrichener Woche.
+(d) Alle vier operativen Briefings (weiterhin auf dem MacBook Pro) haben ihr jüngstes Deliverable
+erreicht, gelesen per `ssh macbook` in den Sessions vom 11.09.: logbuch-radar 04:55Z–05:05Z
+vollständig, Schlussbericht mit Register-Commit `4e58401b8`; hub-chef-taeglich 06:39Z–06:46Z mit
+zwei Mail-Send-Aufrufen und sauberem Schlussbericht; mahnwesen-verzugscheck (06:05Z) und
+zahlungsabgleich-check (06:23Z) je ohne Werkzeugfehler abgeschlossen, Berichte im OUTPUT-Ordner
+abgelegt. Inhaltlich laufen beide weiterhin ohne Datengrundlage (bexio-Token HTTP 401); der Befund
+liegt bei Mahnwesen und Hub-Chef. Zum Messzeitpunkt 06:33 ist noch keiner der heutigen Läufe fällig
+(erster um 06:55).
+(e) Der Radar-Herzschlag ist frisch. Die erste `## `-Überschrift in RADAR.md stammt vom 12.09. 00:58
+und ist der erste Radar-Lauf auf dem Mac Mini; die zugehörige Session auf dem Mini begann am
+11.09. um 22:58Z und ist 5.5 h alt. Kontrollprobe zum Opener: `scheduled-task` kommt in 154 von 164
+Mini-Dateien und in 731 von 783 MacBook-Dateien vor, das Muster greift also. (f) Kein Aufwand ohne
+Wissenszuwachs, siehe Destillat-Zeile. (g) Die Queue ist nicht komplett. Für alle vier Korpora liegt
+eine Spec vor, das Spec-Gate hängt nicht.
+
+**Doppellauf nach dem Umzug (offen, kein Meldegrund):** Die MacBook-Fassung dieser Frühwarnung lief
+zuletzt am 11.09. um 05:15Z. Seit 00:00 UTC gibt es auf dem MacBook überhaupt keine Session. Ob die
+MacBook-Fassung um 07:15 heute noch feuert, ist zum Messzeitpunkt nicht entscheidbar. Feuert sie,
+stehen heute zwei Einträge in dieser Datei. Das ist der Messpunkt für die Radar-P3 «Deaktivierung
+der drei MacBook-Fassungen unbestätigt».
+
+Liefer-Delta über git im SSD-Spiegel (Kopf `84ab7460a`, 06:30), nicht über mtime. Wiki-Artikel je
+Tag: 10.09. 11 (ohne Twin-Facetten 5) · 11.09. 11 (5: architektur-fachwissen 2, energie 3) ·
+12.09. bis 06:30 2 (2, energie). Kein Loop hat verbraucht, ohne zu liefern.
+Nachtschicht Mac Mini (Lauf-Journal): 11.09. vier Läufe (02:41, 05:37, 13:36, 23:35), 12.09. zwei
+(02:37, 05:35), alle rc=0, 2.03 bis 3.52 USD, 31 bis 58 Turns. Der Mittags-Slot 13:30 hat am 11.09.
+wieder geliefert. Das Lauf-Gate hat seit dem 31.08. keinen Nachtschicht-Lauf abgewiesen.
+Stückkosten, teurer Verbrauch beider Stationen je Artikel: 10.09. 0.94 Mio (ohne Twin 2.07 Mio) ·
+11.09. 0.66 Mio (ohne Twin 1.44 Mio) · 12.09. (Tag läuft) 0.32 Mio.
+Speicher Mac Mini: Druckstufe 1 (kern.memorystatus_vm_pressure_level), unauffällig.
+
+Destillat: Korpus `archiv-fachwissen` → Ziel-KB `architektur-fachwissen`. Die Spec liegt vor, die
+Queue ist NICHT komplett.
+(a) Der Fortschritt ist weiterhin UNMESSBAR. `inventar.sh archiv-fachwissen --stand` sucht noch
+immer zwei Dateien unter `skills/wissens-destillat/training/`; vorhanden sind 20 Sektionsdateien
+unter `wissen/architektur-fachwissen/raw/inventar/`.
+(b) Ertrag: 483 Artikel (+3 gegenüber dem Vorlauf), davon 1 established, 290 emerging und
+191 speculative. Der jüngste Artikel stammt vom 11.09. 23:34 (Baumschutz Luzern). Die Front hat sich
+nach neun Tagen Stillstand bewegt. Laut Radar kamen die Einträge aber aus Web-Recherche und
+Querprüfung, nicht aus der Korpus-Destillation. Die Korpus-Front selbst steht weiter.
+(c) Die Delta-Null-Serie ist unverändert: zwei outputs-Reports (23.08., 01.09.), keiner mit Delta Null.
+(d) Kriterium (f) trifft nicht zu. Die Nachtschicht verbraucht Tokens und liefert Artikel, nur
+nicht aus dem Korpus. Der defekte `inventar.sh`-Pfad und die Vorlage (a) bis (c) vom 10.09. bleiben
+beim Radar (P2).
+
+Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
