@@ -12680,3 +12680,28 @@ gueltigkeit-2026.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`. Kein neues Primaerque
 `raw/` (Web-Erhebung).
 
 Budget rund 2.3 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-13 Nachtschicht Mac Mini (Prioritaet 4) — energie: A-BLIND Rang 56 (Fortsetzung), fenster-energieetikette-fea-bfe am Original geprueft
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks und sync-tasks/mac-mini leer; Synobsis-Vektorindex
+853x768 weiterhin deckungsgleich mit documents.jsonl, kein offenes Ziel). Prioritaet 3
+(Fristen-Register) nur Bestandsposten mit Status "Aktion Raphael", kein neuer Befund, kein
+zusaetzlicher Entwurf noetig. Prioritaet 4: gleiche Ausschlusslage wie am 12.09. — `energie`
+bleibt das einzige freie Ziel (baurecht/normen/planungsgrundlagen/wettbewerbs-dna dedizierter
+Taktgeber, projekt-lessons/grobkosten/bauprodukte ausgesetzt bzw. erledigt, spec/
+immobilienbewertung Ereignis-Trigger). Dort den von Run 191 vorgeschlagenen naechsten
+A-BLIND-Kandidaten (Raenge 56-70) bearbeitet: `destillate/fenster-energieetikette-fea-bfe.md`
+(`established` seit 13.07.2026, nie gegengelesen) gegen das oeffentliche BFE-Original
+(`pubdb.bfe.admin.ch/de/publication/download/7731`, per WebFetch geladen + `pdftotext -layout`
+extrahiert) geprueft — kein OneDrive-Blocker wie beim vorherigen Kandidaten, da oeffentliches
+Dokument statt interner SharePoint-Pfad. Klassentabelle A-G, Formel (Hw/Hs/c1/c2) und
+Musterzertifikat-Beispiel (Uf 1,1 · Ug 0,6 · g 60 % · Psi_g 0,03 · Uw 1,1 -> Uw,eq -0,08 ->
+Klasse A) wortgenau/zahlengenau bestaetigt. Fund: Frontmatter-Feld `ausgabe` fuehrte
+"Faktenblatt 12/2014" — dieses Datum kommt im Original nicht vor (tatsaechliche Stempel:
+Fusszeile S. 1 "01/2015", BFE-Fusszeile letzte Seite "11.2015", PDF-Metadaten-Erstellungsdatum
+13.07.2016). Frontmatter korrigiert, Sachaussage "Label seit 1.1.2015 in Kraft" unangetastet
+gelassen (im Fliesstext primaerquellenbelegt). Geaendert: `destillate/fenster-energieetikette-
+fea-bfe.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`. Protokoll: `outputs/2026-09-13_energie-run194.md`.
+Naechster A-BLIND-Kandidat: `clt-bauteilkatalog-stora-enso`. Commit `4b7af496a`.
+
+Budget rund 3.7 von 5 USD. Zyklus sauber beendet.
