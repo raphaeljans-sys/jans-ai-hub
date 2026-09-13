@@ -14,6 +14,15 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260913 — Praesentationen und Folien als InDesign-Dokument, nie als PPTX
+- **Regel:** Folien, Praesentationen und Sitzungs-/Vortragsvorlagen werden als
+  InDesign-Dokument geliefert (`.indd` per InDesign-Scripting, daneben `.idml` und ein PDF
+  zum Teilen), **nie als PPTX**. Vorgabe Raphael 13.09.2026 zur KISPI-Sitzungsvorlage:
+  «pptx will und kann ich nicht bearbeiten». Buero-Vorlagen: `/Volumes/daten/04_Buero/
+  01_Buerounterlagen/00_Vorlagen/` (`07_Layoutvorlagen/02_Master_Jans/Master.indd`,
+  `12_Praesentation/`). Dokumente bleiben DOCX/PDF (Rule `dokument-layout-standard`).
+- **Gilt fuer:** alle Skills und Agenten mit Praesentations-Output, alle Stationen.
+
 ## 260908 — Weniger Text, mehr Uebersicht: Big Points, Grafiken, Stichworte
 - **Regel:** Antworten, Zwischenstaende und Studien fuehren mit dem Wesentlichen als
   **Uebersicht**: wenige Big Points, Stichworte oder kurze Hauptsaetze, klare To-do-Liste am
