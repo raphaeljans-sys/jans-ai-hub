@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.09.2026 05:44:32
+Stand: 13.09.2026 05:54:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 13.09.2026 05:44:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bd754dd33 Nachtschicht Mac Mini 13.09.: P1 MacBook-Session-Ausfall bestaetigt weiterhin offen (Nachtrag fristen.md + LOGBUCH)
+- d08cef843 nas-selfcommit: 2 Datei(en) 2026-09-13 05:45
