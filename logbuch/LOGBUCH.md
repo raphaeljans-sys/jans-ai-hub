@@ -12705,3 +12705,30 @@ fea-bfe.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`. Protokoll: `outputs/2026-09-13
 Naechster A-BLIND-Kandidat: `clt-bauteilkatalog-stora-enso`. Commit `4b7af496a`.
 
 Budget rund 3.7 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-13 Nachtschicht Mac Mini (Versuchs-Slot, Prioritaet 3) — P1 MacBook-Session-Ausfall lebt 15 h spaeter unveraendert weiter, Diagnose praezisiert
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks und sync-tasks/mac-mini leer; Synobsis-Vektorindex
+853x768 weiterhin deckungsgleich mit documents.jsonl, kein offenes Ziel). Prioritaet 3 statt
+uebersprungen diesmal geprueft, nicht nur der Registerstand gelesen: der am 12.09. 13:0x gemeldete
+P1-Befund (Claude-App MacBook Pro seit 11.09. 20:08 `OAuthError session_stale_relogin`, alle
+dortigen Scheduled Tasks scheitern) wurde per `ssh macbook` frisch gemessen, nicht nur aus dem
+Register zitiert (Rule 260730b: Betriebszustand wird gemessen, nie fortgeschrieben). Ergebnis:
+**unveraendert offen** — identischer Fehler zuletzt 13.09. 03:39:52 bei `twin-mail-training`,
+Folgefehler 03:50:11 «Cleared stale pending dispatch»; dasselbe Muster bereits 12.09. 03:50:08 fuer
+denselben Task, dazwischen zusaetzlich `vollgas-chef-radar` (12.09. 00:57) und
+`normen-training-nacht` (13.09. 01:27) betroffen. **hub-chef-taeglich und logbuch-radar sind damit
+zwei Tage in Folge (11./12.09.) ausgefallen.** Neu erkannt und im Register nachgetragen: die Zeile
+`short-circuiting fresh /authorize on latched session_stale_relogin` direkt vor jedem Fehlschlag
+zeigt, dass der OAuth-Zustand geLATCHT ist — die App blockt jeden automatischen Retry-Versuch der
+Scheduled-Task-Engine selbst ab, bevor ein Login-Versuch ueberhaupt stattfindet. Der Ausfall heilt
+sich also nicht durch Zeitablauf oder weitere Task-Feuerungen, sondern braucht zwingend die aktive
+An-/Abmeldung der App durch Raphael (Aktionsanweisung vom 12.09. bleibt exakt richtig, nur bisher
+nicht ausgefuehrt). Nachtrag in `logbuch/fristen.md` an der bestehenden P1-Zeile angehaengt (nicht
+ueberschrieben, Rule 260805/260811). Keine erneute Mail versendet (Rule 260803 Ein-Mail-Prinzip:
+bereits am 12.09. 13:01 gemeldet, eine reine Bestaetigungsmessung ohne neue Handlungsoption ist
+kein zusaetzlicher Sendegrund; naechster Radar/Hub-Chef traegt die Eskalationspruefung P1 >36 h).
+Kein Login-/Konfigurationseingriff versucht (Login-Flow ist interaktiv, dieser Lauf ist
+unbeaufsichtigt). Geaendert: `logbuch/fristen.md`, diese Logbuch-Zeile.
+
+Budget rund 0.15 von 5 USD (separate Session, eigenes Budget). Zyklus sauber beendet.
