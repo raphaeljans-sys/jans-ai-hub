@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-09-13 (Run 195, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): clt-bauteilkatalog-stora-enso am Original geprüft, echter Fehler in Dach-Variante 6 gefunden und korrigiert
+
+Nächster A-BLIND-Kandidat aus Run 194 (`clt-bauteilkatalog-stora-enso`, Rang 56-70) bearbeitet.
+Original-PDF (`CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf`) via
+M365-CLI-Zertifikat von SharePoint (`sites/PL/04 Energie/U Wert berechnung/clt`) geladen,
+`pdftotext -layout` auf S. 39-58 (Aussenwand V1-9) und S. 166-177 (Dach V1-6) extrahiert und
+Zeile für Zeile gegen die Bauteiltabellen im Destillat geprüft.
+
+**Aussenwand V1-9: alle neun Zeilen (REI, U-Wert je Dämmstärke, Rw) exakt bestätigt**, keine
+Abweichung.
+
+**Dach: echter Fehler in Variante 6 gefunden.** Das Destillat führte U 0,13 und ein als unsicher
+markiertes Rw «(43)» (vermutlich per Analogie zur EPS-Variante V3 übernommen); das Original zeigt
+für V6 (Holzfaser 24 cm + Holzlattung/Mineralwolle/GKF-Installationsebene, S. 176/177) **U 0,11**
+und **Rw 45**, in Kopfzeile und Einzeltabelle übereinstimmend, keine Unsicherheit im Original.
+Tabelle korrigiert, A-BLIND-Gegenlese-Abschnitt im Destillat ergänzt.
+
+**Nebenfund:** die «Offene Punkte»-Zeile des Destillats führte Innenwände/Trennwände/
+Deckenelement (S. 98-164) seit Anlage als offen, obwohl das Schwesterdestillat
+`clt-schallschutz-stora-enso.md` diese bereits vollständig erschliesst (`raw/_INGESTED.md`
+Zeile 58). Veralteten Vermerk korrigiert, keine echte Lücke.
+
+**Wiki nachgezogen:** `wiki/holzbau-bauphysik-clt.md` (Zeile 61) übernahm die falsche Rw-43-Zahl
+in einer zusammenfassenden Aussage über beide Dachfamilien (EPS/Holzfaser) — korrigiert auf
+Rw 43 (EPS) bzw. Rw 45 (Holzfaser).
+
+Geänderte Dateien: `destillate/clt-bauteilkatalog-stora-enso.md` (Tabelle, Frontmatter,
+A-BLIND-Abschnitt, Offene-Punkte-Korrektur), `wiki/holzbau-bauphysik-clt.md` (Zeile 61),
+`wiki/QUESTIONS.md`.
+
 ## 2026-09-13 (Run 194, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): fenster-energieetikette-fea-bfe am Original geprüft, Ausgabendatum korrigiert
 
 `destillate/fenster-energieetikette-fea-bfe.md` (`established` seit 13.07.2026, nie gegengelesen)

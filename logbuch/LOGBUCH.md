@@ -12754,3 +12754,31 @@ angehaengt, nicht ueberschrieben, Rule 260805/260811), diese Logbuch-Zeile.
 
 Budget rund 0.05 von 5 USD. Zyklus sauber beendet — kein weiterer Slot heute, da Prioritaeten 1-2
 bereits am Morgen geprueft und Prioritaet 3 mit dieser Messung fuer den Versuchs-Slot erledigt ist.
+
+## 2026-09-13 Nachtschicht Mac Mini (ca. 23:xx, Prioritaet 4) — Energie-Training Run 195: echter Fehler in CLT-Dachvariante 6 gefunden und korrigiert
+
+Prioritaeten 1-3 geprueft, kein Handlungsbedarf: remote-tasks/pending und sync-tasks/mac-mini/
+leer; Synobsis-Vektorindex weiterhin deckungsgleich mit `documents.jsonl` (853x768); Fristen-
+Register traegt bereits einen frischen Eintrag von 22:4x desselben Abends (interaktive Session,
+KISPI-Sitzungsvorbereitung), kein zusaetzlicher Radar-Lauf noetig. Bei der KB-Auswahl fuer
+Prioritaet 4 sind baurecht/normen/planungsgrundlagen/wettbewerbs-dna durch eigene Taktgeber
+ausgeschlossen, bauprodukte/immobilienbewertung/spec tragen Ereignis-Trigger-Statuskoepfe, die
+sie ausdruecklich als kein gueltiges Ziel fuehren. `energie` bleibt die einzige KB mit der
+Nachtschicht als eigenem Taktgeber; ein frueherer Lauf desselben Abends (Run 194) hatte bereits
+den naechsten A-BLIND-Kandidaten benannt: `clt-bauteilkatalog-stora-enso`.
+
+Original-PDF (Stora Enso, Bauteilkatalog Kap. 4) ueber den SharePoint-Werkzeugindex lokalisiert
+(M365-CLI mit Zertifikat, Site `PL`, Bibliothek `04 Energie/U Wert berechnung/clt`), geladen und
+per `pdftotext` extrahiert. Aussenwand-Tabelle V1-9 vollstaendig bestaetigt. In der Dach-Tabelle
+Variante 6 (Holzfaser + Installationsebene) war das Destillat falsch: U 0,13 statt korrekt 0,11,
+Rw als unsicher markiert «(43)» statt korrekt 45 (Original eindeutig, keine Unsicherheit). Dazu
+eine veraltete "Offene Punkte"-Zeile bereinigt (Innenwaende/Trennwaende/Deckenelement sind laengst
+im Schwesterdestillat erfasst) und ein daraus abgeleiteter Folgefehler in
+`wiki/holzbau-bauphysik-clt.md` korrigiert. Naechster A-BLIND-Kandidat: Rang 57-70, noch kein
+Titel benannt (Backlink-Ranking vor dem naechsten Lauf neu ziehen). Geaendert:
+`wissen/energie/destillate/clt-bauteilkatalog-stora-enso.md`,
+`wissen/energie/wiki/holzbau-bauphysik-clt.md`, `wissen/energie/wiki/QUESTIONS.md`,
+`wissen/energie/CHANGELOG.md`, `wissen/energie/outputs/2026-09-13_energie-run195.md`, diese
+Logbuch-Zeile.
+
+Budget rund 2.9 von 5 USD. Zyklus sauber beendet.

@@ -2,10 +2,10 @@
 quelle: CLT by Stora Enso — Technische Dokumentation «Bauphysik», Kap. 4 Bauteilaufbauten
 herausgeber: Stora Enso Wood Products (Hersteller-Dokumentation, DE)
 ausgabe: Version 06.2021
-gelesen: Kap. 4 — Aussenwaende V1-9 (S. 40-57) + Daecher V1-6 (S. 166-176) + Inhaltsverzeichnis Kap. 4 (S. 39); Innenwaende/Trennwaende/Deckenelement noch offen
+gelesen: Kap. 4 — Aussenwaende V1-9 (S. 40-57) + Daecher V1-6 (S. 166-176) + Inhaltsverzeichnis Kap. 4 (S. 39); Innenwaende/Trennwaende/Deckenelement siehe [[clt-schallschutz-stora-enso]]
 datenstand: 2026-06-12 (Produktdoku 06.2021; CH-Bemessung/Brandschutz separat pruefen)
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-09-13
 ---
 
 # Destillat — CLT-Bauteilkatalog (Stora Enso, Kap. 4)
@@ -75,7 +75,7 @@ aussenseitig der CLT) · CLT 140 · ggf. innen GKF / abgehaengte Decke.
 | 3 | EPS 24 · **abgehaengte Decke** (Lattung/MW/GKF) | REI 90 | 0,11 | 43 |
 | 4 | **Holzfaser** HDP-Q11 24 (λ 0,039) | REI 60 | 0,13 | 38 |
 | 5 | Holzfaser 24 · GKF | REI 90 | 0,13 | 39 |
-| 6 | Holzfaser 24 · abgehaengte Decke + MW | REI 90 | 0,13 | (43) |
+| 6 | Holzfaser 24 · abgehaengte Decke + MW | REI 90 | 0,11 | 45 |
 
 ## Konstruktionslogik (die Stellschrauben)
 - **EPS vs. Mineralwolle/Holzfaser:** EPS (λ 0,031) erreicht den gleichen U-Wert mit **weniger
@@ -101,10 +101,26 @@ aussenseitig der CLT) · CLT 140 · ggf. innen GKF / abgehaengte Decke.
   Installationsebene waehlen — nicht das duennste EPS-Paket.
 
 ## Offene Punkte / Folgelaeufe
-- **Innenwaende (11) / Trennwaende (17) / Deckenelement (6)** — S. 98-164 noch nicht erfasst;
-  v.a. **Trenndecke/Trennwand-Schallschutz** ist fuer MFH/Healthcare zentral (Tritt-/Luftschall).
+- ✓ **Innenwaende (11) / Trennwaende (17) / Deckenelement (6), S. 98-164 — bereits erfasst
+  (korrigiert 13.09.2026, A-BLIND-Gegenlese):** dieser Punkt stand seit Anlage der Datei als
+  offen, ist aber im Schwesterdestillat `[[clt-schallschutz-stora-enso]]` bereits vollstaendig
+  destilliert (Innenwand V1-11 + Trennwand V1-8 + Decke V1-6, Rw 34-58, L'n,w 60→46; Beleg
+  `raw/_INGESTED.md` Zeile 58). Keine offene Luecke, nur ein veralteter Vermerk hier.
 - **Aussenwand V10-29** (S. 58-96): weitere Daemm-/Fassadenvarianten (vorgehaengte Fassade,
   Holzfaser-WDVS) — bei Bedarf nachziehen.
 - **CH-Einordnung (eigene Markierung):** Doku ist herstellerseitig DE; **REI ≈ EI/EI-Klassen der
   VKF** (CH-Brandschutz → Skill `brandschutz`), λ-Werte sind **Produkt-/Bemessungswerte** — fuer
   den CH-Nachweis ggf. Zuschlag **SIA 279** und VKF-Anerkennung der Daemmung pruefen.
+
+## A-BLIND-Gegenlese 13.09.2026 (Nachtschicht Mac Mini)
+Gesamte Aussenwand-Tabelle (V1-9, S. 40-57) und Dach-Tabelle (V1-6, S. 166-176) Wert fuer Wert
+gegen das Original geprueft (`CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf`,
+SharePoint `sites/PL/04 Energie/U Wert berechnung/clt`, per M365-CLI-Zertifikat geladen,
+`pdftotext -layout` extrahiert). **Aussenwaende V1-9: alle neun Zeilen (REI/U-Wert je
+Daemmstaerke/Rw) exakt bestaetigt.** **Dach: ein echter Fehler in V6 gefunden und korrigiert** —
+das Destillat fuehrte bisher **U 0,13** und ein als unsicher markiertes **Rw «(43)»** (vermutlich
+per Analogie zu V3 uebernommen, derselben Aufbaufamilie mit EPS statt Holzfaser); das Original
+zeigt fuer V6 (Holzfaser 24 cm + Holzlattung/Mineralwolle/GKF-Installationsebene) **U 0,11** und
+**Rw 45** (Kopfzeile UND Einzeltabelle S. 176/177 identisch, keine Klammer-Unsicherheit im
+Original). Tabelle oben korrigiert. Kein Primaerquellenfehler, ein Uebertragungsfehler beim
+urspruenglichen Destillat-Lauf.

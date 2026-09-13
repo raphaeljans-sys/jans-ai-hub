@@ -2,6 +2,27 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 195 (13.09.2026, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): clt-bauteilkatalog-stora-enso am Original geprüft, echter Fehler gefunden
+
+`[[clt-bauteilkatalog-stora-enso]]` (`established` seit 23.08.2026, nie einzeln gegengelesen)
+war der in Run 194 benannte nächste A-BLIND-Kandidat. Original-PDF via M365-CLI (Zertifikat,
+SharePoint `sites/PL/04 Energie/U Wert berechnung/clt`) geladen, `pdftotext -layout` auf
+S. 39-58 (Aussenwand V1-9) und S. 166-177 (Dach V1-6) extrahiert, jede Tabellenzeile geprüft.
+
+**Aussenwand V1-9: alle neun Zeilen exakt bestätigt.** **Dach V6: echter Fehler gefunden** —
+Destillat führte U 0,13 und ein unsicher markiertes Rw «(43)» (vermutlich per Analogie zur
+EPS-Variante V3 übernommen); Original zeigt für V6 (Holzfaser + Holzlattung/Mineralwolle/
+GKF-Installationsebene) **U 0,11** und **Rw 45**, in Kopfzeile und Einzeltabelle
+übereinstimmend. Tabelle korrigiert. Zusätzlich eine veraltete «Offene Punkte»-Zeile bereinigt
+(Innenwände/Trennwände/Deckenelement sind bereits im Schwesterdestillat
+`clt-schallschutz-stora-enso` erfasst, die Zeile hier war seit Anlage der Datei nicht
+nachgeführt). Wiki-Folgefehler in `wiki/holzbau-bauphysik-clt.md` (Zeile 61, zusammenfassende
+Rw-43-Aussage für beide Dachfamilien) korrigiert auf Rw 43 (EPS) / Rw 45 (Holzfaser).
+
+- [x] **A-BLIND Rang 56 (Fortsetzung):** ✓ 13.09.2026 (Nachtschicht Mac Mini). Nächster
+  A-BLIND-Kandidat für den folgenden Lauf: **Rang 57-70** — noch kein einzelner Titel benannt,
+  Backlink-Ranking-Skript (`datenstand-waechter.py`) vor dem nächsten Lauf erneut laufen lassen.
+
 ## Run 194 (13.09.2026, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): fenster-energieetikette-fea-bfe am Original geprüft
 
 `[[fenster-energieetikette-fea-bfe]]` (`established` seit 13.07.2026, nie gegengelesen) war der

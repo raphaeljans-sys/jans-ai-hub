@@ -58,7 +58,9 @@ Aus dem Stora-Enso-Katalog (Kap. 4) → `[[clt-bauteilkatalog-stora-enso]]`. Je 
 | Mineralwolle 16-18 cm (λ 0,035, **A1**) | ±GKF | 60-90 | 0,18-0,16 | 38-39 |
 
 **Flachdach/Warmdach** (Eindeckung · Dämmung 24 cm · Dampfsperre **aussen** · CLT 140 · innen):
-EPS (λ 0,038) oder Holzfaser (λ 0,039) → U **0,11-0,13**, REI 60-90, Rw 36-43 (abgehängte Decke = Rw 43).
+EPS (λ 0,038) oder Holzfaser (λ 0,039) → U **0,11-0,13**, REI 60-90, Rw 36-39 (mit abgehängter
+Decke: EPS-Aufbau Rw 43, Holzfaser-Aufbau Rw 45 — korrigiert 13.09.2026, A-BLIND-Gegenlese,
+siehe `[[clt-bauteilkatalog-stora-enso]]`).
 
 **Logik:** EPS = dünner; Mineralwolle/Holzfaser = nicht brennbar (A1) + ~2 dB leiser; GKF hebt REI
 eine Stufe; Installationsebene = REI 120 + Rw 43. Dickere CLT (100→120) hebt v.a. den REI, kaum den
