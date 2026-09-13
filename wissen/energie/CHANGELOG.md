@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-13 (Run 194, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): fenster-energieetikette-fea-bfe am Original geprüft, Ausgabendatum korrigiert
+
+`destillate/fenster-energieetikette-fea-bfe.md` (`established` seit 13.07.2026, nie gegengelesen)
+gegen das öffentliche BFE-Original (`pubdb.bfe.admin.ch/de/publication/download/7731`, per
+WebFetch geladen + `pdftotext -layout` extrahiert) geprüft. Klassentabelle A-G, Formel
+(Hw/Hs/c1/c2) und Musterzertifikat-Beispiel (Uf 1,1 · Ug 0,6 · g 60 % · Ψg 0,03 · Uw 1,1 →
+Uw,eq −0,08 → Klasse A) bestätigt wortgenau/zahlengenau korrekt. **Fund:** Frontmatter-Feld
+`ausgabe` führte „Faktenblatt 12/2014" — dieses Datum kommt im Originaldokument nicht vor
+(tatsächliche Stempel: Fusszeile S. 1 „01/2015", BFE-Fusszeile letzte Seite „11.2015", PDF-
+Metadaten-Erstellungsdatum 13.07.2016). Frontmatter korrigiert (`ausgabe`, `datenstand`,
+`gelesen`, `last_updated`), Sachaussage „Label seit 1.1.2015 in Kraft" unverändert, da im
+Fliesstext selbst primärquellenbelegt. Protokoll: `outputs/2026-09-13_energie-run194.md`.
+Geändert: `destillate/fenster-energieetikette-fea-bfe.md`, `wiki/QUESTIONS.md`.
+
 ## 2026-09-12 (Run 193, Nachtschicht Mac Mini 18:xx) — E-R165-4 geschlossen: EN-130-136 nachgetragen, EN-136-Doppeldatei-Falle gefunden
 
 Ausgabenstand-Sweep der zwölf noch nicht einzeln geöffneten EN-Nummern (E-R165-4, offen seit

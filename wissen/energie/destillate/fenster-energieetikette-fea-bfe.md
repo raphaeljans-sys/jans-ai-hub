@@ -1,11 +1,11 @@
 ---
 quelle: "Energieetikette für Fenster — Faktenblatt"
 herausgeber: "Schweizerischer Fachverband Fenster- und Fassadenbranche FFF / Schweizerische Zentrale Fenster und Fassaden SZFF / EnergieSchweiz (Bundesamt für Energie BFE)"
-ausgabe: "Faktenblatt 12/2014 (Label seit 1.1.2015 in Kraft, unveraendert), 3 S. vollstaendig gelesen"
-gelesen: "2026-07-13 (Faktenblatt pubdb 7731 als PDF mit Textebene vollstaendig gelesen — vorheriger Zugriff am 2026-07-08 war bildbasiert/nicht auslesbar)"
-datenstand: "12/2014 (Label seit 1.1.2015 unveraendert in Kraft)"
+ausgabe: "Faktenblatt, Fusszeile Seite 1 «01/2015», BFE-Fusszeile letzte Seite «11.2015»; PDF-Erstellungsdatum laut Metadaten 13.07.2016 (Reprint/Re-Export, kein neuer Inhalt). Label seit 1.1.2015 in Kraft, unverändert. 3 S. vollständig gelesen"
+gelesen: "2026-07-13 (Faktenblatt pubdb 7731 als PDF mit Textebene vollständig gelesen — vorheriger Zugriff am 2026-07-08 war bildbasiert/nicht auslesbar); A-BLIND-Gegenlese 2026-09-13 (Nachtschicht Mac Mini) am selben Original (pubdb.bfe.admin.ch/de/publication/download/7731, per WebFetch/pdftotext erneut vollständig gelesen)"
+datenstand: "1.1.2015 (Label-Inkrafttreten, im Fliesstext primärquellenbelegt); die zuvor hier geführte Ausgabenangabe „12/2014" kommt im Dokument selbst NICHT vor (korrigiert, siehe A-BLIND-Vermerk unten)"
 status: established
-last_updated: "2026-07-13"
+last_updated: "2026-09-13"
 ---
 
 # Fenster-Energieetikette (FEA) — Winter-Energiebilanz des Fensters
@@ -84,6 +84,20 @@ Uw allein nicht zeigt.
 - **Freiwilliges Label** (keine gesetzliche Pflicht) — im Unterschied zur MuKEn-/kantonalen
   Uw-Anforderung ≤ 1,0 (ZH/Minergie) bzw. ≤ 0,80 (Minergie-P), die verbindlich ist
   (→ `[[fenster-verglasung-uw-g-wert]]`).
+
+## A-BLIND-Gegenlese 13.09.2026 (Nachtschicht Mac Mini)
+
+Vollständiger Wortlautabgleich am Original (pubdb.bfe.admin.ch/de/publication/download/7731,
+per WebFetch geladen, `pdftotext -layout` extrahiert): Klassentabelle A-G, Formel (Hw/Hs/c1/c2)
+und das Musterzertifikat-Beispiel (Uf 1,1 · Ug 0,6 · g 60 % · Ψg 0,03 · Uw 1,1 → Uw,eq −0,08 →
+Klasse A) sind **wortgenau/zahlengenau korrekt** — keine Änderung an diesen Abschnitten nötig.
+**Einziger Fund:** die Ausgabenangabe „Faktenblatt 12/2014" im Frontmatter kommt im Dokument
+selbst an keiner Stelle vor. Das Original trägt zwei Datumsstempel — Fusszeile Seite 1 „01/2015"
+(FFF/SZFF) und Fusszeile letzte Seite „11.2015" (BFE-Vorlagen-Fusszeile) — sowie die PDF-Metadaten
+„CreationDate 13.07.2016" (Adobe InDesign CS6, vermutlich ein späterer Reprint/Re-Export ohne
+inhaltliche Änderung, da der Fliesstext „seit 1.1.2015" unverändert dieselbe Aussage trägt).
+Frontmatter korrigiert; die Sachaussage „Label seit 1.1.2015 in Kraft" bleibt unangetastet, weil
+sie im Fliesstext selbst primärquellenbelegt ist, unabhängig vom Fusszeilendatum.
 
 ## Offene Punkte
 - Konstanten **c1 (Verlustfaktor)** und **c2 (Gewinn-Kennwert)** der Formel — nicht im Faktenblatt
