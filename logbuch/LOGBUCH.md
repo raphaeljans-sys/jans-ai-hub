@@ -12732,3 +12732,25 @@ Kein Login-/Konfigurationseingriff versucht (Login-Flow ist interaktiv, dieser L
 unbeaufsichtigt). Geaendert: `logbuch/fristen.md`, diese Logbuch-Zeile.
 
 Budget rund 0.15 von 5 USD (separate Session, eigenes Budget). Zyklus sauber beendet.
+
+## 2026-09-13 Nachtschicht Mac Mini (Versuchs-Slot 13:30, Prioritaet 3) — P1-Schwelle "36 h" ueberschritten, hub-chef-taeglich dritter Ausfall in Folge
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks/pending und sync-tasks/mac-mini/ ohne Dateien;
+Synobsis-Vektorindex `vectors.npz` 05.09. neuer als `documents.jsonl` 29.08., kein offenes Ziel).
+Prioritaet 3 erneut frisch gemessen statt aus dem Register zitiert (Rule 260730b): `ssh macbook`
+auf `~/Library/Logs/Claude/main.log` bis 13:31 gelesen. Der P1-Befund vom 12.09. (Claude-App
+MacBook Pro seit 11.09. 20:08 `OAuthError session_stale_relogin`, gelatcht, kein Selbstheil-Pfad)
+besteht unveraendert fort, aber drei neue Fehlschlaege seit dem letzten Check (heute 05:3x) waren
+noch nicht im Register: `zahlungsabgleich-check` (08:22:59), **`hub-chef-taeglich` (08:39:05) —
+damit drei Tage in Folge (11./12./13.09.) ohne Tagesbriefing**, `vollgas-chef-radar` MacBook-Fassung
+(12:57:26). Ausfalldauer rund 41 Stunden, die vom vorigen Eintrag benannte Pruefschwelle
+"P1 seit >36 h" ist damit ueberschritten. Die dafuer vorgesehene Pruefinstanz (naechster Radar/
+Hub-Chef) ist selbst die ausgefallene Instanz — dieser Lauf macht die Schwelle darum im Register
+sichtbar, statt sie unbemerkt verstreichen zu lassen. Kein Login-/Konfigurationseingriff versucht
+(interaktiver Flow, unbeaufsichtigter Lauf); keine Mail versendet (Nachtschicht-Grenze: nie Versand;
+unabhaengig davon bliebe es bei der einen Meldung vom 12.09. 13:01, Rule 260803, solange kein neuer
+Handlungsschritt entsteht). Geaendert: `logbuch/fristen.md` (Nachtrag an der bestehenden P1-Zeile
+angehaengt, nicht ueberschrieben, Rule 260805/260811), diese Logbuch-Zeile.
+
+Budget rund 0.05 von 5 USD. Zyklus sauber beendet — kein weiterer Slot heute, da Prioritaeten 1-2
+bereits am Morgen geprueft und Prioritaet 3 mit dieser Messung fuer den Versuchs-Slot erledigt ist.
