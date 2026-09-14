@@ -21,7 +21,9 @@ Bericht: `outputs/2026-09-14_wissens-chef-run58.md`.
 - **WC58-6** EN-136-Falle nach planungsgrundlagen; **WC58-8** ZEV-Kante nach immobilienbewertung
   mit Vorbehalt E-R196-1.
 - **Widerlegt:** claude-code «Umbau-Entscheid gefallen» (V0+ ist nicht V2).
-- Schreib-Kontrolle: alle Edits anker-basiert; Numstat nach Commit geprüft (siehe unten).
+- Schreib-Kontrolle: alle Edits anker-basiert. Numstat nach Commit (`b3572721b` Selfcommit 23:30
+  + `96194d899`): 23 Dateien, alle `-0` ausser drei benannten Zeilenersetzungen (`last_updated` im
+  Baumschutz-Artikel und in `schallschutz-sia181.md`, Registerzeile SIA 181 in normen, je -1/+1).
 
 ## 2026-09-14 (Synergie-Lauf 35, Tagestakt) — der App-Ausfall traf beide Stationen, das Register kannte nur eine
 
