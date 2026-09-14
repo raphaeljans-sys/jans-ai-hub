@@ -1,8 +1,8 @@
 ---
 title: Fristenlogik Bauentscheid (ZH) — Einreichungszeitpunkte
 status: emerging
-last_updated: 2026-07-27
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.1–3, PBG §327, BVV §23, § 22 VRG (LS 175.2, Nachtrag 133), PBG §§ 315/316/322/329/339]
+last_updated: 2026-09-14
+sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.1–3, PBG §327, BVV §23, § 22 VRG (LS 175.2, Nachtrag 133), PBG §§ 315/316/322/329/339, eBaugesucheZH Handbuch für Gemeinden Kap. 3.4.15 (Kanton ZH Baudirektion, Stand 2020)]
 links: [[aemter-stadt-zuerich]], [[brandschutz-auflagen-qss]], [[vorgehen-auflagebereinigung]]
 ---
 
@@ -88,3 +88,48 @@ Schlüssel, um jeder Auflage die richtige Frist + das richtige Amt zu geben:
 Beide liegen früh, sind aber nicht identisch: «vor Arbeitsvergabe» (Ziff. II.3) heisst
 **bevor das Gewerk überhaupt vergeben** wird; «vor Ausführungsbeginn» (z.B. GVZ-Unterlagen)
 heisst **vor Start der konkreten Arbeit**. Im Zweifel die frühere (Vergabe) nehmen.
+
+## Projektänderung nach Baurechtsentscheid: Stammgesuch oder neues Baugesuch?
+
+Frage übernommen aus der Cross-KB-Übergabe `wissen/twin` (Batch 118, 10.09.2026): Am Fall
+**BE 2024.227, Thalwil, Projekt 2414** hat Raphael Projektänderungspläne am 09.09.2026 auf
+Anraten des technischen Supports **innerhalb des Stammgesuchs** eingereicht und in derselben
+Mail an das Bauamt festgehalten, dies weiche von der Praxis der **Stadt Zürich** ab («nicht
+wie die Stadt Zürich ein neues Baugesucht für die Projektänderungspläne erstellen»). Offen
+war, ob das für alle Kanton-ZH-Gemeinden (ausser Stadt Zürich) gilt und ob es dazu etwas
+Schriftliches vom Kanton gibt.
+
+**Antwort, amtlich belegt:** Ja, es gibt eine schriftliche Kantonsregel — und sie erklärt
+zugleich, warum Stadt Zürich anders verfährt. Das **«eBaugesucheZH – Handbuch für
+Gemeinden»** (Kanton Zürich, Baudirektion, Stand 2020, Kapitel 3.4.15 «Projektänderung
+freigeben») hält fest:
+
+> «Projektänderungen erfolgen immer nach Erteilung des Baurechtsentscheids. Nachdem der
+> Gesuchsteller über eBaugesucheZH angezeigt hat, dass er eine Projektänderung einreichen
+> möchte, kann die Gemeinde entscheiden, ob sie dies will oder ob der Gesuchsteller ein
+> neues Baugesuch einreichen soll. Akzeptiert die Gemeinde eine Projektänderung, so gibt sie
+> dies dem Gesuchsteller mit dieser Aktion bekannt. Der Status des Baugesuchs ist ‹Im
+> Verfahren› und der Gesuchsteller kann das Baugesuch bearbeiten und danach einreichen.
+> Möchte die Gemeinde die Projektänderung nicht freigeben, kann sie mittels ‹Mitteilung an
+> Gesuchsteller› dies begründen.»
+
+**Einordnung:**
+- Es handelt sich **nicht** um eine starre kantonale Vorgabe, sondern um ein
+  **Gemeinde-Ermessen**, das im eBaugesucheZH-Workflow selbst verankert ist: jede am System
+  angeschlossene Gemeinde entscheidet im Einzelfall, ob sie die Projektänderung im
+  bestehenden Gesuch weiterführt oder ein neues Baugesuch verlangt. Thalwil hat sich für die
+  Stammgesuchs-Variante entschieden; das ist innerhalb des Handbuchs korrekt, aber **keine
+  Garantie**, dass jede andere ZH-Gemeinde gleich verfährt.
+  - **Stadt Zürich betreibt ein eigenes, vom kantonalen eBaugesucheZH getrenntes
+  Baugesuchssystem** (eigene städtische Plattform); die zitierte Handbuch-Stelle gilt für die
+  am kantonalen System angeschlossenen Gemeinden. Das erklärt die von Raphael beobachtete
+  Praxisdifferenz strukturell, ohne dass eine explizite Sonderregel für Zürich nötig wäre —
+  die Stadt folgt schlicht einem anderen System mit eigener Praxis.
+  - Vor jeder Projektänderungs-Eingabe bleibt darum die **Rückfrage bei der konkreten
+  Gemeinde** (bzw. dem eBaugesucheZH-Support) der sichere Weg, nicht die Annahme «wie bei
+  Thalwil».
+
+**Quelle:** `eBaugesucheZH – Handbuch für Gemeinden`, Kanton Zürich Baudirektion,
+https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/ebaugesuchezh/ebaugesuchezh_handbuch_fuer_gemeinden.pdf,
+Kap. 3.4.15 (Dokumentstand 2020, seither nicht neu datiert auffindbar — vor einer
+rechtsverbindlichen Berufung aktuelle Fassung bei der Gemeinde/beim Kanton verifizieren).

@@ -12826,3 +12826,29 @@ ueber der 36-h-Schwelle aus dem Eintrag vom 13.09. Keine Aktion moeglich (Login 
 keine neue Mail. Geaendert: `logbuch/fristen.md`, diese Logbuch-Zeile.
 
 Budget rund 1.3 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-14 Nachtschicht Mac Mini, 23:30-Slot (Prioritaet 5) — eBaugesuche-ZH-Bringschuld aus KB `twin` recherchiert und geschlossen
+
+Prioritaeten 1-4 leer bzw. heute bereits abgedeckt: remote-tasks/pending und
+sync-tasks/mac-mini ohne Auftraege; Synobsis-Stufe-2-Vektorindex unveraendert aktuell (Stand
+01.09.); der P1-Befund «Claude-App MacBook Pro seit 11.09. abgemeldet» ist laut Fristen-Register
+bereits um 13:59 desselben Tages aufgeloest (naechste Gegenprobe erst 15.09. 08:35 faellig,
+darum kein neuer Fristen-Eintrag noetig); `energie` hatte um 22:55 bereits Run 196
+(Abendlauf), `bauprodukte` und `grobkosten` sind laut eigenem `training/PROGRAMM.md`
+formal ERLEDIGT und kein gueltiges Prioritaet-4-Ziel mehr. Darum Prioritaet 5: die
+Cross-KB-Uebergabe `wissen/twin/wiki/QUESTIONS.md` 260910 #3 an `wissen/auflagebereinigung`
+aufgenommen (Rule `wissens-bibliothekar`, Bringschuld). Frage: ob eine Projektaenderung nach
+Baurechtsentscheid im Stammgesuch bleibt oder ein neues Baugesuch braucht (Fall BE 2024.227
+Thalwil, Praxisdifferenz zu Stadt Zuerich). Per WebSearch/WebFetch die amtliche Quelle
+gefunden: `eBaugesucheZH – Handbuch fuer Gemeinden` (Kanton ZH Baudirektion), Kap. 3.4.15
+«Projektaenderung freigeben» — **Gemeinde-Ermessen**, im Workflow selbst eingebaut, keine
+starre Kantonsregel; erklaert die Praxisdifferenz zu Stadt Zuerich strukturell (eigenes,
+getrenntes Baugesuchssystem). Geaendert: `wissen/auflagebereinigung/wiki/
+fristenlogik-bauentscheid-zh.md` (neuer Abschnitt + Quellenangabe), `wissen/auflagebereinigung/
+wiki/QUESTIONS.md` (Punkt geschlossen), `wissen/auflagebereinigung/CHANGELOG.md`,
+`wissen/twin/wiki/QUESTIONS.md` (260910 #3 mit Recherche-Ergebnis ergaenzt, Klauseltext
+unangetastet), `wissen/twin/CHANGELOG.md`, diese Logbuch-Zeile.
+
+Budget rund 3.5 von 5 USD (inkl. Pruefung der Prioritaeten 1-4 ueber mehrere Kandidaten-KBs vor
+der Wahl, ssh-Gegenproben MacBook/bexio, zwei WebFetch-Aufrufe fuer die PDF-Quelle). Zyklus
+sauber beendet.

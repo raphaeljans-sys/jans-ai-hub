@@ -2,6 +2,18 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5) — eBaugesuche ZH Projektänderung: Gemeinde-Ermessen amtlich belegt
+
+Cross-KB-Übergabe aus `wissen/twin` (Batch 118, 260910 #3, Rule `wissens-bibliothekar`
+Bringschuld) recherchiert: ob eine Projektänderung nach Baurechtsentscheid im Stammgesuch
+bleibt oder ein neues Baugesuch braucht. Amtliche Quelle gefunden: `eBaugesucheZH – Handbuch
+für Gemeinden` (Kanton ZH Baudirektion), Kap. 3.4.15 «Projektänderung freigeben» — es ist ein
+**Gemeinde-Ermessen**, im Workflow selbst eingebaut, keine starre Kantonsregel. Erklärt
+strukturell die beobachtete Praxisdifferenz zu Stadt Zürich (eigenes, getrenntes
+Baugesuchssystem). Neuer Abschnitt in `wiki/fristenlogik-bauentscheid-zh.md` («Projektänderung
+nach Baurechtsentscheid»), Frontmatter `sources`/`last_updated` nachgezogen, `wiki/QUESTIONS.md`
+geschlossen, Rückmeldung im selben Lauf in `wissen/twin/wiki/QUESTIONS.md` nachgetragen.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Fassungsvorbehalt SN EN 62368-1 und Kanten nach `normen`
 
 `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`: die Aussage «gilt SN EN IEC

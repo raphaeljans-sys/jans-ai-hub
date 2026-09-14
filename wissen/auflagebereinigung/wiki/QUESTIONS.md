@@ -109,9 +109,14 @@ daneben: «nicht wie die Stadt Zürich ein neues Baugesucht für die Projektänd
 erstellen». Quelle: authentische Mail aus Raphaels eigener Hand, Registereintrag
 `wissen/twin/raw/260910-mailbatch-118.md` (Gold C).
 
-*Offen und deshalb noch nicht als Verfahrensregel im Wiki:* ob das fuer alle
-Kanton-ZH-Gemeinden ausser der Stadt Zürich gilt oder eine Einzelauskunft zu diesem Vorgang
-war, und ob es dazu etwas Schriftliches vom Kanton gibt. Vorgelegt an Raphael als
-`wissen/twin/wiki/QUESTIONS.md` 260910 #3. Wer die Bestaetigung erhaelt, hebt den Punkt hier
-in einen Artikel (Kandidat: `fristenlogik-bauentscheid-zh.md` oder ein eigener Artikel zum
-Aenderungsverfahren) und vermerkt die Loesung zurueck in der KB `twin`.
+**GEKLAERT 14.09.2026 (Nachtschicht Mac Mini, Prioritaet 5).** Amtlich belegt im
+`eBaugesucheZH – Handbuch für Gemeinden` (Kanton ZH Baudirektion, Kap. 3.4.15
+«Projektänderung freigeben»): es ist **kein starres Kantonsrecht**, sondern ein
+**Gemeinde-Ermessen**, das im eBaugesucheZH-Workflow selbst eingebaut ist — jede
+angeschlossene Gemeinde entscheidet im Einzelfall, ob sie die Projektänderung im
+Stammgesuch weiterführt oder ein neues Baugesuch verlangt. Die von Raphael beobachtete
+Praxisdifferenz zur Stadt Zürich erklärt sich strukturell dadurch, dass **Stadt Zürich ein
+eigenes, vom kantonalen eBaugesucheZH getrenntes System** betreibt. Volltext, Zitat und
+Quelle jetzt in [[fristenlogik-bauentscheid-zh]], Abschnitt «Projektänderung nach
+Baurechtsentscheid». Rueckmeldung an `wissen/twin/wiki/QUESTIONS.md` 260910 #3 erfolgt im
+selben Lauf (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld).

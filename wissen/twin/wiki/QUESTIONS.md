@@ -6117,6 +6117,21 @@ oder war es eine Einzelauskunft zu diesem Vorgang? Gibt es dazu etwas Schriftlic
 `auflagebereinigung` heben oder als Einzelfall fuehren. Eine Zeile liegt dort bereits als
 Bringschuld; belegt ist sie erst mit Deiner Bestaetigung.
 
+**RECHERCHIERT 14.09.2026 (Nachtschicht Mac Mini, Prioritaet 5) — die Sachfrage ist amtlich
+beantwortet, unabhaengig von einer persoenlichen Bestaetigung.** `eBaugesucheZH – Handbuch
+fuer Gemeinden` (Kanton ZH Baudirektion, Kap. 3.4.15 «Projektaenderung freigeben»): es ist
+**kein starres Kantonsrecht fuer alle Gemeinden gleich**, sondern ein **Gemeinde-Ermessen**,
+das im eBaugesucheZH-Workflow selbst eingebaut ist — jede Gemeinde entscheidet im Einzelfall,
+ob sie die Projektaenderung im Stammgesuch weiterfuehrt oder ein neues Baugesuch verlangt.
+Die beobachtete Praxisdifferenz zu Stadt Zuerich erklaert sich strukturell: **Stadt Zuerich
+betreibt ein eigenes, vom kantonalen eBaugesucheZH getrenntes System.** Damit ist Thalwils
+Vorgehen am 09.09.2026 belegt korrekt, aber keine Garantie fuer jede andere Gemeinde — die
+Rueckfrage bei der konkreten Gemeinde bleibt der sichere Weg. Volltext und Quelle jetzt in
+`wissen/auflagebereinigung/wiki/fristenlogik-bauentscheid-zh.md`, Abschnitt «Projektaenderung
+nach Baurechtsentscheid»; Bringschuld dort geschlossen. **Was offen bleibt, ist keine
+Sachfrage mehr, sondern eine Stil-/Aufnahme-Frage** an Dich: ob der Fall trotzdem als
+Erfahrungssatz in ein Wiki soll oder mit der amtlichen Quelle als ausreichend belegt gilt.
+
 **#4 [operativ, nicht Stil] Der Plotter fuehrt eine dritte Firmenadresse.**
 Die Bestellbestaetigung von NewCopyStore vom 09.09.2026 nennt als Auftraggeber «Raphael Jans
 Architekt ETH, **Saumstrasse 21, 8004 Zürich**» — weder Grubenstrasse 37 (aktuell) noch

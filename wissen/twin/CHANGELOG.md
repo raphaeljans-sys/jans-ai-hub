@@ -4,6 +4,16 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5, Cross-KB twin ↔ auflagebereinigung) — Bringschuld 260910 #3 recherchiert und geschlossen
+
+- `wiki/QUESTIONS.md` 260910 #3 (eBaugesuche ZH, Projektänderung Stammgesuch vs. neues
+  Baugesuch): amtliche Quelle gefunden (`eBaugesucheZH – Handbuch für Gemeinden`, Kap.
+  3.4.15) — Gemeinde-Ermessen, keine starre Kantonsregel; erklärt die Praxisdifferenz zu
+  Stadt Zürich strukturell (eigenes System). Sachfrage damit beantwortet, unabhängig von
+  Raphaels persönlicher Bestätigung; offen bleibt nur eine Stil-/Aufnahme-Frage. Bringschuld
+  bei `wissen/auflagebereinigung` im selben Lauf geschlossen
+  (`wiki/fristenlogik-bauentscheid-zh.md`, neuer Abschnitt).
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB twin ↔ rules/anrede-kontakte) — die Sonderegger-Vorlage enthielt eine falsche Negativaussage
 
 - `wiki/QUESTIONS.md` 260911b #1 (Stefanie Sonderegger in die Kontaktliste): ⚠-Nachtrag, Frage
