@@ -53,7 +53,7 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
-## 2026-09-15 01:03 — [FREI] **MacBook-Fassung, Doppellauf zum Mini-Eintrag 00:58 direkt darunter. Nur Ergänzung, keine Zweitmessung: der Mini-Eintrag gilt. Der Doppellauf ist jetzt aus der MacBook-Registry belegt, der P3 zur Frühwarnung beruht auf einer Fehllesung.**
+## 2026-09-15 01:01 — [FREI] **MacBook-Fassung, Doppellauf zum Mini-Eintrag 00:58 direkt darunter. Nur Ergänzung, keine Zweitmessung: der Mini-Eintrag gilt. Der Doppellauf ist jetzt aus der MacBook-Registry belegt, der P3 zur Frühwarnung beruht auf einer Fehllesung.**
 
 **Doppellauf belegt (P2 des Mini präzisiert).** `list_scheduled_tasks` auf dem MacBook: vollgas-chef-radar (`50 */12`),
 vollgas-fruehwarnung (`10 7`) und heartbeat-daily (`40 9 1-5`) stehen hier alle auf `enabled: true`. Aus «vermutlich

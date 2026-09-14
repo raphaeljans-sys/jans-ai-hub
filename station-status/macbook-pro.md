@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 00:54:48
+Stand: 15.09.2026 01:05:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:02)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 00:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +20,4 @@ Stand: 15.09.2026 00:54:48
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- dc2ef95d2 nas-selfcommit: 2 Datei(en) 2026-09-15 00:45
+- bc9fb462a vollgas-radar: MacBook-Ergaenzung 260915 01:03 (Doppellauf belegt, FRUEHWARNUNG-Lesung korrigiert)
