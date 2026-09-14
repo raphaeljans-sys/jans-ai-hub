@@ -71,3 +71,15 @@ Erst nach ausdruecklicher Freigabe je Aktion:
 Tenant-Versionslimit (Admin Center → Einstellungen → Versionsverlauf-Limits) sollte auf
 "Automatisch" stehen statt "Manuell/500/Nie" — sonst wachsen die Versionen erneut an.
 Im Report vermerken, falls noch auf Manuell.
+
+**⚠ Die Tenant-Ebene allein genuegt NICHT (korrigiert 14.09.2026).** Die Tenant-Einstellung
+gilt laut Microsoft nur fuer **neu angelegte** Bibliotheken; bestehende behalten ihr eigenes
+Limit. Der Tenant steht seit spaetestens 27.07.2026 auf Automatisch
+(`m365 spo tenant settings list`, `EnableAutoExpirationVersionTrim: true`), die Bibliotheken
+von JANS.PROJEKTE aber weiterhin auf manuell 500. Darum je Lauf die **Bibliotheks-Ebene**
+messen: `m365 spo list list --webUrl <site> --properties "Title,BaseTemplate,MajorVersionLimit"
+--filter "BaseTemplate eq 101"`. Die Site-Felder aus `spo site list`
+(`InheritVersionPolicyFromTenant`, `MajorVersionLimit: 0`) sagen darueber nichts aus. Behebung
+(interaktiv, SPO Management Shell, kein CLI-Set-Befehl vorhanden):
+`Set-SPOSite -Identity <site> -EnableAutoExpirationVersionTrim $true -ApplyToExistingDocumentLibraries`,
+danach der Versions-Trim. Beleg: Report `reports/260914-hygiene.md`.
