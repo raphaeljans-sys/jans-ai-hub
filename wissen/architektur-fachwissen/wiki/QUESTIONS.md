@@ -1056,6 +1056,18 @@ keine gilt hier als vorrangig richtig; dokumentiert in
 beantworten kann: Abgleich gegen eine Semper-Fachbiografie (z. B. Fröhlich, «Gottfried
 Semper») oder Raphael, falls eine solche im Bestand vorhanden ist.
 
+**GESCHLOSSEN 14.09.2026 (Nachtschicht Mac Mini, Priorität 5) — kein Widerspruch, beide Quellen
+unvollständig.** Gegen die deutschsprachige Wikipedia „Gottfried Semper" (Abschnitt Leben,
+abgerufen 14.09.2026) und die Seite der Universität Göttingen geprüft: Semper studierte
+1823-1825 in **Göttingen** (Mathematik bei Thibaut, Geschichte, ohne Abschluss), immatrikulierte
+sich **Ende 1825** kurz und ohne ernsthafte Studien in der Architekturklasse der Kunstakademie
+**München**, und ging **ab Dezember 1826** nach **Paris** (Praxis bei Hittorff/Gau,
+Aufenthalte 1826-1828 und 1829). Die Portraitdatei `32_semper.pdf` liess die kurze,
+folgenlose Münchner Zwischenstation aus; der Sauter-Text nannte nur diese eine Station und
+liess Göttingen und Paris aus. Beide Wiki-Artikel korrigiert auf die volle Stationenfolge
+Göttingen–München–Paris; keine Fachbiografie (Fröhlich) konsultiert, da die Sekundärquelle
+für diese Chronologie-Frage ausreichte.
+
 ## 260830 — Stadtlounge St. Gallen, Sektion `02_Kunst_Geschichte` (94. Lauf Lane FACHWISSEN)
 
 **#75 Neun Zeitungsberichte zur Stadtlounge St. Gallen unausgewertet.** Im Ordner

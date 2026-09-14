@@ -1,8 +1,8 @@
 ---
 title: "Klassizismus/Historismus/Eklektizismus 1770-1900: Dreizehn-Bauten-Kanon, Denkmalpflege-Genese (Sauter/hta Luzern)"
 status: speculative
-last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/04_Kunsthistoriker/Sauter_Marion/04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf (15 S., vollständig gelesen)"]
+last_updated: 2026-09-14
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/04_Kunsthistoriker/Sauter_Marion/04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf (15 S., vollständig gelesen)", "https://de.wikipedia.org/wiki/Gottfried_Semper (Abschnitt Leben/Ausbildung, abgerufen 14.09.2026, nur zur Präzisierung der Semper-Zeile)"]
 links: ["[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]", "[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]", "[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]"]
 ---
 
@@ -68,15 +68,20 @@ Nebenbegriffe der Quelle ohne eigene Bauten: Biedermeier (1815-1848/49), Gründe
   Hauptgebäude 1883).
 - **Charles Garnier (1825-1898):** aus einfachen Verhältnissen, Rom-Preisträger,
   gewann 1861 überraschend den Wettbewerb um die Pariser Oper.
-- **Gottfried Semper (1803-1879):** Architekt und Autor, Studium in München, 1834
-  Professur Dresden, nach dem Märzaufstand 1849 Flucht aus Dresden über Paris,
-  1855-1873 Professur in Zürich (Polytechnikum 1858-1864), ab 1873 Wien (Burgtheater
-  1873-1878). **Cross-Referenz:** Sempers materialtheoretische Position
+- **Gottfried Semper (1803-1879):** Architekt und Autor, 1823-1825 Studium in Göttingen
+  (Mathematik/Geschichte), Ende 1825 kurze, folgenlose Immatrikulation in München, ab
+  Ende 1826 Paris (Architekturpraxis bei Hittorff/Gau), 1834 Professur Dresden, nach dem
+  Märzaufstand 1849 Flucht aus Dresden über Paris, 1855-1873 Professur in Zürich
+  (Polytechnikum 1858-1864), ab 1873 Wien (Burgtheater 1873-1878). Chronologie präzisiert
+  14.09.2026 (Nachtschicht Mac Mini, Priorität 5, ehemals als «Studium in München»
+  verkürzt) — Beleg und Details in
+  [[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]].
+  **Cross-Referenz:** Sempers materialtheoretische Position
   (Stoffwechseltheorie/Bekleidungsprinzip) ist in dieser KB bereits eigenständig
   behandelt in [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] und
   [[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] — dort rein
   theoriegeschichtlich, hier ergänzt um das gebaute Spätwerk (Semperoper Dresden) und
-  die biografische Zeitlinie München–Dresden–Paris–Zürich–Wien.
+  die biografische Zeitlinie Göttingen–München–Paris–Dresden–Zürich–Wien.
 
 ## Denkmalpflege-Genese als Nebenlinie
 

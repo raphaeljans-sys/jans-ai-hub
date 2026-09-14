@@ -1,5 +1,21 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS #72 geschlossen: Sempers Göttingen/München/Paris kein Widerspruch
+
+Zwei Wiki-Artikel korrigiert: `gottfried-semper-biografie-lebensstationen-hamburg-dresdner-
+barrikaden-zuerich-wien.md` und `sauter-klassizismus-historismus-eklektizismus-schinkel-
+semper-denkmalpflege-genese.md` trugen scheinbar widersprüchliche Angaben zu Sempers
+Ausbildungsort (München vs. Göttingen/Paris) — der offene Punkt #72 seit 30.08.2026. Gegen die
+deutschsprachige Wikipedia „Gottfried Semper" (Abschnitt Leben, WebFetch 14.09.2026) und die
+Trefferliste einer WebSearch (u. a. Uni Göttingen) geprüft: kein echter Widerspruch, sondern
+zwei unvollständige Ausschnitte derselben Stationenfolge — **1823-1825 Göttingen** (Mathematik
+bei Thibaut, Geschichte, kein Abschluss), **Ende 1825 kurze, folgenlose Immatrikulation
+München** (Architekturklasse Kunstakademie), **ab Dezember 1826 Paris** (Praxis bei Hittorff/
+Gau). Beide Artikel auf die volle Stationenfolge Göttingen–München–Paris korrigiert,
+`wiki/QUESTIONS.md` #72 mit Schliessungsvermerk versehen (nicht gelöscht). Kein Primärquellen-
+Fund im Archiv-Korpus nötig, da eine Sekundärquelle für diese reine Chronologie-Frage genügte;
+keine Fachbiografie (Fröhlich) konsultiert.
+
 ## 2026-09-11 (Nachtschicht Mac Mini, 23:3x, Prioritaet 5) — QUESTIONS #79 geschlossen: Zürcher Baumschutz-Fällbewilligung
 
 Neuer Wiki-Artikel `wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`:

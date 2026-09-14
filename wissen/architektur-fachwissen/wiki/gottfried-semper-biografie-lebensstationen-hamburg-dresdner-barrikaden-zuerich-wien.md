@@ -1,8 +1,8 @@
 ---
 title: "Gottfried Semper: Lebensstationen von Hamburg über die Dresdner Barrikaden bis Zürich und Wien"
 status: emerging
-last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/32_semper.pdf (2 S., vollständig gelesen)"]
+last_updated: 2026-09-14
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/32_semper.pdf (2 S., vollständig gelesen)", "https://de.wikipedia.org/wiki/Gottfried_Semper (Abschnitt Leben/Ausbildung, abgerufen 14.09.2026, nur zur Klärung des München-Widerspruchs)"]
 links: ["[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]", "[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]", "[[schinkel-bauakademie-institutionsgeschichte-altes-museum-konstruktion-lustgarten-palimpsest]]"]
 ---
 
@@ -29,19 +29,25 @@ dem Fliesstext.
 ## Leben
 
 Geboren in Hamburg als fünftes von acht Kindern eines wohlhabenden Wollfabrikanten, Schulzeit
-am Hamburger Johanneum. 1823 Studienbeginn in Mathematik und Geschichte in **Göttingen**;
-1825 Wechsel zur Architektur an der privaten Architekturschule Franz Christian Gaus in Paris.
-1830-1833 ausgedehnte Reisen durch Italien und Griechenland mit breiter Kenntnis historischer
-Baudenkmäler; dabei Untersuchung der ursprünglichen Farbigkeit (Polychromie) antiker Bauten,
-1834 Veröffentlichung der vieldiskutierten Studie «Vorläufige Bemerkungen über bemalte
-Architectur und Plastik bei den Alten».
+am Hamburger Johanneum. 1823-1825 Studium der Mathematik (bei Bernhard Friedrich Thibaut) und
+Geschichte in **Göttingen**, ohne formalen Abschluss; Ende 1825 kurze Immatrikulation in der
+Architekturklasse der Kunstakademie **München**, dort ohne ernsthafte Studien; ab Dezember
+1826 **Paris**, wo er nach einem Duell hinfliehen musste und für Jakob Ignaz Hittorff und
+Franz Christian Gau arbeitete (Studienaufenthalte 1826-1828 und 1829). 1830-1833 ausgedehnte
+Reisen durch Italien und Griechenland mit breiter Kenntnis historischer Baudenkmäler; dabei
+Untersuchung der ursprünglichen Farbigkeit (Polychromie) antiker Bauten, 1834 Veröffentlichung
+der vieldiskutierten Studie «Vorläufige Bemerkungen über bemalte Architectur und Plastik bei
+den Alten».
 
-**Quellenwiderspruch (offen, nicht aufgelöst):**
-[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]] nennt
-für Sempers Ausbildung «Studium in München»; diese Quelle nennt durchgehend Göttingen
-(Mathematik/Geschichte 1823) und danach Paris bei Gau (Architektur ab 1825) — München wird an
-keiner Stelle erwähnt. Keine der beiden Quellen wird hier als richtig markiert; offene Frage
-für `wiki/QUESTIONS.md`.
+**Quellenwiderspruch geklärt, 14.09.2026 (Nachtschicht Mac Mini, Priorität 5):** beide Quellen
+waren zutreffend, aber je unvollständig — kein Widerspruch, sondern zwei Ausschnitte derselben
+Stationenfolge. [[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]
+nennt nur die (kurze, folgenlose) Münchner Station und lässt Göttingen und Paris aus; diese
+Quelle nennt Göttingen und Paris, lässt aber die dazwischenliegende Münchner Immatrikulation
+Ende 1825 aus. Beleg: deutschsprachige Wikipedia „Gottfried Semper" (Abschnitt Leben/Ausbildung,
+abgerufen 14.09.2026) sowie die Seite der Universität Göttingen zu Semper als ehemaligem
+Studenten; keine Fachbiografie (z. B. Fröhlich) im Bestand konsultiert. Der Artikel
+`sauter-klassizismus-...` bleibt unverändert (Münchner Station dort korrekt, nur unvollständig).
 
 ## Dresden 1834-1849
 
@@ -92,9 +98,10 @@ dort auf dem protestantischen Friedhof bei der Cestius-Pyramide begraben.
 
 ## Offene Punkte
 
-Der München-Widerspruch (siehe oben) bleibt ungelöst; an `wiki/QUESTIONS.md` zu übergeben.
-Die Quelle nennt keine Seitenzahlen/Kapitelverweise für «Der Stil» — Zitatprüfung gegen eine
-Primärausgabe steht aus, sollte diese KB künftig direkt aus «Der Stil» zitieren wollen.
+Der München-Widerspruch ist geklärt (siehe oben, 14.09.2026) und damit aus `wiki/QUESTIONS.md`
+(#72) auszutragen. Die Quelle nennt keine Seitenzahlen/Kapitelverweise für «Der Stil» —
+Zitatprüfung gegen eine Primärausgabe steht aus, sollte diese KB künftig direkt aus «Der Stil»
+zitieren wollen.
 
 **Sperrlisten-Prüfung:** kein Fund, ausschliesslich historische, öffentlich bekannte Personen
 des 19. Jahrhunderts.

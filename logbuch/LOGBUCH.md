@@ -12782,3 +12782,28 @@ Titel benannt (Backlink-Ranking vor dem naechsten Lauf neu ziehen). Geaendert:
 Logbuch-Zeile.
 
 Budget rund 2.9 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-14 Nachtschicht Mac Mini (Prioritaet 5) — architektur-fachwissen QUESTIONS #72 geschlossen: Sempers Ausbildungsstationen kein Widerspruch
+
+Prioritaeten 1-4 geprueft, kein weiterer eigener Handlungsbedarf: remote-tasks/pending und
+sync-tasks/mac-mini/ leer; Synobsis-Stufe-2-Embeddings aktuell und QUESTIONS-Bestand laut
+CHANGELOG 08.09.2026 erschoepft (nur noch Freigabesachen offen); Fristen-Register traegt bereits
+einen frischen Eintrag von 22:4x des Vorabends (interaktive Session, KISPI-Sitzungsvorbereitung
+14.09.), Ueberfaelliges wird aktiv von den Tagesloops (hub-chef/logbuch-radar) bewirtschaftet,
+kein zusaetzlicher Zusammenstellungs-Entwurf noetig; Prioritaet 4 (`energie`) hatte in derselben
+Nachtschicht bereits Run 195 (23:36 Vorabend). Daher Prioritaet 5: offene QUESTIONS-Position
+einer anderen KB recherchiert. `wissen/architektur-fachwissen/wiki/QUESTIONS.md` #72 (seit
+30.08.2026 offen): zwei Wiki-Artikel widersprachen sich scheinbar zu Gottfried Sempers
+Ausbildungsort (München vs. Göttingen/Paris). Per WebSearch/WebFetch gegen die deutschsprachige
+Wikipedia und die Uni-Goettingen-Seite geprueft: kein Widerspruch, sondern zwei unvollstaendige
+Ausschnitte derselben Stationenfolge — 1823-1825 Goettingen (Mathematik/Geschichte), Ende 1825
+kurze folgenlose Immatrikulation Muenchen, ab Dezember 1826 Paris (Praxis bei Hittorff/Gau).
+Beide Artikel auf die volle Stationenfolge korrigiert, Frage geschlossen (nicht geloescht).
+Geaendert: `wissen/architektur-fachwissen/wiki/gottfried-semper-biografie-lebensstationen-
+hamburg-dresdner-barrikaden-zuerich-wien.md`, `wissen/architektur-fachwissen/wiki/sauter-
+klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese.md`,
+`wissen/architektur-fachwissen/wiki/QUESTIONS.md`, `wissen/architektur-fachwissen/CHANGELOG.md`,
+diese Logbuch-Zeile.
+
+Budget rund 2.4 von 5 USD (inkl. Pruefung Prioritaeten 1-4 und Recherche mehrerer Kandidaten-KBs
+vor der Wahl). Zyklus sauber beendet.
