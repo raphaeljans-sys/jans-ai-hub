@@ -57,3 +57,7 @@ explizit anderem Layout-Wunsch, Briefkopf-Vorlage mit Logo, PPTX (eigene Konvent
 Sektion «Sprache» gilt auch dort). XLSX hat ein eigenes Tabellen-Layout, folgt aber dem
 JANS-Grundsatz: Cambria, schwarz, keine dekorativen Symbole/Emojis, Status ueber
 Text/Schriftschnitt (Regel 260601). Im Zweifel: maximale Zurueckhaltung, maximale Lesbarkeit.
+
+**Praesentationen (Querverweis, Synergie-Lauf 35, 14.09.2026):** «PPTX» oben ist seit
+Rule `auto-verbesserungen` 260913 kein Lieferformat mehr. Folien und Sitzungsvorlagen gehen als
+InDesign-Dokument (`.indd` + `.idml` + PDF) raus, nie als PPTX; die Sektion «Sprache» gilt dort weiter.
