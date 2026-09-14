@@ -3340,3 +3340,11 @@ fremder Eigentümer. Diagnose nur lesend aus Terminal.app (Claude-Shell hat kein
 ein Rename hin und zurück sowie eine eigene Testdatei angelegt und wieder entfernt. Lösch-Script
 `scripts/papierkorb-dataless-loeschen.py` (Trockenlauf: 33 Dateien, 34 Ordner) bereitgestellt; Ausführung mit `--ja`
 durch Raphael. Wege und Sackgassen: `connectors/WEGE.md` Nachtrag 14.09.2026.
+
+**Nachtrag 11:0x, abgeschlossen:** Lauf 1 (`--ja`, Raphael in Terminal.app) entfernte alle 33 Platzhalter-Dateien, aber
+kein einziger Dataless-Ordner liess sich mit `rmdir` entfernen («Directory not empty»): der Linkzähler blieb bei 30,
+obwohl `readdir`/`getdirentries` nur «.» und «..» liefern — die Einträge sind auf der Platte noch da, der Provider
+blendet sie aus. Lauf 2 (Script um Stufe 2/3 erweitert) räumte den Zweig `2410 WALD` (8 Ordner) weg; 9 Dataless-Ordner
+im Zweig `2001 Haus Deuber` blieben. Der Wurzelordner liess sich per `rename` aus dem Papierkorb schieben: jetzt
+`~/.OneDrive-Dataless-Reste-260914/` (25 Ordner, 0 Byte, 9 davon Dataless mit Geister-Einträgen). **Papierkorb leer,
+Finder zählt 0.** Eingriff von Claude: nur dieser Rename (umkehrbar, Ziel benannt). Rest offen im Fristen-Register.

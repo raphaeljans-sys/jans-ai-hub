@@ -1164,3 +1164,9 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   (Python, os.walk bottom-up, unlink + rmdir; Trockenlauf ohne Argument, `--test` für die Proben, `--ja`
   löscht). Ausführung in Terminal.app durch Raphael (Memory «Systemschalter per Terminal statt GUI»;
   Papierkorb leeren ist endgültig).
+- **Nachtrag 11:0x, Ergebnis:** `unlink` der Dataless-Dateien geht, `rmdir` der Dataless-Ordner meist nicht
+  («Directory not empty» bei leerem `getdirentries`, Linkzähler unverändert) — auch nicht mit Materialisierung OFF/ON.
+  Ein Teilzweig liess sich im zweiten Lauf doch entfernen (Ursache unklar). **Was immer geht: `rename` des
+  Wurzelordners aus dem Papierkorb heraus** (Stufe 3 des Scripts) — der Papierkorb ist damit frei, die Geister-Ordner
+  (0 Byte) liegen in `~/.OneDrive-Dataless-Reste-<Datum>/`. Offen: wie solche Ordner endgültig weggehen (Kandidaten:
+  `diskutil verifyVolume /System/Volumes/Data` wie am 10.09., Recovery-Terminal ohne fileproviderd).
