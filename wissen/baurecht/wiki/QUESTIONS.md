@@ -1,5 +1,20 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## OFFEN 2026-09-14 (Wissens-Chef Lauf 58, Anfrage aus `wissen/architektur-fachwissen`, WC58-1) — Baumschutz Stadt Zürich: Art. 11a BZO nicht destilliert, Teilrevision «Baumerhalt» ohne Erlasstext
+
+Der geltende **Art. 11a BZO Stadt Zürich** (Baumschutzgebiete, 80 cm; Mehrstamm: ein Stamm über
+80 cm oder Summe der zwei dicksten über 100 cm; Bewilligungsanspruch «insbesondere» in vier
+Fällen) liegt nur im Rohkorpus: `raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 947-1009. Kein
+Wiki-Artikel führt ihn. Die **BZO-Teilrevision «Baumerhalt»** (Stadtratsbeschluss 15.04.2026,
+stadtweit ab 100 cm, Mehrstamm 80/120 cm, «per sofort in Baugesuchen zu berücksichtigen») ist
+in `wissen/architektur-fachwissen/wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`
+nur aus Stadtseiten belegt; Erlasstext und Rechtskraft-Stand fehlen. **Zu tun in dieser KB:**
+Art. 11a destillieren (Zielartikel naheliegend [[naturschutz-und-denkmalschutz]] oder
+[[umgebungsgestaltung-und-einfriedungen]]), die Teilrevision über § 234 PBG einordnen
+([[negative-vorwirkung-und-bzo-revision]]), Erlasstext beschaffen. Die rechtliche Einordnung ist
+im architektur-fachwissen-Artikel als Verweis hierher gesetzt (Lauf 58); Bringschuld nach
+Erledigung: den dortigen Vermerk «in `baurecht` noch nicht destilliert» nachführen.
+
 ## ✅ GEKLÄRT 2026-08-29 (Schub-Lane BAURECHT-THALWIL) — Baulinien: direkter Zeiger gesetzt statt indirekter Pfad
 
 **Entscheid zur offenen Frage aus Run 45 (unten):** direkter Verweis gewählt. `wiki/baulinien-und-abstandslinien.md`,

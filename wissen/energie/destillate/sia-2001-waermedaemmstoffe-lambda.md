@@ -11,6 +11,11 @@ quelle_pfad: "PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf"
 
 # SIA 2001 — λ-Werte (Waermeleitfaehigkeit) der Daemmstoffe
 
+> **Zwillingsdestillat in KB normen (Nachtrag Wissens-Chef Lauf 58, 14.09.2026, WC58-5):**
+> dasselbe Merkblatt (Ausgabe 2005) ist in `wissen/normen/destillate/sia-mb-2001-2005.md`
+> destilliert und am 19.07.2026 adversarial gegen das Original verifiziert. Dort führend für
+> Norm-Fundstelle und Ausgabenstand (Nachfolge SIA 279:2018), hier für die λ-Anwendung.
+
 ## Das Wichtigste in 1 Satz
 Der **deklarierte λ-Wert** (λ_D, in W/(m·K)) ist die Kernkennzahl jedes Daemmstoffs fuer den
 U-Wert-/Heizenergienachweis — je kleiner λ, desto besser die Daemmwirkung bei gleicher Dicke; die

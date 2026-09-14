@@ -69,6 +69,12 @@ im Neubau verboten / im Bestand nur mit Wirtschaftlichkeitsnachweis erlaubt**.
   / EI 90-RF1**; Brandabschnitt + Tuere EI 30 im Heizraum.
 - **Installationsbestaetigung Brandschutz** (VKF) bei Fertigstellung.
 - Brandschutzdetails → Skill `brandschutz` (kein Doppel hier).
+- **Norm-Fundstelle Heizraum-Feuerwiderstand (Nachtrag Wissens-Chef Lauf 58, 14.09.2026, WC58-7):**
+  VKF-BRL 24-15 Ziff. 3.3 (bis 70 kW EI 30, über 70 kW EI 60; Türen EI 30, über 70 kW in
+  Fluchtrichtung öffnend) → `wissen/normen/destillate/vkf-brl-24-15-waermetechnische-anlagen.md`.
+  ⚠ Jenes Destillat gibt die Fassung 01.01.2015 wieder (`status: superseded`); geltend ist die
+  Fassung 01.01.2017, deren Hauptteil laut `wissen/normen/destillate/vkf-brl-24-15-fassung-2017-delta.md`
+  unverändert ist (`speculative`). Vor einem Zitat am Original prüfen (Rule `normen-referenz` 1b).
 
 ## Bauherren-Transfer
 - **Heizungsersatz ist meldepflichtig — und der Weg fuehrt fast immer weg von fossil.** Im Neubau

@@ -1,7 +1,7 @@
 ---
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
-last_updated: 2026-09-06
+last_updated: 2026-09-14
 datenstand: "2008 (ältester tragender Quellenstand: BFH-Lignum-Bericht vom 04.12.2008 zur Flankenübertragungs-Mechanik, gestützt auf SIA 181:2006/EN 12354:2001 — der Mechanismus selbst gilt laut Destillat normgültig und zeitlos auch unter der heute geltenden Ausgabe SIA 181:2020, nur die konkreten Anforderungswerte sind auf 2020 zu beziehen, siehe die im Artikel bereits gesetzte ⚠ Ausgaben-Diskrepanz-Notiz. Die übrigen Quellen sind neuer: CLT-Schallschutz Stora Enso, Produktdokumentation Version 06.2021; Cercle-Bruit-Merkblatt Kt. Schwyz vom 29.01.2021 (löst die Vorversion vom 30.10.2020 ausdrücklich ab); baukultur-laerm.ch zu SIA 181:2020 Ziff. 3.1.1, Stand 20.01.2022; SIA 181:2020 selbst; Minergie-ECO-Vorgabenkatalog Nachweisversion 2023.1, Dokumentstand 23.01.2025)"
 sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]], [[cerclebruit-sz-merkblatt-laermbelastete-gebiete]], [[minergie-standards]]
@@ -20,6 +20,14 @@ Pflicht) und schärft **F17** (taugt CLT-Holzbau akustisch). Faktenbasis → `[[
 > ⚠ **Ausgaben-Diskrepanz:** dieser Artikel arbeitet mit der aktuellen Ausgabe **SIA 181:2020**;
 > das normen-Register führt bislang **2006** als gültig (2013-Register-Benchmark). Re-Destillat
 > SIA 181:2020 in normen ausstehend (Wissens-Chef Run 3, 2026-07-13).
+> **Nachtrag Wissens-Chef Lauf 58 (14.09.2026, WC58-4):** Das Volltext-Re-Destillat 2020 bleibt
+> ausstehend (Bring-Schuld in normen). Inzwischen liegen vor: (a) die amtlichen Auslegungen der
+> SIA-Kommission zur Ausgabe 2020, zitierfähig in `wissen/normen/destillate/sia-181-2020-faq.md`
+> (`established`, 23.08.2026); (b) Anhang G/H/J (Empfehlungen innerhalb der Nutzungseinheit) am
+> Original SIA 181:2006 destilliert und gegengeprüft, normen Run 84 vom 11.09.2026
+> (`wissen/normen/destillate/sia-181-2006.md`, Status «destilliert», Original teilweise gelesen, nicht `established`), übernommen in
+> `[[sia-181-schallschutz-anforderungswerte]]`; (c) Raumakustik als eigene Norm SIA 181/1:2026,
+> nur Produktdatenblatt (`wissen/normen/destillate/sia-181-1-2026.md`, `speculative`).
 
 ## Vier Schutzziele, eine Logik
 SIA 181:2020 regelt vier Lärmarten: **Luftschall** (Stimme/TV durch die Wand), **Trittschall**

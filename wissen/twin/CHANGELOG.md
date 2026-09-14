@@ -4,6 +4,16 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB twin ↔ rules/anrede-kontakte) — die Sonderegger-Vorlage enthielt eine falsche Negativaussage
+
+- `wiki/QUESTIONS.md` 260911b #1 (Stefanie Sonderegger in die Kontaktliste): ⚠-Nachtrag, Frage
+  unangetastet. «nie «Liebe»» ist durch die eigene KB widerlegt: authentischer Gruppenstapel
+  «Liebe Stefi, …» 30.06.2026 (Batch 59); nur die Einzelanrede «Liebe Steffi» 01.07. ist Echo.
+  Zeilenvorschlag entsprechend präzisiert, damit der Fehler nicht in die @-importierte Rule wandert.
+- Querbezug zur Frage 260911 #3 (Konflikt hebt nicht): Vermerk in `rules/anrede-kontakte.md`
+  nach dem SYN-71-Absatz gesetzt, Klauseltext unangetastet; Entscheid bleibt bei Raphael.
+- Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md` (WC58-2, WC58-3).
+
 ## 2026-09-11 (Fidelity-Review) — erstmals wieder an ungesehenen Golds; zwei Regeln im Gehirn widersprachen sich
 
 Report `outputs/2026-09-11_fidelity.md`. **Gesamt 38** (Vorlauf 26, nicht direkt vergleichbar:

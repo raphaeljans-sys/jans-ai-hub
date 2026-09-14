@@ -100,6 +100,9 @@ Die Rechtslage am Wortlaut:
   aus dem Mietverhältnis und läuft über das mietrechtliche Verfahren (Schlichtungsbehörde).
   Zusätzlich gibt ein Verstoss gegen Art. 16a/16b dem Mieter das Austrittsrecht nach Art. 16
   Abs. 2 Bst. b EnV.
+- *Querbezug Bewertung (Nachtrag Wissens-Chef Lauf 58, 14.09.2026):* in der Ertragswert-/DCF-Methodik
+  als Nebenkosten-Durchlauf ausserhalb CF_t eingeordnet, Einführungskosten auf der Investitionsseite
+  → `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` (Abschnitt DCF, CF_t-Definition).
 - **Was nicht über den Mieter läuft (Art. 17 Abs. 4 EnG):** die **mit der Einführung des ZEV
   verbundenen Kosten** trägt der Eigentümer, soweit sie nicht über das Netznutzungsentgelt gedeckt
   sind; er darf sie **nicht unmittelbar** auf Mieter überwälzen. Das Verbot betrifft die

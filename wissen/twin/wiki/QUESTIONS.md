@@ -6306,6 +6306,17 @@ APN, Leiterin Wohnbereich und Pflege, Psychosomatische Therapiestation | 2619 KI
 *Warum:* Der Zwilling liest die Kontaktliste, nicht das Wiki. Ohne Eintrag waehlte er «Liebe
 Stefanie» nach der Kategorie «branchenfern» — eine Stufe, die bei ihr nie vorkommt. Die Rule sieht
 die Aufnahme nur nach Deiner Bestaetigung vor, darum frage ich.
+> ⚠ **Berichtigt 14.09.2026 (Wissens-Chef Lauf 58, WC58-2; Frage selbst unangetastet):** «nie
+> «Liebe»» trifft nicht zu. Authentisch belegt ist der Gruppenstapel «Liebe Stefi, geschätzer
+> Albin, werter Fabian, hoi Michi» vom 30.06.2026 (`beziehungsregister.md` Batch 59, Z. 1635-1637,
+> handgetippt mit Slip «geschätzer»; `raw/_INGESTED.md` Z. 162). Nur die **Einzelanrede** «Liebe
+> Steffi» vom 01.07.2026 ist Claude-Grundtext (Echo-Falle 19, `stimme.md` Z. 2322-2323). Weitere
+> belegte Formen: «Geschätzte Steffi,» / «Guete Abig Steffi,» (`beziehungsregister.md` Z. 2252-2255),
+> «Geschätzte Stefi» (Z. 2375), Kurzform «Stefi» (Z. 1290). Zeilenvorschlag deshalb: «Geschätzte
+> Stefanie/Steffi» bei Bitte und Gewicht, «Hoi Stefanie» operativ, «Liebe Stefi» nur im
+> Gruppenstapel belegt, nicht als Einzelanrede. Der Fehlgriff der Blindfassung bleibt richtig
+> benannt: «Liebe Stefanie» als Einzelanrede war falsch. Die Mapping-Zeile `beziehungsregister.md`
+> Z. 1653-1654 («Liebe Stefi/Steffi») vermischt beide Fälle.
 
 **#2 [Beziehungsregister] Warum «Hoi Stefanie» 80 Minuten nach «Geschätzte Stefanie,»?**
 Meine Lesart: die Bitte war beantwortet, also fiel das Gewicht und mit ihm die Stufe. Moeglich ist

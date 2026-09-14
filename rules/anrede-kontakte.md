@@ -49,6 +49,15 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   A-fortiori-Fall lesen, nicht als Grenze. Ob die Erweiterung in den Klauseltext selbst gehört,
   ändert dieser Lauf nicht.
 
+  ⚠ **Konflikt hebt nicht: Vermerk Wissens-Chef Lauf 58, 14.09.2026; Wortlaut oben unangetastet.**
+  Das Zahlungs- und Vertragsultimatum an Albin Spahic (Du) bleibt zweimal identisch bei «Guten
+  Morgen Albin,» (14.04. und 10.09.2026, beide aus eigener Hand); die Distanz steht in Gruss,
+  Vollname und Schlussformel. Gleiche Linie wie die Zeilen Hansen (Konflikt, Sie) und Steinmann
+  (Mahn-/Geldkontext, Du). Gegenpol: die Zahlungsbitte an den privaten Partner hebt (twin 260909).
+  **Lesart bis zum Entscheid Raphaels:** ein Ergebnis oder eine Bitte hebt, ein Konflikt oder
+  Ultimatum nicht. Belege `wissen/twin/wiki/beziehungsregister.md` Z. 4376-4386, Frage
+  `wissen/twin/wiki/QUESTIONS.md` 260911 #3.
+
 - **Ein persoenliches Treffen kann das Register heben (belegt, Bestaetigung ausstehend).**
   Zwei unabhaengige Belege aus Raphaels eigener Hand: der Sanitaer-Fachplaner wird am 18.08.2026
   im Thread durchgehend im Sie angesprochen und am 20.08.2026, **nach der Koordinationssitzung

@@ -1,5 +1,21 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Baumschutz Zürich: im Schutzgebiet gilt die strengere 100-cm-Summe; Kante zu `baurecht`
+
+`wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`, nur additiv,
+`last_updated` auf 14.09.2026:
+- ⚠-Vermerk nach «Verschärfte Schwelle»: die Mehrstamm-Summe «mehr als 120 cm» gilt für das
+  stadtweite Regime (Stadtseite wortgleich, Gegenprobe 14.09.); im bisherigen Baumschutzgebiet
+  gilt nach geltendem Art. 11a Abs. 3 BZO (in Kraft 1.11.2018) die Summe **über 100 cm**
+  (`wissen/baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 975-977). Kein Zahlendreher,
+  aber eine Regime-Lücke, die im Schutzgebiet zu grosszügig gerechnet hätte.
+- Vermerk zu den Bewilligungsvoraussetzungen: geltendes Recht formuliert als Anspruch mit
+  «insbesondere» (nicht abschliessend), das «nur» stammt aus der Stadtseite.
+- Unter «Offene Punkte»: rechtliche Einordnung mit Verweis auf die führende KB `baurecht`
+  (§ 234 PBG negative Vorwirkung, § 238a und § 203 PBG). Rückkante in
+  `baurecht/wiki/naturschutz-und-denkmalschutz.md`, offene Frage in `baurecht/wiki/QUESTIONS.md`.
+- Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md` (WC58-1).
+
 ## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS #72 geschlossen: Sempers Göttingen/München/Paris kein Widerspruch
 
 Zwei Wiki-Artikel korrigiert: `gottfried-semper-biografie-lebensstationen-hamburg-dresdner-

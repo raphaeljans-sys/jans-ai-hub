@@ -53,6 +53,11 @@ Korrektur nötig. Kein neuer `raw/`-Volltext angelegt (Quellen nur temporär gel
   Strassenbild wesentlich mitprägt (BEZ 2006 Nr. 29); sonst **planerischer Baumschutz § 76 PBG** oder
   **Umgebungsschutz § 238a PBG** (bis 30.11.2024: § 238 Abs. 3 PBG, seither aufgehoben und in
   § 238a PBG «Begrünung im Besonderen» übergeführt, G vom 8.4.2024, in Kraft seit 1.12.2024).
+  *Kommunale Fällbewilligung Stadt Zürich (Stammumfang-Schwellen, BZO-Teilrevision «Baumerhalt»
+  2026, Verhältnis zum geltenden Art. 11a BZO):* Praxisartikel in
+  `wissen/architektur-fachwissen/wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`;
+  Art. 11a BZO hier noch nicht destilliert (`wiki/QUESTIONS.md`, Eintrag 14.09.2026). Querbezug
+  gesetzt Wissens-Chef Lauf 58.
 - Geschützt ist nur «**Gebautes**» / materielle Kulturgüter — **Gebäudenutzungen sind nicht schützbar**
   (Kino Razzia BGer 1P.660/1991; Manor BEZ 2016 Nrn. 26/30). ZH schützt **keine beweglichen Kulturgüter**.
 

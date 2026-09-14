@@ -240,6 +240,15 @@ erfasst — offener Punkt für einen künftigen Recht/Norm-Lauf.
   zum Jahreswechsel prüfen (`endk.ch`).
 - ⚠ **EN-104** (EnDK Juni 2019) gültig bis **31.12.2026** (neu gestempelt 28.11.2025) — wie
   EN-105 zum Jahreswechsel 2026/27 nachprüfen. Nachtrag Wissens-Chef Run 45, 27.08.2026.
+- ⚠ **Nationaler EnDK-Formularsatz (relevant ausserhalb ZH; in ZH gilt EVEN): Upload-Datum ist
+  kein Aktualitätskriterium, massgebend ist allein die Fusszeile «gültig bis».** EN-136
+  (Lüftung/Klima SIA 380/4) liegt auf energiehub-gebaeude.ch **doppelt** vor:
+  `.../2026/01/EN-136.pdf` gültig bis 31.12.2026 (aktuell) und `.../2026/03/EN-136.pdf` gültig
+  bis 31.12.2025 (**abgelaufen**, das spätere Upload-Datum täuscht Aktualität vor). EN-130 bis
+  EN-136 gehören zur Sammel-Neustempelung vom 28.11.2025. Beleg und Hashvergleich:
+  `wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md` («Falle EN-136», energie
+  Run 193, 12.09.2026). Die Checklisten-Abschrift oben bleibt unverändert. Nachtrag Wissens-Chef
+  Lauf 58, 14.09.2026 (WC58-6).
 - ⚠ **MuKEn 2025:** von der **EnDK-Plenarversammlung am 29.08.2025** verabschiedet (Umsetzungs-
   horizont **bis 2030**, Basismodul materiell unverändert zu übernehmen). Konkrete Neubau-
   Neuerungen (belegt energiehub-gebäude.ch, 04.07.2026): **Wärmebedarf vollständig erneuerbar/

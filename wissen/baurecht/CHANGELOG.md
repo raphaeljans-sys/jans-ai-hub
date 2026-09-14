@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Baumschutz Stadt Zürich: Kante aus `wissen/architektur-fachwissen`, Art. 11a BZO als offene Frage
+
+- `wiki/naturschutz-und-denkmalschutz.md`: nach dem Einzelbaum-Bullet (§ 76 / § 238a PBG) ein
+  kursiver Querbezug auf den neuen Praxisartikel zur Zürcher Fällbewilligungsschwelle in
+  `wissen/architektur-fachwissen` (additiv, 5 Zeilen).
+- `wiki/QUESTIONS.md`: neuer OFFEN-Eintrag zuoberst: Art. 11a BZO Stadt Zürich liegt nur in
+  `raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 947-1009, kein Wiki-Artikel; Teilrevision
+  «Baumerhalt» (STRB 15.04.2026) ohne Erlasstext, über § 234 PBG einzuordnen.
+- Anlass: der architektur-fachwissen-Artikel führte die Mehrstamm-Summenregel 120 cm ohne
+  Regime; im bisherigen Baumschutzgebiet gilt nach geltendem Art. 11a Abs. 3 BZO 100 cm. Dort
+  nachgetragen. Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md`.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Rücklauf aus `wissen/energie`: E-R189-1 beantwortet, § 325a PBG gegen F291
 
 - **`wiki/QUESTIONS.md`, Nachtrag an E-E189-1:** der Vermerk «Offen und dort als E-R189-1

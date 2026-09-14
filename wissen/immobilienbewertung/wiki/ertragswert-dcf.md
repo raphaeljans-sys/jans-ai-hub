@@ -94,6 +94,15 @@ Ertragswert  =  Σ  CF_t / (1+i)^t   +   Terminalwert / (1+i)^T
 - **CF_t** = Mietertrag − Bewirtschaftung − Unterhalt/Instandsetzung − nicht umlagefaehige
   Kosten, Jahr fuer Jahr ueber den Betrachtungshorizont T (oft 10 J. explizit, dann
   Terminalwert; in der Schaetzungspraxis teils ueber den ganzen Lebenszyklus ~40+ J.).
+  > **Querbezug KB energie, ZEV/PV im Mehrfamilienhaus (Nachtrag Wissens-Chef Lauf 58,
+  > 14.09.2026, WC58-8):** Laufende Kosten eines Zusammenschlusses zum Eigenverbrauch sind nach
+  > Art. 6b VMWG umlagefähige **Nebenkosten** und gehören nicht in CF_t. Die mit der Einführung
+  > des ZEV verbundenen Kosten trägt der Eigentümer, soweit nicht über das Netznutzungsentgelt
+  > gedeckt (Art. 17 Abs. 4 EnG); sie gehören auf die Investitionsseite. Preisregel (80-%-Deckel
+  > bzw. Gestehungskosten mit halber Ersparnis, EnV Art. 16b) führend in `wissen/energie`,
+  > `wissen/energie/destillate/zev-mieter-strompreis-eigenverbrauch.md`. ⚠ Ob eine ZEV-Marge als
+  > Zusatzertrag in den Ertragswert darf und ob die PV-Anlage zusätzlich als Mehrleistung in den
+  > Mietzins darf, ist nicht belegt (energie E-R196-1). Nicht ansetzen, solange das offen ist.
 - **i** = Diskontsatz (realer/nominaler Satz; Real- vs. Nominalrechnung sauber trennen).
 - **Terminalwert** = kapitalisierter CF nach Periode T (Exit-/Endwert).
 
