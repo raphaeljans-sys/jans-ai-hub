@@ -2,6 +2,27 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-14 (Lauf 58, Abendlauf) — im Baumschutzgebiet galt die strengere Summe, und eine Vorlage an Raphael enthielt eine falsche Negativaussage
+
+Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 57, je ein
+adversarialer Verifikator (6, ein Feld ohne Meldung), Gegenprüfung der tragenden Befunde am
+Original im Hauptkontext. Delta-Basis `1a50f2e8c` → `d002c3cbb`, 414 Commits, 85 Wissensdateien,
+nativ im SSD-Klon gemessen. Bilanz: **9 Meldungen → 0 wie gemeldet · 8 anderer Zuschnitt · 1
+widerlegt**, dazu ein Pflichtpaar mit Nullbefund. 23 Dateien, alle additiv, keine Löschung.
+Bericht: `outputs/2026-09-14_wissens-chef-run58.md`.
+
+- **WC58-1 ⭐ Baumschutz Zürich** (Erst-Prüfung architektur-fachwissen ↔ baurecht): Mehrstamm-Summe
+  120 cm galt nur für das stadtweite Regime; im Baumschutzgebiet nach geltendem Art. 11a Abs. 3 BZO
+  100 cm. Vermerke, Rückkante, offene Frage bei baurecht, neue Matrixzeile.
+- **WC58-2/3** twin ↔ Rule: Sonderegger-Vorlage berichtigt («Liebe Stefi» im Gruppenstapel
+  authentisch); Vermerk «Konflikt hebt nicht» in `rules/anrede-kontakte.md`, Klauseltext unangetastet.
+- **WC58-4/5/7** energie ↔ normen: SIA-181-Box und Registerzeile auf Run 84; SIA-2001-Doppelspur
+  beidseitig verlinkt; WTA-Zeiger auf VKF-BRL 24-15 mit Fassungsvorbehalt.
+- **WC58-6** EN-136-Falle nach planungsgrundlagen; **WC58-8** ZEV-Kante nach immobilienbewertung
+  mit Vorbehalt E-R196-1.
+- **Widerlegt:** claude-code «Umbau-Entscheid gefallen» (V0+ ist nicht V2).
+- Schreib-Kontrolle: alle Edits anker-basiert; Numstat nach Commit geprüft (siehe unten).
+
 ## 2026-09-14 (Synergie-Lauf 35, Tagestakt) — der App-Ausfall traf beide Stationen, das Register kannte nur eine
 
 Delta-Basis 11.09.2026 17:10, 72 h, 299 Commits (Laeufe 12./13.09. im MacBook-Latch ausgefallen), kein neuer

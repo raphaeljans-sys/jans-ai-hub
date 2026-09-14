@@ -184,8 +184,106 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Bildmaterial und Werkbestand zu einem Architekten** (welche Bauten liegen als Dateien vor) | **architekten-synobsis** (`catalog/<Slug>.json`) — und zwar als **reines Datei-Inventar** von `/Volumes/daten/05_Architekten_Synobsis`, **ohne** Theorie- oder Werkaussage | `architektur-fachwissen` fuehrt die begriffs- und theoriegeschichtliche Einordnung derselben Namen und schreibt **keinen Bestand** fort. **Wichtig:** die Verweispflicht «per Katalog/Slug» in Zeile 26 adressiert `entwurfs-referenzen`; afw erbt daraus **keine** Verweispflicht (Zeile 176 zaehlt afws Verweisziele abschliessend auf, Referenz-Architekten stehen dort nicht). **Und: ein Katalogeintrag ist keine Deckung** — Run 48 mass fuer 5 von 9 im Artikel `tessiner-tendenza-…` genannten Architekten einen leeren oder fehlenden Eintrag zu genau den genannten Bauten. Vor jedem Sammelverweis den Katalog oeffnen, nicht die Namensliste — NEU Run 48 (30.08.2026) |
 | **Register der Cross-KB-Kanten** (wo wird festgehalten, dass Artikel A einer anderen KB von Artikel B abhaengt) | **`koordination/QUERBEZUEGE.md`** — plus der Fassungs-/Warnblock im Artikeltext selbst, der beim Lesen wirkt | **NICHT das `links:`-Frontmatter.** Das Schema `wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` ausschliesslich als `[[artikel-name]]` auf einen anderen Wiki-Artikel **derselben** KB, und Pruefung B des Skills `wissenscheck` validiert genau das. Hub-weit tragen rund 7 von 272 Artikeln einen KB-Pfad im `links:`-Feld; 3 davon entstanden in **Run 47** und wurden in Run 48 von einem Melder faelschlich als Hauskonvention gelesen und zur Ausweitung auf vier weitere Dateien vorgeschlagen. **Regel daraus: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als Konvention messen** — die Konvention steht im Schema, nicht im letzten Diff. Schema-Entscheid offen: `architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b) — NEU Run 48 (30.08.2026) |
 | **BFS-Baupreisindex Schweiz: Teilindizes je Bauwerksart** (Hochbau, Neubau, Neubau MFH, Baugewerbe Total; Basis, Stichtag, Rebasierung Okt. 2020 → Okt. 2025) | **immobilienbewertung** (`wiki/realwert-sachwert`, Teilindex-Tabelle, direkt an der BFS-Indexseite abgelesen 23.08.2026; Nutzungsregel 7 in `wiki/datenquellen-registry`: «nie mit dem Totalwert») | `grobkosten` fuehrt die **ZIW-Faktoren** Region Zuerich (Zeile oben) und nutzt den BFS-Wert nur als Teuerungs-Check; `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` verweist fuer beide dorthin (seit Lauf 57). **Zwei Fallen, beide am 10.09.2026 gemessen:** (1) der BFS-Wert **100.6** ist Baugewerbe Total, Hochbau steht bei 100.5, Neubau MFH bei 100.7 — die ZIW-Zeile oben fuehrte 100.6 ohne Reihe; (2) ein Indexstand ohne **Basisangabe** ist gefaehrlich: machbarkeit fuehrte «Hochbau Okt. 2023 = 114.8» (Basis Okt. 2020) ohne Basis, gegen den heutigen Stand auf Basis Okt. 2025 verrechnet ergaebe das eine scheinbare Deflation von rund 12 % — NEU Lauf 57 (10.09.2026), die Fuehrung war nirgends festgelegt und ist hier nach dem **de-facto-Bestand** gesetzt, nicht neu verteilt |
+| **Kommunaler Baumschutz / Faellbewilligung** (Stammumfang-Schwellen, BZO-Baumschutzartikel, Vorwirkung laufender BZO-Revisionen) | **baurecht** fuer die Rechtsaussage (§ 234 PBG in `negative-vorwirkung-und-bzo-revision`, § 238a / § 203 PBG; Primaertext Art. 11a BZO Stadt Zuerich in `raw/`, noch nicht destilliert) | `architektur-fachwissen` (`baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026`, `…-stadt-luzern-2008`: Praxisschwellen aus Stadtseiten, verweist fuer die Rechtslage auf baurecht) — NEU Lauf 58 (14.09.2026), nach de-facto-Bestand |
 
 ## Gepruefte Paare
+
+### architektur-fachwissen ↔ baurecht (Baumschutz Stadt Zuerich, BZO-Teilrevision «Baumerhalt») — geprueft 2026-09-14 (Lauf 58, Erst-Pruefung), ANDERER ZUSCHNITT, VERMERKE + KANTEN GESETZT
+
+- **WC58-1.** Neuer Praxisartikel `architektur-fachwissen/wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`
+  (11.09.2026, `emerging`, Quelle: drei amtliche Stadtseiten, kein Erlasstext) fuehrte die
+  Mehrstamm-Summenregel **«mehr als 120 cm»** ohne Regime. Gemeldet als Zahlendreher gegen den
+  Primaertext; **widerlegt**: die Stadtseite sagt 80/120 wortgleich fuer das stadtweite
+  100-cm-Regime (Gegenprobe 14.09.). **Bestaetigt mit anderem Zuschnitt:** im **bisherigen
+  Baumschutzgebiet** gilt der geltende Art. 11a Abs. 3 BZO (in Kraft 1.11.2018) weiter, Summe
+  **ueber 100 cm** (`baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 975-977); die alte
+  Ordnung bleibt in Kraft, die Revision tritt nur verschaerfend daneben (§ 234 PBG). Mit 120 cm
+  waere im Schutzgebiet zu grosszuegig gerechnet worden. Nebenbefund: geltender Abs. 5 formuliert
+  einen Anspruch mit «insbesondere», der Artikel ein restriktives «nur».
+- **Fehlende Kante, anderer Zuschnitt:** der Melder wollte § 238a Abs. 4 PBG als Antwort auf den
+  offenen Rechtskraft-Punkt; tragend ist aber **§ 234 PBG** (`baurecht/wiki/negative-vorwirkung-und-bzo-revision.md`),
+  der das «per sofort» erklaert, ohne die Rechtskraft zu beantworten.
+- **Aktionen:** zwei ⚠-Vermerke und ein Einordnungsabsatz im Artikel (additiv), Rueckkante in
+  `baurecht/wiki/naturschutz-und-denkmalschutz.md`, OFFEN-Eintrag in `baurecht/wiki/QUESTIONS.md`
+  (Art. 11a nicht destilliert, Erlasstext fehlt), neue Matrixzeile. **Nullbefunde:** 80-cm-Schwelle
+  und die vier Bewilligungsgruende dreifach deckungsgleich (Artikel, Thalwil-Fall, Primaertext);
+  Luzern/Zuerich sauber getrennt; planungsgrundlagen fuehrt nur Baumkataster-Layer.
+  **Status: nachgetragen, Destillat Art. 11a offen bei baurecht.**
+
+### twin ↔ rules/anrede-kontakte (Sonderegger-Vorlage, Anlassgewicht im Konflikt) — geprueft 2026-09-14 (Lauf 58), 2 × ANDERER ZUSCHNITT, VERMERKE GESETZT
+
+- **WC58-2.** Die Vorlage an Raphael `twin/wiki/QUESTIONS.md` 260911b #1 (Stefanie Sonderegger in
+  die Kontaktliste) enthielt die Negativaussage «nie «Liebe»». Durch die eigene KB widerlegt:
+  authentischer Gruppenstapel «Liebe Stefi, geschätzer Albin, werter Fabian, hoi Michi» vom
+  30.06.2026 (`beziehungsregister.md` Z. 1635-1637). Nur die Einzelanrede «Liebe Steffi» 01.07. ist
+  Echo. Berichtigt, bevor der Fehler in die @-importierte Rule wandert. Melder-Behauptung «im
+  Register nicht sichtbar» widerlegt (Run 32, Nachtrag dort).
+- **WC58-3.** Batch 119: Ultimatum an Albin Spahic (Du) zweimal identisch auf «Guten Morgen Albin,»
+  (14.04. und 10.09.2026). Kein Widerspruch zur Klausel, sondern fehlende Reichweite; die Tabelle
+  der Rule traegt die Ausnahme schon (Hansen, Steinmann). ⚠-Vermerk nach dem SYN-71-Absatz der
+  Rule, **Klauseltext unangetastet** (Muster der Vermerke Run 39/40, Lauf 56). Gegenpol 260909
+  (Zahlungsbitte hebt) mitgefuehrt. **Status: Entscheid Raphael zum Klauseltext offen.**
+- **Nullbefunde:** Auto-Block neu kompiliert, 33'984 B nach build_dna-Methode (33'986 B inkl.
+  Rahmen), Grenze 34'000 B; keine neuen Belege zu Stadelmann oder Twin-Gold 2007-2014; kein
+  Widerspruch Facetten ↔ Kern `rules/jans-dna.md`.
+
+### energie ↔ normen (SIA 181 Querbezug-Box, SIA-2001-Zwillingsdestillat, WTA ↔ VKF-BRL 24-15) — geprueft 2026-09-14 (Lauf 58), 3 × ANDERER ZUSCHNITT, KANTEN GESETZT
+
+- **WC58-4.** `energie/wiki/schallschutz-sia181.md` Querbezug-Box auf Stand 13.07.2026, obwohl das
+  Begleitdestillat am 11.09. auf Run 84 nachgezogen war; `normen/wiki/REGISTER.md` Zeile SIA 181
+  ohne Run-84-Vermerk. Nicht falsch («Re-Destillat 2020 ausstehend» stimmt), nur unvollstaendig.
+  Nachtraege in beiden (Register: gewollte Zeilenersetzung -1/+1).
+- **WC58-5.** Gemeldet als verlorener Ruecklink in `sia-279-2018.md`; die Vorgeschichte ist
+  **widerlegt** (Run 3 setzte nur die Hinrichtung). Der echte Befund: **Doppelspur** desselben PDF
+  (SIA Merkblatt 2001:2005) in `normen/destillate/sia-mb-2001-2005.md` und
+  `energie/destillate/sia-2001-waermedaemmstoffe-lambda.md` ohne gegenseitigen Verweis; das
+  normen-Destillat liess die Nachfolgefrage offen, die das eigene Register beantwortet (SIA
+  279:2018). Beidseitige Zeiger gesetzt, Fuehrung benannt, nicht zusammengelegt.
+- **WC58-7.** WTA-Formular-Destillat ohne Norm-Fundstelle zur Heizraum-Feuerwiderstands-Schwelle.
+  Melder wollte die Werte «als Zitat aus normen» fuehren; **widerlegt**, weil das normen-Destillat
+  `superseded` und das Delta 2017 `speculative` ist (Rule normen-referenz 1b). Zeiger mit
+  Fassungsvorbehalt gesetzt, Werte unveraendert.
+- **Nullbefunde:** Anhang-G-Werte (acht Nutzungspaare, L_H) zwischen normen und energie
+  deckungsgleich; WC57-N2 und PL57-1 durch Run 84 beidseitig geschlossen bzw. praezisiert;
+  Ausgabe-Disziplin 2006/2020 durchgaengig korrekt; SIA 180 Ziff. 5.2.4.6-5.2.4.8 in energie und
+  normen konsistent (Run 191). **Status: nachgetragen.**
+
+### energie ↔ planungsgrundlagen (EN-136-Formularfalle) — geprueft 2026-09-14 (Lauf 58), ANDERER ZUSCHNITT, MERKPOSTEN GESETZT
+
+- **WC58-6.** energie Run 193 (12.09.) fand EN-136 doppelt publiziert, eine Datei abgelaufen per
+  31.12.2025 bei spaeterem Upload-Datum; keine Uebergabe an die laut Matrix fuer Formulare
+  fuehrende KB (grep 0). Melder wollte EN-130/136 in die Formulartabelle eintragen; **widerlegt**:
+  die Tabelle ist eine belegte Abschrift der EN-ZH-Checkliste, und in ZH gilt EVEN. Merkposten in
+  «Datenstand / offen» nach dem Muster Run 45 (EN-104). **Status: Bringschuld erledigt.**
+
+### energie ↔ immobilienbewertung (ZEV im Ertragswert) + Pflichtpaar grobkosten ↔ immobilienbewertung ↔ kostenschaetzung — geprueft 2026-09-14 (Lauf 58), ANDERER ZUSCHNITT, KANTE MIT VORBEHALT
+
+- **WC58-8.** Die KB immobilienbewertung kannte ZEV/Eigenverbrauch gar nicht (grep leer, auch in
+  Skill und Agenten). Melder: «Ertragshebel». **Zurueckgestutzt:** laufende ZEV-Kosten sind
+  Nebenkosten (Art. 6b VMWG), ausserhalb CF_t; Einfuehrungskosten traegt der Eigentuemer (Art. 17
+  Abs. 4 EnG); eine Marge als Zusatzertrag und die PV-Anlage als Mietzins-Mehrleistung sind nicht
+  belegt (energie E-R196-1). Beidseitige Kante, keine Matrixzeile (Fuehrung unveraendert).
+- **Nullbefunde Pflichtpaar:** Ankerkennwerte (m3-GV, BKP-2-Anteil, Baupreisindex) seit Lauf 57
+  unveraendert und gegenseitig verlinkt; die einzige grobkosten-Aenderung stammt aus Lauf 57;
+  kunde-bopp QUESTIONS +11 betrifft einen OneDrive-Lesefehler, kein Querbezug. **Status: nachgetragen.**
+
+### normen ↔ baurecht (Run-84-Korrekturen: GVZ 30.01, Suva 44006, VKF Art. 13, SIA 108) — geprueft 2026-09-14 (Lauf 58, Pflichtpaar), NULLBEFUND
+
+- Keine der vier Run-84-Korrekturen hat einen Konsumenten ausserhalb normen, der die alte Fassung
+  fortschreibt (Grep ueber wissen/ und skills/); baurecht fuehrt Absturzsicherung ueber SIA 358/bfu,
+  nicht Suva 44006, und `bestandsumbau-eingriffstiefe.md` schreibt den VKF-Wortlaut bewusst nicht
+  fort. baurecht-QUESTIONS +16 betreffen allein WC57-1. **Status: konsistent.**
+
+### claude-code ↔ rules/betrieb-chronik (Git-Arbeitsbaum auf SMB) + architektur-fachwissen ↔ architekten-synobsis (Semper) — geprueft 2026-09-14 (Lauf 58, Rotation), 1 WIDERLEGT, NULLBEFUND
+
+- **Widerlegt:** der claude-code-CHANGELOG-Satz «Wiki-Artikel entsteht erst nach dem
+  Umbau-Entscheid» sei durch die V0+-Freigabe vom 11.09. ueberholt. V0+ laesst das NAS kanonisch;
+  der Umbau-Entscheid ist **V2** (Systemanalyse 08.1), bewusst auf die Zeit nach vier Wochen
+  V0+-Messung vertagt (`logbuch/fristen.md`). Der Satz ist richtig.
+- **Nullbefunde:** Report und Chronik stimmen in den Ausfallzahlen ueberein; `sync-kanonische-quelle`
+  beschreibt korrekt den Uebergangszustand; Semper-Stationen (Goettingen, Muenchen, Paris) in beiden
+  architektur-fachwissen-Artikeln angeglichen und QUESTIONS #72 geschlossen; Schinkel-Lebensdaten
+  deckungsgleich mit dem synobsis-Katalog; keine Verlinkungspflicht nach Matrix Run 48.
 
 ### energie ↔ baurecht (F291 — Verfahrensart energetischer Sanierungen ZH) — geprueft 2026-09-10 (Lauf 57), BESTAETIGT, ⚠-ABSATZ + RUECKLAUF GESETZT
 
@@ -2716,6 +2814,11 @@ Befund fiel, seine Substanz nicht.**
   (Du-Kontakt Stefanie Sonderegger, mehrfach belegt · zweite Person «Angerer»: Gertrud Angerer,
   2414 Thalwil, Du · Kanal-Achse «Sammelpostfach senkt die Stufe» als Gegenstueck zur
   Gewichts-Klausel). Die Rule ist @-importiert; keine stille Aenderung.
+  - **Nachtrag 14.09.2026 (Lauf 58, WC58-2):** Sonderegger weiterhin nicht in der Rule, einen Monat
+    nach dieser Vorlage. Neuer, gemessener Fehlgriff im Fidelity-Review 260911 (Blindfassung «Liebe
+    Stefanie» statt «Geschätzte Stefanie,»/«Hoi Stefanie»). Vorlage erneuert als twin QUESTIONS
+    260911b #1; deren Satz «nie «Liebe»» ist widerlegt (authentischer Gruppenstapel «Liebe Stefi, …»
+    30.06.2026) und dort berichtigt. Aufnahme bleibt Entscheid Raphaels.
 - **Strukturbefund:** Es gibt keinen Mechanismus, der mehrfach belegte Wiki-Mappings in die Rule
   zieht. Vorschlag (Entscheid Raphael): der twin-Lauf gibt kuenftig eine Kandidatenliste
   «mehrfach belegt und nicht in der Rule» als Laufergebnis aus.

@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — vier Kanten nachgezogen, keine Sachkorrektur
+
+Alle Nachträge additiv, kein bestehender Satz geändert (ausser `last_updated` im Wiki-Artikel).
+Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md`.
+- **WC58-4** `wiki/schallschutz-sia181.md`: die Querbezug-Box am Kopf stand auf dem Stand
+  13.07.2026, obwohl `destillate/sia-181-schallschutz-anforderungswerte.md` am 11.09. nachgezogen
+  war. Nachtrag: SIA-FAQ 2020 (`established`), Anhang G/H/J aus normen Run 84, SIA 181/1:2026.
+  Der Satz «Re-Destillat 2020 ausstehend» bleibt richtig. `last_updated` 2026-09-14.
+- **WC58-5** `destillate/sia-2001-waermedaemmstoffe-lambda.md`: Zeiger auf das
+  Zwillingsdestillat desselben Merkblatts in `wissen/normen/destillate/sia-mb-2001-2005.md`
+  (bisher kein gegenseitiger Verweis). Rückkante dort gesetzt.
+- **WC58-7** `destillate/wta-formular-zh-waermetechnische-anlagen.md`: Norm-Fundstelle VKF-BRL
+  24-15 Ziff. 3.3 mit Fassungsvorbehalt (normen-Destillat `superseded`, Delta 2017 `speculative`).
+- **WC58-8** `destillate/zev-mieter-strompreis-eigenverbrauch.md`: Querbezug auf
+  `wissen/immobilienbewertung/wiki/ertragswert-dcf.md`, wo ZEV jetzt als Nebenkosten-Durchlauf
+  mit Vorbehalt E-R196-1 eingeordnet ist.
+- **Bringschuld aus Run 193 erledigt (WC58-6):** die EN-136-Doppeldatei-Falle ist in
+  `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` («Datenstand / offen»)
+  angekommen.
+
 ## 2026-09-14 (Run 196, Abendlauf Mac Mini) — A-BLIND Rang 72: ZEV-Mieterrechte am Gesetz neu gefasst, Preisregel am Stand 1.7.2026 bestätigt
 
 Kein PDF-Transfer (Inventar seit Run 65 erschöpft; der Auftragstext der Scheduled Task nennt noch

@@ -1,3 +1,13 @@
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Run-84-Nachtrag im Register, SIA-2001-Zwillingsdestillat verlinkt
+
+- `wiki/REGISTER.md`, Zeile «SIA 181 | 2006»: Nachtrag Run 84 (Anhang G/H/J destilliert,
+  WC57-N2 geschlossen; Ausgabenstatus unverändert, Re-Destillat 2020 bleibt Bring-Schuld) in der
+  letzten Zelle angefügt. **Gewollte Zeilenersetzung** (Tabellenzeile, -1/+1), kein Text entfernt.
+- `destillate/sia-mb-2001-2005.md`, «Offene Punkte»: die offene Frage nach der Nachfolgeausgabe
+  am Register beantwortet (SIA 279:2018, Unterpunkt) und Zeiger auf das Parallel-Destillat
+  desselben PDF in `wissen/energie/destillate/sia-2001-waermedaemmstoffe-lambda.md` (WC58-5).
+- Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md`.
+
 ## 2026-09-11 (Cross-KB-Eingang aus `wissen/energie` Run 191) — SIA 180:2014 Ziff. 5.2.4.6 bis 5.2.4.8 nachgetragen
 
 `destillate/sia-180-2014.md`, nur additiv, zwei Zeilen nach Ziff. 5.2.4.1: Eckräume (5.2.4.6, Formel

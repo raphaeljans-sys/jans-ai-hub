@@ -2,6 +2,17 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — ZEV im Ertragswert: Nebenkosten-Durchlauf, kein belegter Ertragshebel
+
+`wiki/ertragswert-dcf.md`, Abschnitt DCF, direkt unter der CF_t-Definition: Querbezug-Absatz zur
+KB energie (additiv, 9 Zeilen). Inhalt: laufende ZEV-Kosten sind umlagefähige Nebenkosten (Art. 6b
+VMWG) und gehören nicht in CF_t; Einführungskosten trägt der Eigentümer (Art. 17 Abs. 4 EnG),
+Investitionsseite; Preisregel führend in `wissen/energie`. ⚠ Eine ZEV-Marge als Zusatzertrag und
+die PV-Anlage als Mietzins-Mehrleistung sind nicht belegt (energie E-R196-1), nicht ansetzen.
+Bisher kannte die ganze KB ZEV/Eigenverbrauch nicht (grep leer). Der Melder schlug einen
+«Ertragshebel» vor; die Verifikation hat das auf einen Zeiger mit Vorbehalt zurückgestutzt.
+Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md` (WC58-8).
+
 ## 2026-09-07 (Wissens-Chef Lauf 54) — die schärfste SYN-72-Stelle stand hier, und sie war die einzige, die den widerlegten Satz als Tatsache führte
 
 **`wiki/flaechendefinitionen-sia.md` Z. 172.** Der am 03.09. durch Lauf 52 gesetzte

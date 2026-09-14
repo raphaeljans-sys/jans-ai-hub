@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — EN-136-Formularfalle aus `wissen/energie` übernommen
+
+`wiki/energie-energienachweis-zh-formulare.md`, Abschnitt «Datenstand / offen», nach dem
+EN-104-Bullet: ⚠-Merkposten zur doppelt publizierten EN-136 (eine Datei abgelaufen per
+31.12.2025, späteres Upload-Datum), Regel «Fusszeile gültig bis, nicht Upload-Datum», Zeiger auf
+`wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md` (energie Run 193). Die als
+belegt überschriebene Checklisten-Abschrift (Tabelle «Spezielle Bauten/Anlagen») bewusst nicht
+angefasst: EN-130/EN-136 stehen nicht auf der EN-ZH-Checkliste, in ZH gilt EVEN. Muster wie
+Run 45 (EN-104). Bericht: `wissen/koordination/outputs/2026-09-14_wissens-chef-run58.md` (WC58-6).
+
 ## 2026-09-10 (Nachtschicht Mac Mini, Cross-KB-Diff E-R190-2) — Wände-Katalogspanne im Bauteilekatalog-Abschnitt berichtigt
 
 Fortsetzung des in `energie` Run 190 vorgeschlagenen Folgeauftrags: Doppel-Abschriften derselben
