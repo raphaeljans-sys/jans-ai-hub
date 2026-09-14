@@ -69,3 +69,13 @@ werten — Referenzkorpus, kein Roh-Dump zum Verdichten. Aktualisieren: Connecto
 - `260824_amtlich_ch_rpg-art24c.md` — um den Nachtrag «Vorfassung Stand 1.1.2019» erweitert
   (Änderungsumfang der Revision per 1.1.2026 geklärt: nur die Sachüberschrift). Eingearbeitet in
   [[wiki/ausnahmebewilligung-und-bestandesschutz]]. Status: **eingearbeitet**.
+
+## Nachtrag 2026-09-14 (Buch-Run 143)
+
+- `260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` — neu. Fedlex-Snapshots RPG 1.4./1.7.2026
+  und RPV 1.7.2026, Änderungserlasse AS 2025 640, AS 2025 659, AS 2026 99; zweite Etappe RPG 2 per
+  1.7.2026, RPG-Änderung 1.4.2026 und deren Fehlen in der Konsolidierung 1.7.2026. Eingearbeitet in
+  [[21-bauen-ausserhalb-bauzonen]], [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]],
+  [[02-raumplanung-richtplanung-nutzungsplanung]], [[02-nutzungsplanung-zonenarten-teil2]],
+  [[wiki/widerrechtliche-bauten-und-sanktionen]], [[wiki/raumplanung-und-gestaltung]]. Status:
+  **eingearbeitet (Überblick)**; Details der zweiten Etappe offen, siehe `wiki/QUESTIONS.md` 260914.

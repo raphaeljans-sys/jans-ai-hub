@@ -7,7 +7,7 @@ shots: 57–72
 paragraphen: ["Art. 1 RPG", "Art. 2 RPG", "Art. 3 RPG", "Art. 6 RPG", "Art. 8 RPG", "Art. 8a RPG", "Art. 9 RPG", "Art. 14 RPG", "Art. 15 RPG", "Art. 16a RPG", "Art. 17 RPG", "Art. 18 RPG", "Art. 21 RPG", "Art. 23 RPG", "Art. 24 RPG", "Art. 25a RPG", "Art. 27 RPG", "Art. 75 BV", "Art. 1 RPV", "Art. 3 RPV", "Art. 21 RPV", "Art. 47 RPV", "§ 7 PBG", "§ 8 PBG", "§ 9 PBG", "§ 16 PBG", "§ 18 PBG", "§ 19 PBG", "§ 20 PBG", "§ 21 PBG", "§ 22 PBG", "§ 23 PBG", "§ 24 PBG", "§ 25 PBG", "§ 26 PBG", "§ 30 PBG", "§ 31 PBG", "§ 32 PBG", "§ 33 PBG", "§ 36 PBG", "§ 45 PBG", "§ 46 PBG", "§ 50 PBG", "§ 61 PBG", "§ 66 PBG", "§ 122 PBG", "§ 150 PBG", "§ 203 PBG", "§ 234 PBG", "§ 357 PBG", "Art. 4 NSG", "Art. 27 PaV", "§ 19 NHV", "§ 357 PBG (Bestandesschutz)"]
 status: emerging
 gelesen: 2026-06-30
-last_updated: 2026-06-30
+last_updated: 2026-09-14
 ---
 
 # Kap. 2 — Raumplanung, Richtplanung und Nutzungsplanung (Teil 1)
@@ -50,6 +50,15 @@ Raumplanung ist der Oberbegriff fuer Richtplanung und Nutzungsplanung; ihr Auftr
 ### Planungspflicht und Planungsvollstaendigkeit
 - Die Raumplanung bildet ein Ganzes; jeder genannte Teil eine notwendige Voraussetzung. Die Richtplaene des Kantons zeigen im Grundzug auf, wie der Boden raeumlich entwickelt werden soll (S. 119).
 - Bei der Beurteilung eines Vorhabens ist eine vorgaengige umfassende Interessenabwaegung notwendig, ehe der nur durch den Prozess der Richtplanung gesteuert werden kann (Art. 8 Abs. 2 RPG bei Vorhaben mit gewichtigen Auswirkungen) (S. 120).
+  ⚠ **Fassungsstand (Buch-Run 143, 2026-09-14):** seit **1.4.2026** hat Art. 8 Abs. 2 RPG einen
+  **zweiten Satz** (keine Richtplangrundlage fuer Vorhaben erneuerbarer Energien **ohne** gewichtige
+  Auswirkungen, auch bei nationalem Interesse) und einen neuen Absatz zur Planung unabhaengig von der
+  Gebietsfestlegung (AS 2026 99 nennt ihn «Abs. 4», die SR-Konsolidierung 1.4.2026 «3»); dazu Art. 18b
+  RPG (Wasserkraftwerke). Die Fedlex-Konsolidierung **Stand 1.7.2026 fuehrt diese Aenderung nicht
+  mehr** — AS 2026 99 zitieren. Seit **1.7.2026** zusaetzlich Art. 8c/8d RPG (Richtplaninhalt
+  Stabilisierungsziel und Nichtbauzonen mit zu kompensierenden Nutzungen). Beleg
+  `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2 und 3; vgl.
+  [[raumplanung-und-gestaltung]].
 
 ### Plananpassung und Planbestaendigkeit (Art. 21 RPG)
 - Raumplanung ist im Sinne einer rollenden Planung geaenderten Verhaeltnissen anzupassen (Art. 21 Abs. 2 RPG); andererseits Anspruch auf eine Planungsbestaendigkeit (S. 120).

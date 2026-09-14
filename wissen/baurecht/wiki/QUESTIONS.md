@@ -3312,6 +3312,10 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    Ziff. 4.3), nicht der Inhalt. **Art. 5 RPG** (Ausgleich und Entschädigung) und **Art. 15 RPG**
    (Bauzonen) sind für JANS die wichtigsten davon — Mehrwertabgabe und Bauzonendimensionierung.
    Arbeitsliste der Folgeläufe.
+   → **Stand 260914 (Buch-Run 143):** «Art. 20» und «Art. 23» sind **Gliederungstitel-Fussnoten**
+   (2. Abschnitt vor Art. 21, 2a. Abschnitt vor Art. 24), keine Artikeländerungen; Art. 5 ist seit
+   Run 142 nachgezogen. Offen bleiben Art. 3 Abs. 5, 15 Abs. 4bis, 24d Abs. 3 lit. b, 24e Abs. 6, 27a.
+   Beleg `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 5.
 
 ✓ **E-E189-1 — Rücklauf aus `wissen/energie` (Run 189, 09.09.2026): der Wortlaut von
    Art. 18a Abs. 2 lit. a RPG liegt jetzt amtlich vor.** Buch-Run 142 hat die Stelle korrekt
@@ -3370,6 +3374,11 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    **nicht** entscheidbar. Die Norm ist erst seit 1.1.2026 in Kraft, Rechtsprechung dazu ist
    noch nicht zu erwarten. **Nicht raten** — als offene Frage führen und bei der nächsten
    einschlägigen Behördenauskunft (Skill `behoerden-vorabklaerung`) mitstellen.
+   → **Material 260914 (Buch-Run 143), nicht entschieden:** dieselbe Verordnung koppelt «fällt
+   dahin» in **Art. 40 Abs. 5 RPV** (nichtlandwirtschaftliche Nebenbetriebe) ausdrücklich an eine
+   **Feststellungsverfügung** («Die zuständige Behörde stellt dies durch Verfügung fest.»);
+   Art. 38a Abs. 5 RPV hat diesen Satz nicht. Das Indiz trägt beide Lesarten (e contrario oder
+   allgemeiner Verfahrensgrundsatz). Beleg ebd. Ziff. 8.
 
 5. **Wurde das ZH-MAG (LS 700.9) nach der RPG-Aenderung per 1.1.2026 angepasst?** Art. 5 Abs. 1bis
    RPG knuepft den bundesrechtlichen Mindestsatz von 20 % seit 1.1.2026 **unmittelbar an die
@@ -3379,4 +3388,50 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    geprueft. Zu klaeren: gilt der dort erfasste Stand noch, und hat der Kanton auf die
    Bundesaenderung reagiert? Fundstelle fuer den Nachtrag: `buecher/band-1/05-planung-und-entschaedigung.md`
    Abschnitt 5.4.5. Kandidat fuer den naechsten (b)-Lauf.
+
+## 260914 — RPG 2 in zwei Etappen, RPG-Änderung 1.4.2026, Konsolidierungslücke (Buch-Run 143)
+
+Beleg für alle Punkte: `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`.
+
+1. **Die zweite Etappe von RPG 2 (seit 1.7.2026) ist nur im Überblick erschlossen.** Eingearbeitet
+   sind Inkraftsetzung, Art. 25 Abs. 3/4 RPG, Art. 43 Abs. 4-8 und 43b/43c RPV, Art. 37a Abs. 2 RPG
+   und die Richtplanänderungen (Übersicht in [[raumplanung-und-gestaltung]]). **Nicht destilliert:**
+   Abbruchprämie im Detail (Art. 5a RPG, Art. 43d/43e RPV, Verhältnis zur Mehrwertabgabe nach MAG ZH),
+   Art. 18 Abs. 1bis und 18bis RPG mit Art. 33a RPV (Kompensationsregeln), 3a. Kapitel RPV
+   (Art. 25a-25g) samt den neuen Anhängen 1 und 2 (Referenzwerte je Kanton, Kantone mit
+   Kompensationspflicht). Arbeitsliste der Folgeläufe; die Anhänge sind noch nicht beschafft.
+2. **Frist nach Art. 38b Abs. 1 RPG: ab welchem Datum laufen die fünf Jahre?** Der Wortlaut knüpft an
+   das «Inkrafttreten der Änderung vom 29. September 2023» an, die Änderung trat aber in **zwei**
+   Etappen in Kraft (1.1.2026 / 1.7.2026; Art. 38b selbst am 1.7.2026). Davon hängt ab, ab wann in ZH
+   und SZ jedes neue Gebäude ausserhalb der Bauzone kompensationspflichtig werden kann (Abs. 3,
+   Übergang Abs. 4). **Nicht ausrechnen, bevor die Frage belegt ist** (Materialien, ARE-Erläuterungen
+   zur RPV-Änderung vom 15.10.2025).
+3. **Gilt Art. 25 Abs. 5 RPG (30-Jahre-Verjährung) auch innerhalb der Bauzone?** Der Wortlaut enthält
+   keine Beschränkung; Art. 25 steht im 3. Abschnitt «Zuständigkeit und Verfahren», nicht im
+   2a. Abschnitt (die Gegenaussage in [[widerrechtliche-bauten-und-sanktionen]] aus Buch-Run 101 ist
+   berichtigt). Für eine Beschränkung spricht nur der Zusammenhang mit Abs. 2-4. Zu klären über die
+   Materialien (parlamentarische Beratung RPG 2) oder erste Rechtsprechung. **Nebenbefund dazu:** das
+   Wiki führt die 30-Jahre-Regel ausdrücklich «auch ausserhalb Bauzone» (BGer 1C_726/2013), das
+   Destillat Kap. 21 (S. 1464) sagt, sie gelte ausserhalb der Bauzone «nicht ohne Weiteres»
+   (BGer 1C_478/2011, 1C_283/2017). Für Sachverhalte ab 2026 überholt Art. 25 Abs. 5 RPG beides;
+   für die Rechtslage **vor** 2026 bleibt der Widerspruch offen und ist an den zitierten Entscheiden zu
+   lesen, nicht zu raten.
+4. **Welche Absatznummer hat der neue Absatz in Art. 8 RPG?** AS 2026 99 fügt «Abs. 4» ein, die
+   SR-Konsolidierung Stand 1.4.2026 führt ihn als «Abs. 3», und die Konsolidierung Stand 1.7.2026
+   führt ihn gar nicht (ebenso Art. 8 Abs. 2 zweiter Satz und Art. 18b RPG). Bis zur Klärung beide
+   Nummern nennen und AS 2026 99 zitieren. **Wiedervorlage:** beim nächsten Lauf prüfen, ob Fedlex
+   einen neuen Snapshot mit bereinigtem Art. 8 / Art. 18b veröffentlicht hat (billige Gegenmessung,
+   Rule `auto-verbesserungen` 260807 Spiegelfall).
+5. **Gilt der Richtplantext ZH Pt. 2.2.2 (Weiler) noch in der Fassung 2015?** Das Buch zitiert die
+   vom Bundesrat genehmigte Fassung vom 18.9.2015 («mindestens fünf bis zehn bewohnte Gebäude»). Seither
+   wurde der kantonale Richtplan mehrfach teilrevidiert; ob die Definition unverändert gilt, ist nicht
+   geprüft. Weg: aktueller Richtplantext auf zh.ch.
+6. **Fehlerklasse «Tippfehler wird zur existierenden Norm».** Buch-Run 143 fand im Destillat Kap. 2
+   «Art. 24f RPG» statt «Art. 24 ff. RPG»; seit 1.7.2026 gibt es Art. 24f RPG mit sachfremdem Inhalt.
+   Die Revision hat auch **Art. 24bis-24quinquies, 24c-bis, 5a, 8c, 8d, 18bis, 18b, 38b, 38c** neu
+   belegt. **Sweep im selben Lauf** über Wiki, Destillate, Register und Drills (Muster
+   «Art. 5a/8c/8d/18bis/18b/38b/38c/24f/24 f./24bis-24quinquies/24c-bis … RPG»): ausser den beiden
+   korrigierten Fundorten (Kap. 2 Freihaltezone, Kap. 21 Teil 2 Revisionsvermerk) nur Stellen, die
+   diese Nummern bereits im neuen Sinn verwenden. **Nicht erfasst** sind Zitate ohne Erlassangabe
+   («Art. 24f» allein) und Varianten mit «RPV»; bei künftigen Funden dort ansetzen.
 

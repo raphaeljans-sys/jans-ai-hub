@@ -101,12 +101,15 @@ Kap. 2, S. 156–167; Detailwerte → [[zonenkonformitaet]]):
   ausgeschriebenem Subjekt, inhaltlich unverändert; neu **Abs. 1bis**: in Nutzungszonen ausserhalb der
   Bauzonen erlischt die Zulassung aller Bauten bei Wegfall der Hauptnutzung), **Weilerzone** (Art. 33 RPV,
   seit 1.7.2026 mit Sachtitel «Kleinsiedlungen ausserhalb der Bauzonen», Text unverändert;
-  ≥ 10 bewohnte Gebäude in geschlossenem Siedlungsbild; ZH-Verzeichnis are.zh.ch).
+  Richtplan ZH 2015: historischer Siedlungsansatz, geschlossenes Siedlungsbild mit **mindestens fünf bis zehn** bewohnten Gebäuden, klar getrennt von der Hauptsiedlung; ZH-Verzeichnis are.zh.ch).
   ⚠ Der Verordnungswortlaut selbst (Art. 33 RPV, amtlich geprüft Buch-Run 97) nennt nur, dass
   besondere Zonen nach Art. 18 RPG «zur Erhaltung bestehender Kleinsiedlungen ausserhalb der
   Bauzonen» festgelegt werden können, sofern der kantonale Richtplan dies vorsieht — die
-  Zehner-Schwelle ist eine Buch-/Praxis-Konkretisierung (Bd 1, Kap. 2, S. 165), keine
-  Verordnungsziffer. Nicht als wörtliches RPV-Zitat verwenden.
+  Gebäude-Schwelle stammt aus dem **kantonalen Richtplantext** (Pt. 2.2.2, Fassung 18.9.2015, im Buch
+  wörtlich zitiert, Bd 1, Kap. 2, S. 166), keine Verordnungsziffer. Nicht als wörtliches RPV-Zitat
+  verwenden. ⚠ **Korrigiert 2026-09-15 (Buch-Run 143) am Buch-Screenshot S. 166:** hier stand
+  «≥ 10» bzw. «Zehner-Schwelle» mit Fundstelle S. 165; der Richtplantext sagt «mindestens **fünf bis
+  zehn** bewohnte Gebäude». Ob der geltende Richtplan ZH Pt. 2.2.2 noch so lautet, ist nicht geprüft.
 
 #### Neueinzonungs-Kriterien (Art. 15 RPG)
 Bauzonen entsprechen dem **voraussichtlichen Bedarf für 15 Jahre** (Art. 15 Abs. 1 RPG);

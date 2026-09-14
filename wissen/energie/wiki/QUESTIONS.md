@@ -9216,3 +9216,25 @@ kein Terminrisiko — neuer Abschnitt im Destillat. **Nebenfund (neuer Punkt):**
 Keine Datei ausser dem Destillat und diesem Eintrag geändert. Kein neues Primärquellenmaterial
 in `raw/` (Web-Erhebung, wie beim Vorlauf Run 165 gehandhabt).
 
+
+## Übergabe aus `wissen/baurecht` (Buch-Run 143, 14./15.09.2026) — EnG-Änderung vom 26.9.2025 in Kraft seit 1.4.2026
+
+- [ ] **E-B143-1 (P2): EnG-Änderung vom 26.9.2025 (AS 2026 99, Botschaft BBl 2023 1602) ist seit
+  1.4.2026 in Kraft und in dieser KB nicht erfasst.** Gelesen am amtlichen AS-PDF (Fedlex
+  `eli/oc/2026/99`, 304'098 Byte): EnG **Art. 10 Abs. 1quater, 2, 3** (keine projektbezogene
+  Richtplanfestsetzung für Solar-/Windanlagen von nationalem Interesse in den Eignungsgebieten;
+  Nutzungsplanung auch im kantonalen Plangenehmigungsverfahren; Richtplan- parallel zum
+  Nutzungsplanverfahren), **Art. 13 Abs. 3 aufgehoben**, **Art. 14a neu** (kantonales
+  **konzentriertes Plangenehmigungsverfahren** für Bau, Erweiterung und Erneuerung von Solar- und
+  Windenergieanlagen von nationalem Interesse; Zustimmung der Standortgemeinden, soweit das kantonale
+  Recht nichts anderes bestimmt; bis zur kantonalen Regelung Art. 16-17 EleG sinngemäss).
+  Inkraftsetzung am 1.4.2026 mit Ausnahme von **Art. 15 Abs. 1bis und 75e EnG** (späterer Zeitpunkt).
+  Nicht geprüft: die übrigen EnG-Artikel des Erlasses, Übergangsrecht, ob ZH/SZ Art. 14a bereits
+  umgesetzt haben. Anhang Ziff. 2 ändert das **RPG** (Art. 8 Abs. 2 zweiter Satz, neuer Abs. 4,
+  Art. 18b Wasserkraftwerke) — dort in `wissen/baurecht` erfasst.
+- [ ] **E-B143-2 (P2, Werkzeug): die Fedlex-Konsolidierung des RPG «Stand 1.7.2026» enthält die
+  Änderung vom 1.4.2026 nicht mehr** (Art. 8 Abs. 2 ohne zweiten Satz, Art. 18b fehlt, kein
+  Aufhebungsvermerk). Wer RPG-Energieartikel nach dem jüngsten Snapshot zitiert, verliert eine in Kraft
+  stehende Norm. Gleiches Risiko für das EnG selbst prüfen: den EnG-Snapshot nach 1.4.2026 gegen
+  AS 2026 99 diffen, bevor Art. 10/14a EnG aus der Konsolidierung zitiert werden.
+  Beleg: `wissen/baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 3.

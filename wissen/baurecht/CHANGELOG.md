@@ -3,6 +3,49 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-14 (Buch-Run 143) — RPG 2 trat in zwei Etappen in Kraft; die RPG-Änderung vom 1.4.2026 fehlt in der jüngsten Fedlex-Konsolidierung
+
+Lauf begann 14.09.2026 23:44 CEST (gemessen) und lief über Mitternacht; Dateien tragen das Datum
+des Laufbeginns, die beiden Buch-Screenshot-Korrekturen das Datum ihrer Entstehung (15.09.).
+- **Neu `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`:** Snapshots RPG 1.4./1.7.2026,
+  RPV 1.7.2026, Änderungserlasse AS 2025 640 / AS 2025 659 / AS 2026 99 (PDF-A über `eli/oc`),
+  Inkraftsetzungsvermerke im Wortlaut, Wortlaut der zweiten Etappe.
+- **Kernbefund:** RPG 2 trat in **zwei Etappen** in Kraft (1.1.2026 / **1.7.2026**). Seit 1.7.2026
+  zusätzlich Stabilisierungsziel (Art. 1 Abs. 2 lit. bter/bquater, 8d), Abbruchprämie (Art. 5a),
+  Art. 8c/18bis, Art. 18 Abs. 1bis, **Art. 25 Abs. 3/4**, Art. 37a Abs. 2, Übergang Art. 38b, Art. 38
+  aufgehoben; RPV 3a. Kapitel (25a-25g), 33a, **43 Abs. 4-8**, **43b/43c** (Baupolizei), 43d/43e.
+- **Zweiter Befund:** RPG-Änderung per **1.4.2026** durch AS 2026 99 (Art. 8 Abs. 2 Satz 2, neuer
+  Absatz «4» laut AS bzw. «3» laut Konsolidierung, **Art. 18b** Wasserkraftwerke); die Konsolidierung
+  **Stand 1.7.2026 enthält sie nicht mehr**, ohne Aufhebungsvermerk.
+- `buecher/band-2/21-bauen-ausserhalb-bauzonen.md`: Etappen-Präzisierung; Inventarberichtigung
+  (Art. 20/23 = Gliederungstitel-Fussnoten); Buchstand-Nachtrag S. 1464 (Art. 25 Abs. 5 RPG,
+  30-Jahre-Verjährung seit 1.1.2026; Art. 25 Abs. 3/4 und Art. 43b/43c RPV seit 1.7.2026).
+- `buecher/band-2/21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald.md`: Art. 37a Abs. 2 RPG und
+  Art. 43 Abs. 4-8 RPV nachgetragen; Revisionsvermerk «Art. 37a soll in Art. 24f überführt werden»
+  als überholt markiert.
+- `wiki/widerrechtliche-bauten-und-sanktionen.md` (*established*): **zwei Berichtigungen** am
+  Nachtrag aus Buch-Run 101 — Art. 25 steht im 3. Abschnitt, nicht im 2a., und Abs. 5 hat keine
+  Wortlautbeschränkung auf das Nichtbaugebiet (Geltung in der Bauzone offen); Abs. 3/4 seit 1.7.2026,
+  nicht 1.1.2026. Neu: Art. 25 Abs. 4 RPG, Art. 43b/43c RPV.
+- `wiki/raumplanung-und-gestaltung.md`: Fassungsstand-Box Richtplan (1.7.2026 / 1.4.2026,
+  Konsolidierungsfalle); Art. 18 Abs. 1bis, Art. 33 RPV Sachtitel.
+- **Buch-Screenshot S. 166 gelesen (Shot 84, über m365-graph)**, ausgelöst durch den Fund
+  «Art. 24f RPG» im Destillat Kap. 2: dort **«Art. 24 ff. RPG»** und ein anderer Sinn (innen liegende
+  Freihaltezonen, BEZ 2014 Nr. 38, Art. 25 Abs. 2 RPG entfällt) — korrigiert in
+  `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md`. Auf derselben Seite: Weiler-Schwelle laut
+  Richtplantext 2015 **«mindestens fünf bis zehn»** bewohnte Gebäude, nicht «zehn» — korrigiert an
+  allen Fundorten (Destillat 3×, `wiki/raumplanung-und-gestaltung.md`, `buecher/INDEX.md`,
+  `training/curriculum.md`, `training/drills.md`).
+- `buecher/band-1/02-raumplanung-richtplanung-nutzungsplanung.md`: Art. 8 Abs. 2 RPG nachgetragen.
+- Register: `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`, `training/drills.md`
+  (Karten **K, L, M**), `training/PROGRAMM.md` (Tracker + Leitplanke), `wiki/QUESTIONS.md`
+  (Abschnitt 260914 mit sechs Punkten, zwei Nachträge an 260907), `raw/_INGESTED.md`.
+- **→ übergeben an `wissen/energie`** (`wiki/QUESTIONS.md` E-B143-1/-2): EnG-Änderung vom 26.9.2025
+  (AS 2026 99, Art. 10/13/14a EnG, in Kraft 1.4.2026) und die Konsolidierungslücke.
+- Werkzeug: `docs/referenz/fedlex-volltexte.md` Nachtrag 14.09.2026 (eli/oc-Muster, unterjährige
+  Snapshots, verlorene Änderung, Gliederungstitel-Fussnoten).
+- Report `outputs/2026-09-14_buch-run143.md`.
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Baumschutz Stadt Zürich: Kante aus `wissen/architektur-fachwissen`, Art. 11a BZO als offene Frage
 
 - `wiki/naturschutz-und-denkmalschutz.md`: nach dem Einzelbaum-Bullet (§ 76 / § 238a PBG) ein

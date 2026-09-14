@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 104)
+last_updated: 2026-09-14 (Run 143)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -151,6 +151,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   (nicht beheizt · nicht von einem anrechenbaren Raum zugänglich · Belichtung unter 10 %), die im
   Gesetzeswortlaut **nicht vorkommen**. Schwesterregel zur Wegleitungs-Falle aus Run 73 (dort:
   Masszahl ohne Rechtsgrundlage).
+- **Gestaffelte Inkraftsetzung und Konsolidierungsluecken (Pruefregel Modell D, seit Run 143):**
+  «Revision X ist seit Datum Y in Kraft» ist erst belegt, wenn der **Inkraftsetzungsvermerk am Ende
+  des AS-Erlasses** gelesen ist — RPG 2 und die RPV-Aenderung vom 15.10.2025 traten in zwei Etappen
+  in Kraft, und der Halbsatz «seit 1.1.2026» stand drei Laeufe lang ungeprueft im KB. Zweitens: der
+  **juengste Fedlex-Snapshot ist nicht zwingend vollstaendig** — die RPG-Konsolidierung 1.7.2026 hat
+  die Aenderung vom 1.4.2026 verloren. Darum aufeinanderfolgende Snapshots diffen und zitierte
+  Aenderungen am AS-Erlass (`eli/oc/<Jahr>/<AS-Seite>`) gegenlesen. Drittens: jede Revision, die
+  **neue Artikelnummern** belegt, verwandelt alte Tipp- und Lesefehler in plausible Fehlzitate
+  (Run 143: «Art. 24f RPG» statt «Art. 24 ff.») — nach einer Revision die neu belegten Nummern im
+  Bestand suchen.
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
   5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
   `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
@@ -1926,6 +1936,25 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   24quinquies thermische Netze, 24c-bis Streusiedlungen) und die Absatzaenderungen an
   Art. 3/5/15/20/23/24d/24e/27a RPG — **Art. 5 (Mehrwertausgleich) und Art. 15 (Bauzonen) zuerst**,
   weil sie JANS-Faelle am direktesten treffen. Kap.-22-/23-Restabschnitte unveraendert offen.
+
+- **Run 143 (2026-09-14):** Prioritaet (b) Fassungsstand, Anlass die Wiedervorlage «Art. 5/15
+  zuerst» aus Run 142. Beim Beschaffen der aktuellen RPG-Fassung zeigten sich **zwei juengere
+  Snapshots** (1.4.2026 und 1.7.2026). **Kernbefund:** RPG 2 trat in **zwei Etappen** in Kraft
+  (1.1.2026 / 1.7.2026, Inkraftsetzungsvermerk AS 2025 640); die zweite Etappe (Stabilisierungsziel,
+  Abbruchpraemie, Art. 8c/8d/18bis, Art. 25 Abs. 3/4, Art. 37a Abs. 2, Art. 38b) war im KB nicht
+  erfasst, RPV-Gegenstueck AS 2025 659 (Art. 25a-25g, 33a, 43 Abs. 4-8, 43b-43e). **Zweiter Befund:**
+  RPG-Aenderung per 1.4.2026 (AS 2026 99: Art. 8 Abs. 2/4, Art. 18b), die in der Konsolidierung
+  Stand 1.7.2026 **fehlt**. Zwei Berichtigungen im *established*-Wiki [[widerrechtliche-bauten-und-sanktionen]]
+  (Art. 25 Abs. 3/4 erst seit 1.7.2026; Art. 25 steht im 3. Abschnitt, Abs. 5 ohne
+  Wortlautbeschraenkung). Inventarfehler Run 142 berichtigt (Art. 20/23 = Gliederungstitel).
+  **Dritter Befund, am Buch-Screenshot S. 166 belegt:** «Art. 24f RPG» im Destillat Kap. 2 war
+  «Art. 24 ff. RPG» (mit Sinnkorrektur), und die Weiler-Schwelle lautet «fuenf bis zehn», nicht
+  «zehn» bewohnte Gebaeude. Drill-Karten K, L, M. Cross-KB an `wissen/energie` (E-B143-1/-2).
+  Report `outputs/2026-09-14_buch-run143.md`, Beleg `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`.
+  **Naechster Schritt:** Wiedervorlage Fedlex-Snapshot (ist Art. 8/18b RPG wieder konsolidiert?);
+  zweite Etappe im Detail (Abbruchpraemie ↔ MAG ZH, Art. 18bis/33a RPV, RPV-Anhaenge 1/2);
+  Fristbeginn Art. 38b RPG belegen; Art. 3 Abs. 5, 15 Abs. 4bis, 24d, 24e, 27a RPG; MAG-Fassungsstand
+  (QUESTIONS 260907 Ziff. 5); Kap.-22-/23-Restabschnitte.
 
   *(Tracker-Hinweis: die Eintraege fuer Run 116-139 fehlen hier; ihre Belege stehen im CHANGELOG
   und in `outputs/`. Nicht rekonstruiert, nur vermerkt — gleiche Luecken-Familie wie bei Run 41.)*

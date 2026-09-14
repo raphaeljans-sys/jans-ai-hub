@@ -655,7 +655,8 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Aenderung gilt als **neue** Arealueberbauung (BEZ 2014 Nr. 31). (Bd 1, S. 168 f.) _[2026-06-30]_
 - **F:** Was ist eine Weilerzone und wann kommt sie in Frage? — **A:** Eine besondere Zone nach
   **Art. 18 RPG / Art. 33 RPV** zur Erhaltung bestehender **Kleinsiedlungen ausserhalb der Bauzonen**
-  (mindestens **zehn bewohnte Gebaeude** in geschlossenem Siedlungsbild), sofern der kantonale Richtplan
+  (Richtplan ZH 2015: mindestens **fuenf bis zehn** bewohnte Gebaeude in geschlossenem Siedlungsbild;
+  ⚠ korrigiert 2026-09-15, Buch-Run 143, stand «zehn»), sofern der kantonale Richtplan
   sie vorsieht (ZH-Verzeichnis are.zh.ch). Sie eroeffnet beschraenkte Bau-/Umnutzungsmoeglichkeiten, wo
   sonst Art. 24 ff. RPG sperren wuerde. (Bd 1, S. 166 f.) _[2026-06-30]_
 - **F:** Welcher Massstab gilt fuer den Grundzonenplan, und wozu dienen Ergaenzungsplaene? — **A:**
@@ -2690,3 +2691,57 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   dazu, immer. **Lehre 2 (Ton):** die Rueckmeldung an den Fachplaner nennt die Norm, den Erlass und
   die Folge fuer den Fall — nicht den Fehler. `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`
   Ziff. 2 und 3. _[2026-09-07]_
+
+### Buch-Run 143 (2026-09-14) — Fassungsstand RPG/RPV 2026: Etappen, Konsolidierungsluecke, Tippfehler-Normen
+
+- **K (Modell D / der juengste Snapshot ist nicht immer die geltende Fassung, Fall Kleinwasserkraft
+  und PV-Freiflaeche):** Eine Bauherrschaft plant ein Kleinwasserkraftwerk mit 4 MW. Der Planer
+  zitiert Art. 8 Abs. 2 RPG nach Fedlex «Stand 1.7.2026»: «Vorhaben mit gewichtigen Auswirkungen …
+  bedürfen einer Grundlage im Richtplan» — also Richtplanverfahren vorab? — **A: Nicht ohne die
+  Apriländerung zu pruefen.** Seit **1.4.2026** gilt **Art. 18b Abs. 1 RPG** (BG vom 26.9.2025,
+  Anhang Ziff. 2, **AS 2026 99**): Wasserkraftwerke bis **10 MW** beduerfen keiner Grundlage im
+  Richtplan nach Art. 8 Abs. 2; Abs. 2: keine Nutzungsplangrundlage fuer Wasserkraftwerke und ihre
+  Erschliessung. Dazu Art. 8 Abs. 2 **zweiter Satz** (erneuerbare Energien ohne gewichtige
+  Auswirkungen). **Die Falle:** die Konsolidierung **Stand 1.7.2026** enthaelt beides **nicht mehr**,
+  ohne Aufhebungsvermerk; sie wurde offenbar auf einem Stand ohne die Aprilaenderung aufgebaut.
+  **Lehre:** «juengster Snapshot = geltendes Recht» ist eine Annahme, keine Messung. Bei jeder Norm,
+  deren Fussnoten einen Aenderungserlass nennen, den **Erlass selbst** (eli/oc/<Jahr>/<AS-Seite>,
+  PDF-A) gegenlesen; und bei zwei aufeinanderfolgenden Snapshots den Diff laufen lassen — ein
+  Artikel, der **verschwindet**, ohne dass eine Fussnote die Aufhebung meldet, ist ein Befund ueber
+  die Konsolidierung. `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 3.
+  _[2026-09-14]_
+
+- **L (Etappen-Inkraftsetzung, Fall Nutzungsverbot ausserhalb der Bauzone):** Die Behoerde verfuegt
+  im **Mai 2026** gegen einen ungenehmigt zu Wohnzwecken umgenutzten Stall ausserhalb der Bauzone
+  ein Nutzungsverbot und stuetzt sich auf «Art. 25 Abs. 3 RPG, in Kraft seit 1.1.2026». Die
+  Eigentuemerschaft beruft sich zugleich auf die 30-Jahre-Verjaehrung. Was ist zu pruefen? — **A:
+  Zwei Daten, nicht eines.** RPG 2 trat in **zwei Etappen** in Kraft (Inkraftsetzungsvermerk
+  AS 2025 640): **Art. 25 Abs. 5** (30-Jahre-Verjaehrung, gewahrt durch erstmaliges Einschreiten,
+  keine Verjaehrung bei Polizeiguetern) am **1.1.2026**, **Art. 25 Abs. 3/4** (feststellen, sofort
+  untersagen, Rueckbau ohne Verzug; Verzicht nur durch die kantonale Behoerde) erst am **1.7.2026**,
+  ebenso die Ausfuehrung in **Art. 43b/43c RPV** (Durchsetzung in der Regel innert **30 Tagen**,
+  subsidiaere Frist **180 Tage**, summarische Bestandespruefung in jedem Baubewilligungsverfahren).
+  Im Mai 2026 traegt Abs. 3 die Verfuegung also noch nicht; das «von Amtes wegen»-Prinzip und das
+  kantonale Recht schon. **Lehre:** «Revision X ist seit Datum Y in Kraft» ist bei gestaffelter
+  Inkraftsetzung eine Halbwahrheit; der Inkraftsetzungsvermerk am Ende des AS-Erlasses listet die
+  Artikel je Datum und ist die einzige belastbare Quelle. Und: Art. 25 steht im **3. Abschnitt**,
+  nicht im 2a. — ob Abs. 5 auch in der Bauzone gilt, ist offen (QUESTIONS 260914 Ziff. 3).
+  `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2, 6, 7. _[2026-09-14]_
+
+- **M (Tippfehler wird zur existierenden Norm, Fall innen liegende Freihaltezone und Weiler):** Das
+  Destillat sagt: «Bestehende rechtmaessige Bauten in Freihaltezonen unterstehen dem kantonalen Recht
+  (Art. 24f RPG)». Ein Bauherr mit einem Gartenpavillon in einer kommunalen Freihaltezone mitten im
+  Quartier fragt, ob die Baudirektion zustimmen muss. — **A:** Das Buch (Bd 1, S. 166) schreibt
+  «**Art. 24 ff. RPG**» und sagt etwas anderes: liegt eine kommunale Freihaltezone **vollstaendig
+  innerhalb des Baugebiets**, sind die Ausnahmetatbestaende von Art. 24 ff. RPG **nicht** anwendbar,
+  Bauten und Anlagen unterstehen **ausschliesslich kantonalem Recht**, und die kantonale
+  Bewilligungskompetenz nach **Art. 25 Abs. 2 RPG entfaellt** (BEZ 2014 Nr. 38). Also: keine
+  Zustimmung der kantonalen Stelle fuer Bauten ausserhalb der Bauzonen. **Warum die Karte wichtig
+  ist:** 2019 gab es Art. 24f RPG nicht, der Tippfehler war harmlos erkennbar. Seit **1.7.2026**
+  existiert Art. 24f RPG (Berichterstattung ueber Abbruchpraemien) — das Nachschlagen gelingt und
+  liefert eine sachfremde Norm. **Zweiter Fund auf derselben Seite:** die Weiler-Definition des
+  Richtplans ZH 2015 verlangt «mindestens **fuenf bis zehn** bewohnte Gebaeude», das KB fuehrte an vier
+  Fundorten «zehn». **Lehre:** Jede Revision, die neue Artikelnummern belegt, verwandelt alte
+  Tipp- und Lesefehler in plausible Fehlzitate — nach einer Revision die neu belegten Nummern im
+  Bestand suchen. Beleg: Buch-Screenshot S. 166 (Shot 84) und
+  `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2. _[2026-09-14]_

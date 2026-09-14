@@ -139,3 +139,37 @@ Fussnote am **Absatz** = Absatzaenderung). In Buch-Run 142 an drei Artikeln gege
 `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4 und in der
 Drill-Karte **I** (`wissen/baurecht/training/drills.md`).
 
+
+## Nachtrag 14.09.2026 (Buch-Run 143) — Aenderungserlasse ueber eli/oc; Konsolidierungen koennen Aenderungen verlieren
+
+**1. Der AS-Aenderungserlass ist direkt abrufbar, und hier IST die ELI aus der Fundstelle
+ableitbar.** Muster:
+`https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/<Jahr>/<AS-Seite>/de/pdf-a/fedlex-data-admin-ch-eli-oc-<Jahr>-<AS-Seite>-de-pdf-a.pdf`
+Getestet: AS 2025 640 (317'797 Byte), AS 2025 659 (399'579), AS 2026 99 (304'098, auch ueber
+`fedlex.data.admin.ch`), alle `application/pdf`. Der Erlass enthaelt am Ende den
+**Inkraftsetzungsvermerk** des Bundesrats — bei gestaffelter Inkraftsetzung die einzige Stelle, die
+die Artikel je Datum auflistet (RPG 2: 1.1.2026 / 1.7.2026; RPV-Aenderung 15.10.2025: dito).
+
+**2. Snapshots liegen auf den Inkrafttretensdaten der Aenderungen, auch unterjaehrig.** RPG:
+`20260401` (139'125 Byte) und `20260701` (155'232) existieren, `20260501/0601/0801/0901/1001` nicht.
+RPV: `20260701` (183'956), `20260401/0801/0901` nicht. Wer nur Jahresanfaenge probiert, verpasst
+unterjaehrige Staende — Kandidaten sind die Inkrafttretensdaten aus den Fussnoten **und** die
+Quartals-/Halbjahresersten.
+
+**3. Eine Konsolidierung kann eine in Kraft stehende Aenderung verlieren.** Der RPG-Snapshot
+`20260701` enthaelt die Aenderung vom 1.4.2026 (AS 2026 99: Art. 8 Abs. 2 Satz 2, neuer Absatz,
+Art. 18b) **nicht mehr** — ohne Aufhebungsvermerk; der Snapshot `20260401` enthaelt sie. Zudem
+nummeriert die Konsolidierung den neuen Absatz als «3», der AS-Erlass als «4». **Praxisregel:** den
+juengsten Snapshot gegen den vorangehenden diffen (Artikel, die ohne Fussnote verschwinden, sind ein
+Befund ueber die Konsolidierung) und bei jeder zitierten Aenderung den AS-Erlass gegenlesen.
+
+**4. Fussnoten von Gliederungstiteln stehen im HTML direkt nach dem vorangehenden Artikel.** Die
+Methode «Position der Aenderungsfussnote» (Nachtrag 07.09.2026) liest sie sonst dem falschen Artikel
+zu: in Buch-Run 142 wurden so Art. 20 und 23 RPG als geaendert inventarisiert, obwohl die Fussnoten
+zu den Titeln «2. Abschnitt» (vor Art. 21) und «2a. Abschnitt» (vor Art. 24) gehoeren. Gegenprobe
+ist die Artikelliste des AS-Erlasses.
+
+**5. Kleinere Artefakte:** RPG `20260101` Art. 24e mit zwei Absaetzen «6» (ab `20260401` bereinigt);
+RPV `20260101` traegt unter `id="art_32"` den Text von Art. 32bis. Wer per Element-ID extrahiert,
+prueft den Artikelkopf mit.
+Beleg: `wissen/baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`.

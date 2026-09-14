@@ -4,10 +4,15 @@ kapitel: 2 — Raumplanung, Richtplanung und Nutzungsplanung (Teil 2: Nutzungspl
 band: 1
 seiten: 144–169
 shots: 73–85 (ohne Shot 76 / S. 150–151, OneDrive-I/O-Fehler)
-paragraphen: ["Art. 4 NHG", "Art. 2 WaG", "Art. 10 WaG", "Art. 13 WaG", "Art. 15 RPG", "Art. 17 RPG", "Art. 18 RPG", "Art. 18a EBG", "Art. 21 RPG", "Art. 24 RPG", "Art. 24f RPG", "Art. 33 RPV", "Art. 36a GSchG", "Art. 41c GSchV", "§ 36 PBG", "§ 39 PBG", "§ 40 PBG", "§ 44 PBG", "§ 46 PBG", "§ 48 PBG", "§ 49 PBG", "§ 49a PBG", "§ 49f PBG", "§ 50 PBG", "§ 50a PBG", "§ 51 PBG", "§ 52 PBG", "§ 54 PBG", "§ 56 PBG", "§ 60 PBG", "§ 61 PBG", "§ 62 PBG", "§ 65 PBG", "§§ 69-73 PBG", "§ 71 PBG", "§ 203 PBG", "§ 205 PBG", "§ 234 PBG", "§ 238 PBG", "§§ 251-253 PBG", "§§ 4/10 VDNP", "§ 9 VDNP", "§ 10 VDNP"]
+paragraphen: ["Art. 4 NHG", "Art. 2 WaG", "Art. 10 WaG", "Art. 13 WaG", "Art. 15 RPG", "Art. 17 RPG", "Art. 18 RPG", "Art. 18a EBG", "Art. 21 RPG", "Art. 24 RPG", "Art. 24 ff. RPG (korrigiert, stand «Art. 24f»)", "Art. 25 Abs. 2 RPG", "Art. 33 RPV", "Art. 36a GSchG", "Art. 41c GSchV", "§ 36 PBG", "§ 39 PBG", "§ 40 PBG", "§ 44 PBG", "§ 46 PBG", "§ 48 PBG", "§ 49 PBG", "§ 49a PBG", "§ 49f PBG", "§ 50 PBG", "§ 50a PBG", "§ 51 PBG", "§ 52 PBG", "§ 54 PBG", "§ 56 PBG", "§ 60 PBG", "§ 61 PBG", "§ 62 PBG", "§ 65 PBG", "§§ 69-73 PBG", "§ 71 PBG", "§ 203 PBG", "§ 205 PBG", "§ 234 PBG", "§ 238 PBG", "§§ 251-253 PBG", "§§ 4/10 VDNP", "§ 9 VDNP", "§ 10 VDNP"]
 status: emerging
 gelesen: 2026-06-30
-last_updated: 2026-06-30
+last_updated: 2026-09-15
+verifiziert:
+  - datum: 2026-09-15
+    methode: "Buch-Screenshot S. 166 (Shot 84, SharePoint PL/02_Recht_Norm, ueber m365-graph) gegen das Destillat gelesen, ausgeloest durch den Fassungsstand-Befund Art. 24f RPG (neu seit 1.7.2026) in Buch-Run 143"
+    umfang: "Freihaltezone (2.3.7.4) und Weilerzone, S. 166; das uebrige Destillat nicht erneut geprueft"
+    ergebnis: "2 Korrekturen: «Art. 24f RPG» → «Art. 24 ff. RPG» samt Sinnkorrektur (innen liegende Freihaltezonen, BEZ 2014 Nr. 38, Art. 25 Abs. 2 RPG); Weiler-Schwelle «zehn» → «fuenf bis zehn» bewohnte Gebaeude (Richtplantext 2015)"
 ---
 
 # Kap. 2 — Nutzungsplanung / Zonenarten (Teil 2)
@@ -177,14 +182,37 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
   standortgebundene Wohnnutzungen grundsaetzlich nicht zonenkonform (VB.2005.00244) (S. 164 f.).
 - **Freihaltezone (§ 62 PBG):** Fuer die kommunale Freihaltezone gelten grundsaetzlich die gleichen
   Bestimmungen wie fuer die kantonale Freihaltezone (§ 62 Abs. 1 PBG i.V.m. § 40 PBG, vgl. § 39 PBG;
-  Art. 17 RPG; Art. 24f RPG fuer landwirtschaftsfremde Nutzung). Bestehende rechtmaessige Bauten in
-  Freihaltezonen unterstehen dem kantonalen Recht (Art. 24f RPG) (S. 166).
+  Art. 17 RPG). Freihaltezonen sind Schutzzonen nach **Art. 17 RPG**, die zugleich der Erholung
+  dienen (BGer 1C_311/2012). **Wie bei der Erholungszone** sind die Ausnahmetatbestaende von
+  **Art. 24 ff. RPG** ausnahmsweise **nicht anwendbar**, wenn eine kommunale Freihaltezone
+  **vollstaendig innerhalb des ausgeschiedenen Baugebiets** liegt: dann unterstehen Bauten und
+  Anlagen dort **ausschliesslich dem kantonalen Recht**, und die kantonale Bewilligungskompetenz nach
+  **Art. 25 Abs. 2 RPG** entfaellt (BEZ 2014 Nr. 38) (S. 166).
+  ⚠ **KORRIGIERT 2026-09-15 (Buch-Run 143) am Buch-Screenshot S. 166** (Shot 84, SharePoint
+  «SM Planungs und Baurecht», `Bildschirmfoto 2026-06-07 um 11.43.07.jpg`). Hier stand zweimal
+  «**Art. 24f RPG**» («fuer landwirtschaftsfremde Nutzung» und «Bestehende rechtmaessige Bauten in
+  Freihaltezonen unterstehen dem kantonalen Recht»). Das Buch schreibt «**Art. 24 ff. RPG**»; aus
+  «ff.» wurde beim Destillieren «f». Zudem war der Sinn verschoben: die Regel betrifft **nicht
+  bestehende rechtmaessige Bauten**, sondern alle Bauten und Anlagen in **innen liegenden**
+  Freihaltezonen, und sie ist eine **Ausnahme** von Art. 24 ff. RPG. **Warum der Fehler jetzt
+  gefaehrlich ist:** Art. 24f RPG gab es 2019 nicht (RPG-Snapshot 1.1.2019: Art. 24-24e), seit
+  **1.7.2026** existiert er als **Berichterstattungsnorm** (Abbruchpraemien, Stabilisierungsziele).
+  Aus einem Tippfehler wurde eine scheinbar gueltige, sachfremde Fundstelle
+  (`raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2).
 - **Weilerzone (Art. 33 RPV / § 50a PBG):** zur Erhaltung bestehender Kernsiedlungen ausserhalb der
   Bauzonen koennen besondere Zonen nach **Art. 18 RPG** ausgeschieden werden — namentlich
   Weiler- oder Erhaltungszonen, sofern der kantonale Richtplan dies vorsieht (gestuetzt auf Art. 33
-  RPV im vom Bundesrat genehmigten Richtplan vom 18.9.2015, Kartenanhang Pt. 2.2.2). **Definition
-  «Bestehende Kleinsiedlung (Weiler)»**: mindestens **zehn bewohnte Gebaeude** in geschlossenem
-  Siedlungsbild; die Zonengrenzen haben sich an die Kleinsiedlung eng zu umgrenzen (S. 166).
+  RPV im vom Bundesrat genehmigten Richtplan vom 18.9.2015, Richtplantext Pt. 2.2.2 «Karteneintraege»).
+  **Definition «Bestehende Kleinsiedlungen (Weiler)»** (Richtplantext, im Buch woertlich zitiert):
+  nicht oder nur noch teilweise landwirtschaftlich genutzt, gelten als Siedlungsgebiet;
+  Voraussetzungen **historischer Siedlungsansatz** und **geschlossenes Siedlungsbild**, das
+  **mindestens fuenf bis zehn bewohnte Gebaeude** umfasst und von der Hauptsiedlung klar getrennt
+  ist; Zuweisung zu einer **Kernzone** moeglich, die Zonengrenzen haben die Kleinsiedlung eng zu
+  umgrenzen, keine darueber hinausgreifende Entwicklung, **Neubauten nicht zulaessig**, Zustimmung
+  der kantonalen Behoerde (S. 166). ⚠ **KORRIGIERT 2026-09-15 (Buch-Run 143) am Buch-Screenshot
+  S. 166:** hier stand «mindestens **zehn** bewohnte Gebaeude»; der zitierte Richtplantext sagt
+  «**fuenf bis zehn**». Stand des Richtplans ist die Fassung vom 18.9.2015, wie sie das Buch zitiert;
+  ob der geltende Richtplantext Pt. 2.2.2 noch so lautet, ist nicht geprueft.
   Verzeichnis abrufbar unter www.are.zh.ch (Weilerkernzonen) (S. 167).
 - **Kommunale Landwirtschaftszone (§ 46 Abs. 3 PBG):** ergaenzende Landwirtschaftszone; es gelten
   die gleichen Bestimmungen wie fuer die kantonale Landwirtschaftszone (S. 167).
@@ -227,8 +255,9 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
 - **Baulandbedarf Neueinzonung:** **15 Jahre** (Art. 15 Abs. 1 RPG); kumulative Voraussetzungen
   Art. 15 Abs. 4 lit. a–d RPG (Eignung / Bedarf+Erschliessung+Ueberbauung 15 J. / kein
   Kulturland-Zerstueckeln / Verfuegbarkeit rechtlich gesichert) (S. 163 f.).
-- **Weilerzone Definition:** mindestens **zehn bewohnte Gebaeude** in geschlossenem Siedlungsbild
-  (Richtplan-Kartenanhang Pt. 2.2.2, S. 166).
+- **Weilerzone Definition:** mindestens **fuenf bis zehn bewohnte Gebaeude** in geschlossenem
+  Siedlungsbild, historischer Siedlungsansatz, klar getrennt von der Hauptsiedlung (Richtplantext
+  Pt. 2.2.2, Fassung 18.9.2015, S. 166; korrigiert Buch-Run 143, stand «zehn»).
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 
@@ -269,7 +298,7 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
   Verfuegbarkeit gesichert) ist eine Einzonung chancenlos — und ueberdimensionierte Bauzonen muessen
   sogar **reduziert** werden (Art. 15 Abs. 2 RPG). Fuer `ankaufspruefung` ein Risiko-Flag bei
   Reservezonen-/Landwirtschaftsland-Parzellen.
-- **Weilerzone (Art. 33 RPV, ≥ 10 bewohnte Gebaeude)**: bei Liegenschaften ausserhalb der Bauzone in
+- **Weilerzone (Art. 33 RPV, Richtplan ZH: mind. 5-10 bewohnte Gebaeude)**: bei Liegenschaften ausserhalb der Bauzone in
   Kleinsiedlungen lohnt die Pruefung des ZH-Weilerzonen-Verzeichnisses (www.are.zh.ch) — eine
   Weilerzone eroeffnet beschraenkte Bau-/Umnutzungsmoeglichkeiten, wo sonst Art. 24 ff. RPG sperrt.
 - **Grundwasserschutzzone S1/S2/S3**: bei Parzellen in Schutzzonen frueh die OEREB-Schutzzone ziehen

@@ -101,6 +101,14 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Baubewilligung). **Art. 38a RPG ist etwas anderes** (Uebergangsbestimmungen 2012) — Erlass beim
   Zitieren immer mitfuehren. Noch nicht erschlossen: Art. 24bis, 24quinquies, 24c-bis RPG (alle
   neu) und die Absatzaenderungen an Art. 3/5/15/20/23/24d/24e/27a RPG.
+  ⚠ **Praezisiert Buch-Run 143 (2026-09-14): RPG 2 trat in ZWEI Etappen in Kraft** — 1.1.2026
+  (u. a. Art. 16, 18a, 24-24e, 25 Abs. 5) und **1.7.2026** (Stabilisierungsziel Art. 1 Abs. 2
+  lit. bter/bquater + 8d, **Abbruchpraemie Art. 5a**, Art. 8c/18bis, Art. 18 Abs. 1bis, **Art. 25
+  Abs. 3/4**, Art. 37a Abs. 2, Uebergang **Art. 38b**, Art. 38 aufgehoben); RPV-Etappe 1.7.2026
+  (Art. 25a-25g, 33a, **43 Abs. 4-8**, **43b/43c Baupolizei**, 43d/43e). «Art. 20/23» im Inventar
+  waren Gliederungstitel-Fussnoten. Separat: **RPG-Aenderung 1.4.2026** (AS 2026 99: Art. 8 Abs. 2
+  Satz 2 und Abs. 4, Art. 18b), die in der Fedlex-Konsolidierung Stand 1.7.2026 **fehlt**. Beleg
+  `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`.
   Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a). Teil 2 siehe unten.
 - [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]] — Kap. 21 Teil 2 / **Schluss** (S. 1504-1513):
   **zonenfremde Gewerbebauten Art. 37a RPG / Art. 43 RPV** (Stichtag **1.1.1980**, Erweiterung **max. 30 %**
@@ -289,7 +297,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   grundeigentuemerverbindlich (Art. 21 RPG), **Grundzonenplan 1:5000 / Ergaenzungsplaene** (§§ 4/10 VDNP,
   OEREB), **numerus clausus der Bauzonentypen § 48 Abs. 2 PBG** (Kern § 50 / Quartiererhaltung § 50a /
   Zentrum § 51 / Wohn § 52 / Industrie-Gewerbe § 56 — Heime/Hotels ausgeschlossen / oeff. Bauten § 60 /
-  Erholung § 61 / Freihalte § 39,62 / Reserve § 65 / **Weiler Art. 33 RPV ≥ 10 Geb.**), **Neueinzonungs-
+  Erholung § 61 / Freihalte § 39,62 / Reserve § 65 / **Weiler Art. 33 RPV, Richtplan ZH mind. 5-10 Geb.** — korrigiert Buch-Run 143, stand «≥ 10»; dazu Freihaltezone «Art. 24f RPG» → **Art. 24 ff. RPG** (innen liegende Freihaltezonen, BEZ 2014 Nr. 38)), **Neueinzonungs-
   Kriterien Art. 15 Abs. 4 RPG** (4 kumulativ), **Arealueberbauung §§ 69-73 PBG** (Bonus gegen Gestaltung,
   «Ringling» BGer 1C_313/2015), Waldbegriff § 2 WaG-ZH (800 m²/12 m/20 J.), Grundwasserschutzzonen
   S1/S2/S3. 12 Doppelseiten (Shot 76/S. 150-151 offen, OneDrive-I/O-Fehler). Status: `emerging`
