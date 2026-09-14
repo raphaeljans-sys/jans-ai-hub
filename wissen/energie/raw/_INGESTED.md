@@ -476,3 +476,23 @@ und stabil adressierbar sind):
   Anzeigenamen ab), S. 42/43 als Bild.
 Ergebnis → `destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` berichtigt,
 `wissen/normen/destillate/sia-180-2014.md` um Ziff. 5.2.4.6-5.2.4.8 ergänzt, FAQ F293/F294 neu.
+
+## 2026-09-14 (Run 196) — A-BLIND ZEV-Mieterrechte: fünf Primärquellen, kein neues Destillat
+
+Gelesen per `pdftotext -layout` (Arbeitskopien im Session-Scratchpad, nicht in `raw/` abgelegt,
+Quellen öffentlich und stabil adressierbar; Fedlex über die `fedlex.data.admin.ch`-Filestore-Route,
+Konsolidierungsdaten durchprobiert, siehe `docs/referenz/fedlex-volltexte.md`):
+- EnG SR 730.0, ELI `cc/2017/762`, Snapshot **20260401** (Stand 1.4.2026; 634'049 B, SHA-256 `6eed928d6577fa2f…`),
+  Art. 16-18; gegen Snapshot 20260101 gedifft: Art. 16-18 wortgleich (nur Fussnotennummern).
+- EnV SR 730.01, ELI `cc/2017/763`, Snapshot **20260701** (Stand 1.7.2026; 755'804 B, `87b74101dee3074d…`),
+  Art. 14-18; gegen 20260101 gedifft: wortgleich. Keine Snapshots 20260201-0601 / 20260801-0901.
+- StromVV SR 734.71, ELI `cc/2008/226`, Snapshot **20260701** (825'505 B, `7f7092d6f0cc2575…`), Art. 11 Abs. 2/2bis.
+- VMWG SR 221.213.11, ELI `cc/1990/835_835_835`, Snapshot **20251001** (Stand 1.10.2025; 226'776 B,
+  `fbd70ca9b77b6312…`), Art. 6b (Fassung seit 1.1.2025) und Art. 14; neuere Snapshots 2026 nicht vorhanden.
+- BFE, Erläuternder Bericht zur EnV-Änderung (Mantelerlass), `pubdb.bfe.admin.ch/de/publication/download/11639`
+  (971'206 B, `7785a8bfa499abe6…`), S. 20/21 zu Art. 16-16b.
+- VSE «Handbuch Eigenverbrauchsregelung» HER-CH 2025, `swissolar.ch/01_wissen/wirtschaftlichkeit/zev/handbuch-eigenverbrauchsregelung-her-2025.pdf`
+  (1'797'231 B, `7c62e18416029b36…`), Ziff. 3.5.4 und 4.4.
+Ergebnis → `destillate/zev-mieter-strompreis-eigenverbrauch.md` (Mieterrechte neu gefasst, Rechtsstand
+nachgeführt), `destillate/zev-eigenverbrauch-mfh-her-2025.md` (Quellenkante 3-Monats-Fenster), FAQ F32
+berichtigt, F295 neu, `wiki/pv-eigenverbrauch-zev.md` berichtigt.

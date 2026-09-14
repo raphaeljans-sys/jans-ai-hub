@@ -1,7 +1,7 @@
 ---
 title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
-last_updated: 2026-08-30
+last_updated: 2026-09-14
 datenstand: "2023 (ältester zitierter Quellenstand: EnergieSchweiz/Zogg-Planungsgrundlagen «Wärmepumpen, Photovoltaik und Elektromobilität», Version 2.0, 02.07.2023, Basis Forschungsprojekt OPTEG 2016-2021 — trägt Hebel 1 «technisch: WP-Lastmanagement»; die stromrechtlichen Hebel 2/3 ZEV/vZEV/LEG stützen sich auf jüngere Quellen ab 2024/2025 und altern laut Artikeltext selbst schnell, verändern den ältesten Stand aber nicht)"
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[heizleistung-und-waermeerzeuger]], [[elektromobilitaet-ladeinfrastruktur]], [[batteriespeicher]]
@@ -46,10 +46,17 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
   **pauschal ≤ 80 %** dieses Tarifs (ohne Kostennachweis; garantierte 20 % Mieter-Ersparnis) oder **effektiv
   nach Gestehungskosten** (reale Kosten minus Einspeiseerlös, gedeckelt aufs Standardprodukt; bei tieferen
   Kosten höchstens die **halbe Ersparnis** zusätzlich). Einrechenbar: PV-Produktionskosten, Messtarife,
-  Dienstleistergebühr, Netzstrom 1:1. Mieter haben ein **Wahlrecht** bei ZEV-Gründung + Anfechtungsrecht;
-  keine Überwälzung über den Nettomietzins. Berechnung mit dem EnergieSchweiz-Excel (2024-03-11).
+  Dienstleistergebühr, Netzstrom 1:1. Berechnung mit dem EnergieSchweiz-Excel (2024-03-11).
   → [[zev-mieter-strompreis-eigenverbrauch]] (EnergieSchweiz-Leitfaden/lokalerstrom.ch, primaerquellen-
-  verifiziert EnV Art. 16b Abs. 2/3, in Kraft seit 1.1.2025).
+  verifiziert EnV Art. 16b Abs. 2/3, in Kraft seit 1.1.2025; Stand 1.7.2026 am 14.09.2026 bestätigt).
+- **Mieterrechte (am Gesetz berichtigt 14.09.2026, Run 196):** Wahlrecht **nur bei der Einführung**
+  (Art. 17 Abs. 3 EnG; 3-Monats-Fenster ist VSE-Vorgabe, HER Ziff. 4.4), danach und für später
+  Einziehende Austritt nur bei mangelnder Versorgung oder Preisverstoss (Art. 16 Abs. 2/3 EnV,
+  3 Monate Voranzeige); ZEV-Kosten sind Nebenkosten (Art. 6b VMWG); Einführungskosten trägt der
+  Eigentümer (Art. 17 Abs. 4 EnG). Die frühere Kurzformel «keine Überwälzung über den
+  Nettomietzins» war zu weit: ob die PV-Investition parallel als Mehrleistung (Art. 14 Abs. 2
+  Bst. d VMWG) in den Mietzins darf, ist offen (E-R196-1). Das 3-Monats-Fenster steht nur im
+  VSE-Handbuch, nicht im Gesetz, siehe den Abschnitt unten zur Reichweite des HER. → [[F295]]
 
 ### ⚠ Wenn der Netzbetreiber abwinkt: das Handbuch des VSE ist kein Gesetz (Stand 30.08.2026)
 

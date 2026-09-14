@@ -2815,3 +2815,17 @@ am Normtext geschlossen, Bringschuld an `normen` erfüllt. FAQ F293/F294 neu, F8
 danach A-BLIND auf das nächste nie gegengelesene `established`-Destillat der Ränge 56-70
 (Kandidaten: `sia-2001-waermedaemmstoffe-lambda`, `fenster-energieetikette-fea-bfe`,
 `clt-bauteilkatalog-stora-enso`).
+
+## Run 196 (14.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 72: ZEV-Mieterrechte am Gesetz
+
+Kein PDF-Transfer (Inventar erschöpft). Nach Runs 192-195 (SIA 2001, Energieetikette Fenster, CLT)
+das nächste nie gegengelesene Rechtsdestillat gewählt: `zev-mieter-strompreis-eigenverbrauch`.
+Die Preisregel hielt am Stand EnV 1.7.2026; der Mieterrechte-Abschnitt, 2026-07-05 aus Web-Sekundärquellen
+übernommen und bei der Primärverifikation vom 24.08. nicht mitgeprüft, war an drei Stellen falsch oder zu
+weit. Lehre (Methode): eine Primärverifikation, die nur die **gesuchte** Stelle prüft (dort die
+Artikelnummer der Preisregel), hebt den Status des ganzen Destillats, ohne die Nachbarabschnitte zu
+tragen. Wer `established` vergibt, prüft jeden Abschnitt mit Rechtsaussage oder vermerkt, welche nicht.
+F295 neu, F32 berichtigt.
+
+**Nächster Zuschnitt:** A-BLIND Rang 69 `swissolar-stp-vkf-brandschutz-solaranlagen` (zuerst Ausgabe
+prüfen: STP v4.0 noch geltend?), danach Rang 64 `private-kontrolle-zh`.

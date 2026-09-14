@@ -2,10 +2,10 @@
 quelle: «Handbuch Eigenverbrauchsregelung (HER) — Umsetzung der Eigenverbrauchsregelung», HER-CH 2025
 herausgeber: Verband Schweizerischer Elektrizitätsunternehmen VSE (Netzwirtschaftskommission), Aarau; Branchendokument (Werkzeug/Software) zum VSE-Regelwerk
 ausgabe: HER-CH 2025, verabschiedet durch VSE-Geschäftsleitung 10.02.2025
-gelesen: 2026-07-04 (S. 1-12: Ziel, Definitionen, Ausgangslage/Entwicklung ZEV↔vZEV); 2026-08-24 (S. 13-39 vollständig nachgelesen, A-BLIND-Verifikation: Erheblichkeitsschwelle, Rechte/Pflichten, Kostentragung, Anschluss-Beispiele A1-A3, Checkliste)
+gelesen: 2026-07-04 (S. 1-12: Ziel, Definitionen, Ausgangslage/Entwicklung ZEV↔vZEV); 2026-08-24 (S. 13-39 vollständig nachgelesen, A-BLIND-Verifikation: Erheblichkeitsschwelle, Rechte/Pflichten, Kostentragung, Anschluss-Beispiele A1-A3, Checkliste); 2026-09-14 (Run 196: Ziff. 3.5.4/4.4 erneut am PDF swissolar.ch gelesen und gegen EnG Art. 17 Stand 1.4.2026 / EnV Art. 16-18 Stand 1.7.2026 gehalten)
 datenstand: Rechtsbasis EnG (30.09.2016) + revidierte EnV, beide Stand 01.01.2025 (Stromgesetz/«Mantelerlass»); ⚠ schnell alternd (LEG-Einführung)
 status: established
-last_updated: 2026-08-30
+last_updated: 2026-09-14
 ---
 
 # ZEV / vZEV — Solarstrom im Mehrfamilienhaus vermarkten (VSE HER-CH 2025)
@@ -99,6 +99,17 @@ Bauherrschaft. Diese Pruefung gehoert **vor** der Wirtschaftlichkeitsrechnung, n
   nach Art. 11 StromVV (das faktisch nur bei einem Jahresverbrauch der Verbrauchsstelle **> 100 MWh**
   greift — fuer eine einzelne Mietwohnung praktisch nie). Bei Neubauten ohne bestehende Mietvertraege
   entfaellt die Wahlrechts-Vorgabe, der Eigentuemer kann den Zusammenschluss frei vorsehen.
+  ⚠ **Quellenkante präzisiert 14.09.2026 (Run 196, am Gesetz gelesen):** das **3-Monats-Fenster**
+  steht so im HER (Ziff. 4.4 (1), «innerhalb eines Zeitraums von 3 Monaten einmalig») und wird
+  dort Art. 17 Abs. 3 EnG zugeschrieben. **Art. 17 Abs. 3 EnG (Stand 1.4.2026) nennt selbst keine
+  Frist**, nur «bei der Einführung»; die 3 Monate im Gesetz sind die Meldefrist an den
+  Netzbetreiber (Art. 18 Abs. 1 EnV) und die Kündigungsfrist beim Austritt (Art. 16 Abs. 3 EnV).
+  Die Frist ist damit Branchenvorgabe, kein Gesetzeswortlaut. Die abschliessenden Austrittsgründe
+  und die Form stehen in **Art. 16 Abs. 2/3 EnV** (Netzzugang, fehlende Versorgung oder Verstoss
+  gegen die Preisregeln Art. 16a/16b; 3 Monate im Voraus, schriftlich, begründet). Mieter, die in
+  einen bestehenden ZEV einziehen: gleiche Rückkehrschranke (HER Ziff. 4.4 (5)). Die 100 MWh
+  stehen in Art. 11 Abs. 2 StromVV (Stand 1.7.2026). Volle Fassung:
+  [[zev-mieter-strompreis-eigenverbrauch]], Abschnitt «Mieterrechte».
 
 ## Abgrenzung LEG (neu) — bewusst NICHT hier
 Die **Lokale Elektrizitaetsgemeinschaft (LEG)** — das dritte, mit dem Stromgesetz neu geschaffene Instrument

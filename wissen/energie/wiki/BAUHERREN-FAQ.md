@@ -1,7 +1,7 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
+last_updated: 2026-09-14 (Run 196: **F295 neu** «Vermietetes MFH mit ZEV — müssen die Mieter mitmachen, können sie aussteigen?» (Art. 17 Abs. 3 EnG, Art. 16/18 EnV Stand 1.7.2026, Art. 6b VMWG); **F32 berichtigt** — Mieterrechte am Gesetz neu gefasst, Wahlrecht nur bei Einführung, «keine Nettomiet-Überwälzung» auf Einführungskosten eingegrenzt. Vorher: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
   **F258 neu** «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein?» —
   Free-Cooling via Erdsonde/Grundwasser loest die Pflicht zur automatischen Sonnenschutz-
   Steuerung NICHT aus (EN-102 Jan. 2020 Kap. 8.1, Ausloeser ist die Kaeltemaschine);
@@ -1579,9 +1579,14 @@ Zwei Wege — (1) **pauschal höchstens 80 %** des normalen Tarifs (kein Kostenn
 Mieter-Ersparnis von 20 %) oder (2) **effektiv nach Gestehungskosten** (reale Kosten minus Einspeiseerlös,
 Deckel = Standardtarif; liegen die Kosten tiefer, darf **höchstens die Hälfte der Ersparnis** zusätzlich
 verrechnet werden). Einrechenbar: PV-Produktionskosten, Messtarife, Dienstleistergebühr, Netzstrom 1:1 —
-alles zusammen unter der Obergrenze. **Mieterrechte:** bestehende Mieter haben ein **Wahlrecht** bei ZEV-
-Gründung, können den Preis bei der Schlichtungsbehörde anfechten; die PV-Kosten dürfen **nicht** über
-den Nettomietzins überwälzt werden. Rechnen mit dem **EnergieSchweiz-Excel** (Stand 2024-03-11) →
+alles zusammen unter der Obergrenze. **Mieterrechte (am Gesetz berichtigt 14.09.2026):** bestehende
+Mieter entscheiden **einmal, bei der Einführung**, ob sie mitmachen oder beim Netzbetreiber bleiben
+(Art. 17 Abs. 3 EnG; der VSE gibt dafür ein 3-Monats-Fenster vor). Wer dabei ist oder später einzieht,
+kann nur austreten, wenn der Eigentümer nicht angemessen versorgt oder die Preisregeln verletzt
+(Art. 16 Abs. 2 EnV, 3 Monate Voranzeige, schriftlich, begründet), → [[F295]]. Die ZEV-Kosten laufen
+als **Nebenkosten** (Art. 6b VMWG). Die **Einführungskosten** (Umverdrahtung, Zählerumbau) trägt der
+Eigentümer und darf sie nicht unmittelbar den Mietern überwälzen (Art. 17 Abs. 4 EnG); doppelt über
+Miete und Strompreis verrechnen ist unzulässig. Rechnen mit dem **EnergieSchweiz-Excel** (Stand 2024-03-11) →
 `[[zev-mieter-strompreis-eigenverbrauch]]`.
 
 **Nicht verwechseln:** die **Lokale Elektrizitätsgemeinschaft (LEG)** — Stromverkauf über das
@@ -3731,7 +3736,7 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > Produktion; vs. ZEV = hinter dem Anschluss, abgabenfrei → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`,
 > EKZ/VSE). Zugleich **F32 geschärft** um die **konkrete Mieter-Preisregel**: max. 80 % des externen
 > Standardtarifs (pauschal) oder Gestehungskosten minus Einspeiseerlös mit halber Ersparnis-Teilung;
-> Mieter-Wahlrecht + Anfechtung, keine Nettomiet-Überwälzung → `[[zev-mieter-strompreis-eigenverbrauch]]`
+> Mieter-Wahlrecht + Anfechtung, keine Nettomiet-Überwälzung (⚠ historischer Wortlaut, am 14.09.2026 am Gesetz berichtigt, siehe F32/F295) → `[[zev-mieter-strompreis-eigenverbrauch]]`
 > (EnergieSchweiz-Leitfaden/lokalerstrom.ch, EnV Art. 16). Zuvor am 2026-07-04: **F31 ‹Lohnt sich PV zusammen
 > mit einer Wärmepumpe — Solarstrom selbst nutzen?›** (WP als thermischer Speicher via EMS, solarer
 > Deckungsgrad ~verdoppelbar, Sommer-WW 100 % aus PV; Batterie lohnt sich vorerst nicht/hilft im Winter
@@ -9881,3 +9886,50 @@ für städtische Bauten). Destillat `[[sommerlicher-waermeschutz-sia180-nachweis
 **established** für die Normwerte; das Rechenbeispiel 30 m²/3 m² ist eine eigene Anwendung. Die
 Aussage zur Sonnenschutzverglasung ist eine Einordnung ohne Kennwert. Datenstand 11.09.2026.
 Verwandt: [[F88]], [[F145]], [[F11]], [[sommerlicher-waermeschutz]].
+
+## F295 — «Ich will auf meinem vermieteten Mehrfamilienhaus einen ZEV. Müssen die Mieter mitmachen, und können sie später wieder aussteigen?»
+
+**Kurz:** Bestehende Mieter dürfen **einmal** entscheiden, nämlich wenn Sie den ZEV einführen: mitmachen
+oder beim Elektrizitätswerk bleiben. Wer mitmacht, und wer später in eine Wohnung mit bestehendem ZEV
+einzieht, ist grundsätzlich dabei. Aussteigen kann ein Mieter nur, wenn Sie ihn nicht verlässlich mit Strom
+versorgen oder mehr verrechnen, als die Preisregel erlaubt. Dann wechselt er mit drei Monaten Voranzeige
+zurück zum Netzbetreiber, und die Kosten dieses Wechsels tragen Sie.
+
+**Fachlich:** Art. 17 Abs. 3 EnG (Stand 1.4.2026): Mieter und Pächter können sich «bei der Einführung» des
+gemeinsamen Eigenverbrauchs für die Grundversorgung nach Art. 6/7 StromVG entscheiden; später nur noch,
+wenn der Eigentümer seinen Versorgungspflichten nach Abs. 2 nicht nachkommt. Das Gesetz nennt keine Frist;
+das VSE-Handbuch HER-CH 2025 (Ziff. 4.4 (1)) gibt dafür ein einmaliges Fenster von 3 Monaten vor, und die
+Bildung des ZEV samt teilnehmender Mieter ist dem Netzbetreiber 3 Monate im Voraus zu melden (Art. 18
+Abs. 1 Bst. a EnV). Wer in einen bestehenden ZEV einzieht, hat kein Wahlrecht (HER Ziff. 4.4 (5)); bei
+Neubauten ohne abgeschlossene Mietverträge entfällt es ganz (HER Ziff. 3.5.4 (3)). Austritt nach Art. 16
+Abs. 2 EnV (Stand 1.7.2026) abschliessend aus zwei Gründen: (a) Anspruch auf Netzzugang, der erst ab
+100 MWh Jahresverbrauch besteht (Art. 11 Abs. 2 StromVV) und für Wohnungen praktisch entfällt; (b) keine
+angemessene Versorgung oder Verstoss gegen die Preisregeln Art. 16a/16b EnV. Mitteilung 3 Monate im Voraus,
+schriftlich und begründet (Abs. 3); der Netzbetreiber nimmt den Mieter innert 3 Monaten in die
+Grundversorgung auf (Art. 18 Abs. 2), die Kosten trägt der Eigentümer (Art. 18 Abs. 4). Schriftlich
+festzuhalten sind mindestens: Vertretung nach aussen, Messung/Datenbereitstellung/Abrechnung, extern
+bezogenes Stromprodukt und Modalitäten beim Wechsel (Art. 16 Abs. 1 EnV). Die ZEV-Kosten nach
+Art. 16a/16b EnV verrechnet der Vermieter als Nebenkosten (Art. 6b VMWG). Die Kosten der Einführung trägt
+der Eigentümer, soweit nicht über das Netznutzungsentgelt gedeckt, und darf sie nicht unmittelbar auf die
+Mieter überwälzen (Art. 17 Abs. 4 EnG).
+
+**Bauherren-Transfer:** Die Einführung ist der einzige Moment, in dem die Mieter frei wählen. Legen Sie
+darum allen Mietern vorab ein schriftliches Angebot mit Preis (z. B. «höchstens 80 % des Standardtarifs»),
+Abrechnungsweg und Vertretung vor. Wer ablehnt, bleibt beim Netzbetreiber; beim **virtuellen ZEV** geht
+das ohne Umbau, weil nur die Zähler der Teilnehmenden zusammengefasst werden. Die Preisregel ist zugleich
+Ihre Austrittsschwelle: wer über den Deckel verrechnet, gibt dem Mieter das Recht zum Wechsel auf eigene
+Kosten. Einführungskosten (Umverdrahtung, Zählerumbau, Einrichtung des Abrechnungsdienstleisters) gehören
+in Ihre Investitionsrechnung, nicht in die Mieterabrechnung. Nicht geklärt ist, ob die PV-Investition
+zusätzlich als energetische Mehrleistung (Art. 14 Abs. 2 Bst. d VMWG) in den Mietzins darf, wenn der
+Solarstrom bereits über den ZEV-Preis verrechnet wird; bis zu einer mietrechtlichen Klärung nicht doppelt
+verrechnen.
+
+**Quelle + Datenstand:** EnG (SR 730.0) Art. 17 Stand 1.4.2026; EnV (SR 730.01) Art. 16, 16a, 16b, 18
+Stand 1.7.2026; StromVV (SR 734.71) Art. 11 Stand 1.7.2026; VMWG (SR 221.213.11) Art. 6b und 14 Stand
+1.10.2025; alle am 14.09.2026 als Fedlex-PDF gelesen (Run 196). VSE «Handbuch Eigenverbrauchsregelung»
+HER-CH 2025 (verabschiedet 10.02.2025), Ziff. 3.5.4 und 4.4, am PDF gelesen. Destillate
+`[[zev-mieter-strompreis-eigenverbrauch]]` (A-BLIND-Gegenlese 14.09.2026), `[[zev-eigenverbrauch-mfh-her-2025]]`.
+Status **established** für die Gesetzesaussagen; das 3-Monats-Fenster ist Branchenvorgabe; die
+Schlichtungsbehörde als Streitweg ist Einordnung über Art. 6b VMWG (Verfahrensrecht nicht geprüft); die
+Mehrleistungsfrage ist offen (E-R196-1). Datenstand 14.09.2026. Mietrechtliche Detailfragen → Skill
+`baurecht` bzw. Mietrechtsfachperson. Verwandt: [[F32]], [[F33]], [[pv-eigenverbrauch-zev]].

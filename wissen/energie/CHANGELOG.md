@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-09-14 (Run 196, Abendlauf Mac Mini) — A-BLIND Rang 72: ZEV-Mieterrechte am Gesetz neu gefasst, Preisregel am Stand 1.7.2026 bestätigt
+
+Kein PDF-Transfer (Inventar seit Run 65 erschöpft; der Auftragstext der Scheduled Task nennt noch
+«6-10 PDFs» und das Backlog F3-F9, beides ist überholt, der Antrieb ist seit 24.08.2026 die
+Prüfwarteschlange nach `training/PROGRAMM.md`). Backlink-Ranking neu gezogen, Ränge 57-72 auf
+frühere Gegenlesung abgeglichen, gewählt `destillate/zev-mieter-strompreis-eigenverbrauch.md`
+(10 Backlinks, established). Gelesen am Original: EnG Stand 1.4.2026, EnV Stand 1.7.2026, StromVV
+Stand 1.7.2026, VMWG Stand 1.10.2025 (alle Fedlex), Erläuternder Bericht BFE S. 20/21, VSE HER-CH 2025
+Ziff. 3.5.4/4.4.
+
+- **Bestätigt:** Art. 16a/16b EnV (80-%-Pauschale, Gestehungskosten, Deckel, halbe Differenz)
+  wortgleich am Stand 1.7.2026; EnV Art. 14-18 und EnG Art. 16-18 gegen die Vorgängerkonsolidierung
+  gedifft, nur Fussnotennummern verschieden.
+- **Berichtigt (P2), `destillate/zev-mieter-strompreis-eigenverbrauch.md`:** Mieterrechte neu gefasst.
+  Wahlrecht nur bei der Einführung (Art. 17 Abs. 3 EnG), nicht «für die laufende Mietdauer»;
+  Austrittsgründe und Form nachgetragen (Art. 16 Abs. 2/3, Art. 18 Abs. 2/4 EnV); ZEV-Kosten als
+  Nebenkosten (Art. 6b VMWG); das Überwälzungsverbot auf die Einführungskosten eingegrenzt
+  (Art. 17 Abs. 4 EnG); schriftliche Mindestregelung (Art. 16 Abs. 1 EnV). Art. 16a Abs. 2
+  präzisiert (Messkosten des Zusammenschlusses ausgenommen). Frontmatter auf die geltenden
+  Konsolidierungen nachgeführt, Verdikt-Tabelle und Bauherren-Transfer ergänzt.
+- **Präzisiert, `destillate/zev-eigenverbrauch-mfh-her-2025.md`:** das «3-Monats-Fenster (Art. 17
+  Abs. 3 EnG)» ist HER-Wortlaut; das Gesetz nennt keine Frist. Quellenkante vermerkt.
+- **Wiki:** FAQ **F32** berichtigt, **F295 neu** (Mieter im ZEV: mitmachen, aussteigen, wer zahlt),
+  `wiki/pv-eigenverbrauch-zev.md` Mieterrechte-Bullet berichtigt und Belegzeiger an die richtige
+  Stelle gesetzt, FAQ-Historienzeile mit ⚠-Vermerk. `wiki/INDEX.md` 295 Kernfragen.
+- **Register:** `raw/_INGESTED.md` (Quellen mit Grösse/SHA-256), `destillate/INDEX.md`,
+  `wiki/QUESTIONS.md` (E-R196-1 Mehrleistung VMWG 14 neben ZEV-Preis offen → Skill `baurecht`;
+  E-R196-2 3-Monats-Fenster ohne Gesetzesgrundlage), `training/curriculum.md`.
+- **Werkzeuge:** `wiki-konsistenz.sh energie` und `kennwert-recompute.sh energie` je 0 Befunde.
+
 ## 2026-09-13 (Run 195, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): clt-bauteilkatalog-stora-enso am Original geprüft, echter Fehler in Dach-Variante 6 gefunden und korrigiert
 
 Nächster A-BLIND-Kandidat aus Run 194 (`clt-bauteilkatalog-stora-enso`, Rang 56-70) bearbeitet.

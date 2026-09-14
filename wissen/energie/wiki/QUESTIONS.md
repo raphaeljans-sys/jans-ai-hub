@@ -2,6 +2,49 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 196 (14.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 72: ZEV-Mieterrechte am Gesetz, Preisregel bestätigt
+
+Backlink-Ranking neu gezogen (348 Destillate). Ränge 57-72 auf frühere A-BLIND-Prüfung abgeglichen
+(QUESTIONS/CHANGELOG/Gegenlese-Vermerk im Destillat); gewählt `[[zev-mieter-strompreis-eigenverbrauch]]`
+(10 Backlinks, `established`, Rechtsthema mit Mieterwirkung, Mieterrechte-Abschnitt nie am Gesetz
+gegengelesen). Gelesen: EnG Stand 1.4.2026, EnV Stand 1.7.2026, StromVV Stand 1.7.2026, VMWG Stand
+1.10.2025, Erläuternder Bericht BFE, VSE HER-CH 2025 (Register `raw/_INGESTED.md`).
+
+**Bestätigt:** Preisregel Art. 16b Abs. 2/3 EnV (80 %, Gestehungskosten, Deckel, halbe Differenz) und
+die Trennung 16a/16b wortgleich am Stand 1.7.2026. **Sechste Prüfung (Ausgabe):** das Destillat führte
+«EnV Stand 1.1.2026»; es gibt die Konsolidierungen EnG 1.4.2026 und EnV 1.7.2026, beide für Art. 14-18
+EnV / 16-18 EnG wortgleich (gedifft). **Beanstandet und berichtigt (P2):** (1) Wahlrecht «für die
+laufende Mietdauer» steht in keiner Quelle; Art. 17 Abs. 3 EnG: einmalig bei der Einführung, danach nur
+bei Pflichtverletzung. (2) Austrittsgründe und Form (Art. 16 Abs. 2/3 EnV) fehlten. (3) «PV-Kosten nicht
+als höherer Nettomietzins» war zu weit: Art. 17 Abs. 4 EnG betrifft die Einführungskosten; ZEV-Kosten
+sind Nebenkosten nach Art. 6b VMWG. **Präzisiert (P4):** Art. 16a Abs. 2 nimmt die Messkosten des
+Zusammenschlusses von der verbrauchsabhängigen Verrechnung aus. **Schwesterdestillat** `[[zev-eigenverbrauch-mfh-her-2025]]`:
+«3-Monats-Fenster (Art. 17 Abs. 3 EnG)» ist HER-Wortlaut, das Gesetz nennt keine Frist → Quellenkante
+vermerkt. Folgestellen F32, `wiki/pv-eigenverbrauch-zev.md` berichtigt; F295 neu. Grep-Abschlussregel:
+alte Formeln nur noch in Korrekturvermerken, CHANGELOG und Alt-Reports (FAQ-Historienzeile Z. ~3739
+mit ⚠-Vermerk versehen).
+
+- [ ] **E-R196-1 (P3, Mietrecht, → Skill `baurecht`): PV-Investition als Mehrleistung im Mietzins UND
+  ZEV-Strompreis nach Art. 16b EnV?** Art. 14 Abs. 2 Bst. d VMWG erlaubt Mietzinserhöhungen für
+  «Massnahmen zum Einsatz erneuerbarer Energien». Ob das neben der ZEV-Verrechnung der Kosten der intern
+  produzierten Energie zulässig ist, beantworten EnG/EnV/VMWG, Erläuternder Bericht und HER nicht (das
+  Doppelverbot im Bericht betrifft nur das interne Verteilnetz). Nächster Weg: mietrechtliche Lehre/
+  Praxis (BWO, Schlichtungsbehörden-Praxis, HEV/MV-Merkblätter) über Skill `baurecht`. Cross-KB-grep
+  14.09.2026 («VMWG», «Mehrleistung», «269a») über alle KBs: kein Mietrechtsbestand ausserhalb
+  `energie` (der Treffer in `baurecht/wiki/raumplanung-und-gestaltung.md` meint die planungsrechtliche
+  Mehrleistung). KB-intern ein Analogiefall: beim Wärme-Contracting muss die Anlage aus dem
+  Nettomietzins herausgerechnet werden, wenn ihre Kosten als Nebenkosten laufen (Art. 6a VMWG,
+  `[[waerme-contracting-vertragsmodelle-ch]]`). Das stützt das Doppelverbot sinngemäss, ist aber kein
+  Beleg für den ZEV-Fall (Art. 6b VMWG enthält keine solche Klausel).
+- [ ] **E-R196-2 (P4, Hinweis): Das 3-Monats-Wahlfenster ist nur Branchenvorgabe.** Die ElCom hat andere
+  HER-Zusatzvoraussetzungen als gesetzlos bezeichnet (`wiki/pv-eigenverbrauch-zev.md`, Abschnitt «Wenn
+  der Netzbetreiber abwinkt»). Zum Wahlfenster liegt keine ElCom-Aussage vor; bei nächster Prüfung der
+  ElCom-FAQ (Update-Stand > 16.06.2026) gezielt danach suchen.
+- [x] **A-BLIND Rang 72:** ✓ 14.09.2026. **Nächster Kandidat:** Rang 69
+  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` (10 Backlinks, `established` seit 18.06.2026, nie
+  gegengelesen; zuerst sechste Prüfung: gibt es eine neuere Ausgabe als STP v4.0?), danach Rang 64
+  `[[private-kontrolle-zh]]`.
+
 ## Run 195 (13.09.2026, Nachtschicht Mac Mini) — A-BLIND Rang 56 (Fortsetzung): clt-bauteilkatalog-stora-enso am Original geprüft, echter Fehler gefunden
 
 `[[clt-bauteilkatalog-stora-enso]]` (`established` seit 23.08.2026, nie einzeln gegengelesen)
