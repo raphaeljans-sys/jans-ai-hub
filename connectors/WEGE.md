@@ -1144,3 +1144,23 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   (`ls -le` zeigt sie). Weg: `chmod -RN <ordner>`, dann `rm -rf` auf den exakten Pfad, ohne sudo.
   Erste Hilfe und Neustart (August-Weg) sind dafür nicht nötig. Muster:
   `~/OneDrive-Quarantaene-260910/huellen-entfernen.sh`.
+
+## Nachtrag 14.09.2026 — Papierkorb lässt sich nicht leeren: verwaiste OneDrive-Platzhalter (SF_DATALESS)
+
+- **Befund:** `~/.Trash/OneDrive-Quarantaene-260910/Library-GroupContainers/…OneDriveSyncClientSuite/…noindex`
+  (68 Objekte, 0 Blöcke belegt) lässt sich im Finder nicht leeren. Keine Sperr-Flags, keine ACL, alles im
+  eigenen Besitz; Finder-Log zeigt `CopyEngine Error -47 … on read` (fBsyErr) je Ordner und «Trash being
+  emptied = no». Ursache: 33 Dateien und 11 Ordner tragen das Kernel-Flag **SF_DATALESS (0x40000000)** —
+  Platzhalter einer File-Provider-Domain, die nicht mehr existiert. `stat -f '%f'` zeigt das Bit; `ls -lO`
+  zeigt es nicht. Jeder Lesezugriff scheitert (`head`: «Error reading»), darum bricht der Finder ab.
+- **Sackgasse:** `chflags`/`lchflags` können SF_DATALESS nicht entfernen (Aufruf rc 0, Flag bleibt).
+- **Sackgasse:** Materialisierung per `setiopolicy_np(IOPOL_TYPE_VFS_MATERIALIZE_DATALESS_FILES, …, OFF)`
+  abschalten hilft nicht: dann liefern open, listdir, rename und sogar touch im Ordner **EDEADLK**.
+- **Sackgasse:** die Claude-Desktop-Shell hat keinen Zugriff auf `~/.Trash` (TCC, «Operation not
+  permitted», auch via `/bin/bash -c`). Diagnose-Scripts laufen über `osascript … tell application
+  "Terminal" to do script` (Terminal.app hat Festplattenvollzugriff), Ergebnis in eine Datei schreiben.
+- **Weg:** im Normalmodus (Materialisierung Default) funktionieren `rename`, `touch` und `unlink` in den
+  Dataless-Ordnern; unlink braucht keinen Lesezugriff. Script `scripts/papierkorb-dataless-loeschen.py`
+  (Python, os.walk bottom-up, unlink + rmdir; Trockenlauf ohne Argument, `--test` für die Proben, `--ja`
+  löscht). Ausführung in Terminal.app durch Raphael (Memory «Systemschalter per Terminal statt GUI»;
+  Papierkorb leeren ist endgültig).

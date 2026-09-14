@@ -3330,3 +3330,13 @@ und die Ablage des Spiegels unter `templates/scheduled-tasks/macbook-pro/`. **We
 gegenmisst, misst beide Registries.** Offen bleibt nur: der erste planmaessige Lauf (Mo 08.09.
 04:20) hat keine Spur hinterlassen; Gegenmessung Mo 14.09.2026. Belege: SYN-76 Nachtrag Lauf 34,
 `logbuch/fristen.md` Befund 07.09. mit Nachtrag.
+
+## 260914 — Papierkorb nicht leerbar: Rest der OneDrive-Quarantäne vom 10.09. sind Dataless-Platzhalter
+
+Der am 10.09. «verschwundene» Quarantäne-Ordner liegt teilweise im Papierkorb (`~/.Trash/OneDrive-Quarantaene-260910/
+Library-GroupContainers/…`, seit 10.09. 23:59). Der Finder kann ihn nicht leeren: Fehler -47 beim Lesen, weil 33 Dateien und
+11 Ordner das Kernel-Flag SF_DATALESS tragen und keine Provider-Domain mehr dazu existiert. Keine ACL, keine Flags, kein
+fremder Eigentümer. Diagnose nur lesend aus Terminal.app (Claude-Shell hat kein TCC auf `~/.Trash`); einzige Eingriffe:
+ein Rename hin und zurück sowie eine eigene Testdatei angelegt und wieder entfernt. Lösch-Script
+`scripts/papierkorb-dataless-loeschen.py` (Trockenlauf: 33 Dateien, 34 Ordner) bereitgestellt; Ausführung mit `--ja`
+durch Raphael. Wege und Sackgassen: `connectors/WEGE.md` Nachtrag 14.09.2026.
