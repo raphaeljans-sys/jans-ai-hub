@@ -53,6 +53,50 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-15 00:58 — [FREI] **Die Aufsicht fiel 60 Stunden aus: vier Radar-Läufe sind gefeuert und am OAuth-Latch der Mini-App gescheitert, keiner ist ausgelassen worden. Beide Apps sind seit 14.09. 13:57/13:59 wieder angemeldet. Die MacBook-Fassung dieses Radars lief heute um 00:58 parallel. Neue Woche: 3.3 % verbraucht, -4.4 Punkte.**
+
+**Selbstkontrolle (Ausfall).** Der letzte Eintrag stammt vom 12.09. um 12:58, dieser Lauf beginnt 60 h später (Toleranz 15 h).
+Der Ausfalltyp ist belegt, nicht vermutet: `main.log`/`main1.log` des Mini zeigen zu jedem Radar-Slot einen Eintrag
+`Spawning new session for scheduled task vollgas-chef-radar` und unmittelbar danach `Cannot start session … session_stale_relogin`
+(13.09. 00:57 und 12:57, 14.09. 00:58 und 12:58). Der Radar hat also **gefeuert und versagt**, er wurde nicht ausgelassen.
+`lastRunAt` 14.09. 22:57Z ist dieser Lauf. Die Mini-App war ab 12.09. 22:37 im Latch (Zwischenfreigabe 14.09. 01:41 ohne Wirkung)
+und bis **14.09. 13:57:54** («sessionKey rotated»). Das MacBook folgte um 13:59:07. Auf dem Mini scheiterten elf Starts:
+energie-training 12.09. und 13.09., vollgas-fruehwarnung 13.09. und 14.09., claude-abo-auslastung 13.09., bauleitung-training 14.09.,
+heartbeat-daily 14.09. und die vier Radar-Läufe. **Achtung:** Auch ein gescheiterter Start setzt `lastRunAt`, so bei
+bauleitung-training (14.09. 02:35Z) und claude-abo-auslastung (13.09.). Die Registry zeigt beide als gelaufen. Das ist der bekannte
+Fall «Start ist nicht Lieferung». Der P1 zum MacBook vom 12.09. ist erledigt (`fristen.md` Z. 3, Synergie-Lauf 35). Die
+Mini-Hälfte führt SYN-85. Dass die Mini-App seit 13:57 wieder läuft, belegen energie-training 14.09. 22:37 (Run 196 geliefert)
+und dieser Lauf. **Keine Mail:** Raphael hat den Blocker am 14.09. selbst behoben, der Synergie-Lauf hat das registriert,
+und die Mail zum 12.09. ist schon verschickt.
+
+**Lage.** Fenster FREI. PATH-Probe `/opt/homebrew/bin/claude` (npm, Symlink 14.09. 05:15) rc=0 in **4 s**, danach keine Waisen.
+Das Wochenbudget ist nach dem Reset vom Mo 14.09. neu gestartet: **3.3 %** von 167 Mio bei **7.7 %** verstrichener Woche,
+Vorsprung **-4.4 Punkte** (Mini 1.71, MacBook 3.86 Mio, beide Dateien frisch). Ampel FREI, keine Drossel.
+Speicher Mini: Druckstufe 1, 12.3 GB frei+inaktiv+purgeable (vm_stat).
+
+**Liefer-Delta seit 12.09. 12:58 (git, Dateien unter `wissen/`):** energie 21 (Runs 193 bis 196, grösstenteils aus der
+Mini-Nachtschicht, die per CLI-Token lief und vom Latch nicht betroffen war), baurecht 17 (Buch-Run 143, MacBook 00:08),
+koordination 5, architektur-fachwissen 5, auflagebereinigung 3, normen 3, immobilienbewertung 2, planungsgrundlagen 2,
+twin 2 (vorwiegend wissens-chef Lauf 58). Die Nachtschicht Mini lief 13.09. und 14.09. je viermal mit rc=0 (1.09 bis 3.90 USD).
+Die MacBook-Lern-Loops (twin-*, normen-training-nacht) liefen seit dem Re-Login noch nicht, ihre Slots folgen heute Nacht.
+**Kein Delta-Null-Loop, der Null-Ertrag ist ausfallbedingt, kein Loop wird zurückgetaktet.**
+
+**Feuermechanismen.** Mini-Registry im Sollstand (energie-training, claude-abo-auslastung, bauleitung-training, heartbeat-daily,
+vollgas-fruehwarnung, vollgas-chef-radar aktiv, Rest deaktiviert). launchd Mini: `ch.jans.nachtschicht` geladen,
+`vollgas-supervisor` nur als `.disabled-260729`. MacBook: beide `vollgas-*`-plists `.disabled-260729` und nicht geladen.
+
+**P2 (neu, Doppellauf bestätigt):** Die MacBook-Fassung von vollgas-chef-radar hat heute um 00:58 gefeuert (Session `9e198383`, per ssh
+dem Task zugeordnet). Seit dem Re-Login laufen Radar und vermutlich auch Frühwarnung und Heartbeat doppelt, genau wie im Eintrag
+vom 12.09. angekündigt. Das kostet doppelt und birgt einen Schreibkonflikt in dieser Datei. Nicht per ssh geändert (Auftrag).
+**Aktion Raphael:** In der Claude-App auf dem MacBook die Tasks vollgas-chef-radar, vollgas-fruehwarnung und heartbeat-daily
+deaktivieren.
+**P2:** bauleitung-training (wöchentlich Mo) und claude-abo-auslastung (wöchentlich So) haben ihren Wochenlauf verloren und
+kommen erst am 20. bzw. 21.09. wieder. Wenn nötig, von Hand nachholen («Run now»). Der Radar startet keine Lern-Loops.
+**P2:** Vom 12. bis 14.09. gab es kein Tagesbriefing (hub-chef 14.09. 08:38 gescheitert). Die Frühwarnung prüft heute um 06:25, ob
+logbuch-radar (06:55) und hub-chef (08:39) wieder liefern.
+**P3:** Messhinweis: `FRUEHWARNUNG.md` trägt als obersten Eintrag den 23.08. Die Frühwarnung schreibt ihre Läufe also woanders
+hin. Schritt 1 dieses Auftrags liest dort keinen aktuellen Stand.
+
 ## 2026-09-12 12:58 — [FREI] / MacBook [LOGIN] **P1 neu: Die Claude-App auf dem MacBook Pro ist seit 11.09. 20:08 abgemeldet (OAuth «session_stale_relogin»). Zwölf Task-Starts sind gescheitert, darunter heute logbuch-radar und hub-chef. Raphael gemailt 13:01. Der Mac Mini läuft normal, Rückstand -44.1 Punkte.**
 
 **P1 (neu, nur Raphael):** `main.log` des MacBook (per ssh) zeigt ab **11.09. 20:08** `Cannot start session … OAuthError
