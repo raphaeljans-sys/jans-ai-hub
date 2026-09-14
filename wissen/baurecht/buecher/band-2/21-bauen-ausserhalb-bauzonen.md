@@ -4,11 +4,15 @@ kapitel: 21
 band: 2
 seiten: 1459-1503 (Kap.-Beginn; Kapitel reicht bis ca. 1510, Rest noch offen)
 shots: 733-755 (Shot 732 = Kap.-20-Ende S. 1456/1457)
-paragraphen: "RPG Art. 16 (inkl. Abs. 4/5 neu 1.1.2026), 16a, 16abis, 16b, 18, 18a, 22, 24, 24bis, 24quinquies, 24a, 24b, 24c, 24c-bis, 24d, 24e, 25, 25a, 27a, 34 ff., 36 ff., 37a, 38a (Uebergangsbest.!), 39, 39 Abs. 1-3, 43, 43a, 44, 45; RPV Art. 4a, 16b, 34, 34a, 34b, 36, 37, 38a (5a. Abschnitt, neu 1.1.2026); BV Art. 9, 26, 75; ZGB; BGBB Art. 5, 7, 58-60; PBG ZH §341, §357. ACHTUNG: «Art. 37a» und «Art. 38a» existieren je einmal im RPG und unterschiedlich im RPV — Erlass immer mitfuehren"
+paragraphen: "RPG Art. 16 (inkl. Abs. 4/5 neu 1.1.2026), 16a, 16abis, 16b, 18, 18a, 22, 24, 24bis, 24quinquies, 24a, 24b, 24c, 24c-bis, 24d, 24e, 25, 25a, 27a, 34 ff., 36 ff., 37a, 38a (Uebergangsbest.!), 39, 39 Abs. 1-3, 43, 43a, 44, 45; RPV Art. 4a, 16b, 25a-25g (Stabilisierung, neu 1.7.2026), 34, 34a, 34b, 36, 37, 38a (5a. Abschnitt, neu 1.1.2026), 43b-43e (Baupolizei/Abbruchpraemie, neu 1.7.2026); RPG Art. 1 Abs. 2 lit. bter/bquater, 5a, 8c, 8d, 18bis, 38b (alle neu 1.7.2026); BV Art. 9, 26, 75; ZGB; BGBB Art. 5, 7, 58-60; PBG ZH §341, §357. ACHTUNG: «Art. 37a» und «Art. 38a» existieren je einmal im RPG und unterschiedlich im RPV — Erlass immer mitfuehren"
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-09-07
+last_updated: 2026-09-14
 verifiziert:
+  - datum: 2026-09-14
+    methode: "Fassungsstand-Check (Buch-Run 143) gegen die juengeren Fedlex-Snapshots RPG Stand 1.4.2026 und 1.7.2026, RPV Stand 1.7.2026, sowie gegen die Aenderungserlasse selbst (AS 2025 640, AS 2025 659, AS 2026 99, PDF-A ueber den eli/oc-Pfad) (raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md)"
+    umfang: "Inkraftsetzung RPG 2 und RPV-Aenderung 15.10.2025; zweite Etappe 1.7.2026; RPG-Aenderung 1.4.2026 (Art. 8 Abs. 2/4, 18b); Art. 25 Abs. 3-5 RPG; Inventar Run 142"
+    ergebnis: "1 Praezisierung mit Aussenwirkung (RPG 2 in zwei Etappen: 1.1.2026 und 1.7.2026, zweite Etappe mit Stabilisierungsziel, Abbruchpraemie, Art. 18bis, Art. 25 Abs. 3/4, Art. 38b); 1 Buchstand-Nachtrag (Wiederherstellung ausserhalb Bauzone: 30-Jahre-Verjaehrung seit 1.1.2026 in Art. 25 Abs. 5 RPG); 1 Inventarberichtigung (Art. 20/23 = Gliederungstitel-Fussnoten)"
   - datum: 2026-09-07
     methode: "Fassungsstand-Check (Buch-Run 142) gegen die amtlichen Fedlex-Volltexte RPG SR 700 Stand 1.1.2026 (ELI cc/1979/1573_1573_1573, 136'450 Byte) und RPV SR 700.1 Stand 1.1.2026 (ELI cc/2000/310); Auswertung des Fussnotenapparats nach Position der Aenderungsfussnote (raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md)"
     umfang: "Art. 16 Abs. 4/5 RPG, Art. 18a RPG, Art. 24 RPG, Art. 24c RPG, Art. 38a RPG, Art. 38a RPV samt 5a. Abschnitt; Aenderungsinventar RPG 2 auf Artikelebene"
@@ -59,6 +63,29 @@ Aenderungen/Erweiterungen/Wiederaufbau.
   `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4; die dort unter Ziff. 4.3
   gelisteten Absatzaenderungen (Art. 3, 5, 15, 20, 23, 24d, 24e, 27a) sind **noch nicht
   erschlossen** und bleiben die Arbeitsliste der Folgelaeufe.
+  ⚠ **PRAEZISIERT 2026-09-14, Buch-Run 143 — RPG 2 trat in ZWEI Etappen in Kraft.** Der Satz
+  «seit 1.1.2026 in Kraft» gilt nur fuer die **erste Etappe**. Der Inkraftsetzungsvermerk in
+  AS 2025 640 setzt Art. 3, 5, 15, 16, 16a, 18a, 24, 24bis, 24ter, 24c, 24cbis, 24d, 24e,
+  **25 Abs. 5** und 27a (samt den Gliederungstiteln vor Art. 21 und 24) auf den **1.1.2026**,
+  **«die übrigen Bestimmungen» auf den 1.7.2026**. Seit dem **1.7.2026** gelten damit zusaetzlich:
+  das **Stabilisierungsziel** (Art. 1 Abs. 2 lit. bter/bquater: Zahl der Gebaeude im
+  Nichtbaugebiet und Bodenversiegelung in der ganzjaehrig bewirtschafteten Landwirtschaftszone
+  stabilisieren; Richtplan-Gesamtkonzept Art. 8d mit Referenz **Stand 29.9.2023**), die
+  **Abbruchpraemie** (Art. 5a: Abbruchkosten, bei Bauten ohne landwirtschaftliche oder
+  touristische Nutzung nur ohne Ersatzneubau, finanziert primaer aus der Mehrwertabgabe), die
+  **Nichtbauzonen mit zu kompensierenden Nutzungen** (Art. 8c/18bis), **Art. 18 Abs. 1/1bis**
+  (Nutzungszonen ausserhalb der Bauzonen; Zulassung erlischt bei Wegfall der Hauptnutzung),
+  **Art. 25 Abs. 3/4** (Baupolizei ausserhalb der Bauzonen, siehe 21.1 unten), **Art. 37a
+  Abs. 2** (altrechtliche Gast- und Beherbergungsbetriebe, siehe Teil 2) und die
+  **Uebergangsbestimmung Art. 38b** (Richtplananpassung **innert fuenf Jahren**, danach
+  Kompensationspflicht fuer **jedes weitere neue Gebaeude ausserhalb der Bauzone** bis zur
+  Genehmigung). Art. 38 RPG (Zweitwohnungs-Uebergang 2010) ist **aufgehoben**. Beleg und
+  Wortlaut: `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2.
+  **Berichtigung am Inventar oben:** «Art. 20» und «Art. 23» sind **keine** Artikelaenderungen,
+  die Fussnoten gehoeren zu den Gliederungstiteln vor Art. 21 und Art. 24 (ebd. Ziff. 5). Die
+  Arbeitsliste lautet damit Art. 3 (neuer Abs. 5, Untergrund), 15 (neuer Abs. 4bis,
+  Geruchsbestimmungen bei Ein- und Umzonungen), 24d (Abs. 3 lit. b), 24e (Abs. 6), 27a;
+  Art. 5 ist seit Buch-Run 142 in Kap. 5 nachgezogen.
   **Nicht verwechseln:** ein zweites Bundesgesetz **desselben Datums** (29. Sept. 2023, ueber
   eine sichere Stromversorgung mit erneuerbaren Energien, **AS 2024 679 / 2025 636**) tritt
   **am selben Tag** in Kraft und aendert Art. 16a, 18a, 24ter und 24quater RPG. Die AS-Nummer
@@ -79,6 +106,21 @@ Aenderungen/Erweiterungen/Wiederaufbau.
   ausserhalb Bauzone gilt eine **laengere/verschaerfte Frist** als die zonenintern
   ueblichen 30 Jahre — die 30-Jahre-Verwirkungsfrist gilt ausserhalb Bauzone
   **nicht** ohne Weiteres (BGer 1C_478/2011, BGer 1C_283/2017) (S. 1464).
+  ⚠ **FASSUNGSSTAND 2026-09-14 (Buch-Run 143), im Buch (6. Aufl. 2019) noch nicht enthalten:**
+  seit **1.1.2026** ordnet **Art. 25 Abs. 5 RPG** an: «Der Anspruch auf Wiederherstellung des
+  rechtmässigen Zustands verjährt nach 30 Jahren.» Frist gewahrt durch erstmaliges Einschreiten;
+  keine Verjaehrung bei Gefaehrdung von Polizeiguetern. Der Buchsatz oben gibt die Rechtslage
+  **vor** der Revision wieder und ist fuer Sachverhalte ab 2026 nicht mehr tragfaehig. Seit
+  **1.7.2026** zusaetzlich **Art. 25 Abs. 3/4 RPG** (unbewilligte Nutzungen innert nuetzlicher
+  Frist feststellen, sofort untersagen, Rueckbau ohne Verzug; Verzicht auf Wiederherstellung nur
+  durch die zustaendige **kantonale** Behoerde) und **Art. 43b/43c RPV** (6a. Abschnitt
+  «Baupolizei ausserhalb der Bauzonen»: Nutzungsverbote in der Regel innert **30 Tagen**
+  durchgesetzt, Rueckbau in einem einzigen Verfahren bis zur Ersatzvornahme, **summarische
+  Rechtmaessigkeitspruefung des Bestands in jedem Baubewilligungsverfahren**, subsidiaere
+  Erfuellungsfrist **180 Tage**, Begruendungsobliegenheit des Pflichtigen). Offen, ob Abs. 5 auch
+  innerhalb der Bauzone gilt: `wiki/QUESTIONS.md` 260914 Ziff. 3. Beleg
+  `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2, 6, 7; vgl.
+  [[widerrechtliche-bauten-und-sanktionen]].
 
 ### 21.2 Zonenkonformitaet in der Landwirtschaftszone
 - **Zweck der Landwirtschaftszone (Art. 16 RPG):** langfristige Sicherung der

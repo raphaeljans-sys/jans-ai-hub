@@ -1,8 +1,8 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-08-24 (Buch-Run 113)
-verifiziert: 2026-07-27 (Buch-Run 63, Modell-D Volltextabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen raw/260607_amtlich_zh_pbg.md — Zonentypen-Enumeration, Fristen (60-Tage-Auflage § 7, Planungszone 3+2 Jahre § 346), numerus clausus § 48 Abs. 2/3 alle CONFIRMED; §§ 83-89/44a PBG bereits in Buch-Run 43 CONFIRMED. 1 echte Korrektur: § 253 PBG war fälschlich als alleinige Anspruchsnorm für "Anspruch auf Bewilligung" zitiert — regelt tatsächlich nur die Nutzweise/Zonenkonformität; die Anspruchsnorm ist § 320 PBG (im übrigen Wiki-Bestand bereits korrekt geführt, hier nachgezogen)) · 2026-08-23 (Buch-Run 97, Modell-D-Re-Verifikation: erstmals die Bundesrechts-Zitate Art. 1/4/9/15/21/25a/26 RPG, Art. 33 RPV, Art. 75 BV frisch von fedlex.data.admin.ch bezogen (RPG konsolidiert 01.07.2026, RPV 01.01.2026, BV 01.01.2024) und wortlautverifiziert; zusätzlich §§ 44a/49b/82-89/238 PBG gegen raw/260607_amtlich_zh_pbg.md (Nachtrag 133, unverändert seit Run 94/95/96) erneut CONFIRMED. 2 echte Korrekturen: (1) die 15-Jahre-Bauzonenregel war Art. 15 Abs. 1 RPG, § 18 lit. b PBG und Art. 75 Abs. 1 BV gebündelt zugeschrieben — nur Art. 15 Abs. 1 RPG enthält die Zahl, jetzt getrennt zugeordnet; (2) Art. 15 Abs. 4 RPG nannte nur lit. a-d, lit. e (Richtplankonformität) fehlte. 1 klarstellende Fussnote: die "≥10 Gebäude"-Schwelle der Weilerzone steht nicht im Wortlaut von Art. 33 RPV, sondern ist Buch-/Praxiskriterium) · 2026-08-24 (Buch-Run 113, Stale-Flag-Sweep Block 2026-06-30 Kap. 2 T2: die als OCR-Fehler vermutete Fundstelle «§ 935» für den Arealüberbauungsbonus geklärt — kein Lesefehler, sondern § 70 PBG, aufgehoben seit 1.2.1992; der Bonus liegt seither in der kommunalen BZO, § 69/§ 72 PBG, CONFIRMED gegen raw/260607_amtlich_zh_pbg.md Z. 793)
+last_updated: 2026-09-14 (Buch-Run 143)
+verifiziert: 2026-09-14 (Buch-Run 143, Fassungsstand-Nachtrag Bundesrecht: Art. 1 Abs. 2 lit. bter/bquater, 6 Abs. 3 lit. d/e, 8c, 8d, 18 Abs. 1bis, 38b RPG [1.7.2026] und Art. 8 Abs. 2/4, 18b RPG [1.4.2026] gegen AS 2025 640 / AS 2026 99 und die Snapshots 1.4./1.7.2026; Konsolidierungsfalle Stand 1.7.2026 dokumentiert); 2026-07-27 (Buch-Run 63, Modell-D Volltextabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen raw/260607_amtlich_zh_pbg.md — Zonentypen-Enumeration, Fristen (60-Tage-Auflage § 7, Planungszone 3+2 Jahre § 346), numerus clausus § 48 Abs. 2/3 alle CONFIRMED; §§ 83-89/44a PBG bereits in Buch-Run 43 CONFIRMED. 1 echte Korrektur: § 253 PBG war fälschlich als alleinige Anspruchsnorm für "Anspruch auf Bewilligung" zitiert — regelt tatsächlich nur die Nutzweise/Zonenkonformität; die Anspruchsnorm ist § 320 PBG (im übrigen Wiki-Bestand bereits korrekt geführt, hier nachgezogen)) · 2026-08-23 (Buch-Run 97, Modell-D-Re-Verifikation: erstmals die Bundesrechts-Zitate Art. 1/4/9/15/21/25a/26 RPG, Art. 33 RPV, Art. 75 BV frisch von fedlex.data.admin.ch bezogen (RPG konsolidiert 01.07.2026, RPV 01.01.2026, BV 01.01.2024) und wortlautverifiziert; zusätzlich §§ 44a/49b/82-89/238 PBG gegen raw/260607_amtlich_zh_pbg.md (Nachtrag 133, unverändert seit Run 94/95/96) erneut CONFIRMED. 2 echte Korrekturen: (1) die 15-Jahre-Bauzonenregel war Art. 15 Abs. 1 RPG, § 18 lit. b PBG und Art. 75 Abs. 1 BV gebündelt zugeschrieben — nur Art. 15 Abs. 1 RPG enthält die Zahl, jetzt getrennt zugeordnet; (2) Art. 15 Abs. 4 RPG nannte nur lit. a-d, lit. e (Richtplankonformität) fehlte. 1 klarstellende Fussnote: die "≥10 Gebäude"-Schwelle der Weilerzone steht nicht im Wortlaut von Art. 33 RPV, sondern ist Buch-/Praxiskriterium) · 2026-08-24 (Buch-Run 113, Stale-Flag-Sweep Block 2026-06-30 Kap. 2 T2: die als OCR-Fehler vermutete Fundstelle «§ 935» für den Arealüberbauungsbonus geklärt — kein Lesefehler, sondern § 70 PBG, aufgehoben seit 1.2.1992; der Bonus liegt seither in der kommunalen BZO, § 69/§ 72 PBG, CONFIRMED gegen raw/260607_amtlich_zh_pbg.md Z. 793)
 sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 253 PBG", "§ 320 PBG", "§ 346 PBG", "§§ 4/10 VDNP", "fedlex.data.admin.ch RPG SR 700 (Stand 1.7.2026, eli/cc/1979/1573_1573_1573)", "fedlex.data.admin.ch RPV SR 700.1 (Stand 1.1.2026, eli/cc/2000/310)", "fedlex.data.admin.ch BV SR 101 (Stand 1.1.2024, eli/cc/1999/404)", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
@@ -34,6 +34,29 @@ das **Koordinationsgebot** — Lebensraum als Einheit, materielle und formelle K
 Abs. 1 PBG, S. 132 f.). Legt Siedlungsgebiet, Landschaftsschutz und Verkehr fest;
 übergeordneter Rahmen für alle nachgelagerten Planungen. Festsetzungs-/Genehmigungs-
 verfahren §§ 30 ff. PBG.
+
+⚠ **Fassungsstand Bundesrecht 2026 (Buch-Run 143, 2026-09-14), im Buch (6. Aufl. 2019) nicht
+enthalten — drei Änderungen am Richtplaninhalt:**
+- **Seit 1.7.2026 (RPG 2, zweite Etappe, AS 2025 640):** neue Planungsziele **Art. 1 Abs. 2
+  lit. bter/bquater RPG** (Zahl der Gebäude im Nichtbaugebiet und Bodenversiegelung in der
+  ganzjährig bewirtschafteten Landwirtschaftszone **stabilisieren**); neue Grundlagen **Art. 6 Abs. 3
+  lit. d/e**; der Richtplan braucht ein **Gesamtkonzept zum Stabilisierungsziel** (**Art. 8d**,
+  Referenz Stand **29.9.2023**) und kann Gebiete für **Nichtbauzonen mit zu kompensierenden
+  Nutzungen** bezeichnen (**Art. 8c** / Art. 18bis). Übergang **Art. 38b RPG**: Anpassung **innert
+  fünf Jahren**, danach bis zur Genehmigung Kompensationspflicht für jedes weitere neue Gebäude
+  ausserhalb der Bauzone. Ausführung: 3a. Kapitel RPV (Art. 25a-25g, u. a. Zielerreichung bei höchstens
+  **2 % über dem Referenzwert**, Art. 25b).
+- **Seit 1.4.2026 (BG vom 26.9.2025, Änderung EnG, Anhang Ziff. 2, AS 2026 99):** **Art. 8 Abs. 2
+  zweiter Satz RPG** — keiner Richtplangrundlage bedürfen insbesondere Vorhaben für erneuerbare
+  Energien **ohne gewichtige Auswirkungen** auf Raum und Umwelt, auch Anlagen von nationalem Interesse;
+  ein neuer Absatz erlaubt Planung und Bewilligung solcher Vorhaben unabhängig von der Gebietsfestlegung
+  nach Art. 8b RPG und Art. 10 Abs. 1 EnG (**AS: «Abs. 4», SR-Konsolidierung 1.4.2026: «3»**); **Art. 18b
+  RPG**: Wasserkraftwerke bis **10 MW** ohne Richtplangrundlage, Wasserkraftwerke samt Erschliessung ohne
+  Nutzungsplangrundlage.
+- ⚠ **Konsolidierungsfalle:** die Fedlex-Fassung **Stand 1.7.2026** enthält die Apriländerung **nicht
+  mehr** (Art. 8 Abs. 2 ohne zweiten Satz, Art. 18b fehlt, kein Aufhebungsvermerk). Für Art. 8 und
+  Art. 18b RPG deshalb die AS 2026 99 oder den Snapshot 1.4.2026 zitieren, nicht den jüngsten Stand.
+Beleg: `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2, 3 und 7.
 
 ### Regionale Richtplanung
 Koordination zwischen den Gemeinden einer Region (Teilrichtpläne Siedlung/Landschaft/
@@ -74,7 +97,10 @@ Kap. 2, S. 156–167; Detailwerte → [[zonenkonformitaet]]):
 - **Zone für öffentliche Bauten und Anlagen** (§ 60 PBG).
 - **Erholungszone** (§ 61/§ 62 PBG), **Freihaltezone** (§ 39/§ 62 PBG), **kommunale
   Landwirtschaftszone** (§ 46 Abs. 3 PBG), **Reservezone** (Art. 18 Abs. 2 RPG / § 65 PBG;
-  kein absoluter Einzonungsanspruch, BEZ 2009 Nr. 10), **Weilerzone** (Art. 33 RPV;
+  kein absoluter Einzonungsanspruch, BEZ 2009 Nr. 10; Art. 18 Abs. 2 RPG seit 1.7.2026 mit
+  ausgeschriebenem Subjekt, inhaltlich unverändert; neu **Abs. 1bis**: in Nutzungszonen ausserhalb der
+  Bauzonen erlischt die Zulassung aller Bauten bei Wegfall der Hauptnutzung), **Weilerzone** (Art. 33 RPV,
+  seit 1.7.2026 mit Sachtitel «Kleinsiedlungen ausserhalb der Bauzonen», Text unverändert;
   ≥ 10 bewohnte Gebäude in geschlossenem Siedlungsbild; ZH-Verzeichnis are.zh.ch).
   ⚠ Der Verordnungswortlaut selbst (Art. 33 RPV, amtlich geprüft Buch-Run 97) nennt nur, dass
   besondere Zonen nach Art. 18 RPG «zur Erhaltung bestehender Kleinsiedlungen ausserhalb der

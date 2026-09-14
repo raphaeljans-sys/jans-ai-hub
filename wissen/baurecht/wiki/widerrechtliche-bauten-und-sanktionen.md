@@ -1,9 +1,9 @@
 ---
 title: Widerrechtliche Bauten & Sanktionen — Kanton Zürich
 status: established
-last_updated: 2026-08-23
-verifiziert: 2026-07-25 (Run 58, Modell D — Stichprobe §§ 340/340a/341 PBG gegen raw/260607_amtlich_zh_pbg.md sowie § 30/31 VRG gegen raw/260712_amtlich_zh_vrg.md wortlautgeprüft, PBG-Fassungsstand live gegen zhlex.zh.ch bestätigt (Nachtrag 133, keine Drift); 0 Korrekturen, Bestand aus Run 30/31 hält vollständig); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: die VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 30/31 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Buch-Run 101, Modell D — erstmals alle zwölf zitierten Bundesrechts-Artikel gegen fedlex.data.admin.ch/www.fedlex.admin.ch (Filestore-Muster) geprüft: RPG (SR 700, ELI 1979/1573_1573_1573, Stand 1.7.2026), BV (SR 101, ELI 1999/404, Stand 1.1.2024), StGB (SR 311.0, ELI 54/757_781_799, Stand 1.1.2026), OR (SR 220, ELI 27/317_321_377, Stand 1.1.2026), StPO (SR 312.0, ELI 2010/267, Stand 1.7.2024). 11/12 Zitate CONFIRMED wortgleich (Art. 24/Abschnittsüberschrift + Art. 25 Abs. 2 RPG, Art. 5 Abs. 2 BV, Art. 9 BV, Art. 290 StGB, Art. 292 StGB, Art. 70/71 StGB, Art. 109 StGB, Art. 137 Abs. 2 OR, Art. 354 StPO, Art. 357 StPO; Art. 836 ZGB bereits in Run 100 für [[bauausfuehrung-und-baukontrolle]] verifiziert, gleiche Norm/Einordnung, hier übernommen statt erneut abgerufen). 1 echte Korrektur: Art. 229 Abs. 1 StGB (Vorsatz) ist seit der Strafrahmenharmonisierung per 1.7.2023 Freiheitsstrafe bis zu Fünf Jahren, nicht drei — die Drei-Jahres-Obergrenze gilt nur für Abs. 2 (Fahrlässigkeit). 1 substanzieller Neubefund ohne Fehlercharakter: Art. 25 Abs. 3-5 RPG, eingefügt durch das BG vom 29.9.2023 und erst seit 1.1.2026 in Kraft, kodifiziert die 30-Jahre-Verwirkung des Wiederherstellungsanspruchs (inkl. Polizeigüter-Ausnahme) erstmals bundesrechtlich — aber nur für Bauvorhaben AUSSERHALB der Bauzonen (2a. Abschnitt); innerhalb der Bauzone bleibt die 30-Jahre-Regel weiterhin auf kantonale Praxis/Rechtsprechung (BGer 1C_726/2013) gestützt. Report outputs/2026-08-23_buch-run101.md)
-sources: ["§ 341 PBG", "§ 340 PBG", "§ 340a PBG", "§ 339 Abs. 2 PBG", "§ 309 Abs. 1 lit. c PBG", "§ 322 Abs. 1 PBG", "§ 253 PBG", "§ 6 VRG", "§ 30 VRG", "§ 31 Abs. 1 VRG", "§ 25 Abs. 3 VRG", "§ 22 Abs. 3 VRG", "§ 12a BBV I", "§ 89 GOG", "§ 27 GOG", "Art. 24 ff. RPG (CONFIRMED, fedlex 1.7.2026)", "Art. 25 Abs. 2 RPG (CONFIRMED)", "Art. 25 Abs. 3-5 RPG (neu, in Kraft seit 1.1.2026)", "Art. 5 Abs. 2 BV (CONFIRMED)", "Art. 9 BV (CONFIRMED)", "Art. 229 Abs. 1 StGB (KORRIGIERT: 5 statt 3 Jahre)", "Art. 229 Abs. 2 StGB (3 Jahre, Fahrlässigkeit)", "Art. 290 StGB (CONFIRMED)", "Art. 292 StGB (CONFIRMED)", "Art. 70/71 StGB (CONFIRMED)", "Art. 109 StGB (CONFIRMED)", "Art. 137 Abs. 2 OR (CONFIRMED)", "Art. 836 ZGB (verifiziert via Run 100)", "Art. 354 StPO (CONFIRMED)", "Art. 357 StPO (CONFIRMED)", "raw/260712_amtlich_zh_vrg.md (§ 30 VRG volltextverifiziert Run 31)", 10-widerrechtliche-bauten-teil1.md]
+last_updated: 2026-09-14
+verifiziert: 2026-09-14 (Buch-Run 143, Fassungsstand RPG 2 zweite Etappe — Art. 25 Abs. 3/4 RPG erst seit 1.7.2026 in Kraft, nicht 1.1.2026; die Systematik-Aussage «2a. Abschnitt, gilt ihrem Wortlaut nach nur ausserhalb der Bauzone» berichtigt [Art. 25 steht im 3. Abschnitt, Abs. 5 ohne Wortlautbeschränkung, Geltung innerhalb Bauzone offen]; Art. 25 Abs. 4 RPG und Art. 43b/43c RPV neu ergänzt; gegen raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md); 2026-07-25 (Run 58, Modell D — Stichprobe §§ 340/340a/341 PBG gegen raw/260607_amtlich_zh_pbg.md sowie § 30/31 VRG gegen raw/260712_amtlich_zh_vrg.md wortlautgeprüft, PBG-Fassungsstand live gegen zhlex.zh.ch bestätigt (Nachtrag 133, keine Drift); 0 Korrekturen, Bestand aus Run 30/31 hält vollständig); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: die VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 30/31 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Buch-Run 101, Modell D — erstmals alle zwölf zitierten Bundesrechts-Artikel gegen fedlex.data.admin.ch/www.fedlex.admin.ch (Filestore-Muster) geprüft: RPG (SR 700, ELI 1979/1573_1573_1573, Stand 1.7.2026), BV (SR 101, ELI 1999/404, Stand 1.1.2024), StGB (SR 311.0, ELI 54/757_781_799, Stand 1.1.2026), OR (SR 220, ELI 27/317_321_377, Stand 1.1.2026), StPO (SR 312.0, ELI 2010/267, Stand 1.7.2024). 11/12 Zitate CONFIRMED wortgleich (Art. 24/Abschnittsüberschrift + Art. 25 Abs. 2 RPG, Art. 5 Abs. 2 BV, Art. 9 BV, Art. 290 StGB, Art. 292 StGB, Art. 70/71 StGB, Art. 109 StGB, Art. 137 Abs. 2 OR, Art. 354 StPO, Art. 357 StPO; Art. 836 ZGB bereits in Run 100 für [[bauausfuehrung-und-baukontrolle]] verifiziert, gleiche Norm/Einordnung, hier übernommen statt erneut abgerufen). 1 echte Korrektur: Art. 229 Abs. 1 StGB (Vorsatz) ist seit der Strafrahmenharmonisierung per 1.7.2023 Freiheitsstrafe bis zu Fünf Jahren, nicht drei — die Drei-Jahres-Obergrenze gilt nur für Abs. 2 (Fahrlässigkeit). 1 substanzieller Neubefund ohne Fehlercharakter: Art. 25 Abs. 3-5 RPG, eingefügt durch das BG vom 29.9.2023 und erst seit 1.1.2026 in Kraft, kodifiziert die 30-Jahre-Verwirkung des Wiederherstellungsanspruchs (inkl. Polizeigüter-Ausnahme) erstmals bundesrechtlich — aber nur für Bauvorhaben AUSSERHALB der Bauzonen (2a. Abschnitt); innerhalb der Bauzone bleibt die 30-Jahre-Regel weiterhin auf kantonale Praxis/Rechtsprechung (BGer 1C_726/2013) gestützt. Report outputs/2026-08-23_buch-run101.md)
+sources: ["§ 341 PBG", "§ 340 PBG", "§ 340a PBG", "§ 339 Abs. 2 PBG", "§ 309 Abs. 1 lit. c PBG", "§ 322 Abs. 1 PBG", "§ 253 PBG", "§ 6 VRG", "§ 30 VRG", "§ 31 Abs. 1 VRG", "§ 25 Abs. 3 VRG", "§ 22 Abs. 3 VRG", "§ 12a BBV I", "§ 89 GOG", "§ 27 GOG", "Art. 24 ff. RPG (CONFIRMED, fedlex 1.7.2026)", "Art. 25 Abs. 2 RPG (CONFIRMED)", "Art. 25 Abs. 5 RPG (neu, in Kraft seit 1.1.2026)", "Art. 25 Abs. 3/4 RPG (neu, in Kraft seit 1.7.2026, berichtigt Buch-Run 143)", "Art. 43b/43c RPV (neu, in Kraft seit 1.7.2026)", "raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md", "Art. 5 Abs. 2 BV (CONFIRMED)", "Art. 9 BV (CONFIRMED)", "Art. 229 Abs. 1 StGB (KORRIGIERT: 5 statt 3 Jahre)", "Art. 229 Abs. 2 StGB (3 Jahre, Fahrlässigkeit)", "Art. 290 StGB (CONFIRMED)", "Art. 292 StGB (CONFIRMED)", "Art. 70/71 StGB (CONFIRMED)", "Art. 109 StGB (CONFIRMED)", "Art. 137 Abs. 2 OR (CONFIRMED)", "Art. 836 ZGB (verifiziert via Run 100)", "Art. 354 StPO (CONFIRMED)", "Art. 357 StPO (CONFIRMED)", "raw/260712_amtlich_zh_vrg.md (§ 30 VRG volltextverifiziert Run 31)", 10-widerrechtliche-bauten-teil1.md]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baureife-und-erschliessung]], [[nebenbestimmungen-und-reverse]]
 ---
 
@@ -69,20 +69,48 @@ nur, wenn günstiger oder das Bewilligungserfordernis in Änderungsabsicht missa
 | **10 Jahre** | > 10 Jahre widerspruchslos geduldete abstandswidrige Baute → stillschweigende Zustimmung des Nachbarn | BEZ 2010 Nr. 5; S. 623 |
 | **10 Jahre** | **Vollstreckungsverjährung** eines bereits erlassenen Befehls (Art. 137 Abs. 2 OR analog: «die neue Verjährungsfrist [ist] stets die zehnjährige», wortlautverifiziert), separat von der Einschreite-Verwirkung | BEZ 2010 Nr. 42; S. 629 |
 
-**Neu seit 1.1.2026 — Bundesrecht kodifiziert die 30-Jahre-Regel, aber nur ausserhalb der Bauzone
-(Nachtrag Buch-Run 101):** Art. 25 Abs. 5 RPG («Der Anspruch auf Wiederherstellung des
+**Neu seit 1.1.2026 — Bundesrecht kodifiziert die 30-Jahre-Regel (Nachtrag Buch-Run 101,
+berichtigt Buch-Run 143 am 2026-09-14):** Art. 25 Abs. 5 RPG («Der Anspruch auf Wiederherstellung des
 rechtmässigen Zustands verjährt nach 30 Jahren. Die Frist ist gewahrt, wenn die zuständige Behörde
 vor Ablauf der Frist erstmals einschreitet. Keine Verjährung tritt ein, wenn Polizeigüter,
 insbesondere die öffentliche Ordnung, Ruhe, Sicherheit oder Gesundheit, gefährdet sind.») wurde
-durch das BG vom 29.9.2023 eingefügt und ist erst seit **1.1.2026** in Kraft — deckungsgleich mit der
+durch das BG vom 29.9.2023 eingefügt und ist seit **1.1.2026** in Kraft — deckungsgleich mit der
 bisherigen, rein kantonal/bundesgerichtlich hergeleiteten Praxis (BGer 1C_726/2013) inkl. der
-identischen Polizeigüter-Ausnahme. Die Norm steht im **2a. Abschnitt «Ausnahmebewilligungen
-ausserhalb der Bauzonen»** und gilt damit ihrem Wortlaut nach nur für Bauvorhaben **ausserhalb** der
-Bauzone; innerhalb der Bauzone bleibt die 30-Jahre-Regel weiterhin richterrechtlich (nicht
-gesetzlich) verankert. Ergänzend verpflichtet **Art. 25 Abs. 3 RPG** (gleiche Novelle) die Kantone,
-unbewilligte Nutzungen «innert nützlicher Frist» festzustellen und ohne Verzug zu untersagen und
-rückzubauen — konkretisiert das bisherige «von Amtes wegen»-Prinzip (BEZ 2007 Nr. 6) zusätzlich
-bundesrechtlich.
+identischen Polizeigüter-Ausnahme. Der Gesetzgeber spricht von **Verjährung**, die Praxis bisher
+von Verwirkung.
+
+⚠ **Berichtigt 2026-09-14 (Buch-Run 143), zwei Punkte:**
+(1) Hier stand, die Norm stehe «im **2a. Abschnitt** ‹Ausnahmebewilligungen ausserhalb der Bauzonen›
+und gilt damit **ihrem Wortlaut nach** nur für Bauvorhaben ausserhalb der Bauzone». Beides trifft
+nicht zu: Art. 25 RPG steht im **3. Abschnitt «Zuständigkeit und Verfahren»** (der 2a. Abschnitt
+umfasst Art. 24-24e), und der Wortlaut von Abs. 5 enthält **keine** Beschränkung auf das
+Nichtbaugebiet. Für eine Beschränkung spricht allein der Zusammenhang: Abs. 2 nennt die Behörde für
+Bauvorhaben ausserhalb der Bauzonen, Abs. 3 und 4 knüpfen an diese Behörde an. **Ob Abs. 5 auch
+innerhalb der Bauzone gilt, ist damit offen** (`wiki/QUESTIONS.md` 260914 Ziff. 3). Bis zur Klärung:
+innerhalb der Bauzone weiterhin mit der richterrechtlichen 30-Jahre-Regel argumentieren und Abs. 5
+höchstens ergänzend anführen.
+(2) Hier stand sinngemäss, auch **Art. 25 Abs. 3 RPG** gelte seit 1.1.2026 («gleiche Novelle»).
+RPG 2 trat in **zwei Etappen** in Kraft: **Abs. 5** am 1.1.2026, **Abs. 3 und 4 erst am 1.7.2026**
+(Inkraftsetzungsvermerk AS 2025 640). Abs. 3 verpflichtet die Behörde, unbewilligte Nutzungen
+«innert nützlicher Frist» festzustellen, sofort zu untersagen und zu unterbinden sowie Rückbauten
+ohne Verzug anzuordnen und zu vollziehen; **Abs. 4** (bisher hier nicht erwähnt): «Nur die zuständige
+kantonale Behörde kann gültig den ausnahmsweisen Verzicht auf die Wiederherstellung des rechtmässigen
+Zustandes beschliessen.» Beides konkretisiert das «von Amtes wegen»-Prinzip (BEZ 2007 Nr. 6)
+bundesrechtlich, jedenfalls für das Nichtbaugebiet.
+
+**Ausführungsrecht seit 1.7.2026: 6a. Abschnitt RPV «Baupolizei ausserhalb der Bauzonen»**
+(V vom 15.10.2025, AS 2025 659). **Art. 43b RPV** verlangt vom kantonalen Recht mindestens:
+Nutzungsverbote samt Durchsetzungsmassnahmen **in der Regel innert 30 Tagen** nach Eröffnung der
+Verfügung durchgesetzt (ausser die Rechtmässigkeit wird glaubhaft gemacht); über den Rückbau **in einem
+einzigen Verfahren** so entschieden, dass nach Rechtskraft und Fristablauf die **Ersatzvornahme**
+folgen kann; **in jedem Baubewilligungsverfahren eine mindestens summarische Prüfung der
+Rechtmässigkeit der vorhandenen Bauten und Anlagen**, nötigenfalls verbunden mit
+Wiederherstellungsverfügungen und festem Ausführungszeitpunkt. **Art. 43c RPV:** subsidiäre
+Erfüllungsfrist **180 Tage** ab Rechtskraft; wer nachträgliche Bewilligungsfähigkeit oder
+Unverhältnismässigkeit der Wiederherstellung geltend macht, trägt eine **Begründungsobliegenheit**.
+**JANS-Transfer (eigene Einordnung):** wer ausserhalb der Bauzone ein Baugesuch einreicht, legt damit
+den ganzen Bestand zur Prüfung vor; unbewilligte Altteile gehören vor der Eingabe geklärt, nicht
+danach. Beleg `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2, 6 und 7.
 
 ## Vorsorgliche Massnahmen (S. 613-617)
 
