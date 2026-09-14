@@ -2,6 +2,21 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-14 (Synergie-Lauf 35, Tagestakt) — der App-Ausfall traf beide Stationen, das Register kannte nur eine
+
+Delta-Basis 11.09.2026 17:10, 72 h, 299 Commits (Laeufe 12./13.09. im MacBook-Latch ausgefallen), kein neuer
+Baustein; geaendert Rule `auto-verbesserungen` 260913, `betrieb-chronik`, `connectors/WEGE.md`.
+Bericht: `outputs/2026-09-14_synergie-lauf-35.md`.
+
+- **SYN-85 neu:** Mac-Mini-App 12.09. 22:37 bis 14.09. 13:57 im `session_stale_relogin`-Latch, 11 Fehlstarts, in
+  keinem Register; die Aufsicht mass nur das MacBook-Log. Fristen-Register und Chronik 260914b nachgetragen.
+- **P1 MacBook-App erledigt** 14.09. 13:59 (Beleg `main.log`), im Fristen-Register nachgetragen; Gegenprobe
+  `hub-chef-taeglich` 15.09.
+- **SYN-84 neu:** Regel 260913 (InDesign statt PPTX) ohne Rueckkante in `agents/dokument.md` und
+  `dokument-layout-standard`; Vermerke gesetzt, dazu Vermerk zum alten Arial/Dunkelblau-Block im Agenten.
+- **SYN-76:** Gegenmessung 14.09. gefahren, Start 04:26 am Mini-Latch gescheitert, 2 Slots 0 Laeufe.
+- Schreib-Kontrolle: alle Edits anker-basiert, keine Zeile entfernt.
+
 ## 2026-09-11 (Synergie-Lauf 34, Tagestakt) — ein Loop war nie verschwunden, nur auf der anderen Station; und «0 Treffer» war das Suchmuster
 
 Delta-Basis 10.09.2026 17:10, 117 Commits, kein neuer Baustein, sechs geaenderte plus vier neue

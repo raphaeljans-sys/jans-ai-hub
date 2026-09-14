@@ -3348,3 +3348,13 @@ blendet sie aus. Lauf 2 (Script um Stufe 2/3 erweitert) räumte den Zweig `2410 
 im Zweig `2001 Haus Deuber` blieben. Der Wurzelordner liess sich per `rename` aus dem Papierkorb schieben: jetzt
 `~/.OneDrive-Dataless-Reste-260914/` (25 Ordner, 0 Byte, 9 davon Dataless mit Geister-Einträgen). **Papierkorb leer,
 Finder zählt 0.** Eingriff von Claude: nur dieser Rename (umkehrbar, Ziel benannt). Rest offen im Fristen-Register.
+
+## 260914b — App-Latch `session_stale_relogin` auf beiden Stationen; der Mini-Ausfall stand in keinem Register
+
+Gemessen vom Synergie-Lauf 35 (lesend, lokal und per `ssh mini`, `~/Library/Logs/Claude/main*.log`). MacBook Pro:
+11.09. 20:08 bis 14.09. 13:59:07 (P1 seit 12.09. im Fristen-Register). **Mac Mini: 12.09. 22:37:10 bis 14.09. 13:57:54**,
+11 gescheiterte App-Starts (u.a. eigener `vollgas-chef-radar` viermal, `heartbeat-daily`, `bauleitung-training`), in keinem
+Register. Die Freigabe 14.09. 01:41:51 auf dem Mini war ein «zombie re-stamp» ohne Wirkung; wirksam war auf beiden
+Stationen erst «sessionKey rotated» (13:57:54 bzw. 13:59:07). CLI-Laeufe (`claude-run.sh`, Nachtschicht) waren nicht
+betroffen. **Lehre:** ein Stationsausfall wird mit einem Erledigt-Kriterium fuer **beide** Stationen gefuehrt; eine
+gesunde CLI-Schicht verdeckt den Ausfall der App-Schicht auf derselben Maschine. Register: SYN-85, `logbuch/fristen.md` P1-Block.
