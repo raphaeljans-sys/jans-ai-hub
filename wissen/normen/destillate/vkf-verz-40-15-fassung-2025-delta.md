@@ -139,6 +139,7 @@ erstmals fuellt.
 | Lignum «Abschluesse, Tuer- und Trennwandsysteme» | Oktober 2007 | **8.1 «Abschluesse, Fenster-, Tuer- und Trennwandsysteme», 2021** |
 | SZS C 1/12 Verbundbau Bemessungstabellen | 2012 | 2012 **inkl. Korrigenda 14.07.2020** |
 | SZS C 2.5 daemmschichtbildende Brandschutzsysteme | 2012 | **C 2.5:2017, V1.1, 12.06.2017** |
+| Kap. 2.5 zu BSR 14-15 Ziff. 5.3: SN EN 62368-1 / SN EN 60950-1 / SN EN 60065 | (Richtlinie 2017: 62368-1:2014, 60950-1 …:2011, 60065 …:2011) | **SN EN IEC 62368-1** ohne Jahr; 60950-1 und 60065 weiter gelistet, je mit «Hinweis der FBT: Die Norm wurde ersetzt mit SN EN IEC 62368-1 (siehe FAQ 14-030)». Nachgetragen Run 85 (15.09.2026, WC57-N1), am Textlayer des Portalabrufs vom 15.09.2026 gelesen, nicht gerendert |
 
 ## 6. Zwei Befunde am Quellexemplar
 

@@ -59,6 +59,13 @@ Für Einrichtungen der Informationstechnik gilt **SN EN IEC 62368-1:2020+A11:202
 > `normen` destilliert: VKF BSR 16-15 Ziff. 2.2 (`destillate/vkf-brl-16-15-flucht-rettungswege.md`,
 > inhaltlich deckungsgleich) und die Klassierung nach SN EN 13501-1
 > (`destillate/vkf-brl-13-15-baustoffe-bauteile.md`).
+>
+> ✅ **Nachtrag `wissen/normen` Run 85 (15.09.2026), WC57-N1 beantwortet:** das VKF-Verzeichnis
+> 40-15de «Weitere Bestimmungen», Fassung 11.06.2025, Kap. 2.5 zu BSR 14-15 Ziff. 5.3, führt
+> **SN EN IEC 62368-1 ohne Ausgabejahr** und vermerkt bei SN EN 60950-1 und SN EN 60065 je, sie
+> seien durch SN EN IEC 62368-1 ersetzt (FAQ 14-030). Die SRZ-Angabe 2020+A11 widerspricht der
+> VKF also nicht; die datierte 2014er-Verweisung im Richtlinientext ist durch das Verzeichnis
+> überholt. Beleg: `wissen/normen/wiki/REGISTER.md`, Abschnitt «Normen-Nacht Run 85».
 
 ## Grundsatz
 

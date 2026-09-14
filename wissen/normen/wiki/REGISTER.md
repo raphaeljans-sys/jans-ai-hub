@@ -1040,6 +1040,18 @@ dreizehnfach im Bestand (`destillate/sia-mb-2022.md` mehrfach, `sia-263-2003.md`
 Unikat. Vermerk in der `energie`-Quelle gesetzt, Wortlaut dort bewusst stehen gelassen, weil
 ungeklärt ist, ob der Minergie-Vorgabenkatalog selbst verkürzt.
 
+## Normen-Nacht Run 85 (15.09.2026 — WC57-N1, Herausgeber-Beleg VKF, kein Kauf)
+
+Eingang Wissens-Chef Lauf 57 (`wiki/QUESTIONS.md`, WC57-N1). Die Nummer stand bisher nur in zwei
+Destillaten der VKF-BSR 14-15, datiert 2014, und nie im Register. Herausgeber-Beleg: VKF-Verzeichnis
+**40-15de «Weitere Bestimmungen», Fassung 11.06.2025** (VKG-Portal BSPUB-1394520214-137, Abruf
+15.09.2026), Kap. 2.5 «Verwendung von Baustoffen (VKF-BSR 14-15)», Block «zu Ziffer 5.3». Der
+Textlayer dieser Datei kodiert die Einträge sauber; es stehen keine Relationszeichen daran.
+
+| Norm | Ausgabe | Bestand | Bemerkung |
+|---|---|---|---|
+| SN EN IEC 62368-1 Einrichtungen für Audio/Video, Informations- und Kommunikationstechnik, Teil 1: Sicherheitsanforderungen | **im VKF-Verzeichnis 11.06.2025 ohne Ausgabejahr** (dynamische Verweisung, wie das ganze Verzeichnis 2025, siehe `vkf-verz-40-15-fassung-2025-delta.md` Ziff. 5); SRZ nennt im KISPI-Beleg 30.07.2026 **2020+A11:2020**; die BSR 14-15 selbst (Fassung 01.01.2017, Ziff. 5.3) verweist datiert auf **SN EN 62368-1:2014** | ✗ nicht im Bestand | **Neu gegenüber der KB:** dasselbe Verzeichnis führt unter Ziff. 5.3 die beiden Alternativnormen **SN EN 60950-1** und **SN EN 60065** noch auf, je mit einem «Hinweis der FBT» (Abkürzung im Verzeichnis nicht aufgelöst), sie seien **durch SN EN IEC 62368-1 ersetzt (siehe FAQ 14-030)**. Die KB hatte das Verzeichnis 2025 bereits als Delta destilliert (Ausgabejahre entfallen), diesen Hinweis aber nicht. Die FAQ 14-030 selbst ist nicht beschafft (Websuche 15.09.2026 ohne Fund). |
+
 ## Run-3-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
 
 P2-SIA-Batch (Tragwerk 260–267, Hindernisfrei/Sicherheit/Boden/Abdichtung/Dach/Fassade).

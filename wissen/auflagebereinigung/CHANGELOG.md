@@ -2,6 +2,13 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-15 (Cross-KB-Eingang aus `wissen/normen` Run 85) — WC57-N1 beantwortet, Fassungsvorbehalt SN EN 62368-1 aufgelöst
+
+`outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`, nur additiv: Nachtrag unter dem
+Vorbehalt vom 10.09.2026. Das VKF-Verzeichnis 40-15de (Fassung 11.06.2025) führt SN EN IEC
+62368-1 ohne Jahr und die zwei Alternativnormen als ersetzt; die SRZ-Angabe 2020+A11 ist damit
+mit der VKF vereinbar. Beleg in `wissen/normen/wiki/REGISTER.md`.
+
 ## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5) — eBaugesuche ZH Projektänderung: Gemeinde-Ermessen amtlich belegt
 
 Cross-KB-Übergabe aus `wissen/twin` (Batch 118, 260910 #3, Rule `wissens-bibliothekar`
