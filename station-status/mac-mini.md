@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.09.2026 20:09:54
+Stand: 14.09.2026 20:20:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 14.09.2026 20:09:54
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 854ae6d93 nas-selfcommit: 4 Datei(en) 2026-09-14 20:00
+- ea61c2313 tenant-hygiene: Report 260914 (917.67 GB, 87.07 %), Versionsrichtlinie korrigiert: Tenant-Automatik wirkt nicht auf bestehende Bibliotheken
