@@ -12807,3 +12807,22 @@ diese Logbuch-Zeile.
 
 Budget rund 2.4 von 5 USD (inkl. Pruefung Prioritaeten 1-4 und Recherche mehrerer Kandidaten-KBs
 vor der Wahl). Zyklus sauber beendet.
+
+## 2026-09-14 Nachtschicht Mac Mini, Versuchs-Slot 13:30 (Prioritaet 3) — Fristen-Register frisch gemessen: P1 MacBook-OAuth-Ausfall dauert unveraendert an, jetzt ~65 h
+
+Prioritaeten 1 und 2 leer bzw. erledigt (remote-tasks/pending und sync-tasks/mac-mini ohne
+Auftraege; Synobsis-Stufe-2-Vektorindex `vectors.npz` deckungsgleich mit `documents.jsonl`,
+853 Zeilen, zuletzt 05.09. gebaut). Der vorherige Nachtschicht-Lauf von heute (Prioritaet 5,
+Eintrag oben) hatte Prioritaet 3 mit Verweis auf einen "frischen" Fristen-Eintrag vom Vorabend
+uebersprungen — bei frischer Messung per `ssh macbook` zeigte sich jedoch, dass der dort als
+"von den Tagesloops bewirtschaftet" eingestufte P1-Befund (Claude-App MacBook Pro seit 11.09.
+20:08 im `session_stale_relogin`-Latch, siehe `logbuch/fristen.md`) genau die Tagesloops lahmlegt,
+die ihn bewirtschaften sollten: `hub-chef-taeglich` ist heute (14.09. 08:38:58) zum **vierten**
+Mal in Folge am selben Fehler gescheitert, ebenso `heartbeat-daily`, `mahnwesen-verzugscheck`,
+`zahlungsabgleich-check` und die MacBook-Fassung von `vollgas-chef-radar`. Darum als Prioritaet-3-
+Aufgabe einen neuen datierten Nachtrag in `logbuch/fristen.md` erfasst (reine Zusammenstellung,
+nicht versendet — Rule 260803/Nachtschicht-Grenzen): Ausfalldauer jetzt rund 65 Stunden, deutlich
+ueber der 36-h-Schwelle aus dem Eintrag vom 13.09. Keine Aktion moeglich (Login ist interaktiv),
+keine neue Mail. Geaendert: `logbuch/fristen.md`, diese Logbuch-Zeile.
+
+Budget rund 1.3 von 5 USD. Zyklus sauber beendet.
