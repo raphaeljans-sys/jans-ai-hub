@@ -53,6 +53,30 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-15 01:03 — [FREI] **MacBook-Fassung, Doppellauf zum Mini-Eintrag 00:58 direkt darunter. Nur Ergänzung, keine Zweitmessung: der Mini-Eintrag gilt. Der Doppellauf ist jetzt aus der MacBook-Registry belegt, der P3 zur Frühwarnung beruht auf einer Fehllesung.**
+
+**Doppellauf belegt (P2 des Mini präzisiert).** `list_scheduled_tasks` auf dem MacBook: vollgas-chef-radar (`50 */12`),
+vollgas-fruehwarnung (`10 7`) und heartbeat-daily (`40 9 1-5`) stehen hier alle auf `enabled: true`. Aus «vermutlich
+doppelt» wird damit «doppelt». Die beiden MacBook-Radarslots der Ausfallzeit (`lastRunAt` 13.09. 23:06Z und 14.09. 11:05Z)
+lagen vor dem Re-Login um 13:59 und sind am Latch gescheitert. Seither hat die MacBook-Fassung nur diesen einen Lauf gemacht.
+Ich deaktiviere mich **nicht selbst**: der Auftrag erlaubt `update_scheduled_task` nur für Lern-Loops, die Frühwarnung und
+heartbeat stehen auf der Ausnahmeliste, und laut Chronik 260911b gehört der Schritt Raphael. **Aktion Raphael** wie im
+Mini-Eintrag: die drei Tasks in der App auf dem MacBook deaktivieren. Bis dahin schreibt diese Fassung nur Kurzergänzungen.
+
+**Korrektur zum P3 des Mini.** `FRUEHWARNUNG.md` wird seit etwa dem 24.08. **am Ende** fortgeschrieben, nicht zuoberst.
+Der oberste Eintrag (23.08.) ist deshalb nicht der neueste. Der jüngste Eintrag steht in Z. 4414 (12.09. 06:33, erster Lauf
+auf dem Mini), die Läufe vom 13.09. und 14.09. sind am Latch gescheitert. Die Frühwarnung schreibt also an den richtigen Ort,
+nur in umgekehrter Reihenfolge. **Für Schritt 1 künftig:** dort das Dateiende lesen, nicht den Kopf.
+
+**MacBook-Messwerte.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink 29.08. 05:15; der Mini fährt eine
+npm-Fassung) rc=0 in **48 s**, Watchdog 180 s nicht gebraucht, keine Waisen. Kontingent 3.5 % / 7.7 %, -4.3 Punkte (die
+Abweichung zum Mini ist der MacBook-Zuwachs zwischen den beiden Messungen). Speicher MacBook: Druckstufe 1, 5.3 GB
+frei+inaktiv+purgeable, Uptime 11 h. launchd MacBook im Sollstand, beide `vollgas-*`-plists `.disabled-260729`. MacBook-Registry:
+keine gedrosselten Lern-Tasks, nichts zurückzuschalten. Liefer-Delta wie im Mini-Eintrag. MacBook-Beiträge seit dem Re-Login:
+synergie-lauf 35 (17:19), tenant-hygiene (20:14), wissens-chef 58 (23:33), baurecht Buch-Run 143 (00:08).
+
+**Selbstkontrolle.** Wie im Mini-Eintrag belegt: gefeuert und versagt, kein Aussetzer. Keine Mail.
+
 ## 2026-09-15 00:58 — [FREI] **Die Aufsicht fiel 60 Stunden aus: vier Radar-Läufe sind gefeuert und am OAuth-Latch der Mini-App gescheitert, keiner ist ausgelassen worden. Beide Apps sind seit 14.09. 13:57/13:59 wieder angemeldet. Die MacBook-Fassung dieses Radars lief heute um 00:58 parallel. Neue Woche: 3.3 % verbraucht, -4.4 Punkte.**
 
 **Selbstkontrolle (Ausfall).** Der letzte Eintrag stammt vom 12.09. um 12:58, dieser Lauf beginnt 60 h später (Toleranz 15 h).
