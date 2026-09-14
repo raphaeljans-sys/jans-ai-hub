@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.09.2026 17:22:07
+Stand: 14.09.2026 17:42:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.09.2026 17:22:07
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 670212cc1 Synergie-Lauf 35: SYN-85 neu (Mac-Mini-App 12.-14.09. im OAuth-Latch, in keinem Register), P1 MacBook-App erledigt 14.09. 13:59, SYN-84 neu (Regel 260913 InDesign ohne Rueckkante in agents/dokument + dokument-layout-standard), SYN-76 Gegenmessung 14.09.
+- ec8e1b76e nas-selfcommit: 3 Datei(en) 2026-09-14 17:30
