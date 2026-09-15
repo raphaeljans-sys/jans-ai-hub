@@ -3358,3 +3358,15 @@ Register. Die Freigabe 14.09. 01:41:51 auf dem Mini war ein «zombie re-stamp» 
 Stationen erst «sessionKey rotated» (13:57:54 bzw. 13:59:07). CLI-Laeufe (`claude-run.sh`, Nachtschicht) waren nicht
 betroffen. **Lehre:** ein Stationsausfall wird mit einem Erledigt-Kriterium fuer **beide** Stationen gefuehrt; eine
 gesunde CLI-Schicht verdeckt den Ausfall der App-Schicht auf derselben Maschine. Register: SYN-85, `logbuch/fristen.md` P1-Block.
+
+## 260915 — Versionsrichtlinie JANS.PROJEKTE auf «Automatisch» fuer die bestehenden Bibliotheken (interaktiv, Auftrag Raphael)
+
+15.09.2026 17:28:06 CEST, Auftrag Raphael im Chat («Versionsrichtlinie jetzt»), angemeldet delegiert als rj@raphaeljans.ch
+(`Connect-PnPOnline -Interactive`, ClientId 80c24101…). Gesetzt: `Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true
+-ApplyToExistingDocumentLibraries` auf `sites/JANS.PROJEKTE`. Vorher gemessen: alle Bibliotheken manuell 500, Site ohne eigene
+Vorgabe fuer neue Bibliotheken (erbt den Tenant, bereits Automatisch). Hintergrundjob WorkItemId `7fc93ccd-4e72-4a70-a711-2b1f9bebf8db`,
+Status «New», laut Microsoft bis 24 h. **Kein Trim ausgeloest**: der Trim loescht Versionen endgueltig am Papierkorb vorbei und
+bleibt Raphael (Befehl im Fristen-Register). Rueckweg: `Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false
+-MajorVersions 500 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries` (Versionen, die Automatisch in der Zwischenzeit
+abgelaufen hat, holt er nicht zurueck). Sackgasse im selben Vorgang: App-only-Token verweigert Set und Status («Diese API kann nicht
+mit einem reinen App-Prinzipal aufgerufen werden»), eingetragen in `connectors/WEGE.md`. Register: SYN-86, `logbuch/fristen.md`.

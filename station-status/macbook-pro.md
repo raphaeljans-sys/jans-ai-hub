@@ -1,11 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 17:14:08
+Stand: 15.09.2026 17:24:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 17:13)
+- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 17:23)
 - Developer/jans/ai/hub//claude/worktrees/objective/rhodes/d98e38  (letzte Aktivitaet 16:54)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -21,4 +21,4 @@ Stand: 15.09.2026 17:14:08
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3cdbfcc65 nas-selfcommit: 3 Datei(en) 2026-09-15 17:00
+- 8343cf5c7 Synergie-Lauf 36: SYN-86 neu (Korrektur Versionsrichtlinie 14.09. nicht im Fristen-Register, SPO-Shell Windows-only statt PnP Set-PnPSiteVersionPolicy), SYN-87 neu (WEGE Leitungskataster Stadt ZH nicht in KB planungsgrundlagen), SYN-85 Gegenprobe bestanden

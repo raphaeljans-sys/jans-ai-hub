@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 17:18:29
+Stand: 15.09.2026 17:28:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:14)
@@ -15,4 +15,4 @@ Stand: 15.09.2026 17:18:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 21b612ab5 nas-selfcommit: 4 Datei(en) 2026-09-15 17:15
+- 8343cf5c7 Synergie-Lauf 36: SYN-86 neu (Korrektur Versionsrichtlinie 14.09. nicht im Fristen-Register, SPO-Shell Windows-only statt PnP Set-PnPSiteVersionPolicy), SYN-87 neu (WEGE Leitungskataster Stadt ZH nicht in KB planungsgrundlagen), SYN-85 Gegenprobe bestanden

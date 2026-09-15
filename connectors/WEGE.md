@@ -1177,3 +1177,15 @@ Beide am 15.09.2026 an der Stadt-Zürich-Website verifiziert (WebFetch), beide k
 1. **GeoShop Stadt Zürich** `https://e-gov.stadt-zuerich.ch/geoshop/` — Leitungskataster (Abwasser, Elektrizität, Erdgas, Fernwärme, Wasser, Kommunikation) als PDF-Ausschnitt oder DXF (bis 6 ha), **Login via AGOV nötig** (nicht skriptbar, Raphael meldet sich an). Quelle: `stadt-zuerich.ch/…/planbezug-datenbezug/leitungskataster-beziehen.html`.
 2. **ERZ Liegenschaftsentwässerung, Planarchiv** (Grundstückentwässerungspläne von über 40'000 Liegenschaften, zeigt die privaten Sammel-/Hausanschlussleitungen genauer als der Leitungskataster): schriftliche Bestellung mit dem Formular «Unterlagen Liegenschaftsentwässerung» (Web-Formular `web.stadt-zuerich.ch`), keine PDF-Bestellungen per Mail an Sachbearbeitende. Quelle: `stadt-zuerich.ch/…/bauten-anlagen/liegenschaftsentwaesserung.html`.
 Weiter gültig: Servitutenpläne Belege Witikon 1950/125b und 1953/188 beim Grundbuchamt Hottingen-Zürich (Eigentümerseite). ⚠ Der **Katasterplan der amtlichen Vermessung** zeigt keine Leitungen; gemeint ist immer der Leitungs- bzw. Kanalkataster.
+
+## Nachtrag 15.09.2026 — SharePoint-Versionsrichtlinie je Site/Bibliothek setzen: nur delegiert
+
+Weg (belegt 15.09.2026 17:28, Site JANS.PROJEKTE): PnP PowerShell 3.1.0 mit **delegierter** Anmeldung,
+`Connect-PnPOnline -Url <site> -ClientId 80c24101-4597-48db-8388-c6e8bdc75f5f -Tenant raphaeljans.onmicrosoft.com -Interactive`
+(Raphael meldet sich im Browser an, rj@ genuegte), dann `Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true
+-ApplyToExistingDocumentLibraries`; Fortschritt mit `Get-PnPSiteVersionPolicyStatus`. Das ist das Mac-Gegenstueck zu
+`Set-SPOSite … -ApplyToExistingDocumentLibraries` (SPO-Shell, Windows-only).
+**Sackgassen, nicht erneut laufen:** (1) Weg 3 mit geliehenem App-Token (`--token spo`): `Set-PnPSiteVersionPolicy` und
+`Get-PnPSiteVersionPolicyStatus` antworten «Diese API kann nicht mit einem reinen App-Prinzipal aufgerufen werden». Lesen der
+Bibliotheks-Grenzen (`Get-PnPList`, `MajorVersionLimit`) und `Get-PnPSiteVersionPolicy` gehen app-only. (2) CLI for Microsoft 365:
+kein Set-Befehl, nur `spo site versionpolicy get` (Report tenant-hygiene 260914).
