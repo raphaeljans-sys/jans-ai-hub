@@ -3435,3 +3435,7 @@ Beleg für alle Punkte: `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-
    diese Nummern bereits im neuen Sinn verwenden. **Nicht erfasst** sind Zitate ohne Erlassangabe
    («Art. 24f» allein) und Varianten mit «RPV»; bei künftigen Funden dort ansetzen.
 
+
+## 260915 (Projektrücklauf Steinbrüchelstrasse 26/28)
+
+1. Ist Art. 693 ZGB (Verlegung der Leitung, Kosten in der Regel beim Berechtigten) analog auf vertraglich begründete, im Grundbuch eingetragene Leitungsdienstbarkeiten anwendbar, oder gilt dort ausschliesslich Art. 742 ZGB (Kosten beim Belasteten)? Lehre und BGer-Praxis am Original prüfen (BSK ZGB II zu Art. 693 und 742). Anlass: Anwaltsbüro Nova Property stützt sich auf Art. 693; Report `outputs/2026-09-15_durchleitungsrecht-verlegung-art-693-vs-742-zgb.md`.

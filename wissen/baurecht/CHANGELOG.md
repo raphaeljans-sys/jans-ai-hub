@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-15 (Projektrücklauf Steinbrüchelstrasse 26/28) — Verlegung einer eingetragenen Leitungsdienstbarkeit: Art. 742 ZGB, nicht Art. 693 ZGB
+
+- **Neu `outputs/2026-09-15_durchleitungsrecht-verlegung-art-693-vs-742-zgb.md`:** Abgrenzung gesetzliches
+  Durchleitungsrecht (Art. 691 bis 693 ZGB) gegen eingetragene Grunddienstbarkeit (Art. 742 ZGB) am Fall
+  WI1585 (Abwasserdurchleitungsrechte 1950/1953, Leitung im Miteigentum). Kernbefund: Verlegungsanspruch in
+  beiden Lesarten einseitig, Kosten bei der Bauherrin, Mitwirkung der Berechtigten praktisch nötig.
+- `wiki/QUESTIONS.md`: neue Frage zur analogen Anwendung von Art. 693 ZGB auf vertragliche Leitungsdienstbarkeiten.
+- Werkzeug: Grundbuchauszüge als Scan per pdftoppm + tesseract (deu) lesbar.
+
 ## 2026-09-14 (Buch-Run 143) — RPG 2 trat in zwei Etappen in Kraft; die RPG-Änderung vom 1.4.2026 fehlt in der jüngsten Fedlex-Konsolidierung
 
 Lauf begann 14.09.2026 23:44 CEST (gemessen) und lief über Mitternacht; Dateien tragen das Datum
