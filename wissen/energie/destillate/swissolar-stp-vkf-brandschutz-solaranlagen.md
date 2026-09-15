@@ -230,6 +230,30 @@ Kabelkanal); gleichlautend Text Ziff. 6 mit Verweis VKF-BSR 15-15.
 - **Batteriespeicher** ist eine eigene Gefahrenquelle: RF1-Untergrund, kuehl/trocken, im MFH ins
   Brandschutzkonzept einbinden — frueh mit dem Brandschutzplaner setzen.
 
+## A-BLIND-Gegenlese 15.09.2026 (Run 199) — Verdikte
+
+| Aussage im Destillat (Stand 18.06.2026) | Verdikt am Original |
+|---|---|
+| Ausgabe V 4.00, 12/2022, red. 11/2023; Basis VKF-BSM 2001-15 Rev. 01.01.2022 | bestaetigt (Titelblatt S. 3, Ziff. 1.1); zusaetzlich: V 4.0 «beruecksichtigt die Anpassungen der Brandschutzvorschriften per 1. Januar 2019», TKB-Pruefung gegen BSV 2015 Stand 1.8.2021, benannt 15.09.2022 |
+| Alle DC-Leitungen doppelt isoliert, ohne PVC | bestaetigt (Tab. 1, S. 11) |
+| DC-Hauptleitung auf/in brennbaren Bauteilen «in RF1-Rohr/-Kanal (nichtbrennbar)» | **falsch**: Rohr RF2 (cr) oder konzentrischer PE-Leiter (Tab. 1; S. 13 Ziff. 2); berichtigt |
+| Vertikale Fluchtwege / feuergefaehrdete Zonen «nicht zulaessig» | **falsch fuer feuergefaehrdete Raeume** (RF1-Rohr zulaessig), **unvollstaendig fuer vertikale Fluchtwege** (Schacht-Ausnahme [3]); berichtigt |
+| Horizontale Fluchtwege: RF1, cr nicht, ≤ 200 MJ/Lfm | bestaetigt (Fussnote [2]) |
+| WR wie Schaltgeraetekombination, Abwaerme 1,5-3,5 % Pn, RF1-Wand bzw. 30-Min-RF1-Platte | bestaetigt (A3, S. 13) |
+| WR-Standortkatalog EFH/uebrige/Behoerde/nicht zulaessig | bestaetigt; «Healthcare» war eigene Einordnung (jetzt markiert); Fernwaerme-Uebergabe, Lueftungszentrale fuer einen Abschnitt, Fussnote staubdichter Raum ergaenzt |
+| Aufgesetzte PV mit nicht brennbarer Oberschicht ohne weitere Anforderungen; Glas/Glas, Glas/Folie ≤ 1,5 mm | bestaetigt (f.1 Ziff. 3/5, S. 20-21) |
+| Integrierte PV > 1'200 m² RF1-Verlegeunterlage, 0,5-m-Unterteilungen | bestaetigt (A2 Ziff. 1); Unterdachbahnen RF3 (cr) und Lattung RF3 ergaenzt |
+| Brandmauer 1,0 m / 0,3 m / REFH-Ausnahme | bestaetigt **fuer aufgesetzte Anlagen**; die Regel fuer integrierte Anlagen (hohlraumfrei, ≤ 20 mm) fehlte, ergaenzt |
+| RWA, Solarwaerme ≥ 85 °C, Batterie −5…+30 °C, SNR 460712, Blitzschutz SN 414022/NIN 4.4.3.4 | bestaetigt |
+| Feuerwehr: Bauherr informiert, Kennzeichnung, Orientierungsplan, ≥ 30 kW in Einsatzplaene | bestaetigt (Kap. 4, S. 27); das STP verlangt zudem allgemein, die Anlage in vorhandenen Brandschutz- und Einsatzplaenen nachzufuehren |
+| Naturgefahren SIA 261/261-1:2020, Hagelregister | bestaetigt (f.2, S. 25) |
+| Geltungsbereich | **fehlte**: nur Steil- und Flachdaecher (Ziff. 1.1); nachgetragen |
+
+Die Statusstufe `established` bleibt, jetzt auf dem gegengelesenen Wortlaut. Die Fassung vom
+18.06.2026 war zweimal «vollstaendig destilliert» vermerkt und nie am Original gegengelesen; die drei
+Sachfehler lagen ausnahmslos in der **Tabellenwiedergabe** (Tab. 1 ist im Textlayer spaltenversetzt,
+erst das Rendering zeigt die Zellzuordnung).
+
 ## Offene Punkte / Folgelaeufe
 - **Quelle vollstaendig destilliert** (Kap. 1-7, S. 1-31; ab S. 32 nur noch Anhangsskizzen 7.3.x
   — konstruktive Detailgrafiken Brandmauer-Uebergang/RWA-Lichtraumprofil/Leiterschlaufen; bei

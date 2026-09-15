@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-09-15 (Run 199, Abendlauf Mac Mini 22:37) — A-BLIND Rang 69: Swissolar-STP Brandschutz am Original, Tabelle 1 berichtigt (RF2 (cr) statt RF1)
+
+Kein PDF-Transfer (Inventar seit Run 65 erschöpft; Antrieb Prüfwarteschlange). Kandidat aus Run 196:
+`destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md` (10 Backlinks, established seit 18.06.2026, nie
+gegengelesen). Sechste Prüfung: STP V 4.0 weiterhin geltend (swissolar.ch, 15.09.2026), SharePoint-Kopie =
+Web-Download (SHA-256 5730dd67…). Gelesen S. 1-31 (pdftotext), Tabelle 1 S. 11 am Rendering; Zweitbeleg
+VKF-BSM 2001-15de 01.01.2022 S. 8 am Rendering (MD5 = Fingerabdruck `wissen/normen`).
+- **Berichtigt (P2), Destillat:** DC-Hauptleitung auf/in brennbaren Gebäudeteilen **Rohr RF2 (cr)** oder
+  konzentrischer PE-Leiter (vorher «RF1-Rohr/-Kanal»); in feuergefährdeten Räumen **zulässig** im RF1-Rohr
+  (vorher «nicht zulässig»); vertikale Fluchtwege mit Schacht-Ausnahme [3]. Tabelle 1 als Tabelle
+  wiedergegeben, Korrekturvermerk mit altem Wortlaut, Verdikt-Tabelle, Frontmatter (fingerabdruck,
+  aktualitaet, verifikation, datenstand).
+- **Nachgetragen, Destillat:** Geltungsbereich Steil-/Flachdach (Ziff. 1.1) samt Hinweis Übergangsdokument
+  PV-Fassaden (längstens Ende 2026); Brandmauer-Regel für integrierte Anlagen; Unterdachbahnen RF3 (cr);
+  WR-Standorte Fernwärme/Lüftungszentrale/staubdichter Raum; «Healthcare» als eigene Einordnung markiert;
+  Eigentümerverantwortung Unterhalt; TKB-Prüfdaten.
+- **Wiki:** FAQ **F16 berichtigt**, **F296 neu** (Holzbau + PV: DC-Leitungsführung je Montageort);
+  `wiki/pv-solar-technologien.md` und `wiki/holzbau-bauphysik-clt.md` berichtigt;
+  `destillate/prefa-solar-indach-aluminium-dachplatte.md` Verweiszeile berichtigt;
+  `destillate/greenpv-fassade-pv-begruenung-hslu.md` Geltungsbereich-Vermerk. `wiki/INDEX.md` 296 Kernfragen,
+  40 Themenartikel (Run 198 nachgezählt).
+- **Register:** `wiki/QUESTIONS.md` (Run-199-Abschnitt, E-R199-1 Prüfstichtag 31.12.2026, E-R199-2, E10-Zeile
+  markiert), `destillate/INDEX.md`, `raw/_INGESTED.md` (append-only geprüft), `training/curriculum.md`.
+- **Cross-KB:** → übergeben an `wissen/planungsgrundlagen` (Nachtrag in
+  `wiki/energie-pv-eignung-typenwahl.md`, Übergangsdokument bis Ende 2026 statt 31.12.2024; Zeile in
+  `wiki/QUESTIONS.md`); → übergeben an `wissen/normen` (E-R199-2 in `wiki/QUESTIONS.md`, Wortlaut
+  Modulverkabelung, nichts editiert).
+- **Werkzeuge:** `wiki-konsistenz.sh energie` 0, `kennwert-recompute.sh energie` 0.
+Bericht: `outputs/2026-09-15_energie-run199.md`.
+
 ## 2026-09-15 (Run 198, Nachtschicht Mac Mini 05:30) — Cross-KB-Übergabe aus `wissen/baurecht` (Buch-Run 143) kompiliert
 
 Neuer Wiki-Artikel [[eng-revision-2026-solarwind-nationales-interesse]]: EnG-Änderung vom

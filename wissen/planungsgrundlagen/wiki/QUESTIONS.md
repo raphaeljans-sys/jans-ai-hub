@@ -10,6 +10,12 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > deshalb offen stehen, bis Raphael neues Quellmaterial in die PL-Ordner legt oder ein reales
 > Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
 >
+
+- [ ] **E-R199-1 (Cross-KB aus `wissen/energie`, 15.09.2026): Übergangsdokument PV-Fassaden verlängert.**
+  `wiki/energie-pv-eignung-typenwahl.md` nannte die Geltung «bis 31.12.2024»; Swissolar hat bis Ende 2026
+  verlängert (News 11.12.2024, Seite Wissen/Brandschutz abgerufen 15.09.2026). Nachtrag im Artikel gesetzt,
+  Prüfstichtag 31.12.2026 geführt in `wissen/energie/wiki/QUESTIONS.md` E-R199-1. Nichts zu tun für den
+  Wartungslauf ausser dem Abhaken, sobald die energie-KB den Stichtag geschlossen hat.
 > **Werkzeuge des Wartungslaufs (seit 23.08.2026 zu viert):** als viertes kam am selben Tag
 > `bash wissen/tools/link-zielabgleich.sh <kb>` dazu — es prüft, ob ein zitierter Link dort
 > **landet**, wo er hinzeigt. Anlass: der Host `geoportal.zh.ch` ist abgeschaltet und leitet

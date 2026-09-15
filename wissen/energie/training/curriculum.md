@@ -2829,3 +2829,15 @@ F295 neu, F32 berichtigt.
 
 **Nächster Zuschnitt:** A-BLIND Rang 69 `swissolar-stp-vkf-brandschutz-solaranlagen` (zuerst Ausgabe
 prüfen: STP v4.0 noch geltend?), danach Rang 64 `private-kontrolle-zh`.
+
+## Run 199 (15.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 69: Swissolar-STP Brandschutz
+
+Kein PDF-Transfer (Inventar erschöpft). Sechste Prüfung zuerst: STP V 4.0 ist weiterhin geltend. Dann
+Wort-für-Wort-Gegenlese S. 1-31: drei Sachfehler, alle in **Tabelle 1** (DC-Verlegeart je Montageort), die im
+pdftotext-Layer spaltenversetzt ist; erst das Rendering zeigt die Zellzuordnung. Die KB `normen` hatte dieselbe
+Tabelle seit 06.08.2026 richtig — die Siebte Prüfung (Cross-KB) hätte den Widerspruch schon damals zeigen können.
+Lehre (Methode): **Tabellen aus PDFs werden am Rendering gelesen, nie aus dem Textlayer allein**; ein Destillat,
+das eine Tabelle in Fliesstext auflöst, verliert die Spaltenzuordnung zuerst. F296 neu, F16 berichtigt.
+
+**Nächster Zuschnitt:** A-BLIND Rang 64 `private-kontrolle-zh`; E-R199-1 (Übergangsdokument PV-Fassaden,
+Prüfstichtag 31.12.2026).

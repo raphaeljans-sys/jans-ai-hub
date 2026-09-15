@@ -77,7 +77,10 @@ ueber der Nenntemperatur ~4 % Minderertrag → Hinterlueftung der Fassadenmodule
 
 ## Brandschutz / Recht (nicht hier doppeln)
 - Solar-/PV-Brandschutz (Module, DC-Leitung, Wechselrichter, Feuerwehr) → Skill `brandschutz` /
-  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
+  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. ⚠ Das STP gilt laut Ziff. 1.1 fuer **Steil- und
+  Flachdaecher**; fuer PV an **Fassaden** fuehrt Swissolar das «Uebergangsdokument fuer Planung und
+  Brandschutznachweis von Photovoltaik-Fassaden» (10/2023, laengstens bis Ende 2026), nicht destilliert
+  (E-R199-1; Vermerk Run 199, 15.09.2026).
 - Bewilligung Fassaden-PV/Begruenung (Ortsbild, Kernzone, Abstand) → Skill `baurecht`.
 
 ## Offene Punkte

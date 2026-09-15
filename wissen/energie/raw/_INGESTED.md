@@ -496,3 +496,18 @@ Konsolidierungsdaten durchprobiert, siehe `docs/referenz/fedlex-volltexte.md`):
 Ergebnis → `destillate/zev-mieter-strompreis-eigenverbrauch.md` (Mieterrechte neu gefasst, Rechtsstand
 nachgeführt), `destillate/zev-eigenverbrauch-mfh-her-2025.md` (Quellenkante 3-Monats-Fenster), FAQ F32
 berichtigt, F295 neu, `wiki/pv-eigenverbrauch-zev.md` berichtigt.
+
+## 2026-09-15 (Run 199) — A-BLIND Swissolar-STP Brandschutz Solaranlagen: zwei Primärquellen, kein neues Destillat
+
+- Swissolar «Stand-der-Technik-Papier zu VKF Brandschutzmerkblatt Solaranlagen» V 4.00 (12/2022, red. 11/2023),
+  SharePoint `/sites/PL/04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` (M365-CLI) und
+  `swissolar.ch/01_wissen/swissolar-publikationen/stp_solaranlagen_swissolar_v_4.0.pdf`, beide 11'085'126 B,
+  SHA-256 `5730dd678a543e22…` (byte-identisch), 55 S.; gelesen S. 1-31 (pdftotext), S. 11 am Rendering.
+- VKF-Brandschutzmerkblatt 2001-15de «Solaranlagen», Ausgabe 01.01.2022,
+  `services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-197.pdf/content`, MD5
+  `a17958fdf95c720434ffa90117964b23` (= Fingerabdruck `wissen/normen`), S. 8 (Tabelle 1) am Rendering.
+- Swissolar-Seite «Wissen / Brandschutz» und News 11.12.2024 (Übergangsdokument PV-Fassaden bis Ende 2026) —
+  nur Ausgabenprüfung, kein Download des Übergangsdokuments.
+Ergebnis → `destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md` (3 Sachfehler Tabelle 1 berichtigt,
+Geltungsbereich Dach, Verdikt-Tabelle), FAQ F16 berichtigt, F296 neu, Folgestellen in zwei Wiki-Artikeln und
+zwei Destillaten.

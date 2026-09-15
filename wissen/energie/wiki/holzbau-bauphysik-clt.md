@@ -1,7 +1,7 @@
 ---
 title: Holzbau-Bauphysik — CLT / Brettsperrholz (Wärme, Luftdicht, Feuchte)
 status: established
-last_updated: 2026-06-24
+last_updated: 2026-09-15 (Run 199: PV-Abgrenzungszeile berichtigt, RF2 (cr) statt RF1-Rohr; davor 2026-06-24)
 datenstand: "2005 (ältester zitierter Quellenstand: SIA-Merkblatt 2001 «Wärmedämmstoffe», Ausgabe 2005 — laut eigenem Destillat sind die konkreten Produkt-Nennwerte darin seit Ende 2006 veraltet, die Materialklassen-λ-Bandbreiten gelten aber weiterhin als physikalische Orientierung; die tragenden Zahlenwerte des Artikels (U-Werte, Bauteilaufbauten, Schallschutz) stammen aus der jüngeren Hauptquelle «CLT by Stora Enso», Version 06.2021. ⚠ Eine sechste Quelle (Lehrmittel-Auszug `graue-energie-betriebsenergie.md`, Abschnitt «Ökologie/graue Energie») trägt kein auffindbares Ausgabedatum und bleibt daher aus dem Datenstand-Vergleich ausgeschlossen)"
 sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md, destillate/sia-181-schallschutz-anforderungswerte.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]], [[schallschutz-sia181]]
@@ -92,7 +92,9 @@ kommen aus **mehrschaligen, entkoppelten, beschwerten** Aufbauten. Aus dem Stora
 
 ## Abgrenzung
 - **Brandschutz** (Kapselung, REI/EI-Klassen CH, Sichtholz-Anteil, Abbrand) → Skill `brandschutz`.
-- **PV auf Holzbau** (DC-Leitung im Tragwerk in RF1-Rohr ohne PVC) → `[[pv-solar-technologien]]` / F16.
+- **PV auf Holzbau** (DC-Leitung über/im Tragwerk im Rohr RF2 (cr) oder mit konzentrischem
+  Schutzleiter, ohne PVC; RF1 erst in feuergefährdeten Räumen/horizontalen Fluchtwegen; berichtigt
+  15.09.2026, Run 199, vorher «RF1-Rohr») → `[[pv-solar-technologien]]` / F16, F296.
 - **SIA-181:2020-Anforderungswerte** jetzt belegt → `[[schallschutz-sia181]]`. Offen nur noch die
   **Schallschutz-Anschlussdetails/Flanke** (Lignum-Dokumentation CH, konkrete Stoss-Lösungen) → Folgelauf.
 

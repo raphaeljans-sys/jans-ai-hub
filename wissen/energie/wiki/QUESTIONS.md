@@ -2,6 +2,44 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 199 (15.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 69: Swissolar-STP Brandschutz Solaranlagen am Original
+
+`[[swissolar-stp-vkf-brandschutz-solaranlagen]]` (10 Backlinks, `established` seit 18.06.2026, nie
+gegengelesen). **Sechste Prüfung zuerst:** STP V 4.0 ist weiterhin die geltende Ausgabe (swissolar.ch
+Wissen/Brandschutz, 15.09.2026; News 11.12.2024 «Für Dachanlagen gilt weiterhin das bereits bestehende
+Stand-der-Technik-Papier»); SharePoint-Kopie und Web-Download byte-identisch (SHA-256 5730dd67…).
+**Siebte Prüfung (Cross-KB):** `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`
+führt dieselbe Tabelle 1 bereits richtig (RF2 (cr)) — die KB `energie` widersprach der KB `normen` seit
+06.08.2026, ohne dass es auffiel. Gelesen: STP S. 1-31 (pdftotext), Tabelle 1 S. 11 am Rendering;
+VKF-BSM 2001-15de 01.01.2022 S. 8 am Rendering (MD5 = normen-Fingerabdruck).
+
+**Beanstandet und berichtigt (P2, drei Sachfehler, alle in der Tabellenwiedergabe):** (1) DC-Hauptleitung
+auf/in brennbaren Bauteilen verlangt **Rohr RF2 (cr)** oder konzentrischen PE-Leiter, nicht RF1;
+(2) in feuergefährdeten Räumen ist sie im RF1-Rohr **zulässig** (nur der Wechselrichter nicht);
+(3) vertikale Fluchtwege: Schacht-Ausnahme Fussnote [3]. **Nachgetragen:** Geltungsbereich nur Steil- und
+Flachdächer (Ziff. 1.1); Brandmauer-Regel für integrierte Anlagen; Unterdachbahnen RF3 (cr); WR-Standorte
+Fernwärme/Lüftungszentrale/staubdichter Raum; Eigentümerverantwortung Unterhalt. Folgestellen F16,
+`wiki/pv-solar-technologien.md`, `wiki/holzbau-bauphysik-clt.md`,
+`destillate/prefa-solar-indach-aluminium-dachplatte.md`, `destillate/greenpv-fassade-pv-begruenung-hslu.md`
+berichtigt bzw. vermerkt; F296 neu. Grep-Abschlussregel mit Varianten («RF1-Rohr», «nichtbrennbares
+Rohr», «feuergefährdet … nicht zulässig», «1,0 m»): nur noch Korrekturvermerke.
+
+- [ ] **E-R199-1 (P3, Prüfstichtag 31.12.2026): Swissolar-Übergangsdokument PV-Fassaden läuft aus.**
+  «Übergangsdokument für Planung und Brandschutznachweis von Photovoltaik-Fassaden» (10/2023, V1.1),
+  gültig «bis zum Erscheinen eines verbindlichen Stand-der-Technik-Papiers, längstens aber bis Ende 2026»
+  (swissolar.ch, abgerufen 15.09.2026). Nicht destilliert. Bis 31.12.2026 prüfen: ist ein STP PV-Fassaden
+  erschienen oder das Übergangsdokument erneut verlängert? Dann destillieren (Anlass: F16/F296 verweisen
+  für Fassaden darauf). Cross-KB: `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md`
+  nennt noch «bis 31.12.2024» → dort vermerkt (Bringschuld Run 199).
+- [ ] **E-R199-2 (P4, Cross-KB → `wissen/normen`): Wortlaut Modulverkabelung im VKF-BSM-Destillat.**
+  `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` Z. ~99-102 zählt fünf Montageorte
+  als «vier» und schreibt «DC-Modulverkabelung, ohne Rohr, ist in allen vier Montageorten nicht
+  zulässig». Am Rendering S. 8: «Ohne Rohr» ist **auf/in brennbaren Gebäudeteilen zulässig**, in den
+  übrigen vier nicht. Sachlich lesbar, aber missverständlich; in `wissen/normen/wiki/QUESTIONS.md`
+  vermerkt, Entscheid bei der KB `normen`.
+- [x] **A-BLIND Rang 69:** ✓ 15.09.2026 (Run 199). **Nächster Kandidat:** Rang 64
+  `[[private-kontrolle-zh]]` (aus Run 196 übernommen, nicht neu gerankt).
+
 ## Run 196 (14.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 72: ZEV-Mieterrechte am Gesetz, Preisregel bestätigt
 
 Backlink-Ranking neu gezogen (348 Destillate). Ränge 57-72 auf frühere A-BLIND-Prüfung abgeglichen
@@ -2725,9 +2763,9 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   ✓ 2026-06-13** → `[[clt-schallschutz-stora-enso]]`, FAQ F17 (R_w 34-58, L'_n,w 60→46). Offen:
   Flankenuebertragung/Anschlussdetails CH (Lignum) + exakte SIA-181-Anforderungswerte.
 - [x] **E10** PV-/Solar-Brandschutz (Schnittstelle Solar↔Gebaeude) belegt ✓ 2026-06-12 →
-  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, FAQ F16 (DC kein PVC/RF1-Rohr, WR-Standort,
+  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, FAQ F16 (DC kein PVC/RF1-Rohr [⚠ berichtigt Run 199, 15.09.2026: auf/in brennbaren Bauteilen Rohr RF2 (cr), RF1 erst in feuergefährdeten Räumen/horizontalen Fluchtwegen], WR-Standort,
   Kennzeichnung). **STP Kap. 4-7 nachgezogen ✓ 2026-06-18** (Feuerwehr-Pflicht Bauherr + ≥30 kW
-  Orientierungsplan, Brandmauer 1,0 m, Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) →
+  Orientierungsplan, Brandmauer 1,0 m [nur aufgesetzte Anlagen, Run 199], Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) →
   Destillat vollst., FAQ F16 geschaerft. Quelle damit erschoepft (nur noch Anhang-Detailskizzen 7.3.x).
 - [x] **E9** Private Kontrolle ZH / wer zeichnet den EN-Nachweis belegt ✓ 2026-06-11
   → `[[private-kontrolle-zh]]` (BBV I §4-7, EN-Formular-Matrix; FAQ F12 geschaerft).

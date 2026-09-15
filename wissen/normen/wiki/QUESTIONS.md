@@ -1,5 +1,16 @@
 # Offene Fragen — KB Normen
 
+## Cross-KB-Hinweis aus `wissen/energie` Run 199 (15.09.2026) — VKF-BSM 2001-15 Tabelle 1, Wortlaut Modulverkabelung
+
+- [ ] **E-R199-2 (P4):** `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`, Abschnitt «Tabelle 1 (S. 8)»,
+  nennt «vier Montageorte» und zählt fünf auf, und schreibt «Die Zeile DC-Modulverkabelung, ohne Rohr, ist
+  in allen vier Montageorten nicht zulässig». Am eigenen Rendering der S. 8 (PDF MD5 `a17958fd…`, identisch
+  mit dem Fingerabdruck dieses Destillats) steht in der Spalte «auf/in brennbaren Gebäudeteilen» **«Ohne
+  Rohr»** (zulässig), in den übrigen vier Spalten ☒. Die Zeile ist richtig, wenn «vier» die übrigen vier
+  meint, liest sich aber wie ein Totalverbot. Die Hauptleitungszeile (RF2 (cr) / RF1 / Fussnoten) ist
+  korrekt und diente der KB `energie` als Zweitbeleg für ihre Berichtigung (RF1 → RF2 (cr)). Präzisierung
+  des Wortlauts ist Entscheid dieser KB; `wissen/energie` hat hier nichts editiert.
+
 ## Normen-Nacht Run 85 (15.09.2026) — N84-2 (Typ-A-Klasse) abgearbeitet, WC57-N1 beantwortet, ein Statusabstieg
 
 **N84-2 geschlossen.** 22 der 24 Typ-A-Destillate blind refutiert (136 Aussagen, sechs Pakete,

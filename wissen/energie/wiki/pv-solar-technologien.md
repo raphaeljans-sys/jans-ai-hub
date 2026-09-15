@@ -1,7 +1,7 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-09-10 (Nachtschicht Mac Mini, Prio 5: E-R189-1 Teilantwort SZ — PBV SZ Stand 1.2.2026, § 75a Abs. 4 PBG SZ und aktuelle Kantonsrats-Vorstoesse geprueft, kein Gebrauch von Art. 18a Abs. 2 lit. a RPG und kein Vorstoss dazu gefunden; Bundesrat/Art. 24 Abs. 2 RPG bleibt offen; zuvor 2026-09-09: E-R189-1 Teilantwort ZH — Postulat KR-Nr. 17/2026 als Beleg, dass ZH die Kompetenz noch nicht genutzt hat; zuvor Run 189: neuer Abschnitt «Energetische Sanierungen im Artikeltitel», Art. 18a Abs. 2 lit. a + Art. 24 Abs. 2 RPG als Kompetenznormen, schliesst E-B142-1 Restpunkt 2, F291; zuvor am selben Tag: neuer Abschnitt Solarstrukturen über Parkplatzarealen, Art. 18a Abs. 2bis RPG, schliesst E-B142-2; zuvor am selben Tag SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
+last_updated: 2026-09-15 (Run 199: Brandschutz-Absatz berichtigt, DC-Rohr RF2 (cr) statt RF1, Geltungsbereich Dach; davor 2026-09-10 Nachtschicht Mac Mini, Prio 5: E-R189-1 Teilantwort SZ — PBV SZ Stand 1.2.2026, § 75a Abs. 4 PBG SZ und aktuelle Kantonsrats-Vorstoesse geprueft, kein Gebrauch von Art. 18a Abs. 2 lit. a RPG und kein Vorstoss dazu gefunden; Bundesrat/Art. 24 Abs. 2 RPG bleibt offen; zuvor 2026-09-09: E-R189-1 Teilantwort ZH — Postulat KR-Nr. 17/2026 als Beleg, dass ZH die Kompetenz noch nicht genutzt hat; zuvor Run 189: neuer Abschnitt «Energetische Sanierungen im Artikeltitel», Art. 18a Abs. 2 lit. a + Art. 24 Abs. 2 RPG als Kompetenznormen, schliesst E-B142-1 Restpunkt 2, F291; zuvor am selben Tag: neuer Abschnitt Solarstrukturen über Parkplatzarealen, Art. 18a Abs. 2bis RPG, schliesst E-B142-2; zuvor am selben Tag SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
 datenstand: "2012 (ältester zitierter Quellenstand: TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012, EPFL/LESO — trägt weiterhin die Grundstruktur PV-Zelltypen, Integrationsarten und Bedarf→Technologie-Zuordnung; die dortigen Wirkungsgrad-Zahlen sind im Artikel selbst als «Stand 2012, heute höher» gekennzeichnet, nicht als abgelöst — vor Zitat in einem Aussendokument aktuelle Datenblätter/Marktzahlen prüfen, dafür `destillate/pv-marktzahlen-kosten-ch-2025.md`, Datenstand 2026-07-23)"
 sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]], [[pv-einmalverguetung-bund-bfe]]
@@ -228,10 +228,14 @@ Referenz-Investitionskosten liegt darüber und wird vom Tarifrechner nicht mitge
 
 ## Brandschutz (Schnittstelle Solar↔Gebäude)
 Stand der Technik swissolar/VKF (Basis VKF-BSM 2001-15): drei Schnittstellen planen — **DC-Leitungen**
-(halogenfrei, **kein PVC**; auf brennbarem Untergrund/Holztragwerk in **RF1-Rohr**; nicht in
-vertikalen Fluchtwegen), **Wechselrichter-Standort** (nicht in feuer-/explosionsgefährdeten Räumen
-oder Fluchtwegen; EFH-Heizraum erlaubt), **Kennzeichnung** für die Feuerwehr. Holzbau = Knackpunkt
-DC-Führung → [[holzbau-bauphysik-clt]]. Details → [[BAUHERREN-FAQ]] F16,
+(halogenfrei, **kein PVC**; auf/in brennbaren Bauteilen/Holztragwerk im **Rohr RF2 (cr)** oder mit
+konzentrischem Schutzleiter, RF1 erst in feuergefährdeten Räumen und horizontalen Fluchtwegen; in
+vertikalen Fluchtwegen nur im abgetrennten Schacht), **Wechselrichter-Standort** (nicht in feuer-/
+explosionsgefährdeten Räumen oder vertikalen Fluchtwegen, horizontale nur mit Behörde; EFH-Heizraum
+erlaubt), **Kennzeichnung** für die Feuerwehr. Das STP gilt für **Dachanlagen**; PV-Fassaden →
+Swissolar-Übergangsdokument (längstens bis Ende 2026). Holzbau = Knackpunkt DC-Führung →
+[[holzbau-bauphysik-clt]], [[BAUHERREN-FAQ]] F296. ⚠ Berichtigt 15.09.2026 (Run 199): hier stand
+«auf brennbarem Untergrund/Holztragwerk in RF1-Rohr». Details → [[BAUHERREN-FAQ]] F16,
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Brandschutz-**Bewertung** → Skill `brandschutz`;
 Energierecht → Skill `baurecht`.
 

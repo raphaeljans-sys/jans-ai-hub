@@ -1,7 +1,7 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-09-14 (Run 196: **F295 neu** «Vermietetes MFH mit ZEV — müssen die Mieter mitmachen, können sie aussteigen?» (Art. 17 Abs. 3 EnG, Art. 16/18 EnV Stand 1.7.2026, Art. 6b VMWG); **F32 berichtigt** — Mieterrechte am Gesetz neu gefasst, Wahlrecht nur bei Einführung, «keine Nettomiet-Überwälzung» auf Einführungskosten eingegrenzt. Vorher: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
+last_updated: 2026-09-15 (Run 199: **F296 neu** «Holzbau + PV: wie wird die DC-Leitung geführt?» (STP V 4.0 Tab. 1 = VKF-BSM 2001-15de Tab. 1, am Original gelesen); **F16 berichtigt** (RF2 (cr) statt RF1 auf/in brennbaren Bauteilen, feuergefährdete Räume zulässig, Brandmauer nach Einbauart, Geltungsbereich Dach); Run 196: **F295 neu** «Vermietetes MFH mit ZEV — müssen die Mieter mitmachen, können sie aussteigen?» (Art. 17 Abs. 3 EnG, Art. 16/18 EnV Stand 1.7.2026, Art. 6b VMWG); **F32 berichtigt** — Mieterrechte am Gesetz neu gefasst, Wahlrecht nur bei Einführung, «keine Nettomiet-Überwälzung» auf Einführungskosten eingegrenzt. Vorher: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
   **F258 neu** «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein?» —
   Free-Cooling via Erdsonde/Grundwasser loest die Pflicht zur automatischen Sonnenschutz-
   Steuerung NICHT aus (EN-102 Jan. 2020 Kap. 8.1, Ausloeser ist die Kaeltemaschine);
@@ -800,19 +800,26 @@ einem dritten, gänzlich unbelegten λ 0,13 rechnete → F257,
 ## F16 — «Was muss ich beim Brandschutz einer Solaranlage (PV) beachten?»
 
 **Kurz:** Eine PV-Anlage darf den Brandschutz **nicht wesentlich verschlechtern**. Praktisch sind
-drei Dinge zu planen: die **Gleichstrom-Leitungen (DC)** richtig führen (kein PVC, auf brennbarem
-Untergrund in nichtbrennbarem Rohr), den **Wechselrichter** an einem zulässigen Ort montieren
-(nie im Treppenhaus/Fluchtweg) und die Anlage **für die Feuerwehr kennzeichnen**. Beim
-**Holzbau** ist die DC-Leitungsführung der Knackpunkt.
+drei Dinge zu planen: die **Gleichstrom-Leitungen (DC)** richtig führen (kein PVC, auf oder in
+brennbaren Bauteilen im schwerbrennbaren Rohr RF2, durch feuergefährdete Räume und Fluchtkorridore
+im nichtbrennbaren Rohr RF1), den **Wechselrichter** an einem zulässigen Ort montieren (nie im
+Treppenhaus) und die Anlage **für die Feuerwehr kennzeichnen**. Beim **Holzbau** ist die
+DC-Leitungsführung der Knackpunkt. Das gilt für Dachanlagen; für PV an der Fassade gilt ein
+eigenes Übergangsdokument.
 
 **Fachlich:** Ein PV-Modul steht **bei Tageslicht unter Spannung, auch wenn der Hausanschluss
 abgeschaltet ist** — die DC-Seite bleibt gefährlich. Daraus folgen (Stand der Technik swissolar /
 VKF-BSM 2001-15):
-- **DC-Leitungen:** doppelte Isolation, **halogenfrei, kein PVC**. Eine DC-Hauptleitung **auf/in
-  brennbaren Bauteilen** (z.B. CLT-/Holztragwerk) muss in ein **nichtbrennbares Rohr (RF1)** oder
-  als Kabel mit metallischer Umhüllung. In **vertikalen Fluchtwegen und feuer-/explosions-
-  gefährdeten Zonen** sind sie nicht zulässig. Empfehlung: DC kurz halten (Wechselrichter nahe
-  beim Solarfeld).
+- **DC-Leitungen:** doppelte Isolation, **halogenfrei, kein PVC**. Die DC-Hauptleitung richtet sich
+  nach dem Montageort (STP Tabelle 1 = VKF-BSM 2001-15 Tabelle 1): **auf/in brennbaren Bauteilen**
+  (z.B. CLT-/Holztragwerk, Steigzone im Holzbau) im **Rohr RF2 (cr)** oder als Kabel mit
+  konzentrischem Schutzleiter; **in feuergefährdeten Räumen** im **Rohr RF1** (nagetiersicher) oder
+  mit konzentrischem Schutzleiter; **in horizontalen Fluchtwegen** im Rohr RF1, keine cr-Kabel,
+  höchstens 200 MJ Kabel-Brandlast je Laufmeter; **in vertikalen Fluchtwegen** nur im
+  abgetrennten Schacht/Kabelkanal (mind. 30 Min. RF1); **in explosionsgefährdeten Zonen** nie.
+  Empfehlung: DC kurz halten (Wechselrichter nahe beim Solarfeld).
+  ⚠ *Berichtigt 15.09.2026 (Run 199, am Original gelesen): hier stand bis dahin «nichtbrennbares Rohr
+  (RF1)» für brennbare Bauteile und «in feuergefährdeten Zonen nicht zulässig».*
 - **Wechselrichter:** wie eine Schaltgerätekombination behandeln (Abwärme ~1,5-3,5 % der
   Leistung), Herstellerabstände zu Brennbarem einhalten, auf RF1-Wand oder brennbarem Untergrund
   mit 30-Min-Brandschutzplatte. **EFH:** Keller/Technik bevorzugt, Heizraum erlaubt. **MFH/
@@ -826,9 +833,16 @@ VKF-BSM 2001-15):
   grösseren MFH-/Healthcare-Anlagen) oder bei relevanter Gefährdung muss der Orientierungsplan in die
   **bestehenden Brandschutz-/Feuerwehreinsatzpläne** aufgenommen werden; bei Brandmelde-/Sprinkler-
   anlage zusätzlich Kennzeichnung am Feuerwehr-Bedienteil.
-- **Brandmauern:** im Bereich einer Brandmauer (Reihenhaus, MFH-Trennwand) die **Module 1,0 m
-  unterbrechen** — ausser die Brandmauer wird **0,3 m über die Anlage** geführt (REFH-Ausnahme bei
-  RF1-Bedeckung). Grossflächige integrierte Anlagen > 1'200 m² brauchen eine **RF1-Verlegeunterlage**.
+- **Brandmauern:** bei einer **aufgesetzten** Anlage im Bereich einer Brandmauer (Reihenhaus,
+  MFH-Trennwand) die **Module auf 1,0 m unterbrechen**, ausser die Brandmauer wird **0,3 m über die
+  Anlage** geführt (REFH-Ausnahme bei RF1-Bedachung; einseitige Anlage bis zur Mittelachse der
+  Brandmauer). Bei einer **integrierten** Anlage wird die Brandmauer hohlraumfrei bis ans Modul
+  geführt oder mit einer RF1-Schicht unterbrochen. Grossflächige integrierte Anlagen > 1'200 m²
+  brauchen eine **RF1-Verlegeunterlage**; Unterdachbahnen mindestens RF3 (cr).
+- **Geltungsbereich und Unterhalt:** das Stand-der-Technik-Papier gilt für **Steil- und Flachdächer**.
+  PV an der **Fassade** läuft über das Swissolar-Übergangsdokument PV-Fassaden (10/2023, gültig bis zu
+  einem verbindlichen STP, längstens Ende 2026) und einen objektbezogenen Brandschutznachweis. Die
+  Verantwortung für Kontrolle und Reparatur liegt beim **Gebäudeeigentümer**.
 - **Blitz/Speicher:** PV löst keine Blitzschutzpflicht aus (ändert die Blitzschutzklasse nicht),
   ist aber in ein vorhandenes System einzubinden; **Batteriespeicher** (meist Li-Ionen) sind eine
   eigene Gefahrenquelle → auf **RF1-Untergrund**, kühl/trocken, im **MFH ins Brandschutzkonzept
@@ -838,7 +852,8 @@ VKF-BSM 2001-15):
 (12/2022, überarb. 11/2023; Basis VKF-BSM 2001-15), vollst. Kap. 1-7 →
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. PV-Typ-/Pflicht siehe F4/F10; CLT-Aufbau →
 `[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-Bewertung/Feuerpolizei-Akzeptanz im Detail →
-Skill `brandschutz`.** ⚠ Datenstand 2026-06-18.
+Skill `brandschutz`.** Datenstand 2026-09-15 (A-BLIND-Gegenlese Run 199: STP V 4.0 als geltende
+Ausgabe bestätigt, Tabelle 1 zusätzlich am VKF-BSM 2001-15de 01.01.2022 gelesen). Verwandt: [[F296]].
 
 ---
 
@@ -9933,3 +9948,48 @@ Status **established** für die Gesetzesaussagen; das 3-Monats-Fenster ist Branc
 Schlichtungsbehörde als Streitweg ist Einordnung über Art. 6b VMWG (Verfahrensrecht nicht geprüft); die
 Mehrleistungsfrage ist offen (E-R196-1). Datenstand 14.09.2026. Mietrechtliche Detailfragen → Skill
 `baurecht` bzw. Mietrechtsfachperson. Verwandt: [[F32]], [[F33]], [[pv-eigenverbrauch-zev]].
+
+---
+
+## F296 — «Wir bauen in Holz und setzen PV aufs Dach. Wie muss die Gleichstromleitung vom Dach zum Wechselrichter geführt werden?»
+
+**Kurz:** Ohne PVC und je nach Raum im passenden Rohr. Solange die Leitung über oder in Holzbauteilen
+läuft (Dachraum, Steigzone im Holzbau, Tragwerk), genügt ein **schwerbrennbares Rohr RF2 (cr)** oder
+ein Kabel mit konzentrischem Schutzleiter; ein nichtbrennbares RF1-Rohr ist dort nicht verlangt. RF1
+braucht es erst, wo die Leitung einen **feuergefährdeten Raum** oder einen **Korridor als Fluchtweg**
+durchquert. **Durchs Treppenhaus** geht sie nur in einem abgetrennten Schacht, der mindestens 30 Minuten
+aus nichtbrennbarem Material hält. Am einfachsten ist ein Wechselrichter nahe beim Dach: je kürzer die
+DC-Leitung im Gebäude, desto weniger dieser Fragen stellen sich.
+
+**Fachlich:** Die Gleichstromseite einer PV-Anlage bleibt bei Tageslicht unter Spannung, auch wenn der
+Hausanschluss getrennt ist; Isolationsschäden an DC-Leitungen erzeugen Lichtbögen. Das
+Stand-der-Technik-Papier (STP) übernimmt dazu wörtlich die Tabelle 1 des VKF-Brandschutzmerkblatts
+2001-15 «Solaranlagen» (Ausgabe 01.01.2022), die fünf Montageorte unterscheidet:
+
+| Wo läuft die DC-Hauptleitung? | Verlangt |
+|---|---|
+| auf/in brennbaren Gebäudeteilen (Holzbau, Dachraum) | Rohr RF2 (cr) oder konzentrischer PE-Leiter |
+| durch feuergefährdete Räume (Schreinerei, Heulager) | Rohr RF1, nagetiersicher, oder konzentrischer PE-Leiter |
+| im horizontalen Fluchtweg (Korridor) | Rohr RF1 oder konzentrischer PE-Leiter; keine cr-Kabel; ≤ 200 MJ je Laufmeter |
+| im vertikalen Fluchtweg (Treppenhaus) | nur im abgetrennten Schacht/Kabelkanal, mind. 30 Min. RF1 |
+| in explosionsgefährdeten Zonen | nie |
+
+Die Anforderung gilt ab dem **Eintritt aus dem Unterdach bis zum Wechselrichter**, auch für eine
+Strangleitung im Gebäudeinnern; ausgenommen ist nur die Modulverkabelung im Dachbereich, die lose unter
+den Modulen liegen darf. In Durchlüftungs- und Dachhohlräumen empfiehlt das STP metallische Rohre gegen
+Nagetiere. Aufzugsschächte und aktive Kamine sind für DC-Leitungen tabu; ein vollständig stillgelegter
+Kamin darf genutzt werden.
+
+**Bauherren-Transfer (eigene Einordnung):** Die KB hat bis zum 15.09.2026 für den Holzbau durchgehend
+«RF1-Rohr» genannt. Das war strenger als verlangt. Wer das so ausschreibt, bezahlt nichtbrennbare Rohre,
+wo schwerbrennbare genügen. Die Frage gehört in die Elektroplanung **vor** der Steigzonen-Planung: ein
+Wechselrichter im Dachgeschoss erspart die Treppenhausfrage ganz; ein Wechselrichter im Keller verlangt
+einen durchgehenden Leitungsweg, der an jedem Montageort die Tabelle erfüllt. Die Brandschutzbeurteilung
+im Einzelfall bleibt beim Brandschutzplaner (Skill `brandschutz`).
+
+**Quelle:** Swissolar «Stand-der-Technik-Papier zu VKF Brandschutzmerkblatt Solaranlagen» V 4.00
+(12/2022, red. 11/2023), A2 Tabelle 1 S. 11 und Ziff. 1-10 S. 13, D2 S. 19; VKF-BSM 2001-15de, Ausgabe
+01.01.2022, Tabelle 1 S. 8 (beide am gerenderten Original gelesen 15.09.2026) →
+`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`.
+Status **established**. Datenstand 15.09.2026 (STP V 4.0 laut swissolar.ch weiterhin geltend). Verwandt:
+[[F16]], [[holzbau-bauphysik-clt]], [[pv-solar-technologien]].

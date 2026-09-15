@@ -594,6 +594,11 @@ Brandschutzkonzept mit Brandschutzbehörde abzusprechen, da PV-Fassaden **keiner
 konzept-Kategorie** zugeordnet werden können). Für PV an Fassaden gilt bis 31.12.2024 das
 Übergangsdokument «Brandschutz für hinterlüftete Photovoltaikanlagen an Fassaden»
 (Swissolar 2023) als Leitfaden, da noch kein Stand-der-Technik-Papier existiert.
+> ⚠ **Nachtrag 15.09.2026 (Cross-KB aus `wissen/energie` Run 199):** die Frist «bis 31.12.2024» ist
+> überholt. Swissolar hat das Übergangsdokument per News vom 11.12.2024 **bis Ende 2026 verlängert**;
+> die Seite swissolar.ch Wissen/Brandschutz (abgerufen 15.09.2026) nennt es gültig «bis zum Erscheinen
+> eines verbindlichen Stand-der-Technik-Papiers, längstens aber bis Ende 2026». Prüfstichtag in
+> `wissen/energie/wiki/QUESTIONS.md` E-R199-1. Wortlaut oben unverändert gelassen.
 
 **Reales Fallbeispiel PV-Fassade — Sanierung Hochhaus Holenackerstrasse 65, Bern** (Baujahr
 1979-1986, Sanierung 2022-2023, Bauherrschaft FAMBAU Genossenschaft): PV-Typ AVANCIS SKALA

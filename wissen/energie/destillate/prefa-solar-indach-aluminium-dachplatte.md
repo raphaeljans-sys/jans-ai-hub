@@ -5,7 +5,7 @@ ausgabe: 09.2023 | V5 (CH-deutsch)
 gelesen: 2026-06-22 (vollst., 7 S.)
 datenstand: 2023 (Produktbroschuere; Leistungsdaten Herstellerangabe, am aktuellen Datenblatt pruefen)
 status: emerging
-last_updated: 2026-06-22
+last_updated: 2026-09-15 (Run 199: Brandschutz-Verweiszeile berichtigt; Produktinhalt unverändert seit 2026-06-22)
 ---
 
 # Destillat — PREFA Solar: Aluminium-Solardachplatte (Indach)
@@ -70,8 +70,9 @@ last_updated: 2026-06-22
   Eindeckungsfunktion. Konkrete Wp-/Preis-/Wirkungsgrad-Werte am **aktuellen Datenblatt** verifizieren.
 
 ## Offene Punkte
-- **Brandschutz** dachintegrierter PV (DC-Leitung auf/in brennbarem Untergrund in RF1-Rohr,
-  Brandmauer-Unterbruch, Kennzeichnung) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` / FAQ F16,
+- **Brandschutz** dachintegrierter PV (DC-Leitung auf/in brennbarem Untergrund im Rohr RF2 (cr)
+  oder mit konzentrischem Schutzleiter, berichtigt 15.09.2026 Run 199, vorher «RF1-Rohr»;
+  Brandmauer bei integrierter Anlage hohlraumfrei ans Modul bzw. RF1-Unterbruch; Kennzeichnung) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` / FAQ F16,
   Detail Skill `brandschutz`. Nicht in der Produktbroschuere behandelt.
 - Reale **kWh/kWp**-Ertraege fuer das System nicht ausgewiesen (Herstellerbroschuere) — Ertrag wie
   bei jeder Anlage standort-/ausrichtungsabhaengig, vgl. `[[pv-ertrag-eigenverbrauch-praxis]]`.
