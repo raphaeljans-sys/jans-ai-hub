@@ -2,6 +2,24 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-15 (Synergie-Lauf 36, Tagestakt) — eine korrigierte Empfehlung erreichte das Register nicht, ein neuer Weg die KB nicht
+
+Delta-Basis 14.09.2026 17:10, 24 h, 113 Commits, nativ im SSD-Klon gemessen, Uhr ohne Abweichung. Kein
+neuer Baustein; geprüft `skills/tenant-hygiene/SKILL.md` (`ea61c2313`) und `connectors/WEGE.md`
+(`3cdbfcc65`). Bericht: `outputs/2026-09-15_synergie-lauf-36.md`.
+
+- **SYN-86 (neu, Typ 1 · 3):** Die Speicherpool-Zeile in `logbuch/fristen.md` führte als «Rest offen»
+  weiter «Tenant-Versionslimit auf Automatisch». Laut Hygiene-Lauf 14.09. ist das seit 27.07. erfüllt
+  und wirkt nur auf neue Bibliotheken. Die Korrektur stand nur in Report und SKILL. Nachtrag an der
+  Zeile gesetzt. In der SKILL steht jetzt ein Vermerk: PnP `Set-PnPSiteVersionPolicy` (Signatur
+  gemessen) statt der Windows-only SPO-Shell. Contract-Pflichtfelder nachgetragen.
+- **SYN-87 (neu, Typ 3):** Der WEGE-Nachtrag «Leitungskataster Stadt Zürich» fehlt in
+  `kartenportale-werkleitungskataster`. Die offene Frage ist in `wissen/planungsgrundlagen`
+  (QUESTIONS + CHANGELOG) gesetzt. Der kantonale `geoshop-zh.mjs` ist als Sackgasse gemessen.
+- **SYN-85:** Gegenprobe (3) bestanden, seit 14.09. 12:58 auf beiden Stationen kein Fehlstart.
+- Schreib-Kontrolle: fristen 5521 → 5521, SKILL 85 → 99, QUESTIONS 2264 → 2287, KB-CHANGELOG
+  4106 → 4117, Register 1865 → 1904 (2 Zeilen + Fussnote), keine entfernte Zeile.
+
 ## 2026-09-14 (Lauf 58, Abendlauf) — im Baumschutzgebiet galt die strengere Summe, und eine Vorlage an Raphael enthielt eine falsche Negativaussage
 
 Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 57, je ein

@@ -10,6 +10,11 @@ description: "Speicher-Hygiene- und Daten-Cleaning-Check fuer den Microsoft-365/
 - **Inputs:** keine — liest den Tenant-Zustand selbst ueber den M365-Connector (`mcp__microsoft-365__m365_run_command`, App-only Zertifikat, headless-faehig).
 - **Output-Ablage:** dated Report nach `/Volumes/daten/jans-ai-hub/tenant-hygiene/reports/JJJJMMTT-hygiene.md`.
 - **Abhaengige Rules:** antwort-formatierung, dateinamen-konvention.
+- **Vorgelagert:** — (Scheduled Task `tenant-hygiene-weekly` oder Zuruf).
+- **Nachgelagert:** `logbuch` — jede Korrektur einer Handlungsempfehlung gehoert als datierter
+  Nachtrag an die bestehende Zeile in `logbuch/fristen.md` (Rule `auto-verbesserungen` 260805),
+  nicht nur in Report und SKILL; `hub-chef` liest das Register, nicht die Reports.
+  *(Contract-Pflichtfelder nachgetragen 15.09.2026, Synergie-Lauf 36, SYN-86, active-with-flagging.)*
 - **Verwandt:** `heartbeat` (System-Health), `wissenscheck` (Wissens-Health), `logbuch` (Aufsicht). Siehe Memory `project_m365_speicher_cleanup`.
 
 ## Zweck
@@ -83,3 +88,12 @@ messen: `m365 spo list list --webUrl <site> --properties "Title,BaseTemplate,Maj
 (interaktiv, SPO Management Shell, kein CLI-Set-Befehl vorhanden):
 `Set-SPOSite -Identity <site> -EnableAutoExpirationVersionTrim $true -ApplyToExistingDocumentLibraries`,
 danach der Versions-Trim. Beleg: Report `reports/260914-hygiene.md`.
+
+⚠ **Vermerk 15.09.2026 (Synergie-Lauf 36, SYN-86, active-with-flagging) — die SPO Management
+Shell ist auf den JANS-Stationen kein Weg.** `connectors/WEGE.md` fuehrt sie als Windows-only und
+nennt fuer genau diesen Fall Weg 3 «PnP PowerShell mit geliehenem Token». Das installierte
+`PnP.PowerShell 3.1.0` hat das Gegenstueck: `Set-PnPSiteVersionPolicy` mit den Parametern
+`-EnableAutoExpirationVersionTrim` und `-ApplyToExistingDocumentLibraries` (am 15.09.2026 per
+`Get-Command` gemessen, **nur die Signatur, nicht die Wirkung**; lesend, nichts gesetzt).
+Ob der geliehene App-Token genuegt oder die delegierte Sitzung wie beim Versions-Trim noetig ist,
+ist offen. Die Ausfuehrung bleibt Phase 2, interaktiv, nach Freigabe Raphael.

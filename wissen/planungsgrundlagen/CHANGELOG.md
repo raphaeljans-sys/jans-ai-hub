@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-15 (Synergie-Lauf 36, Cross-KB) — Kanal-/Leitungskataster Stadt Zürich aus `connectors/WEGE.md` als offene Frage übernommen
+
+`wiki/QUESTIONS.md`, neuer Abschnitt am Ende (+23/0): der WEGE-Nachtrag vom 15.09.2026 (GeoShop
+Stadt Zürich mit AGOV-Login, ERZ-Planarchiv Liegenschaftsentwässerung) fehlt in
+[[kartenportale-werkleitungskataster]], obwohl WEGE 08.09. und zwei Skills auf diesen Artikel
+zeigen. Der Artikel selbst ist **nicht** geändert: die Einarbeitung braucht das Gegenlesen der
+beiden Stadt-Quellseiten und die Klärung des Kostenwiderspruchs (08.09. «kostenpflichtig» gegen
+15.09. «kostenlos»). Punkt (c) im selben Lauf gemessen: der kantonale `geoshop-zh.mjs` führt keinen
+Kanal-/Leitungskataster (nur Produkt 410 AV-Rohrleitungen und 1676 Quellstränge). Register
+`wissen/koordination/SYNERGIE-REGISTER.md` SYN-87.
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — EN-136-Formularfalle aus `wissen/energie` übernommen
 
 `wiki/energie-energienachweis-zh-formulare.md`, Abschnitt «Datenstand / offen», nach dem

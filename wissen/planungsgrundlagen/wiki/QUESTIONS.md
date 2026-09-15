@@ -2262,3 +2262,26 @@ Vorbehalte (BSE 108-15, BRL 10-15), der auf `established`-Destillate aus `normen
   der ersten Stufe). Führend bleibt `wissen/energie` → `pv-einmalverguetung-bund-bfe`.
   **Offen bleibt** die schon vermerkte Verschlankung von §1 auf die Anwendung (Doppelspur zur
   KB `energie`) — durch diesen Nachtrag eher dringlicher als vorher.
+
+## 2026-09-15 — Eingang aus `connectors/WEGE.md` (Synergie-Lauf 36, SYN-87): Kanal-/Leitungskataster Stadt Zürich fehlt in [[kartenportale-werkleitungskataster]]
+
+→ übergeben an `wissen/planungsgrundlagen` (Cross-KB-Bringschuld, Rule `wissens-bibliothekar`).
+Das Wege-Register trägt seit dem 15.09.2026 einen Nachtrag «Kanal-/Leitungskataster Stadt Zürich:
+zwei belegte Bezugswege» (`connectors/WEGE.md`, Abschnitt unter dem Nachtrag 08.09.), am selben Tag
+per WebFetch an der Stadt-Website verifiziert: (1) **GeoShop Stadt Zürich**
+`https://e-gov.stadt-zuerich.ch/geoshop/`, Leitungskataster Abwasser/Elektrizität/Erdgas/Fernwärme/
+Wasser/Kommunikation als PDF oder DXF bis 6 ha, Login via AGOV (nicht skriptbar); (2) **ERZ
+Liegenschaftsentwässerung, Planarchiv** (Grundstückentwässerungspläne, schriftliche Bestellung per
+Web-Formular «Unterlagen Liegenschaftsentwässerung»). Anlass: Steinbrüchelstrasse 26/28, Lage der
+Hauptabwasserleitung (Fristen-Register 11.09.2026, Einwand A. Tonet).
+Der Artikel [[kartenportale-werkleitungskataster]] (`last_updated` 2026-08-01) kennt nur EKZ,
+Swisscom, Sunrise-UPC und den SZ-Fall EW Lachen; die Stadt Zürich (ERZ, GeoShop, ewz) fehlt, obwohl
+das Wege-Register ihn am 08.09. ausdrücklich als «Weitere Wege im Wiki» nennt und `skills/machbarkeit`
+Z. 101 sowie `skills/behoerden-vorabklaerung` Z. 39 darauf zeigen. **Offen:** (a) die zwei Wege nach
+Gegenlesen der beiden Quellseiten als §8 «Stadt Zürich» einarbeiten; (b) klären, ob der ERZ-Bezug
+kostenpflichtig ist (WEGE 08.09.: «kostenpflichtig»; WEGE 15.09.: «beide kostenlos»; der 08.09.-Satz
+trägt keinen Vermerk). (c) ✓ **im selben Lauf gemessen, Sackgasse:** der kantonale `geoshop-zh.mjs`
+(geoservices.zh.ch) führt keinen Kanal- oder Leitungskataster. `--list --filter` liefert für «leitung»
+nur Produkt 410 «AV MOpublic, Rohrleitungen» (Pipelines, dieselbe Falle wie der OGD-WFS im Nachtrag
+08.09.) und 1676 «Quellstränge und Zuleitungen zur Brunnenstube»; für «kanal» und «abwasser» 0 Treffer.
+Für die Stadt Zürich bleiben damit die zwei Wege des WEGE-Nachtrags 15.09.
