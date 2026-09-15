@@ -3,6 +3,26 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 15.09.2026 (08:39 bis 08:5x, Kurzbriefing gesendet) — Lüftungstermin 16.09. per A2 eingetragen, Honorar-Zusammenfassung weiter im Entwurf
+
+**Pflichtlektuere:** Radar-Abschnitt 15.09. 06:5x gelesen; der Radar hat heute um 07:04 selbst gemailt (Ausnahme, Chef-Laeufe 12. bis 14.09. ausgefallen), darum meldet dieses Briefing nur das Neue seit 07:04 und verweist fuer den Rest auf den Radar. **Der AG-Gruendungs-Abschnitt fehlt im Datumsblock erneut**, obwohl der Monitor lief (07:30, Commit `14c81d226`): er schrieb wieder nur ins Fristen-Register und in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md`; Befund unveraendert (P1, Kapitaleinzahlung 32 Tage ueber Soll), vom Radar bereits gemeldet. Konversations-Destillat `260915-konversationen.md` gelesen (zwei Gespraeche Mac Mini, beide KISPI, im Radar verarbeitet).
+
+**Befunde nach dem Radar-Lauf:**
+
+1. **RWD Schlatter, Tueren (Angebot KD18611-01):** A. Kayisoglu 08:17 fragt nach der Nummer von A. Spahic (Do 17.09. in Zuerich); RJ antwortet selbst 08:28 und 08:32. Die von RJ am 07.09. 12:53 gesetzte Masskontrolle «Ende KW 38» stand in keinem Register → A4 (NEU-Zeile).
+2. **Zusammenfassung Honorarsitzung:** Entwurf (erstellt 14.09. 15:30 CEST, an Spahic, Cc Schaefer und Allerkamp, mit Beilage) um 08:46 per Graph weiterhin im Entwurfsordner; in den Gesendeten seit 07:00 nur RWD und Radar. Ein erster Filterversuch (`createdDateTime eq`) lieferte 0 Treffer, die ungefilterte Liste zeigte den Entwurf: Werkzeugbefund, kein Sachbefund.
+3. **Kalender** (MCP Outlook, Weg 1 laut WEGE.md): 17.09. Koordinationssitzung, 19.09. «Lbw schiebetüren erstellen» unveraendert 08:00 CEST, 21.09. Abgleich Umbau PPTS; heute nichts. Eigener Fehlgriff: zuerst Graph `calendarView` versucht (403), obwohl WEGE.md diesen Weg als Sackgasse fuehrt.
+
+**A2 ausgefuehrt — Kalendereintrag:** Was: «KISPI Vor-Ort-Termin Lüftungstechnik (Gruner, LSH)», Mi 16.09.2026 13:00 bis 14:00, Kalender «Arbeit» (Apple Calendar, osascript), uid `6BE72AF4-0D6A-42AF-81B0-18F4E45EBF5B`. Ausloeser: Radar meldete den Termin «in keinem Kalender». Guards: Einladung C. Duran 14.09. 12:00 im Original per Graph gelesen (Datum Mittwoch = 16.09., Zeit 13:00, Ort und Teilnehmende klar, RJ im Cc), Duplikatpruefung im Kalender vor dem Anlegen, nur eigener Kalender, Quelle im Notizfeld; Ende nicht genannt, 1 h als Annahme vermerkt. Ergebnis: angelegt. Nicht ausgefuehrt: Abrechnung Steinbruechelstrasse (Frist, kein Termin) und Verschiebung 19.09. auf 06:30 (Aenderung bestehender Termine nur als Vorschlag).
+
+**A4 ausgefuehrt — Fristen-Register:** Nachtrag zum Lueftungstermin (A2) und NEU RWD Schlatter Masskontrolle bis 18.09.; Diff gegen Kopie 4 Zeilen hinzu, 0 entfernt.
+
+**Keine weiteren Aktionen:** kein A5 (Honorar- und GLAESER-Entwurf liegen bereits, Versand ist RJ-Entscheid), kein A7. **bexio** `--verzug` 401 (Token laeuft erst 13.12.2026 ab, Session zurueckgezogen), `--abgleich` nicht gefahren, Guard A1 nicht erfuellbar.
+
+**Pflichtpruefungen:** `freigabe-status.sh --kurz` mac-mini 0 · macbook-pro 0 (rc 0); `--briefing` keine Eintraege ab 12 h; `stationen-watchdog.sh --briefing` alle Stationen fristgerecht (rc 0). Mail-Vorfilter 26 h rc 0 (237 Zeilen), Neueingaenge nach 07:04 zusaetzlich im Volltext gelesen.
+
+**Briefing gesendet:** 15.09.2026 08:46:47 an rj@raphaeljans.ch ueber Weg 1 (Apple Mail, `scripts/versand-mail-senden.sh`), Betreff «Hub-Chef 15.09.2026: Lüftungstermin Mittwoch 13:00 eingetragen, die Zusammenfassung der Honorarsitzung liegt weiterhin im Entwurf», Quelltext 1'346 Zeichen, in den Gesendeten per Graph gegengemessen (06:46:46Z, Body 1'794 Zeichen HTML, nicht leer). QS: `rechtschreibung` gruen, `layout` gelb (Absatz zu den Kalender-Vorschlaegen stand unter «Wartet auf Deine Freigabe», verschoben; Datum/Uhrzeit-Komma vereinheitlicht; «ab 12 h» → «aelter als 12 h»). Sendegrund: ausgefuehrte Whitelist-Aktion A2, die RJ kennen muss (sonst doppelter Eintrag), plus Stand des Honorar-Entwurfs nach dem Radar; bewusst als Kurzbriefing ohne Wiederholung des Radars.
+
 ## Radar-Briefing 15.09.2026 (06:5x): Deine Zusammenfassung der Honorarsitzung liegt seit gestern unversandt im Entwurf, morgen sind die Abrechnung Steinbrüchelstrasse und ein Lüftungstermin im KISPI fällig
 
 **Drei Dinge zuerst.** Erstens: Radar und Hub-Chef sind vom 12. bis 14.09. ausgefallen, weil die Claude-App auf dem MacBook Pro vom 11.09. 20:08 bis 14.09. 13:59 abgemeldet war. Dieses Briefing deckt die ganze Lücke seit dem 11.09. ab, und weil der Chef-Lauf gestern ausgefallen ist, geht es heute zusätzlich als Mail an Dich. Zweitens: Deine Zusammenfassung der Honorarsitzung an Albin Spahic, Cornelia Schäfer und Claudia Allerkamp («Ich erlaube mir, die Sachlage in drei Punkten zusammenzufassen», mit Beilage) liegt seit dem 14.09. 15:30 im Entwurfsordner und ist nicht versandt. Die in der Nacht auf dem Mac Mini neu gefasste Stellungnahme ist ebenfalls nicht rausgegangen. Drittens: Morgen, Mittwoch 16.09., ist die Abrechnung Steinbrüchelstrasse fällig, und um 13:00 findet im KISPI ein Vor-Ort-Termin Lüftung statt, der in keinem Kalender steht.
