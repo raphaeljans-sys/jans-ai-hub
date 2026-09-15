@@ -3370,3 +3370,6 @@ bleibt Raphael (Befehl im Fristen-Register). Rueckweg: `Set-PnPSiteVersionPolicy
 -MajorVersions 500 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries` (Versionen, die Automatisch in der Zwischenzeit
 abgelaufen hat, holt er nicht zurueck). Sackgasse im selben Vorgang: App-only-Token verweigert Set und Status («Diese API kann nicht
 mit einem reinen App-Prinzipal aufgerufen werden»), eingetragen in `connectors/WEGE.md`. Register: SYN-86, `logbuch/fristen.md`.
+Nachtrag 15.09.2026 17:3x: **Trim von Raphael selbst ausgeloest** (`New-PnPSiteFileVersionBatchDeleteJob -MajorVersionLimit 5
+-MajorWithMinorVersionsLimit 5 -Force`, delegiert), Antwort «Success … permanently deleted in the upcoming days». Auch
+`Get-PnPSiteFileVersionBatchDeleteJobStatus` ist app-only gesperrt (17:33 gemessen); Erfolg misst der Hygiene-Lauf an Belegung und `VersionSize`.

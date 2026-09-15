@@ -1189,3 +1189,5 @@ Weg (belegt 15.09.2026 17:28, Site JANS.PROJEKTE): PnP PowerShell 3.1.0 mit **de
 `Get-PnPSiteVersionPolicyStatus` antworten «Diese API kann nicht mit einem reinen App-Prinzipal aufgerufen werden». Lesen der
 Bibliotheks-Grenzen (`Get-PnPList`, `MajorVersionLimit`) und `Get-PnPSiteVersionPolicy` gehen app-only. (2) CLI for Microsoft 365:
 kein Set-Befehl, nur `spo site versionpolicy get` (Report tenant-hygiene 260914).
+Ergaenzt 15.09.2026 17:33: auch `Get-PnPSiteFileVersionBatchDeleteJobStatus` (Status des Versions-Trims) ist app-only gesperrt,
+gleiche Meldung; den Trim-Erfolg app-only an `spo site list` (`StorageUsage`, `VersionSize`) messen, nicht am Job.
