@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 13:36:10
+Stand: 15.09.2026 13:46:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 13:29)
@@ -14,4 +14,4 @@ Stand: 15.09.2026 13:36:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bee65b160 vollgas-radar: Nachtrag 15.09. 13:32, MacBook-Doppellauf durch Raphael deaktiviert, Gegenprobe 16.09.
+- ff2260f85 architektur-fachwissen: QUESTIONS #31 (SIA-Merkblatt 2017 gueltig) + #36 (VSS-Parkierungsgeometrie bereits in normen) geschlossen, Cross-KB-Bringschuld an normen, Logbuch nachgefuehrt
