@@ -29,6 +29,13 @@ erfasst (Register `wissen/normen/wiki/REGISTER.md`, Inventar
 `wissen/normen/training/norm-inventar.md` — kein Treffer, Stand 15.09.2026) — für eine
 Fundstellen-taugliche Ziffernangabe bleibt ein Vollzugriff auf das Original via Skill `normen`
 nötig, nicht nur der Geltungsstatus.
+⚠ **Berichtigt vom Wissens-Chef Lauf 59, 15.09.2026: der Satz davor trifft nicht zu.** SIA 2017 ist
+in `wissen/normen` seit dem 19.07.2026 als Destillat erfasst:
+`wissen/normen/destillate/sia-mb-2017.md` (`status: established`, Seiten 1-12 vollständig gelesen,
+Ziff. 1-5 mit Seitenbeleg S. 4-12), geführt in `wissen/normen/wiki/REGISTER.md` (Zeilen «SIA 2017»,
+Geltungsstand dort am 23.08.2026 nachgeführt) und im Inventar `wissen/normen/training/norm-inventar.md`
+(Run 16, 19.07.2026). Für Fundstellen gilt das Destillat (Rule `normen-referenz`); der hier
+geklärte Geltungsstand (SIA-Shop, 15.09.2026) deckt sich mit dem Register.
 
 ## Ablaufschema (Abschnitt 3)
 
@@ -92,3 +99,8 @@ neue Kennwerte — es ersetzt keine kantonale Schutzobjekt-Prüfung nach PBG (si
   **geklärt 15.09.2026: weiterhin gültig**, siehe Geltungsvorbehalt oben und `wiki/QUESTIONS.md`.
 - Das Merkblatt verweist auf Empfehlung SIA 102/1 (1984) und Norm SIA 469 «Erhaltung von
   Bauwerken» (S. 10) — beide nicht Teil dieses Korpus und nicht in `wissen/normen/` verifiziert.
+  ⚠ **Berichtigt vom Wissens-Chef Lauf 59, 15.09.2026:** SIA 469 ist in `wissen/normen` als
+  `destillate/sia-469-1997.md` erfasst (`status: established (verifiziert 260713)`, alle 20 Seiten
+  gelesen; Register: «Bestand 1997 = gueltig»). SIA 102/1 führt das Register als zurückgezogen
+  (Zeile «SIA 102/1»). Offen bleibt nur, ob die Verweise des Merkblatts inhaltlich zu diesen
+  Destillaten passen.

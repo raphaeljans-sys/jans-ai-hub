@@ -188,6 +188,77 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen (RPG-2/RPV-Etappen, Art. 25 RPG, Snapshot 20260701) — geprueft 2026-09-15 (Lauf 59, Pflichtpaar), ANDERER ZUSCHNITT (breiter), ⚠-BLOCK GESETZT
+
+- **Befund (WC59-1):** `planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md` fuehrte drei Datierungen offen
+  (Z. 137-139 «welche Bestimmungen der Teilrevision tatsächlich erst am 01.07.2026 in Kraft treten, ist
+  ungeklärt»; Z. 154-161 Art. 5a nur sekundaer; Z. 166-167 «ob die übrigen Regeln … dasselbe Datum teilen,
+  ist nicht geprüft»). Seit Buch-Run 143 (14.09.2026) beantwortet `baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`
+  alle drei amtlich: RPV AS 2025 659 Ziff. 7 (Wortlaut, Etappen 1.1./1.7.2026), RPG AS 2025 640 Ziff. 2
+  (Art. 5a und Art. 25 Abs. 3/4 am 1.7.2026, Abs. 5 am 1.1.2026). Der Melder sah nur Art. 25; die Gegenpruefung
+  im Hauptkontext fand die RPV-Liste und die Snapshot-Falle (RPG 20260701 ohne AS 2026 99), welche den
+  Datenstand-Hinweis Z. 104-106 («fedlex-Fassung mit Stand … 20260701 ziehen») betrifft.
+- **Aktion:** ⚠-Block nach Z. 167, additiv; bestaetigt die Eingrenzung aus Lauf 56 (WC56-4). Kein Widerspruch zu
+  Lauf 55/56, Bringschuld aus baurecht nicht nachgezogen.
+- **Status:** erledigt. Offen bei baurecht: Absatznummer Art. 8 RPG (260914 Ziff. 4), Details Abbruchpraemie,
+  Art. 18bis/33a RPV.
+
+### energie ↔ baurecht (EnG-Revision 2026, Art. 8 RPG Absatznummer) — geprueft 2026-09-15 (Lauf 59, Rotation), BESTAETIGT, VORBEHALT GESETZT
+
+- **Befund (WC59-3):** `energie/wiki/eng-revision-2026-solarwind-nationales-interesse.md` Z. 37 «Art. 8 Abs. 4 RPG
+  (neu)» ohne Vorbehalt; die fuehrende KB fuehrt die Nummer als offen (`baurecht/wiki/raumplanung-und-gestaltung.md`
+  Z. 53 «AS: «Abs. 4», SR-Konsolidierung 1.4.2026: «3»», `baurecht/wiki/QUESTIONS.md` 260914 Ziff. 4). Der
+  Vorbehalt ging bei der Kompilation von E-B143-1 verloren. Gleiche Fehlerklasse wie Rule
+  `identifikatoren-verifizieren`: Glaetten eines unsicheren Identifikators.
+- **Aktion:** ⚠-Zeile im Artikel, Nachtrag an E-B143-1 in `energie/wiki/QUESTIONS.md`. **Status:** erledigt.
+
+### energie ↔ planungsgrundlagen (PV-Brandschutz Tabelle 1, RF2 (cr) statt RF1) — geprueft 2026-09-15 (Lauf 59, Pflichtpaar), BESTAETIGT, KANTE BEIDSEITIG GESETZT
+
+- **Befund (WC59-2):** energie berichtigte in Run 199 (15.09.) «RF1-Rohr» → «Rohr RF2 (cr)» in
+  `pv-solar-technologien.md` und F16; `planungsgrundlagen/wiki/energie-pv-brandschutz.md` fuehrte das seit
+  05./06.08.2026 (Run 27) richtig. Zwischen den beiden Artikeln bestand in keiner Richtung ein Verweis
+  (`links:` beidseitig ohne Gegenstueck, Body-Grep 0). Die Fuehrungsmatrix («PV-Technologie → energie») stimmt
+  in der Zustaendigkeit, aber die zuliefernde KB hatte den richtigen Wert fuenf Wochen frueher.
+- **Aktion:** Body-Zeiger in `pv-solar-technologien.md` (Brandschutz-Abschnitt), F16-Quellenzeile der
+  `BAUHERREN-FAQ.md`, Nachtrag am Ende von `energie-pv-brandschutz.md`; Frontmatter unangetastet. Inhaltlich
+  deckungsgleich, keine Korrektur. **Uebertragbar:** vor einer A-BLIND-Berichtigung die Schwester-KB mit
+  derselben Quelle greppen, sie hat den Wert eventuell schon.
+
+### architektur-fachwissen ↔ normen (SIA-Merkblatt 2017, SIA 469) — geprueft 2026-09-15 (Lauf 59, Rotation), ANDERER ZUSCHNITT (breiter), BERICHTIGT
+
+- **Befund (WC59-4):** `afw/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md` Z. 27-31 und der am selben Tag
+  geschriebene Cross-KB-Eingang `normen/wiki/QUESTIONS.md` (Absatz «Cross-KB-Eingang aus architektur-fachwissen»)
+  behaupteten, SIA 2017 sei in normen nicht erfasst («kein Treffer, Stand 15.09.2026») und ein neuer normen-Lauf
+  noetig. Tatsaechlich: `normen/destillate/sia-mb-2017.md` established seit 19.07.2026, REGISTER Zeilen «SIA 2017»,
+  Inventar Run 16. Dazu (Hauptkontext) dieselbe Negativaussage fuer SIA 469 (`sia-469-1997.md` established).
+  Folge ohne Korrektur: Doppelspur-Risiko durch einen zweiten Destillat-Lauf.
+- **Aktion:** zwei ⚠-Vermerke im afw-Artikel, Erledigt-Nachtrag in normen/QUESTIONS. **Status:** erledigt.
+  **Uebertragbar:** ein stummes grep nach einer Norm ist zuerst ein Werkzeugbefund (Rule `wege-und-vollmachten`
+  Ziff. 5); die REGISTER-Zeile nach Normnummer suchen, nicht nach Titel.
+
+### normen ↔ bauprodukte (Metalldecken Nassraum EN 13964, BKP 283) — geprueft 2026-09-15 (Lauf 59, Rotation), BESTAETIGT, UEBERGABE GESETZT
+
+- **Befund (WC59-5):** `normen/outputs/2026-09-15_metalldecken-nassraum-en-13964.md` (`links: []`) enthaelt zu etwa
+  zwei Dritteln Produkt-/Systemwissen (HdM D411, Metalit, TAIM, LV BKP 283), das nach der Matrix (Zeile
+  «Produkt-/Systemwissen nach BKP») bauprodukte fuehrt; dort kein BKP-283-Abschnitt, kein Zeiger. Der
+  Lignum-4.2-Statushinweis desselben Tages erreichte bauprodukte korrekt.
+- **Aktion:** `links:` im Output gesetzt, Zustaendigkeitsabsatz, neuer Punkt WC59-5 in `bauprodukte/wiki/QUESTIONS.md`
+  (Kandidat, kein Artikel auf Vorrat). **Status:** Uebergabe gesetzt, Destillat offen.
+
+### normen ↔ baurecht (Run 85, 34 Korrekturen) · twin ↔ rules (Batch 120, Fidelity 15.09.) · claude-code ↔ WEGE (ugrep-Alias) · Pflichtpaar Kennwerte — geprueft 2026-09-15 (Lauf 59), NULLBEFUND MIT AUSSAGE
+
+- **normen ↔ baurecht:** keiner der 34 Run-85-Korrekturen hat einen Konsumenten ausserhalb normen, der die alte
+  Fassung fortschreibt; WC57-N1 (SN EN 62368-1) im auflagebereinigung-Report von Run 85 selbst nachgetragen.
+- **twin ↔ rules:** Batch 120 und Fidelity 15.09. betreffen nur Personen ausserhalb der Kontaktliste; Kandidaten
+  (Christen, Albin-Routine-Opener) korrekt als offene Fragen in twin/QUESTIONS 260915b geparkt. **Byte-Riegel
+  im Hauptkontext nachgemessen: 33'789 B (build_dna-Methode) gegen 34'000 B, Reserve 211 B** (Lauf 58: 16 B);
+  die Fidelity-Fassung hat verdichtet.
+- **claude-code:** der ugrep-Alias-Fund verankert sich selbst in Rule `auto-verbesserungen` 260730b und
+  `wege-und-vollmachten` Ziff. 5; WEGE.md fuehrt externe Wege, kein Scope.
+- **Pflichtpaar grobkosten ↔ immobilienbewertung ↔ kostenschaetzung:** seit Lauf 58 kein Commit in den
+  beiden KBs, den Skills `kostenschaetzung`/`grobkosten-onepager`/`immobilienbewertung` oder dem Agenten
+  `grobkosten-rechner` (`git diff 96194d899..facefa10e`); Nullbefund aus dem Delta.
+
 ### architektur-fachwissen ↔ baurecht (Baumschutz Stadt Zuerich, BZO-Teilrevision «Baumerhalt») — geprueft 2026-09-14 (Lauf 58, Erst-Pruefung), ANDERER ZUSCHNITT, VERMERKE + KANTEN GESETZT
 
 - **WC58-1.** Neuer Praxisartikel `architektur-fachwissen/wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`

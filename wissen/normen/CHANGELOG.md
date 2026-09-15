@@ -1,3 +1,13 @@
+## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Eingang SIA 2017 als erledigt vermerkt, Metalldecken-Output an bauprodukte übergeben
+
+- `wiki/QUESTIONS.md`, Absatz «Cross-KB-Eingang aus `architektur-fachwissen`»: Nachtrag «erledigt,
+  kein Handlungsbedarf» — `destillate/sia-mb-2017.md` besteht seit Run 16 (established); ein zweites
+  Destillat wäre eine Doppelspur.
+- `outputs/2026-09-15_metalldecken-nassraum-en-13964.md`: `links:` von `[]` auf den Eingang in
+  `wissen/bauprodukte/wiki/QUESTIONS.md` gesetzt (benannte Zeilenersetzung) und Zuständigkeitsabsatz
+  angehängt: hier nur die Norm-Fundstelle, Produkt-/Systemwissen BKP 283 → `wissen/bauprodukte`.
+- Beleg: `wissen/koordination/outputs/2026-09-15_wissens-chef-run59.md` (WC59-4, WC59-5).
+
 ## 2026-09-15 (Normen-Nacht Run 85, MacBook Pro, SIA/VKF) — N84-2 Typ-A-Klasse abgearbeitet, WC57-N1 beantwortet, Statusabstieg Lignum 4.2
 
 **Block A (N84-2):** 22 Destillate der Run-83-Risikokarte mit Quelle ohne Textlayer, 136

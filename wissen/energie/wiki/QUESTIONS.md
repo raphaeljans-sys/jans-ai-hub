@@ -9275,6 +9275,10 @@ in `raw/` (Web-Erhebung, wie beim Vorlauf Run 165 gehandhabt).
   Nicht geprüft: die übrigen EnG-Artikel des Erlasses, Übergangsrecht, ob ZH/SZ Art. 14a bereits
   umgesetzt haben. Anhang Ziff. 2 ändert das **RPG** (Art. 8 Abs. 2 zweiter Satz, neuer Abs. 4,
   Art. 18b Wasserkraftwerke) — dort in `wissen/baurecht` erfasst.
+  **Nachtrag Wissens-Chef Lauf 59, 15.09.2026:** beim Kompilieren ging der Vorbehalt der Quelle zur
+  Absatznummer verloren («neuer Abs. 4» ohne Hinweis auf «Abs. 3» in der SR-Konsolidierung). Im
+  Artikel als ⚠-Vermerk nachgetragen; die Frage bleibt in `wissen/baurecht/wiki/QUESTIONS.md`
+  260914 Ziff. 4 offen, nicht hier.
 - [x] **E-B143-2 (P2, Werkzeug) — GEPRÜFT UND GESCHLOSSEN 15.09.2026 (Nachtschicht Mac Mini):**
   die Fedlex-Konsolidierung des RPG «Stand 1.7.2026» enthält die Änderung vom 1.4.2026 nicht
   mehr (Art. 8 Abs. 2 ohne zweiten Satz, Art. 18b fehlt, kein Aufhebungsvermerk) — wer

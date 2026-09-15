@@ -36,6 +36,11 @@ Dieselbe Aenderung passt das RPG an, dort geführt von `wissen/baurecht`:
   Anlagen von nationalem Interesse nach Art. 12 Abs. 2 / Art. 13 Abs. 1 EnG handelt.
 - **Art. 8 Abs. 4 RPG (neu):** solche Vorhaben können unabhängig von einer Gebiets- oder
   Gewässerstrecken-Festlegung nach Art. 8b RPG bzw. Art. 10 Abs. 1 EnG geplant und bewilligt werden.
+  ⚠ **Absatznummer offen (Nachtrag Wissens-Chef Lauf 59, 15.09.2026):** AS 2026 99 fügt «Abs. 4»
+  ein, die SR-Konsolidierung Stand 1.4.2026 führt denselben Text als «Abs. 3», der Snapshot
+  1.7.2026 gar nicht. Die führende KB lässt die Nummer offen (`wissen/baurecht/wiki/QUESTIONS.md`
+  260914 Ziff. 4, `wissen/baurecht/wiki/raumplanung-und-gestaltung.md`): bis zur Klärung beide
+  Nummern nennen und AS 2026 99 zitieren.
 - **Art. 18b RPG (neu):** Wasserkraftwerke bis 10 MW installierter Leistung brauchen keine
   Richtplangrundlage, Wasserkraftwerke und ihre Erschliessungsanlagen keine Nutzungsplangrundlage.
 

@@ -166,6 +166,36 @@ zwei Zeilen darüber datieren zwei Dinge auf den 01.07.2026, die der amtliche Wo
   **seit 1.1.2026** in Kraft» (Buch-Run 101, 23.08.2026). Ob die übrigen Regeln zum nachträglichen
   Baugesuch dasselbe Datum teilen, ist nicht geprüft.
 
+⚠ **Die drei offenen Datierungen oben sind amtlich geklärt — Nachtrag Wissens-Chef Lauf 59,
+15.09.2026.** Beleg: `wissen/baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md`
+(Buch-Run 143, 14.09.2026), Inkraftsetzungsvermerke im Wortlaut aus AS 2025 640 und AS 2025 659
+sowie Fedlex-Snapshots RPG/RPV 20260101 und 20260701.
+
+- **RPV-Teilrevision AS 2025 659, zwei Etappen** (dort Ziff. 7, Wortlaut): am **01.01.2026**
+  Art. 19a, 32bis-32h, 34a-42b, 43a Abs. 2 und die Gliederungstitel des 3. Abschnitts nach Art. 32
+  und des 5a. Abschnitts nach Art. 38; am **01.07.2026** Art. 25a-25g (Stabilisierungsziele),
+  33a, 43, 43b-52a (u.a. Baupolizei ausserhalb der Bauzonen, Bundesbeitrag an die Abbruchprämie)
+  und die neuen Anhänge 1 und 2. Damit ist der Satz «welche Bestimmungen der Teilrevision tatsächlich
+  erst am 01.07.2026 in Kraft treten, ist ungeklärt» beantwortet, und die Eingrenzung aus Lauf 56
+  (Art. 32a-bis und 38a seit Januar) ist bestätigt.
+- **Art. 5a RPG (Abbruchprämie):** gehört zur zweiten Etappe von RPG 2 (dort Ziff. 2, AS 2025 640
+  Inkraftsetzungsvermerk Abs. 3 und Artikelliste). Die Datierung 01.07.2026 aus der zh.ch-Quelle
+  ist damit amtlich belegt.
+- **Art. 25 RPG, nachträgliche Baugesuche und illegales Bauen:** die Regeln teilen das Datum
+  **nicht**. Art. 25 **Abs. 3 und 4** (unbewilligte Nutzungen innert nützlicher Frist feststellen,
+  untersagen, Rückbau ohne Verzug; Verzicht auf Wiederherstellung nur durch die zuständige kantonale
+  Behörde) gelten seit **01.07.2026**, Art. 25 **Abs. 5** (30-Jahre-Verjährung) seit **01.01.2026**
+  (dort Ziff. 2 und Anhang, Änderungsfussnoten zu Art. 25).
+- **Werkzeugfalle zum Datenstand-Hinweis oben («fedlex-Fassung mit Stand ≥ 20260101 bzw.
+  20260701 ziehen»):** der RPG-Snapshot **20260701** hat die Änderung vom 01.04.2026 (AS 2026 99)
+  verloren; Art. 8 Abs. 2 zweiter Satz, der neue Absatz zu Art. 8 und Art. 18b fehlen dort ohne
+  Aufhebungsvermerk (dort Ziff. 3). Für diese Stellen den Snapshot 20260401 oder AS 2026 99 lesen.
+  Die Absatznummer des neuen Absatzes (AS «Abs. 4», SR-Konsolidierung 1.4.2026 «Abs. 3») ist in
+  `wissen/baurecht/wiki/QUESTIONS.md` (260914 Ziff. 4) offen; beide Nummern nennen.
+
+Die rechtliche Würdigung bleibt bei `wissen/baurecht` ([[widerrechtliche-bauten-und-sanktionen]],
+[[raumplanung-und-gestaltung]]); hier nur der Datenstand.
+
 **Fundstellen-Zeiger, im selben Lauf gesetzt:** die Zeile «Vorrang der Landwirtschaft vor
 zonenfremden Nutzungen» oben ist eine korrekte, aber unbelegte Zusammenfassung. Die Fundstelle —
 **Art. 16 Abs. 4/5 RPG**, ausgeführt durch den **5a. Abschnitt RPV, Art. 38a** (fünf Absätze, ohne

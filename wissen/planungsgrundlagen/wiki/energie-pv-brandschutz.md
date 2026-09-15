@@ -207,3 +207,12 @@ gelesen, MD5 `a17958fdf95c720434ffa90117964b23`). Offen bleiben davon nur noch d
 Zweitverifikation** des 2022er-Destillats steht aus — es trägt `status: speculative`, weil
 Erstdestillat und Refuter-Runde beide in Run 45 liefen, (3) der **SharePoint-Bestand bleibt
 die Fassung 2015**.
+
+**Nachtrag 15.09.2026 (Wissens-Chef Lauf 59) — Schwesterartikel in `energie` verknüpft:** Die
+KB `energie` hat am 15.09.2026 (Run 199, A-BLIND am Original) dieselbe Tabelle 1 berichtigt: in
+[[pv-solar-technologien]] und [[BAUHERREN-FAQ]] F16 stand bis dahin «auf brennbarem
+Untergrund/Holztragwerk in RF1-Rohr», jetzt «Rohr RF2 (cr)», RF1 erst in feuergefährdeten Räumen
+und horizontalen Fluchtwegen; die Detailtabelle steht in F296. Dieser Artikel führte die
+RF2(cr)/RF1-Unterscheidung seit dem 05./06.08.2026 richtig. Beide Seiten sind nach Run 199
+deckungsgleich; zwischen den beiden Artikeln bestand bis heute kein Verweis. Führend für die
+PV-Fachphysik bleibt nach der Führungsmatrix `energie` (`wissen/koordination/QUERBEZUEGE.md`).

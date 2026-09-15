@@ -7243,4 +7243,11 @@ Destillat gegen das Original fehlt aber weiterhin. Kandidat für einen künftige
 Original bisher nicht in `raw/`. Verwendender Artikel:
 `wissen/architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`.
 
+**Erledigt, kein Handlungsbedarf (Nachtrag Wissens-Chef Lauf 59, 15.09.2026):** der Eingang oben
+beruht auf einem stummen Suchergebnis. Das Destillat existiert: `destillate/sia-mb-2017.md`
+(`status: established`, Run 16, 19.07.2026), im REGISTER zweimal geführt (Geltungsstand am
+23.08.2026 nachgeführt) und im Inventar abgehakt. Kein neuer `normen`-Lauf nötig; ein zweites
+Destillat wäre eine Doppelspur. Der verwendende afw-Artikel ist berichtigt, ebenso seine Angabe
+zu SIA 469 (`destillate/sia-469-1997.md`, established).
+
 - **260915** Metalldecken in Nassräumen: Beanspruchungsklassen A bis D nach EN 13964 (nur sekundär via TAIM-Merkblatt belegt) am Original nachlesen, bevor die Klassen in ein LV oder Dokument zitiert werden. Quelle des Bedarfs: `outputs/2026-09-15_metalldecken-nassraum-en-13964.md` (2619 KISPI, D411).

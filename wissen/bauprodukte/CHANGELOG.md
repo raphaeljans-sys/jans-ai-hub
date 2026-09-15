@@ -1,5 +1,11 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-15 (Wissens-Chef Lauf 59) — Cross-KB-Eingang aus `wissen/normen`: Metalldecken Nassraum, BKP 283
+
+`wiki/QUESTIONS.md`, neuer Abschnitt, nur additiv: Punkt WC59-5, Produkt-/Systemwissen aus
+`wissen/normen/outputs/2026-09-15_metalldecken-nassraum-en-13964.md` (HdM D411, Metalit, TAIM,
+LV BKP 283) als Destillationskandidat; kein Artikel auf Vorrat.
+
 ## 2026-09-15 — Cross-KB-Eingang aus `wissen/normen` Run 85: Statushinweis Lignum 4.2
 
 `wiki/QUESTIONS.md`, nur additiv: Vermerk am Punkt zu BKP 214/271, dass

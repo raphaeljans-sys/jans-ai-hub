@@ -1,5 +1,16 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Negativaussage zu SIA 2017 und SIA 469 in `wissen/normen` berichtigt
+
+`wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`, zwei additive ⚠-Vermerke: der Satz «In
+`wissen/normen/` ist SIA 2017 weiterhin nicht erfasst … kein Treffer, Stand 15.09.2026» trifft nicht
+zu (`wissen/normen/destillate/sia-mb-2017.md`, established seit 19.07.2026, REGISTER und Inventar
+führen es); ebenso ist SIA 469 dort als `sia-469-1997.md` established, SIA 102/1 im Register als
+zurückgezogen geführt. Die Geltungsklärung vom 15.09. (QUESTIONS #31) bleibt richtig. Das stumme
+Suchergebnis ist ein Werkzeugbefund, kein Quellenbefund (Rule `wege-und-vollmachten` Ziff. 5).
+Gegenstück in `wissen/normen/wiki/QUESTIONS.md` als erledigt vermerkt. Beleg:
+`wissen/koordination/outputs/2026-09-15_wissens-chef-run59.md` (WC59-4).
+
 ## 2026-09-15 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS #31 und #36 geschlossen: SIA-Merkblatt 2017 gültig, VSS-Parkierungsgeometrie längst destilliert
 
 **#36 VSS SN 640 291a (Parkierungsgeometrie):** die im Korpus als offen geführte Frage, ob eine

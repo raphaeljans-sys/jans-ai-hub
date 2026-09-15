@@ -2,6 +2,27 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-15 (Lauf 59, Abendlauf) — eine amtliche Quelle beantwortete drei offene Fragen im Nachbar-KB, und eine Negativaussage hätte ein zweites Destillat ausgelöst
+
+Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 58, je Feld mit
+Meldung ein adversarialer Verifikator (5), Gegenprüfung aller Befunde am Original im Hauptkontext.
+Delta-Basis `96194d899` → `facefa10e`, 116 Commits, 89 Wissensdateien, nativ im SSD-Klon gemessen.
+Bilanz: **5 Meldungen → 3 bestätigt · 2 anderer Zuschnitt (breiter) · 0 widerlegt**, zwei Felder
+und das Pflichtpaar Kennwerte ohne Befund. 18 Dateien, alle additiv, keine Löschung.
+Bericht: `outputs/2026-09-15_wissens-chef-run59.md`.
+
+- **WC59-1** baurecht → planungsgrundlagen: raw 260914 (Buch-Run 143) beantwortet RPV-Etappen
+  AS 2025 659, Art. 5a und Art. 25 Abs. 3/4 vs. 5 RPG; dazu Falle RPG-Snapshot 20260701 ohne
+  AS 2026 99. ⚠-Block in `recht-norm-quellenlandkarte.md`.
+- **WC59-2** energie ↔ planungsgrundlagen: RF2(cr)-Berichtigung Run 199, Schwesterartikel seit
+  06.08. richtig, Zeiger beidseitig.
+- **WC59-3** energie ↔ baurecht: Art. 8 RPG «Abs. 4» ohne Vorbehalt der führenden KB; ⚠-Zeile.
+- **WC59-4** afw ↔ normen: «SIA 2017 nicht erfasst» falsch (established seit 19.07.), ebenso SIA 469;
+  beidseitig berichtigt, Doppelspur-Risiko abgewendet.
+- **WC59-5** normen → bauprodukte: Metalldecken-Output BKP 283 als Kandidat übergeben.
+- Byte-Riegel nachgemessen: 33'789 B, Reserve 211 B (Lauf 58: 16 B).
+- Schreib-Kontrolle: alle Edits anker-basiert; Numstat nach Commit siehe Bericht.
+
 ## 2026-09-15 (Synergie-Lauf 36, Tagestakt) — eine korrigierte Empfehlung erreichte das Register nicht, ein neuer Weg die KB nicht
 
 Delta-Basis 14.09.2026 17:10, 24 h, 113 Commits, nativ im SSD-Klon gemessen, Uhr ohne Abweichung. Kein

@@ -854,6 +854,8 @@ VKF-BSM 2001-15):
 `[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-Bewertung/Feuerpolizei-Akzeptanz im Detail →
 Skill `brandschutz`.** Datenstand 2026-09-15 (A-BLIND-Gegenlese Run 199: STP V 4.0 als geltende
 Ausgabe bestätigt, Tabelle 1 zusätzlich am VKF-BSM 2001-15de 01.01.2022 gelesen). Verwandt: [[F296]].
+Planungsgrundlagen-Seite derselben Tabelle → [[energie-pv-brandschutz]] (`wissen/planungsgrundlagen`,
+seit 06.08.2026 richtig; Zeiger Wissens-Chef Lauf 59, 15.09.2026).
 
 ---
 

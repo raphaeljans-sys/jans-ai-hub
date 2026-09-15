@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — RPG-2/RPV-Datierungen amtlich geklärt, PV-Brandschutz mit energie verknüpft
+
+- `wiki/recht-norm-quellenlandkarte.md`, additiver ⚠-Block nach dem Absatz zu Art. 25 Abs. 5 RPG:
+  die drei offenen Datierungen (welche RPV-Artikel aus AS 2025 659 erst am 01.07.2026 gelten, Art. 5a
+  RPG Abbruchprämie, Art. 25 Abs. 3/4 vs. Abs. 5 RPG) sind durch
+  `wissen/baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` (Buch-Run 143)
+  amtlich beantwortet; dazu die Werkzeugfalle «RPG-Snapshot 20260701 ohne AS 2026 99». Bringschuld
+  aus `wissen/baurecht` Buch-Run 143, dort nicht nachgezogen.
+- `wiki/energie-pv-brandschutz.md`, Nachtrag am Artikelende: Zeiger auf die am 15.09.2026 (energie
+  Run 199) berichtigten Schwesterstellen [[pv-solar-technologien]] und [[BAUHERREN-FAQ]] F16/F296.
+- Beleg: `wissen/koordination/outputs/2026-09-15_wissens-chef-run59.md` (WC59-1, WC59-2).
+
 ## 2026-09-15 (Synergie-Lauf 36, Cross-KB) — Kanal-/Leitungskataster Stadt Zürich aus `connectors/WEGE.md` als offene Frage übernommen
 
 `wiki/QUESTIONS.md`, neuer Abschnitt am Ende (+23/0): der WEGE-Nachtrag vom 15.09.2026 (GeoShop

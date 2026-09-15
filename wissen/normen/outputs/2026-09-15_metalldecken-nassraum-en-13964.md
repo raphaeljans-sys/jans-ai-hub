@@ -7,7 +7,7 @@ sources:
   - LV BKP S_283.10 Deckenbekleidungen aus Metall Süd, 28.02.2020, Pos. 221.901 bis 221.904
   - Metalit EPD «Metalldeckensysteme aus Stahl» (Dauerhaftigkeitsklasse A nach EN 13964)
   - TAIM Technisches Merkblatt 02, EN 13964 Unterdecken (geipel-genex.de, abgerufen 15.09.2026)
-links: []
+links: ["wissen/bauprodukte/wiki/QUESTIONS.md (BKP 283, Cross-KB-Eingang 15.09.2026)"]
 ---
 
 # Metalldecken in Nassräumen: Beanspruchungsklassen und ein belegtes Muster
@@ -27,3 +27,9 @@ Metallkassettendecke 70 x 70 cm, mikroperforiert 0.7/3.0 mm, 4 % frei; Unterkons
 Verallgemeinerbar: Wer eine Metalldecke in einen Nassraum plant, verlangt (1) Klasse nach EN 13964 im LV, (2) Korrosionsschutz der Unterkonstruktion (hier C5), (3) folienverschweisste statt vlieskaschierte Absorber, (4) Auslässe und Sprinkler mittig in der Kassette.
 
 Offen: EN 13964 Tabellen 7/8 am Original prüfen; Frage in QUESTIONS.md.
+
+Zuständigkeit (Nachtrag Wissens-Chef Lauf 59, 15.09.2026): hier führend ist nur die
+Norm-Fundstelle (EN 13964, Beanspruchungsklassen). Das Produkt- und Systemwissen (HdM D411,
+Metalit, TAIM, LV BKP 283) gehört nach der Führungsmatrix (`wissen/koordination/QUERBEZUEGE.md`,
+Zeile «Produkt-/Systemwissen nach BKP») zu `wissen/bauprodukte`; dort als Destillationskandidat
+BKP 283 in `wiki/QUESTIONS.md` vermerkt.

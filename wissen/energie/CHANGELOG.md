@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Absatznummer Art. 8 RPG mit Vorbehalt, PV-Brandschutz mit planungsgrundlagen verknüpft
+
+- `wiki/eng-revision-2026-solarwind-nationales-interesse.md`: ⚠-Zeile unter «Art. 8 Abs. 4 RPG (neu)»;
+  die führende KB `wissen/baurecht` führt die Nummer als offen (AS «Abs. 4», SR-Konsolidierung
+  1.4.2026 «Abs. 3», `wissen/baurecht/wiki/QUESTIONS.md` 260914 Ziff. 4). Beim Kompilieren von
+  E-B143-1 war der Vorbehalt verloren gegangen; Nachtrag auch in `wiki/QUESTIONS.md` am Punkt E-B143-1.
+- `wiki/pv-solar-technologien.md` (Brandschutz-Abschnitt) und `wiki/BAUHERREN-FAQ.md` (F16-Quellenzeile):
+  Zeiger auf `wissen/planungsgrundlagen` [[energie-pv-brandschutz]], das die RF2(cr)/RF1-Unterscheidung
+  seit 06.08.2026 richtig führte. Keine Inhaltsänderung.
+- Beleg: `wissen/koordination/outputs/2026-09-15_wissens-chef-run59.md` (WC59-2, WC59-3).
+
 ## 2026-09-15 (Run 199, Abendlauf Mac Mini 22:37) — A-BLIND Rang 69: Swissolar-STP Brandschutz am Original, Tabelle 1 berichtigt (RF2 (cr) statt RF1)
 
 Kein PDF-Transfer (Inventar seit Run 65 erschöpft; Antrieb Prüfwarteschlange). Kandidat aus Run 196:

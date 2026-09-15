@@ -472,3 +472,16 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
   Abweichungen vermerkt (Herstellerin boyboks statt des Schweizer Vertriebs Hüsler
   Nest-Center/Indigo Naturwaren, Gesamthöhe ca. 12-13 statt 14 cm). `status: established`
   bleibt für beide, da Schreibregel 6 (unabhängige Zweitbelegung) jetzt erfüllt ist.
+
+## Wissens-Chef Lauf 59 (15.09.2026) — Cross-KB-Eingang aus `wissen/normen`
+
+- [ ] **WC59-5 — Metalldecken in Nassräumen (BKP 283, Deckenbekleidungen aus Metall) als
+  Destillationskandidat.** `wissen/normen/outputs/2026-09-15_metalldecken-nassraum-en-13964.md`
+  (2619 KISPI, `status: speculative`) enthält neben der Norm-Fundstelle EN 13964 überwiegend
+  Produkt- und Systemwissen: HdM Bauteilkatalog D236/D410/D411/D412, Metalit-EPD (Standardkassette
+  Klasse A), TAIM Merkblatt 02, LV BKP S_283.10 Süd. Nach der Führungsmatrix gehört dieses Wissen
+  hierher; die KB führt bisher keinen BKP-283-Abschnitt. Kein Artikel auf Vorrat (Schreib-Riegel
+  `skills/wissenscheck/SKILL.md`): aufnehmen, wenn ein Folgelauf das Material aus `raw/` bzw. den
+  HdM-Blättern destilliert. Die Beanspruchungsklassen A bis D bleiben bei `wissen/normen` und sind
+  dort erst sekundär belegt (Original EN 13964 nicht gelesen, `wissen/normen/wiki/QUESTIONS.md`
+  260915).

@@ -238,6 +238,9 @@ Swissolar-Übergangsdokument (längstens bis Ende 2026). Holzbau = Knackpunkt DC
 «auf brennbarem Untergrund/Holztragwerk in RF1-Rohr». Details → [[BAUHERREN-FAQ]] F16,
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Brandschutz-**Bewertung** → Skill `brandschutz`;
 Energierecht → Skill `baurecht`.
+Die Planungsgrundlagen-Seite derselben Schnittstelle (Tabelle 1 VKF-BSM 2001-15 Ausgabe 2022, dort
+seit 06.08.2026 mit RF2 (cr)/RF1 richtig) → [[energie-pv-brandschutz]] (`wissen/planungsgrundlagen`),
+Zeiger nachgetragen Wissens-Chef Lauf 59, 15.09.2026.
 
 **Feuerwehr-Meldepflicht (Run 93, 2026-07-25):** Bei jeder PV-Installation gilt zusätzlich zur
 Kennzeichnungspflicht eine eigenständige **Informationspflicht gegenüber dem Feuerwehrkommando**
