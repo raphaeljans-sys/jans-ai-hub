@@ -53,6 +53,49 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-16 00:57 — [FREI] **Mini-Regellauf. Gegenprobe zum Nachtrag 15.09. 13:32 nicht bestanden: die MacBook-Fassung dieses Radars hat heute um 00:58 wieder gefeuert. Sonst ohne Befund.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink seit 15.09. 05:15) «OK», rc=0 in **4 s**, Watchdog 180 s nicht
+gebraucht, keine Waisen. Wochenbudget **12.3 %** von 167 Mio bei **22.0 %** verstrichener Woche, Vorsprung **-9.7 Punkte**, Ampel
+FREI (MacBook 15.09, Mini 5.38 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurückzuschalten.
+
+**Doppellauf (Gegenprobe, Befund).** In den MacBook-Transkripten liegt die Session `42d7e838` mit dem Opener
+`<scheduled-task name="vollgas-chef-radar">`, enqueued 15.09. 22:58:02Z = **16.09. 00:58**, also nach der gemeldeten Deaktivierung.
+Zu dem Zeitpunkt lief sie bereits (Fensterprobe rc=0 in 8 s). Die Deaktivierung hat für den Radar **nicht gegriffen**, oder die App hat
+sie zurückgesetzt. Die Frontmatter der drei MacBook-Tasks trägt kein `enabled`-Feld, sie ist also kein Beleg in die eine oder andere
+Richtung; der Live-Zustand steht nur in der App. Für heartbeat-daily (MacBook-Slot 09:40) und vollgas-fruehwarnung (07:10) gab es seit
+13:32 noch keinen Slot, die Gegenprobe steht dort aus. Der Mini greift per ssh nicht ein (Auftrag STATION).
+
+**Feuermechanismen.** Mini-Registry im Sollstand (energie-training, claude-abo-auslastung, bauleitung-training, heartbeat-daily,
+vollgas-fruehwarnung, vollgas-chef-radar aktiv, Rest deaktiviert). launchd: Mini `ch.jans.nachtschicht` geladen,
+`vollgas-supervisor` bleibt `.disabled-260729`; MacBook `vollgas-supervisor` und `vollgas-monitor` bleiben `.disabled-260729`, kein
+vollgas-Job geladen.
+
+**Liefer-Delta seit 15.09. 12:55 (git, Dateien unter `wissen/`):** energie 14 (Run 199 22:51, Swissolar-STP Brandschutz am Original
+berichtigt, dazu energie-training 22:37), planungsgrundlagen 5, koordination 5, kunde-bopp 4 (Nachtschicht 23:41), baurecht 3, normen 3,
+architektur-fachwissen 3, bauprodukte 2, claude-code 2. Dazu wissens-chef Lauf 59 (23:28), Synergie-Lauf 36 (17:19), tenant-hygiene
+(Versions-Trim, 20:12). Nachtschicht Mini viermal rc=0 am 15.09. (2.85 / 2.77 / 3.29 / 4.07 USD). Kein Loop ohne Delta.
+
+**Beobachtung (kein Eingriff).** Die letzten Nachtschicht-Läufe melden Priorität 1 bis 3 als leer oder erledigt und liefern nur noch
+auf Priorität 5 (einzelne offene QUESTIONS). Das ist kein Delta-Null, aber der Ertrag je Lauf sinkt bei steigenden Kosten (4.07 USD,
+63 Turns). Weiter beobachten; greift erst Rule 260830 (Abbruch nach gemessenem Ertrag), wenn ein Lauf gar nichts mehr liefert.
+
+**Speicher und Last Mini.** Druckstufe 1, 14.4 GB frei+inaktiv+purgeable (vm_stat). Uptime 10:57, der Mini ist also am 15.09. gegen
+14:00 neu gestartet (um 13:03 zeigte er noch 23 h). Load average **118** auf 12 Kernen: OneDrive 186 % CPU, mediaanalysisd 140 %,
+fileproviderd 71 %, fseventsd 52 %. Das passt zur Fotoarchiv-Übernahme nach OneDrive vom 15.09. (Memory
+`projekt_fotoarchiv_onedrive`). Die Probe antwortete trotzdem in 4 s, deshalb kein Befund.
+
+**Massnahmen.** Keine.
+
+**P2 (neu gefasst, Aktion Raphael):** die MacBook-Fassung von vollgas-chef-radar läuft trotz Deaktivierung weiter. In der App auf dem
+MacBook den Schalter der Task prüfen (Scheduled-Tasks-Liste, «vollgas-chef-radar» ohne «(Mac Mini)» im Titel) und bei Bedarf erneut
+ausschalten. Gegenprobe im nächsten Mini-Radar (16.09. ~12:57): nach 00:58 darf keine MacBook-Session dieser Task mehr auftauchen;
+dann auch Frühwarnung (07:10) und heartbeat (09:40) prüfen. **P3 (unverändert):** bauleitung-training und claude-abo-auslastung haben
+ihren Wochenlauf am Latch verloren (nächste Slots 20./21.09.).
+
+**Selbstkontrolle.** Letzter Mini-Eintrag 15.09. 13:03 (Nachtrag 13:32), Abstand rund 12 h, innerhalb der Toleranz von 15 h.
+`lastRunAt` 22:57Z ist dieser Lauf. Keine Mail (P2, kein Mailgrund).
+
 ## 2026-09-15 13:03 — [FREI] **Mini-Fassung zum selben Slot, direkt darunter steht die MacBook-Fassung (beide 12:58 gefeuert). Beide Messungen stimmen überein, kein neuer Befund. Hier nur, was nur der Mini messen kann.**
 
 **Mini-Messwerte.** PATH-Probe `/opt/homebrew/bin/claude` (npm, Symlink 15.09. 05:15) rc=0 in **4 s**, keine Waisen. Budget
