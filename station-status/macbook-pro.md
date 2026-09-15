@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 12:55:01
+Stand: 15.09.2026 13:05:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 12:55:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b79996c3c nas-selfcommit: 2 Datei(en) 2026-09-15 12:45
+- 313c53af8 vollgas-radar: 15.09. 13:03 Mini-Fassung FREI, -7.0 Punkte, Briefings wieder geliefert, Doppellauf dreifach belegt
