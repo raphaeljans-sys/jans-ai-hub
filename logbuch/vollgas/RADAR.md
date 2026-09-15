@@ -72,6 +72,11 @@ deaktivieren. **P3 (unverändert):** bauleitung-training und claude-abo-auslastu
 
 **Selbstkontrolle.** Letzter Mini-Eintrag 00:58, Abstand 12 h, innerhalb der Toleranz. `lastRunAt` 10:57Z ist dieser Lauf. Keine Mail.
 
+**Nachtrag 13:32:** Raphael meldet im Chat, die drei MacBook-Tasks (vollgas-chef-radar, vollgas-fruehwarnung, heartbeat-daily)
+in der App deaktiviert zu haben. Der P2 Doppellauf gilt damit als erledigt, **Beleg steht noch aus**: die MacBook-Registry ist
+von hier aus nicht lesbar. Gegenprobe im nächsten Mini-Radar (16.09. ~00:57): in den MacBook-Transkripten darf nach 13:32 keine
+Session dieser drei Tasks mehr auftauchen (MacBook-Slots: Radar 00:50, Frühwarnung 07:10, heartbeat 09:40 werktags).
+
 ## 2026-09-15 12:58 — [FREI] **MacBook-Fassung, Regellauf ohne Befund. Der Mini-Eintrag zu diesem Slot stand beim Schreiben noch aus; diese Fassung misst deshalb vollständig, aber knapp. Doppellauf unverändert offen (Aktion Raphael).**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert seit 29.08. 05:15) «OK», rc=0 in **7 s**,
