@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 22:53:46
+Stand: 15.09.2026 23:14:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 15.09.2026 22:53:46
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- eefda0d58 energie Run 199: A-BLIND Swissolar-STP Brandschutz am Original, Tabelle 1 berichtigt (RF2 (cr) statt RF1), F16 berichtigt, F296 neu; Cross-KB-Hinweise an planungsgrundlagen und normen
+- facefa10e nas-selfcommit: 2 Datei(en) 2026-09-15 23:00
