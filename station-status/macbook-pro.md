@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 05:42:56
+Stand: 15.09.2026 05:53:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 05:42:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9fc92865d Nachtschicht 05:30: EnG-Revision 2026 (Cross-KB aus baurecht) in energie kompiliert
+- 246146485 nas-selfcommit: 1 Datei(en) 2026-09-15 05:45
