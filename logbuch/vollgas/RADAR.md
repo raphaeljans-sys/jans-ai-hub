@@ -53,6 +53,25 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-15 13:03 — [FREI] **Mini-Fassung zum selben Slot, direkt darunter steht die MacBook-Fassung (beide 12:58 gefeuert). Beide Messungen stimmen überein, kein neuer Befund. Hier nur, was nur der Mini messen kann.**
+
+**Mini-Messwerte.** PATH-Probe `/opt/homebrew/bin/claude` (npm, Symlink 15.09. 05:15) rc=0 in **4 s**, keine Waisen. Budget
+**7.8 %** bei 14.9 % verstrichener Woche, **-7.0 Punkte** (Mini 2.83, MacBook 10.23 Mio; die Abweichung zur MacBook-Fassung ist
+der Zuwachs zwischen den beiden Messungen). Speicher Mini: Druckstufe 1, 13.25 GB frei+inaktiv+purgeable (vm_stat), Uptime 23 h.
+Mini-Registry im Sollstand (energie-training, claude-abo-auslastung, bauleitung-training, heartbeat-daily, vollgas-fruehwarnung,
+vollgas-chef-radar aktiv, Rest deaktiviert); launchd Mini: `ch.jans.nachtschicht` geladen. Nachtschicht Mini zweimal rc=0
+(02:36 2.85 USD, 05:37 2.77 USD, Lauf-Journal 260915). Liefer-Delta identisch mit der MacBook-Fassung, kein Delta-Null-Loop.
+
+**Erledigt:** der P2 «kein Tagesbriefing 12.–14.09.» aus dem Eintrag 00:58. Laut MacBook-Transkripten liefen heute logbuch-radar
+07:22, ag-gruendung-monitor 08:03, mahnwesen-verzugscheck 08:22, zahlungsabgleich-check 08:24 und hub-chef-taeglich 09:04.
+
+**P2 (unverändert, Aktion Raphael):** Doppellauf, heute dreifach belegt: Frühwarnung (Mini 06:30, MacBook 07:32), heartbeat-daily
+(Mini 08:01, MacBook 09:56) und dieser Radar (beide 12:58, MacBook-Session `ec9af008`). Die drei Tasks in der App auf dem MacBook
+deaktivieren. **P3 (unverändert):** bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch verloren
+(nächste Slots 20./21.09.).
+
+**Selbstkontrolle.** Letzter Mini-Eintrag 00:58, Abstand 12 h, innerhalb der Toleranz. `lastRunAt` 10:57Z ist dieser Lauf. Keine Mail.
+
 ## 2026-09-15 12:58 — [FREI] **MacBook-Fassung, Regellauf ohne Befund. Der Mini-Eintrag zu diesem Slot stand beim Schreiben noch aus; diese Fassung misst deshalb vollständig, aber knapp. Doppellauf unverändert offen (Aktion Raphael).**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert seit 29.08. 05:15) «OK», rc=0 in **7 s**,
