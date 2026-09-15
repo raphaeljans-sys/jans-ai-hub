@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-09-11
+last_updated: 2026-09-15
 gewichtung: authentisch
 sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -4436,3 +4436,36 @@ Quelle `raw/260911-mailbatch-119.md`, Belege 10.09.2026, `authentisch`.
   Anrede nicht zur Sammelform ziehen), Trajektorie «(260823, zwei Golds)».
 
 Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.
+
+
+## Batch 120 (15.09.2026) — «Sehr geehrter» beim eigenen Fehler, und im Dreier-«An» wird nur der Entscheider angeredet
+
+Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026, `authentisch` (ausser wo vermerkt).
+
+- **⭐ Livdin Bajrami (Jegen AG, Sie): fünf Mails, vier Formen in 48 Stunden.** 09.09. «Geschätzter
+  Herr Bajrami,» (Übergabe) → 10.09. 11:23 «Guten Morgen» namenlos (Mitteilung) → 13:46 «Guten Tag Herr
+  Bajrami» (Mängelrüge) → **11.09. 08:36 «Sehr geehrter Herr Bajrami,»** (Nachlieferung, weil Raphaels
+  Freigabelink nicht aufging) → 10:28 «Guten Tag» namenlos (Ein-Wort-Entscheid). Neu ist die formelle
+  Stufe als **Reparatur-Register**: wo Raphael einen eigenen Übermittlungsfehler behebt, greift er zur
+  neutralsten Sie-Form, mit Dank und Service-Satz. Die Regel «die Stufe folgt dem Inhalt der einzelnen
+  Mail» (Batch 119) hält; die Zuordnung wächst um «Reparatur → Sehr geehrter».
+- **⭐ Roland Grob (Jegen AG, Sie): «Geschätzter Herr Grob» bei der Preisbitte — zweiter identischer
+  Beleg** nach dem 25.06.2026 (dort Preisbitte «Geschätzter», Auftragserteilung «Sehr geehrter»). Die
+  Anlass-Zuordnung bei dieser Person ist damit zweifach belegt: **Bitte um Geld → Geschätzter**.
+- **⭐ Im Dreier-«An» wird nur der Entscheider angeredet.** Dieselbe Mail geht an Grob, Arter und Bajrami
+  (alle Jegen); angeredet ist nur Grob. Am 25.06. stand im gleichen Paar noch die gestaffelte
+  Doppelanrede «Geschätzter Herr Grob, Werter Herr Arter». Lesart: die Doppelanrede gilt, wenn beide
+  handeln sollen; bei einer Preisbitte handelt einer.
+- **Kreditorenstelle KISPI (Funktionsadresse): «Guten Tag» namenlos, «Freundliche Grüsse» ohne Namen.**
+  Der Du-Kontakt der Bauherrenseite (Albin Spahic) steht im Cc und **zieht das Register nicht**: die
+  Anrede richtet sich an das An-Feld. Gleiche Linie wie der Ticket-Desk (Fidelity 260911): an eine
+  Funktion wird namenlos geschrieben.
+- **Fabian Würsch (Bauherrenseite KISPI, Du): Vokativ als Satzanfang** — «Fabian, kannst Du diese
+  E-Mail in Rücksprache mit Yasarcan Cetin beantworten?» (14.09., Ferien). Dritte Form nach «Hoi Fabian,»
+  (118) und «Fabian;» im Betreff (119). Keine Anrede-Formel, der Name eröffnet die Bitte. Die
+  Kontaktzeile bleibt vorgelegt ([[QUESTIONS]] 260910 #1).
+- **Webprogrammierer (englischsprachig): Nullform ohne jedes Wort** (`mail@`, 31.08.). Bei einer
+  Weiterleitung entfällt auch die kontaktgebundene englische Anrede; die Rule-Zeile «Hi Hleb» gilt
+  geschriebenen Mails.
+- **Albin Spahic: «Salut Albin» im Korrektur-Delta vom 14.09. unverändert gelassen** (Claude-Fassung,
+  nicht als Gold gezählt). Deckt sich mit dem belegten «Salut Albin» (März 2026).

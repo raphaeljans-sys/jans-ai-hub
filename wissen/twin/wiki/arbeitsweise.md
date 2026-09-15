@@ -1,7 +1,7 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-11
+last_updated: 2026-09-15
 gewichtung: authentisch
 sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
@@ -4720,3 +4720,36 @@ Quelle `raw/260911-mailbatch-119.md`, 09.09.–10.09.2026, `authentisch`.
 - **Subjektloser Einstieg im Du-Nachtrag:** «Habe … ergänzt:». Der Zwilling setzt «Ich habe».
 
 Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.
+
+
+## Batch 120 (15.09.2026) — ⭐ Die Begleitmail liegt neben dem Deliverable, und die Ferien laufen über Delegation
+
+Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026; Gewichtung je Punkt.
+
+- **⭐⭐ Neue Delta-Quelle: die Claude-Begleitmail im Deliverable-Ordner.** Neben dem Bestellblatt vom
+  14.09. liegen `.md`, `.docx`, `.pdf`, das Build-Script und **`260914-Begleitmail-Albin-Spahic.txt`**.
+  Die gesendete Mail weicht davon an fünf Stellen ab (Detail `raw/260915-mailbatch-120.md`). Das ist
+  nach dem Entwurfsordner (Vierzehnte Falle) der zweite dokumentarische Weg zu Korrektur-Deltas;
+  stationsweit liegen bisher **zwei** solche Dateien. → `CLAUDE.md` (DELTA-QUELLE), [[QUESTIONS]]
+  260915 #1.
+- **⭐ Korrektur-Delta (SILBER): Raphael ergänzt Belege und Struktur, er schreibt keinen Text dazu.**
+  Dateiname in den Satz, fette Rubriken, drei Grundlagen-Anhänge; gestrichen der offene Nachsatz.
+  Kein einziges Wort Fliesstext kam hinzu. Für den Zwilling: bei einer Liefermail die Anhänge
+  vollständig machen, nicht den Text.
+- **⭐ Zwei Konten, zwei Eskalationsstufen:** `mail@` trägt die Leistungsstoppliste (05.09.) **und** das
+  Ultimatum (10.09.), `rj@` den gesamten Projektverkehr derselben Tage. Zweiter Beleg der
+  Konto-Trennung ([[QUESTIONS]] 260911 #1 bleibt offen, die Beleglage wird dichter).
+- **⭐ Ferien-Modus (14.09., Ferien laut Hub-Briefing 11.09.):** zwei Sendungen, beide ohne
+  Anrede-Formel: (1) Unternehmer-Rückfrage mit einem Satz an die Bauherrenseite delegiert, der
+  Fachplaner für die Abstimmung wird **mit Namen** genannt, Unternehmer, Türplaner und Fachplaner im Cc;
+  (2) Betreff-Mail mit zwei Anhängen an die Bauherrenseite, Brandschutzfirma im Cc. Keine Erklärung, kein
+  nächster Schritt; die Delegation steckt im Verteiler.
+- **Nullform-Weiterleitung als Auftrag** (`mail@`, 31.08.): die Sicherheitswarnung des Hosters geht
+  wortlos an den Webprogrammierer. Der Auftrag («bitte aktualisieren») steht in der weitergeleiteten
+  Mail selbst.
+- **Nachlieferung als Anhang statt Link-Reparatur** (B, 11.09.): der Unternehmer konnte den
+  SharePoint-Link nicht öffnen; Raphael hängt das PDF an **und** setzt den Link oben in den Body.
+  Beide Wege, kein Kommentar zur Ursache.
+- **Widerspruch markiert (→ [[stimme]]): Service-Satz, Dank vor der Sache und Anhangszeile stehen in B
+  gemeinsam** — die drei Elemente, die Fidelity 260911 als Rahmen-Drift des Zwillings führte. Die
+  Eingrenzung «im stehenden Thread nicht» deckt diesen Sie-Fall nicht ([[QUESTIONS]] 260915 #2).

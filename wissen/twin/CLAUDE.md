@@ -998,6 +998,18 @@ Nachpruefung bestaetigt damit die Methode, nicht nur das Einzelurteil.
 Zuordnungen der Batches 95–98 bleiben stehen, weil sie neben dem Wrapper auch die Fehlerdichte
 trugen; eine kuenftige Zuordnung stuetzt sich nicht mehr auf den Wrapper allein.
 
+
+**DELTA-QUELLE, neu 15.09.2026 (Batch 120) — die Begleitmail im Deliverable-Ordner.** (Bewusst ohne
+Ordnungszahl, siehe BETREFF-PROBE.) Hub-Skills legen neben ein Deliverable manchmal die von Claude
+formulierte Begleitmail als `<YYMMDD>-Begleitmail-<Empfänger>.txt` bzw. `.md` ab (belegt: Bestellblatt
+2619 KISPI vom 14.09.2026; Factsheet 2621 Giebelweg vom 07.06.2026). Gegen die gesendete Mail gehalten
+ist das ein **Korrektur-Delta mit vollständiger Ausgangsfassung** — der zweite dokumentarische Weg nach
+dem Entwurfsordner (Vierzehnte Falle). Vorgehen: `mdfind -name Begleitmail` je Lauf auf Zuwachs prüfen,
+mit Sent Items über Empfänger und Zeit paaren, **nur die Änderungen** lernen. **Vorbehalt:** die Datei
+belegt die Claude-Fassung, nicht, **wer** geändert hat; ohne Transkript der erzeugenden Session bleibt
+eine zweite Claude-Runde auf Anweisung möglich, das Delta also SILBER mit Vermerk. Was unverändert
+blieb, gilt als «nicht beanstandet», nie als Gold.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

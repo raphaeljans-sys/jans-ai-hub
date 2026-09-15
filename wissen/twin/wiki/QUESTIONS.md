@@ -6362,3 +6362,54 @@ der Zwilling beim naechsten Amts-Nachtrag falsch zu.
 «15:15 - 15:45» (mit). Die Frage bleibt offen; die Beleglage fuer ein Ja ist staerker.
 
 Status: #1-#4 **offen**.
+
+
+## 260915 — nach Batch 120 (`mail@` Sent 27.07. bis 09.09. nachgeholt, `rj@` Sent 10.09. 19:57 bis 14.09. 17:09)
+
+**Nachträge zu offenen Vorrunden (Fragen unangetastet):** **260911 #1** (`mail@` für harte Mails) —
+zweiter Beleg: auch die erste Stufe, die Leistungsstoppliste vom 05.09., lief über `mail@`, der
+Projektverkehr derselben Tage über `rj@`. **260911 #2** (Aussetzung und Freigabe) — nach Ablauf Deiner
+Frist (10.09. 17:00) hast Du am 11.09. mit Jegen weitergearbeitet (Terminplan, Detailentscheid,
+Reduktionsbitte mit der Bauherrenseite im Cc); die Lesart «Druck auf dem Vertrag, nicht auf der
+Baustelle» hat damit einen zweiten Beleg. Siehe aber #3 unten.
+
+**#1 [Arbeitsweise, Korpus-Methodik] Soll der Hub die Claude-Begleitmail immer neben das Deliverable legen?**
+Beim Bestellblatt Platten vom 14.09. liegt `260914-Begleitmail-Albin-Spahic.txt` im Deliverable-Ordner.
+Der Vergleich mit der gesendeten Mail zeigt genau, was Du geändert hast: Dateiname in den Satz, fette
+Rubriken, drei Grundlagen dazu, den Schlussabsatz zur Lücke im Ausmass gestrichen. Stationsweit gibt es
+bisher nur zwei solche Dateien.
+*Konkret:* Darf ich vorschlagen, dass jeder Skill mit Mail-Output seine Begleitmail als
+`<YYMMDD>-Begleitmail-<Empfänger>.txt` in den Deliverable-Ordner der **internen** Bibliothek legt (nie in
+die geteilte, Rule 260813)? Und: waren die fünf Änderungen vom 14.09. Deine Hand oder eine zweite
+Claude-Runde auf Deine Anweisung?
+*Warum:* Korrektur-Deltas sind das zweitstärkste Lernsignal, und bisher findet der Loop sie nur zufällig.
+Mit der Ablage wird jede gesendete Hub-Mail zu einem Paar «Entwurf gegen Versand». Die Autorschaftsfrage
+entscheidet, ob das Delta vom 14.09. Silber bleibt.
+
+**#2 [Stimme, Arbeitsweise] Service-Satz im stehenden Thread: gilt «weglassen» nur im Du?**
+Am 11.09. um 08:36 hast Du Herrn Bajrami im laufenden Thread geantwortet: «Besen Dank für Ihre
+E-Mail. Im Anhang finden Sie den Terminplan, … Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit
+gerne zur Verfügung.» Der Fidelity-Review vom 11.09. hat den Service-Satz im stehenden Thread
+gestrichen, gemessen an einer Du-Mail an den Freelancer.
+*Konkret:* Stimmt die Grenze «im Du-Thread kein Service-Satz; im Sie an den Unternehmer, wenn Du etwas
+nachlieferst, ja»?
+*Warum:* Sonst lässt der Zwilling den Satz genau dort weg, wo Du ihn setzt.
+
+**#3 [Haltung] Die Stoppliste vom 05.09. und das Bestellblatt vom 14.09. — waren die Rechnungen bis dahin bezahlt?**
+Am 05.09. schreibst Du der Kreditorenstelle: bis zur Zahlung «keine Unterlagen für nötige Bestellungen».
+Am 14.09. geht das Bestellblatt für die Platten an Albin.
+*Konkret:* Wurde bis zum 14.09. bezahlt, oder hast Du die Bestellung bewusst ausgenommen (weil sie der
+Baustelle dient und nicht dem Vertrag)?
+*Warum:* Im ersten Fall ist die Stoppliste wörtlich zu nehmen und hebt sich mit der Zahlung auf; im
+zweiten gilt die Lesart aus 260911 #2 auch für Bestellungen. Der Zwilling muss wissen, ob er in einer
+laufenden Aussetzung ein Bestellblatt versenden darf.
+
+**#4 [Haltung] Wann entschuldigst Du Dich für einen eigenen Fehler?**
+Kompiliert ist seit dem 11.09.: eigenes Versäumnis → «Ich entschuldige mich.», ohne Ausrede (verpasster
+Support-Termin, eigener Zeichnungsfehler). Am 11.09. ging Dein Freigabelink bei Jegen nicht auf; Deine
+Antwort dankt, liefert das PDF und bietet Hilfe an, ohne Entschuldigung.
+*Konkret:* Stimmt die Grenze «Entschuldigung, wenn das Gegenüber einen Schaden hatte (Wartezeit,
+Mehrarbeit); beim blossen technischen Hinweis Dank und Lieferung»?
+*Warum:* Sonst entschuldigt sich der Zwilling bei jeder Link-Panne, und das klingt nicht nach Dir.
+
+Status: #1-#4 **offen**.

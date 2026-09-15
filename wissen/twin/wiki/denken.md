@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-09-11
+last_updated: 2026-09-15
 gewichtung: authentisch
 sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -1766,3 +1766,28 @@ Quelle `raw/260911-mailbatch-119.md`, 10.09.2026, `authentisch` (Konto `mail@`, 
   angewandt.
 
 Quelle: `../outputs/2026-09-11_fidelity.md`, Golds rj@ Sent 15.02.2026 13:25/14:45 (Sonderegger), 23.08.2025 13:37 (von Dietze), 08.07.2025 10:41 + Zitatkette 07.07.2025 (Microsoft Support), alle authentisch.
+
+
+## Batch 120 (15.09.2026) — Das Nachtragsangebot wird vorgerechnet, und der Stopp beginnt mit einer Bedingung
+
+Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026, `authentisch`.
+
+- **⭐⭐ Die Reduktion wird selbst hergeleitet, bevor der Unternehmer rechnet** (D, 11.09. 12:31, eigene
+  Hand). Dramaturgie in fünf Stufen: Anlass in einem Satz («Aufgrund von Einsparungen/Mehrkosten …
+  Bitte ich Sie um ein bereinigtes Angebot:») → drei **Positionen** mit neuem Preis und Grund in
+  Klammer → **Saldo** Mehrpreis gegen Minderpreis → «**Vorschlag** Reduktion» → Alt-Total, Abzug,
+  **fettes Neu-Total**. Der Mehrpreis des Unternehmers (Expresslieferung) wird nicht bestritten, sondern
+  mit dem Minderwert aus Bestand und Produktwechsel **verrechnet**. Das ist Spielraum-Denken ohne
+  Verhandlungsprosa: die Zahl selbst ist das Argument. Die Rechnung stimmt.
+- **⭐ Die erste Eskalationsstufe ist ein Konditionalsatz** (A, 05.09., `mail@`): «Sobald alle offenen
+  Rechnungen bezahlt sind, werden wir am PPTS weiter arbeiten.» Die Bedingung steht **vorne**, die Folge
+  als Liste darunter («Bis dahin:» + fünf Zeilen «keine …»). Fünf Tage später folgt die
+  Konditional-Kaskade mit Frist (Batch 119). Die Eskalation wächst **in Stufen**: zuerst Leistungskatalog
+  ohne Frist an die Buchhaltung, dann Frist, Kondition und Austrittsdrohung an die Person.
+- **Entscheid vorne, auch in der Zwei-Satz-Antwort** (C, 11.09.): «Nein. Die Braucht es nicht.» Die
+  Rückfrage (Blenden ausführen?) wird mit dem Entscheid eröffnet, der Grund bleibt weg. Zweite Gattung
+  zum Fidelity-Befund 260911 #3 (Entscheid vorne beim Abschliessen).
+- **Korrektur-Delta (SILBER, Vorbehalt Autorschaft): der offene Punkt fliegt raus.** Die Claude-Fassung
+  der Bestellmail (14.09.) schloss mit einer Lücke im Ausmass und einer bedingten Nachlieferung; gesendet
+  geht die Mail ohne diesen Absatz. Die Bestellung wird als **abgeschlossene Grundlage** übergeben, nicht
+  als Grundlage mit Vorbehalt. → [[haltung]].

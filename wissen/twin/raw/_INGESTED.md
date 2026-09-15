@@ -2928,3 +2928,47 @@ UTC `2026-09-10T17:57:30`), `order: oldest`. (2) **Vorrangig: `mail@` Sent Items
 «WG: Sicherheitslücken festgestellt», 07.09. «Fwd: Auftragsbestätigung»). (3) **Ab jetzt je Fenster
 beide Konten**, gleiche Zeitgrenzen. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwuerfe
 vom 24.03.2026; der Rest von **Batch 65** auf `claude-aera` pruefen — unveraendert offen.
+
+
+## Batch 120 (15.09.2026) — `mail@` Sent 27.07. bis 09.09. nachgeholt + `rj@` Sent 10.09. 19:57 bis 14.09. 17:09 · **das erste Korrektur-Delta mit abgelegter Claude-Fassung**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 120 (15.09.2026)» in [[stimme]], [[denken]],
+[[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]; [[QUESTIONS]] 260915 #1-#4;
+`CLAUDE.md` DELTA-QUELLE) · Detailregister: `raw/260915-mailbatch-120.md`
+
+**Abgedeckt:** `mail@` Sent Items **27.07.2026 bis 09.09.2026**, alle 6 Treffer (`totalResultCount: 6`)
+— der Rückstand aus Batch 119 ist damit geschlossen; `mail@` ist lückenlos bis zum Laufzeitpunkt (15.09. 03:40) gesichtet, letzter Treffer 10.09. 04:35. `rj@` Sent Items
+**10.09.2026 19:57 bis 14.09.2026 17:09** (Ortszeit), alle 10 Treffer (`totalResultCount: 10`). `mail@` im
+selben Fenster: 0 Treffer. Der Vorwärtsfaden bleibt in beiden Konten ohne Lücke.
+
+**Vorfilter:** keine Dublette (Grenze aus 119 sauber), 2 Selbstmails `claude-aera` (Hub-Chef 11.09.,
+P1-Meldung 12.09.; nur Kontrolle), 3 Termin-Zusagen ohne Text, 4 Nullform-Weiterleitungen (`mail@`).
+Kein Fidelity-Review seit 11.09., keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** `mail@` «Offene Rechnungen» 05.09. 09:05 · «Sehr geehrter
+Herr Bajrami,» Terminplan 11.09. 08:36 · «Guten Tag / Nein.» 11.09. 10:28 · «Geschätzter Herr Grob»
+Nachtrags-Offerte 11.09. 12:31 · «Fabian, kannst Du …» 14.09. 13:43 · Betreff-Mail Sprühnebelanlage
+14.09. 14:38 · **Korrektur-Delta** Plattenbestellung 14.09. 17:09 (gegen
+`260914-Begleitmail-Albin-Spahic.txt`, SILBER mit Autorschafts-Vorbehalt).
+
+**Kernbefunde:** (1) ⭐⭐ **Korrektur-Delta mit Ausgangsfassung:** Raphael ergänzt Dateiname, fette
+Rubriken und drei Grundlagen-Anhänge und **streicht den proaktiven Vorbehalt** samt
+Nachlieferungsversprechen; kein Wort Fliesstext kommt dazu. (2) ⭐⭐ **Nachtrag vorgerechnet:** Mehrpreis
+gegen Minderpreis saldiert, «Vorschlag Reduktion», fettes Neu-Total, Bauherrenseite im Cc; Rechnung
+stimmt. (3) ⭐ **Vier Sie-Formen an einen Unternehmer in 48 h**, neu «Sehr geehrter» als
+Reparatur-Register. (4) ⭐ **Widerspruch** zu Fidelity 260911: Service-Satz, Dank vor der Sache und
+Anhangszeile stehen gemeinsam in einem Sie-Thread (→ 260915 #2). (5) ⭐ **Widerspruch** zu Fidelity
+260911 Befund 4: beim technischen Fehler auf eigener Seite keine Entschuldigung; Lesart «Schaden gegen
+neutralen Hinweis» vorgelegt (→ 260915 #4). (6) ⭐ **Erste Eskalationsstufe in `mail@`** (05.09.):
+Bedingung vorne, fünf anaphorische «keine …»-Zeilen, an die Funktionsadresse namenlos. (7) ⭐ Nach
+Fristablauf läuft die Unternehmerseite weiter (zweiter Beleg Lesart 119 #6), **offener Widerspruch**
+zur Stoppliste beim Bestellblatt (→ 260915 #3). (8) Verb-Grossschreibung: «Verwendet» passt nicht zur
+Adressaten-Lesart. (9) Ferien-Modus 14.09.: Delegation im Verteiler, keine Anrede-Formel. (10) Im
+Dreier-«An» nur der Entscheider angeredet. (11) Fehlerdichte **3.1 je 100 W** gegen 0, fünfter
+Vergleich in Folge. (12) **Methodenfund DELTA-QUELLE** (Begleitmail-Dateien, stationsweit 2).
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 14.09.2026 17:09** Ortszeit (`afterDateTime` UTC
+`2026-09-14T15:09:30`), `order: oldest`. (2) `mail@` **Sent Items ab 14.09.2026 17:09**, dieselbe Grenze wie
+`rj@` (bis dahin lückenlos, auch über den 14.09. hinaus leer). (3) `mdfind -name Begleitmail` auf Zuwachs, gegen Sent Items
+paaren. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwürfe vom 24.03.2026; der Rest von
+**Batch 65** auf `claude-aera` prüfen, unverändert offen.

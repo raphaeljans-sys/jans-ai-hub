@@ -4,6 +4,27 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+
+## 2026-09-15 (twin-mail-training Batch 120) — `mail@` 27.07.–09.09. nachgeholt, `rj@` 10.09. 19:57–14.09. 17:09; erstes Korrektur-Delta mit abgelegter Claude-Fassung
+
+- `raw/260915-mailbatch-120.md` neu (Detailregister, 6 Golds + 1 Korrektur-Delta, keine Volltexte);
+  `raw/_INGESTED.md` Batch 120 angehängt; `mail@`-Rückstand aus Batch 119 geschlossen.
+- `wiki/stimme|denken|haltung|beziehungsregister|fachsignatur|arbeitsweise.md`: je Abschnitt «Batch 120
+  (15.09.2026)», `last_updated` 2026-09-15. Kern: Delta 14.09. (Belege und fette Rubriken dazu,
+  proaktiver Vorbehalt gestrichen), Nachtrag als eigene Saldo-Rechnung, «Sehr geehrter» als
+  Reparatur-Register, Leistungsstopp 05.09. als erste Eskalationsstufe in `mail@`.
+- **Zwei Widersprüche markiert, nicht geglättet:** Service-Satz im stehenden Sie-Thread gegen
+  Fidelity 260911 Befund 5; keine Entschuldigung beim technischen Eigenfehler gegen Fidelity 260911
+  Befund 4 (Lesart «Schaden gegen neutralen Hinweis»). Ein offener Sach-Widerspruch: Stoppliste 05.09.
+  gegen Bestellblatt 14.09.
+- `wiki/QUESTIONS.md` 260915 #1-#4 (Begleitmail-Ablage als Hub-Konvention, Service-Satz-Grenze,
+  Stoppliste/Bestellung, Entschuldigungs-Grenze) + Nachträge zu 260911 #1/#2.
+- `CLAUDE.md`: Absatz «DELTA-QUELLE» (Begleitmail-Dateien im Deliverable-Ordner als zweiter
+  dokumentarischer Weg zu Korrektur-Deltas, SILBER mit Autorschafts-Vorbehalt).
+- Selbstkorrektur im selben Lauf: der erste Entwurf des Haltungs-Punkts las Fidelity 260911 verkehrt
+  («quittiert statt entschuldigt» ist dort der Drift des Zwillings, nicht Raphaels Muster); vor dem
+  Commit richtiggestellt.
+
 ## 2026-09-14 (Nachtschicht Mac Mini, Prioritaet 5, Cross-KB twin ↔ auflagebereinigung) — Bringschuld 260910 #3 recherchiert und geschlossen
 
 - `wiki/QUESTIONS.md` 260910 #3 (eBaugesuche ZH, Projektänderung Stammgesuch vs. neues
