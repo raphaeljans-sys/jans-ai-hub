@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 05:32:39
+Stand: 15.09.2026 05:42:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 05:32:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd92acf36 nas-selfcommit: 4 Datei(en) 2026-09-15 05:30
+- 9fc92865d Nachtschicht 05:30: EnG-Revision 2026 (Cross-KB aus baurecht) in energie kompiliert
