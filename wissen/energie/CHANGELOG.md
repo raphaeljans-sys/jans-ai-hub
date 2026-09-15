@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2026-09-15 (Run 197, Nachtschicht Mac Mini) — Pruefwarteschlange Schritte 1/2/4 sauber, ein Kandidat gegengelesen
+
+Kein PDF-Transfer (Inventar seit Run 65 erschoepft). `wiki-konsistenz.sh` und
+`kennwert-recompute.sh` ohne Befund; `datenstand-waechter.py` zeigt nur bereits
+geflaggte Alterskorpus-Destillate und quittierte Pruefstichtage. `bezugsgroessen-check.py`
+liefert 160 THGE/Autarkie-Kandidaten; Stichprobe `pv-ertrag-eigenverbrauch-praxis.md`
+Z. 67 («Autarkie 103 %») ist bereits seit 23.08.2026 korrekt als Deckungsgrad aufgeloest
+— falscher Alarm des Werkzeugs, kein Handlungsbedarf. Kein Wiki-Artikel geaendert.
+Bericht: `outputs/2026-09-15_energie-run197.md`.
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — vier Kanten nachgezogen, keine Sachkorrektur
 
 Alle Nachträge additiv, kein bestehender Satz geändert (ausser `last_updated` im Wiki-Artikel).

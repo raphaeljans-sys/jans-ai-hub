@@ -12852,3 +12852,23 @@ unangetastet), `wissen/twin/CHANGELOG.md`, diese Logbuch-Zeile.
 Budget rund 3.5 von 5 USD (inkl. Pruefung der Prioritaeten 1-4 ueber mehrere Kandidaten-KBs vor
 der Wahl, ssh-Gegenproben MacBook/bexio, zwei WebFetch-Aufrufe fuer die PDF-Quelle). Zyklus
 sauber beendet.
+
+## 2026-09-15, 02:30-Slot (Nachtschicht-Zyklus Mac Mini)
+
+Prioritaeten 1-2 leer/aktuell (keine pending/sync-tasks; Synobsis Stufe 2 seit 08.09.
+aktuell). Prioritaet 3 (Fristen-Radar) per Haiku-Subagent gesichtet: alle offenen
+Aktiv-Punkte sind bereits erfasste Ball-bei-Raphael-/Ball-bei-Gremium-Punkte, nichts
+Neues zum Aufbereiten. Prioritaet 4: einzige nicht ausgeschlossene, nicht gesaettigte
+Ziel-KB ist `energie` (bauprodukte/grobkosten/projekt-lessons formal erledigt/pausiert;
+baurecht/normen/planungsgrundlagen/wettbewerbs-dna/spec haben eigenen Taktgeber bzw.
+Ereignis-Trigger-Status; immobilienbewertung wurde wie energie erst gestern durch
+Wissens-Chef Lauf 58 beruehrt). `energie` Run 197: die drei automatisierten Pruefungen
+der Pruefwarteschlange (`wiki-konsistenz.sh`, `kennwert-recompute.sh`,
+`bezugsgroessen-check.py`) gefahren — keine offenen Befunde; ein Stichproben-Kandidat
+(«Autarkie 103 %» in `pv-ertrag-eigenverbrauch-praxis.md`) als bereits am 23.08.2026
+korrekt geloest verifiziert (Werkzeug-Fehlalarm, Negation im Text nicht erkannt).
+Bericht `wissen/energie/outputs/2026-09-15_energie-run197.md`, CHANGELOG ergaenzt.
+
+Budget rund 2.7 von 5 USD (Recherche der freien Prioritaet-4-Ziele ueber mehrere
+Kandidaten-KBs, Haiku-Subagent fuer Fristen-Sichtung). Zyklus sauber beendet, kein
+Wiki-Artikel inhaltlich geaendert.
