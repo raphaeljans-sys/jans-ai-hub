@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 08:51:02
+Stand: 15.09.2026 09:11:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 08:51:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 452bb58e4 hub-chef 15.09.: A2 Lueftungstermin 16.09. eingetragen, Register RWD Masskontrolle KW 38, Kurzbriefing gesendet
+- 28dabe8d8 nas-selfcommit: 4 Datei(en) 2026-09-15 09:00

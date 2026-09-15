@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 08:58:24
+Stand: 15.09.2026 09:08:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 08:58:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 452bb58e4 hub-chef 15.09.: A2 Lueftungstermin 16.09. eingetragen, Register RWD Masskontrolle KW 38, Kurzbriefing gesendet
+- 28dabe8d8 nas-selfcommit: 4 Datei(en) 2026-09-15 09:00
