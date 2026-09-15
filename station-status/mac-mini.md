@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 13:08:10
+Stand: 15.09.2026 13:28:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:00)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 13:08:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 313c53af8 vollgas-radar: 15.09. 13:03 Mini-Fassung FREI, -7.0 Punkte, Briefings wieder geliefert, Doppellauf dreifach belegt
+- 7d7f28a08 nas-selfcommit: 2 Datei(en) 2026-09-15 13:15
