@@ -1,5 +1,59 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 85 (15.09.2026) — N84-2 (Typ-A-Klasse) abgearbeitet, WC57-N1 beantwortet, ein Statusabstieg
+
+**N84-2 geschlossen.** 22 der 24 Typ-A-Destillate blind refutiert (136 Aussagen, sechs Pakete,
+Relationen am selbst gerenderten Scan); `lignum-4-1` und `lignum-lignatec` bewusst nicht, dort
+liefen seit Run 32 schärfere Methoden. **14 von 14 untergeschobenen Kontrollwerten erkannt.**
+Kein vertauschtes ≤/≥, kein falscher Zahlenwert, aber 34 übernommene Befunde, davon fünf
+Strenge- bzw. Grenzfehler (< statt ≤, ≥ statt >, Klassengrenze). Alle inline korrigiert.
+Anlage `training/n85-typ-a-refuter-260915.md`. Damit ist die Risikokarte N83-2 in allen drei
+Klassen abgearbeitet.
+
+**WC57-N1 beantwortet** (Vermerk am Punkt unten). **Run-84-Rest «drei reine ASCII-Destillate»
+erledigt:** `sia-480-2004` ohne Befund (acht sprachlich gedruckte Relationen), `sia-mb-2021`
+(Ziff. 2.1 C «weniger als 0,1» gegen 3.5 «≤ 0,1») und `vkf-brl-11-15` (Parking im 1./2. UG)
+je inline berichtigt.
+
+### N85-1 — Vorschlag: Refuter-Runden blind anlegen, mit untergeschobenen Kontrollen (Entscheid Raphael)
+
+Lignum 4.2 hatte am 27.07.2026 eine vierte Refuter-Runde mit null Befunden und wurde deshalb
+`established`. Dieselbe Prüfrichtung hat jetzt fünf Zuordnungsfehler gefunden, die seit dem
+Erstdestillat im Text standen. Anders war die Anlage: Aussagenpaket statt Destillat, und
+Kontrollwerte, deren Erkennung misst, ob die Stufe überhaupt widerlegen kann (Run 84 und 85
+zusammen 22 von 22). Vorschlag: eine Refuter-Runde, die eine Statushebung trägt, wird **blind**
+gefahren und mit **mindestens einer Kontrolle je Paket**; eine Runde ohne Kontrolle zählt nicht
+als Nulldurchgang. **Ein Einzelfall, kein Beleg für eine Pflicht;** Claude setzt keine
+Methodik-Pflicht selbst.
+
+### N85-2 — `lignum-4-2` braucht die Abdeckungsrichtung
+
+Status seit diesem Lauf `speculative`. Nächster Schritt eine Seiten-Inventur nach dem Muster
+`training/l41-seiteninventur.md` (32 A3-Scans), dann Diff gegen das Destillat. Dazu drei
+Refuter-Nebenbefunde, im Destillat als offen vermerkt (Abb. 424-1 Leg. 6, Abb. 434-1 Leg. 2/7,
+Kap. 4.3.5). Konsument informiert: `wissen/bauprodukte/wiki/QUESTIONS.md`.
+
+### N85-3 — Zwei weitere Dateinamen, die nicht zum Inhalt passen (Entscheid Raphael, destruktiv)
+
+`sia-1695-4-2018.md` enthält **SN EN 16954:2018 (SIA 244.153)**, `sia-592-056.md` enthält
+**SIA 2056:2019**. Titel (H1) und INDEX sind in beiden Fällen richtig, falsch ist nur der
+Dateiname. Gleiche Familie wie N83-1; Umbenennung samt Verweisen ist destruktiv und wird nicht
+selbst ausgeführt.
+
+### N85-4 — SIA 312:2013: Ausbreitung des GEP-Satzes geprüft, ohne Treffer
+
+Der Praxis-Transfer nannte die Abflussbeiwerte der Tab. 5 «direkt verwendbar» für den
+GEP-Nachweis; die Norm sagt das Gegenteil (Einzelobjekt, höher als die GEP-Werte). Suche über
+`skills`, `agents` und alle KBs nach «Abflussbeiwert» mit «GEP» oder «SIA 312»: kein Konsument
+ausser dem Destillat selbst. Offen bleibt nichts; der Punkt steht hier, damit ein späterer
+Konsument den Befund findet.
+
+### N85-5 — Nebenbeobachtung zur Quelle SIA 251:2008
+
+Die Hausdatei `251_2008 Unterlagsboden.pdf` trägt auf jeder Seite einen i-Norm-Lizenzvermerk
+eines anderen Büros (datiert 16.05.2011). Ob die Lizenz für die Nutzung im Büro JANS gilt, kann
+diese KB nicht beurteilen; vermerkt für Raphael, nicht weiter verfolgt.
+
 ## Normen-Nacht Run 84 (11.09.2026) — N83-2 (Textlayer-Klasse) abgearbeitet, WC57-N2 geschlossen, sieben neue Mechaniken
 
 **N83-2, Textlayer-Klasse: abgearbeitet.** 26 der 28 Destillate am Bild geprüft (2 hatte Run 83):
@@ -26,6 +80,10 @@ billig (`pdffonts`, PyMuPDF, Muster in der Anlage Ziff. 7). **Claude setzt keine
 Methodik-Pflicht selbst**; vorgelegt als Erweiterung von N82-1.
 
 ### N84-2 — 24 Typ-A-Destillate der Run-83-Karte ungeprüft
+
+✅ **GESCHLOSSEN Run 85 (15.09.2026):** 22 der 24 blind refutiert, 14/14 Kontrollen erkannt,
+34 Befunde inline korrigiert; die zwei Lignum-Destillate mit Tabellen-Neuaufnahme bewusst
+ausgelassen. Anlage `training/n85-typ-a-refuter-260915.md`.
 
 Quellen ohne Textlayer (Scan), dort war Rendering zwingend. Das Risiko ist nicht Encoding,
 sondern Ablesefehler am Bild. Arbeitsvorrat für eine nächste Runde, grösste zuerst
@@ -99,6 +157,14 @@ Fassungsvorbehalt versehen). Offen ist, ob eine VKF-FAQ oder ein Stand-der-Techn
 Verweisung nachführt oder ob SRZ schlicht die aktuelle Ausgabe anwendet. Das `REGISTER.md` führt
 62368-1 bisher gar nicht. **Erst nach Klärung** eine Registerzeile mit Herausgeber-Beleg anlegen
 (Führungsmatrix `wissen/koordination/QUERBEZUEGE.md`, Zeile «Gültigkeits-/Fassungsstand»).
+
+✅ **BEANTWORTET Run 85 (15.09.2026):** das VKF-Verzeichnis 40-15de «Weitere Bestimmungen»,
+Fassung 11.06.2025, Kap. 2.5 zu BSR 14-15 Ziff. 5.3, führt **SN EN IEC 62368-1 ohne Ausgabejahr**
+und vermerkt bei SN EN 60950-1 und SN EN 60065 je, sie seien durch SN EN IEC 62368-1 ersetzt
+(FAQ 14-030). Die SRZ-Angabe 2020+A11 ist damit mit der VKF vereinbar. Registerzeile angelegt
+(`wiki/REGISTER.md`, Abschnitt «Normen-Nacht Run 85»), Fassungsvermerk in
+`vkf-brl-verwendung-baustoffe` und im 40-15-Delta. → übergeben an `wissen/auflagebereinigung`
+(Nachtrag im SRZ-Report). Offen allein: die FAQ 14-030 selbst ist nicht beschafft.
 
 ### WC57-N2 — SIA 181:2006 Anhang G (Empfehlungen innerhalb der Nutzungseinheit) ist im Bedarfsfall (Eingang Wissens-Chef Lauf 57)
 

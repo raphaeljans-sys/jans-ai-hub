@@ -1,3 +1,31 @@
+## 2026-09-15 (Normen-Nacht Run 85, MacBook Pro, SIA/VKF) — N84-2 Typ-A-Klasse abgearbeitet, WC57-N1 beantwortet, Statusabstieg Lignum 4.2
+
+**Block A (N84-2):** 22 Destillate der Run-83-Risikokarte mit Quelle ohne Textlayer, 136
+Aussagen in sechs blinden Paketen, jede Relation am selbst gerenderten Scan: **14 von 14
+untergeschobenen Kontrollwerten erkannt**, kein vertauschtes ≤/≥, kein falscher Zahlenwert,
+**34 Befunde übernommen und inline korrigiert** (Methodik-Pflicht 9): 5 Relations-/Grenzfehler
+(`sia-271-2007` Tab. 8 ≤ −10 °C, `sia-384-201-2017` Tab. B.15 ≤ 1918 und Klassengrenze,
+`sia-251-2008` «älter als 28 Tage», `sia-271-wegleitung` «nie höher als»), 9 Bedingungen und
+Geltungsbereiche, 8 Zuordnungs-/Kontextfehler (darunter `sia-312-2013`: Abflussbeiwerte nicht
+für den GEP, höher als die GEP-Werte), 12 Fundstellen und Formalien. Ferner korrigiert:
+`sia-343-051-2018`, `swki-va103-01-2017`, `sia-en-13200-1-2019`, `sia-1695-4-2018`,
+`stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019` (Handlauf-Vorbehalt aufgelöst),
+`sia-382-1-2014`, `sia-180-081-2017`, `sia-592-056`, `svdw-wegleitung-…`,
+`lignum-4-2-anschluesse-feuerwiderstand`. **Statusabstieg:** `lignum-4-2` established →
+speculative (fünf Legenden-/Bildzuordnungen falsch trotz Nulldurchgang der vierten Runde),
+Prüfstand-Tabelle ins Destillat, INDEX nachgeführt. Keine Statushebung.
+**Block B:** Run-84-Rest, drei reine ASCII-Destillate am Original: `sia-480-2004` ohne Befund,
+`sia-mb-2021` und `vkf-brl-11-15-qualitaetssicherung-brandschutz` je ein Befund, inline.
+`sia-251-2008`: zwei Prüfvermerke (Ziff. 2.6.3, 2.6.5) am Rendering S. 18 geschlossen.
+**Block C (WC57-N1):** VKF-Verzeichnis 40-15de 11.06.2025 führt SN EN IEC 62368-1 ohne Jahr,
+60950-1/60065 als ersetzt (FAQ 14-030). `wiki/REGISTER.md` neuer Abschnitt «Normen-Nacht Run 85»
+(Registerzeile 62368-1), Vermerke in `vkf-brl-verwendung-baustoffe` und
+`vkf-verz-40-15-fassung-2025-delta`.
+Neu: `training/n85-typ-a-refuter-260915.md`, `outputs/2026-09-15_normen-nacht-run85.md`.
+`wiki/QUESTIONS.md`: Abschnitt Run 85 (N85-1 bis N85-5), N84-2 und WC57-N1 geschlossen.
+Cross-KB: → übergeben an `wissen/auflagebereinigung` (WC57-N1, Nachtrag im SRZ-Report) und
+`wissen/bauprodukte` (Statushinweis Lignum 4.2). Keine DIN/VSS/RAL-Position berührt.
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Run-84-Nachtrag im Register, SIA-2001-Zwillingsdestillat verlinkt
 
 - `wiki/REGISTER.md`, Zeile «SIA 181 | 2006»: Nachtrag Run 84 (Anhang G/H/J destilliert,
