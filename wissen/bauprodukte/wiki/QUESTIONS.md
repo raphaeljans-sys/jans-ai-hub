@@ -257,6 +257,16 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    ist seit diesem Lauf **`speculative`**, nicht mehr `established` (fünf falsche Legenden-/
    Bildzuordnungen gefunden und korrigiert, kein falscher Zahlenwert; Abdeckungsrichtung nie
    gelaufen). Nach Rule `normen-referenz` 1b vor Verwendung am Original nachlesen.
+   ⚠ **Nachtrag `wissen/normen` Run 86 (16.09.2026):** Die Abdeckungsrichtung ist inzwischen
+   über **alle 63 gedruckten Seiten** gelaufen (Seiten-Inventur
+   `wissen/normen/training/l42-seiteninventur-260916.md`): **0 falsche Werte, aber 26 Kernlücken**,
+   alle inline nachgetragen. Für diesen Korpus die drei wichtigsten: die publikationsweite
+   **Farbraster-/Schraffuren-Legende (Kap. 6, S. 46)** fehlte ganz — ohne sie ist keine
+   Detailskizze der Publikation richtig lesbar; in anrechenbaren **Estrich-/Betonschichten dürfen
+   keine Installationen geführt** werden (Kap. 5.2.2); und **Tabelle 441-1 (VKF-Registergruppen)
+   ist ein Stichtagsbild von April 2018**, massgebend ist das aktuelle Brandschutzregister VKF.
+   Der Status bleibt bewusst **`speculative`**: die Zellen der Anhang-2-Matrizen sind nie
+   rechnerisch aufgenommen worden (`wissen/normen/wiki/QUESTIONS.md` N86-1).
 
    **Teil-Antwort zur Bekleidungs-Seite liegt bereits im Hub (nachgetragen 31.07.2026,
    Wissens-Chef Run 22):** Für die Trockenbau-Bekleidung existiert mit

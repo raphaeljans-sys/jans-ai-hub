@@ -11,6 +11,50 @@
   korrekt und diente der KB `energie` als Zweitbeleg für ihre Berichtigung (RF1 → RF2 (cr)). Präzisierung
   des Wortlauts ist Entscheid dieser KB; `wissen/energie` hat hier nichts editiert.
 
+## Normen-Nacht Run 86 (16.09.2026) — N85-2 geschlossen: die Abdeckungsrichtung auf `lignum-4-2`
+
+**N85-2 erledigt.** Seiten-Inventur aller **63 gedruckten Seiten** (S. 2-64) der Lignum 4.2
+nach dem Muster `training/l41-seiteninventur.md`, danach Diff gegen das Destillat. Beleg:
+`training/l42-seiteninventur-260916.md`. **Ergebnis: 0 falsche Werte, 26 Kernlücken und rund
+20 Nebenlücken**, alle Kernlücken inline nachgetragen (Methodik-Pflicht 9). Damit sind auf
+diesem Destillat **beide Prüfrichtungen über die gesamte Quelle gelaufen**; die Trefferquote
+der Abdeckungsrichtung steht bei **9 von 9** geprüften Destillaten dieser Reihe.
+
+**Die drei offenen Refuter-Nebenbefunde aus Run 85 sind entschieden** (Hauptprozess, eigenes
+400-dpi-Rendering): Abb. 424-1 Legende 6 **bestätigt**, Abb. 434-1 Legenden 2 und 7 **bestätigt**
+— alle drei eingetragen. Kap. 4.3.5 ist **kein Befund**: die Bedingung «oder Fugentiefe
+< 2 × Fugenbreite» stand seit dem Erstdestillat im Text (belegt an `git show b024733d3`,
+Stand 30.07.2026). Scheinbefund nach Methodik-Pflicht 7, also eine unabhängige Bestätigung.
+
+### N86-1 — Die Zellen der Anhang-2-Matrizen sind nie aufgenommen worden (nächste Methode)
+
+Die Abdeckungsrichtung hat aufgenommen, **dass** die vier Übersichtstabellen A22-1 bis A25-1
+(S. 51-54) existieren und welche zehn Anschlusssituations-Spalten sie führen. **Nicht**
+aufgenommen ist, **welche Zelle in welcher Zeile markiert ist** — es sind Graufeld-Matrizen,
+für die Methodik-Pflicht 8 die rechnerische Aufnahme (Zellraster, Median-RGB, je Tabelle
+einzeln gemessene Legende) verlangt. Genau diese Matrizen beantworten aber die Frage, die
+Anhang 1 Schritt 4 stellt: welche Anschlusssituationen bei welcher Anschlussgeometrie
+massgebend sind. **Das ist der nächste Teil, auf dem eine Methode noch nicht gelaufen ist**,
+und der Grund, warum dieser Lauf das Destillat **nicht** auf `established` hebt.
+
+### N86-2 — Das Original-Inhaltsverzeichnis und die Gruppen-Systematik weichen voneinander ab
+
+Abb. 421-1 (S. 13) ordnet die Anschlusssituationen der Holzbauteile in **drei** Gruppen
+(Abschlüsse · Stösse · Zusammenschlüsse), Abb. 531-1 (S. 37) jene der Bauteile RF1 in **vier**
+(zusätzlich Durchbrüche). Beide Systematiken fehlten im Destillat und sind jetzt eingetragen.
+Kein Fehler der Quelle, aber ein Hinweis für die Nutzung: ein Anschluss mit Durchbruch findet
+seine Regel nur im Kapitel 5, auch wenn das Bauteil aus Holz ist (Kap. 5.3.9 gilt für
+Bauteile RF1). Offen als Auslegungsfrage, nicht als Korrekturauftrag.
+
+### N86-3 — Tabelle 441-1 ist ein Stichtagsbild, nicht der geltende Registerstand
+
+Kap. 4.4.1 sagt ausdrücklich, die Übersicht der VKF-Registergruppen gebe den Stand **zum
+Zeitpunkt des Ausgabedatums** (April 2018) wieder; massgebend seien die aktuellen Angaben im
+Schweizerischen Brandschutzregister VKF [2]. Das Destillat führte die Tabelle bisher ohne
+diesen Vorbehalt. Eingetragen. **Folge für die Konsumenten:** wer aus diesem Destillat eine
+Registergruppe in ein LV oder ein Brandschutzkonzept zieht, muss sie am aktuellen Register
+gegenlesen — die Publikation ist sieben Jahre alt.
+
 ## Normen-Nacht Run 85 (15.09.2026) — N84-2 (Typ-A-Klasse) abgearbeitet, WC57-N1 beantwortet, ein Statusabstieg
 
 **N84-2 geschlossen.** 22 der 24 Typ-A-Destillate blind refutiert (136 Aussagen, sechs Pakete,
@@ -37,7 +81,7 @@ gefahren und mit **mindestens einer Kontrolle je Paket**; eine Runde ohne Kontro
 als Nulldurchgang. **Ein Einzelfall, kein Beleg für eine Pflicht;** Claude setzt keine
 Methodik-Pflicht selbst.
 
-### N85-2 — `lignum-4-2` braucht die Abdeckungsrichtung
+### N85-2 — `lignum-4-2` braucht die Abdeckungsrichtung ✅ ERLEDIGT (Run 86, 16.09.2026)
 
 Status seit diesem Lauf `speculative`. Nächster Schritt eine Seiten-Inventur nach dem Muster
 `training/l41-seiteninventur.md` (32 A3-Scans), dann Diff gegen das Destillat. Dazu drei

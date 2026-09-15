@@ -1,3 +1,58 @@
+## 2026-09-16 (Normen-Nacht Run 86, MacBook Pro, SIA/VKF) — N85-2 erledigt: Abdeckungsrichtung auf Lignum 4.2, 26 Kernlücken
+
+**Block A (N85-2, Hauptarbeit):** Vollständige Seiten-Inventur der Lignum-Dokumentation
+Brandschutz 4.2 — **63 gedruckte Seiten (S. 2-64), 33 A3-Scans bei 200 dpi gerendert und in
+Halbseiten gesplittet, 6 parallele Aufnahme-Agenten**; je Seite aufgenommen, welche Kapitel,
+Tabellen, Abbildungen, Legendeneinträge und eigenständigen Textblöcke dort stehen, dann Diff
+gegen das Destillat (Methodik-Pflicht 6, Muster `training/l41-seiteninventur.md`).
+**63 von 63 Seitenzahlen am Blattrand abgelesen, keine einzige Abweichung** — der
+Seitenversatz-Fehlertyp aus Run 50 ist damit ausgeschlossen, nicht bloss für unwahrscheinlich
+gehalten. Beleg: `training/l42-seiteninventur-260916.md` (814 Zeilen).
+
+**Ergebnis: 0 falsche Werte, 26 Kernlücken, rund 20 Nebenlücken** — durchgehend Klasse (b)
+nach Methodik-Pflicht 13 (weggelassener eigenständiger Inhalt, refuter-blind). Alle Kernlücken
+inline eingetragen (Methodik-Pflicht 9). Die vier folgenreichsten:
+1. **Farbraster- und Schraffuren-Legende (Kap. 6, S. 46) fehlte ganz** — der Lese-Schlüssel
+   jeder Detailskizze der Publikation. Genau in dieser Klasse lagen alle fünf Zuordnungsfehler,
+   die Run 85 gefunden hat; die publikationsweite Legende war nie erfasst.
+2. **Die Voraussetzungen des Kapitels 4.3** (Bauteilabschluss nach Kap. 4.2.2/4.2.3/4.2.9
+   erfüllt; bei ungleicher Feuerwiderstandsdauer gilt das Bauteil mit der **geringeren**;
+   Kombination der Fugenseiten erlaubt; zweischalige Bauteile höchstens zwei Kontaktflächen b).
+3. **Kap. 5.2.2: in anrechenbaren Estrich- und Betonschichten dürfen keine Installationen
+   geführt werden** (z.B. Heizungsrohre) — Verbot mit direkter Planungsfolge.
+4. **Fugenbreiten-Regel f der Abb. 424-1**: solange die gezeichnete Fugenbreite eingehalten
+   ist, muss der Hohlraum nicht ausgefüllt werden; sonst zwei benannte Lösungswege.
+Ferner nachgetragen: BSR 15-15 als Fundstelle der Anschluss-Anforderung samt Tragsicherheits-
+Klausel · BSR 14-15 «Verwendung von Baustoffen» · DIN 4102-4 und Holz Brandschutz Handbuch auch
+beim rechnerischen Nachweisweg c · Öffnungsklausel für gleichwertige Lösungen (Kap. 4.2.1/5.3.1)
+· Gruppen-Systematik Abb. 421-1 (drei) und Abb. 531-1 (vier Gruppen) · Kap. 3.5.2-Einleitung
+(Verbindungsmittel-Positionierung während der Schutzzeit) · Abb. 330-1 Legende B · MBW-Prüfung
+und Einbau in Holz (Kap. 4.4.1/4.4.3) · Stichtagsvorbehalt der Tabelle 441-1 · Legenden der
+Abb. 422-1, 424-1, 425-1, 428-1, 428-2, 429-1, 4210-1, 433-1, 434-1, 442-1, 443-1, 534-1,
+538-1, 540-1.
+
+**Block B (Hauptprozess am Original, Präfix `r86-HP-`, 400 dpi):** die drei offenen
+Refuter-Nebenbefunde aus Run 85 entschieden. Abb. 424-1 Legende 6 **bestätigt**, Abb. 434-1
+Legenden 2 (b ≥ 200 mm) und 7 (Verzicht auf die Dämmung bei beidseitiger Abdeckung)
+**bestätigt** — alle eingetragen. **Kap. 4.3.5 kein Befund:** die Bedingung «oder Fugentiefe
+< 2 × Fugenbreite» stand seit dem Erstdestillat im Text (`git show b024733d3`, Stand
+30.07.2026) — Scheinbefund nach Methodik-Pflicht 7 und damit unabhängige Bestätigung.
+
+**Status:** bleibt `speculative`. Beide Prüfrichtungen sind jetzt über die gesamte Quelle
+gelaufen, aber die **Zellen der Anhang-2-Matrizen (Tab. A22-1 bis A25-1, S. 51-54) sind nie
+rechnerisch aufgenommen** worden (Methodik-Pflicht 8) — das ist der nächste Teil, auf dem eine
+Methode noch nicht gelaufen ist. Keine Statushebung in diesem Lauf. Prüfstand im Destillat.
+
+- `destillate/lignum-4-2-anschluesse-feuerwiderstand.md`: +244/−38 Zeilen; alle 38 Löschungen
+  einzeln geprüft und als benannte Zeilenersetzungen belegt (Rule 260811, `git diff --numstat`
+  nativ per ssh gemessen).
+- `training/l42-seiteninventur-260916.md`: neu, 814 Zeilen.
+- `wiki/QUESTIONS.md`: N85-2 geschlossen; N86-1 (Anhang-2-Matrizen), N86-2 (Gruppen-Systematik),
+  N86-3 (Stichtagsvorbehalt Tabelle 441-1) neu.
+- `outputs/2026-09-16_normen-nacht-run86.md`: Lauf-Report.
+
+Stations-Split eingehalten: keine DIN-, VSS- oder RAL-Position berührt.
+
 ## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Eingang SIA 2017 als erledigt vermerkt, Metalldecken-Output an bauprodukte übergeben
 
 - `wiki/QUESTIONS.md`, Absatz «Cross-KB-Eingang aus `architektur-fachwissen`»: Nachtrag «erledigt,
