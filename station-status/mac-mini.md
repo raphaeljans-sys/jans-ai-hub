@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 18:40:47
+Stand: 15.09.2026 18:51:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 15.09.2026 18:40:47
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 23601c82e wissen/normen: Rücklauf Metalldecken in Nassräumen (EN 13964 Klassen, HdM D411) aus Abklärung 2619 KISPI
+- ceda911b2 nas-selfcommit: 2 Datei(en) 2026-09-15 18:45
