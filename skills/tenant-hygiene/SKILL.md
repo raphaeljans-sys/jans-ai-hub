@@ -97,3 +97,8 @@ nennt fuer genau diesen Fall Weg 3 «PnP PowerShell mit geliehenem Token». Das 
 `Get-Command` gemessen, **nur die Signatur, nicht die Wirkung**; lesend, nichts gesetzt).
 Ob der geliehene App-Token genuegt oder die delegierte Sitzung wie beim Versions-Trim noetig ist,
 ist offen. Die Ausfuehrung bleibt Phase 2, interaktiv, nach Freigabe Raphael.
+**Nachtrag 15.09.2026 17:28: gemessen und gesetzt.** App-only-Token scheitert («Diese API kann nicht mit einem
+reinen App-Prinzipal aufgerufen werden»), auch fuer `Get-PnPSiteVersionPolicyStatus`. Delegiert
+(`Connect-PnPOnline … -Interactive`, rj@) wirkt: Richtlinie auf JANS.PROJEKTE gesetzt, Job `7fc93ccd…`.
+Der Hygiene-Lauf misst den Erfolg app-only an `Get-PnPList` bzw. `spo list list` (`MajorVersionLimit`),
+nicht am Job-Status. Weg und Sackgasse: `connectors/WEGE.md`, Nachtrag 15.09.
