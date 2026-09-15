@@ -4504,7 +4504,7 @@ Speicher Mac Mini: Druckstufe 1, 13.4 GB frei+inaktiv+purgeable (vm_stat).
 (a) Kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop, auf keiner Station.
 (b) Höchster Tageswert beider Stationen zusammen im Fenster: 10.37 Mio am 10.09.; der 14.09. schliesst mit 8.77 Mio. Weder
 die 35er-Tages- noch die 18er-Doppeltagesschwelle ist berührt. Der 12. und 13.09. sind ausfallbedingt tief (MacBook 0.00,
-App abgemeldet). (c) Kein erschöpftes Wochenkontingent: `kontingent-budget.sh --json` um 06:4x 6.4 % von 167 Mio bei 11.1 %
+App abgemeldet). (c) Kein erschöpftes Wochenkontingent: `kontingent-budget.sh --json` um 06:3x 6.4 % von 167 Mio bei 11.1 %
 verstrichener Woche, Vorsprung -4.7 Punkte, Ampel FREI.
 (d) Keine operative Briefing-Session ist abgebrochen. Vom 12. bis 14.09. gab es aber gar keine: alle vier Briefings sind auf
 dem MacBook am OAuth-Latch gescheitert, bevor eine Session entstand (letzte Sessions per `ssh macbook`: logbuch-radar
@@ -4533,7 +4533,7 @@ tragfähigen Lücken», Priorität 6 erreicht, keine Datei geändert). Keine Ser
 Nachtschicht sich leert (15.09. 05:37: energie vollständig destilliert, gearbeitet wurde an einer Cross-KB-Übergabe).
 Hinweis an den Radar, kein Handlungsbedarf.
 Lauf-Gate Mini: letzte Zeile im Gate-Log ist vom 31.08. 13:30. Das ist so gewollt, nicht stumm: `lauf-gate.sh` Z. 221
-schreibt eine Freigabe nur, wenn es eng war; Abweisungen schreibt es immer. Gegenprobe 06:4x: rc=0, 12'996 MB verfügbar,
+schreibt eine Freigabe nur, wenn es eng war; Abweisungen schreibt es immer. Gegenprobe 06:3x: rc=0, 12'996 MB verfügbar,
 keine Zeile, wie vorgesehen. Die Aussage «seit 31.08. keine Abweisung» gilt damit belegt.
 Stückkosten, teurer Verbrauch beider Stationen je Artikel: 12.09. 0.70 Mio · 13.09. 0.86 Mio · 14.09. 0.80 Mio (ohne Twin
 gleich) · 15.09. (Tag läuft) 0.24 Mio (ohne Twin 0.61 Mio).
