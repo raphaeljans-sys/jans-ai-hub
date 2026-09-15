@@ -7231,3 +7231,5 @@ geprüft 15.09.2026) — die reine Ja/Nein-Geltungsfrage ist damit erledigt, ein
 Destillat gegen das Original fehlt aber weiterhin. Kandidat für einen künftigen `normen`-Lauf,
 Original bisher nicht in `raw/`. Verwendender Artikel:
 `wissen/architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`.
+
+- **260915** Metalldecken in Nassräumen: Beanspruchungsklassen A bis D nach EN 13964 (nur sekundär via TAIM-Merkblatt belegt) am Original nachlesen, bevor die Klassen in ein LV oder Dokument zitiert werden. Quelle des Bedarfs: `outputs/2026-09-15_metalldecken-nassraum-en-13964.md` (2619 KISPI, D411).

@@ -13687,3 +13687,6 @@ Ergaenzungen eingearbeitet. norm-inventar.md nachgefuehrt. Report: outputs/2026-
 - Entscheide Raphael 11.07.2026: alle Norm-Familien im Scope; SharePoint bleibt
   einzige PDF-Quelle (keine Kopien); Zugriff via Skill + Rule; Destillierung im
   nächtlichen Loop bis das Inventar abgearbeitet ist.
+
+## 2026-09-15 — Output: Metalldecken in Nassräumen (EN 13964, HdM D411)
+- Neuer Report `outputs/2026-09-15_metalldecken-nassraum-en-13964.md` aus der Abklärung 2619 KISPI (Rule wissens-ruecklauf), Status speculative; offene Frage zu EN 13964 Tab. 7/8 in QUESTIONS.md.
