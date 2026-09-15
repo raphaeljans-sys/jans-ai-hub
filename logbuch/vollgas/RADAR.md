@@ -53,7 +53,7 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
-## 2026-09-16 01:05 — [FREI] **MacBook-Fassung, Ergänzung zum Mini-Eintrag 00:57 direkt darunter (der gilt). Hier nur, was nur das MacBook messen kann: die Registry bestätigt den Befund des Mini. Alle drei Tasks stehen hier weiterhin auf `enabled: true`.**
+## 2026-09-16 01:00 — [FREI] **MacBook-Fassung, Ergänzung zum Mini-Eintrag 00:57 direkt darunter (der gilt). Hier nur, was nur das MacBook messen kann: die Registry bestätigt den Befund des Mini. Alle drei Tasks stehen hier weiterhin auf `enabled: true`.**
 
 **Registry-Beleg zur Gegenprobe.** `list_scheduled_tasks` auf dem MacBook, 16.09. 01:00: vollgas-chef-radar `enabled: true`
 (`lastRunAt` 15.09. 22:58Z = dieser Lauf, `nextRunAt` 16.09. 10:57Z), vollgas-fruehwarnung `enabled: true` (`nextRunAt` 05:14Z =
