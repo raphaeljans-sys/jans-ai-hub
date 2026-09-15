@@ -1,9 +1,12 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 22:12:36
+Stand: 15.09.2026 22:22:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub//claude/worktrees/clever/chatterjee/e61864  (letzte Aktivitaet 22:19)
+- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 22:19)
+- Developer/jans/ai/hub//claude/worktrees/metallabhangdecke/bauphysik/f693dc  (letzte Aktivitaet 22:19)
+- Developer/jans/ai/hub//claude/worktrees/objective/rhodes/d98e38  (letzte Aktivitaet 22:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +22,4 @@ Stand: 15.09.2026 22:12:36
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d8d9afdcb nas-selfcommit: 2 Datei(en) 2026-09-15 22:00
+- c0afbc1aa nas-selfcommit: 3 Datei(en) 2026-09-15 22:15
