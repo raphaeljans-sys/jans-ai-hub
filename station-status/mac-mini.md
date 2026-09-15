@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 20:13:23
+Stand: 15.09.2026 20:23:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 15.09.2026 20:13:23
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 83996a4e1 tenant-hygiene 260915: Trim-Wirkung gemessen (825.49 GB / 78.32 %, -92.18 GB), fristen-Nachtrag
+- ea811be5b nas-selfcommit: 2 Datei(en) 2026-09-15 20:15
