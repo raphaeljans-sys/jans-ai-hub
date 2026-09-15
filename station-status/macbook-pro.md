@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 01:07:32
+Stand: 16.09.2026 01:28:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
@@ -19,4 +19,4 @@ Stand: 16.09.2026 01:07:32
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d910e1ca4 vollgas-radar 16.09. 01:05 (MacBook-Fassung): Registry bestaetigt, Deaktivierung aller drei Doppel-Tasks nicht wirksam
+- 88a5b7b7f nas-selfcommit: 4 Datei(en) 2026-09-16 01:15
