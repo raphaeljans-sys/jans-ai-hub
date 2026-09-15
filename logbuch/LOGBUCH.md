@@ -3,6 +3,61 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 15.09.2026 (06:5x): Deine Zusammenfassung der Honorarsitzung liegt seit gestern unversandt im Entwurf, morgen sind die Abrechnung Steinbrüchelstrasse und ein Lüftungstermin im KISPI fällig
+
+**Drei Dinge zuerst.** Erstens: Radar und Hub-Chef sind vom 12. bis 14.09. ausgefallen, weil die Claude-App auf dem MacBook Pro vom 11.09. 20:08 bis 14.09. 13:59 abgemeldet war. Dieses Briefing deckt die ganze Lücke seit dem 11.09. ab, und weil der Chef-Lauf gestern ausgefallen ist, geht es heute zusätzlich als Mail an Dich. Zweitens: Deine Zusammenfassung der Honorarsitzung an Albin Spahic, Cornelia Schäfer und Claudia Allerkamp («Ich erlaube mir, die Sachlage in drei Punkten zusammenzufassen», mit Beilage) liegt seit dem 14.09. 15:30 im Entwurfsordner und ist nicht versandt. Die in der Nacht auf dem Mac Mini neu gefasste Stellungnahme ist ebenfalls nicht rausgegangen. Drittens: Morgen, Mittwoch 16.09., ist die Abrechnung Steinbrüchelstrasse fällig, und um 13:00 findet im KISPI ein Vor-Ort-Termin Lüftung statt, der in keinem Kalender steht.
+
+### Erledigt seit 11.09.
+
+1. **Honorarsitzung KISPI hat stattgefunden.** Die Sitzung vom 14.09. mit Schäfer, Allerkamp und Spahic hat Deine Frist vom 10.09. 17:00 abgelöst. Ein Abschluss kam nicht zustande; die Folgesitzung am Montag 21.09., 13:30 bis 14:30 (Teams), steht im Kalender.
+2. **Plattenbestellung Nasszellen an Albin Spahic versandt** (14.09. 17:09, Bestellblatt mit 10 % Verschnitt und drei Grundlagen-Anhängen).
+3. **Jegen, zwei Rückfragen beantwortet.** Seitliche Blenden EI30-7 Küche 2.034: Deine Antwort vom 11.09. 10:28, sie braucht es nicht. Bohrungen Drehtüren: Fabian Würsch hat am 14.09. 15:45 allen geantwortet (Gangseite Ø 74.5 mm bei 01.2.330.1 und 01.2.331.1, keine Dosenbohrung bei 01.2.055.1, Höhe 1'450 mm bestätigt).
+4. **Claude-App wieder angemeldet** (14.09. 13:59); die Loops laufen seither wieder.
+
+### Aus unseren Gesprächen
+
+**KISPI Honorar, Vorbereitung auf den 21.09.** In der Session auf dem Mac Mini (bis 15.09. 00:21) hast Du Deine Stellungnahme an Albin im Du kompakt neu fassen lassen und die interne Untergrenze erfragt: global CHF 165'000 (Phase I 75'000, Phase II 90'000), nur gegen Unterschrift HOP2 mit dieser Zahl, Zahlung der offenen CHF 32'280 plus Akonto und fixen Umfang; die Abbruch-Alternative liegt bei CHF 136'000 mit geordneter Übergabe. Vor Montag abzugleichen: Die Zahlungsbedingung «bis 25.09.» stammt aus der Präsentation vom 14.09. und ist durch die Folgesitzung faktisch verschoben. Leistungsnachweis, Entscheidungsgrundlage und Strategieblatt liegen im Projektordner unter `09_Dokumente/CLAUDE/05_Honorarverhandlung/`.
+
+### Überfällig
+
+1. **Zusammenfassung der Honorarsitzung vom 14.09.**, nach Deinem eigenen Plan gleichentags an die drei Teilnehmenden: Entwurf seit 14.09. 15:30 unversandt. Ob der Entwurf oder die nachts neu gefasste Fassung rausgeht, entscheidest Du.
+2. **bexio, Tag 38 ohne Zugang.** Heute erneut HTTP 401. Fünf offene Rechnungen über CHF 51'400.00 (Stand 08.08.) sind unverifiziert. Ohne Entscheid stellt bexio am 08.10. auf Advanced um. Für die Zahlungsübersicht zum 21.09. und die Rechnung Steinbrüchelstrasse bleibt nur das bexio-Web.
+3. **Kapitaleinzahlung AG, CHF 50'000.00, 32 Tage über dem Soll-Termin 14.08.** Kein Eingang von UBS, Notariat oder Handelsregister; das Notariat schweigt seit dem 13.08.
+4. **Absage an die GLAESER AG (LOS 273.35):** Der Entwurf liegt seit dem 10.09. im Entwurfsordner und ist nicht versandt.
+5. **SVA Zürich:** Mahnung vom 05.08. und Beitragsrechnung vom 11.09. im Portal AHVeasy, beide nur mit Deinem Login einsehbar.
+6. **new copy store, 2. Mahnung CHF 22.45** weiterhin offen.
+
+### In den nächsten 7 Tagen
+
+1. **Mittwoch 16.09.:** Abrechnung Steinbrüchelstrasse, da von Christoph Bopp keine Rückmeldung eingegangen ist. Kostendach CHF 1'800.00 exkl. MwSt. nach Aufwand, Rechnung an 1291 Die Schweizer Anlagestiftung, vertreten durch Nova Property Fund Management AG, Aaron Tonet, Pfäffikon SZ.
+2. **Mittwoch 16.09., 13:00:** Vor-Ort-Termin Lüftungstechnik mit Cekdar Duran (Gruner) und LSH Gebäudetechnik, Treffpunkt Haupteingang Bereich A, Lenggstrasse 30; alle Projektbeteiligten sind eingeladen.
+3. **Donnerstag 17.09., 13:00 bis 14:00:** Koordinationssitzung Gruner, Jans und KISPI (Teams); Jens Ziegel stellt dort seine Vertretung Nabiullah Meragi vor.
+4. **Freitag 18.09.:** Vorleistungen KISPI abgeschlossen (Mobiliar draussen, Boden mit Hart-Pavatex geschützt).
+5. **Samstag 19.09., ab 06:30:** Umbau Schiebetüre und Einbau RHS durch Estermann. Im Kalender steht der Termin auf 08:00, eine schriftliche Bestätigung von KISPI ist nicht belegt.
+6. **Bis Sonntag 20.09.:** Vorbereitung der Folgesitzung; offen ist noch die Zahlungsübersicht.
+7. **Montag 21.09., 13:30 bis 14:30:** Folgesitzung «Abgleich Umbau PPTS» mit Schäfer, Allerkamp und Spahic (Teams).
+
+### In Beobachtung
+
+1. **Gruner Brandschutz:** Jens Ziegel ist vom 14.09. bis 05.10. abwesend, die QS Brandschutz übernimmt Nabiullah Meragi. Nicolas Cristofaro (Gruner) soll sich wegen der Anpassung von Matrix, Zonenplänen und IGT bei Dir melden. Die GVZ-Eingabe BMA liegt bei der Elektroplanung Gruner (Yasarcan Cetin, Tuncer Simsek); Albin Spahic schreibt, sie eile.
+2. **Jegen:** bereinigtes Nachtragsangebot 91161-03 am 11.09. bei Roland Grob angefragt (EI30-6 CHF 4'500, EI30-7 CHF 11'825 inklusive Expresslieferung, S1-EI30 CHF 16'425); Heinrich Arter ist bis 18.09. abwesend.
+3. **new copy store:** neue Rechnung 6380066 vom 14.09. über CHF 236.10 (Planplots 07. bis 09.09., 2619 KISPI PPTS), an das Kinderspital adressiert und Dir «zur Kontrolle und Weiterleitung» zugestellt, 30 Tage netto.
+4. **Nova:** Aaron Tonet zur Hauptabwasserleitung (Art. 693 ZGB), eine Antwort verlangt er nicht. Steinbrüchelstrasse: AfB-Bestätigung zu den Reduits, Kanalisationskataster, Anmeldung Wegrecht WI3366 bis 08.10.
+5. **Thalwil:** Zustellung PDF und DXF an Josef Posch samt Bereinigung der zwei gerügten Planfehler.
+6. **Albertstrasse 7:** KV-Entwurf an Roman Steinmann unversandt; er ist ab 22.09. zurück.
+7. **Notariat:** Alternative zum Firmennamen.
+8. **Privat:** Der iCloud-Speicher ist voll, und Apple verlangt eine Aktion, damit iCloud-Mail weiter sendet und empfängt (dorthin gehen auch die Claude-Abo-Belege). OpenAI meldet am 14.09. 00:32 eine neue Anmeldung auf dem outlook.com-Konto; falls nicht von Dir, prüfen.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen. Erstens Mittwoch 16.09. 13:00 «KISPI Vor-Ort-Termin Lüftung, Lenggstrasse 30». Zweitens Mittwoch 16.09. «Abrechnung Steinbrüchelstrasse, 1291 Anlagestiftung». Drittens den Termin am 19.09. von 08:00 auf 06:30 verschieben.
+
+### Token-Tempo
+
+Vortag 14.09.: MacBook Pro 86.2 Mio. Tokens (60.02 USD API-Äquivalent), Mac Mini 45.7 Mio. Tokens (23.01 USD), zusammen 131.9 Mio. Tokens und 83.03 USD.
+
+**Laufvermerk 2026-09-15 (Journal):** Register 1 Sammel-Erledigt (Frist 10.09. durch Sitzung 14.09. abgelöst, Blenden EI30-7, Bohrungen Drehtüren, Plattenbestellung), 4 neu (Vor-Ort-Termin Lüftung 16.09., Gruner Brandschutz Vertretung und IGT, Jegen Nachtragsangebot 91161-03, new copy store Rechnung 6380066), 2 Nachträge (Zusammenfassung Honorarsitzung als Entwurf unversandt; Dauerpunkte bexio Tag 38, AG, GLAESER, Lücke 12. bis 14.09.); 14 Zeilen am Dateiende angehängt, 0 entfernt. Quellen: Konversations-Destillat 260915 (zwei Gespräche, Lücke 12. bis 14.09. ohne Destillat), Mail-Vorfilter 96 h über alle Apple-Mail-Konten (rc 0, 348 Zeilen), Graph rj@ Posteingang, Gesendete, Entwürfe und Kalender bis 23.09., Rechnungs-PDF new copy store gelesen, bexio 401, ccusage beider Stationen. QS: `rechtschreibung` gelb und `layout` grün, beide Befundlisten umgesetzt. **Mail gesendet (Ausnahme Schritt 6, Chef-Lauf 14.09. ausgefallen):** 15.09.2026 07:04:03 an rj@ über Apple Mail (Konto Exchange), Betreff «Radar 15.09.2026: Deine Zusammenfassung der Honorarsitzung liegt unversandt im Entwurf, morgen Abrechnung Steinbrüchelstrasse und Lüftungstermin im KISPI», Quelltext 4485 Zeichen, per Graph in den Gesendeten gegengemessen (Body vollständig). Apple Mail hat dabei eine Entwurfskopie derselben Mail im Exchange-Entwurfsordner hinterlassen (gleiches Muster wie beim P1-Hinweis vom 12.09.), nicht gelöscht.
+
 ## Hub-Chef 11.09.2026 (08:39 bis 08:4x, Tagesbriefing gesendet) — KISPI schweigt ueber die Frist hinaus, die Samstagsbestaetigung ist heute faellig, LOS 281.21 laeuft direkt ueber KISPI
 
 **Pflichtlektuere:** Radar-Abschnitt 11.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut** (sechster Tag in Folge), obwohl der Monitor lief: sein Eintrag steht in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` (11.09. 07:30), im Fristen-Register (KRITISCH P1, Z. 83) und im Commit `2fb443a9f`; Befund unveraendert (Kapitaleinzahlung 28 Tage ueber Soll, Notariat 29 Tage stumm). Der methodische Vorbehalt vom 10.09. zur Monitor-Verifikation («0 .emlx seit 31.08.») gilt weiter. Konversations-Destillat `260911-konversationen.md` gelesen: kein neues Gespraech, dritter Tag.
