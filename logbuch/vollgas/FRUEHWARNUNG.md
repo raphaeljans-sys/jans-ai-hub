@@ -4550,3 +4550,26 @@ Die Korpus-Front steht weiter.
 `inventar.sh`-Pfad bleibt beim Radar (P2).
 
 Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
+
+## 2026-09-15, 07:16 CEST — MacBook-Fassung, Doppellauf zum Mini-Eintrag 06:30 direkt darüber (nur Ergänzung, der Mini-Eintrag gilt)
+
+Der im Mini-Eintrag angekündigte Doppellauf ist eingetreten: die MacBook-Fassung (`10 7`) hat um 07:15 gefeuert. Keine
+Zweitmessung beider Stationen, nur die lokale MacBook-Gegenprobe und das, was seit 06:30 neu messbar ist.
+
+Gegenprobe MacBook Pro (lokal, 684 Dateien, gleiche Logik): 14.09. 6.54/243.16 und 08.–11.09. identisch mit dem Mini-Eintrag
+(via `ssh macbook`), die Messung ist also stationsunabhängig. 15.09. bis 07:16 2.46/52.45 (Mini-Eintrag 06:30: 1.74/40.47,
+Zuwachs = logbuch-radar und dieser Lauf). Blockade: 0 echte Usage-/Rate-Limit-Ereignisse in 24 h (strukturell).
+Speicher MacBook: Druckstufe 1, 5.55 GB frei+inaktiv+purgeable (vm_stat).
+
+Neu seit 06:30, Kriterium (d): **logbuch-radar hat geliefert.** Session 04:55Z–05:07Z, Briefing über die Ausfallzeit seit
+11.09., Ausnahme-Mail an rj@ um 07:04 (weil der Hub-Chef am 14.09. ausfiel), Register-Commit `b8b3bf169`. Der Latch-Ausfall
+ist damit für den ersten Briefing-Slot belegt überwunden. hub-chef-taeglich (08:39), mahnwesen-verzugscheck und
+zahlungsabgleich-check sind zum Messzeitpunkt noch nicht fällig; ihre letzten Sessions bleiben die vom 11.09., vollständig.
+Opener-Kontrollprobe: das escaped Muster trifft lokal alle sechs Tasks (u.a. vollgas-chef-radar 60 Sessions, jüngste
+15.09. 01:17, Herzschlag frisch).
+
+Bewertung unverändert: keines der sieben Meldekriterien erreicht, keine Mail. Doppellauf bleibt **Aktion Raphael**
+(vollgas-fruehwarnung, vollgas-chef-radar, heartbeat-daily in der App auf dem MacBook deaktivieren, RADAR.md 15.09. 01:01);
+bis dahin schreibt diese Fassung nur Kurzergänzungen.
+
+Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
