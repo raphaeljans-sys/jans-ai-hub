@@ -7,7 +7,7 @@ gelesen: "S. 1-29 (komplett, deutscher Normteil vollstaendig: Titelblatt, Inhalt
 datenstand: "2015, in Kraft seit 01.01.2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2019, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2019 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 6338ef4c5b296d61e6ba4a2cbc7c7910). Nicht als geltende Fundstelle zitieren."
-last_updated: 2026-08-20
+last_updated: 2026-09-15
 verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro
 links: [[REGISTER]], [[vkf-brl-11-15-fassung-2019-delta]]
 ---

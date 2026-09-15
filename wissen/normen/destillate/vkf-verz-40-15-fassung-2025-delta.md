@@ -7,7 +7,7 @@ gelesen: "Fassungs-Delta: Gliederung, Einleitungstext und Kap. 2.1-2.6, 2.13/2.1
 datenstand: "Abruf 22.08.2026, MD5 64a96d9cca14"
 status: speculative
 gueltigkeit: "Beschreibt die GELTENDE Fassung 11.06.2025. Die Bestandsfassung 01.01.2015 ist in [[vkf-verz-40-15-weitere-bestimmungen]] destilliert und dort als superseded gefuehrt."
-last_updated: 2026-08-22
+last_updated: 2026-09-15
 links: [[vkf-verz-40-15-weitere-bestimmungen]], [[REGISTER]], [[vkf-brl-nachweisverfahren]], [[vkf-merkblatt-2001-15-solaranlagen-2022]]
 ---
 

@@ -5,7 +5,7 @@ ausgabe: "unbekannt (kein Ausgabevermerk im PDF — nur Deckblatt und eine Auszu
 gelesen: "Beide im PDF vorhandenen Seiten: S. 1 = Deckblatt, S. 2 = Buchseite 64 (Kap. 5 'Elemente der Abdichtungssysteme', Ziff. 5.10.3-5.10.5 inkl. Abb. 75 und 76). Das PDF enthält NUR diese 2 Seiten."
 datenstand: "unbekannt"
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 
@@ -38,7 +38,7 @@ Die Wegleitung ist eine gemeinsame Auslegungshilfe der Branchenverbände Gebäud
 - **`ausschreibung` / LV-Erstellung (Flachdach, BKP-Positionen Abdichtung/Spenglerei):** Notüberläufe und Signalüberläufe sind mit **Mindestquerschnitt und Form** auszuschreiben (Notüberlauf eckig ≥ 50/50 mm, besser 60/150 mm nach suissetec; Signalüberlauf rund ≥ 50 mm Innendurchmesser). Ohne diese Angabe ist die Position nicht vergleichbar (Ziff. 5.10.3/5.10.4).
 - **Detailplanung Anschlüsse / Terrassentüren:** Die Anschlusshöhe folgt aus **Stauhöhe + Druckhöhe + 25 mm Freibord**; das ist die Zahl, die im Türschwellen- und Attikadetail geometrisch aufgehen muss. Einläufe gehören weg von der Türschwelle (Abb. 75/76).
 - **Statik-Koordination:** Der Wasseranstau auf dem Flachdach ist eine **Flächenlast**; die zulässige Stauhöhe ist mit dem Bauingenieur abzugleichen, bevor die Entwässerung dimensioniert wird (Abb. 76).
-- **`unternehmerkontrolle` / Abnahme:** Prüfpunkte für das Abnahmeprotokoll sind unmittelbar ableitbar — Freibord ≥ 25 mm vorhanden, Oberkante Notüberlauf unter der unteren Höhenquote des Freibords, Signalüberläufe sichtbar platziert (Ziff. 5.10.3/5.10.4, Abb. 76).
+- **`unternehmerkontrolle` / Abnahme:** Prüfpunkte für das Abnahmeprotokoll sind unmittelbar ableitbar — Freibord ≥ 25 mm vorhanden, Oberkante Notüberlauf **nie höher als** die untere Höhenquote des Freibords (gleiche Höhe ist zulässig), Signalüberläufe **wenn immer möglich** gut sichtbar platziert (Sollbestimmung) (Ziff. 5.10.3/5.10.4, Abb. 76). ⚠ Run 85 (15.09.2026), am Rendering S. 64 abgelesen: hier stand «unter» der Höhenquote und die Sichtbarkeit als unbedingte Pflicht.
 - **Wichtig für alle Skills:** Wegen des Fragment-Charakters darf dieses Destillat **nicht** als Beleg für andere SIA-271-Themen (Materialien, Schichtaufbauten, Gefälle allgemein, Bewegungsfugen, Begrünung, Bauwerksabdichtung im Erdreich) herangezogen werden. Dafür ist das Original zu beschaffen.
 
 ## Offene Punkte

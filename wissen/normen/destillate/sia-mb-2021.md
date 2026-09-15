@@ -5,7 +5,7 @@ ausgabe: "SIA Merkblatt 2021 — kein Ausgabevermerk auf dem Deckblatt; Copyrigh
 gelesen: "Seiten 1-21 (vollständiges Dokument): Deckblatt, Vorspann SIA Merkblätter, Inhalt S. 3, Begriffe/Abkürzungen S. 4, Ziff. 1 S. 5-6, Ziff. 2 S. 7, Ziff. 3 S. 8-10, Ziff. 4 S. 11-13, Blatt A S. 14-16, Blatt B S. 17-18, Blatt C S. 19, Blatt D S. 20, Literatur S. 21"
 datenstand: "2002"
 status: established
-last_updated: 2026-07-19
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 

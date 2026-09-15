@@ -33,7 +33,7 @@ status: |
   kindersichere, 30-cm-Lichtmass fuer nicht kindersichere Elemente) zu gemeinsamen
   «Kernmassen» zusammen. Status bleibt speculative, bis die zitierten Grundlagen im Original
   gegengelesen sind.
-last_updated: 2026-08-03
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 
@@ -89,7 +89,7 @@ Die Richtlinie des Amts für Baubewilligungen der Stadt Zürich konkretisiert f�
   - Horizontaler Abstand zwischen Absturzsicherungen resp. Wandflächen und Geh-/Stehflächen: max. **5 cm** (durchgängig, auch am Podest).
 
 ### Was die Fussnote (*) auf Seite 2 wirklich markiert
-Das Zeichen (*) steht an genau **zwei** Stellen: bei der Skizze **«Pflanzentrog»** und bei der ersten Teilskizze der Gruppe **«Nicht über- resp. unbekletterbare Elemente»** (versetzter oberer Abschluss, ≥ 15 / < 12). Die Skizze «Fensterbrüstungen in Nasszellen» ist **nicht** so markiert. Laut Fussnote S.4 bedeutet (*) «akzeptierte Lösung aufgrund langjähriger Praxis des Amts für Baubewilligungen der Stadt Zürich» — es handelt sich also um blosse Verwaltungspraxis ohne normative Abstützung. Das ist im Bewilligungsverfahren der verhandelbare und erklärungsbedürftige Teil: Diese beiden Lösungen sind gegenüber dem Amt argumentierbar, aber nicht aus SIA 358 oder dem PBG ableitbar. Umgekehrt darf die Nasszellen-Skizze nicht als blosse Praxis abgetan werden.
+Das Zeichen (*) steht an genau **zwei** Stellen: bei der Skizze **«Pflanzentrog»** und bei der ersten Teilskizze der Gruppe **«Nicht über- resp. unbekletterbare Elemente»** (versetzter oberer Abschluss, ≥ 15 / < 12). Die Skizze «Fensterbrüstungen in Nasszellen» ist **nicht** so markiert. Laut Fussnote S.4 bedeutet (*) «akzeptierte Lösung aufgrund langjähriger Praxis des Amts für Baubewilligungen der Stadt Zürich» — die Richtlinie begründet diese beiden Lösungen also allein mit der Amtspraxis und nennt dafür keine eigene Fundstelle. ⚠ Run 85 (15.09.2026): hier stand «blosse Verwaltungspraxis ohne normative Abstützung … nicht aus SIA 358 oder dem PBG ableitbar»; das ist eine Deutung, nicht der Wortlaut. PBG und SIA 358 stehen auf S. 4 als Grundlagen der ganzen Richtlinie, ob die (*)-Lösungen daraus ableitbar sind, sagt die Richtlinie nicht. Im Bewilligungsverfahren bleiben sie der erklärungsbedürftige Teil. **Ein drittes Zeichen (**)** steht in Ziffer 2 (S. 3) am Satz über Veränderungen direkt angrenzender Bauelemente und die Anforderungen an neue Schutzelemente; es bedeutet laut S. 4 «langjährige Praxis des Amts für Baubewilligungen» (ohne «akzeptierte Lösung»). Umgekehrt darf die Nasszellen-Skizze nicht als blosse Praxis abgetan werden.
 
 ## Handläufe (Ziffer 1.5, S.3)
 - Bei Treppen mit **mehr als 5 Steigungen** und bei steilen Rampen ist generell ein geeigneter Handlauf zu erstellen.
@@ -98,7 +98,7 @@ Das Zeichen (*) steht an genau **zwei** Stellen: bei der Skizze **«Pflanzentrog
 - Bei Treppen breiter als **5 m** ist zusätzlich ein Handlauf in der Treppenmitte anzubringen.
 - Bei öffentlich zugänglichen Treppen sind die Anforderungen der **Norm SIA 500 «Hindernisfreie Bauten»** zu erfüllen.
 - **Querschnitt und Wandabstand (nur in der Skizze «geeignete Handläufe», S.3):** Die Zeichnung zeigt drei Profile mit je einer zweiteiligen Bemassungskette — **4-5** und **≥ 5** beim runden Handlauf, **2-5** und **≥ 5** beim schmalen bzw. flachen Profil, **4-5** und **≥ 5** beim breiten profilierten Handlauf (Angaben in cm).
-  **Vorbehalt zur Zuordnung:** Nach der Lage der Masslinien ist die erste Zahl die Profilbreite bzw. der Profildurchmesser (rund und profiliert 4–5 cm, schmal 2–5 cm) und die zweite Zahl der lichte Abstand zwischen Handlauf und Wand (≥ 5 cm). Diese Zuordnung ist am Scan **nicht zweifelsfrei** und bleibt eine Lesart, nicht ein gesicherter Wert. Vor der Ausschreibung eines Handlaufs am Original oder beim Amt verifizieren. Siehe [[QUESTIONS]].
+  **Vorbehalt zur Zuordnung:** Nach der Lage der Masslinien ist die erste Zahl die Profilbreite bzw. der Profildurchmesser (rund und profiliert 4–5 cm, schmal 2–5 cm) und die zweite Zahl der lichte Abstand zwischen Handlauf und Wand (≥ 5 cm). ~~Diese Zuordnung ist am Scan **nicht zweifelsfrei** und bleibt eine Lesart, nicht ein gesicherter Wert.~~ ✅ **Geklärt Run 85 (15.09.2026):** am 400-dpi-Ausschnitt S. 3 (Hauptprozess) und unabhängig am 600-dpi-Ausschnitt (Refuter) sitzen die Massmarken der ersten Zahl auf den beiden Profilkanten und die der zweiten zwischen Profilkante und Wandfläche. Die erste Zahl ist damit die Profilbreite bzw. der Durchmesser, die zweite der lichte Wandabstand ≥ 5 cm.
   Wichtig fürs Arbeiten mit dieser Richtlinie: Es sind die **einzigen** Bemessungsmasse des Handlaufs im ganzen Dokument, und sie stehen ausschliesslich in der Zeichnung. Der Fliesstext von Ziffer 1.5 regelt nur, **wo** ein Handlauf nötig ist, nicht **wie** er aussieht.
 
 ## Bestehende Schutzelemente bei Umbauten/Umnutzungen (Ziffer 2, S.3) — der eigenständige Vollzugswert dieser Richtlinie
@@ -127,6 +127,6 @@ Sind bestehende Absturzsicherungen instabil oder bieten sie — gemessen am heut
 
 Aus der Verifikation Runde 2 (03.08.2026) zusätzlich offen:
 - **Kote «≤ 90» in der Skizze «nur obere Traverse» (S.1, Ziffer 1.3):** Bezugsgrösse unbestimmt. Der Fall existiert zeichnerisch, wird aber im Fliesstext nicht erklärt. Nicht anwenden, ohne beim Amt rückzufragen.
-- **Zuordnung der Handlaufmasse (S.3):** Welche Zahl der Kette «4-5 / ≥ 5» das Profil und welche den Wandabstand beschreibt, ist am Scan nur wahrscheinlich, nicht gesichert. Ein Original in besserer Auflösung oder eine Amtsauskunft würde das klären.
+- ~~**Zuordnung der Handlaufmasse (S.3):** Welche Zahl der Kette «4-5 / ≥ 5» das Profil und welche den Wandabstand beschreibt, ist am Scan nur wahrscheinlich, nicht gesichert.~~ ✅ Geklärt Run 85 (15.09.2026), siehe Ziffer 1.5 oben: Profilbreite 4–5 bzw. 2–5 cm, lichter Wandabstand ≥ 5 cm, am 400-dpi-Rendering eindeutig.
 - **Abgleich mit [[bfu-gelaender-und-bruestungen]]** (Behauptung «deckt sich mit den bfu-Werten», einschliesslich der dortigen Lastannahmen): nicht nachvollzogen, das bfu-Destillat wurde in Runde 2 nicht geöffnet.
 - **Aktualität:** Ob seit dem 1.6.2019 eine neuere Fassung der Richtlinie erschienen ist, wurde nicht abgeklärt. Der vorliegende Scan datiert vom 11.02.2020.

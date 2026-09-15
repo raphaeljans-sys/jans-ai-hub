@@ -4,8 +4,8 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "established (vierte unabhaengige Refuter-Runde 27.07.2026, Run 33: 0 Befunde, established. Alle drei Korrekturen der dritten Runde — Kap. 4.4.2/4.4.3 Beplankungsdicken, Kap. 5.3.5 Zusammenschluss-Interpretation, Anhang-3-Zaehlung 7 Beispiele — sowie alle Korrekturen der Runden 1+2 wurden gegen den vollstaendigen Bild-Scan erneut zeilenweise gegengeprueft und haben standgehalten, u.a. Brettstapel/Brettschichtholz C24/GL24k, EI90-Werte Kap. 4.2.4/4.2.7.1/4.2.7.2, Mindestauflager Kap. 4.2.8.2, Temperaturkriterien 250/270 vs. 140/180 Kap. 5.2.2, Abb. 320-1 Situationszuordnung, Literaturzaehlung [4]-[12]/[13]-[18], Tabelle 522-1 Estrich-/Betondicken, alle Anhang-3-Bauteilaufbauten A.3.2-A.3.8.)"
-last_updated: 2026-07-27
+status: "speculative (herabgestuft Run 85, 15.09.2026: fünfte, blinde Refuter-Runde über 162 Relationswerte am Rendering, 0 falsche Bestandswerte, aber 5 falsche Legenden-/Bildzuordnungen bzw. fehlende Bedingungen, alle inline korrigiert; die Abdeckungsrichtung nach Methodik-Pflicht 13 ist auf diesem Destillat nie gelaufen, siehe Prüfstand am Ende. Vorheriger Status: established nach Run 33, vierte Runde mit 0 Befunden)"
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 
@@ -132,7 +132,8 @@ Definitionen/Mindestanforderungen (Auszug):
 - Estrich: Zementmörtel, Kalziumsulfat-Mörtel (Anhydrit-Mörtel), Kalziumsulfat-Fliessmörtel,
   Gipsmörtel, Asphalt.
 - Mineralwolle: Mineralfaserplatten EN 13162, Brandverhaltensgruppe RF1; Ermittlung
-  Schmelzpunkt nach DIN 4102-17 (Kriterium ≥ 1'000 °C).
+  Schmelzpunkt nach DIN 4102-17 (das Kriterium ≥ 1'000 °C steht nicht in Tab. 340-1 selbst,
+  sondern im Glossar S. 47 und in den Legenden; Präzisierung Run 85).
 - Fugenmaterialien: Mörtel/Fugenspachtel (Zementmörtel, Kalziumsulfat-Mörtel, Gipsmörtel,
   Magnesit-Mörtel, lehmgebundener Mörtel, Mörtel mit organischen Bindemitteln), Brand-
   verhaltensgruppe RF1.
@@ -164,7 +165,7 @@ Massnahme: Abschluss am Bauteil erforderlich (Brand kann sich sonst in Hohlräum
 Füllholz-Mindestbreiten b nach Feuerwiderstandsdauer des Bauteils: EI30 → b ≥ 40 mm,
 EI60 → b ≥ 60 mm, EI90 → b ≥ 80 mm. Alternativ Mineralwolle (Schmelzpunkt ≥ 1'000 °C,
 Rohdichte ≥ 26 kg/m³): EI30 → b ≥ 100 mm, EI60 → b ≥ 100 mm, EI90 → b ≥ 200 mm (Legende 6);
-separat Legende 5: Mineralwolle b ≥ 100 mm (Bild 1e).
+separat Legende 5: Mineralwolle b ≥ 100 mm (**Bild 1d**; Bild 1e trägt die Legenden 4 und 6; ⚠ Run 85, am Rendering S. 14 abgelesen, hier stand «Bild 1e»).
 Bauteile aus Vollquerschnitten benötigen keine Massnahmen (Bild 2).
 
 **4.2.3 Bauteilabschlüsse — an Bauteile mit Feuerwiderstand (S. 15):** Bauteilstirn ist durch
@@ -189,7 +190,12 @@ Beplankungen sind gleichwertig zu ersetzen. Füllholz bei Fugenbreite f ≤ 2 mm
 Beplankung ≤ BSP30 → b ≥ 20 mm, ≤ BSP60 → b ≥ 30 mm; bei f > 2 mm: ≤ BSP30 → b ≥ 40 mm,
 ≤ BSP60 → b ≥ 60 mm. Geschlossene Bauteilfugen (gilt auch für Estrich mit Stellstreifen RF1):
 unterbrochene Beplankung ≤ BSP30 → b ≥ 40 mm, ≤ BSP60 → b ≥ 60 mm. Mineralwolle
-(Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): b ≥ 100 mm.
+(Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): b ≥ 100 mm, **bei f ≤ 2 mm auch dann möglich, wenn
+die brandschutztechnisch wirksame Dämmung bereits für den Nachweis des Bauteils erforderlich
+ist, bei f > 2 mm nur, wenn sie das nicht ist** (Legende 4). Beplankung (Legende 5): bei
+f ≤ 5 mm im Fugenbereich der Wandfläche Mindestdicke 9 mm; bei f > 5 mm Massnahmen analog
+Bild 1c oder separater Nachweis der Fuge. ⚠ Run 85 (15.09.2026), am Rendering S. 17 abgelesen:
+die Bedingung der Mineralwolle nach Fugenbreite und die Legende 5 fehlten.
 
 **4.2.6 Hohlräume (S. 18):** durchlaufende Hohlräume im Bereich brandabschnittsbildender
 Bauteile sind zu unterbrechen. Füllholz: EI30 → b ≥ 40 mm, EI60 → b ≥ 60 mm, EI90 → b ≥ 80 mm;
@@ -197,10 +203,11 @@ Mineralwolle (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): EI30 → b ≥ 100 
 Brandschutzplatte EI30 → BSP30, EI60 → BSP60. Vollquerschnitte: keine Massnahmen.
 
 **4.2.7 Längsfugen (S. 19-20):** Lösungen gelten für Fugen bis maximal 10 mm.
-- Gefüllt (4.2.7.1, S. 19): zwei Abdichtungskriterien getrennt — Legende 1 (Bilder 1a/1b):
+- Gefüllt (4.2.7.1, S. 19): zwei Abdichtungskriterien getrennt — Legende 1 (**Bild 1a**; ⚠ Run 85, am Rendering S. 19:
+  die Bilder 1b und 2b tragen Legende 2, die Beplankung; hier stand «Bilder 1a/1b» bzw. «2a/2b»):
   Fugenquerschnittsfläche ≤ 150 mm² → Abdichtung mit Klebeband/Fugenband/Dichtungsmasse im
   Abstand b, bei Abdichtung an zwei Stellen im Abstand ≥ b entfällt der Abstand; > 150 mm² →
-  Massnahme gemäss Kap. 4.3.4. Legende 3 (Bilder 2a/2b): Fugenbreite f ≤ 5 mm → gleiche
+  Massnahme gemäss Kap. 4.3.4. Legende 3 (**Bild 2a**): Fugenbreite f ≤ 5 mm → gleiche
   Abdichtung im Abstand b; f > 5 mm → Massnahme gemäss Kap. 4.3.4. Abstand b: EI30 ≥ 40 mm,
   EI60 ≥ 60 mm, EI90 ≥ 80 mm. Legende 2, Beplankung: beidseitig FW-Dauer ≥ 0.5 × Bauteil-FW
   (EI30: Holzwerkstoffplatte 15 mm oder Gips-/Gipsfaserplatte 10 mm; EI60: BSP30; EI90:
@@ -214,7 +221,7 @@ Brandschutzplatte EI30 → BSP30, EI60 → BSP60. Vollquerschnitte: keine Massna
 **4.2.8 Auflager (S. 21-23):**
 - Auflager Holz (4.2.8.1, S. 21): Tragsicherheit unter Berücksichtigung von Abbrand und
   Bautoleranzen; Minimale Auflagerbreite vor Abbrand x: R30 ≥ 40 mm, R60 ≥ 70 mm, R90 ≥ 100 mm;
-  minimale Auflagerbreite nach Abbrand y ≥ 5 mm. Vollständig geschütztes Auflager: Beplankung
+  minimale Auflagerbreite nach Abbrand y = 5 mm (gedruckt mit Gleichheitszeichen, sinngemäss ein Mindestmass; Run 85). Vollständig geschütztes Auflager: Beplankung
   FW-Dauer ≥ Bauteil-FW (R30: BSP30, R60: BSP60); teilweise geschütztes Auflager: rechnerischer
   Nachweis gemäss Lignum-Publikation 'Feuerwiderstandsbemessung – Bauteile und Verbindungen' [6].
 - Längsfugen in Bauteilebene (4.2.8.1/4.2.8.2): Längsfugenbreite ≤ 5 mm im Abstand von mind.
@@ -258,7 +265,9 @@ brandschutztechnisch wie Bauteile zu behandeln.
 - 4.3.3 Bauteilfugen bis 2 mm (S. 27): Abdichtung mit Klebeband/Fugenband/Dichtungsmasse;
   Abdeckung mit geschlossener Fuge, Mindestdicke 9 mm; Estrich EI30 → BSP30, EI60 → BSP60.
   Weitere Legenden: Mineralwolle ρ ≥ 40 kg/m³ Höhe 60 mm bzw. ρ ≥ 26 kg/m³, Brandschutzplatte
-  (BSP) EI30/EI60, Stellstreifen b ≥ 100 mm.
+  (BSP) EI30/EI60, Stellstreifen RF1 (Legende 7, Bild 2, **ohne Mass**); die Breite b ≥ 100 mm
+  ist in Bild 1e am Aufbau aus Mineralwolle und Brandschutzplatte bemasst (Zuordnung berichtigt
+  Run 85, am Rendering S. 27).
 - 4.3.4 Bauteilfugen bis 80 mm (S. 28): Abdichtung mit Klebeband/Fugenband/Dichtungsmasse,
   Mineralwolle (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³) ganzen Hohlraum ausfüllt; VKF-
   anerkanntes Fugenabdichtungssystem gemäss Registergruppe 224, Randabstand bei direkt auf
@@ -617,3 +626,44 @@ Plattenränder.
 - **Verdikt: 0 Befunde.** Keine Regression zu den Runden 1-3 festgestellt.
 - **Status auf `established` gehoben.** Vierte unabhaengige Refuter-Runde 27.07.2026 (Run 33)
   schliesst mit sauberem Nulldurchgang ab.
+
+### Fünfte Runde (15.09.2026, Normen-Nacht Run 85) — und warum der Status sinkt
+
+- **Anlage:** blinder Refuter, der nur ein Paket von 41 Aussagen sah, nicht das Destillat;
+  jede Zahl mit Relationszeichen am selbst gerenderten Scan (300-600 dpi) abgelesen. Zwei
+  untergeschobene Kontrollwerte im Paket (Abdeckholz EI60, Mindestauflager R90), **beide
+  erkannt**.
+- **Ergebnis je Wert:** 149 bestätigt, 11 eingeschränkt, 0 falsche Bestandswerte, kein
+  vertauschtes Relationszeichen. Vom Hauptprozess am Bild übernommen und inline korrigiert:
+  Legende 5 gehört zu Bild 1d, nicht 1e (Abb. 422-1) · Legenden 1 und 3 stehen nur in den
+  Bildern 1a bzw. 2a, 1b/2b tragen Legende 2 (Abb. 427-1) · Mineralwolle in Kap. 4.2.5 mit
+  Fugenbreiten-Bedingung (Legende 4) und Legende 5 · y = 5 mm mit Gleichheitszeichen ·
+  Stellstreifen RF1 ohne Mass, b ≥ 100 mm in Bild 1e (Abb. 433-1) · Fundstelle des
+  Schmelzpunkt-Kriteriums.
+- **Refuter-Nebenbefunde, vom Hauptprozess nicht einzeln nachgerendert (offen):** Abb. 424-1
+  Legende 6, Abdichtung nur bei Lagendicke bzw. Stufenfalz ≥ 30 mm · Abb. 434-1 Legende 2
+  «ganzer Hohlraum ausgefüllt bzw. gemäss Breite b» mit b ≥ 200 mm, Legende 7 Verzicht auf
+  Dämmung bei beidseitiger Abdeckung · Kap. 4.3.5: Bauteilöffnung auch bei Fugentiefe kleiner
+  als das Zweifache der Fugenbreite. Keiner davon verschiebt einen geführten Wert; es sind
+  Lücken der Klasse (b) nach Methodik-Pflicht 13.
+- **Bestätigt (Methodik-Pflicht 7):** «Lösungen gelten für Fugen bis maximal 10 mm» steht in
+  Kap. 4.2.7 bereits; die Korrekturen der dritten Runde (Kap. 4.4.3, Kap. 5.3.5) hielten erneut.
+- **Warum `speculative`:** die vierte Runde meldete am 27.07.2026 null Befunde. Dieselbe
+  Prüfrichtung hat jetzt fünf Zuordnungsfehler gefunden, die seit dem Erstdestillat im Text
+  standen. Das ist die Methoden-Lehre in ihrer bekannten Form: eine Runde ohne Befund misst die
+  Prüfmethode, nicht die Quelle. Hier war die Methode dieselbe, anders war die Anlage (blinde
+  Aussagenpakete statt Lektüre des Destillats neben dem Original).
+
+### Prüfstand (Stand Run 85)
+
+| Teil | Refuter-Richtung | Abdeckungsrichtung | Bemerkung |
+|---|---|---|---|
+| Kap. 2-3 (S. 5-11) | Runden 1-5 | nie | Relationswerte Run 85 geprüft |
+| Kap. 4 (S. 12-33) | Runden 1-5 | nie | Legenden-Zuordnung Run 85 korrigiert |
+| Kap. 5 (S. 34-45) | Runden 1-5 | nie | |
+| Anhänge (S. 48-62) | Runden 3-5 | nie | Scan S. 56/58/60 links abgeschnitten, Zahlen lesbar |
+| Glossar (S. 47) | Runde 5 (Kriterium Schmelzpunkt) | nie | |
+
+Nächster sinnvoller Schritt: eine Seiten-Inventur nach dem Muster `training/l41-seiteninventur.md`
+(32 Scans, A3), dann Diff gegen das Destillat.
+

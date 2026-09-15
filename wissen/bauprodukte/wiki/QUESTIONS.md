@@ -253,6 +253,10 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    markiert das Gewerk als «kein Material vorhanden, überspringen». Kein weiterer
    Nachtlauf soll dieses Quellarchiv erneut danach durchsuchen, ohne dass sich der
    Bestand geändert hat.
+   ⚠ **Nachtrag `wissen/normen` Run 85 (15.09.2026):** `lignum-4-2-anschluesse-feuerwiderstand.md`
+   ist seit diesem Lauf **`speculative`**, nicht mehr `established` (fünf falsche Legenden-/
+   Bildzuordnungen gefunden und korrigiert, kein falscher Zahlenwert; Abdeckungsrichtung nie
+   gelaufen). Nach Rule `normen-referenz` 1b vor Verwendung am Original nachlesen.
 
    **Teil-Antwort zur Bekleidungs-Seite liegt bereits im Hub (nachgetragen 31.07.2026,
    Wissens-Chef Run 22):** Für die Trockenbau-Bekleidung existiert mit

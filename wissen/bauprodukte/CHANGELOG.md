@@ -1,5 +1,10 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-15 — Cross-KB-Eingang aus `wissen/normen` Run 85: Statushinweis Lignum 4.2
+
+`wiki/QUESTIONS.md`, nur additiv: Vermerk am Punkt zu BKP 214/271, dass
+`lignum-4-2-anschluesse-feuerwiderstand.md` seit Run 85 `speculative` ist.
+
 ## 2026-09-07 — Nachtschicht Mac Mini: QUESTIONS.md Punkt 9 (Bekleidungs-Teil) geschlossen
 
 Neuer Wiki-Artikel [[lbw-brandschutzwaende-en520-typ-d]] (BKP 271.1, Trockenbauarbeiten):

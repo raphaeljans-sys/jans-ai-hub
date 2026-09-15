@@ -5,7 +5,7 @@ ausgabe: "VKF-Brandschutzrichtlinie 14-15de: 01.01.2015"
 gelesen: "S. 1-14 komplett (Ziff. 1-7 + Anhang-Einleitung); Anhang-Zeichnungen (S. 14ff.) nicht inhaltlich ausgewertet, nur Bildmaterial ohne Normtext | NACHTRAG 25.07.2026: Fassung 01.01.2017 (IOTH-Beschluss 22.09.2016) komplett gegen Fassung 01.01.2015 verglichen (Volltext-Diff pdftotext + Seiten-Gegenlese im PDF, Ziff. 1-7 S. 1-14/15); Anhang der Fassung 2017 weiterhin nicht inhaltlich ausgewertet (gleiche Abgrenzung wie 2015: erläuternde Skizzen ohne eigenständigen Vorschriftenstatus) | NACHTRAG 25.07.2026 (Run 23): Delta-Abschnitt adversarial verifiziert (BEANSTANDET), 5 lokale Korrekturen eingearbeitet (Fussnote [2] Ziff.3.3.2, Ziff.3.3.1 Abs.5/6, Ziff.2 Abs.8 ergänzt, Ziff.3.2.3 Abs.1 ergänzt, SN-EN-60065-Fassung, Ziff.4.1/Fussnote[7] getrennt) | NACHTRAG 25.07.2026 (Run 24): die 5 Run-23-Korrekturen unabhängig re-verifiziert (Volltextabgleich beider PDF-Fassungen), 4/5 wortgetreu bestätigt, 1/5 (Ziff.3.2.3 Abs.1) präzisiert — Umfang der Änderung war überzeichnet, tatsächlich einzige Neuerung ist der Zusatz 'bzw. flächige Schichten'"
 datenstand: "2015 (Haupttext ab 25.07.2026 auf Stand Fassung 2017 nachgeführt, siehe Delta-Abschnitt)"
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 

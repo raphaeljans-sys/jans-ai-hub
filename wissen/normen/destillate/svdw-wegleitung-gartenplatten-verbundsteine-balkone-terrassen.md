@@ -5,7 +5,7 @@ ausgabe: "«Wegleitung für Gartenplatten und Verbundsteine auf Balkonen oder Te
 gelesen: "Run 42 (030826): alle 9 PDF-Scanseiten (= Booklet-Seiten 1-15 der Wegleitung plus die angehängte SIA-244-Seite) einzeln über den Read-Tool visuell gerendert und Volltext abgelesen — das Dokument hat keinen Textlayer, jede Aussage stammt aus dem Bild, keine Textextraktion. Tabellen (Herstellertoleranzen S. 13-14, Tabelle 2-4 auf der SIA-244-Anhangseite) einzeln als eigene Seite nachgerendert, um Zellzuordnung visuell statt per Extraktion zu sichern"
 datenstand: "kein Ausgabedatum am SVDW-Dokument selbst; angehängter SIA-244-Auszug datiert 2006 (Copyright-Vermerk in der Fusszeile)"
 status: "speculative (Erstdestillat Run 42; Run 43 04.08.2026 unabhaengige Widerlegungs-Pruefung, VERDIKT BEANSTANDET — 8 Kernbefunde + 16 Nebenbefunde, alle eingearbeitet. K2 vom Hauptprozess am eigenen Rendering bestaetigt: SIA 244 Tab. 4 fuehrt MINDEST-PLATTENBREITEN je Plattendicke (20 mm/300 mm, 30 mm/200 mm, 40 mm/150 mm), keine Bettungsmasse; zwei Tabellenzeilen fehlten ganz. Ferner: Mindestgefaelle-Fallback ueber offene Fugen, Verlegetoleranz war Setzungs- und nicht Einbautoleranz, Pruefverfahren 2 m Betrachtungsabstand. Fundstellen waren systematisch um eine Seite verschoben — korrigiert auf Booklet-Zaehlung. Datierung weiterhin offen, harte Obergrenze Scan 19.02.2013.)"
-last_updated: 2026-08-03
+last_updated: 2026-09-15
 links: [[REGISTER]]
 ---
 
@@ -155,7 +155,12 @@ selbst nicht in Tabellenform enthält.
 ## Normbezüge (Zusammenfassung)
 
 - **SIA 271** «Abdichtungen von Hochbauten»: Gefälle Untergrund ≥ 1,5 %, Schutzschicht-Pflicht,
-  Auflast auf Umkehrdächern 12 kg/m² pro 10 mm Wärmedämmstoffdicke (S. 3, S. 9).
+  Auflast auf Umkehrdächern 12 kg/m² pro 10 mm Wärmedämmstoffdicke (S. 4, S. 9; Seite berichtigt
+  Run 85). ⚠ Die Wegleitung schreibt die 12-kg-Regel SIA 271 zu; in SIA 271:2007 fand der
+  Refuter von Run 85 sie nicht (OCR-Suche PDF-S. 1-50, untere Schranke), Ziff. 2.7.1.3 verlangt
+  dort nur funktional, dass die Auflast das Aufschwimmen verhindert. Als Aussage der
+  SVDW-Wegleitung führen, nicht als SIA-271-Fundstelle. Das Gefälle «1,5 %» steht in der
+  Wegleitung ohne «mindestens», SIA 271:2007 Ziff. 2.6.1.1 sagt «mindestens 1,5 %».
 - **SIA 318** «Garten- und Landschaftsbau» (Normbezeichnung im Dokument nicht ausgeschrieben,
   nur als Kürzel «SIA 318» zitiert, S. 5): Mindestgefälle Plattenoberfläche 1,5 %.
 - **SIA 244** «Naturstein- und Kunststeinplatten»: Herstellertoleranzen (Ziff. 4.32.2, S. 13),
