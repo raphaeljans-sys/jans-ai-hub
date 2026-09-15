@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 22:47:45
+Stand: 15.09.2026 22:58:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:47)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 15.09.2026 22:47:45
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2ed616edf nas-selfcommit: 4 Datei(en) 2026-09-15 22:45
+- eefda0d58 energie Run 199: A-BLIND Swissolar-STP Brandschutz am Original, Tabelle 1 berichtigt (RF2 (cr) statt RF1), F16 berichtigt, F296 neu; Cross-KB-Hinweise an planungsgrundlagen und normen

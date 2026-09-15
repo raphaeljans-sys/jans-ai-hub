@@ -1,12 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 22:43:28
+Stand: 15.09.2026 22:53:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/clever/chatterjee/e61864  (letzte Aktivitaet 22:19)
-- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 22:19)
-- Developer/jans/ai/hub//claude/worktrees/metallabhangdecke/bauphysik/f693dc  (letzte Aktivitaet 22:19)
-- Developer/jans/ai/hub//claude/worktrees/objective/rhodes/d98e38  (letzte Aktivitaet 22:19)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -22,4 +19,4 @@ Stand: 15.09.2026 22:43:28
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b836d6777 nas-selfcommit: 3 Datei(en) 2026-09-15 22:30
+- eefda0d58 energie Run 199: A-BLIND Swissolar-STP Brandschutz am Original, Tabelle 1 berichtigt (RF2 (cr) statt RF1), F16 berichtigt, F296 neu; Cross-KB-Hinweise an planungsgrundlagen und normen
