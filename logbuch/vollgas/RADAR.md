@@ -53,6 +53,34 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-15 12:58 — [FREI] **MacBook-Fassung, Regellauf ohne Befund. Der Mini-Eintrag zu diesem Slot stand beim Schreiben noch aus; diese Fassung misst deshalb vollständig, aber knapp. Doppellauf unverändert offen (Aktion Raphael).**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert seit 29.08. 05:15) «OK», rc=0 in **7 s**,
+Watchdog 180 s nicht gebraucht, keine Waisen. Wochenbudget **7.7 %** von 167 Mio bei **14.9 %** verstrichener Woche, Vorsprung
+**-7.2 Punkte**, Ampel FREI (MacBook 10.23, Mini 2.62 Mio, beide Dateien frisch). Der MacBook-Anteil ist seit 01:01 um rund 6.4 Mio
+gestiegen, liegt aber weiter klar hinter dem Zeitverlauf. Speicher MacBook: Druckstufe 1, 5.2 GB frei+inaktiv+purgeable
+(vm_stat), Uptime 23 h. Keine Drossel, keine gedrosselten Lern-Tasks, nichts zurückzuschalten.
+
+**Feuermechanismen.** launchd auf beiden Stationen im Sollstand (MacBook `vollgas-supervisor` und `vollgas-monitor`, Mini
+`vollgas-supervisor`, alle `.disabled-260729`). MacBook-Registry ohne Abweichung zum Eintrag 01:01; vollgas-chef-radar,
+vollgas-fruehwarnung und heartbeat-daily stehen hier weiterhin auf `enabled: true`. Der Doppellauf besteht also fort: die
+Frühwarnung lief heute ebenfalls doppelt (Commits `870a930d9` Mini, `e5c39994b` MacBook-Kurzergänzung).
+
+**Liefer-Delta seit 01:00 (git, Dateien unter `wissen/`):** normen 26 (normen-training-nacht 01:28), twin 12 (twin-mail-training
+03:40, twin-fidelity-review 05:45, Commit `cfb2b7d3d`), energie 5 (Nachtschicht 05:30, EnG-Revision 2026 als Cross-KB-Übergabe aus
+baurecht, Commit `9fc92865d`), auflagebereinigung 2, bauprodukte 2, spec 1. Kein Loop ohne Delta im Fenster. Die Selfcommits
+09:00 bis 12:45 sind reine Status- und Kontingent-Dateien (`station-status/`, `logbuch/kontingent/`) und zählen nicht als Arbeit.
+Das ist bei einem MacBook als Arbeitsstation im Tagesfenster der Sollzustand. Operativ geliefert haben logbuch-radar (Ausnahme-Mail
+07:04), ag-gruendung-monitor und hub-chef (Kurzbriefing gesendet, Commit `452bb58e4`).
+
+**Massnahmen.** Keine.
+
+**P2 (unverändert, Aktion Raphael):** die drei doppelt geführten Tasks (vollgas-chef-radar, vollgas-fruehwarnung, heartbeat-daily)
+in der App auf dem MacBook deaktivieren. Diese Fassung deaktiviert sich nicht selbst (Begründung im Eintrag 01:01).
+
+**Selbstkontrolle.** Letzter Eintrag 01:01, Abstand rund 12 h, unter der Toleranz von 15 h. `lastRunAt` 10:57Z ist dieser Lauf.
+Keine Mail.
+
 ## 2026-09-15 01:01 — [FREI] **MacBook-Fassung, Doppellauf zum Mini-Eintrag 00:58 direkt darunter. Nur Ergänzung, keine Zweitmessung: der Mini-Eintrag gilt. Der Doppellauf ist jetzt aus der MacBook-Registry belegt, der P3 zur Frühwarnung beruht auf einer Fehllesung.**
 
 **Doppellauf belegt (P2 des Mini präzisiert).** `list_scheduled_tasks` auf dem MacBook: vollgas-chef-radar (`50 */12`),
