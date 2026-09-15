@@ -197,6 +197,18 @@ node truninger-ds3.mjs --spiegeln Collection-19903221 \
 Die uebrigen Lose liegen analog unter `70 Unternehmerdokumentation/LOS_<nr>_<gewerk>` —
 DS3-Collection-ID je Los via `--ls Collection-17500039` (= «70 Unternehmerdokumentation»).
 
+**Wegmarken Sanitaer (nachgetragen 15.09.2026, Abklaerung Keramiktablar):** Projektraum
+`Collection-4859935` > 51 Ausfuehrungsplaene `Collection-15170153` > Sued `Collection-15170160`
+> 51.11 Ing. Buero Riesen Sanitaerplanung `Collection-15425475`; die Apparatetyp-Blaetter
+(G_SAN_xxxx_DT_Apparatetypen Typ 1.0 bis 29.3, 49 PDFs, Stand 2021/2022) liegen unter
+51.11.01 PDF_Plaene / Details `Collection-25813926` (aelterer Pruefstand: 51.11.07 Details
+`Collection-28234379`); Raumstudien mit Sanitaer-Rueckmeldung je Geschoss unter 51.11.06
+`Collection-19489044`. HdM-Raumtypen (WC/Bad/Dusche 8600 bis 8672, Ausfuehrung) unter 51.01.01
+`Collection-19576324`. Unternehmerdokumentation Sanitaer: LOS_250.01 Sued `Collection-24946616`
+(Sanitas-Troesch-Liste BKP 251 unter 13_Ausmass), LOS_259.31 Fertignasszellen Sanika
+`Collection-24227803`. Sackgasse: `--suche` ueber den ganzen Projektraum (`RootCollection-4592346
+--tiefe 6`) lief nach 70 Minuten noch — Suche immer in einer Ziel-Collection starten.
+
 ## versand/ — Versand- und Routenplanung Onlineshop (Skill `versandplanung`)
 
 Vier Bausteine für den täglichen Versandlauf: `shop-orders.mjs` (Bestellungen aus

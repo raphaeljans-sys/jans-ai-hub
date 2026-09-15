@@ -1,3 +1,6 @@
+## 2026-09-15
+- outputs: Werkzeugbefund grep-Alias auf ugrep und fehlendes timeout (PDF-Volltextsuche, Projekt 2619), `outputs/2026-09-15_grep-alias-ugrep-pdf-volltextsuche.md`.
+
 # CHANGELOG — KB `claude-code`
 
 Neueste Eintraege zuoberst.

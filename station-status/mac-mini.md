@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 17:28:46
+Stand: 15.09.2026 17:39:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 15.09.2026 17:28:46
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 8343cf5c7 Synergie-Lauf 36: SYN-86 neu (Korrektur Versionsrichtlinie 14.09. nicht im Fristen-Register, SPO-Shell Windows-only statt PnP Set-PnPSiteVersionPolicy), SYN-87 neu (WEGE Leitungskataster Stadt ZH nicht in KB planungsgrundlagen), SYN-85 Gegenprobe bestanden
+- e9525b771 tenant-hygiene: Versions-Trim JANS.PROJEKTE von Raphael ausgeloest (15.09. 17:3x, 5/5), Fristen-Nachtrag, Chronik 260915, WEGE: Trim-Status app-only gesperrt
