@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 07:25:48
+Stand: 15.09.2026 07:36:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:22)
@@ -12,4 +12,4 @@ Stand: 15.09.2026 07:25:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e5c39994b vollgas-fruehwarnung 15.09. (MacBook-Fassung): Doppellauf-Kurzergänzung, logbuch-radar geliefert, keine Mail
+- 1f0d056a4 nas-selfcommit: 4 Datei(en) 2026-09-15 07:30
