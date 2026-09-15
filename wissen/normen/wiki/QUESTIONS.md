@@ -7220,3 +7220,14 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   Laufbericht `wissen/energie/outputs/2026-08-31_energie-run171.md`.
   Eingetragen nach Rule `wissens-bibliothekar` (Cross-KB-Bringschuld beim erledigenden Lauf) und
   dem Verfahrensschritt aus E46-1 der KB `energie`.
+
+## Cross-KB-Eingang aus `architektur-fachwissen` (15.09.2026, Nachtschicht Mac Mini)
+
+**SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken» (Ausgabe 2000) fehlt in Register und
+Inventar dieser KB, ist aber bestätigt gültig.** `wissen/architektur-fachwissen/wiki/QUESTIONS.md`
+#31 hat den Geltungsstand über eine Websuche + SIA-Shop-Beleg geklärt (Produkt-ID
+`e25b193d-8a21-4806-89a8-8bbc3dd77da0`, aktives Normenwerk, kein Rückzugs-/Nachfolgehinweis,
+geprüft 15.09.2026) — die reine Ja/Nein-Geltungsfrage ist damit erledigt, ein Fundstellen-taugliches
+Destillat gegen das Original fehlt aber weiterhin. Kandidat für einen künftigen `normen`-Lauf,
+Original bisher nicht in `raw/`. Verwendender Artikel:
+`wissen/architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`.

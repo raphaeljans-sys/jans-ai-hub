@@ -12966,3 +12966,30 @@ Werkzeug-Risiko (veraltete Fedlex-RPG-Konsolidierung) fuer `energie` geprueft �
 Destillat dieser KB betroffen.
 
 Budget rund 2.3 von 5 USD. Zyklus sauber beendet, additive Aenderungen, keine Loeschungen.
+
+## 2026-09-15, 13:30-Slot (Nachtschicht-Versuchsslot Mac Mini)
+
+Prioritaeten 1-2 leer/aktuell (keine pending/sync-tasks; Synobsis Stufe 2 gegengemessen:
+`vectors.npz` 853x768 deckungsgleich mit `documents.jsonl`, kein Rebuild noetig).
+Prioritaet 3 (Fristen-Radar) uebersprungen: das Register traegt bereits Eintraege bis
+08:4x von heute aus vier anderen Loops (Logbuch-Radar, Hub-Chef, ag-gruendung-monitor,
+mahnwesen-verzugscheck) — ein weiterer Durchgang haette nichts Neues gebracht.
+Prioritaet 4 durchsucht: alle Kandidaten mit eigenem `training/PROGRAMM.md` sind entweder
+per Taktgeber ausgeschlossen (baurecht, normen, wettbewerbs-dna), umgewidmet (planungs-
+grundlagen), Ereignis-Trigger (immobilienbewertung, spec) oder formal erledigt
+(bauprodukte seit 15.08., grobkosten seit 13.08., beide gegengeprueft: Inventare 0 offen);
+projekt-lessons faehrt laut eigenem Changelog ausdruecklich keinen neuen Trainingslauf.
+Darum Prioritaet 5: in `wissen/architektur-fachwissen/wiki/QUESTIONS.md` zwei offene
+Punkte recherchiert und geschlossen. **#36** (VSS-Parkierungsgeometrie): per gezieltem
+Grep bereits vollstaendig in `wissen/normen` destilliert vorgefunden (VSS 40 291:2021-12,
+`status: established`, plus historische Vorgaengerausgabe) — nur der Zeiger fehlte.
+**#31** (Geltungsstand SIA-Merkblatt 2017 "Erhaltungswert von Bauwerken"): per Websuche und
+SIA-Shop-Beleg geklaert, das Merkblatt gilt weiterhin (aktives Normenwerk, kein Rueckzugs-/
+Nachfolgehinweis). Artikel `erhaltungswert-bewertung-sia-merkblatt-2017.md` um den Beleg
+ergaenzt, Cross-KB-Bringschuld (Merkblatt fehlt weiterhin in Register/Inventar `normen`)
+in dessen `wiki/QUESTIONS.md` eingetragen. Beide Punkte in der Quelle durchgestrichen,
+nicht geloescht; CHANGELOG von `architektur-fachwissen` nachgefuehrt.
+
+Budget rund 3.0 von 5 USD (laengere Orchestrierungsphase ueber alle Prioritaeten, da
+mehrere KBs einzeln auf ihren Status geprueft werden mussten). Zyklus sauber beendet,
+additive Aenderungen, keine Loeschungen.

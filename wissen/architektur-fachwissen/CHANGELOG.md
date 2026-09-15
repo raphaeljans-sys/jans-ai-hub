@@ -1,5 +1,25 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-15 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS #31 und #36 geschlossen: SIA-Merkblatt 2017 gültig, VSS-Parkierungsgeometrie längst destilliert
+
+**#36 VSS SN 640 291a (Parkierungsgeometrie):** die im Korpus als offen geführte Frage, ob eine
+methodische Parkplatz-/Garageneinfahrt-Geometrie bereits anderswo im Hub steht, war mit einem
+einzigen `grep` beantwortet: `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`
+(VSS 40 291:2021-12, `status: established`) plus die als historisch markierte Vorgängerausgabe
+`vss-640291a-2005-parkieren-anordnung-geometrie.md` existieren dort bereits seit Juli/August 2026,
+mit Querbezug zu `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md`. Keine neue
+Destillation nötig, nur der Zeiger fehlte.
+
+**#31 SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken»:** Geltungsstand per Websuche + SIA-Shop
+geklärt (Produkt-ID `e25b193d-8a21-4806-89a8-8bbc3dd77da0`, aktives Normenwerk, Ausgabe 2000,
+kein Rückzugs-/Nachfolgehinweis) — das Merkblatt gilt weiterhin. `wiki/erhaltungswert-bewertung-
+sia-merkblatt-2017.md` um den Beleg ergänzt (additiv, Frontmatter/`last_updated` unverändert
+gelassen, da nur der Geltungsvorbehalt-Absatz betroffen ist, nicht die Kernsubstanz). Cross-KB-
+Bringschuld an `wissen/normen/wiki/QUESTIONS.md` eingetragen: das Merkblatt fehlt dort weiterhin
+in Register/Inventar, ein Fundstellen-taugliches Destillat gegen das Original steht noch aus.
+
+Beide Punkte in `wiki/QUESTIONS.md` durchgestrichen, nicht gelöscht (Beleg bleibt nachvollziehbar).
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — Baumschutz Zürich: im Schutzgebiet gilt die strengere 100-cm-Summe; Kante zu `baurecht`
 
 `wiki/baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026.md`, nur additiv,

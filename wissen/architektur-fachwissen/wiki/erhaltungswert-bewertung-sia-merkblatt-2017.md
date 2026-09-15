@@ -18,14 +18,17 @@ mit Fundstelle wiedergegeben. Das Merkblatt liefert ein Checklisten-Verfahren f�
 Skills (`ankaufspruefung`, `nutzungsstrategie`, `machbarkeit`, `immobilienbewertung`) bisher nur
 implizit füllen.
 
-**Geltungsvorbehalt:** SIA-Merkblätter sind laut eigener Konvention nach Veröffentlichung drei Jahre
-gültig, verlängerbar um jeweils drei weitere Jahre (Sammelhinweis SIA Merkblätter, S. 2 des PDF).
-Ob Merkblatt 2017:2000 seither verlängert, durch eine Nachfolgeausgabe ersetzt oder zurückgezogen
-wurde, ist aus diesem Dokument nicht ableitbar. In `wissen/normen/` ist SIA 2017 mit Stand
-29.08.2026 **nicht** erfasst (Register `wissen/normen/wiki/REGISTER.md`, Inventar
-`wissen/normen/training/norm-inventar.md` — kein Treffer). Vor jeder produktiven Verwendung
-(Bauherrenpräsentation, Bewertungsformular in einem Erzeugnis) ist der aktuelle Geltungsstand über
-den Skill `normen` bzw. direkt beim SIA zu klären; siehe `wiki/QUESTIONS.md`.
+**Geltungsvorbehalt (geklärt 15.09.2026, Nachtschicht Mac Mini):** SIA-Merkblätter sind laut
+eigener Konvention nach Veröffentlichung drei Jahre gültig, verlängerbar um jeweils drei weitere
+Jahre (Sammelhinweis SIA Merkblätter, S. 2 des PDF). Der SIA-Shop führt «SIA 2017 / 2000 D —
+Erhaltungswert von Bauwerken» weiterhin im aktiven Normenwerk (nicht im Archiv), Ausgabe 2000,
+gültig ab 01.07.2000, ohne Hinweis auf Rückzug oder Nachfolgeausgabe
+(shop.sia.ch, Produkt-ID `e25b193d-8a21-4806-89a8-8bbc3dd77da0`, geprüft 15.09.2026). **Das
+Merkblatt gilt damit als aktuell in Kraft.** In `wissen/normen/` ist SIA 2017 weiterhin nicht
+erfasst (Register `wissen/normen/wiki/REGISTER.md`, Inventar
+`wissen/normen/training/norm-inventar.md` — kein Treffer, Stand 15.09.2026) — für eine
+Fundstellen-taugliche Ziffernangabe bleibt ein Vollzugriff auf das Original via Skill `normen`
+nötig, nicht nur der Geltungsstatus.
 
 ## Ablaufschema (Abschnitt 3)
 
@@ -85,7 +88,7 @@ neue Kennwerte — es ersetzt keine kantonale Schutzobjekt-Prüfung nach PBG (si
 
 ## Offene Punkte
 
-- Aktueller Geltungsstand von SIA 2017 (verlängert? ersetzt? zurückgezogen?) ungeklärt — siehe
-  `wiki/QUESTIONS.md`.
+- ~~Aktueller Geltungsstand von SIA 2017 (verlängert? ersetzt? zurückgezogen?) ungeklärt~~ —
+  **geklärt 15.09.2026: weiterhin gültig**, siehe Geltungsvorbehalt oben und `wiki/QUESTIONS.md`.
 - Das Merkblatt verweist auf Empfehlung SIA 102/1 (1984) und Norm SIA 469 «Erhaltung von
   Bauwerken» (S. 10) — beide nicht Teil dieses Korpus und nicht in `wissen/normen/` verifiziert.

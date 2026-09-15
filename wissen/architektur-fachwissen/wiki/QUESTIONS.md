@@ -498,22 +498,36 @@ aufwandbestimmenden Baukosten). `wissen/normen/destillate/sia-102-2003.md` ist m
 gute Quelle für einen künftigen `normen`-Lauf — nicht in `architektur-fachwissen`
 destilliert (Abgrenzung Norm-Original, siehe `specs/archiv-fachwissen-spec.md`).
 
-**#36 VSS SN 640 291a (Parkierungsgeometrie) nicht ausgewertet.** Norm-Original, laut Spec
+**#36 VSS SN 640 291a (Parkierungsgeometrie) nicht ausgewertet.** ~~Norm-Original, laut Spec
 nicht in dieser KB zu destillieren; ob eine methodische Parkplatz-/Garageneinfahrt-Geometrie
 bereits in `wissen/normen` oder anderswo im Hub steht, ist offen und für
-Machbarkeits-/Volumenstudien laufend relevant.
+Machbarkeits-/Volumenstudien laufend relevant.~~ **GEKLÄRT 15.09.2026 (Nachtschicht Mac
+Mini, Prioritaet 5):** ja, bereits vollständig destilliert. Die aktuell gültige Fassung ist
+`wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` (VSS 40 291:2021-12,
+`status: established`, verifiziert Q&A-Selbstbefragung); die Vorgängerausgabe
+`wissen/normen/destillate/vss-640291a-2005-parkieren-anordnung-geometrie.md` (SN 640 291a:2005)
+ist dort explizit als historisch/ersetzt markiert. Beide Destillate führen bereits einen
+Querbezug zu `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md` (Pflicht-
+Abstellplätze/Rechtsfrage getrennt von Anordnung/Geometrie). Keine Aktion nötig — nur
+gesucht, nicht gefunden war das Problem.
 
 ## 260829 — Erster Destillat-Lauf Korpus 4, Sektion `02_Denkmalpflege`
 
 Quelle: siebter Destillat-Lauf des Tages, Lane FACHWISSEN, erster Lauf für Korpus 4
 `archiv-fachwissen` nach der Spec-Stufe.
 
-**#31 Geltungsstand SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken» ungeklärt.** Ausgabe
+**#31 Geltungsstand SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken» ungeklärt.** ~~Ausgabe
 2000, laut SIA-Konvention drei Jahre gültig und verlängerbar; ob eine Verlängerung,
-Nachfolgeausgabe oder Rückzug erfolgt ist, lässt sich aus dem Korpus nicht ableiten. Das
-Merkblatt ist mit Stand 29.08.2026 nicht in `wissen/normen/` erfasst (weder Register noch
-Inventar). Zu klären über Skill `normen` bzw. direkt beim SIA, bevor der Artikel
-[[erhaltungswert-bewertung-sia-merkblatt-2017]] in einem Kundenerzeugnis verwendet wird.
+Nachfolgeausgabe oder Rückzug erfolgt ist, lässt sich aus dem Korpus nicht ableiten.~~
+**GEKLÄRT 15.09.2026 (Nachtschicht Mac Mini, Prioritaet 5, Websuche + SIA-Shop-Beleg):** das
+Merkblatt gilt weiterhin. Der SIA-Shop führt «SIA 2017 / 2000 D — Erhaltungswert von
+Bauwerken» im aktiven Normenwerk (Produkt-ID `e25b193d-8a21-4806-89a8-8bbc3dd77da0`,
+gültig ab 01.07.2000, kein Rückzugs- oder Nachfolgehinweis). Beleg und Fundstelle im
+Artikel [[erhaltungswert-bewertung-sia-merkblatt-2017]] nachgetragen. **Weiterhin offen:**
+das Merkblatt ist in `wissen/normen/` (Register, Inventar) nach wie vor nicht erfasst —
+Cross-KB-Bringschuld an `wissen/normen`, siehe dortige `wiki/QUESTIONS.md`. Für eine
+zitierfähige Ziffernangabe bleibt der Vollzugriff auf das Original über Skill `normen`
+nötig, die reine Geltungsfrage ist aber erledigt.
 
 **#32 Fünf Grundsätze der Reparatur (P2, `Prüfungsfragen Denkmalpflege Sommer 2010-2.pdf`)
 noch nicht destilliert.** Kompakte Merkform (Vorrang der Reparatur, traditionelle Methoden/

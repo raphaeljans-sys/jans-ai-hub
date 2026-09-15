@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 13:28:44
+Stand: 15.09.2026 13:39:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:27)
@@ -12,4 +12,4 @@ Stand: 15.09.2026 13:28:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7d7f28a08 nas-selfcommit: 2 Datei(en) 2026-09-15 13:15
+- bee65b160 vollgas-radar: Nachtrag 15.09. 13:32, MacBook-Doppellauf durch Raphael deaktiviert, Gegenprobe 16.09.

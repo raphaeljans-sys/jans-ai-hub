@@ -1,9 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 13:25:53
+Stand: 15.09.2026 13:36:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:14)
+- Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 13:29)
+- Developer/jans/ai/hub//claude/worktrees/amazing/meninsky/3e0f29  (letzte Aktivitaet 13:28)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:29)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +14,4 @@ Stand: 15.09.2026 13:25:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7d7f28a08 nas-selfcommit: 2 Datei(en) 2026-09-15 13:15
+- bee65b160 vollgas-radar: Nachtrag 15.09. 13:32, MacBook-Doppellauf durch Raphael deaktiviert, Gegenprobe 16.09.
