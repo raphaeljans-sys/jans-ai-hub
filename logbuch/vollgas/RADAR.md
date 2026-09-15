@@ -53,6 +53,27 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-16 01:05 — [FREI] **MacBook-Fassung, Ergänzung zum Mini-Eintrag 00:57 direkt darunter (der gilt). Hier nur, was nur das MacBook messen kann: die Registry bestätigt den Befund des Mini. Alle drei Tasks stehen hier weiterhin auf `enabled: true`.**
+
+**Registry-Beleg zur Gegenprobe.** `list_scheduled_tasks` auf dem MacBook, 16.09. 01:00: vollgas-chef-radar `enabled: true`
+(`lastRunAt` 15.09. 22:58Z = dieser Lauf, `nextRunAt` 16.09. 10:57Z), vollgas-fruehwarnung `enabled: true` (`nextRunAt` 05:14Z =
+07:14), heartbeat-daily `enabled: true` (`nextRunAt` 07:40Z = 09:40). Die Deaktivierung vom 15.09. 13:32 ist damit **für alle drei
+nicht wirksam**, nicht nur für den Radar. Frühwarnung und heartbeat werden heute also erneut doppelt laufen.
+**Hypothese, nicht belegt:** das MacBook zeigt Uptime 11:01, ist also wie der Mini am 15.09. gegen 13:57 neu gestartet, rund 25 Minuten
+nach der gemeldeten Deaktivierung. Ob der Neustart die Schalter zurückgesetzt hat oder die Deaktivierung nie gespeichert wurde, lässt
+sich von hier aus nicht unterscheiden. Ich deaktiviere weiterhin nicht selbst (Begründung Eintrag 15.09. 01:01, Ausnahmeliste).
+
+**MacBook-Messwerte.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert 29.08. 05:15) «OK», rc=0 in
+**8 s**, Watchdog nicht gebraucht, keine Waisen. Budget 12.4 % / 22.0 %, -9.6 Punkte, FREI (MacBook 15.31, Mini 5.38 Mio).
+Speicher MacBook: Druckstufe 1, 4.6 GB frei+inaktiv+purgeable (vm_stat). launchd MacBook im Sollstand (beide `vollgas-*` auf
+`.disabled-260729`). MacBook-Registry ohne gedrosselte Lern-Tasks. Liefer-Delta wie im Mini-Eintrag.
+
+**P2 (präzisiert, Aktion Raphael):** in der App auf dem MacBook alle drei Schalter erneut ausschalten (vollgas-chef-radar,
+vollgas-fruehwarnung, heartbeat-daily) und danach **die App einmal neu starten**, um zu sehen, ob der Zustand hält. Prüfbar ohne
+Transkripte: `list_scheduled_tasks` auf dem MacBook muss danach `enabled: false` zeigen.
+
+**Selbstkontrolle.** Letzter MacBook-Eintrag 15.09. 12:58, Abstand 12 h, innerhalb der Toleranz. Keine Mail (P2, kein Mailgrund).
+
 ## 2026-09-16 00:57 — [FREI] **Mini-Regellauf. Gegenprobe zum Nachtrag 15.09. 13:32 nicht bestanden: die MacBook-Fassung dieses Radars hat heute um 00:58 wieder gefeuert. Sonst ohne Befund.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink seit 15.09. 05:15) «OK», rc=0 in **4 s**, Watchdog 180 s nicht
