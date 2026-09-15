@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-09-15
 gewichtung: authentisch
-sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -141,10 +141,9 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Belege oder ein genannter Termin den Schluss tragen (drei Belege, 260909); die Nachmeldung
   nur **konditional und nur für den Kanal, der bei ihm zusammenläuft** («**Falls** Rückfragen …
   eingehen, melde ich mich unverzüglich»); liefert ein **Dritter** direkt, wird der Kanal
-  abgegeben und der Dritte benannt — «sobald» statt «falls» ist die stabilste Drift des
-  Harness (10 Belege) und stand bisher als Imperativ hier; die **mehrteilige Verfahrens-/
+  abgegeben und der Dritte benannt (nie «sobald»); die **mehrteilige Verfahrens-/
   Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand/ORT gliedern**
-  (Behörden-Dekomposition), nicht flach auflisten; **die «A) B) C)»-Form ist Raphaels LISTENFORM,
+  (Behörden-Dekomposition), nicht flach auflisten; **die «A) B) C)»-Form (Änderungsliste «A_ … M_», 260915) ist Raphaels LISTENFORM,
   kein Registersignal (260817)** — sie trägt Fragen, Traktanden
   und Befundpaare gleichermassen, fetter
   Titel je Traktandum, Unterpunkte darunter; offene Spezifikationslisten als «_ »/«–» davon
@@ -161,7 +160,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   statt Anrede, grussloser Schluss — dort **korrekt**);
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
-  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen.
+  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; nach einer **Weiterverweisung** geht derselbe Text mit neuem Namen, ohne Überleitung, an den Zuständigen: die Kette erklärt (260915).
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
@@ -178,8 +177,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Angebot; **siebte die zurückgestellte Grundfrage unter nacktem Label** («Grundsätzliche
   Fragestellung:» / «Frage:», 260824) — die wichtigste Frage steht zuunterst, weil der Sachstand
   ihr vorausgehen muss, damit sie beantwortbar ist. Das **Eigendokument endet mit dem letzten Sachpunkt**, ohne Fazit oder Ausblick.
-- **Statt einer Empfehlung liefert er die abschreibfertige Variante — und der Listen-Reflex des
-  Zwillings ist die hartnäckigste Drift dieser Facette (260806–260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
+- **Statt einer Empfehlung liefert er die abschreibfertige Variante (260806–260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
   die Wertung als beiläufige Halbzeile nach, gegenüber der Behörde in Frageform; eine so eröffnete
   Beispiel-Liste **bleibt offen** («… aufzulisten, zB.:» endet auf «- Usw.» — nie vervollständigen).
   Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
@@ -4753,3 +4751,29 @@ Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026; Gewichtung j
 - **Widerspruch markiert (→ [[stimme]]): Service-Satz, Dank vor der Sache und Anhangszeile stehen in B
   gemeinsam** — die drei Elemente, die Fidelity 260911 als Rahmen-Drift des Zwillings führte. Die
   Eingrenzung «im stehenden Thread nicht» deckt diesen Sie-Fall nicht ([[QUESTIONS]] 260915 #2).
+
+
+## Fidelity 260915 — die Kette erklaert sich selbst, und die Bitte steht nach der Liste (authentisch)
+
+Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A, Regressionstest, seit Batch 29 im Wiki), 16.02.2026 13:01 (B), 17.02.2026 16:09 (C), 15.02.2026 21:44 (D), alle `authentisch`, B–D nie ingestiert.
+
+- **⭐ Nach einer Weiterverweisung geht derselbe Text an den Zuständigen.** B ist Wort fuer Wort die
+  Mail an die zuerst angeschriebene Amtsperson von 10:13, nur «Sehr geehrte Frau Konstanzer» gegen «Sehr
+  geehrter Herr Christen» getauscht; kein «Frau Konstanzer hat mich an Sie verwiesen», kein Rueckgriff auf
+  den Kontakt vom Juli 2025, keine Beschreibung des Bauentscheids. Die weitergeleitete Kette traegt den
+  Kontext. Gold 35 W, blind 95 W (+171 %). Einzelbeleg, kompiliert, weil die Drift (Ueberleitung +
+  Kontextabsatz) die groesste Laengenabweichung dieses Laufs erzeugte.
+- **Die Freigabebitte steht als nackter Imperativ NACH der Liste** (A): «Bitte prüfe die Unterlagen und
+  gib mir eine Rückmeldung.», dann erst die Abgrenzung fix/offen und die Beispiele. Die Blindfassung zog
+  die Bitte nominal in den Liefersatz («mit der Bitte um Prüfung und Rückmeldung»), gestuetzt auf die
+  fuenfte Stufe der Bitte-Skala (Anhangs-Lieferung). Zwei Regeln konkurrierten, der Imperativ fuer das
+  laufende Mandat haette gewonnen. Nicht kompiliert (Byte); Kandidat fuer den naechsten Lauf.
+- **Das nominale Transmittal oeffnet auch die Lieferung mit Substanz** (C): «Folgend der Link für die
+  Dokumentengrundlagen der Massaufnahme:», dann Labels «Link walkthrough:» und «Schematischer Grundriss
+  Beispiel Plan download:». Die Labels traf die Blindfassung, den verblosen Opener nicht.
+- **Regressionstest A:** die Lettered-Liste «A_ … M_» und die Trennung fix/offen stehen seit Batch 29 im
+  Artikel (oben, «Lettered Aenderungs-/Anpassungsliste»). Die Trennung fix/offen traf die Blindfassung
+  (sie stand im Brief), die Lettering-Form nicht. Kompiliert als Klammer an der A)-B)-C)-Regel.
+- **Ausgelagert bei der Verdichtung (woertlich aus dem Block):** «— «sobald» statt «falls» ist die
+  stabilste Drift des Harness (10 Belege) und stand bisher als Imperativ hier» (ersetzt durch «(nie
+  «sobald»)»); «— und der Listen-Reflex des Zwillings ist die hartnäckigste Drift dieser Facette».

@@ -5,6 +5,37 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-15 (Fidelity-Review) — Anrede und Gruss an zu groben Gattungsregeln; der Service-Satz folgt der Leistungsrichtung
+
+Report `outputs/2026-09-15_fidelity.md`. **Gesamt 43** (Vorlauf 38, beide an ungesehenen Golds). Golds
+`rj@` Sent 15.02.2026 17:00 UTC (Plangrundlagen an den KISPI-Betreiber, Cc Pflegeexpertin; Regressionstest,
+seit Batch 29 im Wiki), 16.02.2026 13:01 (Terminbitte an die Denkmalpflege nach Weiterverweisung),
+17.02.2026 16:09 (Lieferung der eigenen Massaufnahme), 15.02.2026 21:44 (Quittung an eine Offerentin).
+Blindfassungen von einem getrennten Lauf mit Leck-Protokoll.
+
+**Befunde:** 1 von 4 Anreden, 0 von 4 Gruessen, keine Erfindung (vierter sauberer Lauf). «Lieferung mit
+Substanz → FG+Block, auch im Du» fiel 3:1 gegen den komma-inline Kurzgruss; «Danke und Gruss» + FG war ein
+innerer Widerspruch des Blocks und erzeugte eine doppelte Grussformel; der Service-Satz ordnet sich an
+sechs Belegen nach Leistungsrichtung (loest den Batch-120-Widerspruch); «Behörde bekannt → Geschätzte/r»,
+«operativ → Hoi» und die Senkungsregel 260910 (auf eine Offerentin uebertragen) fuehrten die Anrede fehl;
+nach einer Weiterverweisung schickt Raphael denselben Text ohne Ueberleitung (+171 % Laenge im Zwilling).
+Regressionstests bestanden: Cc nicht angeredet (2×), «Lgr» im Sie nicht auf die Offerentin uebertragen.
+
+**Geschrieben:** Do/Don't-Bloecke `wiki/stimme.md` (Sie-Default, Kurzgruss komma-inline im Du,
+Service-Satz nach Leistungsrichtung, Terminfrage mit Fragezeichen, «Danke und Gruss»-Halbsatz gestrichen),
+`wiki/beziehungsregister.md` (Thread-Antwort → Hoi / neue Mail mit Anhang → Geschätzter, Behoerde
+eingespielt/angeschrieben, Erstkontakt-Quittung senkt nicht), `wiki/arbeitsweise.md` (Weiterverweisung,
+«A_ … M_»); Verdichtungen in `wiki/denken.md`, `wiki/haltung.md`, `wiki/fachsignatur.md`. Je ein Abschnitt
+«Fidelity 260915» in allen sechs Artikeln (angehaengt, darin die woertlich ausgelagerte Beleg-Prosa);
+`sources` in den sechs Frontmattern; `wiki/QUESTIONS.md` 260915b #1-#6 + eine Spannung ohne Frage
+(fuenfte gegen zweite Bitte-Stufe). `build_dna.py` gefahren: Auto-Block **33'789 B, Reserve 211 B**
+(vorher 33'984 B); Text ausserhalb der Sentinels bytegleich (maschinell geprueft).
+Zeilenbilanz gegen die Dateikopie 05:45: stimme +58/-11, beziehungsregister +37/-5, denken +19/-4,
+haltung +18/-5, fachsignatur +15/-3, arbeitsweise +31/-7, QUESTIONS +72/-0, jans-dna-facetten +20/-29
+(Auto-Block, maschinell); jede Loeschung ist eine benannte Ersetzung im Block oder die `sources`-Zeile.
+**Methodik-Lehre:** der Nie-ingestiert-Abgleich muss Form-Marker greppen (Gold A war unter «A_» im Wiki,
+unter seinem Wortlaut nicht).
+
 ## 2026-09-15 (twin-mail-training Batch 120) — `mail@` 27.07.–09.09. nachgeholt, `rj@` 10.09. 19:57–14.09. 17:09; erstes Korrektur-Delta mit abgelegter Claude-Fassung
 
 - `raw/260915-mailbatch-120.md` neu (Detailregister, 6 Golds + 1 Korrektur-Delta, keine Volltexte);

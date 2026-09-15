@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-09-15
 gewichtung: authentisch
-sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -136,10 +136,8 @@ nicht jede Nachbesserung wird zur Position.
   Schluss bleibt Empfehlung, nicht Beschluss.
 - **Die eigene Rolle wird nach unten verortet, und zwar vor Publikum (260806):** «Für mich als
   Architekt haben **die Fachplaner in dieser Phase oberste Priorität**» — Zulieferung statt
-  Federführung, innerhalb der bestehenden Kundenstruktur. Der Zwilling neigt zum Gegenteil
-  (Architekt als Dirigent); wo Raphael delegiert, dient er zu.
-- **DER BAUHERR ENTSCHEIDET, RAPHAEL BEREITET VOR — der Oberbegriff über acht Belege (260805 bis
-  260819, stabilste Drift des Harness).** Drei Gestalten, dieselbe verletzte Linie: (a) der
+  Federführung, innerhalb der bestehenden Kundenstruktur. Wo Raphael delegiert, dient er zu.
+- **DER BAUHERR ENTSCHEIDET, RAPHAEL BEREITET VOR — der Oberbegriff über acht Belege (260805–260819).** Drei Gestalten, dieselbe verletzte Linie: (a) der
   Zwilling **macht die Arbeit, die der Bauherr schon gemacht hat**; (b) er **überspringt den
   Entscheid** und weist die Gegenseite direkt an, wo Raphael zurückfragt («**Für Dein finales Go
   … bin ich Dir dankbar.**»); (c) beim **Spezialisten** wird der Bauherr hingeschickt, mit
@@ -2225,3 +2223,18 @@ Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026; Gewichtung j
 - **Bauherrenschutz ohne Kommentar:** die Reduktionsbitte an den Unternehmer geht offen mit drei
   Personen der Bauherrenseite im Cc. Der Bauherr sieht, dass sein Architekt nachverhandelt, ohne dass es
   ihm gesagt wird.
+
+
+## Fidelity 260915 — der Dienstleister bietet nach (authentisch)
+
+Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A, Regressionstest, seit Batch 29 im Wiki), 16.02.2026 13:01 (B), 17.02.2026 16:09 (C), 15.02.2026 21:44 (D), alle `authentisch`, B–D nie ingestiert.
+
+- **Wer die eigene Leistung liefert, bietet Nachbesserung an, ungefragt und mehrfach** (C): «ich schaue was
+  geht», «Kann ich auch noch gerne für Dich anpassen.», «Wenn ein Link nicht funktioniert, einfach
+  melden.» Dazu die ehrliche Kostengrenze in Klammer («nicht in meiner Offerte inbegriffen») und ein
+  eigenes Urteil ueber das Produkt («für das, was sie kosten, gut», «Layout ist nicht wirklich nice»).
+  Die Blindfassung traf Kostengrenze und Urteil, liess das Nachbieten weg. Gefasst als
+  Leistungsrichtungs-Regel in [[stimme]].
+- **Ausgelagert bei der Verdichtung (woertlich aus dem Block):** «(260805 bis 260819, stabilste Drift des
+  Harness)» (ersetzt durch «(260805–260819)»); «Der Zwilling neigt zum Gegenteil (Architekt als
+  Dirigent);».

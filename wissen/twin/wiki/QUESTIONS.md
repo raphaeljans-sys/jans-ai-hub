@@ -6413,3 +6413,75 @@ Mehrarbeit); beim blossen technischen Hinweis Dank und Lieferung»?
 *Warum:* Sonst entschuldigt sich der Zwilling bei jeder Link-Panne, und das klingt nicht nach Dir.
 
 Status: #1-#4 **offen**.
+
+
+## 260915b — aus dem Fidelity-Review (vier Golds 15.–17.02.2026, drei davon nie ingestiert)
+
+Report: `../outputs/2026-09-15_fidelity.md`. Gesamt 43, Anrede 1 von 4, Gruss 0 von 4, keine Erfindung.
+Nachgezogen im Block: Kurzgruss komma-inline in der Du-Lieferung, Service-Satz nach Leistungsrichtung,
+Terminfrage mit Fragezeichen, «Geschätzter» fuer die neue Mail mit Anhang, «Sehr geehrte/r» fuer die nur
+angeschriebene Amtsperson und die Erstkontakt-Quittung, Weiterverweisung ohne Ueberleitung, «A_ … M_».
+
+**#1 [Stimme, Haltung] Setzt Du «Bei Fragen … stehe ich gerne zur Verfügung» immer dann, wenn Du etwas
+lieferst, und nie, wenn Du selbst etwas willst?**
+Sechs Belege passen: mit Service-Satz die Massaufnahme an Albin (17.02.2026, gleich drei Angebote), der
+Terminplan an Herrn Bajrami (11.09.2026), die Vorab-Plaene an die Denkmalpflege (10.07.2025), die
+Akonto-Erinnerung an Albin; ohne ihn die Mails an den Freelancer und an den Microsoft-Support (dort bist
+Du Auftraggeber) und Deine Terminanfragen.
+*Konkret:* Stimmt «wer von mir etwas bekommt, bekommt das Angebot; wer fuer mich arbeitet oder wen ich
+um etwas bitte, nicht»?
+*Warum:* Das ersetzt zwei Regeln, die sich widersprachen (260911 «im Thread nicht», Batch 120 «doch im
+Thread»), und beantwortet 260915 #2 gleich mit. Kompiliert ist die Lesart schon; ein Nein nimmt sie zurueck.
+
+**#2 [Beziehungsregister, Rule `anrede-kontakte`] Darf die Albin-Zeile einen Routine-Opener bekommen?**
+Die Kontaktliste sagt nur «Per Du seit Projektstart KISPI». Belegt ist: neue Mail mit Anhang, Bestellung
+oder Lieferung → «Geschätzter Albin» (23.01., 29.01., 15.02., 17.02.2026), kurze Zusage im Thread → «Hoi
+Albin» (27.01.2026).
+*Konkret:* Vorschlag fuer die Notiz: «Geschätzter Albin» bei neuer Mail mit Anhang oder Lieferung, «Hoi
+Albin» als Antwort im Thread; im Konflikt «Guten Morgen Albin,» (260911 #3).
+*Warum:* Der Zwilling liest die Kontaktliste, nicht das Wiki. Ohne Notiz griff er fuer die Lieferung vom
+17.02. zu «Hoi Albin».
+
+**#3 [Beziehungsregister, Rule `anrede-kontakte`] Herr Christen (Denkmalpflege) in die Kontaktliste?**
+Dreimal «Sehr geehrter Herr Christen» (10.07.2025, 16.02. und 18.02.2026), obwohl im Juli eine
+Teams-Besprechung angesetzt war. Bei Frau Hottinger dagegen «Geschätzte Frau Hottinger».
+*Konkret:* Ist der Unterschied, dass Du mit Frau Hottinger laufend arbeitest und mit Herrn Christen nur
+punktuell? Und darf die Zeile «Rolf Christen | Stadt Zürich, AfS Bauberatung Denkmalpflege | Wartstrasse 8
+| Sie | «Sehr geehrter Herr Christen»» lauten?
+*Warum:* Die Kategorie-Regel «Behörde bekannt → Geschätzte/r» fuehrte den Zwilling eine Stufe zu warm.
+Kompiliert ist jetzt «eingespielt → Geschätzte/r, nur früher angeschrieben → Sehr geehrte/r».
+
+**#4 [Stimme] «Bester Gruss, Raphael» und «Lieber Gruss, Raphael» — was trennt sie?**
+Am 15.02.2026 schliesst die Plan-Lieferung an Albin mit der Pflegeexpertin im Cc «Bester Gruss, Raphael»;
+zwei Tage spaeter die Massaufnahme an Albin allein «Lieber Gruss, Raphael».
+*Konkret:* Ist «Bester» die Form, wenn jemand mitliest oder die Mail eine Freigabe verlangt, und «Lieber»
+die fuer Albin allein? Oder ist es Zufall am Telefon?
+*Warum:* Im Block steht jetzt «Lieber/Bester Gruss, Raphael» als eine Stufe. Mit einer Antwort wird daraus
+eine Regel statt einer Wahl.
+
+**#5 [Arbeitsweise] Wenn Dich ein Amt weiterverweist, schickst Du denselben Text unveraendert weiter —
+Absicht?**
+Am 16.02.2026 ging an Herrn Christen Wort fuer Wort die Mail, die Frau Konstanzer drei Stunden vorher
+bekommen hatte, nur mit getauschtem Namen; kein Satz zur Weiterverweisung.
+*Konkret:* Ist das Deine Regel («die Kette darunter erklaert es»), oder war es die schnelle Loesung am
+Telefon, und am Rechner wuerdest Du einen Satz dazuschreiben?
+*Warum:* Kompiliert ist die erste Lesart; der Zwilling hatte 60 Woerter Ueberleitung dazugeschrieben.
+
+**#6 [Stimme] Die Ein-Satz-Antwort im Sie: «Freundliche Grüsse» ohne Namen oder «Raphael Jans» ohne Gruss?**
+Am 15.02.2026 an die Schreinerei: «Sehr geehrte Frau Gasser / Besten Dank. / Freundliche Grüsse» — kein
+Name. Kompiliert ist seit 10.09.2026 die Kurzsignatur «Raphael Jans» ohne Block, «auch im Sie und vor der
+Behörde».
+*Konkret:* Haengt das an der App (iPhone-Mail setzt keinen Namen, Outlook mobile den Block) oder waehlst Du?
+*Warum:* Zwei kompilierte Regeln sagen fuer denselben Fall Verschiedenes; die Antwort entscheidet, ob der
+Zwilling den Namen setzt oder den Gruss.
+
+**Spannung ohne Frage an Raphael (vom Chef zu loesen, nicht kompiliert):** die fuenfte, nominale Stufe der
+Bitte-Skala (Anhangs-Lieferung, «… mit der Bitte um Durchsicht») und die zweite Stufe (laufendes Mandat,
+nackter Imperativ «Bitte prüfe … und …») greifen beide bei der Planlieferung im Mandat. Gold A 15.02.2026
+nimmt den Imperativ, nach der Liste. Kandidat fuer den naechsten Lauf: «steht zwischen Lieferung und Bitte
+eine Liste, kommt die Bitte als Imperativ danach».
+
+**Nachtrag zu 260915 #2 (Service-Satz im Sie-Thread):** durch #1 oben voraussichtlich mitbeantwortet;
+Frage bleibt offen, bis Raphael #1 bestaetigt.
+
+Status: #1-#6 **offen**.

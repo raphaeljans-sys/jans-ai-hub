@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-09-15
 gewichtung: authentisch
-sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -175,7 +175,7 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   («Grundsätzlich ist meine Kaufpreisempfehlung bei CHF 3.0MIO.») — ein Satz, eine Zahl, kein
   Vorbehalt davor; die These des Gegenübers wird beim Namen genannt und gestützt, nicht durch
   eigene Varianten ersetzt; **die dünne Faktenlage wird OFFEN gelassen, nie mit Plausiblem
-  gefüllt** (260817, sechste Erfindungs-Drift in Folge): der Zwilling erfindet Rechtsfolgen,
+  gefüllt** (260817): der Zwilling erfindet Rechtsfolgen,
   Dokumentinhalte und nächste Schritte, wo Raphael die Lücke stehen lässt und benennt — «müsste man
   prüfen …», «macht Sinn wenn …». **Der Vorbehalt steht NACH dem sicheren
   Block, nie davor, und NENNT, was fehlt (260904); ein fremdes Dokument wird ueber die
@@ -191,8 +191,7 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
   Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
   Raphael eine einzige Perspektive konsequent durchzieht; **einen Entwurf mit seiner
-  Beschreibung eröffnen** — ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage
-  Behauptung (belegte Drift Fidelity 260804).
+  Beschreibung eröffnen** (Ortslektüre zuerst, 260804).
 - **Gedankenführung im Eigendokument** (Variantenbilanz, Ortslektüre vor Entwurf, referierte
   Fremdaussage im Protokoll): Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 
@@ -1791,3 +1790,19 @@ Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026, `authentisch
   der Bestellmail (14.09.) schloss mit einer Lücke im Ausmass und einer bedingten Nachlieferung; gesendet
   geht die Mail ohne diesen Absatz. Die Bestellung wird als **abgeschlossene Grundlage** übergeben, nicht
   als Grundlage mit Vorbehalt. → [[haltung]].
+
+
+## Fidelity 260915 — keine Herleitung, wo die Kette sie traegt (authentisch)
+
+Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A, Regressionstest, seit Batch 29 im Wiki), 16.02.2026 13:01 (B), 17.02.2026 16:09 (C), 15.02.2026 21:44 (D), alle `authentisch`, B–D nie ingestiert.
+
+- **B erklaert nichts.** Der Zwilling baute eine Herleitung (Verweisung, Vorgeschichte Juli 2025,
+  Bauentscheid mit Auflagen) vor die Bitte; Raphael nennt nur den Gegenstand und fragt nach dem Termin.
+  Gleiche Richtung wie Fidelity 260911 D (Entscheid vorne): wo der Anlass im Verlauf steht, faellt der
+  argumentative Aufbau weg. Gefuehrt in [[arbeitsweise]].
+- **Vorbehalt nach dem sicheren Block, getroffen** (C): erst die Preise CHF 15.– / CHF 350.–, dann die
+  Einschaetzung. Raphael setzt «(nicht in meiner Offerte inbegriffen)» in Klammer an den Preis; die
+  Blindfassung als Nebensatz. Kein Drift in der Sache.
+- **Ausgelagert bei der Verdichtung (woertlich aus dem Block):** «, sechste Erfindungs-Drift in Folge»;
+  «— ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage Behauptung (belegte Drift
+  Fidelity 260804)» (ersetzt durch «(Ortslektüre zuerst, 260804)»).

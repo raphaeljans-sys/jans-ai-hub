@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-09-15
 gewichtung: authentisch
-sources: [../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -48,13 +48,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 
 ## Do / Don't für den Zwilling
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
-  warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler
-  (260813–260819); FG+Block ist der Default, auch im Du und bei vier
-  Zeilen:** operative Zwischenfrage/Nachtrag im stehenden Thread →
-  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, auch im Sie an Werkplaner/Support, 260911), gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
-  **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
+  warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler; FG+Block ist der
+  Sie-Default:** operative Zwischenfrage/Nachtrag im stehenden Thread →
+  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, auch im Sie an Werkplaner/Support, 260911), gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz im Du → «Lieber/Bester Gruss, Raphael» auf einer Zeile über dem Block (260915, 3:1); Sie oder Behörde als
+  **Adressat** → FG+Block. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt.** **Im Zweifel setzen, im stehenden Thread nicht (260911).** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread; nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915).** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet.
@@ -84,7 +83,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   das blosse Durchstellen einer fremden Lieferung trägt NUR «zur Info» — keine Anrede, kein
   Gruss, kein Block, auch im Sie (260730/260910).
   **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
-  BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909):** die
+  BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909), auch die Terminfrage «Wann hätten Sie Zeit …?» (260915):** die
   «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
   EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
@@ -106,9 +105,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Sie** …» (nackter Indikativ: der Druck stammt von der Bauherrschaft), dann «Danke für Ihre
   Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» Der Nachlass wird als Total
   beziffert («-8%tot»), nie umschrieben.
-- **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
-  Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
-  Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
+- **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
   wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
@@ -5906,3 +5903,53 @@ Quelle `raw/260915-mailbatch-120.md`, Belege 05.09. bis 14.09.2026; Gewichtung j
   Reduktion»). Bullets sind Gold, wenn sie eine Liste von Dingen tragen (vgl. Batch 119 Befund 9).
 - **Fehlerdichte rund 3.1 je 100 W** gegen 0 im Kontrollstück (fünfter Vergleich in Folge). Neue Slips:
   «Besen Dank», «weiter arbeiten», Komma-Satzbruch mit Grossschreibung («Terminplan, / Im Speziellen»).
+
+
+## Fidelity 260915 — Kurzgruss in der Du-Lieferung, Service-Satz nach Leistungsrichtung, Terminfrage mit Fragezeichen (authentisch)
+
+Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A, Regressionstest, seit Batch 29 im Wiki), 16.02.2026 13:01 (B), 17.02.2026 16:09 (C), 15.02.2026 21:44 (D), alle `authentisch`, B–D nie ingestiert.
+
+- **Die Du-Lieferung mit Substanz schliesst komma-inline, nicht mit FG.** A (Plangrundlagen, 13 Punkte,
+  Freigabebitte): «**Bester Gruss, Raphael**» + Mobilblock. C (Massaufnahme, drei Links, Excel):
+  «**Lieber Gruss, Raphael**» + Mobilblock. Dazu 08.02.2026 (Bauherrin, eigene Rechnung, [[QUESTIONS]]
+  260826b #2). Gegenbeleg: Bopp 16.06.2026 (FG + voller Block). Stand 3:1 an ungesehenen bzw. neuen
+  Golds, zusammen mit «Lgr» vom 23.08.2025 (Fidelity 260911) vier Du-Lieferungen ohne FG. Die Blindfassung
+  setzte zweimal FG nach «Lieferung mit Substanz → FG+Block, auch ohne Mitleser». Im Block ersetzt.
+  «Bester Gruss, Raphael» ist als Form neu (bisher nur «Bester Gruss» im Peer-Du).
+- **Die Mobilsignatur beginnt nicht mit FG.** Outlook mobile setzt «RAPHAEL JANS Founder I MD / MSc ETH I
+  SIA I rj@… / 0041 79 846 11 65 / -- / Raphael Jans I Architekten ETH I SIA / Grubenstrasse 37 …». Wer
+  dort FG will, tippt es (15.02.2026 13:25, Fidelity 260911). Die iPhone-Mail-App (B, D) hat keinen
+  Block: B schliesst «Freundliche Grüsse / Raphael Jans», D nur «Freundliche Grüsse». Stuetzt die Lesart
+  von [[QUESTIONS]] 260824b #1: das FG der Desktop-Signatur beweist keinen Entscheid.
+- **Die doppelte Grussformel war ein Artefakt des Blocks.** Blind B schrieb «Danke und Gruss» UND
+  «Freundliche Grüsse», weil der Block beides verlangte («in der Sie-Behördenmail als «Danke und Gruss»
+  davor» neben «FG+Block»). Der Satz widersprach zudem dem Block selbst (««Danke und Gruss» … hängt an der
+  Gattung (Bitte um Nacharbeit), nicht am Sie-Behördenregister»). Gestrichen, woertlich: «, in der
+  Sie-Behördenmail als «Danke und Gruss» davor».
+- **⭐ Der Service-Satz folgt der Leistungsrichtung (Lesart an sechs Belegen).** C stapelt drei Angebote:
+  «Gib mir doch Bescheid, was genau du noch brauchst, ich schaue was geht.», «Kann ich auch noch gerne
+  für Dich anpassen.», «Wenn ein Link nicht funktioniert, einfach melden.» Die Blindfassung liess alle
+  weg («Ein kanaloffener Schluss verdrängt ihn ganz»). Belege MIT Service-Satz: C (eigene Massaufnahme an
+  den Kunden), Bajrami 11.09.2026 (Terminplan an den Unternehmer, im Thread, Batch 120), Christen
+  10.07.2025 (Vorab-Plaene an die Denkmalpflege, «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit
+  gerne zur Verfügung»), Akonto-Erinnerung an Albin ([[beziehungsregister]]). OHNE: Freelancer 23.08.2025
+  und Support 08.07.2025 (Raphael ist Auftraggeber), Terminanfrage 15.02.2026 und B (Raphael bittet).
+  Loest den Widerspruch aus Batch 120 ohne Registergrenze. Kompiliert; Bestaetigung [[QUESTIONS]] 260915b #1.
+  Ersetzt, woertlich: «**Der Service-Satz ist NICHT trennscharf geregelt.** **Im Zweifel setzen, im
+  stehenden Thread nicht (260911).**»
+- **Die Terminanfrage ist eine Sachfrage mit Fragezeichen.** B: «Gerne würde ich mit Ihnen … besprechen. /
+  Wann hätten Sie Zeit für eine Besprechung?» Zweiter Beleg: [[arbeitsweise]] («Wann hätten Sie Zeit?»,
+  Konzeptbooklet an die Fachstellen). Blind: «Darf ich Sie um einen Termin bitten, …» auf Punkt. Kompiliert
+  am Fragezeichen-Satz.
+- **Saloppes Du auch gegenueber dem Kunden** (C, an den Betreiber-Vertreter): «Das ist jetzt mal was …»,
+  «Layout ist nicht wirklich nice.», «es kommt draufan». Der Block erlaubt das nur im Peer-Du. Einzelbeleg,
+  nicht kompiliert.
+- **Lettered-Liste «A_ … M_» nicht abgerufen** (A, Regressionstest). Seit Batch 29 im Artikel (oben,
+  «Lettered Bullet-Typografie»), nie im Block; die Blindfassung setzte schlichte «_ ». Jetzt als Halbsatz
+  in [[arbeitsweise]] kompiliert. Ebenso verfehlt: «Beispiele:» als Label mit «_ »-Saetzen darunter (die
+  Blindfassung zog sie in den Fliesstext, begruendet mit der Anti-Vereinheitlichungsregel).
+- **Ausgelagert bei der Verdichtung (woertlich aus dem Block):** «(260813–260819); FG+Block ist der
+  Default, auch im Du und bei vier Zeilen:» (ersetzt durch «FG+Block ist der Sie-Default:»);
+  «Lieferung mit Substanz → FG+Block, auch ohne Mitleser;» (ersetzt); im Don't: «Emoji oder Mundart
+  ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail: Hochdeutsch);»
+  — die Regel steht unveraendert im Do («Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung»).
