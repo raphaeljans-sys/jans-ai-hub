@@ -4482,3 +4482,71 @@ nicht aus dem Korpus. Der defekte `inventar.sh`-Pfad und die Vorlage (a) bis (c)
 beim Radar (P2).
 
 Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
+
+## 2026-09-15, 06:30 CEST — Rohmessung (Mac Mini; Bewertung folgt unten im selben Block)
+
+Lücke: Die Läufe vom 13.09. und 14.09. sind am OAuth-Latch der Mini-App gescheitert (RADAR.md 15.09. 00:58, main.log
+`session_stale_relogin`). Kein Eintrag für diese beiden Tage, die Werte sind unten nachgemessen.
+
+Verbrauch teuer/total in Mio (rekursiv inkl. Subagenten, Zeilenfilter nach timestamp[:10], Dedupe message.id+requestId):
+Mac Mini (lokal, 167 Dateien): 15.09. 0.69/18.31 (Tag läuft) · 14.09. 2.23/56.99 · 13.09. 0.86/28.97 · 12.09. 1.39/38.43 ·
+11.09. 2.97/84.58 · 10.09. 1.27/48.54 · 09.09. 1.17/42.49 · 08.09. 3.23/77.38.
+MacBook Pro (`ssh macbook`, 680 Dateien): 15.09. 1.74/40.47 (Tag läuft) · 14.09. 6.54/243.16 · 13.09. 0.00/0.00 ·
+12.09. 0.00/0.00 · 11.09. 4.24/98.08 · 10.09. 9.10/227.37 · 09.09. 7.35/173.72 · 08.09. 7.02/144.98.
+Beide Stationen teuer zusammen: 15.09. 2.43 (läuft) · 14.09. 8.77 · 13.09. 0.86 · 12.09. 1.39 · 11.09. 7.21 · 10.09. 10.37.
+
+Blockade: 0 echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h auf beiden Stationen (strukturell). Kein
+5-Stunden-, kein Wochenlimit.
+Speicher Mac Mini: Druckstufe 1, 13.4 GB frei+inaktiv+purgeable (vm_stat).
+
+**Bewertung: keines der sieben Meldekriterien erreicht, daher keine Mail.**
+
+(a) Kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop, auf keiner Station.
+(b) Höchster Tageswert beider Stationen zusammen im Fenster: 10.37 Mio am 10.09.; der 14.09. schliesst mit 8.77 Mio. Weder
+die 35er-Tages- noch die 18er-Doppeltagesschwelle ist berührt. Der 12. und 13.09. sind ausfallbedingt tief (MacBook 0.00,
+App abgemeldet). (c) Kein erschöpftes Wochenkontingent: `kontingent-budget.sh --json` um 06:4x 6.4 % von 167 Mio bei 11.1 %
+verstrichener Woche, Vorsprung -4.7 Punkte, Ampel FREI.
+(d) Keine operative Briefing-Session ist abgebrochen. Vom 12. bis 14.09. gab es aber gar keine: alle vier Briefings sind auf
+dem MacBook am OAuth-Latch gescheitert, bevor eine Session entstand (letzte Sessions per `ssh macbook`: logbuch-radar
+11.09. 04:55Z, hub-chef-taeglich 11.09. 06:39Z, mahnwesen-verzugscheck 11.09. 06:05Z, zahlungsabgleich-check 11.09. 06:23Z,
+alle vollständig). Das ist derselbe Befund, den der Radar am 12.09. um 13:01 gemailt hat; Raphael hat ihn am 14.09. um 13:59
+selbst behoben. Deshalb keine Wiederholungsmail. Zum Messzeitpunkt 06:30 ist noch keiner der heutigen Läufe fällig
+(logbuch-radar 06:55, hub-chef 08:39). Ob sie wieder liefern, prüft der nächste Lauf.
+(e) Der Radar-Herzschlag ist frisch: erste `## `-Überschrift in RADAR.md vom 15.09. 01:01 (MacBook-Fassung) bzw. 00:58
+(Mini); die Mini-Session `e4138fc9` begann am 14.09. um 22:57Z, 5.5 h alt. Kontrollprobe Opener: `scheduled-task` steht in
+48 von 51 Mini-Kopfbereichen und in 97 von 103 MacBook-Kopfbereichen, das Muster greift.
+(f) Kein Aufwand ohne Wissenszuwachs, siehe Destillat-Zeile. (g) Die Queue ist nicht komplett. Für alle vier Korpora liegt
+eine Spec vor, das Spec-Gate hängt nicht.
+
+**Doppellauf (bekannt, kein Meldegrund):** Die MacBook-Fassung dieser Frühwarnung steht laut Radar 15.09. 01:01 in der
+MacBook-Registry auf `enabled: true` (`10 7`). Feuert sie heute um 07:10, steht direkt unter diesem Block ein zweiter
+Eintrag. Die Aktion liegt bei Raphael (die drei Tasks in der App auf dem MacBook deaktivieren, RADAR.md 15.09.).
+
+Liefer-Delta über git im SSD-Spiegel (Kopf `bb07f14c9`, 06:15), nicht über mtime. Wiki-Artikel je Tag (ohne INDEX/QUESTIONS):
+12.09. 2 (energie 2) · 13.09. 1 (energie 1) · 14.09. 11 (architektur-fachwissen 3, energie 3, auflagebereinigung,
+baurecht, immobilienbewertung, normen, planungsgrundlagen je 1) · 15.09. bis 06:15 10 (ohne Twin-Facetten 4: baurecht 2,
+energie 1, normen 1).
+Nachtschicht Mac Mini (Lauf-Journal, Loop `dispatch-versuch1`): 12., 13. und 14.09. je vier Läufe, 15.09. bisher zwei, alle
+rc=0, 1.09 bis 3.90 USD, 13 bis 61 Turns. Der Mittags-Slot 13:30 lief an allen drei Tagen; am 13. und 14.09. hat er nur den
+Latch-P1 im Register nachgetragen (Deliverable Register, kein Wiki). Einzelner Delta-Null-Lauf: 14.09. 05:35 («keine
+tragfähigen Lücken», Priorität 6 erreicht, keine Datei geändert). Keine Serie, aber das Signal, dass die Prioritätenliste der
+Nachtschicht sich leert (15.09. 05:37: energie vollständig destilliert, gearbeitet wurde an einer Cross-KB-Übergabe).
+Hinweis an den Radar, kein Handlungsbedarf.
+Lauf-Gate Mini: letzte Zeile im Gate-Log ist vom 31.08. 13:30. Das ist so gewollt, nicht stumm: `lauf-gate.sh` Z. 221
+schreibt eine Freigabe nur, wenn es eng war; Abweisungen schreibt es immer. Gegenprobe 06:4x: rc=0, 12'996 MB verfügbar,
+keine Zeile, wie vorgesehen. Die Aussage «seit 31.08. keine Abweisung» gilt damit belegt.
+Stückkosten, teurer Verbrauch beider Stationen je Artikel: 12.09. 0.70 Mio · 13.09. 0.86 Mio · 14.09. 0.80 Mio (ohne Twin
+gleich) · 15.09. (Tag läuft) 0.24 Mio (ohne Twin 0.61 Mio).
+
+Destillat: Korpus `archiv-fachwissen` → Ziel-KB `architektur-fachwissen`. Die Spec liegt vor, die Queue ist NICHT komplett.
+(a) Der Fortschritt ist weiterhin UNMESSBAR. `inventar.sh archiv-fachwissen --stand` sucht noch immer die zwei Dateien unter
+`skills/wissens-destillat/training/`; vorhanden sind 20 Sektionsdateien unter `wissen/architektur-fachwissen/raw/inventar/`.
+(b) Ertrag: 481 Artikel ohne INDEX/QUESTIONS (483 Dateien insgesamt; der Wert «483» vom 12.09. zählte die beiden mit, also
+kein Rückgang). Status: 1 established, 290 emerging, 191 speculative, unverändert. Seit 12.09. kein neuer Artikel; am 14.09.
+drei bestehende erweitert (Semper-Biografie, Sauter/Klassizismus, Baumschutz Stadt Zürich), jüngstes mtime 14.09. 23:27.
+Die Korpus-Front steht weiter.
+(c) Delta-Null-Serie unverändert: zwei outputs-Reports (23.08., 01.09.), keiner mit Delta Null.
+(d) Kriterium (f) trifft nicht zu: die Nachtschicht liefert Artikel, nur nicht aus dem Korpus. Der defekte
+`inventar.sh`-Pfad bleibt beim Radar (P2).
+
+Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
