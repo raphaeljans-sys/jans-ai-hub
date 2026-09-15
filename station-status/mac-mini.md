@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 07:08:10
+Stand: 15.09.2026 07:28:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:51)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 07:08:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b8b3bf169 logbuch-radar 15.09.: Briefing nach App-Lücke 12.-14.09., Register 1 erledigt, 4 neu, 2 Nachträge; Ausnahme-Mail an rj@ 07:04
+- e5c39994b vollgas-fruehwarnung 15.09. (MacBook-Fassung): Doppellauf-Kurzergänzung, logbuch-radar geliefert, keine Mail
