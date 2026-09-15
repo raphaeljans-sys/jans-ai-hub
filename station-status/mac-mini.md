@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 07:39:02
+Stand: 15.09.2026 07:59:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.09.2026 07:39:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1f0d056a4 nas-selfcommit: 4 Datei(en) 2026-09-15 07:30
+- 14c81d226 ag-gruendung-monitor 15.09. (07:30): P1-BLOCKER bestätigt, 32 Tage überdue, keine neuen Mails seit 31.08.
