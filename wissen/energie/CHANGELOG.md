@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-15 (Run 198, Nachtschicht Mac Mini 05:30) — Cross-KB-Übergabe aus `wissen/baurecht` (Buch-Run 143) kompiliert
+
+Neuer Wiki-Artikel [[eng-revision-2026-solarwind-nationales-interesse]]: EnG-Änderung vom
+26.9.2025 (AS 2026 99), in Kraft seit 1.4.2026 — Art. 14a EnG neu (kantonales konzentriertes
+Plangenehmigungsverfahren für Solar-/Windanlagen von nationalem Interesse), Art. 10 Abs.
+1quater/2/3, Art. 13 Abs. 3 aufgehoben; Spiegel im RPG (Art. 8 Abs. 2/4, Art. 18b) bleibt
+führend bei `wissen/baurecht`. Für JANS-Standardprojekte ohne direkte Wirkung (kein
+nationales Interesse), Bezug nur bei Grossanlagen. Beide übergebenen Punkte
+`wissen/baurecht/wiki/QUESTIONS.md`-Familie E-B143-1/E-B143-2 in `wissen/energie/wiki/
+QUESTIONS.md` als erledigt markiert; E-B143-2 (Werkzeug-Risiko Fedlex-Konsolidierung) geprüft
+— kein Destillat dieser KB zitiert die betroffenen EnG-Artikel, Warnhinweis im neuen Artikel
+hinterlegt für künftige Destillate. INDEX.md ergänzt. Kein PDF-Transfer in diesem Lauf (reine
+Kompilations-/Registerarbeit). Budget ca. 2.3 von 5 USD.
+
 ## 2026-09-15 (Run 197, Nachtschicht Mac Mini) — Pruefwarteschlange Schritte 1/2/4 sauber, ein Kandidat gegengelesen
 
 Kein PDF-Transfer (Inventar seit Run 65 erschoepft). `wiki-konsistenz.sh` und

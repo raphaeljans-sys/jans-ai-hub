@@ -9219,7 +9219,12 @@ in `raw/` (Web-Erhebung, wie beim Vorlauf Run 165 gehandhabt).
 
 ## Übergabe aus `wissen/baurecht` (Buch-Run 143, 14./15.09.2026) — EnG-Änderung vom 26.9.2025 in Kraft seit 1.4.2026
 
-- [ ] **E-B143-1 (P2): EnG-Änderung vom 26.9.2025 (AS 2026 99, Botschaft BBl 2023 1602) ist seit
+- [x] **E-B143-1 (P2) — GESCHLOSSEN 15.09.2026 (Nachtschicht Mac Mini):** kompiliert in
+  [[eng-revision-2026-solarwind-nationales-interesse]], INDEX ergänzt. Die unten nicht
+  geprüften Punkte (übrige EnG-Artikel, Übergangsrecht, ZH/SZ-Umsetzung von Art. 14a) bleiben
+  im neuen Artikel unter «Offen» stehen, führend bliebe `wissen/baurecht`.
+
+  EnG-Änderung vom 26.9.2025 (AS 2026 99, Botschaft BBl 2023 1602) ist seit
   1.4.2026 in Kraft und in dieser KB nicht erfasst.** Gelesen am amtlichen AS-PDF (Fedlex
   `eli/oc/2026/99`, 304'098 Byte): EnG **Art. 10 Abs. 1quater, 2, 3** (keine projektbezogene
   Richtplanfestsetzung für Solar-/Windanlagen von nationalem Interesse in den Eignungsgebieten;
@@ -9232,9 +9237,14 @@ in `raw/` (Web-Erhebung, wie beim Vorlauf Run 165 gehandhabt).
   Nicht geprüft: die übrigen EnG-Artikel des Erlasses, Übergangsrecht, ob ZH/SZ Art. 14a bereits
   umgesetzt haben. Anhang Ziff. 2 ändert das **RPG** (Art. 8 Abs. 2 zweiter Satz, neuer Abs. 4,
   Art. 18b Wasserkraftwerke) — dort in `wissen/baurecht` erfasst.
-- [ ] **E-B143-2 (P2, Werkzeug): die Fedlex-Konsolidierung des RPG «Stand 1.7.2026» enthält die
-  Änderung vom 1.4.2026 nicht mehr** (Art. 8 Abs. 2 ohne zweiten Satz, Art. 18b fehlt, kein
-  Aufhebungsvermerk). Wer RPG-Energieartikel nach dem jüngsten Snapshot zitiert, verliert eine in Kraft
-  stehende Norm. Gleiches Risiko für das EnG selbst prüfen: den EnG-Snapshot nach 1.4.2026 gegen
-  AS 2026 99 diffen, bevor Art. 10/14a EnG aus der Konsolidierung zitiert werden.
+- [x] **E-B143-2 (P2, Werkzeug) — GEPRÜFT UND GESCHLOSSEN 15.09.2026 (Nachtschicht Mac Mini):**
+  die Fedlex-Konsolidierung des RPG «Stand 1.7.2026» enthält die Änderung vom 1.4.2026 nicht
+  mehr (Art. 8 Abs. 2 ohne zweiten Satz, Art. 18b fehlt, kein Aufhebungsvermerk) — wer
+  RPG-Energieartikel nach dem jüngsten Snapshot zitiert, verliert eine in Kraft stehende Norm.
+  **Gleiches Risiko für das EnG in dieser KB geprüft:** kein Destillat unter
+  `wissen/energie/destillate/` zitiert Art. 10, 13 oder 14a EnG im Sinn der
+  Richtplanpflicht/Plangenehmigungsverfahren für Anlagen von nationalem Interesse — die
+  konkrete Gefahr eines veralteten EnG-Zitats besteht in dieser KB aktuell nicht. Warnhinweis
+  für künftige Destillate im neuen Artikel [[eng-revision-2026-solarwind-nationales-interesse]]
+  hinterlegt.
   Beleg: `wissen/baurecht/raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 3.

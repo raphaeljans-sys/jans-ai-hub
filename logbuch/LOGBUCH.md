@@ -12872,3 +12872,22 @@ Bericht `wissen/energie/outputs/2026-09-15_energie-run197.md`, CHANGELOG ergaenz
 Budget rund 2.7 von 5 USD (Recherche der freien Prioritaet-4-Ziele ueber mehrere
 Kandidaten-KBs, Haiku-Subagent fuer Fristen-Sichtung). Zyklus sauber beendet, kein
 Wiki-Artikel inhaltlich geaendert.
+
+## 2026-09-15, 05:30-Slot (Nachtschicht-Zyklus Mac Mini)
+
+Prioritaeten 1-2 leer/aktuell (keine pending/sync-tasks; Synobsis Stufe 2 seit 08.09.
+aktuell). Prioritaet 3 ungeaendert seit dem 02:36-Lauf, keine neue Pruefung noetig.
+Prioritaet 4 fuer `energie` bereits im 02:36-Lauf mit Delta abgedeckt (Run 197); die
+uebrigen designierten freien Ziele (bauprodukte, grobkosten) sind formal erledigt/pausiert
+und bei genauerer Pruefung von `bauprodukte` bestaetigt (ERCO-Ratgeber laut
+`skills/wissens-destillat/training/bauprodukte-inventar.md` bereits am 14.08.2026
+vollstaendig in drei Teilen destilliert — die in `wiki/QUESTIONS.md` Punkt 4 gefuehrte
+Fortschrittsangabe war veraltet). Darum Prioritaet 5: die frische Cross-KB-Uebergabe aus
+`wissen/baurecht` (Buch-Run 143, 14./15.09.2026) in `wissen/energie/wiki/QUESTIONS.md`
+kompiliert — neuer Artikel [[eng-revision-2026-solarwind-nationales-interesse]] (EnG-Aenderung
+vom 26.9.2025, in Kraft seit 1.4.2026, Art. 14a EnG neu). Beide uebergebenen Punkte
+E-B143-1/E-B143-2 geschlossen, INDEX.md und CHANGELOG (Run 198) nachgefuehrt; das
+Werkzeug-Risiko (veraltete Fedlex-RPG-Konsolidierung) fuer `energie` geprueft — kein
+Destillat dieser KB betroffen.
+
+Budget rund 2.3 von 5 USD. Zyklus sauber beendet, additive Aenderungen, keine Loeschungen.
