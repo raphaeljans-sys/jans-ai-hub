@@ -1,8 +1,8 @@
 ---
 title: Profil Christoph Bopp
 status: emerging
-last_updated: 2026-09-03
-sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21, Projektordner 2412 Ebmatingen und 2513 BAAR (Dateisystem-Verifikation 2026-08-24)]
+last_updated: 2026-09-15
+sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21, Projektordner 2412 Ebmatingen und 2513 BAAR (Dateisystem-Verifikation 2026-08-24), lokale .emlx-Volltextsuche Romanshorn-Thread 09/2025 (2026-09-15)]
 links: [[projekt-giebelweg12]], [[auftrags-muster-bopp]] (geplant), [[zusammenarbeit-lessons-bopp]] (geplant)
 ---
 
@@ -14,7 +14,7 @@ verschiedenen Rollen/Eigentümerschaften auf — bei jedem Projekt klären, in w
 | Absender | Rolle / Kontext (verifiziert 2026-07-20) | Beispiel-Projekte |
 |---|---|---|
 | `christoph.bopp@woma-maur.ch` | **Wohnbau-Genossenschaft Maur (WOMA)** — Genossenschaft, UID CHE-103.976.168, Sitz Binz. Vorstandsmitglied, Ressort **«Liegenschaften» + Vizepräsident** (seit 2013 im Vorstand) | STWEG Ebmatingen Zürichstrasse 113/115 |
-| `christoph.bopp@novaproperty.ch` | **Nova Property Fund Management AG** — UID CHE-403.795.970, Sitz Freienbach/Pfäffikon SZ. **«Head Development & Construction», erweiterte Geschäftsleitung** (seit 2021; davor 2010–2021 Projektleiter/Leiter Projektmanagement Region Nordost bei Losinger Marazzi AG) | TDD Baar Zugerstrasse 49; STWEG Romanshorn Hafenstrasse 46 |
+| `christoph.bopp@novaproperty.ch` | **Nova Property Fund Management AG** — UID CHE-403.795.970, Sitz Freienbach/Pfäffikon SZ. **«Head Development & Construction», erweiterte Geschäftsleitung** (seit 2021; davor 2010–2021 Projektleiter/Leiter Projektmanagement Region Nordost bei Losinger Marazzi AG) | TDD Baar Zugerstrasse 49; STWEG Romanshorn Hafenstrasse 46 (JANS-Rolle unklar, siehe unten) |
 | `christoph.bopp@bluewin.ch` | privat / persönlich | Giebelweg 12, 8135 Langnau a/A (eigenes Grundstück) |
 
 **Qualifikation (Quelle novaproperty.ch/team):** dipl. Bauingenieur FH, Immobilienschätzer
@@ -50,7 +50,11 @@ Siehe [[auftrags-muster-bopp]] (geplant, noch nicht ausformuliert — der Inhalt
 1. **Stockwerkeigentum (STWEG)** — Begründung, Wertquoten, Aufteilungsplan, Reglement →
    Skill `stockwerkeigentum`. Sein **häufigstes** Thema (Ebmatingen 113/115: Notariatstermin
    15.12.2025, Schlusslieferung Teilungspläne + Wertquotenberechnung beider Liegenschaften
-   18.12.2025, verifiziert 24.08.2026; Romanshorn Hafenstrasse 46).
+   18.12.2025, verifiziert 24.08.2026; Romanshorn Hafenstrasse 46 — **kein gesichertes
+   JANS-Mandat**, siehe [[QUESTIONS]] Archiv 15.09.2026: Mail-Thread 09/2025 zur
+   Steigleitungs-Koordination OG4/OG5, Raphael fragte selbst nach, ob eine Mail für ihn
+   bestimmt sei, Bopps Antwort «Bitte löschen» — eher Cc auf interner STWEG-/TU-Koordination
+   als eigener Auftrag).
 2. **Technische Due Diligence / Ankaufsprüfung (TDD)** — Liegenschaft vor Kauf beurteilen →
    Skill `ankaufspruefung` (Baar Zugerstrasse 49, Hochhaus, Ankaufsprüfung 06/2025, letztes
    Dokument im Projektordner die Honorarschlussrechnung vom 08.07.2025 — der Kaufentscheid

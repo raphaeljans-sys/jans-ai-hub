@@ -12993,3 +12993,35 @@ nicht geloescht; CHANGELOG von `architektur-fachwissen` nachgefuehrt.
 Budget rund 3.0 von 5 USD (laengere Orchestrierungsphase ueber alle Prioritaeten, da
 mehrere KBs einzeln auf ihren Status geprueft werden mussten). Zyklus sauber beendet,
 additive Aenderungen, keine Loeschungen.
+
+## 2026-09-15, 23:40-Slot (Nachtschicht-Zyklus Mac Mini)
+
+Prioritaeten 1-2 leer/aktuell: keine pending remote-tasks/sync-tasks; Synobsis Stufe 2
+gegengemessen (`vectors.npz` 853x768 deckungsgleich mit `documents.jsonl`, Scan 853/853
+gesaettigt, kein Rebuild noetig). Prioritaet 3 uebersprungen: das Fristen-Register traegt
+bereits Eintraege bis 08:5x von heute (Logbuch-Radar, Hub-Chef, ag-gruendung-monitor,
+mahnwesen-verzugscheck) — ein weiterer Durchgang haette nichts Neues gebracht. Prioritaet 4
+durchsucht: alle KBs mit eigenem `training/PROGRAMM.md` sind entweder per Taktgeber
+ausgeschlossen (baurecht, normen, planungsgrundlagen, wettbewerbs-dna, energie — Letzteres
+mit eigenem taeglichem `energie-training`, heute bereits Run 199 gelaufen), Ereignis-Trigger
+(immobilienbewertung, spec) oder formal erledigt/ausgesetzt (bauprodukte seit 15.08.,
+grobkosten seit 13.08., projekt-lessons ausgesetzt seit 05.08.) — kein gueltiges Ziel.
+Darum Prioritaet 5: in `wissen/kunde-bopp/wiki/QUESTIONS.md` den seit 24.08.2026 offenen
+Fehlversuch «Romanshorn Hafenstrasse 46, kein Projektordner gefunden» aufgeloest. Die
+SharePoint-Volltextsuche vom 24.08. deckte keine private Apple-Mail-Korrespondenz ab;
+`mdfind`/Spotlight ueber `~/Library/Mail` lieferte fuer diese Session generell 0 Treffer
+(auch fuer sicher vorhandene Begriffe wie «KISPI» — Indexierungsfehler, `mdutil -s`
+meldete «unknown indexing state»). Direkter `grep` ueber die `.emlx`-Dateien, je
+Account-Unterordner einzeln (ein rekursiver Lauf ueber den gesamten Mail-Baum in einem
+Aufruf lieferte ebenfalls still 0 Treffer), fand einen Mail-Thread vom 22.-24.09.2025 zur
+Steigleitungs-Koordination OG4/OG5 unter Federfuehrung Nova/Bopp. Befund: JANS hatte dort
+vermutlich kein eigenes Mandat (Bopps Antwort auf Raphaels Nachfrage «ist das fuer mich?»:
+«Bitte loeschen») — erklaert zwanglos das Fehlen eines Projektordners. `wiki/QUESTIONS.md`,
+`wiki/profil-christoph-bopp.md`, `wiki/INDEX.md` und `CHANGELOG.md` von `kunde-bopp`
+nachgefuehrt, keine Loeschung, nur Verschiebung ins Beantwortet-Archiv plus Praezisierung.
+
+Budget rund 3.9 von 5 USD (Grossteil auf die Priorisierungs-Pruefung ueber sechs Prioritaeten
+und mehrere KBs, da an diesem Abend bereits viel vorgearbeitet war). `git diff --numstat`
+ueber den SMB-Mount haengt (bekannte Falle, Rule `sync-kanonische-quelle`) — nicht erneut
+versucht, Aenderungen bleiben additiv per Write/Edit direkt geschrieben, der native
+`nas-selfcommit.sh` zieht sie im naechsten 15-Minuten-Takt nach. Zyklus sauber beendet.

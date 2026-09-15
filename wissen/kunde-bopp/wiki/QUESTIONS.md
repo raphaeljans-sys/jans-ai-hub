@@ -1,16 +1,5 @@
 # QUESTIONS — offene Fragen / Wissensluecken Kunde Bopp
 
-## Projekt-Detailartikel (aus Mail-Archiv zu vertiefen)
-- **Romanshorn Hafenstrasse 46 (Schlossberg)** — STWEG; Koordination Steigleitungen
-  OG4/OG5 (Gantner/Bischof). Rolle Nova Property. **Stand 24.08.2026:** kein Projektordner
-  unter `AR - 03 Studien` oder in einer Volltextsuche nach «Romanshorn»/«Hafenstrasse» im
-  gesamten SharePoint-Bereich `OneDrive-FreigegebeneBibliotheken–JANS` gefunden — entweder
-  liegt das Projekt unter einer anderen Bezeichnung/Nummer, ist kein eigener JANS-Studienauftrag
-  (nur Koordinationsbeitrag ohne eigenen Ordner), oder die Cloud-Platzhalter waren zum
-  Suchzeitpunkt nicht materialisiert. Kein Ergebnis ist hier zuerst eine Aussage über die
-  Suche, nicht ueber die Faktenlage (Rule `wege-und-vollmachten`/`auto-verbesserungen` 260730b) —
-  bei Gelegenheit mit Raphael die genaue Ablage klären, bevor "kein Projekt" angenommen wird.
-
 ## Offene Faktenfragen
 - Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat vs. Feag).
 - **Hinweis (25.07.2026, Nachtschicht Mac Mini):** Versuch, Ebmatingen/Romanshorn/Rechnungsadresse
@@ -25,6 +14,39 @@
   aktualisieren, CHANGELOG-Eintrag (Compounding-Loop).
 
 ## Beantwortet (Archiv)
+- **Romanshorn Hafenstrasse 46 (Schlossberg), Projektordner-Fehlversuch aufgelöst** —
+  beantwortet 2026-09-15 (Nachtschicht Mac Mini): Der Fehlversuch vom 24.08.2026 («kein
+  Projektordner, keine Volltexttreffer auf SharePoint») war eine Aussage über das Werkzeug,
+  nicht über die Faktenlage — SharePoint-Volltextsuche allein deckt keine private
+  Apple-Mail-Korrespondenz ab. **Direkte Volltextsuche in den lokalen `.emlx`-Dateien**
+  (`grep -rl` je Account-Unterordner unter `~/Library/Mail/V10/`, nicht `mdfind`/Spotlight —
+  dessen Index über Mail war zum Suchzeitpunkt nicht aufgebaut, `mdutil -s` meldete «unknown
+  indexing state», Sanity-Check mit dem sicher vorhandenen Begriff «KISPI» lieferte
+  ebenfalls 0 Treffer) fand sechs Treffer auf dem Exchange-Konto `rj@raphaeljans.ch`.
+  **Befund:** Ein Mail-Thread «STWEG Schlossberg Romanshorn Hafenstrasse 46; OG4_Koordination»
+  vom **22.–24.09.2025**, Betreff Koordination der Steigleitungen zwischen 4. OG (Familie
+  Gantner) und 5. OG (Astrid Bischof) im Rahmen einer Sanierung/eines Umbaus durch den TU
+  unter Federführung Nova Property (Christoph Bopp). Beteiligte neben Bopp: **Bettina
+  Ostertag** (`b.ostertag@gmx.ch`, mutmasslich STWEG-Verwaltung, stellt das
+  Zirkularbeschluss-Formular zu), **Carlo Wyrsch** (`carlo.wyrsch@ggbm.ch`), **Michael
+  Budliger** (`michael.budliger@gbk-l…`, separate Mail vom 27.10.2025 an
+  `christoph.bopp@woma-maur.ch`, cc rj@ — anderes Bopp-Konto als der September-Thread).
+  **Zur offenen Frage «kein Projektordner» selbst:** Raphael fragte am 22.09.2025 explizit
+  bei Bopp nach, ob eine der Mails «für mich gedacht» sei — Bopps Antwort: **«Bitte löschen,
+  danke.»** Das spricht dafür, dass JANS hier **kein eigenständiges Mandat** hatte, sondern
+  nur als Cc auf einer internen STWEG-/TU-Koordination stand (in einer der Mails ist Raphael
+  aber auch direkt als «Raphael Jans - Architekt ETH» adressiert, nicht nur cc — die genaue
+  Rolle bleibt damit nicht vollständig eindeutig). Das erklärt zwanglos, warum kein
+  JANS-Projektordner existiert: es gibt wahrscheinlich keinen JANS-Studienauftrag zu diesem
+  Objekt. **Für künftige Recherchen dieser Art:** `mdfind`/Spotlight über `~/Library/Mail`
+  ist auf dieser Station kein verlässlicher Weg (Index fehlt); der direkte `grep` über die
+  `.emlx`-Dateien je Account-Unterordner funktioniert, MUSS aber pro Unterordner einzeln
+  laufen — ein rekursiver `grep` über den gesamten `~/Library/Mail/V10/`-Baum in einem
+  einzigen Aufruf lieferte still 0 Treffer (auch für sicher vorhandene Begriffe), vermutlich
+  wegen eines Berechtigungs-/Abbruchproblems auf einem der Account-Ordner. Nicht als Beleg für
+  «nicht vorhanden» werten, ohne die Unterordner-Iteration versucht zu haben. In
+  [[profil-christoph-bopp]] nachgetragen. Quelle: `.emlx`-Volltext, Account-Unterordner
+  `3BB49493-D2D7-4CD8-BEF1-FA0E788CCE26` (Posteingang/Gesendete/Gelöschte Elemente).
 - **Ebmatingen Zürichstrasse 113/115, STWEG-Stand** — beantwortet 2026-08-24: Notariatstermin
   15.12.2025 wie vermerkt; drei Tage später, am **18.12.2025**, erfolgte im Projektordner
   `2412 Ebmatingen/02_KORR BOP/Bopp Christoph/251218 Schlusslieferung/` die Schlusslieferung

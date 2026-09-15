@@ -21,8 +21,10 @@ Siehe [[QUESTIONS]]:
   Schlusslieferung Teilungspläne + Wertquoten 18.12.2025 verifiziert (24.08.2026); eigener
   Wiki-Artikel noch nicht ausformuliert, Stand vorerst nur in [[profil-christoph-bopp]] und
   [[QUESTIONS]] (Beantwortet-Archiv) gehalten.
-- Projekt-Detailartikel: Romanshorn Hafenstrasse 46 (STWEG Schlossberg) — Projektordner am
-  24.08.2026 nicht gefunden (siehe [[QUESTIONS]]), Ablage vorher mit Raphael klären.
+- Projekt-Detailartikel: Romanshorn Hafenstrasse 46 (STWEG Schlossberg) — Fehlversuch vom
+  24.08.2026 am 15.09.2026 aufgelöst (siehe [[QUESTIONS]] Archiv): vermutlich kein
+  eigenständiges JANS-Mandat, daher kein Projektordner zu erwarten; eigener Wiki-Artikel
+  darum nicht mehr vorgesehen.
 - Projekt-Detailartikel: Baar Zugerstrasse 49 (TDD Hochhaus, 06/2025) — OneDrive-Blocker vom
   24.07.2026 nicht mehr wirksam, TDD-Zustandsanalyse am 24.08.2026 gelesen und in
   [[profil-christoph-bopp]]/[[QUESTIONS]] eingearbeitet; Ausgang der Ankaufsentscheidung

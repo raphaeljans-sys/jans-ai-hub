@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-15 (Nachtschicht Mac Mini, Prioritaet 5) — Romanshorn-Fehlversuch vom 24.08. aufgelöst
+
+`wiki/QUESTIONS.md`, `wiki/profil-christoph-bopp.md`, `wiki/INDEX.md`: die offene Frage
+«Romanshorn Hafenstrasse 46 — kein Projektordner gefunden» (Stand 24.08.2026) geklärt. Die
+SharePoint-Volltextsuche vom 24.08. deckte keine private Apple-Mail-Korrespondenz ab; eine
+direkte `grep`-Volltextsuche über die lokalen `.emlx`-Dateien (Werkzeug-Lehre: `mdfind`/
+Spotlight über `~/Library/Mail` lieferte 0 Treffer auch für sicher vorhandene Begriffe wie
+«KISPI» — Indexierungsfehler, kein Faktenbefund; ein rekursiver `grep` über den gesamten
+Mail-Baum in einem Aufruf ebenso, erst die Iteration je Account-Unterordner fand Treffer)
+fand einen Mail-Thread vom 22.–24.09.2025 zur Steigleitungs-Koordination OG4/OG5 (Gantner/
+Bischof) unter Federführung Nova/Bopp. Befund: JANS hatte hier vermutlich **kein eigenes
+Mandat** (Bopps Antwort auf Raphaels Nachfrage «ist das für mich?»: «Bitte löschen»), daher
+kein Projektordner zu erwarten — der Fehlversuch war korrekt eine Aussage über die Quelle
+(SharePoint statt Mail), keine über die Faktenlage. Artikel entsprechend nachgezogen, kein
+eigener Projekt-Artikel mehr vorgesehen.
+
 ## 2026-09-11 (Nachtschicht Mac Mini, Prioritaet 5) — Klärungsversuch Baar Zugerstrasse 46/49 ergebnislos (technischer Blocker)
 
 `wiki/QUESTIONS.md` (+9/-0): Versuch, die offene Adress-Diskrepanz «Zugerstrasse 46» vs. «49»
