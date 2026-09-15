@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 06:44:39
+Stand: 15.09.2026 06:54:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:25)
@@ -12,4 +12,4 @@ Stand: 15.09.2026 06:44:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 870a930d9 vollgas-fruehwarnung 15.09.: Rohmessung + Bewertung (Mac Mini), keine Mail
+- 0a0f06183 nas-selfcommit: 3 Datei(en) 2026-09-15 06:45
