@@ -1170,3 +1170,10 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   Wurzelordners aus dem Papierkorb heraus** (Stufe 3 des Scripts) — der Papierkorb ist damit frei, die Geister-Ordner
   (0 Byte) liegen in `~/.OneDrive-Dataless-Reste-<Datum>/`. Offen: wie solche Ordner endgültig weggehen (Kandidaten:
   `diskutil verifyVolume /System/Volumes/Data` wie am 10.09., Recovery-Terminal ohne fileproviderd).
+
+## Nachtrag 15.09.2026 — Kanal-/Leitungskataster Stadt Zürich: zwei belegte Bezugswege (ergänzt den Nachtrag 08.09.)
+
+Beide am 15.09.2026 an der Stadt-Zürich-Website verifiziert (WebFetch), beide kostenlos:
+1. **GeoShop Stadt Zürich** `https://e-gov.stadt-zuerich.ch/geoshop/` — Leitungskataster (Abwasser, Elektrizität, Erdgas, Fernwärme, Wasser, Kommunikation) als PDF-Ausschnitt oder DXF (bis 6 ha), **Login via AGOV nötig** (nicht skriptbar, Raphael meldet sich an). Quelle: `stadt-zuerich.ch/…/planbezug-datenbezug/leitungskataster-beziehen.html`.
+2. **ERZ Liegenschaftsentwässerung, Planarchiv** (Grundstückentwässerungspläne von über 40'000 Liegenschaften, zeigt die privaten Sammel-/Hausanschlussleitungen genauer als der Leitungskataster): schriftliche Bestellung mit dem Formular «Unterlagen Liegenschaftsentwässerung» (Web-Formular `web.stadt-zuerich.ch`), keine PDF-Bestellungen per Mail an Sachbearbeitende. Quelle: `stadt-zuerich.ch/…/bauten-anlagen/liegenschaftsentwaesserung.html`.
+Weiter gültig: Servitutenpläne Belege Witikon 1950/125b und 1953/188 beim Grundbuchamt Hottingen-Zürich (Eigentümerseite). ⚠ Der **Katasterplan der amtlichen Vermessung** zeigt keine Leitungen; gemeint ist immer der Leitungs- bzw. Kanalkataster.
