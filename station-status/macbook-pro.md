@@ -1,10 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.09.2026 16:32:59
+Stand: 15.09.2026 16:43:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/clever/chatterjee/e61864  (letzte Aktivitaet 16:24)
-- Developer/jans/ai/hub//claude/worktrees/objective/rhodes/d98e38  (letzte Aktivitaet 16:32)
+- Developer/jans/ai/hub//claude/worktrees/clever/chatterjee/e61864  (letzte Aktivitaet 16:38)
+- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 16:37)
+- Developer/jans/ai/hub//claude/worktrees/objective/rhodes/d98e38  (letzte Aktivitaet 16:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -20,4 +21,4 @@ Stand: 15.09.2026 16:32:59
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9da81f1c5 nas-selfcommit: 2 Datei(en) 2026-09-15 16:30
+- a30be5b94 wissen/baurecht + logbuch: Ruecklauf Durchleitungsrecht Art. 742 vs 693 ZGB (Steinbruechelstrasse 26/28), Fristen-Eintrag Antwort Tonet
