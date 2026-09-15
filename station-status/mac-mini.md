@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.09.2026 06:57:53
+Stand: 15.09.2026 07:08:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:51)
@@ -12,4 +12,4 @@ Stand: 15.09.2026 06:57:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0a0f06183 nas-selfcommit: 3 Datei(en) 2026-09-15 06:45
+- b8b3bf169 logbuch-radar 15.09.: Briefing nach App-Lücke 12.-14.09., Register 1 erledigt, 4 neu, 2 Nachträge; Ausnahme-Mail an rj@ 07:04
