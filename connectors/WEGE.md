@@ -1191,3 +1191,14 @@ Bibliotheks-Grenzen (`Get-PnPList`, `MajorVersionLimit`) und `Get-PnPSiteVersion
 kein Set-Befehl, nur `spo site versionpolicy get` (Report tenant-hygiene 260914).
 Ergaenzt 15.09.2026 17:33: auch `Get-PnPSiteFileVersionBatchDeleteJobStatus` (Status des Versions-Trims) ist app-only gesperrt,
 gleiche Meldung; den Trim-Erfolg app-only an `spo site list` (`StorageUsage`, `VersionSize`) messen, nicht am Job.
+
+## Nachtrag 16.09.2026 — Massenupload nach OneDrive (Fotoarchiv, 10'856 Dateien, 27 GB)
+
+| Faehigkeit | Weg 1 | Weg 2 | Sackgasse |
+|---|---|---|---|
+| Viele neue Dateien nach OneDrive | OneDrive-Client (Sync-Ordner), **nach dem Schub den Client einmal neu starten** | Direkt per Graph (`m365-graph.mjs`, Token aus Zertifikat; Upload-Session je Datei; nicht gebaut, war nicht mehr noetig) | Den Client einfach laufen lassen: 14 h Vollverarbeitung bei 90–200 % CPU, 116 Dateien hochgeladen; nach Neustart 5'200 Dateien in 20 Min |
+| Upload-Stand in der Cloud messen | Graph `delta` auf den Ordner: `--get "/users/<upn>/drive/root:/<ordner>:/delta?$select=name,file,size&$top=40"` | | `$top=999`: Node schneidet Pipe-Ausgabe bei 64 KB ab (JSON abgebrochen, sieht wie leeres Ergebnis aus); mit `parentReference` hoechstens `$top=40` |
+| Fotos-Mediathek exportieren | osxphotos in `~/.venvs/fotoarchiv`, Lauf via `open -a Terminal <x.command>` (Fotos-Berechtigung hat nur Terminal.app) | | osxphotos direkt aus der Claude-Session: PhotoKit verweigert («could not get authorization»), Claude erscheint nicht in der Fotos-Berechtigungsliste |
+
+Beleg: `OneDrive-JANS/06_Fotos-Archiv/_Verifikation/260915-Export-Bericht.md`; Konto des lokalen
+Ordners «OneDrive-JANS» ist admin@raphaeljans.onmicrosoft.com (per Graph verifiziert, nicht rj@).
