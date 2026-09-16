@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 10:43:32
+Stand: 16.09.2026 10:53:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 10:43:32
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0a0c15f50 Chronik/Fristen 260916: Rosetta 2 nach macOS-27-Update nachinstalliert (Drucker-Kostenstellen-Dialog C300i)
+- 592c194b8 nas-selfcommit: 3 Datei(en) 2026-09-16 10:45
