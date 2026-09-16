@@ -185,8 +185,120 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Register der Cross-KB-Kanten** (wo wird festgehalten, dass Artikel A einer anderen KB von Artikel B abhaengt) | **`koordination/QUERBEZUEGE.md`** — plus der Fassungs-/Warnblock im Artikeltext selbst, der beim Lesen wirkt | **NICHT das `links:`-Frontmatter.** Das Schema `wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` ausschliesslich als `[[artikel-name]]` auf einen anderen Wiki-Artikel **derselben** KB, und Pruefung B des Skills `wissenscheck` validiert genau das. Hub-weit tragen rund 7 von 272 Artikeln einen KB-Pfad im `links:`-Feld; 3 davon entstanden in **Run 47** und wurden in Run 48 von einem Melder faelschlich als Hauskonvention gelesen und zur Ausweitung auf vier weitere Dateien vorgeschlagen. **Regel daraus: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als Konvention messen** — die Konvention steht im Schema, nicht im letzten Diff. Schema-Entscheid offen: `architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b) — NEU Run 48 (30.08.2026) |
 | **BFS-Baupreisindex Schweiz: Teilindizes je Bauwerksart** (Hochbau, Neubau, Neubau MFH, Baugewerbe Total; Basis, Stichtag, Rebasierung Okt. 2020 → Okt. 2025) | **immobilienbewertung** (`wiki/realwert-sachwert`, Teilindex-Tabelle, direkt an der BFS-Indexseite abgelesen 23.08.2026; Nutzungsregel 7 in `wiki/datenquellen-registry`: «nie mit dem Totalwert») | `grobkosten` fuehrt die **ZIW-Faktoren** Region Zuerich (Zeile oben) und nutzt den BFS-Wert nur als Teuerungs-Check; `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` verweist fuer beide dorthin (seit Lauf 57). **Zwei Fallen, beide am 10.09.2026 gemessen:** (1) der BFS-Wert **100.6** ist Baugewerbe Total, Hochbau steht bei 100.5, Neubau MFH bei 100.7 — die ZIW-Zeile oben fuehrte 100.6 ohne Reihe; (2) ein Indexstand ohne **Basisangabe** ist gefaehrlich: machbarkeit fuehrte «Hochbau Okt. 2023 = 114.8» (Basis Okt. 2020) ohne Basis, gegen den heutigen Stand auf Basis Okt. 2025 verrechnet ergaebe das eine scheinbare Deflation von rund 12 % — NEU Lauf 57 (10.09.2026), die Fuehrung war nirgends festgelegt und ist hier nach dem **de-facto-Bestand** gesetzt, nicht neu verteilt |
 | **Kommunaler Baumschutz / Faellbewilligung** (Stammumfang-Schwellen, BZO-Baumschutzartikel, Vorwirkung laufender BZO-Revisionen) | **baurecht** fuer die Rechtsaussage (§ 234 PBG in `negative-vorwirkung-und-bzo-revision`, § 238a / § 203 PBG; Primaertext Art. 11a BZO Stadt Zuerich in `raw/`, noch nicht destilliert) | `architektur-fachwissen` (`baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026`, `…-stadt-luzern-2008`: Praxisschwellen aus Stadtseiten, verweist fuer die Rechtslage auf baurecht) — NEU Lauf 58 (14.09.2026), nach de-facto-Bestand |
+| **BBV I Teil I — Private Kontrolle als Rechtsinstitut** (§§ 4-7 und Anhang Ziff. 3: Geltungsbereich, Bericht/QES, Minergie-Abkuerzung § 4 Abs. 4, Befugnis, Liste der Befugten) — **Erlasswortlaut und Fassungsstand** | **baurecht** (`raw/260607_amtlich_zh_bbv1.md`, Fassung Nr. 133) | `energie` (`destillate/private-kontrolle-zh`) gibt den Wortlaut fuer die Praxis zitierfaehig wieder und traegt seit 16.09.2026 den Fuehrungsvermerk; `planungsgrundlagen` (`wiki/energie-private-kontrolle-zh`) fuehrt das **Verfahren** (wer zeichnet welches EN-Formular). Die bestehende Zeile oben deckt nur §§ 47-48c bzw. § 47a — NEU Lauf 60 (16.09.2026) |
+| **Kantonaler Richtplan ZH: laufender Umsetzungsstand** (Teilrevision 2022, Vorlagen 6012/6013/6013a, Kantonsratsberatung, Fertigstellungsdatum) | **planungsgrundlagen** (`wiki/recht-norm-quellenlandkarte`, fuenf datierte Refreshes) | `baurecht` (`wiki/raumplanung-und-gestaltung`) fuehrt die artikelscharfe **Rechtslage** (Art. 8c/8d/18bis/38b RPG, Art. 25a-25g RPV) und traegt seit 16.09.2026 die Rueckkante — NEU Lauf 60 (16.09.2026), nach de-facto-Bestand |
+| **SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken»** (Ablaufschema Ziff. 3, zwoelf Kriterien Ziff. 4, Bewertungsmodell Ziff. 5 — Ziffer, Ausgabe, Seitenbeleg) | **normen** (`destillate/sia-mb-2017`, `status: established`) | `architektur-fachwissen` (`wiki/erhaltungswert-bewertung-sia-merkblatt-2017`) fuehrt dieselben drei Abschnitte materiell parallel (Eigendestillat aus dem Architektur-Archiv, 29.08.2026) und traegt seit 16.09.2026 einen Fuehrungsvermerk; es behaelt die denkmalpflegerische Einordnung **und** den am SIA-Shop erhobenen Geltungsstand (15.09.2026), der in normen als «Offener Punkt» stand und dort nachgetragen ist. **Doppelspur benannt, nicht aufgeloest** — eine Verdichtung waere ein Eingriff in bestehenden Wortlaut und bleibt Entscheid Raphaels — NEU Lauf 60 (16.09.2026) |
 
 ## Gepruefte Paare
+
+### energie ↔ planungsgrundlagen (Private Kontrolle ZH) — geprueft 2026-09-16 (Lauf 60, Pflichtpaar), BESTAETIGT (2 Befunde)
+
+- **Befund (WC60-1), bestaetigt, Zuschnitt unveraendert:** Die Cross-KB-Berichtigung aus energie Run 201
+  (16.09.2026) erreichte nur drei der vier Stellen des Zielartikels. Der Korrekturvermerk am Kopf von
+  `planungsgrundlagen/wiki/energie-private-kontrolle-zh.md` (Z. 11-20) behauptet, der Artikel sei «am
+  Original gegengelesen», doch **Z. 52-53 fuehren die Minergie-Regel weiterhin im ueberholten Stand**
+  («Ziff. 3.2 / 3.3 des BBV-I-Anhangs», ohne Absatznummer, ohne Ziff. 3.4.1/3.4.2, ohne die
+  Einschraenkung «soweit sie energetische Anforderungen betreffen») — waehrend Z. 124 desselben Artikels
+  die berichtigte Fassung traegt (§ 4 Abs. 4, Ziff. 3.2/3.3/3.4.1/3.4.2, nicht Ziff. 3.1 Laerm). Ebenso
+  widersprechen der Abschnitt «Datenstand / offen» (Z. 153-154, «Stand April 2025») und die
+  Frontmatter-Quelle (Z. 5) der im Fliesstext Z. 102 selbst vollzogenen Aktualisierung auf August 2026.
+  Gegengelesen am amtlichen Wortlaut `baurecht/raw/260607_amtlich_zh_bbv1.md` § 4 Abs. 4 — die Fassung
+  des Destillats ist die richtige.
+- **Aktion:** drei additive Einschuebe im Zielartikel (Praezisierung nach Z. 53, Nachtrag im Datenstand,
+  zusaetzliche Quellenangabe im Frontmatter); kein bestehender Wortlaut geaendert.
+- **Lehre (gleiche Familie wie 260807):** ein gesetzter Korrekturvermerk ist eine Aussage ueber die
+  Stellen, die der Melder genannt hat — nicht ueber den Artikel. Wer «am Original gegengelesen»
+  schreibt, muss den **ganzen** Artikel nach derselben Aussage durchsuchen, sonst widerlegt sich das
+  Dokument an einer anderen Stelle selbst.
+
+- **Befund (WC60-2), bestaetigt, Zuschnitt enger als gemeldet:** `energie/destillate/private-kontrolle-zh.md`
+  Z. 130-170 gibt BBV I §§ 4-7 und Anhang Ziff. 3 nahezu wortgleich wieder, inkl. Fassungsstand
+  (RRB 24.01.2024, Fassung Nr. 133). Derselbe amtliche Volltext liegt seit 07.06.2026 in
+  `baurecht/raw/260607_amtlich_zh_bbv1.md` — **dieselbe Fassung Nr. 133**, selbst gegengelesen
+  (§ 4 Abs. 1-5 dort Z. 66-83, wortgleich). Die eigene Querbezug-Notiz des Destillats (Z. 23-26) sagt
+  «nicht doppelt pflegen». Der Melder wollte kuerzen; **der Verifikator hat das zu Recht zurueckgewiesen**:
+  `destillate/` ist laut `energie/CLAUDE.md` der Transkriptions-Layer, treue Wiedergabe ist dort Zweck,
+  nicht Fehler. Der Vergleich mit `wiki/umweltwaerme-gewaesser.md` traegt deshalb nur halb.
+- **Aktion:** additiver Fuehrungsvermerk im Destillat vor dem Rechtsgrundlagen-Abschnitt (Fassungsstand
+  primaer in `baurecht/raw/` verifizieren, bei Fassungsaenderung dort zuerst nachziehen) + neue
+  Matrixzeile «BBV I Teil I — Private Kontrolle als Rechtsinstitut». Die bestehende Zeile 29 deckt nur
+  §§ 47-48c, Zeile 179 nur § 47a — §§ 4-7 waren nirgends zugeordnet.
+
+### baurecht ↔ planungsgrundlagen (kantonaler Richtplan ZH) — geprueft 2026-09-16 (Lauf 60, Pflichtpaar), 1 BESTAETIGT / 1 WIDERLEGT
+
+- **Befund (WC60-3), bestaetigt, Zuschnitt unveraendert:** `baurecht/wiki/raumplanung-und-gestaltung.md`
+  Z. 32-59 fuehrt den kantonalen Richtplan samt ausfuehrlichem ⚠-Block zum Bundesrecht 2026 (Buch-Run 143),
+  aber **ohne jeden Zeiger** auf den laufend nachgefuehrten ZH-Umsetzungsstand in
+  `planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md` (TR2022, Vorlagen 6012/6013/6013a, fuenf
+  datierte Refreshes). Selbst nachgemessen: `grep -rl "TR2022|Vorlage 6012|Vorlage 6013"` ueber den
+  ganzen `wissen/baurecht/`-Baum liefert **null Treffer**. Die Rueckkante-Konvention existiert in
+  baurecht bereits zweimal (`baubewilligungsverfahren.md` Z. 124,
+  `negative-vorwirkung-und-bzo-revision.md` Z. 187). Lauf 59 hat an derselben Materie gearbeitet, aber
+  nur den ⚠-Block **in** planungsgrundlagen gesetzt, nicht den Zeiger aus baurecht heraus.
+- **Aktion:** Rueckkante-Absatz nach dem bestehenden ⚠-Block, additiv + neue Matrixzeile.
+- **WIDERLEGT (kein Befund):** die gemeldete «Doppelspur Stabilisierungsziel/2 %-Regel» zwischen beiden
+  KBs. Der Verifikator hat nachgewiesen, dass die beanstandete «Kernmechanik»-Passage in
+  `recht-norm-quellenlandkarte.md` (Z. 210-217) **unmittelbar nach** einem bereits gesetzten
+  Selbstbeschreibungssatz steht («Die rechtliche Wuerdigung bleibt bei `wissen/baurecht` … hier nur der
+  Datenstand», Z. 196-198) samt korrektem Verweis auf die Fuehrungsmatrix Z. 64 — gesetzt um den
+  07.-09.09.2026, also vor dieser Pruefung. Der Melder zitierte die Selbstbeschreibung zudem an der
+  falschen Zeile (232 f. statt 196-198), was zeigt, dass er den Kontext nicht gelesen hatte.
+  **Doppelbewirtschaftung ist nicht per se falsch — falsch ist nur, sie nicht aufzuschreiben.** Hier ist
+  sie aufgeschrieben. Keine Aktion.
+
+### twin ↔ rules/anrede-kontakte — geprueft 2026-09-16 (Lauf 60), BESTAETIGT, aber VORLAGE statt Aktion
+
+- **Befund (WC60-4), bestaetigt, Zuschnitt der Aufloesung korrigiert:** Claudia Horeni (AfB Stadt Zuerich)
+  ist im twin-Wiki zweifach unabhaengig aus Raphaels eigener Hand belegt (Ersterfassung Batch 30,
+  10.07.2026; Regressionsbestaetigung im Fidelity-Review 16.09.2026 am selben Gold) — «Geschaetzte Frau
+  Horeni,» nach einem persoenlich guten Beratungsgespraech — und fehlt in der **@-importierten**
+  `rules/anrede-kontakte.md` (selbst nachgemessen: null Treffer «Horeni»). Dieselbe Beleglage hat im
+  August zur Aufnahme von Hansen, Spoerri, Ziegel, Guerini, Suljanovic und Eren gefuehrt.
+- **Der Melder empfahl eine Zeile in der Rule — der Verifikator hat das zurueckgewiesen, zu Recht.**
+  Die Linie steht seit Run 32 (14.08.2026) im Register: «eine Meldung *importierte Rule widerspricht KB*
+  ist nie eine Aktion dieses Loops, immer eine Vorlage», bestaetigt Lauf 58 bei Sonderegger. Und im
+  **selben** Fidelity-Review vom 16.09. wurde der strukturgleiche Fall Cornelia Gasser genau so
+  behandelt: als offene Frage, nicht als Direktedit. Der Melder hatte den Praezedenzfall auf derselben
+  zitierten Zeile uebersehen.
+- **Aktion:** Vorlage als `twin/wiki/QUESTIONS.md` 260916b #5. **`rules/anrede-kontakte.md` unberuehrt.**
+- **Strukturbefund, drittes Beispiel seit Run 32:** es gibt weiterhin keinen Mechanismus, der mehrfach
+  belegte Wiki-Mappings in die Rule zieht. Horeni reiht sich neben Gasser und Wuersch; Stadelmann steht
+  seit Lauf 56 ebenfalls offen. Vier offene Kandidaten zugleich sind kein Einzelfall mehr, sondern ein
+  Rueckstau — vorgelegt im Bericht.
+
+### architektur-fachwissen ↔ normen (SIA-Merkblatt 2017) — geprueft 2026-09-16 (Lauf 60, rotierend), BESTAETIGT, Zuschnitt anders
+
+- **Befund (WC60-5), bestaetigt:** Beide KBs fuehren den normativen Kern des Merkblatts **materiell
+  parallel** — Ablaufschema Ziff. 3, alle zwoelf Kriterien 1-6/A-F, Bewertungsmodell Ziff. 5 — mit
+  identischem Seitenbeleg. `architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`
+  destillierte am 29.08.2026 direkt aus dem Original-PDF im Architektur-Archiv, ohne das seit dem
+  19.07.2026 bestehende `normen/destillate/sia-mb-2017.md` (`status: established`) zu kennen. Lauf 59
+  (WC59-4) hat nur die falsche **Negativaussage** («SIA 2017 in normen nicht erfasst») berichtigt; die
+  inhaltliche Doppelspur blieb unangetastet und war nirgends erfasst. Die Matrixzeile «Korpus-Inventare
+  architektur-fachwissen» sagt ausdruecklich, diese KB fuehre «selbst keine Norm-Fundstellen».
+- **Gegenrichtung, vom Verifikator ergaenzt und selbst geprueft:** `architektur-fachwissen` traegt eine
+  echte Eigenleistung, die `normen` fehlt — der am 15.09.2026 am SIA-Shop erhobene **Geltungsstand**
+  (aktives Normenwerk, kein Rueckzug, kein Nachfolger, Produkt-ID belegt). Genau diese Frage steht in
+  `normen/destillate/sia-mb-2017.md` unter «Offene Punkte» als erster Punkt offen. Cross-KB-Bringschuld
+  nach Rule `wissens-bibliothekar`, nie gezogen.
+- **Aktion:** Fuehrungsvermerk vor Abschnitt 3 in afw (normen fuehrt Fundstellen, afw behaelt
+  Einordnung und Geltungsstand) + Nachtrag «Beantwortet» am offenen Punkt in normen + Matrixzeile.
+  **Die Doppelspur selbst ist benannt, nicht aufgeloest** — eine Verdichtung waere ein Eingriff in
+  bestehenden Wortlaut und bleibt Entscheid Raphaels.
+
+### Nullbefunde Lauf 60 (geprueft, nichts gefunden)
+
+- **normen ↔ baurecht/brandschutz (Pflichtpaar b):** das neue Lignum-4/2-Destillat (Run 86, 63 Seiten
+  inventarisiert) kollidiert mit keiner Feuerwiderstands-Aussage in baurecht, `skills/brandschutz`,
+  architektur-fachwissen oder bauprodukte. Die 38 ersetzten Zeilen waren Inline-Nachtraege im Destillat
+  selbst, kein anderswo fortlebender Altstand.
+- **grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung (Pflichtpaar d):** kein Schreiber im
+  Fenster; Bestandsabgleich der vier Grenzlinien gehalten. Der geflaggte Ebmatingen-Wert 2'400 CHF/m³ GV
+  taucht nirgends ohne seine Flagge auf. Zweiter Nullbefund in Folge (Lauf 59 ebenso).
+- **bauprodukte ↔ normen:** die Uebergabe WC59-5 (Metalldecken BKP 283) ist drueben angekommen und
+  **beidseitig** verzeigert — die Bringschuld wurde vom erledigenden Lauf getragen, wie es die Rule
+  verlangt. Kein materiell fortgeschriebener Normwortlaut in bauprodukte.
+
 
 ### baurecht ↔ planungsgrundlagen (RPG-2/RPV-Etappen, Art. 25 RPG, Snapshot 20260701) — geprueft 2026-09-15 (Lauf 59, Pflichtpaar), ANDERER ZUSCHNITT (breiter), ⚠-BLOCK GESETZT
 

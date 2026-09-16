@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Korrekturvermerk deckte den Artikel nur zu drei Vierteln
+
+Befund WC60-1, am Original bestaetigt. Der Korrekturvermerk vom 16.09.2026 in
+`wiki/energie-private-kontrolle-zh.md` behauptet, der Artikel sei «am Original gegengelesen» —
+tatsaechlich blieben drei Stellen im ueberholten Stand: Z. 52-53 (Minergie-Regel ohne Absatznummer,
+ohne Anhang-Ziff. 3.4.1/3.4.2, ohne die Einschraenkung «soweit sie energetische Anforderungen
+betreffen», waehrend Z. 124 desselben Artikels die berichtigte Fassung traegt), der Abschnitt
+«Datenstand / offen» und die Frontmatter-Quelle (beide «Stand April 2025» gegen Z. 102 «August 2026»).
+Drei additive Einschuebe gesetzt, kein bestehender Wortlaut geaendert. Gegengelesen am amtlichen
+Wortlaut `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` § 4 Abs. 4.
+
+Zweite Kante im selben Lauf (WC60-3): `wiki/recht-norm-quellenlandkarte.md` bleibt fuehrend fuer den
+laufenden ZH-Richtplan-Umsetzungsstand (TR2022); die fehlende Rueckkante ist jetzt in
+`wissen/baurecht/wiki/raumplanung-und-gestaltung.md` gesetzt und als Matrixzeile registriert.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-16 (Cross-KB aus `wissen/energie`, Run 201) — Private Kontrolle: LN-1b-Befugnis berichtigt, § 4 BBV I auf die Fassung 1.4.2024 nachgeführt
 
 Am Original gegengelesen (AWEL «Liste der Befugten, **Stand August 2026**», zh.ch, Matrix am Rendering;

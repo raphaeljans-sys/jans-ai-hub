@@ -58,6 +58,15 @@ enthalten — drei Änderungen am Richtplaninhalt:**
   Art. 18b RPG deshalb die AS 2026 99 oder den Snapshot 1.4.2026 zitieren, nicht den jüngsten Stand.
 Beleg: `raw/260914_amtlich_ch_rpg2-etappe2-rpv-20260701-as2026-99.md` Ziff. 2, 3 und 7.
 
+**Rückkante (Wissens-Chef Lauf 60, 16.09.2026):** der Abschnitt oben führt die **Rechtslage** des
+Bundes. Den laufenden **ZH-Umsetzungsstand** der Richtplan-Teilrevision 2022 (TR2022, Vorlagen
+**6012** Siedlung/Landschaft und **6013** Verkehr, Überweisung an den Kantonsrat 12.03.2025, dort
+in Beratung; Kommissionsvorlage **6013a** der KEVU vom 03.03.2026; kein publiziertes
+Fertigstellungsdatum) führt und datiert laufend nach:
+`wissen/planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md`, Abschnitt «Kanton ZH — Umsetzung».
+Die Arbeitsteilung folgt der Führungsmatrix `wissen/koordination/QUERBEZUEGE.md`: hier die
+artikelscharfe Rechtswürdigung, dort der prozessuale Verfahrensstand.
+
 ### Regionale Richtplanung
 Koordination zwischen den Gemeinden einer Region (Teilrichtpläne Siedlung/Landschaft/
 Verkehr/Versorgung).

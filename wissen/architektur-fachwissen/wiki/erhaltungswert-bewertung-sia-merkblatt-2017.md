@@ -37,6 +37,18 @@ Geltungsstand dort am 23.08.2026 nachgeführt) und im Inventar `wissen/normen/tr
 (Run 16, 19.07.2026). Für Fundstellen gilt das Destillat (Rule `normen-referenz`); der hier
 geklärte Geltungsstand (SIA-Shop, 15.09.2026) deckt sich mit dem Register.
 
+> ⚠ **Führung für Norm-Fundstellen (Wissens-Chef Lauf 60, 16.09.2026).** Die drei folgenden
+> Abschnitte (Ablaufschema Ziff. 3, zwölf Kriterien Ziff. 4, Bewertungsmodell Ziff. 5) sind
+> **inhaltlich deckungsgleich** auch in `wissen/normen/destillate/sia-mb-2017.md` geführt
+> (`status: established`, Seiten 1-12 gelesen, Ziff. 1-5 mit Seitenbeleg). Nach der
+> Führungsmatrix (`wissen/koordination/QUERBEZUEGE.md`) und Rule `normen-referenz` ist **`normen`
+> führend für Norm, Ausgabe, Ziffer und Kennwert** — für eine zitierfähige Fundstelle in einem
+> ausgehenden Dokument das Destillat verwenden, nicht diesen Artikel. Dieser Artikel behält die
+> archiv- und denkmalpflegespezifische Einordnung (Herkunft im Architektur-Archiv, Bezug Charta
+> von Venedig, Lücke der JANS-Skills) sowie den am SIA-Shop erhobenen Geltungsstand.
+> Die Doppelspur ist damit benannt, nicht aufgelöst; eine Verdichtung wäre ein Eingriff in
+> bestehenden Wortlaut und bleibt Entscheid Raphaels.
+
 ## Ablaufschema (Abschnitt 3)
 
 Das Merkblatt reiht die Bewertung in einen Gesamtprozess ein, der bei einem Handlungsbedarf für

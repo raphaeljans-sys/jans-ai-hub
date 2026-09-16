@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Fuehrungsvermerk fuer den BBV-I-Erlasswortlaut
+
+Befund WC60-2, am Original bestaetigt. `destillate/private-kontrolle-zh.md` gibt BBV I §§ 4-7 und
+Anhang Ziff. 3 nahezu wortgleich wieder; derselbe amtliche Volltext liegt seit 07.06.2026 in
+`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` — **dieselbe Fassung Nr. 133**, § 4 Abs. 1-5
+wortgleich gegengelesen. Die eigene Querbezug-Notiz des Destillats sagt «nicht doppelt pflegen».
+
+**Nicht gekuerzt:** `destillate/` ist laut `CLAUDE.md` der Transkriptions-Layer, treue Wiedergabe ist
+dort Zweck. Stattdessen additiver Fuehrungsvermerk vor dem Rechtsgrundlagen-Abschnitt: Fassungsstand
+und Wortlaut fuehrt `baurecht`, bei einer Fassungsaenderung dort zuerst nachziehen. Neue Matrixzeile
+«BBV I Teil I — Private Kontrolle als Rechtsinstitut» in `koordination/QUERBEZUEGE.md`; die bestehenden
+Zeilen deckten nur §§ 47-48c bzw. § 47a, die §§ 4-7 waren nirgends zugeordnet.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-16 (Run 201) — A-BLIND Rang 64: Private Kontrolle ZH am Original; § 4 BBV I seit 1.4.2024 neu gefasst (Bericht + QES), LN-1b-Befugnis KB-übergreifend berichtigt
 
 Kein PDF-Transfer (Inventar seit Run 65 erschöpft; Antrieb Prüfwarteschlange). Kandidat aus Run 196/199:

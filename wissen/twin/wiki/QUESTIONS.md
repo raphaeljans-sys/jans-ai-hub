@@ -85,6 +85,21 @@ Zwei-Wort-Quittung (15.02.2026) und «Geschaetzte Frau Gasser» in der Offertanf
 *Warum:* dieselbe Person hat den Zwilling in zwei Laeufen hintereinander gemessen; eine Zeile in
 der Liste ersetzt beide Male das Raten.
 
+**260916b #5 — Gehoert Claudia Horeni (AfB Stadt Zuerich) in die Kontaktliste?** ·
+*Facette: Beziehungsregister* · *eingebracht vom Wissens-Chef Lauf 60, 16.09.2026*
+Zweifach aus Deiner eigenen Hand belegt: Ersterfassung Batch 30 (destilliert 10.07.2026) und
+Regressionsbestaetigung im Fidelity-Review vom 16.09.2026 am selben Gold — «Geschaetzte Frau
+Horeni,» am Vormittag **nach** einem «angenehmen Beratungsgespraech». Belegt sind damit zwei
+Sie-Stufen an derselben Person: «Geschaetzte» nach persoenlich gutem Kontakt, davor vermutlich
+«Sehr geehrte» (Eingrenzung vom 15.09., `beziehungsregister.md` Z. 4582-4584). Sie steht nicht
+in `rules/anrede-kontakte.md`. Nehmen wir sie auf, und ist die Vorstufe «Sehr geehrte» richtig?
+*Warum:* strukturgleich zu #2 (Gasser) und zu Wuersch — dieselbe Beleglage, die im August zur
+Aufnahme von Hansen, Spoerri, Ziegel, Guerini, Suljanovic und Eren gefuehrt hat. Die Rule ist
+@-importiert und laedt in JEDER Session; ohne Zeile raet der Zwilling bei einer AfB-Mail.
+Fundstellen: `beziehungsregister.md` Z. 935, 938, 953, 4581-4584; `outputs/2026-09-16_fidelity.md` Z. 73.
+**Den Wortlaut einer importierten Rule aendert der Wissens-Chef nicht selbst** (Linie Run 32,
+14.08.2026, bestaetigt Lauf 58 bei Sonderegger) — dies ist eine Vorlage, keine Aktion.
+
 **260916b #3 — «A) B)» oder «_ A. _ B.» — was entscheidet?** · *Facette: Arbeitsweise*
 Beide Formen sind aus Deiner Hand belegt, teils in derselben Woche: «_ A. / _ B.» in der
 Vorabklaerung an Frau Hottinger (24.02.2026), «A) B) C)» in anderen Fragenlisten. Haengt es am
@@ -6402,7 +6417,7 @@ der Zwilling beim naechsten Amts-Nachtrag falsch zu.
 15.02.2026: «**30min** würden gut reichen.» Zeitspannen «11:00-14:00 Uhr» (ohne Leerschlag) und
 «15:15 - 15:45» (mit). Die Frage bleibt offen; die Beleglage fuer ein Ja ist staerker.
 
-Status: #1-#4 **offen**.
+Status: #1-#5 **offen** (#5 nachgetragen 16.09.2026 vom Wissens-Chef Lauf 60).
 
 
 ## 260915 — nach Batch 120 (`mail@` Sent 27.07. bis 09.09. nachgeholt, `rj@` Sent 10.09. 19:57 bis 14.09. 17:09)

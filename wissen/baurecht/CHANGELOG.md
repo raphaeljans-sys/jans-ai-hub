@@ -3,6 +3,23 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Rueckkante zum ZH-Richtplan-Umsetzungsstand
+
+Befund WC60-3, am Original bestaetigt. `wiki/raumplanung-und-gestaltung.md` fuehrt den kantonalen
+Richtplan samt ⚠-Block zum Bundesrecht 2026 (Buch-Run 143), hatte aber keinen Zeiger auf den laufend
+nachgefuehrten ZH-Umsetzungsstand in `wissen/planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md`
+(Teilrevision 2022, Vorlagen 6012/6013/6013a, Kantonsratsberatung, kein publiziertes
+Fertigstellungsdatum). Nachgemessen: null Treffer fuer «TR2022 / Vorlage 6012 / Vorlage 6013» im
+ganzen `wissen/baurecht/`-Baum. Rueckkante-Absatz nach dem bestehenden ⚠-Block gesetzt, additiv,
+nach der in dieser KB bereits zweimal gelebten Konvention (`baubewilligungsverfahren.md` Z. 124,
+`negative-vorwirkung-und-bzo-revision.md` Z. 187). Arbeitsteilung: hier die artikelscharfe
+Rechtswuerdigung, dort der prozessuale Verfahrensstand.
+
+Im selben Lauf **widerlegt**: die gemeldete Doppelspur zum Stabilisierungsziel (2 %-Regel). Die
+planungsgrundlagen-Passage traegt seit Anfang September eine Selbstbeschreibung «hier nur der
+Datenstand» samt Verweis auf die Fuehrungsmatrix — keine Aktion noetig.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-15 (Projektrücklauf Steinbrüchelstrasse 26/28) — Verlegung einer eingetragenen Leitungsdienstbarkeit: Art. 742 ZGB, nicht Art. 693 ZGB
 
 - **Neu `outputs/2026-09-15_durchleitungsrecht-verlegung-art-693-vs-742-zgb.md`:** Abgrenzung gesetzliches

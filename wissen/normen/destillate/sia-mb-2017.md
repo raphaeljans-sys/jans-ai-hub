@@ -52,6 +52,14 @@ Das Merkblatt beschreibt ein Vorgehen, um das gegenwärtige und zukünftige Pote
 
 ## Offene Punkte
 - Der aktuelle Gültigkeits-/Ersetzungsstand des Merkblatts (Verlängerung, Rückzug oder Ersatz nach 2000) geht aus dem PDF nicht hervor; ein Ersetzt-Vermerk fehlt.
+  - ✅ **Beantwortet (Cross-KB, Wissens-Chef Lauf 60, 16.09.2026).** Die KB `architektur-fachwissen`
+    hat den Geltungsstand am 15.09.2026 am SIA-Shop erhoben: «SIA 2017 / 2000 D — Erhaltungswert
+    von Bauwerken» wird weiterhin im **aktiven** Normenwerk geführt (nicht im Archiv), Ausgabe
+    2000, gültig ab 01.07.2000, **ohne** Hinweis auf Rückzug oder Nachfolgeausgabe
+    (shop.sia.ch, Produkt-ID `e25b193d-8a21-4806-89a8-8bbc3dd77da0`). Das Merkblatt gilt damit
+    als in Kraft. Beleg: `wissen/architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`,
+    Abschnitt «Geltungsvorbehalt». Der Vorbehalt im Praxis-Transfer («vor Verwendung am
+    SIA-Register prüfen») bleibt für die zitierte Norm **SIA 469** bestehen.
 - Die Kriterien 4.1 Nr. 1-6 sind auf S. 6 vollständig gelesen, hier aber nur als Titelliste plus Kurzcharakterisierung wiedergegeben; die inhaltlichen Beschreibungstexte sind bewusst nicht ausformuliert übernommen (Urheberrecht).
 - Ziff. 4.2 D Gesellschaft ist im Original knapp gehalten (sozioökonomische Aspekte, Auswirkungen von Umstrukturierungen/Stilllegungen auf Arbeitsplätze in der Region, S. 7); mehr steht dort nicht.
 - Die Grafiken (Werte-Matrix, Überlagerungsbeispiele, Interpretationsfälle auf S. 8, Formularmatrix S. 9) sind bildhaft und im Destillat nur beschrieben, nicht reproduziert.

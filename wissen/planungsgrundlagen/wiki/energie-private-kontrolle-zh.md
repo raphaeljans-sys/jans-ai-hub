@@ -2,7 +2,7 @@
 title: Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
 status: established
 last_updated: 2026-09-16
-sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
+sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), AWEL «Private Kontrolle — Liste der Befugten, **Stand August 2026**» (zh.ch, geprüft 16.09.2026 — der ältere Auszug April 2025 bleibt als historischer Beleg stehen), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]]
 ---
 
@@ -51,6 +51,12 @@ zur Verordnung sind die Bereiche bezeichnet, die **primär der privaten Kontroll
   Ausführungskontrolle).
 - **Minergie-Label** zugesichert und erteilt → die in Ziff. 3.2 / 3.3 des BBV-I-Anhangs genannten
   Rechtsnormen gelten **als erfüllt** (das Label ersetzt insoweit den Einzelnachweis).
+  ⚠ **Nachtrag Wissens-Chef Lauf 60, 16.09.2026:** die Zeile darüber blieb bei der Berichtigung
+  vom 16.09. stehen und führt den überholten Stand. Massgeblich ist **§ 4 Abs. 4 BBV I** mit
+  Anhang-Ziff. **3.2, 3.3, 3.4.1 und 3.4.2**, «soweit sie energetische Anforderungen betreffen»
+  (**nicht** Ziff. 3.1 Lärm) — siehe Abschnitt 5, Stichwort «Minergie-Abkürzung», und
+  `wissen/energie/destillate/private-kontrolle-zh`. Belegt am amtlichen Wortlaut
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` § 4 Abs. 4.
 - Wird eine **Ausnahmebewilligung nach § 220 PBG** beansprucht oder aus wichtigen Gründen von
   beachtlich erklärten Richtlinien/Normalien/Empfehlungen im Sinne **§ 360 Abs. 3 PBG**
   abgewichen, ist die Bewilligungsbehörde **auf dem Plan oder im Bericht ausdrücklich darauf
@@ -153,6 +159,9 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
 ## Datenstand / offen
 - Liste der Befugten: hier abgelegter Auszug **Stand April 2025** — für eine konkrete
   Personenprüfung die **Online-Liste** über zh.ch verwenden (laufend nachgeführt).
+  ⚠ **Nachtrag Wissens-Chef Lauf 60, 16.09.2026:** im Fliesstext (Abschnitt 4) ist der Stand seit
+  dem 16.09.2026 auf **August 2026** nachgeführt; dieser Abschnitt und die Quellenzeile im
+  Frontmatter führen noch den älteren Auszug. Für die Befugnis-Frage gilt der Stand August 2026.
 - Matrix Befugnis↔EN-Formular aus dem Merkblatt abgelesen; bei Grenzfällen (EN-104/EN-141
   in mehreren Bereichen) die EVEN-Zuordnung als massgebend nehmen.
 - Querbezug Brandschutz: dort eigenes QSS-System (kein Energie-Pendant) → `[[brandschutz-pl03-wegweiser]]`.

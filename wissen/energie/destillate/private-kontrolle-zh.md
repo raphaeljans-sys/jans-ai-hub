@@ -128,6 +128,14 @@ Energienachweise → Nachweisformulare → Projektkontrolle.)
 ---
 
 ## Rechtsgrundlagen (BBV I vom 6. Mai 1981, LS 700.21; Fassung Nr. 133, in Kraft 1.7.2026)
+
+> **Führung des Erlasswortlauts (Wissens-Chef Lauf 60, 16.09.2026).** Derselbe amtliche Volltext
+> (`700.21_6.5.81_133.pdf`, zhlex — **dieselbe** Fassung Nr. 133) liegt bereits gegengelesen in
+> `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (§ 4 Abs. 1-5 dort Z. 66-83, Anhang Ziff. 3
+> ab Z. 1090). **Fassungsstand und Wortlaut führt `baurecht`** (Führungsmatrix
+> `koordination/QUERBEZUEGE.md`); die folgende Wiedergabe ist die zitierfähige Aufbereitung für
+> die Private-Kontrolle-Praxis, kein zweiter Erlassstand. Bei einer Fassungsänderung zuerst
+> `baurecht/raw/` nachziehen, dann hier.
 - **§ 4** — private Kontrolle, Geltungsbereich und Grundsatz. Fassung gemaess RRB vom
   24. Januar 2024 (OS 79, 74), **in Kraft seit 1.4.2024**:
   - **Abs. 1:** Im Anhang zur Verordnung werden die Bereiche bezeichnet, die primaer der privaten

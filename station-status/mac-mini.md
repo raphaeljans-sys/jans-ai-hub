@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 23:14:40
+Stand: 16.09.2026 23:24:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:09)
@@ -9,7 +9,7 @@ Stand: 16.09.2026 23:14:40
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8eca226aa nas-selfcommit: 3 Datei(en) 2026-09-16 23:00
+- ef9c968b9 templates: InDesign-Praesentation per Script, Bauweg und Fallen (Rücklauf 2619 KISPI Sitzungsvorlage)

@@ -53,6 +53,20 @@ Methode noch nicht gelaufen ist. Keine Statushebung in diesem Lauf. Prüfstand i
 
 Stations-Split eingehalten: keine DIN-, VSS- oder RAL-Position berührt.
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): offener Punkt zu SIA 2017 von aussen beantwortet
+
+Befund WC60-5, Gegenrichtung. `destillate/sia-mb-2017.md` fuehrte unter «Offene Punkte» als ersten
+Punkt, der Gueltigkeits-/Ersetzungsstand des Merkblatts gehe aus dem PDF nicht hervor. Die KB
+`architektur-fachwissen` hat genau das am 15.09.2026 am SIA-Shop erhoben: SIA 2017 / 2000 D wird
+weiterhin im **aktiven** Normenwerk gefuehrt, Ausgabe 2000, gueltig ab 01.07.2000, ohne Hinweis auf
+Rueckzug oder Nachfolgeausgabe (Produkt-ID belegt). Als «Beantwortet» am offenen Punkt nachgetragen.
+Der Vorbehalt fuer die zitierte Norm **SIA 469** bleibt bestehen.
+
+Gegenrichtung desselben Befunds: `architektur-fachwissen` fuehrt Ablaufschema, zwoelf Kriterien und
+Bewertungsmodell materiell parallel; dort ist jetzt vermerkt, dass fuer zitierfaehige Fundstellen
+dieses Destillat gilt (Rule `normen-referenz`). Doppelspur benannt, nicht aufgeloest.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Eingang SIA 2017 als erledigt vermerkt, Metalldecken-Output an bauprodukte übergeben
 
 - `wiki/QUESTIONS.md`, Absatz «Cross-KB-Eingang aus `architektur-fachwissen`»: Nachtrag «erledigt,
