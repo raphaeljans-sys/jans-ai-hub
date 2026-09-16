@@ -3373,3 +3373,23 @@ mit einem reinen App-Prinzipal aufgerufen werden»), eingetragen in `connectors/
 Nachtrag 15.09.2026 17:3x: **Trim von Raphael selbst ausgeloest** (`New-PnPSiteFileVersionBatchDeleteJob -MajorVersionLimit 5
 -MajorWithMinorVersionsLimit 5 -Force`, delegiert), Antwort «Success … permanently deleted in the upcoming days». Auch
 `Get-PnPSiteFileVersionBatchDeleteJobStatus` ist app-only gesperrt (17:33 gemessen); Erfolg misst der Hygiene-Lauf an Belegung und `VersionSize`.
+
+## 260916 — Rosetta 2 nach macOS-27-Update nachinstalliert (interaktiv, Auftrag Raphael): Drucker-Kostenstellen-Dialog
+
+**Anlass:** Der Buero-Drucker Konica Minolta bizhub C300i (Queue `_192_168_1_140`, lpd) fragte
+nach dem Update auf macOS 27 (15.09.2026 13:54) nicht mehr nach der Kostenstelle; ohne
+Kostenstelle weist das Geraet den Job ab. **Befund:** Konfiguration intakt (PPD: KMSection/
+Account Track = True; KM-Prefs `PopupAccountTrack = True`, Kostenstelle 31 gespeichert, letzte
+Aenderung 15.09. 13:52, also zwei Minuten vor dem Update). Der Dialog stammt aus dem
+Druckdialog-Plugin `/Library/Printers/KONICAMINOLTA/C751i/PDEs/KONICA MINOLTA C751i Output.plugin`;
+**alle sieben PDEs und pde.framework sind reine x86_64-Binaries** (Treiber 5.3.6A, Aug 2024),
+nur der CUPS-Filter `psToKMC751iPS` ist universal. Das Update hatte Rosetta 2 entfernt
+(`arch -x86_64 /usr/bin/true` → «Bad CPU type», kein `oahd`, kein Receipt). dlopen-Gegenprobe:
+Plugin laedt unter Rosetta, nativ «incompatible architecture». **Eingriff:**
+`softwareupdate --install-rosetta --agree-to-license` (rc=0, oahd laeuft danach). Angekuendigt
+im Chat vor der Ausfuehrung. Umkehr: Rosetta ist eine Apple-Komponente ohne Konfigurationswirkung;
+ein Rueckbau ist nicht noetig und von Apple nicht vorgesehen. **Offen:** Apple hat angekuendigt,
+Rosetta mit macOS 28 auf Spiele zu beschraenken — dann faellt dieser Treiber endgueltig; bis
+dahin nativer KM-Treiber oder AirPrint mit Kostenstelle am Geraet klaeren (Register
+`logbuch/fristen.md` 260916). Lehre: nach jedem grossen macOS-Update auf Apple Silicon zuerst
+Rosetta messen, bevor am Treiber gesucht wird; gilt auch fuer den Mac Mini.
