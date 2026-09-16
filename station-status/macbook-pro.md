@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 00:08:59
+Stand: 17.09.2026 00:29:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:48)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 00:08:59
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b9d5e0824 betrieb-chronik 260917: OneDrive-Domainverdopplung MacBook Pro gemessen, Symlink durch OneDrive 00:01
+- 3453d165e nas-selfcommit: 1 Datei(en) 2026-09-17 00:15
