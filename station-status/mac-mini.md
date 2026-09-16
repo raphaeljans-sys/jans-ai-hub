@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 09:53:44
+Stand: 16.09.2026 10:14:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 16.09.2026 09:53:44
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ef700d399 WEGE.md: Nachtrag 16.09.2026 Massenupload OneDrive (Fotoarchiv), Graph-delta-Zaehlung, osxphotos via Terminal
+- dd9e8382f nas-selfcommit: 3 Datei(en) 2026-09-16 10:00
