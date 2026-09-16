@@ -419,8 +419,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
-  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht ein Anliegen, was ein Recht oder einen Antrag begründet
-  — nicht, dass es Geld betrifft.**
+  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein Zugeständnis: die trägt den LOCKERSTEN Opener («Grüezi Herr <N>» in der Abgebots-Bitte, 260916). «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -429,7 +428,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
-  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
+  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff;
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
   warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
@@ -443,8 +442,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
   (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
-  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
-  zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
+  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822).**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
@@ -4552,3 +4550,35 @@ Vorgang standen. Dritte und vierte belegte Nullform (nach 04.08. und 22.08.). Ne
 **Doppel**: dasselbe Datum in zwei Formaten, maschinenlesbar und lesbar, und die stille
 Erweiterung des Verteilers. Das Register der Nullform ist nicht Unhoeflichkeit, sondern
 **Datenlieferung** — die Antwort ist das Objekt. Vertieft [[QUESTIONS]] 260806 #2.
+
+## Fidelity 260916 — die Bitte um ein Zugeständnis SENKT die Anrede; «Grüezi» ist die vierte Sie-Stufe (belegt Fidelity 260916, authentisch)
+
+- **⭐⭐ Gewichtig heisst nicht: ich will etwas.** Gold C (Giacometti, Steinmann AG, 23.02.2026
+  16:06) ist die gewichtigste Mail der ganzen Reihe — Auftragsvergabe in Aussicht, Abgebot von
+  CHF 1'000 erbeten — und trägt den **lockersten** Opener des Vorgangs: «**Grüezi Herr
+  Giacometti**». Der Zwilling setzte «Geschätzter Herr Giacometti» und berief sich dabei korrekt
+  auf die Klausel «Gewicht des Anliegens schlägt den Routine-Default» (Rule `anrede-kontakte`).
+  Die Klausel steuert hier falsch. Die Reihe ordnet sich wie folgt: Raphael **hebt**, wenn er ein
+  Ergebnis liefert oder ein Recht geltend macht; er **hebt nicht**, wenn er um ein Zugeständnis
+  bittet — dort macht er sich klein, nicht gross. Gleiche Linie wie die Zeilen Spahic (Ultimatum
+  hebt nicht, 260914) und Hansen (Konflikt hebt nicht): **die Anrede steigt mit dem, was Raphael
+  GIBT, nicht mit dem, was auf dem Spiel steht.**
+- **Derselbe Sie-Kontakt trägt vier Opener in vier Tagen.** Giacometti: «Guten Tag,» (20.02.
+  18:03) · «Guten Tag Herr Giacometti» (23.02. 13:48) · «**Grüezi** Herr Giacometti» (23.02.
+  16:06) · «Sehr geehrter Herr Giacometti,» (24.02. 09:40) — alle aus eigener Hand, alle im selben
+  Vorgang. Der Routine-Opener je Kontakt ist im **warmen Handwerker-Sie** deshalb kein Standbild;
+  «Grüezi» steht als CH-Variante gleichwertig neben «Guten Tag». Die Form stand seit Monaten im
+  Abschnitt «Sie-Register (belegt KISPI)» von [[stimme]] und nie im kompilierten Block.
+  **Kompiliert.**
+- **⭐ Regressionserfolg: «neue Mail mit Anhang → Geschätzte/r» wirkt auch im Sie.** Gold B
+  (24.02.2026 06:08, Offertanfrage mit Plananhang) trägt «**Geschätzte Frau Gasser**». Am
+  15.09. setzte der Zwilling bei **derselben Person** «Guten Tag Frau Gasser», wo das Gold «Sehr
+  geehrte» hatte; die daraus kompilierte Regel hat heute an der Nachbargattung getroffen. Zwei
+  Stufen an einer Person nach Anlass: Zwei-Wort-Quittung → «Sehr geehrte», neue Mail mit Anhang
+  und Leistungsbeschrieb → «Geschätzte». Cornelia Gasser (Hobel Genossenschaft, Schreiner) steht
+  bis heute **nicht** in der Kontaktliste der Rule `anrede-kontakte` — Aufnahme ist Raphaels
+  Entscheid, hier nur vorgelegt ([[QUESTIONS]] 260916b #2).
+- **Claudia Horeni bestätigt sich selbst:** «Geschätzte Frau Horeni,» am Vormittag nach dem
+  Beratungsgespräch desselben Morgens — getroffen. Die Eingrenzung vom 15.09. («eingespielt →
+  Geschätzte/r, nur früher angeschrieben → Sehr geehrte/r») hält: ein persönliches Gespräch macht
+  eingespielt, eine blosse Weiterverweisung im selben Amt nicht.

@@ -1826,3 +1826,30 @@ Stunden in folgenden Bereichen an» trennt Geleistetes von Kommendem in **dersel
 statt die Zukunft pauschal zu beziffern. Der Empfaenger kann beides gegeneinander lesen. Dazu
 die ausdrueckliche Grenze («Die Revisionsplaene sind gemaess Offerte nicht enthalten») und die
 Markierung «approximativ» — **die Unschaerfe wird benannt, bevor sie jemand findet.**
+
+## Fidelity 260916 — die Praxisfrage an die Behörde bleibt EIN Absatz; die Verhandlung steht im doppelten Konjunktiv (belegt Fidelity 260916, authentisch)
+
+- **⭐ Die schlichte Praxisfrage wird nicht gegliedert.** Gold A (Horeni, AfB) packt
+  Rechtsprechungskette, Frage und Merkmalsdefinition in **einen einzigen Absatz**: drei
+  Fundstellen als Feststellung, dann «Ist es so, dass auch nach der BZO-Revision folgende Arten
+  der Wohnnutzung dem Wohnanteil weiterhin anrechenbar verbleiben: Klassische Hotelnutzungen;
+  dabei handelt es sich um … (Betriebskonzept)?», dann die Abgrenzung über die Kochgelegenheit.
+  Ein einziges Fragezeichen, kein Spiegelstrich, kein Label. Die Blindfassung baute daraus drei
+  Absätze mit einer «–»-Alternativfrage und dem Label «Hintergrund der Anfrage:» und berief sich
+  auf die kompilierte Regel zum **Auslegungs-Ersuchen bei strittiger Norm**. Die Regel ist nicht
+  falsch, ihre Reichweite war es: sie gilt, wo Raphael zwei Auslegungen gegeneinander stellt, um
+  die Behörde zur Wahl zu zwingen — **nicht** für die Frage nach der geltenden Praxis, die nur
+  eine Antwort kennt. **Eingegrenzt und kompiliert.**
+- **⭐ Die Verhandlung steht im doppelten Konjunktiv und endet auf einem Fragezeichen.** Gold C:
+  «Ich **würde** gerne Ihnen den Auftrag geben, jedoch **wäre** die Frage ob Sie ein Abgebot von
+  CHF 1000.- machen **könnten**?» — drei Konjunktive in einem Satz, dazu die Wortstellung «gerne
+  Ihnen» statt «Ihnen gerne». Der Zwilling machte daraus eine Ansage im Indikativ («Ich möchte
+  Ihnen den Auftrag geben, und im Auftrag der Bauherrschaft bitte ich Sie dafür um ein Abgebot»)
+  und nahm ihr damit genau das, was sie verhandelbar macht. Ergänzt die Bitte-Skala in [[stimme]]
+  um den Fall, in dem der Empfänger **nein sagen darf und soll**: dort ist die Höflichkeitsform
+  keine Verpackung, sondern die Sache selbst.
+- **Die Reihenfolge ist Bitte → Begründung → Gegenleistung, nicht umgekehrt.** Gold C nennt das
+  Abgebot im zweiten Satz und die Kostenlage («Wir sind mit diese Balkontüre insgesamt noch zu
+  teuer») erst danach. Der Zwilling stellte die Begründung voran und berief sich auf «vorher die
+  Reibung wegnehmen». Am Verhandlungsfall gilt das Gegenteil: die Zahl zuerst, damit der
+  Gegenüber weiss, worüber geredet wird.

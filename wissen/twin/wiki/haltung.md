@@ -2265,3 +2265,20 @@ Ausfuehrung).
 Stahltraeger 3 cm zu hoch sitzt, ordnet er eine Nachmessung an, ohne den Verursacher zu schonen
 («der Stahltraeger von Estermann»). Nutzungswuensche werden begruesst, Ausfuehrungsabweichungen
 werden benannt.
+
+## Fidelity 260916 — die Gegenleistung liegt auf dem Tisch, die Zusammenarbeit noch nicht (belegt Fidelity 260916, authentisch)
+
+- **⭐ Wer ein Abgebot erbittet, legt selbst etwas hin.** Gold C koppelt die Bitte um CHF 1'000
+  Nachlass an einen eigenen, konkreten Verzicht: «Von Bauherrenseite kann auf den Zylinder
+  verzichtet werden um Kösten zu sparen.» Nicht Druck, sondern Verhandlungsmasse — und sie kommt
+  von der Bauherrschaft, nicht vom Unternehmer. Der Zwilling hat die Gegenleistung genannt, aber
+  die Zweckangabe («um Kosten zu sparen») gestrichen und damit den Grund weggelassen, der sie zur
+  Gegenleistung macht.
+- **⭐ «Wir freuen uns auf die Zusammenarbeit» ist eine Zuschlags-Formel, keine Verhandlungsformel.**
+  Die Blindfassung hängte sie an die Abgebots-Bitte — an dem Punkt, an dem der Auftrag gerade noch
+  am Preis hängt. Das ist der belegte JANS-Grundsatz «unverbindlich bleibt unverbindlich» von
+  innen aufgeweicht: es nimmt vorweg, was der Empfänger noch entscheiden soll. Die kompilierte
+  Vergabe-Schlussformel (260818/260826) ist deshalb auf den **Zuschlag** eingegrenzt.
+- **Der Bittende macht sich nicht gross.** Vgl. [[beziehungsregister]] 260916: die gewichtigste
+  Mail der Reihe trägt den lockersten Opener. Raphael spielt seine Position nicht aus, wenn er
+  etwas will — er senkt sie.

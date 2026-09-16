@@ -151,16 +151,14 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
   **die Antwort auf eine Statusfrage besteht aus fetten Labels + vollstaendigem DATEINAMEN und
-  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss; der Zwilling haengt reflexhaft
-  eine Handlungsaufforderung an und kassiert damit den offenen Raum;
+  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss;
   **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)**, der
   **Ausfuehrungs**termin oben unter «Rahmenbedingungen» — ueber dem Gruss das Bauteil, darunter
   das Verfahren; nie in den Fliesstext einruehren, wo die Frist eine Angabe unter zehn wird;
-  im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge, Urgenz-Titel
-  statt Anrede, grussloser Schluss — dort **korrekt**);
+  im **engsten Peer-Du** die Rohheit des Originals halten;
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
-  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; nach einer **Weiterverweisung** geht derselbe Text mit neuem Namen, ohne Überleitung, an den Zuständigen: die Kette erklärt (260915).
+  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0).
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
@@ -4830,3 +4828,32 @@ in derselben Systematik. Zum Schluss die Abgrenzung, was **nicht** enthalten ist
 Revisionsplaene sind gemaess Offerte nicht enthalten»). Dramaturgie: Grundlage → Aufteilung →
 Ausblick → Grenze → Gespraechsangebot («oder wir die Aufteilung gemeinsam durchgehen sollen»).
 Die Aufteilung ist ausdruecklich «**approximativ**» markiert — Annahme als Annahme.
+
+## Fidelity 260916 — Raphael beginnt beim Anlass, nie bei der Vorgeschichte (belegt Fidelity 260916, authentisch)
+
+- **⭐⭐ Vier von vier Blindfassungen bauten eine Vorrede, die im Gold fehlt.** Gold B steigt ohne
+  ein Wort zum Grobpreis vom 20.02. direkt ein: «Ich bitte um eine verbindliche Offerte für
+  folgende Leistung an der Bestandsliegenschaft Wartstrasse 8 in Zürich (Erdgeschoss,
+  Fassadenöffnung bereits definiert):» — der Zwilling stellte einen Dank- und Rückblickabsatz
+  davor. Gold C beginnt mit der Subjekt-Ellipse «Hatte soeben die Besprechung mit der
+  Bauherrschaft.» statt mit einem Dank für das eingegangene Angebot. Gold D setzt eine Zeile
+  Anlass und eine nackte Objektzeile, der Zwilling zwei Sätze Projektbeschreibung. Das ist die
+  Verallgemeinerung des Befundes 260915 Nr. 4 (Weiterverweisung ohne Überleitung): **der Empfänger
+  kennt den Vorgang; die eingehende Mail und die Zitatkette tragen ihn.** Der Zwilling erzählt
+  nach, was beide wissen. Stabilste Drift dieser Facette, jetzt vierfach in zwei Läufen belegt.
+  **Kompiliert** als Verallgemeinerung der bestehenden Zeile.
+- **⭐ Regressionserfolg, wörtlich:** Gold B trägt «**Eingabetermin Angebot: heute 17:00 Uhr**»
+  unter dem Signaturblock, der **Ausführungs**termin (Messen Anfang März, Montage Ende März 2026)
+  steht oben unter der fetten Rubrik «Rahmenbedingungen». Die Regel 260826 hat exakt so gesteuert.
+- **Die Rubriken der Offertanfrage:** die erste ist **die Leistungsbezeichnung selbst**
+  («Lieferung und Montage Fenstertür / Balkontüre (Holz-Vollholz)»), nicht ein generisches
+  «Objekt» — die Objektangabe steckt in der Klammer des Einleitungssatzes. Danach
+  «Leistungsumfang Montage», «Rahmenbedingungen», und als nackte Labels «Bauseiteige Leistung:»
+  und «Beilagen:». Der Zwilling setzte ein Kapitel «Objekt» voran (siehe Vorrede-Drift) und traf
+  «Rahmenbedingungen» wörtlich.
+- **Zwei Listenformen in EINER Liste:** die bauseitigen Leistungen stehen als **a) / b)**
+  mitten in der Bullet-Liste des Leistungsumfangs. Der Zwilling löste sie in Fliesstext auf und
+  berief sich dabei auf «Raphael entscheidet je Block neu» — richtig gelesen, falsch angewendet:
+  der Formwechsel geht zur **zweiten Listenform**, nicht zur Prosa.
+- **Gold D nutzt «_ A.» / «_ B.», nicht «A)».** Beide Formen sind belegt, der Zwilling wählte die
+  falsche. Trennlinie noch offen ([[QUESTIONS]] 260916b #3).

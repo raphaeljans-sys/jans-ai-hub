@@ -24,14 +24,13 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler; FG+Block ist der
   Sie-Default:** operative Zwischenfrage/Nachtrag im stehenden Thread →
-  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, auch im Sie an Werkplaner/Support, 260911), gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz im Du → «Lieber/Bester Gruss, Raphael» auf einer Zeile über dem Block (260915, 3:1); Sie oder Behörde als
+  Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, im DU; 260911); Lieferung mit Substanz im Du → «Lieber/Bester Gruss, Raphael» auf einer Zeile über dem Block (260915, 3:1); Sie oder Behörde als
   **Adressat** → FG+Block. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread; nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915).** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread; nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915). Wo ich BITTE, tritt an seine Stelle der VORAUSDANK über dem Gruss (260916, 3 Golds): «Besten Dank für Ihre Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich mich bereits im Voraus.»** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
-  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet.
-  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]].
+  **über** dem Block; die Grussformel bleibt sichtbare eigene Zeile darüber (260916). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]]. **Betreff: ein bis drei generische Wörter, ohne Objekt, Nummer und Doppelpunkt (260916, 3:0); das erste Wort nach der Anrede steht GROSS.**
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
   (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
@@ -48,25 +47,22 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   nackter Imperativ «**Bitte prüfe … und stelle …**»; meine blosse Einschätzung, der Empfänger
   könnte auch nein sagen → **Empfehlung** «**Ich halte es für sinnvoll, dass Du …**»; das
   **Verfahren** selbst, mir bleibt nur die Ansage → **Sachzwang im Indikativ** «**Dann musst Du
-  jetzt fragen, wer unterzeichnet**». Je weniger der Druck von Raphael stammt, desto direkter die
-  Form. Die
+  jetzt fragen, wer unterzeichnet**». Die
   **Abwicklungsbitte im laufenden Mandat trägt KEINE Begründung** (der angehängte Beleg IST die
   Begründung); die Begründungspflicht gilt der **substanziellen** Bitte — und **nicht** der
-  Anforderung eines Dokuments, das einem ohnehin zusteht (260816). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
+  Anforderung eines Dokuments, das einem ohnehin zusteht (260816).
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**;
   das blosse Durchstellen einer fremden Lieferung trägt NUR «zur Info» — keine Anrede, kein
   Gruss, kein Block, auch im Sie (260730/260910).
   **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
   BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909), auch die Terminfrage «Wann hätten Sie Zeit …?» (260915):** die
-  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
-  mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
+  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage. Und **zwei Stufen der Skala können in
   EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
   Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** EIN Nebensatz.
   **«Wäre es Ihnen möglich …» ist die weiche Sie-Variante der ersten Stufe**, ebenfalls auf Punkt.
 - **Im operativen Peer-Du gilt die Kurzzahl, nicht der Apostroph (260821):** Differenz zuerst,
   Absolutwerte einheitenlos in Klammern nach — «CHF **40K** mehr (von 120 auf 160)», «4Stk».
-  Der Apostroph gehört der ausgewiesenen Zahl in Offerte/Dokument/förmlicher Mail. Die
-  dreifache Verstärkung nicht glätten. **«Danke und
+  Der Apostroph gehört der ausgewiesenen Zahl in Offerte/Dokument/förmlicher Mail. **«Danke und
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
@@ -77,12 +73,11 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
 - **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
   Sie** …» (nackter Indikativ: der Druck stammt von der Bauherrschaft), dann «Danke für Ihre
-  Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» Der Nachlass wird als Total
-  beziffert («-8%tot»), nie umschrieben.
+  Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» — beides erst beim ZUSCHLAG. Der Nachlass wird als Total
+  beziffert («-8%tot»), nie umschrieben. **Die Abgebots-Bitte dagegen steht im doppelten Konjunktiv MIT Fragezeichen, die Zahl VOR der Kostenbegründung, die eigene Gegenleistung als letzter Satz (260916).**
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
-  glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
-  wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
+  glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
   für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (260801).
 - **Eigendokument-Gattungen (Protokoll, Bewertungsdokument, Erläuterungsbericht):**
   Formregeln im Abschnitt «Gattungsregeln ausserhalb der Mail» unten — vor dem Schreiben eines
@@ -197,8 +192,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
-  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht ein Anliegen, was ein Recht oder einen Antrag begründet
-  — nicht, dass es Geld betrifft.**
+  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein Zugeständnis: die trägt den LOCKERSTEN Opener («Grüezi Herr <N>» in der Abgebots-Bitte, 260916). «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -207,7 +201,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
-  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
+  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff;
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
   warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
@@ -221,8 +215,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
   (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
-  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
-  zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
+  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822).**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
@@ -262,8 +255,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
   **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. **Wo eine Angabe nicht belegt
   werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in EINER
-  Mail):** «analog/gemaess Referenz». Die ausgefuehrte Referenzarbeit ist der Massstab —
-  kalkulierbar, pruefbar, ohne Erfindung; das Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
+  Mail):** «analog/gemaess Referenz». Wo etwas vom Gegenüber gebraucht
   wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
   schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren
@@ -271,7 +263,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
   subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (exakte
   Fundstellen, Quellen anhängen) und mit geschlossener «–»-Alternativfrage + «oder» +
-  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block; der Service-Satz
+  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen — **nur bei STRITTIGER Norm; die Frage nach der geltenden Praxis bleibt EIN Absatz mit EINEM Fragezeichen, ohne Spiegelstrich und ohne Label (260916).** Beide enden mit FG + Block; der Service-Satz
   ist beim **Antrag** belegt (260902), beim Auslegungs-Ersuchen nicht. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
   MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
   Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
@@ -321,16 +313,14 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
   **die Antwort auf eine Statusfrage besteht aus fetten Labels + vollstaendigem DATEINAMEN und
-  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss; der Zwilling haengt reflexhaft
-  eine Handlungsaufforderung an und kassiert damit den offenen Raum;
+  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss;
   **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)**, der
   **Ausfuehrungs**termin oben unter «Rahmenbedingungen» — ueber dem Gruss das Bauteil, darunter
   das Verfahren; nie in den Fliesstext einruehren, wo die Frist eine Angabe unter zehn wird;
-  im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge, Urgenz-Titel
-  statt Anrede, grussloser Schluss — dort **korrekt**);
+  im **engsten Peer-Du** die Rohheit des Originals halten;
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
-  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; nach einer **Weiterverweisung** geht derselbe Text mit neuem Namen, ohne Überleitung, an den Zuständigen: die Kette erklärt (260915).
+  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0).
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung

@@ -501,8 +501,7 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
   **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. **Wo eine Angabe nicht belegt
   werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in EINER
-  Mail):** «analog/gemaess Referenz». Die ausgefuehrte Referenzarbeit ist der Massstab —
-  kalkulierbar, pruefbar, ohne Erfindung; das Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
+  Mail):** «analog/gemaess Referenz». Wo etwas vom Gegenüber gebraucht
   wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
   schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren
@@ -510,7 +509,7 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
   subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (exakte
   Fundstellen, Quellen anhängen) und mit geschlossener «–»-Alternativfrage + «oder» +
-  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block; der Service-Satz
+  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen — **nur bei STRITTIGER Norm; die Frage nach der geltenden Praxis bleibt EIN Absatz mit EINEM Fragezeichen, ohne Spiegelstrich und ohne Label (260916).** Beide enden mit FG + Block; der Service-Satz
   ist beim **Antrag** belegt (260902), beim Auslegungs-Ersuchen nicht. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
   MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
   Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
@@ -3513,3 +3512,22 @@ Vergabe, 5.11 Ausfuehrungsprojekt, 5.21 Gestalterische Leitung, 5.31 Inbetriebna
 Dokumentation ueber das Bauwerk, 5.33 Leitung der Garantiearbeiten) und nennt die **zweijaehrige
 Ruegefrist** als Rahmen der Garantieleitung. Behoerden-Kuerzel im Klartext: AfB, SRZ,
 Feuerpolizei, Meldekarten. Die Phase-5-Nomenklatur ist damit im Korpus durchgaengig belegt.
+
+## Fidelity 260916 — fünfter Lauf ohne Erfindung; der Verweisanker hält (belegt Fidelity 260916, authentisch)
+
+- **Keine Erfindung, fünfter sauberer Lauf in Folge.** Keine Zahl, kein Eigenname, keine Menge,
+  kein Material, keine Frist ausserhalb der Briefe. Nicht ergänzt wurden insbesondere: Adresse
+  oder Parzelle zu 2619 KISPI, Geschäfts-/Aktenzeichen der AfB, BZO-Artikelnummern über die drei
+  gegebenen Fundstellen hinaus, Gültigkeitsdauer der Offerte, Name des Baumeisters,
+  Rückmeldefristen für C und D.
+- **Die Bauteilangaben sitzen exakt:** Richtmass ca. 1170 × 2590 mm, Sirius HHB 58/68 oder
+  gleichwertig, RAL 9010, Ug ca. 0.7 W/m²K, VSG innen und aussen je 5 mm, Seidenzopf, Montageansatz
+  2 Monteure ca. 2 Stunden. Der **Verweisanker** «analog Referenz» / «gemäss Referenz» wurde
+  dreimal korrekt gehalten, statt eine plausible Zahl zu erfinden.
+- **Die Rechtsprechungskette wird inline gesetzt, nicht als Zitatapparat:** BEZ 1988 Nr. 14 ·
+  BEZ 2015 Nr. 36 · BGer 1C_148/2010 stehen im Fliesstext der Frage, mit «vgl.» nur beim ersten.
+  Getroffen. Der Zwilling schrieb die BGer-Nummer korrekt, wo das Gold den handgetippten Slip
+  «Bier 1C148/210» trägt — richtig so: `korrektur` zieht das gerade.
+- **Kleindrift:** Raphael verkürzt das Bauteil auf «**der Zylinder**», der Zwilling schrieb
+  «Schliesszylinder» aus. In der Leistungsbeschreibung steht die lange Form
+  («Verschluss/Schliesssystem ohne Schliesszylinder»), im Gespräch mit dem Unternehmer die kurze.

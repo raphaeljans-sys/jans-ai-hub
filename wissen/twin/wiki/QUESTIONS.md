@@ -61,6 +61,47 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
 > («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
+## Offen — Runde 260916b (twin-fragesteller, aus Fidelity-Review 2026-09-16)
+
+Quelle: `outputs/2026-09-16_fidelity.md` (Regressionslauf an vier Golds vom 23./24.02.2026).
+Alle vier Fragen sind in ein bis zwei Saetzen beantwortbar.
+
+**260916b #1 — Hebt die Bitte um ein Zugestaendnis wirklich nie?** · *Facette: Beziehungsregister*
+Am 23.02.2026 um 16:06 hast Du Guido Giacometti um ein Abgebot von CHF 1'000 gebeten — die
+gewichtigste Mail des ganzen Vorgangs — und dabei «**Grüezi** Herr Giacometti» geschrieben,
+waehrend Du ihm am Vortag «Guten Tag Herr Giacometti» und am Folgetag «Sehr geehrter Herr
+Giacometti» geschrieben hast. Stimmt die Lesart: **Du hebst die Anrede, wenn Du etwas GIBST
+(Ergebnis, Recht, Antrag), und hebst sie nicht, wenn Du um ein Zugestaendnis bittest?** Wenn ja,
+gehoert der Satz in die Klausel «Gewicht des Anliegens schlaegt den Routine-Default» in
+`rules/anrede-kontakte.md` — den Wortlaut einer Rule aendert Claude nicht selbst.
+*Warum:* die Klausel steuert heute jede Anrede-Entscheidung des Zwillings und hat in diesem Lauf
+genau einmal gesteuert und genau einmal danebengelegen.
+
+**260916b #2 — Wie redest Du Cornelia Gasser (Hobel Genossenschaft) routinemaessig an?** ·
+*Facette: Beziehungsregister*
+Belegt sind zwei Stufen an derselben Person, je nach Anlass: «Sehr geehrte Frau Gasser» vor einer
+Zwei-Wort-Quittung (15.02.2026) und «Geschaetzte Frau Gasser» in der Offertanfrage mit Anhang
+(24.02.2026). Sie steht nicht in der Kontaktliste. Welcher ist der Routine-Opener?
+*Warum:* dieselbe Person hat den Zwilling in zwei Laeufen hintereinander gemessen; eine Zeile in
+der Liste ersetzt beide Male das Raten.
+
+**260916b #3 — «A) B)» oder «_ A. _ B.» — was entscheidet?** · *Facette: Arbeitsweise*
+Beide Formen sind aus Deiner Hand belegt, teils in derselben Woche: «_ A. / _ B.» in der
+Vorabklaerung an Frau Hottinger (24.02.2026), «A) B) C)» in anderen Fragenlisten. Haengt es am
+Empfaenger, am Kanal, an der Laenge der Punkte — oder ist es schlicht frei?
+*Warum:* der Zwilling waehlt derzeit immer «A)» und liegt damit in der Haelfte der Faelle falsch;
+ist es frei, hoert er auf, es als Fehler zu werten.
+
+**260916b #4 — Der Vorausdank: gehoert er auch in die Mail, die zugleich liefert und bittet?** ·
+*Facette: Stimme*
+Neu belegt: wo Du bittest, steht ueber dem Gruss ein Dank im Voraus («Besten Dank für Ihre
+Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich
+mich bereits im Voraus.»), wo Du lieferst, steht dort ein Service-Satz («Gib mir Bescheid, wenn
+…»). Was steht in der Mail, die **beides** tut — Unterlagen liefern und um eine Rueckmeldung
+bitten? Beides, nur das eine, oder haengt es daran, was die Mail ueberwiegend ist?
+*Warum:* das ist die haeufigste Mailgattung Deines Alltags, und die Regel ist heute nur fuer die
+beiden reinen Faelle belegt.
+
 ## Offen — Runde 260824 (twin-mail-training, Batch 103)
 
 Quelle: `raw/260824-mailbatch-103.md`. Das sequenzielle Fenster war leer; der Ertrag stammt aus

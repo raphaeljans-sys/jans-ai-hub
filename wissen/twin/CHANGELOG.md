@@ -5,6 +5,54 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-16 (Fidelity-Review) — wo Raphael bittet, dankt er im Voraus; die Bitte um ein Zugestaendnis senkt die Anrede
+
+Report `outputs/2026-09-16_fidelity.md`. **Gesamt 58** — **nicht** vergleichbar mit den 43 vom 15.09.:
+dieser Lauf ist bewusst ein **Regressionstest**. Der Phrasen- und Form-Marker-Abgleich hat alle vier
+Golds als **Batch 30** identifiziert (seit 10.07.2026 in fuenf Facetten destilliert), also misst der
+Lauf Abruf statt Verallgemeinerung — genau die Frage, die die letzten drei Berichte als Ursache
+benannt haben. Golds `rj@` Sent 23.02.2026 09:15 UTC (Praxisfrage an die AfB nach dem
+Beratungsgespraech), 24.02.2026 06:08 (Offertanfrage mit Leistungsbeschrieb und Anhang), 23.02.2026
+16:06 (Abgebots-Bitte an den Schreiner, iPhone), 24.02.2026 08:21 (Behoerden-Vorabklaerung), alle
+vier im Sie. Blindfassungen von einem getrennten Lauf mit Leck-Protokoll und Entscheidprotokoll.
+
+**Befunde:** 3 von 4 Anreden (gegen 1 von 4), 3 von 4 Gruessen (gegen 0 von 4), keine Erfindung
+(fuenfter sauberer Lauf). **Vorausdank 1 von 3:** wo Raphael bittet, steht ueber dem Gruss ein Dank
+im Voraus — die Service-Satz-Regel vom 15.09. hat diese zweite, gegenlaeufige Satzgattung
+mitgerissen. **Die Bitte um ein Zugestaendnis SENKT die Anrede** (Abgebots-Bitte mit «Grüezi», vier
+Opener an einem Kontakt in vier Tagen) — die Gewichts-Klausel steuerte falsch. **Vorrede 4 von 4:**
+Raphael beginnt beim Anlass, nie bei der Vorgeschichte. **Betreffzeile 0 von 3** (ein bis drei
+generische Woerter, bisher nirgends als Regel erfasst). Regressionserfolge: «neue Mail mit Anhang →
+Geschaetzte/r» traf bei derselben Person, bei der der Zwilling am 15.09. danebenlag, und der
+Eingabetermin-Nachklapp unter dem Signaturblock kam woertlich.
+
+**Zentrale Ursache, dritter Lauf in Folge:** zwei Marker, die ohne Umweg getroffen haetten, standen
+seit Monaten im Abschnitt «Sie-Register (belegt KISPI)» von `wiki/stimme.md` und nie im kompilierten
+Block («Für Ihre Unterstützung bedanke ich mich bereits im Voraus», «Grüezi Herr <Name>»). Der
+Engpass ist nicht das Wissen, sondern die Strecke Artikel → Block.
+
+**Geschrieben:** Abschnitte «Fidelity 260916» in allen sechs Facetten-Artikeln (rein additiv);
+Do/Don't-Bloecke in `stimme`, `beziehungsregister`, `arbeitsweise`, `fachsignatur` geaendert —
+kompiliert wurden Vorausdank (drei Formulierungen), Betreffzeile, Grossschreibung nach der Anrede,
+«Grüezi» + Senkungsrichtung der Gewichts-Klausel, «beim ANLASS beginnen» (ersetzt die zu enge
+Weiterverweisungs-Zeile), Form der Abgebots-Bitte, Eingrenzung des Auslegungs-Ersuchens auf die
+strittige Norm. **Zurueckgenommen/berichtigt:** «Lgr auch im Sie an Werkplaner/Support» (260911,
+widerlegt) und «der Block, dessen erste Zeile «Freundliche Grüsse» lautet» (falsch, hat drei
+Fassungen zugleich um den Gruss gebracht). `wiki/QUESTIONS.md` 260916b #1-#4 vorgelegt; kein
+Rule-Wortlaut geaendert (die Ergaenzung der Anrede-Klausel ist als #1 vorgelegt).
+
+**Riegel:** der Compiler hat beim ersten Versuch bei 34'186 B abgebrochen und nichts geschrieben;
+nach Freischnitt von Beleg-Prosa und Dubletten neuer Stand **33'900 B, Reserve 100 B** (Warnung).
+Zweiter Lauf in Folge, der an der Grenze scheitert — die Anhebung auf 36'000 B liegt seit 10.09.
+unbeantwortet vor.
+
+**Zeilenbilanz (Append-only-Kontrolle, Rule 260811):** stimme +55/-15 · denken +27/-0 · haltung
++17/-0 · beziehungsregister +35/-5 · fachsignatur +21/-3 · arbeitsweise +32/-5 · QUESTIONS +41/-0.
+Alle Loeschungen liegen in den Do/Don't-Bloecken und entsprechen den im Report einzeln benannten
+Ersetzungen; jede wurde vor der Ausfuehrung auf genau einen Treffer geprueft (Skript bricht sonst
+ohne Schreiben ab). Baseline `scratchpad/baseline-260916/`.
+
+
 ## 2026-09-16 — twin-mail-training Batch 121 (`rj@` Sent 14.09. 17:09 bis 15.09. 20:01)
 
 Neun Treffer gesichtet, `mail@` im Fenster leer. Drei Mails mit eigenem Text, zwei Nullformen, vier
