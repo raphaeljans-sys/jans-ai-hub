@@ -1,11 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 09:41:44
+Stand: 16.09.2026 09:52:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/fugenprofil/tuerblatt/anschluss/1a0f82  (letzte Aktivitaet 09:36)
 - Developer/jans/ai/hub//claude/worktrees/metallabhangdecke/bauphysik/f693dc  (letzte Aktivitaet 09:23)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 16.09.2026 09:41:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7362b7487 nas-selfcommit: 3 Datei(en) 2026-09-16 09:30
+- ef700d399 WEGE.md: Nachtrag 16.09.2026 Massenupload OneDrive (Fotoarchiv), Graph-delta-Zaehlung, osxphotos via Terminal
