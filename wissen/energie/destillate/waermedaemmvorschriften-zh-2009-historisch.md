@@ -144,7 +144,7 @@ Die Zweitquelle (AWEL, 9.04.2009) listet die materiellen Neuerungen zum 1.7.2009
 - **Vorlauftemperatur Fussbodenheizung neu auf max. 35 °C** begrenzt (§ 23 Abs. 1 BBV I).
 - **Abluftanlagen-Schwelle gesenkt**: WRG-Pflicht neu ab 1'000 m³/h statt bisher 2'500 m³/h.
 - Formularsatz EN-ZH + EN-1a/b/c bis EN-11 auf Stand Januar 2009 vereinheitlicht (Vorläufer des heutigen, seit 1.1.2026 durch EVEN abgelösten Formularsatzes — siehe [[en-zh-nachweis-uebersicht]]).
-- Minergie-Label (§ 4 Abs. 3 BBV I): gilt als Nachweis für Wärmedämmung + Heizungsanlagen inkl. Höchstanteil — dieselbe Substitutionslogik besteht im Grundsatz bis heute (heute Formular-Entfall EN-101 bis EN-111, siehe [[energienachweis-zh]]).
+- Minergie-Label (§ 4 Abs. 3 BBV I **in der Fassung von 2009**; heute **§ 4 Abs. 4**, und erfasst sind Anhang-Ziff. 3.2/3.3/3.4.1/3.4.2, also zusätzlich Klima/Lüftung und Beleuchtung — geprüft 16.09.2026, → `[[private-kontrolle-zh]]`): gilt als Nachweis für Wärmedämmung + Heizungsanlagen inkl. Höchstanteil — dieselbe Substitutionslogik besteht im Grundsatz bis heute (heute Formular-Entfall EN-101 bis EN-111, siehe [[energienachweis-zh]]).
 
 ## Bauherren-Transfer
 

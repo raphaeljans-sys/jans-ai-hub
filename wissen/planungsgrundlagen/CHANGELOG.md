@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-16 (Cross-KB aus `wissen/energie`, Run 201) — Private Kontrolle: LN-1b-Befugnis berichtigt, § 4 BBV I auf die Fassung 1.4.2024 nachgeführt
+
+Am Original gegengelesen (AWEL «Liste der Befugten, **Stand August 2026**», zh.ch, Matrix am Rendering;
+BBV I LS 700.21 konsolidierte Fassung **Nr. 133**, in Kraft seit 1.7.2026, zhlex).
+
+- `wiki/energie-private-kontrolle-zh.md` (führend für das Verfahren): **LN-1b von der Befugnis «Kl»
+  entfernt** — der komplexe WP-Lärmschutznachweis ist allein von **Lä** gedeckt (Kl-Zeile der AWEL-Matrix
+  trägt weder S noch LN; BBV I Anhang Ziff. 3.3 lit. g erfasst WP-Lärm nur «mittels **einfacher**
+  Massnahmen» = LN-1a, Ziff. 3.1 lit. b uneingeschränkt). Weiter: Befugnis-Ausnahme für Firmen betrifft
+  **sieben** Kantone (neu **LU**, **UR**), nicht fünf; Listenstand April 2025 → **August 2026**;
+  Minergie-Abkürzung **§ 4 Abs. 4** statt Abs. 3. **Nachgetragen:** § 4 BBV I verlangt seit **1.4.2024**
+  einen Bericht mit dargelegtem Prüfergebnis, **elektronische** Einreichung über die Plattform nach
+  **§§ 19a-19c BVV** und eine **qualifizierte elektronische Signatur**; dazu die EVEN-Hürde (bestätigen
+  kann nur, wessen Befugnis mit E-Mail-Adresse beim Sekretariat hinterlegt ist). Datierter
+  Korrekturvermerk gesetzt, `last_updated` 2026-09-16.
+- `wiki/energie-energienachweis-zh-formulare.md`: Minergie-Zeile auf **§ 4 Abs. 4 BBV I** berichtigt,
+  Hinweis ergänzt, dass **S/LN-1a/1b** auch mit Label geschuldet bleiben (Anhang Ziff. 3.1 nicht erfasst).
+- `wiki/QUESTIONS.md`: E-R201-1 (erledigt, zur Kenntnis) und E-R201-2 (offen: Verhältnis EVEN ↔
+  BVV-Plattform, Ort der QES — berührt die hier offene Frage D6).
+- Beleg: `wissen/energie/outputs/2026-09-16_energie-run201.md`, `wissen/energie/destillate/private-kontrolle-zh.md`.
+
 ## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — RPG-2/RPV-Datierungen amtlich geklärt, PV-Brandschutz mit energie verknüpft
 
 - `wiki/recht-norm-quellenlandkarte.md`, additiver ⚠-Block nach dem Absatz zu Art. 25 Abs. 5 RPG:

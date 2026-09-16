@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 2026-09-16 (Run 201) — A-BLIND Rang 64: Private Kontrolle ZH am Original; § 4 BBV I seit 1.4.2024 neu gefasst (Bericht + QES), LN-1b-Befugnis KB-übergreifend berichtigt
+
+Kein PDF-Transfer (Inventar seit Run 65 erschöpft; Antrieb Prüfwarteschlange). Kandidat aus Run 196/199:
+`destillate/private-kontrolle-zh.md` (14 Backlinks in dieser KB, 7 in `planungsgrundlagen`, 1 in
+`bauprodukte`; `established` seit 21.07.2026, nie gegengelesen). **Sechste Prüfung:** die KB stützte sich
+auf die AWEL-Liste «Stand April 2025» — geltend ist **Stand August 2026** (zh.ch, SHA-256 6f2cd205…).
+Zweite Quelle am Original: BBV I LS 700.21, konsolidierte Fassung **Nr. 133**, in Kraft seit 1.7.2026
+(zhlex, SHA-256 25323f4d…), §§ 4-7 und Anhang Ziff. 3.1-3.4.2 im Volltext; Befugnis-Matrix **am
+Rendering** (Lehre Run 199). Gegenprobe Fassung 124 ↔ 133: in §§ 4-7 wortgleich.
+
+- **Berichtigt (P2), Destillat + FAQ F12 + `wiki/energienachweis-zh.md`:** § 4 BBV I ist seit **1.4.2024**
+  neu gefasst (RRB vom 24.01.2024, OS 79, 74) — verlangt sind **Bericht mit dargelegtem Prüfergebnis**,
+  **elektronische Einreichung** über die Plattform nach **§§ 19a-19c BVV** und **qualifizierte
+  elektronische Signatur** (Abs. 2/3). Die KB führte durchgehend «bestätigen unterschriftlich auf Plan
+  und Bericht».
+- **Berichtigt (P2), Destillat:** Befugnis-Ausnahme für juristische Personen betrifft **sieben** Kantone
+  (AR, GL, GR, **LU**, SZ, SG, **UR**), nicht fünf. Minergie-Abkürzung steht in **§ 4 Abs. 4** und erfasst
+  Anhang-Ziff. **3.2, 3.3, 3.4.1, 3.4.2** «soweit sie energetische Anforderungen betreffen» — **Ziff. 3.1
+  Schutz vor Lärm nicht**, S und LN-1a/1b bleiben auch mit Label geschuldet.
+- **Cross-KB berichtigt (P3, eigenständiger Fehler der führenden KB):**
+  `planungsgrundlagen/wiki/energie-private-kontrolle-zh.md` führte **LN-1b bei der Befugnis «Kl»**.
+  LN-1b ist allein von **Lä** gedeckt — Kl-Zeile der AWEL-Matrix trägt weder S noch LN, und BBV I Anhang
+  Ziff. 3.3 lit. g erfasst WP-Lärm nur «mittels **einfacher** Massnahmen» (= LN-1a), Ziff. 3.1 lit. b
+  uneingeschränkt. Dort ebenso sieben Kantone, § 4 Abs. 4 und QES/elektronisch nachgetragen; Minergie-Zeile
+  in `energie-energienachweis-zh-formulare.md` berichtigt; zwei Zeilen in dortiger `QUESTIONS.md`.
+- **Nachgetragen:** Begriffswechsel «**Teilnachweis** (früher ein EN-Formular)»; Formularserie weiterhin
+  **MuKEn 2014**; **EVEN-Hürde** (bestätigen kann nur, wessen Befugnis mit E-Mail-Adresse beim Sekretariat
+  hinterlegt ist); Kl-Befugnis deckt zusätzlich Fahrzeugeinstellhallen- und Wirtschaftsküchen-Lüftung;
+  Anhang-Kombinationsregel zur Deckung des Wärmebedarfs; Ziff. 3.6-3.9 aufgehoben (RRB 17.12.2025).
+  Frontmatter des Destillats um `fingerabdruck`, `aktualitaet`, `verifikation` ergänzt.
+- **Bestätigt:** EN-Formular-Matrix in allen 19 Spalten; §§ 5-7; «befugt, aber nicht verpflichtet»;
+  Minergie ⇒ EN-101…EN-111 entfallen.
+- **Verdichtung:** **F297 neu** («Warum kann der Fachplaner den fertigen Nachweis nicht unterschreiben?» —
+  Befugnis je Fachbereich, QES, EVEN-Mailhinterlegung), **F12 berichtigt**, Themenartikel
+  `energienachweis-zh` gewachsen. **297 FAQ.** Offen: **E-R201-1** (EVEN ↔ BVV-Plattform, Ort der QES),
+  **E-R201-2** (Umstellung MuKEn 2025). Werkzeuge 1-4 gefahren: 0 neue Befunde ausserhalb bekannter.
+  Beleg: `outputs/2026-09-16_energie-run201.md`.
+
 ## 2026-09-16 (Run 200, Nachtschicht Mac Mini, Prioritaet 4) — E-R190-1 geprueft und geschlossen, kein Tool-Update
 
 Pruefwarteschlange-Punkt E-R190-1 (`kennwert-recompute.sh` ueberspringt Zeilen mit «≈»-Faktoren)

@@ -311,12 +311,16 @@ nur, wenn **beide** Schwellen halten: **(A) keine relevante Umnutzung** UND **(B
 → `[[energienutzungs-deklaration-geringfuegige-umbauten-zh]]`.
 
 **Wer unterschreibt?** Im Kt. ZH läuft das über die **Private Kontrolle**: ein dazu
-**befugter Fachmann** (Architekt/Bauphysiker/HLK-Planer) unterschreibt die EN-Formulare auf
-Plan und Bericht und haftet für die Richtigkeit — die Bauherrschaft zeichnet nur das
-Hauptformular, das Amt prüft i.d.R. nicht nach (darf aber). Mit erteiltem **Minergie-Label
-gelten die Anforderungen als erfüllt** (EN-101…EN-111 entfallen). Welche EN-Formulare anfallen,
-zeigt die Matrix (z.B. 102 Wärmedämmung, 104 PV, 120 Heizungsersatz, LN-1a/b Lärmschutz WP)
-→ `[[private-kontrolle-zh]]`.
+**befugter Fachmann** (Architekt/Bauphysiker/HLK-Planer) bestätigt die Teilnachweise und haftet
+für die Richtigkeit — die Bauherrschaft zeichnet nur das Hauptformular, das Amt prüft i.d.R.
+nicht nach (darf aber). ⚠ **Berichtigt 16.09.2026:** hier stand «unterschreibt die EN-Formulare
+auf Plan und Bericht». Seit dem **1.4.2024** verlangt § 4 Abs. 2/3 BBV I einen **Bericht mit
+dargelegtem Prüfergebnis**, **elektronische** Einreichung über die Plattform nach §§ 19a–19c BVV
+und eine **qualifizierte elektronische Signatur** — die Unterschrift auf dem Plan ist entfallen
+(→ F297). Mit erteiltem **Minergie-Label gelten die energetischen Anforderungen als erfüllt**
+(EN-101…EN-111 entfallen; **S und LN-1a/1b bleiben**, § 4 Abs. 4 BBV I erfasst den Fachbereich
+Lärm nicht). Welche Teilnachweise anfallen, zeigt die Matrix (z.B. 102 Wärmedämmung, 104 PV,
+120 Heizungsersatz, LN-1a/b Lärmschutz WP) → `[[private-kontrolle-zh]]`.
 
 **Quelle:** Baudirektion ZH / AWEL, Formular EN-ZH-005 (Version Juli 2022, gültig bis 31.12.2025)
 → `[[en-zh-nachweis-uebersicht]]`; ⚠ **Datenstand 2026-06-07:** seit 1.1.2026 elektronischer
@@ -9995,3 +9999,56 @@ im Einzelfall bleibt beim Brandschutzplaner (Skill `brandschutz`).
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`.
 Status **established**. Datenstand 15.09.2026 (STP V 4.0 laut swissolar.ch weiterhin geltend). Verwandt:
 [[F16]], [[holzbau-bauphysik-clt]], [[pv-solar-technologien]].
+
+---
+
+## F297 — «Unser Energienachweis ist fertig gerechnet. Warum kann ihn der Fachplaner trotzdem nicht unterschreiben?»
+
+**Kurz:** Weil im Kanton Zürich seit dem **1.4.2024** nicht mehr unterschrieben, sondern
+**digital signiert** wird. Die Bestätigung der Privaten Kontrolle braucht heute drei Dinge, die
+mit der Rechnung selbst nichts zu tun haben: eine Person mit der **passenden Befugnis**, eine
+**qualifizierte elektronische Signatur (QES)** dieser Person, und deren **beim Kanton
+hinterlegte E-Mail-Adresse**, damit sie auf der Plattform EVEN überhaupt bestätigen kann. Fehlt
+eines davon, steht das Baugesuch, obwohl der Nachweis inhaltlich stimmt.
+
+**Fachlich:**
+- **Die Rechtslage.** § 4 Abs. 2 BBV I (LS 700.21, Fassung gemäss RRB vom 24.01.2024, in Kraft
+  seit 1.4.2024): Die fachkundigen Kontrollpersonen bestätigen **in einem Bericht**, dass das
+  Projekt den massgebenden Bestimmungen entspricht; der Bericht hat **das Ergebnis der Prüfung
+  darzulegen** und ist der Baubewilligungsbehörde **elektronisch über die Plattform gemäss
+  §§ 19a–19c der Bauverfahrensverordnung (BVV)** einzureichen. Abs. 3: Die Bestätigung ist mit
+  einer **qualifizierten elektronischen Signatur** nach ZertES zu versehen. Die frühere
+  Unterschrift auf den Plänen ist damit entfallen.
+- **Die EVEN-Hürde.** Die AWEL-Liste der Befugten (Stand August 2026) hält ausdrücklich fest:
+  Auf EVEN (`energievollzug.ch`) kann eine Private Kontrolle nur bestätigen, **wessen Befugnis
+  mit seiner E-Mail-Adresse beim Sekretariat Private Kontrolle hinterlegt wurde**. Eine gültige
+  Befugnis allein genügt nicht, wenn die Mailadresse fehlt oder veraltet ist. Klären lässt sich
+  das vorab bei `energie@bd.zh.ch`.
+- **Die richtige Befugnis — der häufigste Stolperstein ist der Lärm.** Die Befugnis wird **je
+  Fachbereich** erteilt (Wä Wärmedämmung · He Heizung · Kl Klima/Lüftung · Bl Beleuchtung ·
+  Lä Schutz vor Lärm), und niemand hat alle fünf. Für den **komplexen Lärmschutznachweis einer
+  Wärmepumpe (LN-1b)** braucht es zwingend **Lä** — der Lüftungsplaner mit «Kl» darf ihn
+  **nicht** zeichnen. Den einfachen LN-1a deckt daneben auch **He** ab. Der Grund steht in der
+  Verordnung: Anhang Ziff. 3.3 lit. g (Heizungsanlagen) erfasst den Wärmepumpen-Lärm nur,
+  «sofern er mittels **einfacher** Massnahmen gemäss Formular der Fachstelle Lärmschutz
+  eingehalten werden kann»; Ziff. 3.1 lit. b (Schutz vor Lärm) erfasst ihn uneingeschränkt.
+- **Minergie hilft hier nicht.** Mit zugesichertem und erteiltem Label gelten die
+  **energetischen** Anforderungen als erfüllt (§ 4 Abs. 4 BBV I, Anhang Ziff. 3.2, 3.3, 3.4.1
+  und 3.4.2 — EN-101…EN-111 entfallen). Ziff. 3.1 **Schutz vor Lärm** ist nicht erfasst:
+  Schallschutznachweis S und LN-1a/1b bleiben auch mit Label geschuldet.
+
+**Bauherren-Transfer (eigene Einordnung):** Das ist eine Terminfrage, keine Fachfrage. Die drei
+Voraussetzungen kosten null Franken, wenn man sie in der Projektierung klärt, und kosten Wochen,
+wenn sie beim Einreichen auffallen. **Praktisch:** früh festlegen, welche Fachbereiche das
+Vorhaben zieht — ein Healthcare-Umbau zieht regelmässig Wä + He + Kl, bei Wärmepumpe zusätzlich
+Lä —, pro Bereich eine befugte Person benennen und bei jeder dieser Personen die zwei Fragen
+stellen: **«Hast Du eine QES?»** und **«Ist Deine Mailadresse für EVEN hinterlegt?»**. Wer eine
+Aussenluft-Wärmepumpe an einer lärmempfindlichen Lage plant, klärt zusätzlich, ob der Nachweis
+einfach (LN-1a) oder komplex (LN-1b) wird, weil davon abhängt, **wen** man überhaupt braucht.
+
+**Quelle:** Besondere Bauverordnung I (BBV I) vom 6. Mai 1981, LS 700.21, §§ 4–7 und Anhang
+Ziff. 3.1–3.4.2, konsolidierte Fassung Nr. 133 (in Kraft seit 1.7.2026, zhlex); Baudirektion ZH /
+AWEL, «Private Kontrolle — Liste der Befugten, Stand August 2026», S. 1–2 (zh.ch, am gerenderten
+Original gelesen 16.09.2026) → `[[private-kontrolle-zh]]`. Status **established**. Datenstand
+16.09.2026. Verwandt: [[F12]], [[energienachweis-zh]],
+`wissen/planungsgrundlagen/wiki/energie-private-kontrolle-zh`.

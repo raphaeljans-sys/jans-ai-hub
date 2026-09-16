@@ -1,10 +1,10 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-08-24 (EN-105-WRG-Schwelle korrigiert: 75 % gilt für Anlagen mit Bypass, nicht feuchtebezogen — Vorlauf 2026-08-21 Run 148 — Nachweiswege je Gebäudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle, E-R140-1 als Normfrage geschärft)
+last_updated: 2026-09-16 (Form der PK-Bestätigung ergänzt: Bericht + §§ 19a–19c BVV + QES seit 1.4.2024, EVEN-Mailhinterlegung, LN-1b an «Lä»; Run 201) · 2026-08-24 (EN-105-WRG-Schwelle korrigiert: 75 % gilt für Anlagen mit Bypass, nicht feuchtebezogen — Vorlauf 2026-08-21 Run 148 — Nachweiswege je Gebäudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle, E-R140-1 als Normfrage geschärft)
 datenstand: "2021 (ältester tragend zitierter Quellenstand: EnerG-Änderung vom 19.04.2021 bzw. RRB BBV I vom 14.07.2021, beide in Kraft seit 01.09.2022 — Grundlage [[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]] und [[waermedaemmvorschriften-zh-2022]]. Die ältere EN-ZH-005-PDF-Formularsammlung (Juli 2022) ist seit 1.1.2026 durch EVEN abgelöst und im Artikeltext selbst als überholt markiert, daher nicht als Anker verwendet; ebenso bewusst ausgeschlossen die ausdrücklich als «historisch»/«superseded» geführten Quellen von 2009/2011/2013.)"
 sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md, destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md, destillate/vollzugsordner-energie-zh-abschnitt3-1-3-2-en1.md, destillate/energ-zh-nachtrag72-2011-historisch.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]], [[private-kontrolle-zh]]
 ---
 
 # Energienachweis Kanton Zürich (EN-ZH / EVEN)
@@ -15,6 +15,19 @@ Vollzug energetischer Nachweise** (`www.energievollzug.ch`). Die frühere EN-ZH-
 (EN-101 … EN-141, Deckblatt EN-ZH-005 Version Juli 2022, gültig bis 31.12.2025) ist abgelöst.
 Die **Private Kontrolle** erfasst und bestätigt die Nachweise in EVEN und reicht elektronisch bei
 der Baubewilligungsbehörde (Stadt/Gemeinde) ein. Die *Struktur/Logik* bleibt — nur das Medium hat gewechselt.
+
+**Drei formale Voraussetzungen der Bestätigung (ergänzt 16.09.2026, am Original belegt).** Der
+Medienwechsel hat die Form der Bestätigung mitverändert, und zwar schon vor EVEN: § 4 Abs. 2/3
+BBV I verlangt seit dem **1.4.2024** einen **Bericht mit dargelegtem Prüfergebnis**,
+**elektronische** Einreichung über die Plattform nach **§§ 19a–19c BVV** und eine
+**qualifizierte elektronische Signatur (QES)**. Die Unterschrift auf dem Plan ist entfallen.
+Hinzu kommt eine Plattform-Hürde: auf EVEN kann nur bestätigen, wessen Befugnis **mit seiner
+E-Mail-Adresse** beim Sekretariat Private Kontrolle hinterlegt ist (AWEL-Liste Stand August
+2026). Und die Befugnis gilt **je Fachbereich** — **LN-1b** (komplexer WP-Lärmschutz) verlangt
+**Lä**, nicht «Kl». → `[[private-kontrolle-zh]]`, F297.
+
+⚠ **Offen:** Ob der PK-Bericht über EVEN, über die BVV-Plattform (eBaugesuche) oder über beide
+läuft, ist aus Verordnung und AWEL-Liste zusammen nicht entscheidbar (E-R201-1).
 
 ## Wozu
 Der Energienachweis belegt gegenüber der Behörde, dass ein Bauvorhaben die energetischen (und

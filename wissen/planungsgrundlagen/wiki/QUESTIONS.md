@@ -11,6 +11,28 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
 >
 
+- [x] **E-R201-1 (Cross-KB aus `wissen/energie`, 16.09.2026): drei Sachfehler in
+  `wiki/energie-private-kontrolle-zh.md` berichtigt — bereits erledigt, hier nur zur Kenntnis.**
+  Am Original gegengelesen (AWEL «Liste der Befugten, **Stand August 2026**», zh.ch; BBV I LS 700.21
+  konsolidierte Fassung **Nr. 133**, in Kraft seit 1.7.2026, zhlex; Matrix am Rendering).
+  (1) **LN-1b hing an der Befugnis «Kl»** — falsch, LN-1b ist allein von **Lä** gedeckt (Kl-Zeile der
+  AWEL-Matrix trägt weder S noch LN; BBV I Anhang Ziff. 3.3 lit. g erfasst WP-Lärm nur «mittels
+  **einfacher** Massnahmen» = LN-1a, Ziff. 3.1 lit. b uneingeschränkt). Das war der folgenreiche
+  Befund: ein Lüftungsplaner mit «Kl» hätte einen Nachweis gezeichnet, für den ihm die Befugnis fehlt.
+  (2) Befugnis-Ausnahme für Firmen betrifft **sieben** Kantone (neu **LU**, **UR**), nicht fünf.
+  (3) Minergie-Abkürzung steht in **§ 4 Abs. 4**, nicht Abs. 3 (auch in
+  `wiki/energie-energienachweis-zh-formulare.md` berichtigt), und erfasst Ziff. 3.2/3.3/3.4.1/3.4.2,
+  **nicht** Ziff. 3.1 Lärm → S und LN-1a/1b bleiben auch mit Label geschuldet.
+  (4) **Nachgetragen:** § 4 BBV I ist seit **1.4.2024** neu gefasst — Bericht mit dargelegtem
+  Prüfergebnis, **elektronische** Einreichung über die Plattform nach **§§ 19a-19c BVV**, **QES**;
+  dazu die EVEN-Hürde (bestätigen kann nur, wessen Befugnis mit E-Mail-Adresse beim Sekretariat
+  hinterlegt ist). Korrekturvermerk im Artikel gesetzt, `last_updated` auf 2026-09-16.
+- [ ] **E-R201-2 (Cross-KB aus `wissen/energie`, 16.09.2026, P3): Verhältnis EVEN ↔ BVV-Plattform
+  offen — betrifft diese KB direkt.** § 4 Abs. 2 BBV I nennt für den PK-Bericht die
+  Bauverfahrens-Plattform nach §§ 19a-19c BVV, die AWEL-Liste nennt für die Energienachweise EVEN.
+  Welcher Weg für den PK-Bericht gilt und wo die QES angebracht wird, ist aus beiden Quellen zusammen
+  nicht entscheidbar. Berührt die hier offene Frage **D6** (EVEN-Maskenführung am realen KISPI-Fall) —
+  wer D6 anfasst, klärt diesen Punkt mit. Geführt in `wissen/energie/wiki/QUESTIONS.md` E-R201-1.
 - [ ] **E-R199-1 (Cross-KB aus `wissen/energie`, 15.09.2026): Übergangsdokument PV-Fassaden verlängert.**
   `wiki/energie-pv-eignung-typenwahl.md` nannte die Geltung «bis 31.12.2024»; Swissolar hat bis Ende 2026
   verlängert (News 11.12.2024, Seite Wissen/Brandschutz abgerufen 15.09.2026). Nachtrag im Artikel gesetzt,

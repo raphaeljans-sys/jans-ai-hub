@@ -1,12 +1,23 @@
 ---
 title: Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-09-16
 sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]]
 ---
 
 # Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
+
+> ⚠ **Korrekturvermerk 16.09.2026 (Cross-KB aus KB `energie`, Run 201).** Der Artikel wurde am
+> Original gegengelesen (AWEL-Liste «Private Kontrolle — Liste der Befugten, **Stand August
+> 2026**», zh.ch; BBV I konsolidierte Fassung **Nr. 133**, in Kraft seit 1.7.2026, zhlex). Vier
+> Berichtigungen: (1) **LN-1b gehört nicht zur Befugnis «Kl»**, sondern allein zu **Lä** — die
+> Matrix des Merkblatts führt in der Kl-Zeile weder S noch LN, und BBV I Anhang Ziff. 3.3 lit. g
+> erfasst den WP-Lärm nur «mittels einfacher Massnahmen» (= LN-1a), Ziff. 3.1 lit. b dagegen
+> uneingeschränkt; (2) die Befugnis-Ausnahme betrifft **sieben** Kantone (neu **LU** und **UR**),
+> nicht fünf; (3) die Minergie-Abkürzung steht in **§ 4 Abs. 4**, nicht Abs. 3; (4) § 4 verlangt
+> seit 1.4.2024 **elektronische Einreichung und QES**. Quell-Destillat:
+> `wissen/energie/destillate/private-kontrolle-zh`.
 
 Planungsgrundlagen-Antwort auf eine wiederkehrende Baueingabe-Frage: **Wer muss den
 Energienachweis als «Private Kontrolle» unterzeichnen, und welche Befugnis deckt welches
@@ -24,11 +35,17 @@ Grundlage ist die **Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 (LS 700.21
 zur Verordnung sind die Bereiche bezeichnet, die **primär der privaten Kontrolle** unterstehen
 (energetische + schalltechnische Massnahmen).
 
-- Die Kontrolle wird durch **private Fachleute** ausgeübt. Sie bestätigen **unterschriftlich
-  zuhanden der Bewilligungsbehörde** — auf den Plänen **und in einem Bericht in
-  nachvollziehbarer Form** —, dass das Projekt den massgebenden Bestimmungen entspricht und nach
-  den bewilligten Plänen ausgeführt ist bzw. nach Fertigstellung vorschriftsgemäss betrieben
-  werden kann.
+- Die Kontrolle wird durch **private Fachleute** ausgeübt. Sie bestätigen **in einem Bericht**
+  zuhanden der Bewilligungsbehörde, dass das Projekt den massgebenden Bestimmungen entspricht und
+  nach den bewilligten Plänen ausgeführt ist bzw. nach Fertigstellung vorschriftsgemäss betrieben
+  werden kann. Der Bericht hat **das Ergebnis der Prüfung darzulegen** (§ 4 Abs. 2).
+- ⚠ **Seit 1.4.2024 digital statt Unterschrift auf dem Plan** (Fassung gemäss RRB vom 24.01.2024,
+  OS 79, 74). Der Bericht ist der Baubewilligungsbehörde **elektronisch über die Plattform gemäss
+  §§ 19a–19c BVV** einzureichen (§ 4 Abs. 2), und die Bestätigung ist mit einer **qualifizierten
+  elektronischen Signatur** nach ZertES zu versehen (§ 4 Abs. 3). Bis 16.09.2026 stand hier die
+  alte Fassung «unterschriftlich auf den Plänen». **Praxisfolge:** vor der Eingabe klären, ob die
+  zeichnende Person eine QES besitzt — und ob ihre Mailadresse beim Sekretariat Private Kontrolle
+  für **EVEN** hinterlegt ist, sonst kann sie dort nicht bestätigen (AWEL-Liste August 2026).
 - Wird in einem Fachbereich die private Kontrolle durchgeführt, müssen **sowohl Projekt als
   auch Ausführung** in diesem Fachbereich erfasst werden (Projektkontrolle **und**
   Ausführungskontrolle).
@@ -67,7 +84,7 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
 |---|---|---|
 | **Wä** Wärmedämmung | EN-101, **102**, 104, **112**, **131**, **132** | Deckung Energiebedarf, Gebäudehülle SIA 380/1, Eigenstrom, Kühlräume, Ferienhäuser/Gewächshäuser |
 | **He** Heizung | EN-101, **103**, 104, **120**, **130**, **133**, **134**, **135**, **141** · **LN-1a** | Heizung/WW, erneuerbare Wärme bei Erzeugerersatz, Elektrizitätserzeugung, Heizung im Freien, beheizte Freiluftbäder, Gebäudeautomation; WP-Lärm einfach |
-| **Kl** Klima/Lüftung | EN-101, **105**, **110**, **141** · **LN-1b** | Lüftungstechnische Anlagen, Kühlung/Befeuchtung, Gebäudeautomation; WP-Lärm komplex |
+| **Kl** Klima/Lüftung | EN-101, **105**, **110**, **141** | Lüftungstechnische Anlagen, Kühlung/Befeuchtung, Gebäudeautomation — **kein** S und **kein** LN (Korrektur 16.09.2026) |
 | **Bl** Beleuchtung | EN-104, **111** | Beleuchtung (Nichtwohnen >1000 m² EBF, SIA 387/4) |
 | **Lä** Schutz vor Lärm | **S**, **LN-1a**, **LN-1b** | Schallschutznachweis Aussenlärm; Lärmschutznachweis Wärmepumpen |
 
@@ -82,13 +99,13 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
 
 - **Liste der Befugten** (natürliche + juristische Personen): wird von der Baudirektion ZH
   ständig nachgeführt; jedermann kann bei den kantonalen und kommunalen Bewilligungsbehörden
-  Einblick nehmen (**BBV I § 6**). Quelle/Stand des hier abgelegten Auszugs: **April 2025**
+  Einblick nehmen (**BBV I § 6**). Quelle/Stand: **August 2026** (geprüft 16.09.2026; der hier früher abgelegte Auszug war April 2025)
   (Sekretariat Private Kontrolle, AWEL, Stampfenbachstrasse 12, 8090 Zürich,
   `energie@bd.zh.ch`).
 - **Interkantonale Geltung (wichtig für JANS SZ-Projekte):** Die Befugnis für **juristische
-  Personen (Firmen)** gilt **nur im Kt. Zürich**, **nicht** in AR, GL, GR, **SZ** und SG. Die
-  gelisteten **natürlichen Personen** sind dagegen **in allen fünf Kantonen** zur Privaten
-  Kontrolle befugt. → Für ein Projekt im Kt. SZ die Private Kontrolle über eine **natürliche
+  Personen (Firmen)** gilt **nur im Kt. Zürich**, **nicht** in AR, GL, GR, **LU**, **SZ**, SG und **UR**. Die
+  gelisteten **natürlichen Personen** sind dagegen **in allen sieben Kantonen** zur Privaten
+  Kontrolle befugt (Stand August 2026; bis April 2025 waren es fünf, ohne LU und UR). → Für ein Projekt im Kt. SZ die Private Kontrolle über eine **natürliche
   Person** (nicht über die Firma) abdecken lassen.
 - **Befugnis-Erteilung (BBV I § 5):** an Personen mit den nötigen Fachkenntnissen (Fachausbildung
   oder Berufspraxis) und gutem Leumund; **Einführungskurs** in der Regel Voraussetzung; **Aufnahme-
@@ -104,7 +121,7 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
   zieht meist **Wä + He + Kl** (+ **Lä** bei WP/Aussenlärm). Pro Bereich eine befugte Person
   organisieren (oft die Fachplaner selbst, sofern gelistet).
 - **Minergie-Abkürzung:** Mit zugesichertem/erteiltem **Minergie-Label** entfallen die
-  Einzelnachweise EN-101…EN-111 (→ `[[energie-energienachweis-zh-formulare]]`, § 4 Abs. 3 BBV I)
+  Einzelnachweise EN-101…EN-111 (→ `[[energie-energienachweis-zh-formulare]]`, **§ 4 Abs. 4 BBV I** — bis 16.09.2026 stand hier Abs. 3; die Absätze sind mit der Fassung vom 1.4.2024 verschoben. Erfasst sind Anhang-Ziff. 3.2, 3.3, 3.4.1 und 3.4.2, **nicht** Ziff. 3.1 Lärm)
   — und die Private Kontrolle dieser Bereiche reduziert sich entsprechend.
 - **EVEN-Bezug 2026:** Die Unterschriften-/Befugnis-Logik gilt unverändert, ist jetzt aber im
   **EVEN-Workflow** (`energievollzug.ch`) abgebildet (Rollen Planer/Bauherr/Behörde) → offene

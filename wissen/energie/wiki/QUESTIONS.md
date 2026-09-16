@@ -2,6 +2,59 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 201 (16.09.2026) — A-BLIND Rang 64: Private Kontrolle ZH am Original; § 4 BBV I seit 1.4.2024 neu gefasst
+
+`[[private-kontrolle-zh]]` (14 Backlinks in dieser KB, 7 in `planungsgrundlagen`, 1 in `bauprodukte`;
+`established` seit 21.07.2026, nie gegengelesen; Kandidat aus Run 196/199). **Sechste Prüfung zuerst:**
+die KB führte die AWEL-Liste «Stand April 2025» — geltend ist **Stand August 2026** (zh.ch,
+`zh_komplett.pdf`, PDF erstellt 20.08.2026, SHA-256 6f2cd205…). Zweite Quelle am Original: BBV I
+LS 700.21, konsolidierte Fassung **Nr. 133**, in Kraft seit **1.7.2026** (zhlex, SHA-256 25323f4d…);
+§§ 4-7 und Anhang Ziff. 3.1-3.4.2 im Volltext gelesen, Befugnis-Matrix der Liste **am Rendering**
+(Lehre Run 199). **Siebte Prüfung (Cross-KB):** `planungsgrundlagen/wiki/energie-private-kontrolle-zh`
+ist für das Verfahren führend und spiegelte drei der Fehler.
+
+**Beanstandet und berichtigt (P2, vier Befunde):** (1) **§ 4 BBV I ist seit 1.4.2024 neu gefasst**
+(RRB vom 24.01.2024, OS 79, 74): verlangt sind ein **Bericht mit dargelegtem Prüfergebnis**,
+**elektronische** Einreichung über die Plattform nach **§§ 19a-19c BVV** und eine **qualifizierte
+elektronische Signatur** (Abs. 2/3). Die KB führte durchgehend die alte Fassung «bestätigen
+unterschriftlich auf Plan und Bericht» — in Destillat, FAQ F12 und im führenden
+planungsgrundlagen-Artikel. (2) Die Befugnis-Ausnahme für **juristische Personen** betrifft
+**sieben** Kantone (AR, GL, GR, **LU**, SZ, SG, **UR**), nicht fünf. (3) Die Minergie-Abkürzung
+steht in **§ 4 Abs. 4** (nicht Abs. 3) und erfasst Anhang-Ziff. **3.2, 3.3, 3.4.1 und 3.4.2**
+(nicht nur 3.2/3.3), jeweils nur «soweit sie energetische Anforderungen betreffen» — **Ziff. 3.1
+Schutz vor Lärm ist nicht erfasst**, S und LN-1a/1b bleiben also auch mit Label geschuldet.
+(4) Frontmatter-Ausgabe überholt.
+
+**Cross-KB berichtigt (P3, eigener Sachfehler in `planungsgrundlagen`):** dort stand **LN-1b bei
+der Befugnis «Kl»** («WP-Lärm komplex»). Falsch: die Kl-Zeile der AWEL-Matrix trägt weder S noch
+LN; LN-1b ist allein von **Lä** gedeckt. Zweitbeleg aus der Verordnung selbst — Anhang Ziff. 3.3
+lit. g (Heizungsanlagen) erfasst den WP-Lärm nur «sofern … mittels **einfacher** Massnahmen gemäss
+Formular der Fachstelle Lärmschutz» (= LN-1a), Ziff. 3.1 lit. b (Schutz vor Lärm) uneingeschränkt.
+Praktische Wirkung: ein Lüftungsplaner mit «Kl» hätte einen Nachweis gezeichnet, für den ihm die
+Befugnis fehlt.
+
+**Nachgetragen:** Begriffswechsel «**Teilnachweis** (früher ein EN-Formular)»; Formularserie steht
+weiterhin auf **MuKEn 2014**; **EVEN-Hürde** (bestätigen kann nur, wessen Befugnis mit E-Mail-Adresse
+beim Sekretariat hinterlegt ist); Kl-Befugnis deckt zusätzlich die Formulare Lüftungsanlagen
+Fahrzeugeinstellhallen und Wirtschaftsküchen; Anhang-Kombinationsregel (Deckung Wärmebedarf gilt nur
+bei ausschliesslich fachbereichseigenen Massnahmen, sonst nur kombiniert). **Bestätigt:** die
+EN-Formular-Matrix in allen 19 Spalten, §§ 5-7 sinngemäss, «befugt, aber nicht verpflichtet».
+**Verdichtung:** **F297 neu** (die drei formalen Voraussetzungen der Bestätigung), **F12 berichtigt**,
+`wiki/energienachweis-zh.md` gewachsen. 297 FAQ.
+
+- [ ] **E-R201-1 (P3): Verhältnis EVEN ↔ BVV-Plattform (§§ 19a-19c BVV) ungeklärt.** § 4 Abs. 2 BBV I
+  nennt für den PK-Bericht die Bauverfahrens-Plattform, die AWEL-Liste nennt für die Energienachweise
+  EVEN (`energievollzug.ch`). Ob der Bericht über EVEN, über eBaugesuche oder über beide läuft — und
+  wo genau die QES angebracht wird —, ist aus diesen zwei Quellen nicht entscheidbar. Nächster Schritt:
+  BVV §§ 19a-19c am Original (LS 700.6) lesen und mit der EVEN-Wegleitung abgleichen; Cross-KB
+  `planungsgrundlagen/wiki/energie-even-plattform-bedienung` (dort offene Frage D6, Maskenführung am
+  realen KISPI-Fall) zuerst greppen.
+- [ ] **E-R201-2 (P4): Formularserie steht auf MuKEn 2014.** Die Liste August 2026 führt die Serie
+  ausdrücklich als «basierend auf den MuKEn 2014». Wann ZH auf die MuKEn 2025 umstellt und was das für
+  die Teilnachweis-Nummerierung heisst, sagt sie nicht. Vgl. `[[muken-2025-verabschiedet]]`.
+- [x] **A-BLIND Rang 64:** ✓ 16.09.2026 (Run 201). **Nächster Kandidat:** Backlink-Ranking neu ziehen
+  (Ränge 57-72 sind seit Run 196 weitgehend abgearbeitet).
+
 ## Run 200 (16.09.2026, Nachtschicht Mac Mini) — E-R190-1 geprueft und geschlossen: kein Tool-Update noetig
 
 **Frage:** wie viele Zeilen in der KB betrifft das «≈»-Formel-Problem KB-weit, bevor eine Toleranz

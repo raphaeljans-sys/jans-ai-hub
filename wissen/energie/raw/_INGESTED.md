@@ -511,3 +511,20 @@ berichtigt, F295 neu, `wiki/pv-eigenverbrauch-zev.md` berichtigt.
 Ergebnis → `destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md` (3 Sachfehler Tabelle 1 berichtigt,
 Geltungsbereich Dach, Verdikt-Tabelle), FAQ F16 berichtigt, F296 neu, Folgestellen in zwei Wiki-Artikeln und
 zwei Destillaten.
+
+## Run 201 (16.09.2026) — Private Kontrolle ZH: Merkblatt + Verordnung am Original
+- Baudirektion ZH / AWEL, Abt. Energie, Sekretariat Private Kontrolle: «Private Kontrolle — Liste der
+  Befugten, **Stand August 2026**, für Gemeinden im Kanton Zürich»,
+  `zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/private-kontrolle/listen-befugte-pk/zh_komplett.pdf`,
+  807'488 B, 77 S., PDF erstellt 20.08.2026, SHA-256 `6f2cd20583250533…`; gelesen S. 1-2 **am Rendering**
+  (Grundlagen, Befugnis-Matrix, BBV-I-Auszug), ab S. 3 Namensregister der Befugten — bewusst nicht destilliert.
+- Besondere Bauverordnung I (BBV I) vom 6. Mai 1981, LS 700.21, konsolidierte Fassung **Nr. 133**,
+  in Kraft seit **1.7.2026**, `notes.zh.ch/appl/zhlex_r.nsf/WebView/31755374B90390C7C1258DFF004BA742/$File/700.21_6.5.81_133.pdf`,
+  467'658 B, 32 S., SHA-256 `25323f4dd27eabbe…`; gelesen §§ 4-7 und Anhang Ziff. 3.1-3.4.2 (pdftotext).
+  Gegenprobe gegen Fassung **Nr. 124** (in Kraft 1.4.2024, `700.21_6.5.81_124.pdf`): in §§ 4-7 wortgleich.
+  Massgebende Änderung: § 4 i.d.F. RRB vom 24.01.2024 (OS 79, 74; ABl 2024-02-09), in Kraft seit 1.4.2024.
+- zhlex-Erlassseite LS 700.21 (`zh.ch/…/zhlex-ls/erlass-700_21-1981_05_06-1982_01_01-133.html`) — nur
+  Ausgabenprüfung (welche Fassung gilt), kein weiterer Download.
+Ergebnis → `destillate/private-kontrolle-zh.md` (4 Beanstandungen berichtigt, Matrix bestätigt, Verdikt-Tabelle),
+FAQ F12 berichtigt, F297 neu, `wiki/energienachweis-zh.md` gewachsen; Cross-KB-Korrekturen in
+`wissen/planungsgrundlagen` (LN-1b-Befugnis, sieben Kantone, § 4 Abs. 4, QES).
