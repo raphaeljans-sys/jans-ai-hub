@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 08:50:23
+Stand: 16.09.2026 09:10:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 08:50:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 37b87ddff nas-selfcommit: 3 Datei(en) 2026-09-16 08:45
+- 830a78e01 Hub-Chef 16.09.2026: DOCX-Pipeline beider Stationen per A6 repariert (Interpreter-Fallback), Briefing gesendet
