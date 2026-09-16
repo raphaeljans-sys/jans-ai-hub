@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 07:22:08
+Stand: 16.09.2026 07:42:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 07:22:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 203bb7efe Vollgas-Fruehwarnung 16.09.2026: Regellauf ohne Befund, Logeintrag
+- 3cebfe6ac nas-selfcommit: 2 Datei(en) 2026-09-16 07:30
