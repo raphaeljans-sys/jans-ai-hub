@@ -99,6 +99,37 @@ bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch ve
 **Selbstkontrolle.** Letzter MacBook-Eintrag 16.09. 01:00, Abstand rund 12 h, innerhalb der Toleranz von 15 h (Takt 12 h + 3 h).
 `lastRunAt` 10:58Z ist dieser Lauf, kein Aussetzer. Keine Mail (kein P1-Blocker, kein Wochenlimit).
 
+## 2026-09-16 12:57 — [FREI] **Mini-Regellauf. Messwerte decken sich mit der MacBook-Fassung 12:58 darueber (die gilt). NEUER BEFUND, P2 hochgestuft: der Doppellauf ist nicht nur teuer, er ZERSTOERT Eintraege — dieser Eintrag musste nachgetragen werden, weil der MacBook-Lauf ihn ueberschrieben hat.**
+
+**Lost Update in RADAR.md, gemessen, nicht vermutet.** Der Mini-Lauf schrieb seinen Eintrag um 12:57 fertig in die Datei
+(Schreibvorgang mit `ok` quittiert). Die Gegenpruefung 30 Sekunden spaeter fand ihn nicht mehr: an seiner Stelle stand die
+MacBook-Fassung von 12:58. Beide Laeufe lesen dieselbe Datei ueber SMB, haengen ihren Eintrag oben an und schreiben die
+**ganze** Datei zurueck; wer zuletzt schreibt, gewinnt, und der andere Eintrag ist spurlos weg. Bei vier Minuten Abstand
+(15.09.) fiel das nicht auf, bei einer Minute Abstand faellt es. **Das ist kein Schoenheitsfehler des Doppellaufs, sondern
+Datenverlust in genau dem Register, das die Aufsicht traegt** — und es trifft jeden Tag zweimal zu, jeweils um 00:5x und 12:5x.
+Gleiche Familie wie Rule `auto-verbesserungen` 260811 (nach jedem Schreiben den Umfang messen): entdeckt wurde es nur, weil die
+Platzierung nach dem Schreiben gegengeprueft wurde.
+
+**Lage (Mini).** PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink unveraendert 16.09. 05:15) «OK», rc=0 in **5 s**,
+Watchdog 180 s nicht gebraucht, keine Waisen. Wochenbudget **16.4 %** bei **29.2 %** verstrichener Woche, Vorsprung **-12.7 Punkte**,
+Ampel FREI (Mini 7.36, MacBook 20.04 Mio, beide Stationsdateien frisch). Speicher Mini: Druckstufe 1, **12.2 GB**
+frei+inaktiv+purgeable, Uptime 3:36. Keine Drossel aktiv, keine zurueckzudrehen.
+
+**Feuermechanismen (Mini).** Kein `vollgas-*`-Job geladen, plist `ch.jans.vollgas-supervisor` weiterhin `.disabled-260729`; per ssh
+gegengemessen auch auf dem MacBook (supervisor + monitor `.disabled-260729`, kein Job geladen). Mini-Registry im Sollstand:
+heartbeat-daily, vollgas-fruehwarnung, vollgas-chef-radar `enabled: true`, keine Lern-Task gedrosselt. Endlos-Runner bleibt ausgebaut.
+
+**Liefer-Delta.** Deckungsgleich mit der Fassung darueber: 20 Dateien unter `wissen/` in 13 h (twin 11, normen 5, energie 2, spec 1,
+bauprodukte 1), dazu die operativen Erzeugnisse. Kein Loop mit Delta Null, kein Ruecktakt- oder Deaktivierungskandidat.
+
+**P2 (hochgestuft, Aktion Raphael).** Die drei doppelt gefuehrten Tasks auf dem MacBook abschalten — jetzt nicht mehr nur wegen der
+doppelten Kosten, sondern weil jeder Radar-Slot einen der beiden Eintraege verliert. Bis dahin gilt fuer beide Fassungen: **nach dem
+Schreiben die Platzierung gegenpruefen und bei Verlust nachtragen** (so entstand dieser Eintrag). Gegenprobe der Abschaltung wie
+gehabt ueber `list_scheduled_tasks` auf dem MacBook und daran, dass FRUEHWARNUNG.md am Folgetag nur noch einen Eintrag traegt.
+
+**Selbstkontrolle.** Letzter Mini-Eintrag 16.09. 00:57, Abstand 12 h — im Takt. `lastRunAt` der eigenen Task 16.09. 10:57Z = dieser
+Lauf. Keine Mail (kein P1-Blocker, kein Wochenlimit).
+
 ## 2026-09-16 01:00 — [FREI] **MacBook-Fassung, Ergänzung zum Mini-Eintrag 00:57 direkt darunter (der gilt). Hier nur, was nur das MacBook messen kann: die Registry bestätigt den Befund des Mini. Alle drei Tasks stehen hier weiterhin auf `enabled: true`.**
 
 **Registry-Beleg zur Gegenprobe.** `list_scheduled_tasks` auf dem MacBook, 16.09. 01:00: vollgas-chef-radar `enabled: true`
