@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 03:41:55
+Stand: 16.09.2026 03:52:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:41)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 03:41:55
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f35f20f15 nas-selfcommit: 3 Datei(en) 2026-09-16 03:30
+- 2afb9d79b twin-mail-training Batch 121: rj@ Sent 14.09.-15.09.2026 — Gruss haengt am Kanal (Beweis), Korrektur-Delta Nr. 2
