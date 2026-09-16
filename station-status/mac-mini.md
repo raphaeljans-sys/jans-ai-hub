@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 17:15:18
+Stand: 16.09.2026 17:25:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 16.09.2026 17:15:18
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 37e0065e4 nas-selfcommit: 2 Datei(en) 2026-09-16 17:15
+- 48c6fbf4e Synergie-Lauf 37: SYN-88 neu (Auto-Block 'Bitte um Zugestaendnis hebt nicht' widerspricht importierter anrede-kontakte, Vermerk gesetzt), SYN-89 neu (Rosetta-Lehre erreicht keinen heartbeat-Check), SYN-71 nachgefuehrt
