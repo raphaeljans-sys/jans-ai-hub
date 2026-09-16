@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 08:09:18
+Stand: 16.09.2026 08:19:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:07)
@@ -12,4 +12,4 @@ Stand: 16.09.2026 08:09:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- aa0646e5d Heartbeat 16.09.2026: DOCX-Pipeline Mac Mini defekt, Register-Eintrag
+- 27ea3f150 nas-selfcommit: 4 Datei(en) 2026-09-16 08:15
