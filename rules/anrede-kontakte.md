@@ -58,6 +58,26 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   Ultimatum nicht. Belege `wissen/twin/wiki/beziehungsregister.md` Z. 4376-4386, Frage
   `wissen/twin/wiki/QUESTIONS.md` 260911 #3.
 
+  ⚠ **Die Bitte um ein Zugestaendnis hebt offenbar NICHT: Vermerk Synergie-Lauf 37, 16.09.2026;
+  Wortlaut oben unangetastet.** Der Fidelity-Review vom 16.09.2026 hat an der Abgebots-Bitte an
+  Guido Giacometti (23.02.2026 16:06, CHF 1'000 Nachlass, die gewichtigste Mail des ganzen
+  Vorgangs) «**Grüezi** Herr Giacometti» gemessen — waehrend derselbe Kontakt am Vortag «Guten Tag
+  Herr Giacometti» und am Folgetag «Sehr geehrter Herr Giacometti» trug. Die Bitte um das
+  Zugestaendnis traegt also den **lockersten** Opener des Vorgangs, nicht den gewichtigsten. Die
+  daraus kompilierte Fassung steht seit 16.09. in `rules/jans-dna-facetten.md` (Auto-Block,
+  Abschnitt Beziehungsregister): «Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht
+  Geld, nicht Konflikt und nicht die Bitte um ein Zugestaendnis». **Das beruehrt die Lesart
+  direkt darueber**, die «ein Ergebnis **oder eine Bitte**» hebt — die Abgebots-Bitte ist eine
+  folgenreiche Bitte im Sinn der Klausel und muesste danach heben. **Praktische Folge bis zum
+  Entscheid Raphaels:** bei einer Bitte um ein Zugestaendnis (Abgebot, Nachlass, Entgegenkommen,
+  Fristerstreckung) den Routine-Opener des Kontakts halten und nicht heben; bei Ergebnis, Recht
+  und Antrag bleibt es beim Heben. «Grüezi Herr \<Nachname\>» steht im warmen Handwerker-Sie
+  gleichwertig neben «Guten Tag». Die Frage ist **offen** und ausdruecklich an Raphael gerichtet
+  (`wissen/twin/wiki/QUESTIONS.md` 260916b #1, dort mit dem Hinweis «den Wortlaut einer Rule
+  aendert Claude nicht selbst»); Beleg `wissen/twin/outputs/2026-09-16_fidelity.md`. Gleiche
+  Kanal-Familie wie SYN-53 und SYN-71: der Befund entsteht im Twin-Harness und erreicht die
+  importierte Rule nicht von allein.
+
 - **Ein persoenliches Treffen kann das Register heben (belegt, Bestaetigung ausstehend).**
   Zwei unabhaengige Belege aus Raphaels eigener Hand: der Sanitaer-Fachplaner wird am 18.08.2026
   im Thread durchgehend im Sie angesprochen und am 20.08.2026, **nach der Koordinationssitzung

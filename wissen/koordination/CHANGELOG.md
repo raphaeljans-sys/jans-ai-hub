@@ -2,6 +2,28 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-16 — Synergie-Lauf 37 (Tagestakt)
+
+Delta-Basis 15.09.2026 17:10, Fenster 24 h, 116 Commits. Uhr gegen die Synology geprueft, keine
+Abweichung; Delta nativ im SSD-Klon gegen `origin/main` (HEAD `222c38f19`), Anschlussprobe sauber.
+Strukturell kein neuer Skill, Agent, Connector, Service, Command oder Rule; geaendert
+`rules/jans-dna-facetten.md` (Auto-Block, Rekompilierung), `rules/betrieb-chronik.md` (Rosetta-Eingriff)
+und `skills/tenant-hygiene/SKILL.md` (Vollzug SYN-86 (e)).
+
+- **SYN-88 neu** (Typ 1): der Auto-Block der Facetten-Datei fuehrt seit 16.09. «die Bitte um ein
+  Zugestaendnis hebt nicht», waehrend die importierte `rules/anrede-kontakte.md` an zwei Stellen
+  «eine Bitte hebt» sagt. Bringschuld war im Twin-Harness erkannt (QUESTIONS 260916b #1 nennt die
+  Ziel-Rule), blieb aber liegen. Vermerk an der Rule gesetzt (additiv, 158 → 178 Zeilen, Klauseltext
+  unangetastet); (b) und (c) offen.
+- **SYN-89 neu** (Typ 3): am 16.09. rissen zwei Werkzeugketten aus demselben Grund — die DOCX-Pipeline
+  wurde zum heartbeat-Check befoerdert, die Rosetta-Lehre blieb Chronik-Text; kein Check misst die
+  lokale Werkzeug-Architektur. Bewusst nicht gebaut (Script-Aenderung am Aufsichtsbaustein).
+- **SYN-71 nachgefuehrt:** dieselbe Klausel erneut bewegt, andere Achse; als SYN-88 gefuehrt.
+- Gegengeprueft und nicht zum Befund erhoben: die Rosetta-Lehre «gilt auch fuer den Mac Mini» ist im
+  Fristen-Register per `ssh`-Gegenmessung bereits abgedeckt.
+
+Bericht: `outputs/2026-09-16_synergie-lauf-37.md`.
+
 ## 2026-09-15 (Lauf 59, Abendlauf) — eine amtliche Quelle beantwortete drei offene Fragen im Nachbar-KB, und eine Negativaussage hätte ein zweites Destillat ausgelöst
 
 Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 58, je Feld mit
