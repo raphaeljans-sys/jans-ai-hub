@@ -3,6 +3,65 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 16.09.2026 (07:04): Heute 13:00 Lüftungstermin mit bereitliegenden Deckengrundlagen, die Abrechnung Steinbrüchelstrasse ist fällig, und Deine Antwort an Tonet liegt fertig im Entwurf
+
+**Drei Dinge zuerst.** Erstens: Heute um 13:00 ist der Vor-Ort-Termin Lüftung im KISPI, der Kalendereintrag steht, und die Deckengrundlagen dafür liegen seit gestern Abend bereit. Zweitens: Die Abrechnung Steinbrüchelstrasse ist heute fällig, gerichtet an denselben Empfängerkreis, bei dem seit gestern 14:51 Deine fertige Antwort zum Durchleitungsrecht unversandt im Entwurf liegt. Drittens: Die Stundenaufteilung an Albin Spahic ist gestern um 18:20 versandt worden; offen bleibt daraus nur der Tarifentscheid.
+
+### Erledigt seit gestern
+
+1. **Stundenaufteilung HOP2 an Albin Spahic versandt**, gestern 18:20, mit der Offerte und beiden Stundenlisten im Anhang: 405.5 Stunden per 15.09., gegliedert nach den Positionen der Offerte. Damit steht die Belegbasis für den Leistungsnachweis zum 21.09.
+2. **Freigabe Mehrpreis Jegen erteilt**, gestern 15:03, Offerte O-91161-03 unterzeichnet an Roland Grob und Livdin Bajrami, KISPI im Verteiler. Zwei Aufträge laufen daraus bei Dritten weiter: Montagevorbereitung mit Wärmebildkamera bei Albin Spahic; finale Massaufnahme S1 Gliss und Bestätigung Küchenelement KW 40 bei Jegen.
+3. **Metalldecken Therapieküche und WC vorbereitet.** Neues Los 283.10 eröffnet, BKP 283.1, 101 Grundlagen von der Truninger-Plattform beschafft, darunter der HdM-Deckenspiegel OG1 Sektor 41. Die Abklärung zur Metallabhangdecke in Dusche und WC liegt vor: D411 mit mikroperforierter Kassette ist zulässig.
+4. **Plangrundlagen Ablagetablar an Fabian Würsch und Albin Spahic** versandt, gestern 17:47.
+5. **Kontaktdaten RWD Schlatter weitergegeben.** Adem Kayisoglu hat die Nummer von Albin Spahic erhalten; die Terminvereinbarung für die Masskontrolle liegt jetzt bei den beiden.
+6. **Fotomediathek nach OneDrive exportiert und verifiziert**, 10'856 Dateien mit 27 GB, alle 9'653 Mediathek-Objekte gegen das Original geprüft.
+
+### Aus unseren Gesprächen
+
+**Lüftungstermin heute, die Deckengrundlagen sind der Grund.** Für den Termin um 13:00 sind zwei Punkte vorbereitet: die Abluftmenge je Dusche bestätigen lassen und den Auslasstyp im 70er-Raster fixieren. Tellerventile und Sprinkler sitzen nach Deiner Abklärung mittig in der Kassette. Die Offerte bei der Röösli AG soll im Paket mit Therapieküche und WC angefragt werden.
+
+**Honorar KISPI, offen ist der Tarif.** Die Offerte rechnet mit CHF 155/h, die Stundenlisten führen CHF 160/h. Bis zu Deinem Entscheid rechnet das Blatt mit CHF 155/h: 645 Stunden Budget, davon 405.5 investiert und rund 240 verbleibend. Der Ansatz wirkt direkt auf die Untergrenze von CHF 165'000.00 für Montag.
+
+### Überfällig
+
+1. **Antwort an Aaron Tonet zum Durchleitungsrecht.** Zwei Fassungen liegen im Entwurf, beide von gestern Nachmittag, die kürzere von 14:51. Inhaltlich ist sie fertig: Verlegung nach Art. 742 ZGB möglich, Kosten bei der Bauherrin, Mitwirkung der Berechtigten nötig, deshalb als Vereinbarung und Kostenposition geführt, nicht als Rechtsstreit; verlangt werden die Belegpläne Witikon 1950/125b und 1953/188 oder der Kanalisationskataster. Nova wartet seit sechs Tagen.
+2. **Zusammenfassung der Honorarsitzung vom 14.09.** Zweiter Tag unversandt im Entwurf an Albin Spahic, Cornelia Schäfer und Claudia Allerkamp. Die HOP2-Mail von gestern ersetzt sie nicht, sie ging nur an Albin Spahic und behandelt einen anderen Punkt.
+3. **bexio, Tag 39 ohne Zugang.** Heute erneut HTTP 401. Fünf offene Rechnungen über CHF 51'400.00 bleiben unverifiziert; ohne Entscheid stellt bexio am 08.10. auf Advanced um. Für die Rechnung Steinbrüchelstrasse bleibt nur das bexio-Web.
+4. **Kapitaleinzahlung AG, CHF 50'000.00, 33 Tage über dem Soll-Termin 14.08.** Kein Eingang von UBS, Notariat oder Handelsregister.
+5. **Absage an die GLAESER AG.** Siebter Tag im Entwurf.
+6. **SVA Zürich, Mahnung vom 05.08. und Beitragsrechnung vom 11.09.** Beide liegen im Portal AHVeasy und sind nur mit Deinem Login einsehbar.
+7. **new copy store, 2. Mahnung über CHF 22.45.** Offen ist zusätzlich die Weiterleitung der Rechnung 6380066 über CHF 236.10 an das Kinderspital.
+
+### In den nächsten 7 Tagen
+
+1. **Heute 13:00:** Vor-Ort-Termin Lüftungstechnik mit Cekdar Duran und LSH, Haupteingang Bereich A, Lenggstrasse 30. Steht im Kalender «Arbeit».
+2. **Heute:** Abrechnung Steinbrüchelstrasse, Kostendach CHF 1'800.00 exkl. MWST, nach Aufwand, Rechnung an 1291 Die Schweizer Anlagestiftung, vertreten durch Nova Property Fund Management AG, Aaron Tonet, Pfäffikon SZ.
+3. **Donnerstag 17.09., 13:00 bis 14:00:** Koordinationssitzung Gruner, Jans und KISPI (Teams). Am selben Tag ist Adem Kayisoglu auf Baurunde in Zürich.
+4. **Freitag 18.09.:** Masskontrolle der Rohmasse mit RWD Schlatter und Albin Spahic, Ende KW 38; Vorleistungen KISPI abgeschlossen.
+5. **Samstag 19.09.:** Umbau Schiebetüre und Einbau RHS durch Estermann. Im Kalender steht 08:00, geplant war 06:30.
+6. **Sonntag 20.09.:** Leistungsnachweis für die Sitzung, die Stundenbasis liegt jetzt vor.
+7. **Montag 21.09., 13:30 bis 14:30:** Folgesitzung «Abgleich Umbau PPTS» mit Schäfer, Allerkamp und Spahic (Teams); offen ist noch die Zahlungsübersicht.
+
+### In Beobachtung
+
+1. **iCloud und OneDrive:** Der Upload steht seit vorgestern 18:40 bei 5'596 von 10'856 Dateien, und der angekündigte Abschluss-Wächter läuft nicht mehr. Bis der Upload nachweislich vollständig ist, bleibt «Deaktivieren und löschen» in iCloud gesperrt. Der Neustart des OneDrive-Clients liegt bei Dir.
+2. **Gruner Brandschutz:** Jens Ziegel bis 05.10. abwesend, Nabiullah Meragi übernimmt und wird am Donnerstag vorgestellt.
+3. **Jegen:** Heinrich Arter bis 18.09. abwesend.
+4. **Nova, Steinbrüchelstrasse:** AfB-Bestätigung zu den Reduits, Kanalisationskataster, Anmeldung Wegrecht WI3366 bis 08.10.
+5. **Thalwil:** Der Begleitbeschrieb Bohlweg 3 ist bis heute nicht an die Gemeinde gegangen, die Freigabe von Stefan Tschopp fehlt weiterhin.
+6. **Albertstrasse 7:** KV-Entwurf an Roman Steinmann unversandt; er ist ab 22.09. zurück.
+7. **Notariat:** Alternative zum Firmennamen.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen. Erstens den Termin am 19.09. von 08:00 auf 06:30 verschieben. Zweitens am Donnerstag, 17.09., einen Rückruf bei Adem Kayisoglu einplanen, solange er in Zürich ist.
+
+### Token-Tempo
+
+Vortag 15.09.: MacBook Pro 281.4 Mio. Tokens (212.54 USD API-Äquivalent), Mac Mini 72.5 Mio. Tokens (40.77 USD), zusammen 353.9 Mio. Tokens und 253.31 USD.
+
+**Laufvermerk 2026-09-16 (Journal):** Register 2 Erledigt (HOP2-Stundenaufteilung an A. Spahic am 15.09. 18:20 versandt, Teilerledigung mit offenem Tarifentscheid; Freigabe Mehrpreis Jegen O-91161-03 am 15.09. 15:03 versandt), 1 neu (zwei unversandte Entwürfe der Antwort an A. Tonet zum Durchleitungsrecht, 15.09. 14:34 und 14:51), 1 Sammel-Nachtrag (Zusammenfassung Honorarsitzung Tag 2 im Entwurf, bexio Tag 39, AG 33 Tage über Soll, GLAESER Tag 7, Lüftungstermin im Kalender verifiziert, Queues leer); 8 Zeilen am Dateiende angehängt, 0 entfernt (`diff` gegen Kopie gemessen). Quellen: Konversations-Destillat 260916 (fünf Gespräche, drei davon KISPI), Mail-Vorfilter 26 h über alle Apple-Mail-Konten (rc 0, 182 Zeilen), Graph rj@ Entwürfe, Posteingang, Gesendete und Kalender bis 24.09., Nova-Entwurf im Original gelesen, Apple Calendar gegengemessen, bexio 401, ccusage beider Stationen. Korrektur des gestrigen Stands: die Stundenaufteilung galt im Destillat noch als unversandter Entwurf, der Versand erfolgte um 18:20 nach dem Ende der destillierten Session. QS: `rechtschreibung` gelb und `layout` gelb, beide Befundlisten umgesetzt, darunter der seit dem 08.09. eingeschliffene Platzhalter «06:5x» in der Titelzeile (neu die echte Laufzeit). **Keine Mail gesendet** (Regelfall nach Ein-Mail-Prinzip): der Hub-Chef-Lauf vom 15.09. ist belegt (Logbuch-Abschnitt 08:39, Mail 08:46:47), und kein Punkt verlangt Handeln vor 08:39 — der Lüftungstermin ist um 13:00, die Abrechnung Steinbrüchelstrasse eine Tagesfrist.
+
 ## Nachtschicht Mac Mini 16.09.2026 (02:3x, Prioritaet 4) — KB energie: E-R190-1 geprueft und geschlossen
 
 Prioritaeten 1-3 ohne Handlungsbedarf (keine pending/sync-Tasks; Synobsis-Embeddings gesaettigt
