@@ -8,7 +8,7 @@ Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 59
 Meldung ein adversarialer Verifikator (6), Gegenpruefung aller tragenden Befunde am Original im
 Hauptkontext. Delta-Basis `facefa10e` → `8eca226aa`, 111 Commits, 54 Wissens-/Rules-Dateien, nativ
 im SSD-Klon gemessen. Bilanz: **6 Meldungen → 3 wie gemeldet · 2 anderer Zuschnitt · 1 widerlegt**,
-dazu 3 Felder mit Nullbefund. 14 Dateien, alle additiv, keine Loeschung.
+dazu 3 Felder mit Nullbefund. 15 Dateien, alle additiv, keine Loeschung (2 beabsichtigte Zeilenersetzungen).
 Bericht: `outputs/2026-09-16_wissens-chef-run60.md`.
 
 - **WC60-1 ⭐ energie → planungsgrundlagen:** der Korrekturvermerk von Run 201 («am Original
@@ -46,7 +46,7 @@ Bericht: `outputs/2026-09-16_wissens-chef-run60.md`.
   diesem Tag gewachsen — als offener Entscheid vorgelegt.
 - **Rueckstau vorgelegt:** vier belegte Anrede-Kandidaten stehen gleichzeitig offen (Horeni, Gasser,
   Wuersch, Stadelmann). Run 32 hat den fehlenden Zug-Mechanismus 2026 benannt; er ist jetzt messbar.
-- Schreib-Kontrolle: alle Edits anker-basiert und additiv; Numstat nach Commit im Bericht.
+- Schreib-Kontrolle: alle Edits anker-basiert; Numstat nach Commit `0286eba4e`: 497 Zeilen ergaenzt, 2 ersetzt (Frontmatter-Quelle planungsgrundlagen, Status-Zeile twin QUESTIONS), 0 entfernt.
 
 ## 2026-09-16 — Synergie-Lauf 37 (Tagestakt)
 

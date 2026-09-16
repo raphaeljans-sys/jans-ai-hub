@@ -7,7 +7,7 @@ zuschnitt:
   - "Delta-Basis facefa10e → 8eca226aa (Lauf-59-Commit bis nas-selfcommit 16.09.2026 23:00), 111 Commits, 54 Wissens-/Rules-Dateien, nativ im SSD-Klon gemessen"
   - "Eigene Messungen: BBV I § 4 Abs. 4 am amtlichen Wortlaut baurecht/raw/260607 gegengelesen; Fassungsidentitaet Nr. 133 beidseitig geprueft; grep TR2022 ueber den ganzen baurecht-Baum; SIA-2017-Doppelspur in beiden Dateien zeilenweise verglichen; Byte-Riegel selbst nachgemessen"
 bilanz: "6 Meldungen → 5 bestaetigt (2 mit korrigiertem Zuschnitt) · 1 widerlegt · 3 Felder Nullbefund"
-dateien_geaendert: 14
+dateien_geaendert: 15
 loeschungen: 0
 ---
 
@@ -41,7 +41,7 @@ Beide Male war der Befund richtig und die vorgeschlagene Handlung falsch.
 | bestaetigt, Zuschnitt korrigiert | 2 |
 | widerlegt | 1 |
 | Felder mit Nullbefund | 3 |
-| Dateien geaendert | 14, alle additiv |
+| Dateien geaendert | 15, alle additiv (2 beabsichtigte Zeilenersetzungen: Frontmatter-Quelle, Status-Zeile) |
 | Loeschungen | 0 |
 
 ## Befunde
