@@ -53,6 +53,47 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-17 00:58 — [FREI] **MacBook-Fassung, Regellauf ohne neuen Sachbefund. Der Doppellauf besteht am vierten Tag fort und ist heute erstmals LIVE belegt: der Mini-Radar lief zeitgleich mit diesem Lauf.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **9 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Wochenbudget **19.1 %** von 167 Mio bei **36.3 %** verstrichener Woche, Vorsprung **-17.2 Punkte**,
+Ampel FREI (MacBook 23.58, Mini 8.37 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurückzuschalten.
+Speicher MacBook: Druckstufe 1, rund 4.3 GB frei+inaktiv+purgeable (vm_stat).
+
+**Feuermechanismen.** Sollstand auf beiden Stationen. MacBook: `vollgas-supervisor` und `vollgas-monitor` weiterhin
+`.disabled-260729`, kein vollgas-Job geladen. Mini: `vollgas-supervisor` ebenfalls `.disabled-260729`,
+`ch.jans.nachtschicht` geladen. Mini-Registry unverändert zwölf Task-Ordner. Der Endlos-Runner bleibt ausgebaut.
+
+**Doppellauf — neu LIVE belegt, nicht mehr nur aus der Registry erschlossen (unverändert Aktion Raphael).** Bisher stützte
+sich der Befund auf `enabled: true` in der MacBook-Registry und auf doppelte Commits im Nachhinein. Heute ist er direkt
+gemessen: während dieses Laufes lief auf dem Mini die Session `b2350a78-c036-46f6-8172-100553f96352` (Zeitstempel 01:00),
+deren Wrapper `scheduled-task name="vollgas-chef-radar"` trägt. Zwei Stationen fahren denselben Radar im selben Slot.
+Die MacBook-Registry zeigt alle drei Tasks weiterhin auf `enabled: true`: vollgas-chef-radar (`lastRunAt` 22:58Z = dieser
+Lauf, `nextRunAt` 10:57Z), vollgas-fruehwarnung (`lastRunAt` 05:15Z), heartbeat-daily (`lastRunAt` 07:41Z). Die
+Deaktivierung vom 15.09. 13:32 ist damit den **vierten Tag** in Folge unwirksam. Ich deaktiviere weiterhin nicht selbst —
+Frühwarnung und heartbeat stehen auf der Ausnahmeliste, und der Schritt gehört laut Chronik 260911b Raphael.
+
+**Liefer-Delta seit 16.09. 12:00 (git, Dateien unter `wissen/`):** energie 10 (Run 201 um 22:45, Private Kontrolle ZH am
+Original, § 4 BBV I seit 1.4.2024, Cross-KB-Berichtigung in planungsgrundlagen), planungsgrundlagen 5 (Nachtschicht 23:34,
+Cross-KB-Eingang vom 15.09. geschlossen, Werkleitungskataster Stadt Zürich), koordination 5 (wissens-chef Lauf 60 um 23:11,
+fünf Befunde WC60-1 bis WC60-5, einer widerlegt), twin 2, normen 2, baurecht 2, architektur-fachwissen 2,
+architekten-synobsis 2. Ausserhalb `wissen/`: Synergie-Lauf 37 (17:10, SYN-88/SYN-89 neu), tenant-hygiene (20:08,
+826.75 GB / 78.44 %), templates InDesign-Präsentation, betrieb-chronik 260917 (OneDrive-Domainverdopplung).
+Nachtschicht Mini rc=0 um 23:34 (2.17 USD / 32 Turns). **Kein Loop ohne Delta.**
+
+**Massnahmen.** Keine.
+
+**P2 (unverändert, Aktion Raphael):** die drei doppelt geführten Tasks in der App auf dem MacBook ausschalten und die App
+danach einmal neu starten; Gegenprobe über `list_scheduled_tasks` (`enabled: false`). **P3 (unverändert):** die zu weit
+gefasste Allow-Regel in `.claude/settings.local.json` Zeile 19 (`Bash(sed 's|.*/500 Invest/||' …)`, `*` vor dem Rest des
+Befehls) wurde heute erneut von der Fensterprobe gemeldet; sie stammt aus einem einmaligen Tool-Ergebnis-Pfad und gehört
+gestrichen. Ich fasse sie nicht selbst an (Rule `interaktive-eingriffe` Ziff. 3, unbeaufsichtigte Session). **P3
+(unverändert):** bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch verloren, nächste Slots
+20./21.09.
+
+**Selbstkontrolle.** Letzter MacBook-Eintrag 16.09. 12:58, Abstand **12 h 0 min**, innerhalb der Toleranz von 15 h
+(Takt 12 h + 3 h). `lastRunAt` 22:58Z ist dieser Lauf, kein Aussetzer. Keine Mail (kein P1-Blocker, kein Wochenlimit).
+
 ## 2026-09-17 00:57 — [FREI] **Mini-Regellauf, ohne neuen Befund. Der Doppellauf besteht am vierten Tag fort und ist heute aus dem Frühwarnungs-Log doppelt belegt. Wochenverbrauch läuft dem Zeitverlauf weiterhin deutlich hinterher.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink `../lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe`,

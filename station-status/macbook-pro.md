@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 00:50:17
+Stand: 17.09.2026 01:00:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 00:50:17
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 000d4f0ec nas-selfcommit: 2 Datei(en) 2026-09-17 00:45
+- 2bcd653ad vollgas-radar 260917 00:57: [FREI] Regellauf Mini, Doppellauf Tag 4, Budget 19.0% bei 36.3% Woche
