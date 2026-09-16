@@ -3393,3 +3393,24 @@ Rosetta mit macOS 28 auf Spiele zu beschraenken — dann faellt dieser Treiber e
 dahin nativer KM-Treiber oder AirPrint mit Kostenstelle am Geraet klaeren (Register
 `logbuch/fristen.md` 260916). Lehre: nach jedem grossen macOS-Update auf Apple Silicon zuerst
 Rosetta messen, bevor am Treiber gesucht wird; gilt auch fuer den Mac Mini.
+
+## 260917 — MacBook Pro: nachträglich verbundene Bibliotheken landen in einer zweiten OneDrive-Domain mit verdoppeltem Namen (nur gemessen, kein Eingriff)
+
+Gemessen 16.09. 23:5x bis 17.09. 00:05 CEST, während Raphael Bibliotheken neu verband (Rest der Liste aus dem
+Fristen-Eintrag 10.09.). fileproviderd führt drei OneDrive-Domains (`fileproviderctl dump`, xattr
+`com.apple.file-provider-domain-id`): `JANS` (Erstverknüpfung 11.09. 08:18, enthält nur `JANS - 2619-KISPI - Dokumente`),
+`OneDrive - JANS` (persönliches OneDrive von admin@…onmicrosoft.com, Stamm `OneDrive-JANS(2)`, weil der Phantom-Stamm
+`OneDrive-JANS` vom 11.09. 00:04 mit ACL `deny delete` den Namen belegt) und `OneDrive-FreigegebeneBibliotheken–JANS`
+(Stamm `…FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS`, angelegt 13.09. 22:27 mit `AR - 01 Projekte`,
+heute 00:01 dazu `AD - 03 Kommunikation`). **Ursache in der Client-Konfiguration ablesbar** (`Containers/com.microsoft.
+OneDrive-mac/…/settings/Business1/<guid>.ini`, Zeilen `libraryScope`): Scope 1 (KISPI) trägt den Ordnerstamm
+`JANS.noindex/JANS/`, Scope 2 und 3 dagegen `OneDrive-FreigegebeneBibliotheken–JANS.noindex/OneDrive-FreigegebeneBibliotheken–JANS/`,
+der Client hat also beim Nachverbinden den bestehenden CloudStorage-Ordnernamen als Mandantennamen übernommen und erneut
+präfigiert. Dasselbe Muster wie Mac Mini 08.08. und MacBook Pro 10.09. **Um 00:01:17–21 hat OneDrive selbst** (zeitgleich mit
+dem .ini-Update) den Stamm der Domain `JANS` in `OneDrive-FreigegebeneBibliotheken–JANS 2` umbenannt und unter dem alten Namen
+einen Symlink auf den verdoppelten Stamm gelegt; die Hub-Pfade `…FreigegebeneBibliotheken–JANS/AR - 01 Projekte/…` lösen
+seither wieder auf. `AD - 01 Geschaeftsfuerung` (Hub-Output-Ablage) ist auf dieser Station in keiner Domain verbunden.
+Beide KISPI-Kopien enumerieren bis in die LOS-Ordner; welche der Client bedient, sagt die .ini (Scope 1 → Domain `JANS`).
+Keine Eingriffe von Claude, keine Ordner umbenannt. Empfehlung an Raphael im Gespräch: Restbibliotheken fertig verbinden
+(landen alle im verdoppelten Stamm, das ist dann der eine Ort), KISPI per «Synchronisierung beenden» und neu «Synchronisieren»
+nachziehen, nichts von Hand im Finder verschieben; Phantom `OneDrive-JANS` später über den ACL-Weg vom 10.09. entfernen.
