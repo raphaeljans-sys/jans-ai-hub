@@ -3,6 +3,18 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 16.09.2026 (13:30-Slot, Prioritaet 5) — zwei offene Identitaetsfragen synobsis recherchiert
+
+Prioritaeten 1-4 durchgeprueft, alle heute bereits ohne Delta-Potenzial: keine offenen
+Remote-/Sync-Tasks; Synobsis Stufe 2 (Embeddings) weiterhin aktuell (853/853 deckungsgleich);
+Fristen-Radar 08:06-10:25 bereits umfassend vom Hub-Chef erhoben; einzige freie Trainings-KB
+`energie` bereits heute als Run 200 gelaufen (`bauprodukte` seit 15.08. ERLEDIGT, `grobkosten`/
+`projekt-lessons` ausgesetzt). Prioritaet 5 gezogen: zwei offene Eintraege aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per Websuche recherchiert und mit
+RECHERCHIERT-Vermerk ergaenzt (Kruse_Oliver, Shizuoka/Kenzo-Tange-Bezug). Details:
+`wissen/architekten-synobsis/CHANGELOG.md` 2026-09-16. Keine Aenderung an der NAS-Quelle
+`05_Architekten_Synobsis`, keine Versand-/Buchungs-/Loeschaktion.
+
 ## Hub-Chef 16.09.2026 (08:39 bis 08:5x, Tagesbriefing gesendet) — DOCX-Pipeline per A6 auf beiden Stationen repariert, die vorgelegte Variante waere falsch gewesen
 
 **Pflichtlektuere:** Radar-Abschnitt 16.09. 07:04 gelesen; der Radar hat heute **nicht** gemailt (sein eigener Laufvermerk: «Keine Mail gesendet», Regelfall nach Ein-Mail-Prinzip). Damit bin ich heute der einzige Kanal und trage seine operativen Punkte weiter, statt auf ihn zu verweisen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut**, obwohl der Monitor lief (Commit `6edbe7c50`, «KEINE neuen Mails seit 31.08., P1 unveraendert»): er schrieb wieder nur ins Fristen-Register und nach `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md`. Befund unveraendert (Kapitaleinzahlung CHF 50'000.00, 33 Tage ueber Soll), vom Radar bereits getragen. Konversations-Destillat `260916-konversationen.md` gelesen (fuenf Gespraeche, drei davon KISPI).

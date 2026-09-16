@@ -4,6 +4,21 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-09-16 (Mac Mini, Nachtschicht 13:30-Slot, Prioritaet 5) — Zwei weitere offene Identitaetsfragen recherchiert
+
+Prioritaet 1-4 heute bereits abgedeckt (keine offenen Remote-/Sync-Tasks; Synobsis Stufe 2
+weiterhin aktuell, 853/853 deckungsgleich mit `documents.jsonl`; Fristen-Radar 08:06-10:25
+vom Hub-Chef bereits umfassend erhoben; freie Trainings-KB `energie` bereits als Run 200 heute
+gelaufen, `bauprodukte` seit 15.08. ERLEDIGT, `grobkosten`/`projekt-lessons` ausgesetzt).
+Stattdessen zwei weitere offene, per Websuche beantwortbare Eintraege aus `wiki/QUESTIONS.md`
+recherchiert (Muster der vorherigen RECHERCHIERT-Eintraege fortgefuehrt): **Kruse_Oliver**
+(deutscher Kuenstler/Bildhauer, praegt seit ~20 Jahren die Insel Hombroich/Raketenstation mit
+architektonischen Arbeiten, u.a. Einmannhaus 1995 und Kindergarten 1999; Einordnung als
+Kunstreferenz bestaetigt) und **Shizuoka** (plausibelster Bezug: Shizuoka Press and Broadcasting
+Center von Kenzo Tange, Ginza/Tokyo 1967, erste Realisierung des Metabolismus-Konzepts; Ordner
+selbst leer, Zuordnung bleibt offen/Freigabesache). Keine Aenderung an der NAS-Quelle, nur
+additive Recherche-Vermerke in `wiki/QUESTIONS.md`.
+
 ## 2026-09-08 (Mac Mini, Nachtschicht, Prioritaet 5) — Zwei offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Synobsis Stufe 2 (Embeddings) ist aktuell (`vectors.npz` deckungsgleich mit `documents.jsonl`,
