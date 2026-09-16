@@ -33,6 +33,28 @@ Aufruf:
 PDF-Export via LibreOffice:  soffice --headless --convert-to pdf <datei.docx>
 """
 import argparse, os, re, subprocess, sys
+
+# Interpreter-Selbstheilung (16.09.2026, Hub-Chef): python-docx liegt nicht auf jeder Station
+# im Standard-python3. Mac Mini: nur im venv ~/.venvs/jansdocx. MacBook Pro: umgekehrt im
+# System-Python, ohne diesen venv. Ein fest verdrahteter venv-Pfad wuerde die jeweils andere
+# Station brechen, darum wird nur im Fehlerfall auf einen Interpreter umgeschaltet, der das
+# Modul traegt. Rueckbau: diesen Block loeschen.
+try:
+    import docx  # noqa: F401
+except ModuleNotFoundError:
+    if os.environ.get("JANS_DOCX_REEXEC") != "1":
+        for _kand in ("~/.venvs/jansdocx/bin/python3", "~/.venvs/pdfforms/bin/python3",
+                      "/opt/homebrew/bin/python3", "/usr/bin/python3"):
+            _py = os.path.expanduser(_kand)
+            if not os.path.exists(_py) or os.path.realpath(_py) == os.path.realpath(sys.executable):
+                continue
+            if subprocess.run([_py, "-c", "import docx"], capture_output=True).returncode == 0:
+                os.environ["JANS_DOCX_REEXEC"] = "1"
+                os.execv(_py, [_py, os.path.abspath(__file__)] + sys.argv[1:])
+    sys.exit("FEHLER: python-docx ist auf dieser Station in keinem bekannten Interpreter "
+             "verfuegbar (geprueft: aktueller python3, ~/.venvs/jansdocx, ~/.venvs/pdfforms, "
+             "/opt/homebrew/bin/python3, /usr/bin/python3).")
+
 from docx import Document
 from docx.shared import Pt, Mm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH

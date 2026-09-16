@@ -205,12 +205,21 @@ fi
 prod_ok=true
 prod_msg=""
 if command -v soffice >/dev/null 2>&1 || [ -x "/Applications/LibreOffice.app/Contents/MacOS/soffice" ]; then
-    if python3 -c "import docx" >/dev/null 2>&1; then
-        prod_msg="✅ DOCX→PDF-Pipeline bereit (soffice + python-docx)"
+    # Am Erzeugnis messen, nicht am Interpreter (16.09.2026): md2docx.py schaltet seit
+    # heute selbst auf einen Interpreter mit python-docx um, wenn der Standard-python3 ihn
+    # nicht traegt (Mac Mini: nur ~/.venvs/jansdocx). Der frühere Check
+    # "python3 -c import docx" meldete darum einen Ausfall, obwohl der Regelweg trug.
+    _md2docx="$NAS_BASE/skills/studien-generator/tools/md2docx.py"
+    _hbtmp=$(mktemp -d)
+    printf '# Test\n\nZeile.\n' > "$_hbtmp/hb.md"
+    python3 "$_md2docx" "$_hbtmp/hb.md" >/dev/null 2>&1
+    if [ -f "$_hbtmp/hb.docx" ]; then
+        prod_msg="✅ DOCX→PDF-Pipeline bereit (soffice + md2docx erzeugt DOCX)"
     else
         prod_ok=false
-        prod_msg="⚠️  python-docx fehlt → pip3 install python-docx"
+        prod_msg="⚠️  md2docx erzeugt kein DOCX → python-docx in keinem bekannten Interpreter"
     fi
+    rm -rf "$_hbtmp"
 else
     prod_ok=false
     prod_msg="⚠️  soffice fehlt → brew install --cask libreoffice"
