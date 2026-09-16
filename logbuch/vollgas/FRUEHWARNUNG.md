@@ -4649,3 +4649,51 @@ Zwei Beobachtungen fuer den Radar, beide ohne Aussenwirkung und damit nicht send
    ist der Zeitstempel der User-Zeile mit dem Opener, nicht das blosse Vorkommen im Text.
 
 Letzte gesendete Mail dieses Tasks: keine im aktuellen Log-Verlauf.
+
+---
+
+## 2026-09-16 07:15 — Regellauf (Rohblock zuerst, Bewertung ergaenzt)
+
+Verbrauch teuer / total, je Station und Tag (Mio Token):
+MacBook Pro — 11.09. 4.24/98.08 · 14.09. 6.54/243.16 · 15.09. 10.40/191.41 · 16.09. bis 07:15
+1.69/33.75.
+Mac Mini — 11.09. 2.97/84.58 · 12.09. 1.39/38.43 · 13.09. 0.86/28.97 · 14.09. 2.23/56.99 ·
+15.09. 3.67/148.25 · 16.09. bis 07:15 0.75/18.50.
+Beide Stationen zusammen teuer: 14.09. 8.77 · 15.09. 14.07 Mio. Beide Werte liegen unter der
+Tagesschwelle von ~35 Mio und unter der Zweitages-Schwelle von je ~18 Mio. Kriterium (b)
+trifft nicht zu.
+
+Blockade-Status: strukturell geprueft ueber die letzten 26 h auf beiden Stationen (64 bzw. 22
+Dateien im Fenster) — kein einziges echtes Usage-/Rate-Limit-Fehlerereignis, weder 5-Stunden-
+noch Wochenlimit. Kriterien (a) und (c) treffen nicht zu.
+
+Operative Briefings — alle vier haben ihr Deliverable erreicht, keine abgebrochene Sitzung.
+logbuch-radar heute 06:55 gelaufen (180 Zeilen, Briefing in LOGBUCH.md geschrieben, Commit
+`5994c327f`). hub-chef-taeglich, mahnwesen-verzugscheck und zahlungsabgleich-check waren um
+07:15 noch nicht faellig; ihre letzten Laeufe vom 15.09. (08:39, 08:05, 08:23) endeten alle mit
+abgelegtem Ergebnis. Bei den beiden Finanz-Laeufen ist das Ergebnis inhaltlich blockiert
+(bexio HTTP 401, am 15.09. der 38. Tag) — das ist ein bekannter, taeglich vom Radar und vom
+Fristen-Register getragener Befund und kein neuer Sendegrund fuer diesen Task. Kriterium (d)
+trifft nicht zu.
+
+Radar-Herzschlag: juengste `## `-Ueberschrift in RADAR.md ist 2026-09-16 01:00 (MacBook-Fassung)
+neben der Mini-Fassung 00:57, also rund sechs Stunden alt; dazu eine passende Task-Session
+15.09. 22:58 UTC. Kriterium (e) trifft nicht zu.
+
+Destillat-Aufsicht. Korpus-Queue: Korpora 1 und 2 erledigt, 3 (`buero-referenzen`, P1
+vollstaendig, P2 offen) und 4 (`archiv-fachwissen`) weiterhin in Arbeit — die Queue meldet
+NICHT «KORPUS-QUEUE KOMPLETT», Kriterium (g) trifft nicht zu. Specs liegen fuer beide laufenden
+Korpora vor (29.08.2026), das Spec-Gate haengt nicht.
+Ertrag, gemessen ueber `git log --name-only` (nicht ueber mtime): 14.09. 11 Artikel (11 ohne
+Twin-Facetten) · 15.09. 18 (12 ohne Twin) · 16.09. bis 07:15 6 (alle Twin, der Tag hat eben
+erst begonnen). Zielwiki `architektur-fachwissen` steht bei 483 Artikeln, juengster Stand
+15.09. 23:25. Delta-Null-Serie: keine.
+Stueckkosten (teuer beide Stationen je Artikel des Tages): 14.09. 0.80 · 15.09. 0.78 Mio Token.
+Ohne die taeglich angefassten Twin-Facetten: 14.09. 0.80 · 15.09. 1.17 Mio. Die Reihe bleibt
+damit auf dem Niveau der Vortage. Kriterium (f) trifft nicht zu — Front und Ertrag bewegen sich.
+
+Speicher Mac Mini zum Messzeitpunkt: 12'769 MB verfuegbar (free+inactive+purgeable),
+Druckstufe 1 (normal).
+
+Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet. Letzte gesendete Mail dieses
+Tasks: weiterhin keine im aktuellen Log-Verlauf.
