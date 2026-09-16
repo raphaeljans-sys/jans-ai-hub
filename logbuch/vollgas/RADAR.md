@@ -53,6 +53,38 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-17 00:57 — [FREI] **Mini-Regellauf, ohne neuen Befund. Der Doppellauf besteht am vierten Tag fort und ist heute aus dem Frühwarnungs-Log doppelt belegt. Wochenverbrauch läuft dem Zeitverlauf weiterhin deutlich hinterher.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` (npm-Fassung, Symlink `../lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe`,
+Stand 16.09. 05:15) «OK», rc=0 in **7 s**, Watchdog 180 s nicht gebraucht, keine Waisen (`ps` gegengeprüft). Wochenbudget **19.0 %**
+von 167 Mio bei **36.3 %** verstrichener Woche, Vorsprung **-17.3 Punkte**, Ampel FREI (Mini 8.37, MacBook 23.37 Mio, beide Dateien
+frisch). Keine Drossel aktiv, nichts zurückzuschalten. Speicher Mini: Druckstufe 1, rund 11.9 GB frei+inaktiv+purgeable (vm_stat),
+Uptime 15:36, Load 2.47.
+
+**Feuermechanismen.** Sollstand auf beiden Stationen: Mini `ch.jans.vollgas-supervisor` weiterhin `.disabled-260729`, geladen ist
+allein `ch.jans.nachtschicht`; MacBook `vollgas-supervisor` und `vollgas-monitor` beide `.disabled-260729`, kein vollgas-Job geladen.
+Mini-Registry unverändert zehn Live-Tasks bei zwölf Ordnern (`grobkosten-training` und `normen-training-mini` ohne Live-Eintrag,
+Zustand seit Wochen unverändert, kein Handlungsbedarf).
+
+**Doppellauf (unverändert offen, Aktion Raphael).** Heute aus dem Log belegt statt aus der Registry gelesen: die Frühwarnung schrieb
+am 16.09. zwei Blöcke (`06:30 CEST` Mini, `07:15` MacBook), der Radar zwei Einträge (`12:57` Mini, `12:58` MacBook). Die Deaktivierung
+vom 15.09. 13:32 ist damit den vierten Tag in Folge unwirksam. Ich deaktiviere weiterhin nicht selbst — Frühwarnung und heartbeat
+stehen auf der Ausnahmeliste, und der Schritt gehört laut Chronik 260911b Raphael.
+
+**Liefer-Delta seit 16.09. 12:58 (git, Basis `953420caf`, Dateien unter `wissen/`):** energie 10, planungsgrundlagen 5, koordination 5,
+twin 2, normen 2, baurecht 2, architektur-fachwissen 2, architekten-synobsis 2. Ausserhalb `wissen/`: `templates/indesign-praesentation`
+(Rücklauf 2619 KISPI Sitzungsvorlage, Bauweg und Fallen), Synergie-Lauf 37 mit SYN-88/SYN-89 samt Vermerk in `rules/anrede-kontakte.md`,
+`rules/betrieb-chronik.md` 260917 (OneDrive-Domainverdopplung MacBook Pro), tenant-hygiene-Report 16.09., `connectors/WEGE.md`,
+wissens-chef Lauf 60 (fünf Befunde, einer widerlegt, drei Nullbefunde), energie Run 201 (§ 4 BBV I, F297 neu). 60 Commits im Fenster.
+Nachtschicht Mini zweimal rc=0 (13:33 1.88 USD, 23:34 2.17 USD). **Kein Loop ohne Delta.**
+
+**Selbstkontrolle.** Eigener `lastRunAt` 16.09. 22:57Z = dieser Lauf; letzter Mini-Eintrag 16.09. 12:57, Abstand 12 h — kein
+verpasster Lauf. Keine Mail (kein P1-Blocker, kein gelöster P1, Kontingent nicht erschöpft).
+
+- **P1** — keiner.
+- **P2** — Doppellauf der drei umgezogenen Tasks (Radar, Frühwarnung, heartbeat), vierter Tag; unverändert Aktion Raphael.
+- **P3** — zu weit gefasste Permission-Regel in `.claude/settings.local.json` (Befund MacBook-Fassung 16.09. 12:58), unverändert offen.
+
 ## 2026-09-16 12:58 — [FREI] **MacBook-Fassung, Regellauf ohne Befund. Der Doppellauf besteht am dritten Tag fort und ist heute dreifach belegt. Neuer P3: eine zu weit gefasste Permission-Regel in `.claude/settings.local.json`.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert seit 29.08. 05:15) «OK», rc=0 in **7 s**,
