@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 12:58:36
+Stand: 16.09.2026 13:08:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
@@ -15,4 +15,4 @@ Stand: 16.09.2026 12:58:36
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 953420caf nas-selfcommit: 3 Datei(en) 2026-09-16 12:45
+- 432f1cb12 vollgas-radar: 260916 12:57 Mini-Regellauf FREI, Lost-Update in RADAR.md durch MacBook-Doppellauf belegt
