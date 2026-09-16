@@ -2,6 +2,52 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-16 (Lauf 60, Abendlauf) — eine Korrektur erreichte nur die gemeldeten Zeilen, und der Verifikator korrigierte zweimal nicht den Befund, sondern die Handlung
+
+Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 59, je Feld mit
+Meldung ein adversarialer Verifikator (6), Gegenpruefung aller tragenden Befunde am Original im
+Hauptkontext. Delta-Basis `facefa10e` → `8eca226aa`, 111 Commits, 54 Wissens-/Rules-Dateien, nativ
+im SSD-Klon gemessen. Bilanz: **6 Meldungen → 3 wie gemeldet · 2 anderer Zuschnitt · 1 widerlegt**,
+dazu 3 Felder mit Nullbefund. 14 Dateien, alle additiv, keine Loeschung.
+Bericht: `outputs/2026-09-16_wissens-chef-run60.md`.
+
+- **WC60-1 ⭐ energie → planungsgrundlagen:** der Korrekturvermerk von Run 201 («am Original
+  gegengelesen») deckt nur drei der sechs betroffenen Stellen in
+  `wiki/energie-private-kontrolle-zh.md`. Z. 52-53 fuehren die Minergie-Regel weiter im ueberholten
+  Stand (ohne § 4 Abs. 4, ohne Ziff. 3.4.1/3.4.2, ohne die energetische Einschraenkung), waehrend
+  Z. 124 desselben Artikels die berichtigte Fassung traegt; Datenstand-Abschnitt und Frontmatter
+  bleiben bei «April 2025» gegen «August 2026» im Fliesstext. Am amtlichen Wortlaut
+  `baurecht/raw/260607` § 4 Abs. 4 gegengelesen. Drei additive Einschuebe.
+- **WC60-2 energie ↔ baurecht:** `destillate/private-kontrolle-zh.md` gibt BBV I §§ 4-7 wortgleich
+  wieder, derselbe Volltext liegt in `baurecht/raw/260607` — **dieselbe Fassung Nr. 133**, selbst
+  geprueft. Melder wollte kuerzen; **Verifikator zurueckgewiesen**, `destillate/` ist der
+  Transkriptions-Layer. Stattdessen Fuehrungsvermerk + neue Matrixzeile: die §§ 4-7 waren in der
+  Matrix nirgends zugeordnet (Zeile 29 deckt §§ 47-48c, Zeile 179 § 47a).
+- **WC60-3 baurecht ← planungsgrundlagen:** Rueckkante zum laufenden ZH-Richtplan-Umsetzungsstand
+  (TR2022, Vorlagen 6012/6013/6013a) fehlte; `grep` ueber den ganzen baurecht-Baum: null Treffer.
+  Lauf 59 hatte an derselben Materie nur den Zeiger **in** planungsgrundlagen gesetzt. Absatz nach
+  bestehender Konvention (`baubewilligungsverfahren.md` Z. 124) + Matrixzeile.
+- **WC60-4 twin → Rule, VORLAGE:** Claudia Horeni (AfB Stadt ZH) zweifach aus eigener Hand belegt,
+  fehlt in der @-importierten `rules/anrede-kontakte.md`. **Rule unberuehrt** — Linie Run 32,
+  bestaetigt Lauf 58; der Melder wollte direkt schreiben, der Verifikator lieferte den
+  Praezedenzfall Gasser aus demselben Fidelity-Review. Eingetragen als `twin` QUESTIONS 260916b #5.
+- **WC60-5 afw ↔ normen:** SIA-Merkblatt 2017 doppelt materiell gefuehrt (Ziff. 3, 4, 5 mit
+  identischem Seitenbeleg); WC59-4 hatte nur die Negativaussage berichtigt. Gegenrichtung: der in
+  `normen` als erster «Offener Punkt» gefuehrte Geltungsstand ist in afw am 15.09. am SIA-Shop
+  erhoben — nachgetragen. Doppelspur **benannt, nicht aufgeloest** (Entscheid Raphael).
+- **Widerlegt:** die gemeldete Doppelspur zum Stabilisierungsziel (2 %-Regel). Die beanstandete
+  Passage steht unmittelbar nach einer seit Anfang September gesetzten Selbstbeschreibung samt
+  Matrixverweis; der Melder zitierte diese an der falschen Zeile, also ungelesen.
+- **Nullbefunde:** normen ↔ baurecht/brandschutz (Lignum 4/2 kollidiert mit nichts), Pflichtpaar
+  Kennwerte (zweiter Nullbefund in Folge), bauprodukte ↔ normen (Uebergabe WC59-5 beidseitig
+  verzeigert — die Bringschuld-Regel funktioniert).
+- **Byte-Riegel:** 33'902 B gegen 34'000 B, Reserve **98 B** (Lauf 59: 211 B, Lauf 58: 16 B), selbst
+  nachgemessen. Die Rekompilierung vom 16.09. verbrauchte 113 B, alle sechs Facetten-Wikis sind an
+  diesem Tag gewachsen — als offener Entscheid vorgelegt.
+- **Rueckstau vorgelegt:** vier belegte Anrede-Kandidaten stehen gleichzeitig offen (Horeni, Gasser,
+  Wuersch, Stadelmann). Run 32 hat den fehlenden Zug-Mechanismus 2026 benannt; er ist jetzt messbar.
+- Schreib-Kontrolle: alle Edits anker-basiert und additiv; Numstat nach Commit im Bericht.
+
 ## 2026-09-16 — Synergie-Lauf 37 (Tagestakt)
 
 Delta-Basis 15.09.2026 17:10, Fenster 24 h, 116 Commits. Uhr gegen die Synology geprueft, keine

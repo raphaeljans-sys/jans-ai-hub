@@ -1,5 +1,24 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Doppelspur SIA 2017 benannt, Geltungsstand rueckgespiegelt
+
+Befund WC60-5, am Original bestaetigt. `wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md` gibt
+Ablaufschema (Ziff. 3), alle zwoelf Kriterien (Ziff. 4) und das Bewertungsmodell (Ziff. 5) materiell
+parallel zu `wissen/normen/destillate/sia-mb-2017.md` wieder (dort `status: established` seit
+19.07.2026, Seiten 1-12 gelesen). Der Artikel entstand am 29.08.2026 aus dem Original-PDF im
+Architektur-Archiv, ohne das bestehende Destillat zu kennen. Lauf 59 hatte nur die falsche
+Negativaussage «SIA 2017 in normen nicht erfasst» berichtigt; die Doppelspur selbst war nirgends
+erfasst.
+
+Fuehrungsvermerk vor Abschnitt 3 gesetzt: fuer eine zitierfaehige Fundstelle gilt das
+normen-Destillat (Rule `normen-referenz`, Matrixzeile «architektur-fachwissen fuehrt selbst keine
+Norm-Fundstellen»). Dieser Artikel behaelt die denkmalpflegerische Einordnung **und** den am
+SIA-Shop erhobenen Geltungsstand — eine Eigenleistung, die in `normen` als offener Punkt stand und
+dort nun als beantwortet nachgetragen ist (Cross-KB-Bringschuld nach Rule `wissens-bibliothekar`).
+Die Doppelspur ist benannt, nicht aufgeloest; eine Verdichtung waere ein Eingriff in bestehenden
+Wortlaut und bleibt Entscheid Raphaels.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Negativaussage zu SIA 2017 und SIA 469 in `wissen/normen` berichtigt
 
 `wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`, zwei additive ⚠-Vermerke: der Satz «In

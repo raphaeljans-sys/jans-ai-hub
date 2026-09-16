@@ -5,6 +5,23 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Claudia Horeni als Vorlage, nicht als Aktion
+
+Befund WC60-4. Claudia Horeni (AfB Stadt Zuerich) ist in `wiki/beziehungsregister.md` zweifach
+unabhaengig aus Raphaels eigener Hand belegt (Batch 30, 10.07.2026; Regressionsbestaetigung im
+Fidelity-Review 16.09.2026 am selben Gold) — «Geschaetzte Frau Horeni,» nach einem persoenlich guten
+Beratungsgespraech — und fehlt in der @-importierten `rules/anrede-kontakte.md`.
+
+**Die Rule wurde nicht angefasst.** Die Linie steht seit Run 32 (14.08.2026) im Koordinations-Register
+und wurde in Lauf 58 bei Sonderegger bestaetigt: ein Fund «importierte Rule widerspricht KB» ist immer
+eine Vorlage, nie eine Aktion dieses Loops. Im selben Fidelity-Review vom 16.09. wurde der
+strukturgleiche Fall Cornelia Gasser genau so behandelt. Eingetragen als `wiki/QUESTIONS.md`
+260916b #5, Status #1-#5 offen.
+
+Strukturbefund: mit Horeni stehen jetzt vier belegte Kontakt-Kandidaten gleichzeitig offen (Horeni,
+Gasser, Wuersch, Stadelmann seit Lauf 56). Als Rueckstau im Bericht vorgelegt.
+Bericht: `wissen/koordination/outputs/2026-09-16_wissens-chef-run60.md`.
+
 ## 2026-09-16 (Fidelity-Review) — wo Raphael bittet, dankt er im Voraus; die Bitte um ein Zugestaendnis senkt die Anrede
 
 Report `outputs/2026-09-16_fidelity.md`. **Gesamt 58** — **nicht** vergleichbar mit den 43 vom 15.09.:
