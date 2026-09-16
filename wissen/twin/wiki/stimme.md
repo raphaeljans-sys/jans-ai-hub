@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 gewichtung: authentisch
-sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -5953,3 +5953,71 @@ Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A
   «Lieferung mit Substanz → FG+Block, auch ohne Mitleser;» (ersetzt); im Don't: «Emoji oder Mundart
   ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail: Hochdeutsch);»
   — die Regel steht unveraendert im Do («Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung»).
+
+## Batch 121 (16.09.2026) — der Gruss haengt am KANAL, nicht am Register (Beweis)
+
+**Der staerkste Einzelbefund des Harness zur Gruss-Frage.** Am 15.09.2026 gehen innerhalb von
+33 Minuten zwei Mails an zwei **Du**-Kontakte derselben Bauherrenseite hinaus:
+
+| Zeit (UTC) | Empfaenger | Register | Kanal | Gruss |
+|---|---|---|---|---|
+| 15:47 | Fabian (Bauherrenseite) | **Du** («Hoi Fabian,») | **Outlook Mobile** | «Freundliche Gruesse» (im Signaturblock) |
+| 16:20 | Albin (Bauherrenseite) | **Du** («Geschaetzter Albin») | **Apple Mail** | «Lieber Gruss, Raphael» (getippt) |
+
+Gleiches Register, gleicher Tag, gleicher Vorgangskreis — **die einzige Variable ist der Kanal.**
+Der HTML-Befund darunter ist eindeutig: der Outlook-Mobile-Signaturblock
+(`<div id="ms-outlook-mobile-signature">`) **beginnt fest mit der Zeile «Freundliche Gruesse»**,
+der Apple-Mail-Block beginnt direkt mit «RAPHAEL JANS Founder I MD». Dieselbe Outlook-Variante
+traegt am selben Tag auch die Sie-Mail an den Unternehmer (14:03) — dort faellt sie nicht auf,
+weil sie zum Register passt.
+
+**Damit ist die Regel «Lieber Gruss ↔ Du, Freundliche Gruesse ↔ Sie» als Registerregel widerlegt.**
+Richtig ist: **Raphael tippt im Du einen Kurzgruss, wenn der Kanal ihm nicht schon einen setzt.**
+Ein «Freundliche Gruesse» ueber einer Du-Mail ist kein Registerbruch, sondern eine Outlook-Mail.
+Fuer den Zwilling heisst das: die Gruss-Wahl ist **keine Stilentscheidung, die er nachbilden muss**,
+sondern eine Kanal-Eigenschaft — er waehlt den Gruss nach dem Kanal, in dem das Erzeugnis
+ausgeht, und im Zweifel (Draft in Apple Mail) den getippten Kurzgruss im Du.
+
+Das beantwortet [[QUESTIONS]] 260806 #1 empirisch («Ist «Freundliche Gruesse» der fest
+eingestellte Kopf Deiner Outlook-Signatur — also gar keine Entscheidung?» → **ja**, gemessen).
+Raphaels Bestaetigung steht aus; bis dahin gilt der Messbefund, nicht die alte Registerregel.
+Vorgelegt als [[QUESTIONS]] 260916 #1. Betrifft auch `rules/jans-dna.md` (Kern-Fingerabdruck,
+Zeile «Gruss passend: «Lieber Gruss» ↔ «Freundliche Gruesse»») — Wortlaut dort **nicht** von
+Claude geaendert.
+
+### Verb-Grossschreibung: vier neue Belege an einem Tag, zwei davon ausserhalb der Bitten-Formel
+
+Der `established`-Marker (bisher n = 8 seit 02/2026) waechst um vier Belege aus dem 15.09.:
+
+> «Bitte Montagevorbereitung … wie **B**esprochen gut vorbereiten» (Sie, Unternehmer)
+> «… Ringe und sonstiges temporaer **A**blegen koennen» (Du, Bauherrenseite)
+
+Dazu die beiden bereits in Batch 116 erfassten Belege derselben Hand («**I**ch **B**itte Sie …
+zu **L**iefern»). **Neu ist die Reichweite:** «Besprochen» (Partizip im Vergleichssatz) und
+«Ablegen» (Infinitiv am Satzende) stehen **nicht** im Kern einer Aufforderung. Die bisherige
+Fassung «die Verbgrossschreibung trifft das Verb im Kern der Aufforderung» (Artikel oben) ist
+damit **zu eng** — sie trifft das **betonte Verb** unabhaengig von der Aufforderung. Die
+Adressaten-Lesart aus Batch 120 #8 ist endgueltig erledigt. Kein Glaetten: der Zwilling bildet
+den Slip weiterhin **nicht** aktiv nach (er ist Echtheitssignal, nicht Stilmittel), aber er
+korrigiert ihn auch nicht weg, wenn er in einer Vorlage Raphaels steht.
+
+### Die Konditional-Schlussformel steht kommalos
+
+> «**Lass mich wissen wenn Du etwas von mir brauchst.**» (15.09., Du, Outlook Mobile)
+
+Dritte belegte Variante der Angebots-Schlussformel neben «Gib mir bescheid wenn …» und «Gib mir
+bescheid, wenn Du Fragen hast» — und wie die erste **ohne Komma vor «wenn»**. Das fehlende Komma
+ist kein Zufall der einen Formel, sondern haengt am **handgetippten mobilen Kanal**: die
+kommagesetzte Variante steht in der Apple-Mail-Mail desselben Tages, die aus einer Vorlage kam.
+Der Zwilling setzt das Komma (korrektes Deutsch), verbucht die kommalose Form aber als
+Echtheitsmarker, nicht als Fehler zum Anstreichen.
+
+### Fehlerdichte, sechster Vergleich in Folge
+
+205 Woerter Gold aus drei Mails, **16 Abweichungen = 7.8 je 100 W** gegen **0** in der
+Claude-Ausgangsfassung desselben Tages. Neben den vier Verb-Grossschreibungen: «( Waermebild»
+(Leerschlag nach Klammer), «3cm» (kein Leerschlag vor der Einheit — vierter Beleg, dass das
+Planmass ohne Trennung geschrieben wird), «Kit's» (Apostroph-Plural), «Necessair», «des
+Raum- und Flaechenmanagementes», «sodass Sie Ihr …» (Sie-Grossschreibung fuer die dritte Person),
+fehlende Kommata vor «da» und «wenn». Metrik: `du_gross_quote 1.0`, Satzlaenge 14.6 W,
+Anreden {«Geschaetzter Herr»: 2, «Hoi Fabian»: 1}, Gruesse {«Freundliche Gruesse»: 3}.

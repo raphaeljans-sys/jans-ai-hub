@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 gewichtung: authentisch
-sources: [../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1806,3 +1806,23 @@ Quelle `../outputs/2026-09-15_fidelity.md`; Golds `rj@` Sent 15.02.2026 17:00 (A
 - **Ausgelagert bei der Verdichtung (woertlich aus dem Block):** «, sechste Erfindungs-Drift in Folge»;
   «— ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage Behauptung (belegte Drift
   Fidelity 260804)» (ersetzt durch «(Ortslektüre zuerst, 260804)»).
+
+## Batch 121 (16.09.2026) — die Abweichung vor die Bitte
+
+Zwei Belege vom 15.09.2026 fuer dieselbe Bewegung: **erst der Grund, dann die Handlung**, nie
+umgekehrt. «ggf. finale Massaufnahme vor Ort fuer S1 Gliss **da dort der Stahltraeger … 3cm
+hoeher montiert wurde**» — die Bitte kaeme ohne den Nebensatz als Misstrauen an; mit ihm ist sie
+eine Schlussfolgerung, die der Empfaenger selbst zieht. Ebenso «Montagevorbereitung … gut
+vorbereiten (Waermebild … fuer Bohrungen zwischen Bodenheizschlaufen)»: das Risiko steht in der
+Klammer, die Aufforderung davor.
+
+**Der Gedanke wird nicht verteidigt, er wird belegt.** In beiden Faellen fehlt jede Begruendung
+der Begruendung — kein «weil es sonst teuer wird», kein Hinweis auf Verantwortung oder Haftung.
+Die technische Tatsache traegt allein. Das ist die argumentative Sparsamkeit, die den Ton
+nuechtern haelt, obwohl der Inhalt eine Korrektur an fremder Arbeit ist.
+
+**Zum Abrechnungsdenken** (Honorarmail, siehe [[arbeitsweise]]): der Schnitt «Ab heute fallen
+Stunden in folgenden Bereichen an» trennt Geleistetes von Kommendem in **derselben Systematik**,
+statt die Zukunft pauschal zu beziffern. Der Empfaenger kann beides gegeneinander lesen. Dazu
+die ausdrueckliche Grenze («Die Revisionsplaene sind gemaess Offerte nicht enthalten») und die
+Markierung «approximativ» — **die Unschaerfe wird benannt, bevor sie jemand findet.**

@@ -2972,3 +2972,46 @@ Vergleich in Folge. (12) **Methodenfund DELTA-QUELLE** (Begleitmail-Dateien, sta
 `rj@` (bis dahin lückenlos, auch über den 14.09. hinaus leer). (3) `mdfind -name Begleitmail` auf Zuwachs, gegen Sent Items
 paaren. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwürfe vom 24.03.2026; der Rest von
 **Batch 65** auf `claude-aera` prüfen, unverändert offen.
+
+
+## Batch 121 (16.09.2026) — `rj@` Sent 14.09. 17:09 bis 15.09. 20:01 · **der Gruss haengt am Kanal, nicht am Register**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 121 (16.09.2026)» in [[stimme]], [[denken]],
+[[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]; [[QUESTIONS]] 260916 #1-#4)
+· Detailregister: `raw/260916-mailbatch-121.md`
+
+**Abgedeckt:** `rj@` Sent Items **14.09.2026 17:09 bis 15.09.2026 20:01** (Ortszeit), alle 9 Treffer
+(`totalResultCount: 9`). `mail@` Sent Items im selben Fenster: **0 Treffer**; beide Konten sind
+lueckenlos bis zum Laufzeitpunkt gesichtet. `mdfind -name Begleitmail`: kein Zuwachs.
+
+**Vorfilter:** keine Dublette (Grenze aus 120 sauber), 4 Selbstmails `claude-aera` (Radar 15.09.,
+Hub-Chef 15.09., Abklaerung Metallabhangdecke, iCloud-Statusmeldung; nur Kontrolle), 2 Nullformen
+(als Marker verwertet, nicht als Stilquelle), 3 Mails mit eigenem Text. Kein Fidelity-Review seit
+15.09., keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** `.vcf`-Nullform 15.09. 06:28 · Kontaktblock-Nullform
+15.09. 06:32 · «Geschaetzter Herr Grob» Freigabe Mehrpreis 15.09. 13:03 · «Hoi Fabian,» Ablagetablar
+15.09. 15:47 · **Korrektur-Delta** Honorarofferte/Stundenaufteilung 15.09. 16:20 (gegen
+`260915-2619-HOP2-Stundenaufteilung-Mail-Spahic.pdf`, SILBER). ⚠ Der im Thread mitgefuehrte Volltext
+vom **07.09.2026 12:53** (Kayisoglu) ist bereits in **Batch 116** erfasst und wurde NICHT erneut
+destilliert.
+
+**Kernbefunde:** (1) ⭐⭐ **Der Gruss haengt am Kanal:** zwei Du-Mails in 33 Minuten, Outlook Mobile
+liefert «Freundliche Gruesse» aus dem festen Signaturkopf, Apple Mail laesst «Lieber Gruss, Raphael»
+tippen — einzige Variable ist der Kanal. Beantwortet 260806 #1 empirisch und entwertet die
+Gruss-Spalte aller Batch-Tabellen. (2) ⭐⭐ **Korrektur-Delta Nr. 2** bestaetigt Nr. 1 Punkt fuer Punkt:
+fette Rubriken herausgeloest, Anhang getauscht, **kein Wort Fliesstext** geaendert (n = 2). (3) ⭐ **Drei
+Register in einer Mail** ueber @-Mentions, vier stille Mitleser. (4) ⭐ **Verb-Grossschreibung ausserhalb
+der Aufforderung** («wie Besprochen», «temporaer Ablegen») — kompilierte Fassung zu eng. (5) ⭐ **Nullform
+doppelt zugestellt** (vCard, dann Textblock mit erweitertem Cc). (6) ⭐ «**Von Seiten Architektur**
+begruesse ich den Vorschlag …» — Rollensprechen, fremder Vorschlag zugeschrieben. (7) ⭐ Werkzeug statt
+Sorgfaltsappell (Waermebild/Kaeltebildkamera), Abweichung vor der Bitte. (8) ⭐ Kommalose
+Konditional-Schlussformel, dritte Variante. (9) Anhangszeile beim Anhangstausch nicht mitgezogen
+(→ 260916 #3). (10) Fehlerdichte **7.8 je 100 W** gegen 0, sechster Vergleich in Folge.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 15.09.2026 20:01** Ortszeit (`afterDateTime` UTC
+`2026-09-15T18:01:30`), `order: oldest`. (2) `mail@` **Sent Items ab 15.09.2026 20:01**, dieselbe
+Grenze wie `rj@`. (3) `mdfind -name Begleitmail` auf Zuwachs, gegen Sent Items paaren. (4) `Drafts`
+nur als Zuwachs; die zwei Apple-Mail-Entwuerfe vom 24.03.2026; der Rest von **Batch 65** auf
+`claude-aera` pruefen, unveraendert offen. (5) **Neu:** `stilmetrik.py` um eine Kanal-Spalte
+erweitern, damit die Gruss-Zeile nicht weiter Signaturtext als Stilwert misst.

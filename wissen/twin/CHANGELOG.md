@@ -5,6 +5,21 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-16 — twin-mail-training Batch 121 (`rj@` Sent 14.09. 17:09 bis 15.09. 20:01)
+
+Neun Treffer gesichtet, `mail@` im Fenster leer. Drei Mails mit eigenem Text, zwei Nullformen, vier
+Selbstmails als `claude-aera` ausgeschlossen. **Kernbefund: der Gruss haengt am Kanal, nicht am
+Register** — zwei Du-Mails in 33 Minuten, «Freundliche Gruesse» aus dem festen Outlook-Signaturkopf
+gegen getipptes «Lieber Gruss, Raphael» in Apple Mail; das beantwortet [[QUESTIONS]] 260806 #1
+empirisch und entwertet die Gruss-Spalte saemtlicher Batch-Tabellen im [[beziehungsregister]].
+**Zweites Korrektur-Delta mit abgelegter Ausgangsfassung** (SILBER) bestaetigt Delta Nr. 1: fette
+Rubriken herausgeloest, Anhang getauscht, kein Wort Fliesstext geaendert. Dazu drei Register in einer
+Mail ueber @-Mentions, Verb-Grossschreibung ausserhalb der Aufforderung (zwei neue Belege),
+doppelt zugestellte Nullform, Rollensprechen «Von Seiten Architektur». Fehlerdichte 7.8 je 100 W
+gegen 0. Sechs Facetten ergaenzt, [[QUESTIONS]] 260916 #1-#4 vorgelegt; kein Rule-Wortlaut geaendert.
+Register: `raw/260916-mailbatch-121.md`.
+
+
 ## 2026-09-15 (Fidelity-Review) — Anrede und Gruss an zu groben Gattungsregeln; der Service-Satz folgt der Leistungsrichtung
 
 Report `outputs/2026-09-15_fidelity.md`. **Gesamt 43** (Vorlauf 38, beide an ungesehenen Golds). Golds

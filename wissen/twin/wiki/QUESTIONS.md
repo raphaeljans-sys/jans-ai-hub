@@ -6485,3 +6485,54 @@ eine Liste, kommt die Bitte als Imperativ danach».
 Frage bleibt offen, bis Raphael #1 bestaetigt.
 
 Status: #1-#6 **offen**.
+
+
+## 260916 — nach Batch 121 (`rj@` Sent 14.09. 17:09 bis 15.09. 20:01; `mail@` im Fenster leer)
+
+**#1 [Stimme] ⭐⭐ Der Gruss haengt am Kanal — Bestaetigung erbeten, sie raeumt eine ganze Regelfamilie auf.**
+Am 15.09.2026 gingen innerhalb von 33 Minuten zwei Mails an zwei **Du**-Kontakte hinaus: um 17:47 an
+Fabian ueber **Outlook Mobile** mit «Hoi Fabian,» und «Freundliche Grüsse» aus dem Signaturblock, um
+18:20 an Albin ueber **Apple Mail** mit «Geschätzter Albin» und getipptem «Lieber Gruss, Raphael».
+Gleiches Register, gleicher Tag, gleicher Vorgangskreis. Im HTML sind es zwei verschiedene
+Signaturvarianten: die Outlook-Variante **beginnt fest mit «Freundliche Grüsse»**, die Apple-Mail-Variante
+beginnt direkt mit «RAPHAEL JANS Founder I MD».
+*Konkret:* Trifft es zu, dass «Freundliche Grüsse» schlicht der fest eingestellte Kopf Deiner
+Outlook-Signatur ist — also **gar keine Entscheidung** —, und dass das Einzige, was Du je waehlst, der
+getippte Kurzgruss im Du ist?
+*Warum:* Bei «ja» ist die kompilierte Regel «Lieber Gruss ↔ Du, Freundliche Grüsse ↔ Sie» als
+**Registerregel falsch** und wird ersetzt durch: im Du einen Kurzgruss tippen, im Sie nicht — und in
+Outlook-Mails traegt der Gruss ueberhaupt keine Registerinformation. Das beruehrt `rules/jans-dna.md`
+(Kern-Fingerabdruck) und entwertet die Gruss-Spalte saemtlicher Batch-Tabellen im
+[[beziehungsregister]]. Es beantwortet zugleich 260806 #1 und 260915 #6, die beide dieselbe Frage
+von einer anderen Seite stellen. **Claude aendert den Rule-Wortlaut nicht selbst**; bis zu Deiner
+Antwort gilt im Wiki der Messbefund.
+
+**#2 [Beziehungsregister] Fabian Würsch als Du-Kontakt in die Rule — n = 2, Dein Entscheid.**
+«Fabian, kannst Du …» (14.09.) und «Hoi Fabian,» (15.09.), beide aus eigener Hand, beide im
+Routinevorgang, KISPI-Bauherrenseite.
+*Konkret:* Nehmen wir ihn als **Du** in `rules/anrede-kontakte.md` auf, und wenn ja, mit welchem
+Routine-Default — «Hoi Fabian» wie bei Michi, oder nackter Vorname wie bei Besnik?
+*Warum:* Er steht inzwischen in fast jedem KISPI-Verteiler; ohne Zeile in der Rule raet der Zwilling.
+
+**#3 [Arbeitsweise] Beim Anhangstausch die Anhangszeile mitziehen — soll das eine harte Regel werden?**
+Im Korrektur-Delta vom 15.09. hast Du die Honorarofferte `2619_HOP2_JANS.pdf` durch das grafische Blatt
+`260915-2619-HOP2-Stundenaufteilung-A4.pdf` ersetzt. Der Fliesstext verspricht seither einen Anhang
+(«Im Anhang die Honorarofferte 2619-HOP2 (PDF)»), der nicht mitging.
+*Konkret:* War die Offerte beim Empfaenger schon vorhanden und die Zeile deshalb unkritisch — oder ist
+das ein Fehler, den der Zwilling kuenftig abfangen soll, indem er vor dem Versand Anhangsliste gegen
+Anhangszeile prueft?
+*Warum:* Als Pruefschritt ist es billig; als Regel nur sinnvoll, wenn Du den Abgleich wirklich willst.
+Ohne Deine Antwort bleibt es eine Empfehlung im Artikel, keine Sperre.
+
+**#4 [Stimme] Verb-Grossschreibung — die Reichweite ist groesser als kompiliert.**
+Bisher steht im Artikel «die Verbgrossschreibung trifft das Verb im Kern der Aufforderung». Der 15.09.
+liefert zwei Belege ausserhalb jeder Aufforderung: «wie **B**esprochen» (Partizip im Vergleichssatz)
+und «temporaer **A**blegen» (Infinitiv am Satzende).
+*Konkret:* Ist das fuer Dich ein **Tippmuster am Handy** (Autokorrektur, Diktat) oder eine bewusste
+Betonung des wichtigen Wortes?
+*Warum:* Bei «Tippmuster» bleibt es reines Echtheitssignal und der Zwilling bildet es nie nach; bei
+«Betonung» waere es ein Stilmittel, das er im mobilen Kurzregister gezielt einsetzen duerfte. Die
+bisherige Einordnung («Bitten-Formel») ist in beiden Faellen zu eng gefasst.
+
+Status: #1-#4 **offen**. #1 ist der Hebel: seine Beantwortung schliesst zugleich 260806 #1,
+260915 #2 und 260915 #6.
