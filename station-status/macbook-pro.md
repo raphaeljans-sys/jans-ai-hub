@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 07:59:02
+Stand: 16.09.2026 08:09:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 07:59:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6edbe7c50 ag-gruendung-monitor: 16.09.2026 — KEINE neuen Mails seit 31.08., P1 unverändert
+- aa0646e5d Heartbeat 16.09.2026: DOCX-Pipeline Mac Mini defekt, Register-Eintrag
