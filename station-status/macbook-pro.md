@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 20:12:12
+Stand: 16.09.2026 20:22:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 20:12:12
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 98be1cd91 nas-selfcommit: 4 Datei(en) 2026-09-16 20:00
+- b1e7ed602 tenant-hygiene 16.09.: 826.75 GB / 78.44 %, +1.25 GB/Tag; Gegenmessung Bibliotheks-Richtlinie JANS.PROJEKTE unveraendert 500, Registernachtrag
