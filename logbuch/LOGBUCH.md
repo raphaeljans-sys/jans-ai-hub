@@ -13038,3 +13038,19 @@ und mehrere KBs, da an diesem Abend bereits viel vorgearbeitet war). `git diff -
 ueber den SMB-Mount haengt (bekannte Falle, Rule `sync-kanonische-quelle`) — nicht erneut
 versucht, Aenderungen bleiben additiv per Write/Edit direkt geschrieben, der native
 `nas-selfcommit.sh` zieht sie im naechsten 15-Minuten-Takt nach. Zyklus sauber beendet.
+
+## 2026-09-16, Nachtschicht-Zyklus Mac Mini
+
+Prioritaeten 1-2 leer/aktuell: keine pending remote-tasks/sync-tasks; Synobsis Stufe 2
+gegengemessen (`vectors.npz` 853x768 deckungsgleich mit `documents.jsonl`, Scan 853/853
+gesaettigt seit 03.07., kein Rebuild noetig, keine offene Position fuer diese Prioritaet).
+Prioritaet 3 ausgefuehrt: Fristen-/Pendenzen-Radar. Ein Sub-Agent hat die "## Aktiv"-Sektion
+von `logbuch/fristen.md` gegen das heutige Datum geprueft (Datei zu gross fuer Direktlesen,
+einzelne Eintraege sind sehr lange Fliesstext-Zeilen) und nach Projekt gruppiert: 20 offene
+Punkte, davon einer heute faellig (Antwort A. Tonet + Rechnung Anlagestiftung, Projekt 2620
+Steinbruechelstrasse). Ergebnis als reine Zusammenstellung/Entwurf ans Ende von
+`logbuch/fristen.md` angehaengt, **nicht versendet** — Vorgabe Whitelist/Grenzen. Ueberwiegend
+bereits bekannte, seit dem letzten Durchgang unveraenderte KISPI-Nachfass-/Freigabependenzen;
+keine neue Recherche noetig, nur Sichtung und Gruppierung.
+
+Budget rund 1.9 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.

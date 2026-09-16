@@ -5519,3 +5519,44 @@ Der Verzugscheck meldet zum **zweiunddreissigsten Kalendertag in Folge** «kein 
 **NACHTRAG 15.09.2026, 08:4x (Hub-Chef, Whitelist A2) — zum Eintrag «NEU 15.09.2026, 06:5x — Vor-Ort-Termin Lüftungstechnik Mittwoch 16.09.2026 13:00, steht in keinem Kalender»: Kalendereintrag angelegt.** Apple Calendar, Kalender «Arbeit», Mi 16.09.2026 13:00 bis 14:00, Titel «KISPI Vor-Ort-Termin Lüftungstechnik (Gruner, LSH)», Ort Haupteingang Bereich A, 1. Gebäude, Lenggstrasse 30; Quelle im Notizfeld (Einladung C. Duran 14.09.2026 12:00 CEST, im Original per Graph gelesen: «am Mittwoch um 13:00 Uhr», RJ im Cc). Ende in der Einladung nicht genannt, 1 h angenommen. uid 6BE72AF4-0D6A-42AF-81B0-18F4E45EBF5B. Die Teilnahme ist freiwillig («Gerne sind alle Projektbeteiligten eingeladen»). | Graph rj@ Posteingang 14.09.2026 10:00:54Z, Apple Calendar 15.09.2026 08:4x | 2619 KISPI PPTS / Lüftung | mittel | Termin eingetragen — Teilnahme Entscheid RJ |
 
 **NEU 15.09.2026, 08:4x (Hub-Chef, am Beleg gelesen) — 2619 KISPI: RWD Schlatter, Türen (Angebot KD18611-01, Auftrag 07.09.2026): Masskontrolle der Rohmasse bis Ende KW 38 (Fr 18.09.2026) mit A. Spahic vor Ort.** Die Frist hat RJ selbst gesetzt, rj@ an RWD Schlatter (Verkauf, A. Kayisoglu) und A. Spahic, Cc O. Stadelmann, **07.09.2026 12:53**: «Für die finale Masskontrolle der Rohmasse bitte ich Sie Ende KW 38 mit der Bauleitung Albin Spahic vor Ort ein Termin zu vereinbaren. Der LBW-Ersteller sollte bis Ende KW 38 alle Türöffnungen erstellt haben.» A. Kayisoglu fragt am **15.09. 08:17** nach der Telefonnummer von A. Spahic, er ist am **Do 17.09.** in Zürich auf Baurunde; RJ schickt um 08:28 (Kontakt als Beilage) und 08:32 (Signatur Spahic mit Mobilnummer) die Kontaktdaten. Terminvereinbarung liegt damit bei RWD und A. Spahic. **Zu beobachten:** ob die Türöffnungen bis Ende KW 38 stehen (der Einbau «Lbw schiebetüren erstellen» steht erst am Sa 19.09. im Kalender; ob RWD-Öffnungen davon betroffen sind, ist nicht belegt). | Graph/Apple Mail rj@ Posteingang 15.09. 08:17, Gesendete 15.09. 08:28 und 08:32 (Zitat 07.09. 12:53 im Thread) | 2619 KISPI PPTS / Türen RWD Schlatter | mittel | offen — Termin RWD/Spahic bis 18.09., keine Aktion RJ |
+
+## 2026-09-16, Nachtschicht-Zyklus Mac Mini — Ueberfaelligen-Zusammenstellung (Entwurf, nicht versendet)
+
+Prioritaeten 1-2 leer/aktuell (keine pending remote-tasks/sync-tasks; Synobsis Stufe 2
+gegengemessen, `vectors.npz` 853x768 deckungsgleich mit `documents.jsonl`, kein Rebuild
+noetig). Prioritaet 3 ausgefuehrt: Sub-Agent hat die "## Aktiv"-Sektion (Z. 3995-4154)
+gegen das heutige Datum geprueft und nach Projekt gruppiert — reine Zusammenstellung des
+bereits im Register stehenden Materials, keine neue Recherche, nichts geloescht.
+
+**Heute faellig:** Antwort an A. Tonet (Durchleitungsrecht Art. 693/742 ZGB) und Rechnung
+an die Anlagestiftung, Projekt 2620 Steinbruechelstrasse 26/28 — Aktion Raphael.
+
+**2620 Steinbruechelstrasse/Albertstrasse (Nova):** Baurechtsbericht liegt seit 09.09. ab,
+Beilagen noch nicht gegen den Bericht gelesen (Erschliessungs-Fallstrick offen); Mail-Entwurf
+an R. Steinmann (KV-Termin) seit 03.09. unversendet, Steinmann bis 21.09. abwesend.
+
+**2414 Thalwil:** Zusage vom 07.09. (PDF/DXF an J. Posch/S. Tschopp) trotz Nachfassen
+unbelegt; Begleitbeschrieb Bohlweg 3 seit 06.08. nie an die Gemeinde versendet, Freigabe
+Tschopp fehlt weiterhin — dringend.
+
+**Betrieb/Buchhaltung:** Entscheid bexio-Abo Starter zu Advanced vor der automatischen
+Migration am 08.10. seit 08.09. faellig.
+
+**2619 KISPI (Sammelpunkt, mehrheitlich Nachfass-/Freigabe-Pendenzen ohne neue Frist seit
+dem letzten Durchgang):** Arbeitseinstellung PPTS (Zahlstatus ungeprueft, 01.09.), Tuermatrix
+TeKoSi (7 Korrekturen L. Merci offen, 01.09.), zwei Zusagen aus der Koordinationssitzung
+(31.08.), Gut zur Ausfuehrung Verglasungen Los 274.01 Jegen (KW36), "alle Abnahmetermine
+fixiert" ohne Gremiums-Bestaetigung (28.08.), Kommunikation Terminplan an Bauherrschaft
+(31.08.), Meldung Baustart Feuerpolizei (01.09.), Rueckmeldung J. Ziegel zu Abnahmetermin
+(27.08., Ziegel in Ferien 14.09.-05.10.), bereinigtes Terminprogramm an N. Roethlisberger/
+Schreinermanufaktur Los 273.35 nie versendet (28.08., dringend, Ball bei JANS), Termin-
+Abgleich Gesamtzeitplan ohne dokumentiertes Ergebnis (31.08.), Planfreigabe Werkplan
+Therapiekueche fehlt, 12 Klaerungspunkte T. Inniger offen (02.09., Ball bei JANS), RHS-
+Einbringung Estermann bei Jegen unabgeschlossen (seit 26.08.), 7 Feuerpolizei-Bemerkungen
+Status unklar (04.08.), Nachfass-Entwurf an B. Kuebler ueberholt/nie versendet (04.08.).
+
+**Keine Zustellung ausgeloest.** Diese Zusammenstellung ist eine Lesehilfe fuer den naechsten
+hub-chef-/Radar-Durchgang, kein neuer Fund und kein Ersatz fuer die Einzelzeilen oben in der
+Aktiv-Sektion (dort bleiben Kontext und Belege).
+
+Budget rund 1.8 von 5 USD. Zyklus sauber beendet, rein additiv, keine Loeschung.
