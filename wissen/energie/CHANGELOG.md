@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2026-09-16 (Run 200, Nachtschicht Mac Mini, Prioritaet 4) — E-R190-1 geprueft und geschlossen, kein Tool-Update
+
+Pruefwarteschlange-Punkt E-R190-1 (`kennwert-recompute.sh` ueberspringt Zeilen mit «≈»-Faktoren)
+KB-weit ausgezaehlt: 4 Grep-Treffer auf das Muster, davon 3 Prosa-Falschtreffer in `INDEX.md` und
+nur 1 echte Fundstelle (`destillate/sia-380-1-beispiel-monatsbilanz.md` Z. 33, bereits mit ⚠ +
+vollstaendiger Erklaerung geloest). Entscheid: kein Umbau des Werkzeugs — eine generische Regel
+fuer frei formulierte «≈x»-Formeln haette Risiko fuer neue Falschtreffer im ganzen Werkzeug
+getragen, fuer den Nutzen einer einzigen bereits geloesten Zeile. `wiki/QUESTIONS.md` E-R190-1
+auf `[x]` gesetzt, Run-200-Abschnitt oben in derselben Datei angelegt. Die vorgeschalteten
+automatischen Pruefungen (`wiki-konsistenz.sh`, `bezugsgroessen-check.py`,
+`kennwert-recompute.sh`, `datenstand-waechter.py`) liefen zusaetzlich vollstaendig durch:
+0 neue Befunde ausserhalb bereits bekannter/quittierter Punkte.
+
 ## 2026-09-15 (Wissens-Chef Lauf 59, Cross-KB) — Absatznummer Art. 8 RPG mit Vorbehalt, PV-Brandschutz mit planungsgrundlagen verknüpft
 
 - `wiki/eng-revision-2026-solarwind-nationales-interesse.md`: ⚠-Zeile unter «Art. 8 Abs. 4 RPG (neu)»;

@@ -3,6 +3,19 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 16.09.2026 (02:3x, Prioritaet 4) — KB energie: E-R190-1 geprueft und geschlossen
+
+Prioritaeten 1-3 ohne Handlungsbedarf (keine pending/sync-Tasks; Synobsis-Embeddings gesaettigt
+seit 08.09.; Fristen-Register zu gross fuer eine seriöse Vollpruefung im Nachtschicht-Budget,
+uebersprungen zugunsten von Prioritaet 4). Freie KBs fuer Prioritaet 4 geprueft: bauprodukte
+(erledigt seit 15.08.), spec/immobilienbewertung (beide Ereignis-Trigger, kein Ziel) — einziges
+verbleibendes freies Ziel: `energie`. Die vier automatischen Pruefungen (`wiki-konsistenz.sh`,
+`bezugsgroessen-check.py`, `kennwert-recompute.sh`, `datenstand-waechter.py`) liefen durch: keine
+neuen Befunde ausserhalb bereits bekannter/quittierter Punkte. Offenen Pruefwarteschlange-Punkt
+E-R190-1 KB-weit ausgezaehlt (nur 1 echte Fundstelle, bereits geloest) und geschlossen — kein
+Tool-Update noetig. Details: `wissen/energie/wiki/QUESTIONS.md` Run 200, `wissen/energie/CHANGELOG.md`
+16.09.2026. Keine Whitelist-Aktion, kein Versand.
+
 ## Hub-Chef 15.09.2026 (08:39 bis 08:5x, Kurzbriefing gesendet) — Lüftungstermin 16.09. per A2 eingetragen, Honorar-Zusammenfassung weiter im Entwurf
 
 **Pflichtlektuere:** Radar-Abschnitt 15.09. 06:5x gelesen; der Radar hat heute um 07:04 selbst gemailt (Ausnahme, Chef-Laeufe 12. bis 14.09. ausgefallen), darum meldet dieses Briefing nur das Neue seit 07:04 und verweist fuer den Rest auf den Radar. **Der AG-Gruendungs-Abschnitt fehlt im Datumsblock erneut**, obwohl der Monitor lief (07:30, Commit `14c81d226`): er schrieb wieder nur ins Fristen-Register und in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md`; Befund unveraendert (P1, Kapitaleinzahlung 32 Tage ueber Soll), vom Radar bereits gemeldet. Konversations-Destillat `260915-konversationen.md` gelesen (zwei Gespraeche Mac Mini, beide KISPI, im Radar verarbeitet).

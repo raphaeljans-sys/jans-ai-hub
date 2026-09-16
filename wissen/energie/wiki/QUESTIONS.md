@@ -2,6 +2,27 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 200 (16.09.2026, Nachtschicht Mac Mini) — E-R190-1 geprueft und geschlossen: kein Tool-Update noetig
+
+**Frage:** wie viele Zeilen in der KB betrifft das «≈»-Formel-Problem KB-weit, bevor eine Toleranz
+fuer `kennwert-recompute.sh`/`.py` festgelegt wird (Vorgabe im Eintrag selbst: «Erst pruefen, wie
+viele Zeilen das betrifft»)?
+
+**Befund:** `grep -rnE "≈[0-9,.]+.*(→|->)\s*[0-9]" wissen/energie/wiki/*.md wissen/energie/destillate/*.md`
+liefert KB-weit 4 Treffer, davon 3 in `INDEX.md`-Kurzbeschreibungen (Prosa mit «≈» und
+spaeterem «→» in ganz anderem Zusammenhang, kein Rechen-Muster) und nur **1 echte** Fundstelle:
+`destillate/sia-380-1-beispiel-monatsbilanz.md` Z. 33 selbst, die Ursprungszeile des Befunds.
+Sie traegt bereits ein ⚠ und ist in Z. 43-46 desselben Destillats vollstaendig erklaert (Quelle
+selbst teilt durch die falsche Summe, eigene Nachrechnung mit Beleg daneben gestellt). Ein zweiter
+Rechenweg mit weiter Toleranz wuerde also **eine einzige, bereits von Hand korrekt aufgeloeste
+Zeile** betreffen — kein systematisches KB-Problem.
+
+**Entscheid:** kein Umbau von `kennwert-recompute.sh`/`.py`. Eine generische Regel fuer
+«≈x»-Faktoren in frei formulierten Formeln (mit ·, hochgestellten Exponenten, Klammerausdruecken)
+haette das Risiko neuer falscher Treffer im gesamten Werkzeug getragen, fuer einen Nutzen von
+einer bereits gelosten Zeile. Nutzen/Aufwand nicht gegeben; E-R190-1 damit geschlossen, ohne
+Codeaenderung.
+
 ## Run 199 (15.09.2026, Abendlauf Mac Mini) — A-BLIND Rang 69: Swissolar-STP Brandschutz Solaranlagen am Original
 
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` (10 Backlinks, `established` seit 18.06.2026, nie
@@ -304,10 +325,14 @@ Abschnitt in `[[u-werte-grenzwerte-ch]]`, F2 praezisiert.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R190-1 (P4, Werkzeug): `kennwert-recompute.sh` ueberspringt Zeilen mit «≈»-Faktoren.**
+- [x] **E-R190-1 (P4, Werkzeug): `kennwert-recompute.sh` ueberspringt Zeilen mit «≈»-Faktoren.**
   Die Zeile «(C/AE)·(Δθ·tc·24)/(QT+QV); C/AE≈0,5 → 223 h» haette bei Nachrechnung 256 ergeben.
   Vorschlag: «≈x» als Wert mit weiter Toleranz (z.B. 10 %) mitrechnen statt die Zeile zu
   verwerfen. Erst pruefen, wie viele Zeilen das KB-weit betrifft, bevor die Toleranz festgelegt wird.
+  ✓ **Geschlossen 16.09.2026 (Run 200, Nachtschicht Mac Mini), siehe Eintrag ganz oben in dieser
+  Datei:** KB-weit nur 1 echte Fundstelle (die Ursprungszeile selbst, bereits per Hand mit ⚠ +
+  Erklaerung geloest), 3 weitere Grep-Treffer sind Prosa-Falschtreffer in `INDEX.md`. Kein
+  Tool-Update — Nutzen/Aufwand nicht gegeben.
 - [x] **E-R190-2 (P3, Methode): Zwei KBs haben dieselben PL-04-Seiten unabhaengig abgeschrieben.**
   ✓ **Teilweise ausgefuehrt 10.09.2026 (Nachtschicht Mac Mini).** Sechs weitere Quellenpaare (ausser
   der bereits in Run 190 selbst behandelten Tab. 24/25 + Monatsbilanz) gegeneinander geprueft, alle
