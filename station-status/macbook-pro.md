@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.09.2026 13:08:41
+Stand: 16.09.2026 13:29:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:00)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:15)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 13:08:41
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 432f1cb12 vollgas-radar: 260916 12:57 Mini-Regellauf FREI, Lost-Update in RADAR.md durch MacBook-Doppellauf belegt
+- f403520c9 nas-selfcommit: 3 Datei(en) 2026-09-16 13:15
