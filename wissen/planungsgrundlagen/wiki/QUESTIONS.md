@@ -2313,3 +2313,14 @@ trägt keinen Vermerk). (c) ✓ **im selben Lauf gemessen, Sackgasse:** der kant
 nur Produkt 410 «AV MOpublic, Rohrleitungen» (Pipelines, dieselbe Falle wie der OGD-WFS im Nachtrag
 08.09.) und 1676 «Quellstränge und Zuleitungen zur Brunnenstube»; für «kanal» und «abwasser» 0 Treffer.
 Für die Stadt Zürich bleiben damit die zwei Wege des WEGE-Nachtrags 15.09.
+
+**ERLEDIGT 16.09.2026 (Nachtschicht Mac Mini, Priorität 5).** (a) Beide Wege als neuer
+§8 «Stadt Zürich» in [[kartenportale-werkleitungskataster]] eingearbeitet, inkl.
+Kontaktangaben (ERZ Werdhölzli) und dem Hinweis auf die fünf WFS/API-Sackgassen aus
+`connectors/WEGE.md` 08.09. (b) Kostenfrage direkt an den beiden amtlichen Seiten
+per WebFetch nachgeprüft (nicht nur am Wege-Register): GeoShop-Leitungskataster
+**und** ERZ-Planarchiv sind beide ausdrücklich **kostenlos** («Leitungskataster
+kostenlos via GeoShop beziehen»; «Planauskünfte sind kostenlos»). Die Vermutung
+«kostenpflichtig» im WEGE-Nachtrag 08.09. war eine ungeprüfte Annahme im Rahmen der
+WFS-Sackgassensuche, kein Gegenbeleg — im Artikel und in `connectors/WEGE.md` selbst
+korrigiert.

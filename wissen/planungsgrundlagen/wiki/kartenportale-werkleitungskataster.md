@@ -1,8 +1,15 @@
 ---
 title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC) + Wasser/Gas/Kanalisation SZ (EW Lachen AG)
 status: emerging
-last_updated: 2026-08-01 (Wartungslauf 02: upc.ch unerreichbar (K65 geschlossen))
+last_updated: 2026-09-16 (Nachtschicht Mac Mini: §8 Stadt Zürich ergänzt)
 sources:
+  - Stadt Zürich — "Leitungskataster beziehen" (stadt-zuerich.ch/…/planbezug-datenbezug/
+    leitungskataster-beziehen.html), WebFetch verifiziert 16.09.2026: GeoShop-Bezug kostenlos,
+    AGOV-Login, DXF bis 6 ha
+  - Stadt Zürich — "Liegenschaft entwässern" (stadt-zuerich.ch/…/bauten-anlagen/
+    liegenschaftsentwaesserung.html), WebFetch verifiziert 16.09.2026: ERZ-Planauskünfte
+    kostenlos, Formular "Unterlagen Liegenschaftsentwässerung", Kontakt ERZ Werdhölzli
+    (Bändlistrasse 108, 8064 Zürich, 044 417 52 88, erz-wh-planausgabe@zuerich.ch)
   - EKZ Einsiedeln AG — Merkblatt zur einmaligen Datenabgabe (Planauskunft 1428968, 27.11.2023,
     reale JANS-Bestellung Reckholdernstrasse 20 Willerzell)
   - Swisscom (Schweiz) AG — Netzauskunft Reckholdern (Ausgabedatum 26.11.2023, Auskunftnummer
@@ -169,6 +176,44 @@ Sinn), wird aber hier dokumentiert, weil er im selben SharePoint-Ordner und Best
 Querbezug zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Gewässerraum-Einleitung) und
 zu einer künftigen SIA-Normen-Sammelstelle für Entwässerung. Status `emerging`: ein einzelner,
 aber vollständig dokumentierter realer Fall (Bezirk Einsiedeln), nicht auf andere SZ-Gemeinden
+
+## 8. Stadt Zürich (ERZ/GeoShop, Nachtrag 16.09.2026, aus Cross-KB-Eingang `connectors/WEGE.md`)
+
+Anlass: Steinbrüchelstrasse 26/28 Witikon (WI1585), Lage der Hauptabwasserleitung für die
+Volumenstudie. Anders als in Kt. SZ (Abschnitt 7) hat die Stadt Zürich **zwei separate,
+beide login- bzw. formularpflichtige, aber kostenlose Bezugswege** — kein zentrales
+Web-API/WFS (der Versuch darüber ist in `connectors/WEGE.md`, Nachtrag 08.09.2026, mit
+fünf belegten Sackgassen dokumentiert: Kanton-ZH-OGD-WFS, Stadt-Zürich-WFS/WMS, CKAN,
+Geodaten-Katalog, CMS-Seite — keiner führt einen Kanal-/Leitungskataster).
+
+1. **GeoShop Stadt Zürich** (`https://e-gov.stadt-zuerich.ch/geoshop/`) — Leitungskataster
+   Abwasser/Elektrizität/Erdgas/Fernwärme/Wasser/Kommunikation als PDF-Ausschnitt oder DXF
+   (bis 6 ha). **Kostenlos** (WebFetch-Verifikation 16.09.2026 an der amtlichen Seite:
+   «Leitungskataster kostenlos via GeoShop beziehen»). Login zwingend über **AGOV**
+   (Nachfolgesystem des alten "Mein Konto"-Logins, Übergangsfrist läuft), nicht skriptbar —
+   Raphael meldet sich selbst an.
+2. **ERZ Liegenschaftsentwässerung, Planarchiv** (Grundstückentwässerungspläne von über
+   40'000 Liegenschaften; zeigt die privaten Sammel-/Hausanschlussleitungen genauer als
+   der öffentliche Leitungskataster). **Ebenfalls kostenlos** (WebFetch-Verifikation
+   16.09.2026: «ERZ … Planauskünfte kostenlos»). Bestellung mit dem **Web-Formular
+   "Unterlagen Liegenschaftsentwässerung"** auf stadt-zuerich.ch; **keine** formlose
+   PDF-Bestellung per E-Mail an Projektbegleitende («können leider nicht berücksichtigt
+   werden»). Kontakt bei Rückfragen: ERZ Werdhölzli, Bändlistrasse 108, 8064 Zürich,
+   044 417 52 88, `erz-wh-planausgabe@zuerich.ch`. Nach einem Bauentscheid läuft die
+   Einreichung revidierter Pläne über die Funktion "Mitteilung an Gemeinde" in
+   `eBaugesuche.zh.ch`.
+
+**Widerspruch aus dem Wege-Register aufgelöst:** der Nachtrag vom 08.09.2026 in
+`connectors/WEGE.md` hatte einen «Kanalkatasterauszug bei ERZ» probeweise als
+**kostenpflichtig** eingestuft (ungeprüfte Vermutung im Rahmen der WFS-Sackgassensuche,
+kein Beleg). Die Direktprüfung an der amtlichen Seite am 16.09.2026 zeigt für **beide**
+Bezugswege (GeoShop und ERZ-Planarchiv) ausdrücklich **kostenlos**. Die frühere Vermutung
+war nicht so sehr falsch wie unbelegt — sie ist hiermit durch eine geprüfte Quelle ersetzt.
+
+Für die Standard-Checkliste (Abschnitt 6) gilt für Stadt-Zürich-Parzellen damit: GeoShop
+für den allgemeinen Leitungskataster, zusätzlich das ERZ-Formular, sobald die private
+Grundstücksentwässerung (Bestandsleitungen, Rückstauhöhen, Einleitbeschränkungen) relevant
+ist — beides parallel anstossen, keines ersetzt das andere.
 
 **Ergänzung Run 61 (2026-07-25):** neben dem E-Mail-Bezugsweg EW Lachen AG führt das
 **Bezirks-GIS `gis.bezirkeinsiedeln.ch`** (siehe [[kartenportale-geoportale-uebersicht]]

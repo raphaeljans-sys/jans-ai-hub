@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-16 (spät) — Nachtschicht Mac Mini Prio 5: §8 Stadt Zürich in Werkleitungskataster-Artikel, Kostenfrage geklärt
+
+Cross-KB-Eingang aus `connectors/WEGE.md` (15.09.2026) abgeschlossen (`wiki/QUESTIONS.md`,
+Eintrag «2026-09-15 — Eingang aus connectors/WEGE.md»). `wiki/kartenportale-werkleitungskataster.md`
+um Abschnitt 8 «Stadt Zürich» ergänzt: GeoShop-Leitungskataster (AGOV-Login, DXF bis 6 ha) und
+ERZ-Planarchiv Liegenschaftsentwässerung (Formular «Unterlagen Liegenschaftsentwässerung»,
+Kontakt ERZ Werdhölzli). Beide Wege per WebFetch an den amtlichen Stadt-Zürich-Seiten verifiziert
+und als **kostenlos** belegt — löst den Widerspruch zwischen WEGE-Nachtrag 08.09. («kostenpflichtig»,
+ungeprüfte Annahme) und 15.09. («beide kostenlos», ohne Direktbeleg) auf. `connectors/WEGE.md`
+im selben Lauf korrigiert (kostenpflichtig-Satz gestrichen/berichtigt).
+
 ## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Korrekturvermerk deckte den Artikel nur zu drei Vierteln
 
 Befund WC60-1, am Original bestaetigt. Der Korrekturvermerk vom 16.09.2026 in

@@ -1074,9 +1074,15 @@ Anlass: Grundbuch WI1585 (Steinbrüchelstrasse 26/28) zeigt Abwasser-Bau- und Du
 
 **Wege, die bleiben:** (1) Servitutenpläne beim Grundbuchamt Hottingen-Zürich (Belege Witikon
 1950/125b und 1953/188) über die Eigentümerseite anfordern; (2) Kanalkatasterauszug bei
-Entsorgung + Recycling Zürich (ERZ) bestellen — kostenpflichtig, Zugang über die Stadt, nicht
-skriptbar; (3) im Bericht als offene Annahme ausweisen. Weitere Wege im Wiki:
+Entsorgung + Recycling Zürich (ERZ) bestellen — Zugang über die Stadt, nicht skriptbar;
+(3) im Bericht als offene Annahme ausweisen. Weitere Wege im Wiki:
 `wissen/planungsgrundlagen/wiki/kartenportale-werkleitungskataster.md`.
+
+⚠ **Berichtigt 16.09.2026 (Nachtschicht Mac Mini):** «kostenpflichtig» oben war eine
+ungeprüfte Annahme dieses Nachtrags, kein Beleg. Direktprüfung an den amtlichen Stadt-Zürich-
+Seiten (WebFetch 16.09.2026) zeigt: sowohl der GeoShop-Leitungskataster als auch die
+ERZ-Planauskunft zur Liegenschaftsentwässerung sind **kostenlos**. Siehe Nachtrag 15.09.2026
+unten und `wissen/planungsgrundlagen/wiki/kartenportale-werkleitungskataster.md` §8.
 
 ## Nachtrag 09.09.2026 — IPTV: welcher Sender zeigt das Spiel (EPG statt Raten)
 

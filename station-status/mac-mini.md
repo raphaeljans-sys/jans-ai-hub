@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 23:24:56
+Stand: 16.09.2026 23:35:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:09)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 23:24:56
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ef9c968b9 templates: InDesign-Praesentation per Script, Bauweg und Fallen (Rücklauf 2619 KISPI Sitzungsvorlage)
+- 93578edbd wissens-chef Lauf 60: Dateizahl auf 15 berichtigt, Numstat-Beleg nachgetragen

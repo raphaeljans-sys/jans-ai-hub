@@ -13141,3 +13141,22 @@ bereits bekannte, seit dem letzten Durchgang unveraenderte KISPI-Nachfass-/Freig
 keine neue Recherche noetig, nur Sichtung und Gruppierung.
 
 Budget rund 1.9 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.
+
+## 2026-09-16, Nachtschicht-Zyklus Mac Mini (23:30-Slot)
+
+Prioritaeten 1-2 erneut leer/erledigt: keine pending remote-tasks/sync-tasks; Synobsis Stufe 2
+seit 25.07. gesaettigt (853/853, kein Rebuild noetig). Prioritaet 4 (naechste faellige
+Trainingslektion) hatte kein gueltiges Ziel: `energie` heute bereits per Run 201 trainiert
+(22:48, unmittelbar vor diesem Zyklus), `bauprodukte` traegt seit 15.08. den Status ERLEDIGT/
+Bestaetigungstakt, `grobkosten` und `projekt-lessons` sind laut Nachtschicht-Prompt ausgesetzt,
+die uebrigen KBs haben einen eigenen aktiven Taktgeber. Stattdessen Prioritaet 5 ausgefuehrt:
+den Cross-KB-Eingang vom 15.09.2026 in `wissen/planungsgrundlagen/wiki/QUESTIONS.md`
+(`connectors/WEGE.md` → Kanal-/Leitungskataster Stadt Zuerich fehlt im Werkleitungskataster-
+Artikel) recherchiert und geschlossen: neuer Abschnitt 8 "Stadt Zuerich" im Artikel
+`kartenportale-werkleitungskataster.md` (GeoShop-Leitungskataster + ERZ-Planarchiv
+Liegenschaftsentwaesserung), beide Bezugswege per WebFetch an den amtlichen Stadt-Zuerich-
+Seiten als **kostenlos** verifiziert (loest den Widerspruch «kostenpflichtig» vs. «kostenlos»
+zwischen den WEGE-Nachtraegen 08.09./15.09. auf). `connectors/WEGE.md` im selben Lauf
+korrigiert, QUESTIONS.md-Eintrag und CHANGELOG.md nachgefuehrt.
+
+Budget rund 2.1 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.
