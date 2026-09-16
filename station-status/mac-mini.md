@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 06:30:47
+Stand: 16.09.2026 06:41:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:30)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- 06eb06ecf nas-selfcommit: 20 Datei(en) 2026-09-16 06:30
+- 3e950e812 Vollgas-Fruehwarnung 16.09.2026: Regellauf ohne Befund, Logeintrag
