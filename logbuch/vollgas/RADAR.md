@@ -53,6 +53,52 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-16 12:58 — [FREI] **MacBook-Fassung, Regellauf ohne Befund. Der Doppellauf besteht am dritten Tag fort und ist heute dreifach belegt. Neuer P3: eine zu weit gefasste Permission-Regel in `.claude/settings.local.json`.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` (Caskroom 2.1.236, Symlink unverändert seit 29.08. 05:15) «OK», rc=0 in **7 s**,
+Watchdog 180 s nicht gebraucht, keine Waisen (`ps` gegengeprüft). Wochenbudget **16.5 %** von 167 Mio bei **29.2 %** verstrichener
+Woche, Vorsprung **-12.6 Punkte**, Ampel FREI (MacBook 20.25, Mini 7.36 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts
+zurückzuschalten. Speicher MacBook: Druckstufe 1, rund 4.4 GB frei+inaktiv+purgeable (vm_stat), Uptime 23:01, Load 5.21.
+
+**Feuermechanismen.** launchd auf beiden Stationen im Sollstand: MacBook `vollgas-supervisor` und `vollgas-monitor` weiterhin
+`.disabled-260729`, kein vollgas-Job geladen; Mini `vollgas-supervisor` ebenfalls `.disabled-260729`, `ch.jans.nachtschicht`
+geladen. Mini-Registry unverändert zwölf Task-Ordner, Sollstand. MacBook-Registry ohne gedrosselte Lern-Tasks.
+
+**Doppellauf (unverändert offen, Aktion Raphael).** Die MacBook-Registry zeigt alle drei Tasks weiterhin auf `enabled: true`:
+vollgas-chef-radar (`lastRunAt` 10:58Z = dieser Lauf, `nextRunAt` 22:57Z), vollgas-fruehwarnung (`lastRunAt` 05:15Z = 07:15),
+heartbeat-daily (`lastRunAt` 07:41Z = 09:41). Die Deaktivierung vom 15.09. 13:32 ist damit den dritten Tag in Folge unwirksam.
+Heute zusätzlich aus den Commits belegt: die Frühwarnung schrieb zweimal denselben Logeintrag (`3e950e812` Mini, `203bb7efe`
+MacBook). Ich deaktiviere weiterhin nicht selbst — Frühwarnung und heartbeat stehen auf der Ausnahmeliste, und der Schritt gehört
+laut Chronik 260911b Raphael.
+
+**Liefer-Delta seit 16.09. 00:00 (git, Dateien unter `wissen/`):** twin 11 (twin-mail-training Batch 121 um 03:40, Korrektur-Delta
+Nr. 2 «Gruss hängt am Kanal»; twin-fidelity-review 05:45), normen 5 (Run 86 um 01:28, Seiten-Inventur Lignum 4.2, 63/63 Seiten,
+0 falsche Werte, 26 Kernlücken nachgetragen), energie 2 (Nachtschicht 02:37, E-R190-1 geprüft und geschlossen), spec 1,
+bauprodukte 1. Nachtschicht Mini zweimal rc=0 (02:37 3.03 USD / 52 Turns, 05:34 1.99 USD / 15 Turns). Operativ geliefert haben
+logbuch-radar (06:55), ag-gruendung-monitor (07:46), heartbeat (DOCX-Pipeline Mac Mini als defekt erkannt) und hub-chef (08:39,
+DOCX-Pipeline beider Stationen per A6 repariert, Briefing gesendet). **Kein Loop ohne Delta.**
+
+**Beobachtung (kein Eingriff, fortgeschrieben).** Der Nachtschicht-Lauf 05:34 meldet erneut, Priorität 1 bis 3 seien leer oder
+erledigt, und lieferte nur eine Fristen-Gruppierung. Der Ertrag je Lauf sinkt weiter, aber beide Läufe lieferten. Rule 260830
+greift erst, wenn ein Lauf gar nichts mehr liefert.
+
+**Massnahmen.** Keine.
+
+**P3 (neu, Aktion Raphael).** Die Fensterprobe gab heute eine Warnung des CLI aus: in
+`/Users/raphaeljans/Developer/jans-ai-hub/.claude/settings.local.json`, Zeile 19, steht eine Allow-Regel
+`Bash(sed 's|.*/500 Invest/||' …/tool-results/bwjaoq471.txt)` mit einem `*` **vor** dem Rest des Befehls. Damit genehmigt die
+Regel auch beliebige an dieser Stelle eingeschobene Optionen ohne Rückfrage. Die Regel stammt aus einem einmaligen
+Tool-Ergebnis-Pfad und wird nicht mehr gebraucht; sauber wäre, sie zu streichen. Ich fasse sie nicht selbst an: Raphael ist bei
+diesem Lauf nicht anwesend, und eine Änderung an der Rechte-Konfiguration fällt nach Rule `interaktive-eingriffe` Ziff. 3 nicht in
+eine unbeaufsichtigte Session.
+
+**P2 (unverändert, Aktion Raphael):** die drei doppelt geführten Tasks in der App auf dem MacBook ausschalten und die App danach
+einmal neu starten; Gegenprobe über `list_scheduled_tasks` auf dem MacBook (`enabled: false`). **P3 (unverändert):**
+bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch verloren, nächste Slots 20./21.09.
+
+**Selbstkontrolle.** Letzter MacBook-Eintrag 16.09. 01:00, Abstand rund 12 h, innerhalb der Toleranz von 15 h (Takt 12 h + 3 h).
+`lastRunAt` 10:58Z ist dieser Lauf, kein Aussetzer. Keine Mail (kein P1-Blocker, kein Wochenlimit).
+
 ## 2026-09-16 01:00 — [FREI] **MacBook-Fassung, Ergänzung zum Mini-Eintrag 00:57 direkt darunter (der gilt). Hier nur, was nur das MacBook messen kann: die Registry bestätigt den Befund des Mini. Alle drei Tasks stehen hier weiterhin auf `enabled: true`.**
 
 **Registry-Beleg zur Gegenprobe.** `list_scheduled_tasks` auf dem MacBook, 16.09. 01:00: vollgas-chef-radar `enabled: true`
