@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.09.2026 22:43:52
+Stand: 16.09.2026 22:54:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:54)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.09.2026 22:43:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5c30c99f6 nas-selfcommit: 4 Datei(en) 2026-09-16 22:30
+- 7163581be energie Run 201: Private Kontrolle ZH am Original — § 4 BBV I seit 1.4.2024 (Bericht + §§19a-19c BVV + QES), sieben Kantone, § 4 Abs. 4 Minergie; Cross-KB LN-1b-Befugnis in planungsgrundlagen berichtigt; F297 neu, F12 berichtigt
