@@ -4573,3 +4573,79 @@ Bewertung unverändert: keines der sieben Meldekriterien erreicht, keine Mail. D
 bis dahin schreibt diese Fassung nur Kurzergänzungen.
 
 Zuletzt gemailt: **24.08.2026 07:50**, unverändert.
+
+## 2026-09-16 06:30 CEST — Rohblock (Messung zuerst, Bewertung folgt)
+
+Station Mac Mini (lokal, 130 Dateien im 9-Tage-Fenster):
+2026-09-12  teuer 1.39 Mio · total 38.43 Mio
+2026-09-13  teuer 0.86 Mio · total 28.97 Mio
+2026-09-14  teuer 2.23 Mio · total 56.99 Mio
+2026-09-15  teuer 3.67 Mio · total 148.25 Mio
+2026-09-16  teuer 0.70 Mio · total 14.02 Mio (Tag laeuft)
+
+Station MacBook Pro (per ssh macbook erreichbar, 504 Dateien):
+2026-09-10  teuer 9.10 Mio · total 227.37 Mio
+2026-09-11  teuer 4.24 Mio · total 98.08 Mio
+2026-09-12  keine Sitzung
+2026-09-13  keine Sitzung
+2026-09-14  teuer 6.54 Mio · total 243.16 Mio
+2026-09-15  teuer 10.40 Mio · total 191.41 Mio
+2026-09-16  teuer 1.08 Mio · total 27.85 Mio (Tag laeuft)
+
+Summe teuer beide Stationen: 15.09. = 14.07 Mio · 14.09. = 8.77 Mio — beide unter der
+Schwelle (b) von ~18 Mio an zwei Folgetagen bzw. ~35 Mio an einem Tag.
+
+Blockade-Status: 0 echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h
+(strukturell geprueft: isApiErrorMessage / type==error / apiErrorStatus==429).
+
+### Bewertung — ohne Befund, keine Mail
+
+Briefings (Schritt 3, alle vier auf dem MacBook Pro, letzter Lauf 15.09.): logbuch-radar
+252 Zeilen, hub-chef 208 Zeilen, mahnwesen-verzugscheck 80 Zeilen, zahlungsabgleich-check
+58 Zeilen — alle vier haben ihr Deliverable erreicht, keine abgebrochene Sitzung. Kriterium
+(d) trifft nicht zu. Die heutigen Laeufe stehen zum Messzeitpunkt 06:30 noch aus (Radar 06:55,
+Hub-Chef 08:39), das ist planmaessig.
+
+Radar-Herzschlag (Schritt 4): beide Signale frisch. Juengste `## `-Ueberschrift in RADAR.md
+ist 2026-09-16 01:00 (MacBook-Fassung) bzw. 00:57 (Mini-Fassung), vor rund 5.5 h; juengste
+Session mit dem Task-Opener auf dem Mini 01:15, vor 5.3 h. Kriterium (e) trifft nicht zu.
+
+Liefer-Delta der Lern-Loops (Schritt 5): die Mini-Nachtschicht lief in den letzten vier Tagen
+in allen Slots mit rc=0 und belegtem Ertrag (Commits, Wiki-Artikel, CHANGELOG, QUESTIONS).
+Ein einziger Lauf ohne Dateiaenderung (14.09. 05:35) weist das selbst als reine Bestandsaufnahme
+aus — keine Serie, kein Muster (a) oder (b).
+
+Destillat-Aufsicht (Schritt 5b):
+Fortschritt — Korpus-Queue steht weiterhin bei Korpus 3/4 (`buero-referenzen` P1 komplett/P2
+offen, `archiv-fachwissen` in Arbeit); die Queue-Tabelle ist seit dem 31.08. nicht mehr
+fortgeschrieben, weil die Nachtschicht seither KB-breit arbeitet statt korpusweise. Keine
+Meldung «KORPUS-QUEUE KOMPLETT», Kriterium (g) trifft nicht zu. Specs liegen fuer alle vier
+Korpora vor, das Spec-Gate haengt nicht.
+Ertrag — architektur-fachwissen 481 Artikel, energie 41, bauprodukte 18, projekt-lessons 14,
+normen 8, auflagebereinigung 7.
+Artikel je Tag (git, ohne INDEX/QUESTIONS): 12.09. 2 · 13.09. 1 · 14.09. 11 · 15.09. 18
+(davon 12 ohne die taeglich angefassten Twin-Facetten) · 16.09. bisher 6 (alle Twin).
+Delta-Null-Serie — keine. Output-Reports entstehen taeglich in mehreren KBs (16.09. bereits
+normen-nacht-run86 und twin-fidelity).
+Stueckkosten (teuer Mini / Artikel des Tages): 12.09. 0.70 · 13.09. 0.86 · 14.09. 0.20 ·
+15.09. 0.20 Mio Token je Artikel. Beide Stationen zusammen am 15.09.: 0.78 Mio je Artikel.
+Kriterium (f) trifft nicht zu — die Front bewegt sich und der Ertrag liegt vor.
+Mittags-Slot 13:30 — hat am 13., 14. und 15.09. gefeuert und jeweils geliefert; das Lauf-Gate
+hat ihn in diesem Fenster kein einziges Mal abgewiesen.
+
+Speicher Mac Mini zum Messzeitpunkt: 12'813 MB verfuegbar (free+inactive+purgeable),
+Druckstufe 1 (normal).
+
+Zwei Beobachtungen fuer den Radar, beide ohne Aussenwirkung und damit nicht sendewuerdig:
+1. Das Lauf-Gate `logbuch/speicher/gate-Macmini.log` traegt seit dem 31.08.2026 keine
+   Nachtschicht-Entscheide mehr ein; der einzige neuere Eintrag stammt vom
+   heartbeat-Selbsttest am 15.09. Die Laeufe finden nachweislich statt, sie laufen aber
+   offenbar nicht mehr durch dieses Gate oder protokollieren anderswo. Wer an der
+   Speicher-Schutzmechanik arbeitet, sollte das nachmessen, bevor er sich auf den Log stuetzt.
+2. Messfalle im eigenen Auftrag: die Opener-Suche nach `scheduled-task name=\"logbuch-radar\"`
+   trifft die **Anweisung dieses Tasks selbst** — der Messhinweis am Ende der SKILL.md nennt
+   genau dieses Muster als Beispiel und steht damit in jeder Fruehwarnungs-Session. Wer nur
+   nach dem Muster greppt, haelt die eigene Sitzung fuer einen logbuch-radar-Lauf. Gegenprobe
+   ist der Zeitstempel der User-Zeile mit dem Opener, nicht das blosse Vorkommen im Text.
+
+Letzte gesendete Mail dieses Tasks: keine im aktuellen Log-Verlauf.
