@@ -5,6 +5,26 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-17 — twin-mail-training Batch 122: der Punkt statt des Fragezeichens
+
+Fenster `rj@` Sent Items 15.09.2026 20:01 bis 17.09.2026 08:09 (4 Treffer, alle gesichtet),
+`mail@` im selben Fenster 0 Treffer, `mdfind -name Begleitmail` ohne Zuwachs. Zwei Golds eigener
+Hand (Outlook Mobile an einen Schreiner, Apple Mail an einen Türenbauer), zwei Selbstmails
+`claude-aera` nur als Kontrolle, kein Korrektur-Delta.
+
+Je ein Abschnitt «Batch 122 (17.09.2026)» in `wiki/stimme.md`, `denken.md`, `haltung.md`,
+`beziehungsregister.md`, `fachsignatur.md`, `arbeitsweise.md`; `wiki/QUESTIONS.md` um 260917 #1-#3
+ergänzt; Detailregister `raw/260917-mailbatch-122.md` angelegt; `raw/_INGESTED.md` fortgeschrieben.
+`last_updated` aller sechs Facetten auf 2026-09-17, Status unverändert `established`.
+
+Kern: (1) beide Nachnamen im selben Fünfzeiler vertippt (Empfänger und eigener) — Echtheitssignal,
+kein Register-Signal; (2) der Mehrpreis wird ins Nachbargewerk verschoben statt bezahlt
+(«wir streichen diese vom Maler weiss»); (3) ⚠ Widerspruch zu Fidelity 260915/260916 — die
+Rückfrage endet auf einem Punkt, nicht auf einem Fragezeichen, Lesart «nein-sagen-dürfen → ?,
+ohnehin-schulden → .» als offene Frage vorgelegt statt geglättet; (4) Mass ohne Leerschlag «17cm»;
+(5) Anhang ohne Anhangszeile, zweimal — Gegenstück zu Batch 121. Fehlerdichte 6.9 je 100 Wörter
+gegen 0 in den `claude-aera`-Kontrollen, siebter Vergleich in Folge.
+
 ## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Claudia Horeni als Vorlage, nicht als Aktion
 
 Befund WC60-4. Claudia Horeni (AfB Stadt Zuerich) ist in `wiki/beziehungsregister.md` zweifach

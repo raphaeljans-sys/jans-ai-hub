@@ -6592,3 +6592,39 @@ bisherige Einordnung («Bitten-Formel») ist in beiden Faellen zu eng gefasst.
 
 Status: #1-#4 **offen**. #1 ist der Hebel: seine Beantwortung schliesst zugleich 260806 #1,
 260915 #2 und 260915 #6.
+
+## 260917 (Batch 122)
+
+**#1 [Stimme] Fragezeichen oder Punkt — wann trägt eine Rückfrage welches Satzzeichen?**
+Am 17.09. steht in Deiner eigenen Hand: «Können Sie uns gemäss Terminplsn die Montage noch
+bestätigen**.**» — Punkt. Am 23.02. dagegen: «… jedoch wäre die Frage ob Sie ein Abgebot von
+CHF 1000.- machen könnten**?**» — Fragezeichen, und die Fidelity-Läufe 260915/260916 haben das
+Fragezeichen beide als Marker kompiliert.
+*Konkret:* Trifft die Lesart «**Fragezeichen, wo der Empfänger nein sagen darf** (Abgebot,
+Terminwunsch) — **Punkt, wo er nur bestätigen soll**, was er ohnehin schuldet»? Oder ist der
+Punkt schlicht der mobile Tippfluss am Morgen?
+*Warum:* Der Zwilling setzt heute nach der Fidelity-Regel überall ein Fragezeichen. Trifft die
+Lesart, wird daraus eine steuerbare Unterscheidung; ist es Tippfluss, bleibt das Fragezeichen die
+Vorgabe und der Punkt reines Echtheitssignal.
+
+**#2 [Fachsignatur/Stimme] Masseinheit ohne Leerschlag — Regel oder Zufall?**
+«Dort muss beim Versatz eine Tiefe von **17cm** ausgeführt werden» (16.09., fett gesetzt). Die DNA
+hält bisher nur «‹%› mit Leerschlag» fest; für Masseinheiten steht nichts. Zusammen mit
+«CHF 1000.- ohne Apostroph» (23.02.) zeichnet sich ab: die Mikro-Typografie ist am ausgewiesenen
+Wert streng und am eingestreuten Mass lose.
+*Konkret:* Soll der Zwilling in Mails an Unternehmer «17cm» schreiben — und in Dokumenten,
+Offerten und Studien weiterhin «17 cm»?
+*Warum:* Ohne Antwort korrigiert `korrektur` den Leerschlag in beide Richtungen unterschiedlich,
+je nachdem, welcher Marker zuerst greift.
+
+**#3 [Arbeitsweise] Die Anhangszeile — Pflicht der förmlichen Anfrage, nicht der Thread-Antwort?**
+Batch 121 zeigte eine **Anhangszeile ohne Anhang** (Honorarofferte), Batch 122 zeigt zweimal den
+**Anhang ohne Zeile** (Gut zur Ausführung, Türenplan) — in beiden Fällen ist der Anhang der
+eigentliche Gegenstand der Mail.
+*Konkret:* Gilt «Anhangszeile nur, wenn die Mail eine neue, förmliche Anfrage eröffnet; in der
+Antwort im stehenden Thread spricht die Datei für sich»?
+*Warum:* Das würde 260916 #3 mitbeantworten und dem Zwilling die Zeile dort ersparen, wo Du sie
+selbst nie setzt.
+
+Status: 260917 #1-#3 **offen**; 260916 #1-#4 und 260916b #1-#3 unverändert offen. #1 hängt
+inhaltlich an 260915 #6 (Terminfrage) — eine Antwort schliesst beide.

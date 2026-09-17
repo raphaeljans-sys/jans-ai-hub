@@ -3015,3 +3015,47 @@ Grenze wie `rj@`. (3) `mdfind -name Begleitmail` auf Zuwachs, gegen Sent Items p
 nur als Zuwachs; die zwei Apple-Mail-Entwuerfe vom 24.03.2026; der Rest von **Batch 65** auf
 `claude-aera` pruefen, unveraendert offen. (5) **Neu:** `stilmetrik.py` um eine Kanal-Spalte
 erweitern, damit die Gruss-Zeile nicht weiter Signaturtext als Stilwert misst.
+
+
+## Batch 122 (17.09.2026) — `rj@` Sent 15.09. 20:01 bis 17.09. 08:09 · **der Punkt statt des Fragezeichens**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 122 (17.09.2026)» in [[stimme]], [[denken]],
+[[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]; [[QUESTIONS]] 260917 #1-#3)
+· Detailregister: `raw/260917-mailbatch-122.md`
+
+**Abgedeckt:** `rj@` Sent Items **15.09.2026 20:01 bis 17.09.2026 08:09** (Ortszeit), alle 4 Treffer
+(`totalResultCount: 4`). `mail@` Sent Items im selben Fenster: **0 Treffer**; beide Konten sind
+lückenlos bis zum Laufzeitpunkt gesichtet. `mdfind -name Begleitmail`: 15 Dateien, jüngste 260914,
+**kein Zuwachs**.
+
+**Vorfilter:** keine Dublette (Grenze aus 121 sauber), 2 Selbstmails `claude-aera` (iCloud-Fotos-Status
+16.09., Hub-Chef-Briefing 16.09.; nur Kontrolle), 2 Mails mit eigenem Text. Kein Korrektur-Delta in
+diesem Fenster. Kein Fidelity-Review seit 16.09., keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** «Geschätzter Herr Zürcher» Nachfrage korrigierte
+Planfassung 16.09. 09:58 (Outlook Mobile, Anhang Gut zur Ausführung) · «Guten Morgen Herr Bakrami»
+Sensorfarbe/Montagebestätigung 17.09. 08:09 (Apple Mail, Anhang Türenplan). ⚠ Der im Thread
+mitgeführte Volltext der Gegenseite vom **17.09.2026 06:27** ist Fremdtext und wurde NICHT destilliert.
+
+**Kernbefunde:** (1) ⭐⭐ **Beide Nachnamen im selben Fünfzeiler vertippt** — der des Empfängers
+(«Bakrami» statt Bajrami) und der eigene («Jand» statt Jans); Echtheitssignal ersten Ranges, kein
+Register-Signal. (2) ⭐⭐ **Der Mehrpreis wird ins Nachbargewerk verschoben, nicht bezahlt** («wir
+streichen diese vom Maler weiss») — Gewerkegrenze als Kostenhebel statt Preisverhandlung. (3) ⭐ Die
+**Rückfrage endet auf einem Punkt**, nicht auf einem Fragezeichen; ⚠ **Widerspruch** zu Fidelity
+260915 und 260916, Lesart «nein-sagen-dürfen → ?, ohnehin-schulden → .» vorgelegt (→ 260917 #1).
+(4) ⭐ **Mass ohne Leerschlag «17cm»** (→ 260917 #2). (5) ⭐ **Fett trägt die Kernforderung** (Bauteil +
+Mass), dritter Beleg der Fett-Linie. (6) ⭐ **Betreffzeile mit YYMMDD-Prefix** der Dateinamen-Konvention,
+samt Tippfehler. (7) ⭐ **Bitte → Begründung → Risiko**: der Grund folgt der Forderung und nennt den
+Schaden, nicht das Bedürfnis — Gegenfall zum Verhandlungsbefund (Zahl zuerst). (8) ⭐ **Anhang ohne
+Anhangszeile, zweimal** — Gegenstück zu Batch 121 (→ 260917 #3). (9) ⭐ **Zwei Sie-Stufen an zwei
+Unternehmern in 26 h** nach Anlassgewicht, vierter Beleg der Klausel im Sie. (10) ⭐ Ort, Bauteil,
+Detailstelle, Mass in einem Satz, ohne «ca.». (11) Fehlerdichte **6.9 je 100 W** gegen 0, siebter
+Vergleich in Folge.
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 17.09.2026 08:09** Ortszeit (`afterDateTime` UTC
+`2026-09-17T06:09:30`), `order: oldest`. (2) `mail@` **Sent Items ab 17.09.2026 08:09**, dieselbe
+Grenze wie `rj@`. (3) `mdfind -name Begleitmail` auf Zuwachs (Stand 15, jüngste 260914), gegen Sent
+Items paaren. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwürfe vom 24.03.2026; der Rest von
+**Batch 65** auf `claude-aera` prüfen, unverändert offen. (5) **Weiterhin offen aus 121:**
+`stilmetrik.py` um eine Kanal-Spalte erweitern — in diesem Lauf nur umgangen, indem die
+Signaturblöcke vor der Messung entfernt wurden.
