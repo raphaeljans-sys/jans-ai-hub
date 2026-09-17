@@ -53,6 +53,61 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-18 00:58 — [FREI] **MacBook-Fassung, Regellauf. Der P3 von gestern ist auf die Ursache heruntergebrochen und wird zu P2: beide rc=127-Jobs rufen ihr Script mit hart kodiertem NAS-Pfad auf und feuern nur einmal taeglich — der Fix liegt umkehrbar in der Freigabe-Queue.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **7 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprueft). Wochenbudget **26.3 %** von 167 Mio bei **50.6 %** verstrichener Woche, Vorsprung **-24.3 Punkte**,
+Ampel FREI (MacBook 32.29, Mini 11.66 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurueckzuschalten.
+Speicherdruck Stufe 1, rund 4.4 GiB verfuegbar (vm_stat free+inactive+purgeable).
+
+**Liefer-Delta (14 h, ueber `git diff --name-only`, nicht ueber `find -newermt`).** Kein Delta-Null-Loop, keine
+Ruecktakt- oder Stilllegungs-Empfehlung. Geaenderte Dateien je KB: **energie 15** · koordination 5 ·
+planungsgrundlagen 4 · twin 3 · normen 2 · immobilienbewertung 2 · grobkosten 2 · baurecht 2 · spec 1 ·
+architektur-fachwissen 1. Substanzielle Commits: energie Run 204 (A-BLIND Rang 4, §47b/§47c, P1 30-kW-Deckel
+aufgeworfen) und Run 205 (denselben Deckel an acht Fundstellen berichtigt, ZH kennt ihn nicht), wissens-chef Lauf 61
+in drei Commits mit bezifferter Schreib-Kontrolle (+857/-101), Synergie-Lauf 38 (SYN-90/SYN-91 zur Buchungsvollmacht),
+tenant-hygiene. Die Mac-Mini-Nachtschicht lief am 17.09. viermal, alle rc=0, 1.66 bis 4.09 USD je Zyklus, jeder mit
+benanntem Ertrag — der Lern-Taktgeber des Mini traegt.
+
+**Feuermechanismen.** Registry ohne Doppelfeuerung und ohne reaktivierten Job; `ch.jans.vollgas-supervisor` und
+`ch.jans.vollgas-monitor` liegen auf beiden Stationen unveraendert als `*.disabled-260729` und sind nicht geladen —
+der stehende Entscheid vom 30.07. haelt. Mac Mini: alle 13 Jobs rc=0. MacBook: 13 von 15 rc=0.
+
+**P2 — zwei launchd-Jobs auf dem MacBook seit dem 17.09. mit rc=127, Ursache gefunden.**
+Betroffen `ch.jans.wissens-trigger` (taeglich 06:30, Lern-Taktgeber der ereignisgetriggerten KBs) und
+`ch.jans.claude-autoupdate` (05:15). Die gestern vermutete Ursache «NAS-Pfad fuer launchd-bash nicht erreichbar»
+ist bestaetigt und praezisiert: `/tmp/claude-autoupdate.err` zeigt woertlich
+`No such file or directory`, waehrend beide Scripts jetzt vorhanden sind. Der Unterschied zu den funktionierenden
+Jobs steht in der plist selbst — `ch.jans.speicher-waechter` und `ch.jans.transcript-rotation` nehmen **zuerst den
+SSD-Klon** und fallen nur dann aufs NAS zurueck, die beiden ausgefallenen rufen `/bin/bash /Volumes/daten/...`
+hart. Weil sie nur **einmal taeglich** feuern, kostet eine einzige gestallte SMB-Minute den ganzen Slot, und
+niemand holt ihn nach. Messbare Folge: die letzte MacBook-Zeile in `logbuch/wissens-trigger/trigger.log` stammt
+vom **16.09.**, seither schreibt dort nur noch der Mini. `ch.jans.tailscale-waechter` kodiert den NAS-Pfad
+ebenfalls hart, faellt aber nicht auf, weil er im Minutentakt laeuft und den naechsten Versuch gleich selbst macht.
+**Massnahme:** Der Fix (beide plists auf das erprobte SSD-First-Muster, Original als `*.bak-nasonly-260918`
+gesichert, danach bootout/bootstrap und Kontrolle) liegt als Sync-Task
+`sync-tasks/macbook-pro/20260918-010015_launchd-wissens-trigger-+-claude-autoupdate-...md`. Der Guard haelt ihn
+korrekt zurueck (rc=10, «Persistenz: LaunchAgents,launchctl») — er laeuft erst nach Raphaels Einzelfreigabe
+(`sync-task-check.sh --freigeben <datei>`). Beide Scripts liegen im SSD-Klon groessengleich vor, das Muster
+greift also.
+
+**Eigener Messfehler, hier festgehalten.** Der erste Guard-Aufruf schien mit rc=0 zu antworten, also «harmlos» —
+tatsaechlich hatte ich den Exit-Code der nachgeschalteten `tail`-Pipeline gelesen, nicht den des Guard. Ohne die
+Gegenprobe waere daraus ein Fehlbefund «der Guard laesst Persistenz durch» geworden, und der haette an einer
+Schutzmechanik gezweifelt, die einwandfrei arbeitet. Gleiche Familie wie die `find -newermt`- und die
+grep-Falle: **ein Ergebnis ist zuerst eine Aussage ueber das Messwerkzeug.** Exit-Codes nie am Ende einer Pipe
+ablesen.
+
+**P3 — unveraendert.** Der Mini meldet im `trigger.log` weiterhin taeglich «energie/planungsgrundlagen: keine
+Quellordner erreichbar (OneDrive nicht gemountet?)». Das ist eine bekannte, nicht neue Zeile und kein Ausfall des
+Jobs selbst; erst nach dem P2-Fix lohnt die Gegenprobe, ob beide Stationen dieselbe Quellensicht haben.
+
+**Selbstkontrolle.** Letzter Eintrag 17.09. 12:57, dieser Lauf 18.09. 00:58 — **12 h**, bei Takt 12 h und Toleranz
+15 h (Faustregel Takt + 3 h) kein verpasster Lauf. `lastRunAt` der eigenen Task deckt sich mit diesem Lauf.
+Keine Mail: kein P1-Blocker, kein Wochenlimit, kein Login-Block.
+
+---
+
 ## 2026-09-17 12:57 — [FREI] **MacBook-Fassung, Regellauf. NEUER BEFUND P3: zwei launchd-Feuermechanismen sind heute früh mit rc=127 ausgefallen, weil der NAS-Pfad für launchd-bash nicht erreichbar war — betroffen ist unter anderem der Lern-Taktgeber `wissens-trigger`.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **6 s**, Watchdog 180 s nicht gebraucht, keine Waisen
