@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 07:58:21
+Stand: 17.09.2026 08:08:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 07:58:21
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- eb2725f25 nas-selfcommit: 1 Datei(en) 2026-09-17 07:45
+- e95282ae8 fristen: md2docx-Selbstheilung greift auf dem Mac Mini nicht (realpath-Kollision), Fix verifiziert und vorgelegt
