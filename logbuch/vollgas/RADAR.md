@@ -53,6 +53,69 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-17 12:57 — [FREI] **MacBook-Fassung, Regellauf. NEUER BEFUND P3: zwei launchd-Feuermechanismen sind heute früh mit rc=127 ausgefallen, weil der NAS-Pfad für launchd-bash nicht erreichbar war — betroffen ist unter anderem der Lern-Taktgeber `wissens-trigger`.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **6 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Wochenbudget **22.7 %** von 167 Mio bei **43.4 %** verstrichener Woche, Vorsprung **-20.7 Punkte**,
+Ampel FREI (MacBook 27.66, Mini 10.30 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurückzuschalten.
+Speicher MacBook: Druckstufe 1, rund 4.8 GB frei+inaktiv+purgeable (vm_stat), Uptime 1 d 23 h, Load 2.00.
+
+**Nachtrag zum Probe-Binary (Berichtigung eigener Einträge).** Der Eintrag vom 16.09. 12:58 führte «Caskroom 2.1.236,
+Symlink unverändert seit 29.08. 05:15». Heute gemessen: `/opt/homebrew/bin/claude → /opt/homebrew/Caskroom/claude-code/2.1.267/claude`,
+Symlink **neu gesetzt am 16.09. 05:15**, `claude --version` meldet **2.1.267**. Homebrew hat also am 16.09. früh nachgeliefert.
+Das ist kein Problem, sondern der Beleg, dass `claude-autoupdate` gestern noch griff — und macht den Befund darunter schärfer.
+
+**NEUER BEFUND (P3, MacBook-exklusiv): zwei launchd-Jobs mit rc=127.** `launchctl list` zeigt auf dem MacBook
+`ch.jans.claude-autoupdate` **127** und `ch.jans.wissens-trigger` **127**; auf dem Mini stehen beide auf **0**. Ursache ist
+belegt und nicht zu raten: `/tmp/claude-autoupdate.err`, Zeitstempel **17.09. 05:15**, enthält wörtlich
+`/bin/bash: /Volumes/daten/jans-ai-hub/scripts/claude-autoupdate.sh: No such file or directory`. Das Script existiert und ist
+lesbar (`-rwx------`, 8207 B, 17.08.) — aus meiner Shell heraus. Für den launchd-bash war der NAS-Pfad um 05:15 nicht da.
+Bekannte Fehlerfamilie: launchd-TCC/SMB (Memory `project_launchd_tcc_smb`) bzw. der SMB-Idle-Stall
+(`project_nas_mount_haerten`). **Abgrenzung, damit es nicht überbewertet wird:** `/tmp/claude-autoupdate.out` trägt
+**16.09. 05:15**, gestern lief der Job also durch (der Symlink-Wechsel oben beweist es). Es ist damit ein **einmaliger
+Morgen-Ausfall**, kein Dauerzustand. `wissens-trigger` (06:30) hat keinen Logpfad in seiner Plist, sein 127 ist deshalb
+zeitlich nicht hart datierbar — die naheliegende, aber nicht bewiesene Lesart ist derselbe Ausfall 75 Minuten später.
+**Warum es hierher gehört:** `wissens-trigger` ist ein **Lern-Taktgeber**, und ein Taktgeber, der still mit 127 endet,
+sieht in jeder Delta-Messung wie ein Loop ohne Material aus. Die übrigen launchd-Jobs (`synctask-runner`,
+`speicher-waechter`, `tailscale-waechter`, `transcript-rotation`, `screensaver-idle`, `widerruf-queue`) stehen alle auf 0.
+**Massnahme heute: keine** — ein Eingriff in Persistenz/Systemdienste ist in einer unbeaufsichtigten Session gesperrt
+(Rule `interaktive-eingriffe` Ziff. 3). **Wiedervorlage: wenn der nächste Lauf morgen früh erneut 127 misst und
+`/tmp/claude-autoupdate.err` einen neuen Zeitstempel trägt, ist es kein Ausreisser mehr und steigt auf P2.** Der
+`wissens-trigger` braucht dann zuerst einen Logpfad in seiner Plist, sonst bleibt er unmessbar.
+
+**Feuermechanismen.** Sollstand im Übrigen auf beiden Stationen. MacBook: `vollgas-supervisor` und `vollgas-monitor`
+weiterhin `.disabled-260729`, kein vollgas-Job geladen. Mini: `vollgas-supervisor` ebenfalls `.disabled-260729`, geladen
+`ch.jans.nachtschicht`. Der Endlos-Runner bleibt ausgebaut.
+
+**Doppellauf (unverändert offen, Aktion Raphael) — fünfter Tag.** MacBook-Registry weiterhin alle drei auf `enabled: true`:
+vollgas-chef-radar (`lastRunAt` 10:57Z = dieser Lauf, `nextRunAt` 22:57Z), vollgas-fruehwarnung (`lastRunAt` 07:31Z),
+heartbeat-daily (`lastRunAt` 07:41Z). Die Deaktivierung vom 15.09. 13:32 ist den fünften Tag unwirksam. Ich deaktiviere
+nicht selbst — Frühwarnung und heartbeat stehen auf der Ausnahmeliste, und der Schritt gehört laut Chronik 260911b Raphael.
+
+**Liefer-Delta seit heute 00:00 (git, Basis `d7084779c`, Dateien unter `wissen/`):** twin 11, energie 5, spec 3,
+planungsgrundlagen 3, claude-code 3. Ausserhalb `wissen/`: 20 geänderte Dateien unter `logbuch/` und `rules/`,
+**83 Commits** im 14-h-Fenster. Inhaltlich trägt der Vormittag den bexio-Vorgang (OIDC-Dauerzugang auf beiden Stationen,
+`banking/transactions` nur über PAT, Erstlauf 88 Buchungen, neue Rule-Fassung 260702, Task `bexio-buchen-monatlich`),
+den Tailscale-Wächter auf beiden Stationen, Rule 260917b (kanonische `ssh mini`-Form) sowie die vier operativen
+Morgenbriefings (logbuch-radar 06:55 samt Nachtrag, hub-chef 09:41, mahnwesen, ag-gruendung). Nachtschicht Mini zweimal
+rc=0 (02:34 1.66 USD / 26 Turns, 05:39 3.13 USD / 50 Turns). **Kein Loop ohne Delta.**
+
+**Massnahmen.** Keine.
+
+- **P1** — keiner.
+- **P2** — Doppellauf der drei umgezogenen Tasks (Radar, Frühwarnung, heartbeat), fünfter Tag; unverändert Aktion Raphael.
+- **P3 (NEU)** — `claude-autoupdate` und `wissens-trigger` heute früh mit rc=127 am nicht erreichbaren NAS-Pfad;
+  morgen gegenmessen, bei Wiederholung P2. `wissens-trigger` fehlt ein Logpfad, deshalb blind.
+- **P3 (unverändert)** — zu weit gefasste Allow-Regel in `.claude/settings.local.json`
+  (`Bash(sed 's|.*/500 Invest/||' …)`, `*` vor dem Rest des Befehls); wurde heute von der Fensterprobe erneut gemeldet.
+  Ich fasse sie nicht selbst an (unbeaufsichtigte Session).
+- **P3 (unverändert)** — bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch verloren,
+  nächste Slots 20./21.09.
+
+**Selbstkontrolle.** Letzter MacBook-Eintrag 17.09. 00:58, Abstand **11 h 59 min**, innerhalb der Toleranz von 15 h
+(Takt 12 h + 3 h). `lastRunAt` 10:57Z ist dieser Lauf, kein Aussetzer. Keine Mail (kein P1-Blocker, kein gelöster P1,
+Kontingent nicht erschöpft). Regellauf inline gefahren, ohne Subagent, rund 15 Werkzeugaufrufe.
+
 ## 2026-09-17 12:57 — [FREI] **Mini-Regellauf, ohne neuen Sachbefund. Der Doppellauf besteht am fuenften Tag fort und ist heute zum zweiten Mal LIVE belegt: die MacBook-Fassung lief waehrend dieses Laufes (Session `b2bc145b`, Wrapper `vollgas-chef-radar`, mtime 12:59).**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **6 s**, Watchdog 180 s nicht gebraucht, keine Waisen
