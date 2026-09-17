@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 12:26:49
+Stand: 17.09.2026 12:37:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 12:26:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 39046b0bd rollen-map: bexio-buchen-monatlich (maintainer)
+- 7ec61a90d nas-selfcommit: 4 Datei(en) 2026-09-17 12:30
