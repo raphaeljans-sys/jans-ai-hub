@@ -107,7 +107,16 @@ der EnDK-Plattform verifiziert (`wissen/energie/destillate/enfk-nachweisformular
 für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-ZH/EVEN» bleibt richtig.
 
 - **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, gedeckelt auf **Maximum
-  30 kW**. (Beispiel: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
+  30 kW**. ⚠⚠ **Der 30-kW-Deckel ist für den Kanton Zürich nicht belegt** (Befund KB `energie`,
+  Run 204, 17.09.2026, übergeben nach Rule `wissens-bibliothekar`): er stammt aus der
+  MuKEn-2014-Mustervorschrift bzw. dem EnFK-Musterformular EN-104 (Juni 2019, gültig bis
+  31.12.2024). **§ 47b Abs. 1 BBV I** (LS 700.21, Nachtrag 133) verlangt nur «mindestens 10 Watt
+  pro m² Energiebezugsfläche» und «für Photovoltaikanlagen … eine Belegung von höchstens 70% der
+  anrechenbaren Gebäudefläche»; ein grep über den ganzen BBV-I-Volltext
+  (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`) findet «30 kW» nirgends. Bei grossen EBF
+  (Healthcare, Verwaltung) kehrt sich die Aussage damit um. Offen als **E-R204-2** in
+  `wissen/energie/wiki/QUESTIONS.md`; Gegenlesung am kantonalen Formular **EN-104-ZH** ausstehend —
+  bis dahin im ZH-Projekt keinen Deckel zusichern. (Beispiel: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
 - **Flächenbedarf je kW (Modul-Annahme im Formular):** **mono-/polykristallin 8 m²/kW** ·
   **Dünnschicht 16 m²/kW**. → grober Dachflächen-Check, ob die Pflichtleistung aufs Dach passt.
 - **Befreiung:** Erweiterungen (Anbau/Aufstockung) sind von der Eigenstrom-Anforderung befreit

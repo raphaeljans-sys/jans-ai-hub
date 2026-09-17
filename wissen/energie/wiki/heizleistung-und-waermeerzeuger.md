@@ -278,3 +278,25 @@ Die allgemeine EnFK-Vollzugshilfe EN-3 erlaubt den Ersatz einer defekten **dezen
 **WKK-Standardlösung 11 (Höchstanteil-Nachweis):** eine Wärmekraftkopplungsanlage mit elektrischem Wirkungsgrad ≥ 30 % und Deckung von mindestens 70 % des Wärmebedarfs für Heizung/Warmwasser erfüllt automatisch die gesetzliche Höchstanteil-Vorgabe (§ 12b EnerG) — praktikabler Dimensionierungs-Richtwert für WKK-Projekte, ohne Einzelfallnachweis.
 
 **Quelle:** Vollzugsordner Energie Kt. ZH, Abschnitt 4.2-4.5 (Stand Juni 2013), inkl. eingehefteter Vollzugshilfen EN-3/EN-9/EN-14 → [[vollzugsordner-energie-zh-abschnitt4-2-4-5]]. ⚠ 13 Jahre alt, §§-Stand nicht gegen `baurecht` geprüft.
+
+
+## Fossile Spitzenlast im Neubau — § 47c BBV I (ergänzt Run 204, 17.09.2026)
+
+Das Fossilverbot für Neubauten nach **§ 11 Abs. 1 EnerG** ist im Kanton Zürich **nicht absolut**.
+**§ 47c BBV I** (LS 700.21, Nachtrag 133) lässt zwei Fälle ausdrücklich zu:
+
+| Fall | Zulässiger Umfang | Leistungsschwelle |
+|---|---|---|
+| Spitzenlastabdeckung mit fossilem Brennstoff | höchstens **10 % des jährlichen Gesamtwärmebedarfs** | **keine** |
+| Wärmegeführte Wärmekraftkopplungsanlage (WKK/BHKW) | ohne Mengenbegrenzung im Verordnungstext | **keine** |
+
+⚠ **Abgrenzung zur Minergie-Regel.** Das Minergie-Produktreglement erlaubt fossile Spitzenlast erst
+**ab 80 kW** (bzw. 100 kW in der älteren Fassung) und ebenfalls mit 10-%-Deckel — das ist ein
+Label-Reglement, kein kantonales Recht, und die kW-Schwelle existiert in § 47c **nicht**. Wer beides
+will, erfüllt beides; für die Baubewilligung allein gilt § 47c. Vgl. [[minergie-standards]].
+
+Praktische Folge für die Erzeugerauslegung: die bivalente Auslegung der Wärmepumpe bleibt im Neubau
+zulässig und spart Erzeugerleistung, Erdsondenmeter und Schallschutzaufwand — zulasten eines zweiten
+Erzeugers samt Kamin/Tank/Gasanschluss. Bauherren-Antwort: **F298**.
+Beleg: `[[en-zh-nachweis-uebersicht]]` (A-BLIND-Gegenlesung 17.09.2026),
+`[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`.

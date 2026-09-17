@@ -25,7 +25,7 @@ verschärfen, nicht darunter bleiben.
 | St. Gallen | 10 W/m² EBF + kommunale Zusatzkompetenz |
 | ~~Basel-Landschaft (ab 1.10.2024)~~ | ⚠ **überholt (Run 56/57-Stand), nicht verwenden** — BL steht weiter unten in dieser Tabelle mit dem geklärten Stand; Doppelzeile bereinigt Wissens-Chef Run 18, 27.07.2026 |
 | Luzern | Alle Neubauten, 50 % Dachfläche — auch EFH |
-| Zürich | Vorlage Dächer >300 m² vollflächig — **noch nicht in Kraft** |
+| Zürich | **Zwei Ebenen auseinanderhalten** (berichtigt Run 204, 17.09.2026): (a) **in Kraft seit 1.9.2022** — Eigenstromerzeugungspflicht für Neubauten **10 W/m² EBF**, PV-Belegung höchstens 70 % der anrechenbaren Gebäudefläche, **im Verordnungstext kein kW-Deckel** — anders als in den MuKEn-Musterkantonen mit 30-kW-Deckel; Gegenlesung am kantonalen Formular EN-104-ZH offen, siehe QUESTIONS **E-R204-2** (§ 10c EnerG i.V.m. **§ 47b BBV I**); befreit sind Bagatell-Erweiterungen (< 50 m² neue EBF bzw. ≤ 20 % / ≤ 1000 m²) und wer den Grenzwert nach § 47a um 20 % unterschreitet; (b) **noch nicht in Kraft** — die weitergehende Solarpflicht-Vorlage (Dächer > 300 m² vollflächig). Die Zeile führte bisher nur (b) und las sich, als kenne ZH gar keine PV-Pflicht |
 | Aargau | **Bleibt beim Bundesminimum** (300 m²/20 % aGF) — eigene Verschärfung von Grossrats-Kommission 9:6 zur Ablehnung empfohlen |
 | Basel-Stadt | «Solaroffensive»: PV-Pflicht auf **Bestandsbauten** >100 m² Dachfläche, Ersatzabgabe CHF 1'500/fehlendem kW — **noch nicht Gesetz** (im Grossen Rat) |
 | Graubünden (seit 1.1.2021) | Eigenstromerzeugungspflicht Neubau: **10 W/m² EBF, max. 30 kW** (amtlich EN-104 GR); befreit bei Globalstrahlung <1'250 kWh/m²a oder Minergie-Standard; keine Ersatzabgabe möglich |

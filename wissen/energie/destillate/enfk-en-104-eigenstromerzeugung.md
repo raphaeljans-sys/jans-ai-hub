@@ -14,6 +14,21 @@ last_updated: "2026-06-06"
 Jeder Neubau muss einen Teil seines Stroms **selbst erzeugen** (i.d.R. PV); die geforderte
 Leistung berechnet sich aus der Energiebezugsflaeche mit **10 W/m² EBF**, gedeckelt bei **30 kW**.
 
+
+> ⚠⚠ **Offener Widerspruch, aufgeworfen Run 204 (17.09.2026) — fuer den Kanton ZUERICH ist der
+> 30-kW-Deckel nicht belegt.** Der Deckel stammt aus der **Muster**vorschrift (MuKEn 2014 / EnFK-
+> Musterformular EN-104, Version Juni 2019, gueltig bis 31.12.2024). Die ZH-Ausfuehrungsnorm
+> **§ 47b Abs. 1 BBV I** (LS 700.21, Nachtrag 133, am amtlichen Volltext gelesen 17.09.2026)
+> lautet dagegen: «Die Anlage zur Elektrizitaetserzeugung gemaess § 10c EnerG muss mindestens eine
+> Leistung von 10 Watt pro m2 Energiebezugsflaeche aufweisen. Fuer Photovoltaikanlagen wird eine
+> Belegung von hoechstens 70% der anrechenbaren Gebaeudeflaeche verlangt.» — **kein kW-Deckel**;
+> die Entlastung kompakter/hoher Bauten laeuft in ZH ueber die 70-%-Belegungsgrenze. Ein grep ueber
+> den ganzen BBV-I-Volltext findet «30 kW» nirgends. **Folge, falls sich das bestaetigt:** bei
+> grossen EBF (Healthcare, Verwaltung) waere die ZH-Pflicht um ein Vielfaches hoeher als hier
+> gerechnet — 6'000 m² EBF ergaeben 60 kW statt 30 kW. **Nicht stillschweigend uebernehmen und
+> nicht stillschweigend streichen**, bis das kantonale Formular **EN-104-ZH** (nicht das
+> EnFK-Muster) oder eine AWEL-Vollzugshilfe gegengelesen ist → `wiki/QUESTIONS.md` **E-R204-2**.
+
 ## Kernregel (MuKEn-2014-Modul «Eigenstromerzeugung»)
 - **Notwendige Leistung = EBF (neu) × 10 W/m²**, **Maximum 30 kW**.
 - Der Deckel bei 30 kW sorgt dafuer, dass auch kompakte/hohe Bauten mit kleinem Verhaeltnis

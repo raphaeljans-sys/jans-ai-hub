@@ -269,7 +269,13 @@ der Projektzusage auf minergie.ch prüfen. Übergang: Nachweise nach Version 202
 gedeckelt bei **30 kW**. Ein EFH mit 200 m² EBF braucht also ~2 kW (≈ 16 m² kristalline Module).
 
 **Fachlich:** Die MuKEn-2014-Eigenstromerzeugung (in ZH über das EnerG seit 1.9.2022) verlangt
-notwendige Leistung = EBF × 10 W/m², max. 30 kW. Fläche: ~8 m²/kW (kristallin) bzw. 16 m²/kW
+notwendige Leistung = EBF × 10 W/m², max. 30 kW. ⚠⚠ **Der 30-kW-Deckel ist für den Kanton Zürich
+nicht belegt** (aufgeworfen Run 204, 17.09.2026): er steht in der Mustervorschrift, nicht in
+**§ 47b Abs. 1 BBV I** — dort 10 W/m² EBF plus eine Belegungsgrenze von höchstens 70 % der
+anrechenbaren Gebäudefläche, **kein kW-Deckel** im ganzen Verordnungstext. Bei grossen EBF
+(Healthcare, Verwaltung) macht das den Unterschied zwischen 30 kW und dem vollen Rechenwert.
+Bis zur Gegenlesung am kantonalen Formular EN-104-ZH die Zahl im ZH-Projekt **nicht** als Deckel
+zusichern → `[[QUESTIONS]]` E-R204-2, `[[en-zh-nachweis-uebersicht]]`. Fläche: ~8 m²/kW (kristallin) bzw. 16 m²/kW
 (Dünnschicht). Alternativ ist (kantonsabhängig) eine **Ersatzabgabe** möglich — meist
 unwirtschaftlich. Die Pflicht ist klein; für Eigenverbrauch/Minergie lohnt oft eine grössere
 Anlage. Indach-/Solardachplatten erfüllen die Pflicht gestalterisch sauber.
@@ -10052,3 +10058,82 @@ AWEL, «Private Kontrolle — Liste der Befugten, Stand August 2026», S. 1–2 
 Original gelesen 16.09.2026) → `[[private-kontrolle-zh]]`. Status **established**. Datenstand
 16.09.2026. Verwandt: [[F12]], [[energienachweis-zh]],
 `wissen/planungsgrundlagen/wiki/energie-private-kontrolle-zh`.
+
+
+## F298 — «Ist im Neubau wirklich jede fossile Heizung verboten? Darf ich einen Spitzenlastkessel behalten?»
+
+**Kurz-Antwort für den Bauherrn:** Nein, nicht jede. Der Grundsatz stimmt — im Neubau muss der
+Energiebedarf für Heizung, Warmwasser, Lüftung und Klimatisierung ohne CO₂ aus fossilen Brennstoffen
+gedeckt werden. Das kantonale Recht lässt aber im Kanton Zürich **zwei ausdrückliche Ausnahmen** zu:
+einen **fossilen Spitzenlastanteil bis 10 % des jährlichen Gesamtwärmebedarfs** und **wärmegeführte
+Wärmekraftkopplungsanlagen (WKK/BHKW)**. Beides ohne Leistungsschwelle. Praktisch heisst das: die
+Wärmepumpe oder der Fernwärmeanschluss trägt die Grundlast, ein Gas- oder Ölkessel darf die
+Bedarfsspitze abdecken, solange er über das Jahr nicht mehr als einen Zehntel der Wärme liefert.
+
+**Fachliche Begründung.** **§ 11 Abs. 1 EnerG** (LS 730.1, Nachtrag 129) formuliert den Grundsatz
+wörtlich: «Der Energiebedarf von Neubauten für Heizung, Warmwasser, Lüftung und Klimatisierung muss
+ohne CO₂-Emissionen aus fossilen Brennstoffen gedeckt werden.» Die Ausnahmen stehen nicht im Gesetz,
+sondern in der Ausführungsverordnung: **§ 47c BBV I** (LS 700.21, Nachtrag 133), wörtlich: «Bei
+Neubauten ist der Einsatz fossiler Brennstoffe in folgenden Fällen zulässig: a. für die Abdeckung
+von Spitzenlasten im Umfang von höchstens 10 % des jährlichen Gesamtwärmebedarfs, b. bei
+wärmegeführten Wärmekraftkopplungsanlagen.»
+
+⚠ **Nicht mit der Minergie-Regel verwechseln.** Das Minergie-Produktreglement erlaubt fossile
+Spitzenlast erst **ab einer Erzeugerleistung von 80 kW** (Minergie-P/-A bzw. neuere Fassungen) bzw.
+100 kW (ältere Fassung) und begrenzt sie ebenfalls auf 10 %. Das ist ein **privates Label-Reglement**
+mit Leistungsschwelle, nicht kantonales Recht. § 47c BBV I kennt **keine** kW-Schwelle. Wer ein
+Minergie-Zertifikat anstrebt, muss beide Regeln erfüllen; wer nur die Baubewilligung braucht, nur
+§ 47c. Details zum Label: `[[minergie-standards]]`.
+
+**Bauherren-Transfer (eigene Einordnung):** Der Zehntel klingt grosszügig, ist es aber nicht — 10 %
+der **Jahreswärme** entsprechen bei einem üblichen Lastgang nur wenigen sehr kalten Tagen. Die
+Ausnahme rettet also die bivalente Auslegung, nicht die fossile Grundversorgung. Sie ist trotzdem
+wirtschaftlich relevant: Wer die Wärmepumpe nicht auf die Auslegetemperatur, sondern bivalent
+auslegt, spart Erzeugerleistung, Erdsondenmeter und Schallschutzaufwand. Der Preis ist ein zweiter
+Erzeuger samt Kamin, Tank oder Gasanschluss — und der Verzicht auf Minergie unterhalb 80 kW. Die
+Rechnung gehört ins Vorprojekt, nicht in die Ausführungsplanung.
+
+**Quelle:** EnerG § 11 Abs. 1 (LS 730.1, Nachtrag 129, Stand 1.7.2025) und BBV I § 47c (LS 700.21,
+Nachtrag 133, Stand 1.7.2026), beide am amtlichen Volltext im Hub gelesen 17.09.2026
+(`wissen/baurecht/raw/260712_amtlich_zh_energ.md`, `.../260607_amtlich_zh_bbv1.md`). Status
+**established**. Datenstand 17.09.2026. Verwandt: [[F100]], `[[en-zh-nachweis-uebersicht]]`,
+`[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`, [[energienachweis-zh]], [[minergie-standards]].
+
+## F299 — «Löst mein Anbau oder meine Aufstockung die PV-Pflicht und die Energie-Grenzwerte aus?»
+
+**Kurz-Antwort für den Bauherrn:** Im Kanton Zürich nicht, wenn die Erweiterung klein bleibt. Eine
+Erweiterung eines bestehenden Gebäudes ist **von der Eigenstrom-(PV-)Pflicht befreit**, wenn die
+**neu geschaffene Energiebezugsfläche unter 50 m²** liegt — oder **höchstens 20 % der EBF des
+bestehenden Gebäudeteils und zugleich nicht mehr als 1000 m²** beträgt. Dieselbe Schwelle befreit
+auch vom **Grenzwert des gewichteten Energiebedarfs**. Wird sie überschritten, greifen beide
+Anforderungen: PV mit mindestens **10 W/m² EBF** und der Grenzwert je Gebäudekategorie.
+
+**Fachliche Begründung.** Die Bagatellklausel steht **zweimal** in der BBV I, je einmal pro Pflicht,
+mit wortgleichem Inhalt: **§ 47a Abs. 3** («Grenzwerte gemäss Abs. 1 müssen bei Erweiterungen von
+bestehenden Gebäuden nicht eingehalten werden, wenn die neu geschaffene Energiebezugsfläche a.
+weniger als 50 m² beträgt oder b. höchstens 20 % der Energiebezugsfläche des bestehenden
+Gebäudeteiles und nicht mehr als 1000 m² beträgt») und **§ 47b Abs. 3** («Von der Anforderung gemäss
+Abs. 1 befreit sind Erweiterungen von bestehenden Gebäuden, wenn …» — identischer Katalog). Weil
+beide Paragraphen die Klausel eigenständig tragen, fällt eine kleine Erweiterung aus **beiden**
+Pflichten zugleich; man muss sie nicht von der einen auf die andere übertragen.
+
+**Zwei Punkte, die in der Praxis regelmässig übersehen werden:**
+- **Die Bezugsgrösse ist die neu geschaffene EBF, nicht die Geschossfläche und nicht das Volumen.**
+  Ein unbeheizter Anbau schafft gar keine EBF und löst damit nichts aus.
+- **Angerechnet wird nur eine PV-Anlage, die nicht älter als acht Jahre ist** (§ 47b Abs. 2 BBV I).
+  Wer eine bestehende Anlage von 2015 auf eine heutige Erweiterung anrechnen will, kann das nicht —
+  weder auf dem Grundstück noch im ZEV.
+
+**Bauherren-Transfer (eigene Einordnung):** Die 50-m²-Grenze ist bei Aufstockungen schnell erreicht;
+die 20-%-Variante rettet dafür fast jede Anbaute an einem grösseren Bestandsbau. Wer nahe an einer
+der beiden Schwellen plant, rechnet die EBF früh und exakt — der Unterschied zwischen 48 m² und
+52 m² neuer EBF ist eine ganze PV-Anlage samt Statik-, Brandschutz- und Elektronachweis. Und wer
+knapp darüber liegt, prüft zuerst die Alternative nach § 47b Abs. 5: den Grenzwert nach § 47a um
+20 % unterschreiten und damit auf die Eigenstromerzeugung ganz verzichten.
+
+**Quelle:** BBV I §§ 47a Abs. 3, 47b Abs. 1-3 und 5 (LS 700.21, Nachtrag 133, Stand 1.7.2026), am
+amtlichen Volltext im Hub gelesen 17.09.2026 (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`);
+Ermächtigungsnorm EnerG § 10c (LS 730.1, Nachtrag 129). Status **established**. Datenstand
+17.09.2026. Verwandt: [[F298]], `[[en-zh-nachweis-uebersicht]]`,
+`[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`, `[[enfk-en-104-eigenstromerzeugung]]`,
+[[pv-eigenverbrauch-zev]], [[energienachweis-zh]].

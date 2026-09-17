@@ -55,14 +55,14 @@ schalltechnischen) Vorschriften erfüllt. Das EN-ZH-Deckblatt (heute EVEN) ist d
 | Thema | Formular | Kurz |
 |---|---|---|
 | Minergie-Label | — | mit Zertifikat entfallen EN-101 bis EN-111 |
-| Energiebedarf | EN-101a/b/c | Neubau ohne CO₂ aus fossilen Brennstoffen (**§ 11 Abs. 1 EnerG**); Bedarfs-/Effizienzanforderung § 10a EnerG |
+| Energiebedarf | EN-101a/b/c | Neubau ohne CO₂ aus fossilen Brennstoffen (**§ 11 Abs. 1 EnerG**); Bedarfs-/Effizienzanforderung § 10a EnerG. ⚠ Zwei Ausnahmen in **§ 47c BBV I**: fossile Spitzenlast bis **10 % des Jahres-Gesamtwärmebedarfs** und wärmegeführte WKK, **ohne kW-Schwelle** (A-BLIND 17.09.2026, → F298) |
 | Wärmedämmung Hülle | EN-102a/b | SIA 380/1:2016; Einzelbauteil (nur Wohnnutzung) o. System |
 | Heizung/WW | EN-103, EN-LCC-ZH, EN-120 | Erzeugerersatz Bestand: erneuerbar Pflicht (max +5 % LZK) sonst EN-LCC-ZH + 10 % erneuerbar (EN-120) |
-| Eigenstrom Neubau | EN-104-ZH (o. EN-101b) | PV ≥ 10 W/m² EBF, hohe Bauten max. 70 % Belegung; oder Energiebedarf −20 % |
+| Eigenstrom Neubau | EN-104-ZH (o. EN-101b) | **§ 47b BBV I** (nicht § 10c EnerG, der nur ermächtigt): PV ≥ 10 W/m² EBF, PV-Belegung höchstens 70 % der anrechenbaren Gebäudefläche; oder **Grenzwert nach § 47a** −20 % (Abs. 5). Anrechnung nur für Anlagen **≤ 8 Jahre alt** (Abs. 2); **befreit** sind Erweiterungen mit neuer EBF < 50 m² bzw. ≤ 20 % / ≤ 1000 m² (Abs. 3, → F299) |
 | Lüftung/Kühlung | EN-105 / EN-110-ZH | neue + vom Umbau betroffene Anlagen |
-| Beleuchtung | EN-111 | Nichtwohnbau > 1000 m² EBF |
+| Beleuchtung | EN-111 | **§ 45a BBV I**: Neubauten, **Umbauten und Umnutzungen** mit EBF > 1000 m², «ausgenommen sind Wohnnutzungen» |
 | Spezielle Bauten | EN-112/131/132/133/134/135/141 | Kühlräume, Gewächshäuser, Traglufthallen, Stromerzeugung, Heizung im Freien, Freiluftbäder, Gebäudeautomation |
-| Betriebsoptimierung | (Vermerk) | Betriebe > 200'000 kWh Strom/a, BO innert 3 J |
+| Betriebsoptimierung | (Vermerk) | **§ 13d EnerG i.V.m. § 48c BBV I**: **Nichtwohnbauten**, BO innert 3 J nach **Inbetriebsetzung**, Bericht 10 J. Befreit < 200'000 kWh/a und bei Zielvereinbarung (Grossverbraucher/KMU-Modell). Voller Sachstand **F100** |
 | Lärmschutz | S / LN-1 | Aussenlärm; **LN-1 für Luft/Wasser-Wärmepumpen** |
 
 ## Lüftung & Kühlung — EN-105 / EN-110-ZH (Kerngrenzwerte)

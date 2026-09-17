@@ -2,12 +2,16 @@
 quelle: "EN-ZH «Nachweis der energetischen und schalltechnischen Massnahmen» (Projektkontrolle Neubauten/Anbauten/Umbauten/Umnutzungen)"
 herausgeber: "Baudirektion Kanton Zürich, AWEL — Energie"
 ausgabe: "EN-ZH-005, Version Juli 2022 (gueltig bis 31.12.2025)"
-gelesen: 2026-06-07
+gelesen: 2026-06-07 (PDF-Formular); **A-BLIND-Gegenlesung der Rechtsgrundlagen 2026-09-17 (Run 204)** —
+  nicht am abgeloesten PDF-Formular, sondern an den amtlichen Volltexten EnerG (LS 730.1, Nachtrag 129)
+  und BBV I (LS 700.21, Nachtrag 133) im Hub-Bestand `wissen/baurecht/raw/260712_amtlich_zh_energ.md`
+  bzw. `260607_amtlich_zh_bbv1.md`; gelesen §§ 10a/10b/10c/11/11a/11b/13a/13d EnerG und
+  §§ 45a/47a/47b/47c/48b/48c BBV I
 datenstand: "PDF-Formular Juli 2022; ⚠ seit 1.1.2026 abgeloest durch elektronischen Vollzug EVEN (energievollzug.ch) — Web-Stand **2026-08-24 nachgeprueft** an den oeffentlichen zh.ch-Seiten, Kern unveraendert; abgeloeste Formularreihe amtlich «EN-101 bis EN-141»"
 status: established
-last_updated: 2026-08-24 (Korrektur: veraltete SIA-380/1-2009-Prämisse in «Offene Punkte»
+last_updated: 2026-09-17 (Run 204, A-BLIND: vier Tabellenzeilen an EnerG/BBV I praezisiert, zwei echte Luecken geschlossen — § 47c Neubau-Ausnahmen, § 47b Abs. 2/3 Eigenstrom). Vorher: 2026-08-24 (Korrektur: veraltete SIA-380/1-2009-Prämisse in «Offene Punkte»
   richtiggestellt, EVEN-Verweis auf `planungsgrundlagen` nachgetragen — inhaltliche Kennwerte
-  selbst unverändert)
+  selbst unverändert))
 quelle_pfad: "PL - 04 Energie/_Formulare Kanton ZH Baueingabe/EN-ZH.pdf"
 ---
 
@@ -48,6 +52,10 @@ weiter — nur das Medium hat gewechselt.
 ## Bauherren-Transfer
 - Im **Neubau** sind faktisch keine fossile Heizung und eine **PV-Anlage (≥10 W/m² EBF)** Pflicht —
   beides fruehzeitig einplanen (vgl. PV-Pflicht-Faustregel [[enfk-en-104-eigenstromerzeugung]]).
+  **Zwei Raender, die man kennen muss** (§ 47c bzw. § 47b Abs. 3 BBV I, A-BLIND 17.09.2026): ein
+  fossiler **Spitzenlastkessel bis 10 % des Jahres-Gesamtwaermebedarfs** bleibt auch im Neubau zulaessig,
+  und eine **kleine Erweiterung** (neu geschaffene EBF < 50 m² oder ≤ 20 % der Bestands-EBF und ≤ 1000 m²)
+  loest **weder** die Eigenstrompflicht **noch** den Grenzwert des gewichteten Energiebedarfs aus.
 - Beim **Heizungsersatz im Bestand** fuehrt der Weg klar Richtung Waermepumpe/erneuerbar; ein
   erneutes fossiles System verlangt einen Wirtschaftlichkeits- (EN-LCC-ZH) und 10-%-Erneuerbar-Nachweis (EN-120).
 - Welche Nachweise konkret noetig sind, haengt von Bauaufgabe (Neubau/Umbau/Umnutzung) und
@@ -115,3 +123,80 @@ bewusst nicht stillschweigend uebernommen, siehe «Offene Punkte».
   Dieser Artikel wurde seit 2026-06-07 nicht mehr angefasst und hatte die Korrektur deshalb nicht
   nachgezogen. E-D8 (`wiki/QUESTIONS.md`) bleibt nur insofern offen, als die konkreten
   Q_H,li0/ΔQ_H,li-Zahlenwerte der Norm 2016 selbst nicht gekauft sind (gleiche Klasse wie E-R148-1).
+
+---
+
+## A-BLIND-Gegenlesung 2026-09-17 (Run 204) — Rechtsgrundlagen am amtlichen Volltext
+
+**Warum dieses Destillat.** Frisches Backlink-Ranking ueber alle 349 Destillate: Rang 4 mit **55
+Backlinks**, `gelesen:` trug seit dem 07.06.2026 nur ein Datum ohne Seitenangabe und ohne
+Primaerquellen-Vermerk. Die Aktualitaets-Pruefung vom 24.08.2026 hatte den **EVEN-Vollzug** belegt,
+die **Rechtsgrundlagen der Tabelle** aber nie geprueft.
+
+**Methode.** Cross-KB-grep zuerst (siebte Pruefung, PROGRAMM seit Run 177): beide amtlichen
+Volltexte lagen bereits im Bestand — `wissen/baurecht/raw/260712_amtlich_zh_energ.md` (EnerG,
+Nachtrag 129, Fassungsstand geprueft 25.07.2026) und `.../260607_amtlich_zh_bbv1.md` (BBV I,
+Nachtrag 133). **Keine Websuche noetig.** Das abgeloeste PDF-Formular selbst wurde bewusst nicht
+gelesen: es ist seit 31.12.2025 ausser Kraft, massgebend ist heute das Recht dahinter.
+
+### Was bestaetigt wurde (unveraendert richtig)
+
+- **§ 11 Abs. 1 EnerG** woertlich: «Der Energiebedarf von Neubauten fuer Heizung, Warmwasser,
+  Lueftung und Klimatisierung muss ohne CO₂-Emissionen aus fossilen Brennstoffen gedeckt werden.»
+- **§ 11 Abs. 2 EnerG**: Erzeugerersatz im Bestand, erneuerbar wenn technisch moeglich **und**
+  Lebenszykluskosten «um hoechstens 5 %» erhoeht. Die «10 % erneuerbare Waerme» der EN-120-Zeile
+  ist die korrekte Kehrseite von **§ 11 Abs. 4** («Anteil nichterneuerbarer Energien **90 %** des
+  massgebenden Energiebedarfs nicht ueberschreiten»); dort zusaetzlich: massgebender Energiebedarf
+  **100 kWh/m²·a**, Standardloesungen der Direktion, Umsetzung **innert drei Jahren ab
+  Bewilligungserteilung**.
+- **10 W/m² EBF** und **70 % Belegung** stehen wortgetreu in § 47b Abs. 1 BBV I.
+- **1000 m² EBF** bei der Beleuchtung steht wortgetreu in § 45a BBV I.
+- **200'000 kWh/a** und die **10-Jahres-Aufbewahrung** stehen in § 48c Abs. 1 lit. a bzw. Abs. 4 BBV I.
+
+### Vier Beanstandungen (alle korrigiert, oben in der Tabelle)
+
+1. **Zitierebene durchgehend zu hoch.** Die Tabelle nannte fuer die konkreten Zahlen das **EnerG**
+   (§ 10c, § 13d). Das Gesetz enthaelt diese Zahlen nicht — es ermaechtigt nur («Die Verordnung
+   regelt die Einzelheiten», § 10c Abs. 3 / § 13d Abs. 2). Traegerin der Zahlen ist durchweg die
+   **BBV I** (§§ 45a, 47a, 47b, 47c, 48c). Wer gegenueber Behoerde oder Fachplanung die
+   EnerG-Ziffer allein zitiert, belegt seine Zahl nicht.
+2. **«20 % Unterschreitung» ohne Bezugsgroesse.** § 47b Abs. 5 BBV I bezieht die Unterschreitung
+   auf den **Grenzwert des gewichteten Energiebedarfs nach § 47a** (Wohnen 35, Verwaltung 40,
+   Spitaeler 70 kWh/m²·a …) — nicht auf «den Energiebedarf» allgemein. Klassischer Nenner-Befund
+   (Pruefschritt 2).
+3. **Betriebsoptimierung zu eng und zu weit zugleich.** Zu eng: die Pflicht trifft nach § 13d
+   Abs. 1 EnerG **alle Nichtwohnbauten**, die 200'000 kWh sind eine **Befreiungs**schwelle, keine
+   Ausloeseschwelle — im Ergebnis dasselbe, in der Begruendung nicht. Zu weit: die **Befreiung von
+   Grossverbrauchern mit Zielvereinbarung** (§ 13d Abs. 1 Satz 2 EnerG, § 48c Abs. 1 lit. b/c
+   BBV I) fehlte ganz. Ausserdem «nach Fertigstellung» statt des Gesetzeswortlauts «nach
+   **Inbetriebsetzung**». Der vollstaendige Sachstand stand die ganze Zeit in **FAQ F100** — ein
+   Rueckwaerts-Diff-Befund (Pruefschritt 5): das meistzitierte Uebersichts-Destillat sagte weniger,
+   als die KB wusste.
+4. **Beleuchtung nicht auf den Neubau beschraenkt.** § 45a BBV I nennt «Neubauten, Umbauten **und
+   Umnutzungen**». Das Destillat las sich, als betraefe EN-111 nur Neubauten.
+
+### Zwei echte Luecken, neu geschlossen
+
+- **§ 47c BBV I war in der ganzen KB nicht erfasst** (grep ueber `wiki/` und `destillate/`: null
+  Treffer auf «47c»). Er laesst fossile Brennstoffe im Neubau in zwei Faellen zu: Spitzenlast bis
+  **10 % des jaehrlichen Gesamtwaermebedarfs** und **waermegefuehrte WKK-Anlagen**. Die KB fuehrte
+  bisher nur die **Minergie**-Spitzenlastregel (ab 80 bzw. 100 kW) — ein Reglement, kein Recht,
+  und mit einer Leistungsschwelle, die § 47c gerade **nicht** kennt. Fuer die Bauherren-Beratung
+  ist der Unterschied erheblich: nach kantonalem Recht ist der fossile Spitzenlastkessel im Neubau
+  nicht verboten, er ist auf 10 % des Waermebedarfs begrenzt. → neue FAQ **F298**.
+- **§ 47b Abs. 2 und 3 BBV I** waren nicht gefuehrt: Anrechnung nur fuer Anlagen **nicht aelter als
+  acht Jahre**, und **Befreiung** von der Eigenstrompflicht bei Erweiterungen mit neu geschaffener
+  EBF < 50 m² bzw. ≤ 20 % der Bestands-EBF und ≤ 1000 m². Letzteres ist wortgleich mit der bereits
+  gefuehrten Bagatellklausel des § 47a Abs. 3 — beide Paragraphen tragen sie **je fuer sich**, die
+  Erweiterung faellt also aus beiden Pflichten zugleich. → neue FAQ **F299**.
+
+### Nicht geprueft, bewusst
+
+Das Quell-PDF `PL - 04 Energie/_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` (Version Juli 2022) wurde
+nicht erneut geoeffnet. Es ist abgeloest; seine Formularnummern sind bereits am 24.08.2026 an der
+amtlichen zh.ch-Seite gegengelesen. Offen bleibt damit weiterhin, ob die **EVEN-Maske** die
+Formularreihe unveraendert fuehrt — das ist eine Plattform-, keine Rechtsfrage und nur mit Login
+beantwortbar (vgl. `[[private-kontrolle-zh]]`, offener Punkt zur QES-Ausloesung).
+
+Verwandt: `[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]` (§ 47a im Detail),
+`[[private-kontrolle-zh]]`, `[[energienachweis-zh]]`, `[[enfk-en-104-eigenstromerzeugung]]`.

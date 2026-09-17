@@ -2,6 +2,87 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 204 (17.09.2026, Abendlauf MacBook Pro) — A-BLIND Rang 4: `en-zh-nachweis-uebersicht` an EnerG/BBV I, vier Praezisierungen und zwei echte Luecken
+
+Frisches Backlink-Ranking ueber alle **349** Destillate gezogen (Auftrag aus Run 201/202/203).
+Gewaehlt: **Rang 4, `[[en-zh-nachweis-uebersicht]]` mit 55 Backlinks** — `established`, aber
+`gelesen:` trug seit 07.06.2026 nur ein Datum ohne Seitenangabe und ohne Primaerquellen-Vermerk;
+die Aktualitaets-Pruefung vom 24.08.2026 hatte den EVEN-Vollzug belegt, die **Rechtsgrundlagen
+der Formular-Tabelle** aber nie. Ranking-Hinweis fuer kuenftige Laeufe: die Raenge 1-3
+(`muken-2025-verabschiedet`, `enfk-en-102-waermeschutz-2018`, `foerderprogramm-energie-zh-2026`)
+sind mehrfach primaerquellen-gelesen und als A-BLIND-Faelle erledigt, auch wenn sie den Marker
+«A-BLIND» im Dateitext nicht tragen — ein Filter allein auf dieses Stichwort ueberschaetzt den
+offenen Bestand.
+
+**Siebte Pruefung zuerst (Cross-KB-grep vor der Recherche):** beide amtlichen Volltexte lagen
+bereits im Hub — `wissen/baurecht/raw/260712_amtlich_zh_energ.md` (EnerG, LS 730.1, Nachtrag 129)
+und `.../260607_amtlich_zh_bbv1.md` (BBV I, LS 700.21, Nachtrag 133). **Keine Websuche noetig,
+kein Werkzeugweg improvisiert.** Der Schritt hat hier real Zeit gespart (anders als bei der
+ehrlichen Fehlanzeige in Run 177).
+
+**Bestaetigt:** § 11 Abs. 1 EnerG (Fossilverbot Neubau) woertlich; +5 % Lebenszykluskosten und die
+90-%-Auffangregel (§ 11 Abs. 2/4); 10 W/m² EBF und 70 % Belegung (§ 47b Abs. 1 BBV I); 1000 m² EBF
+Beleuchtung (§ 45a); 200'000 kWh/a und 10 Jahre Aufbewahrung (§ 48c Abs. 1 lit. a / Abs. 4).
+
+**Vier Beanstandungen, alle korrigiert:** (1) Zitierebene durchgehend zu hoch — die Zahlen stehen
+in der **BBV I**, nicht im EnerG, das nur ermaechtigt; (2) «20 % Unterschreitung» ohne
+Bezugsgroesse, richtig ist der **Grenzwert nach § 47a** (§ 47b Abs. 5); (3) Betriebsoptimierung
+zugleich zu eng (Pflicht trifft **alle Nichtwohnbauten**, 200'000 kWh ist eine Befreiungs-, keine
+Ausloeseschwelle) und zu weit (Befreiung bei Grossverbraucher-/KMU-Zielvereinbarung fehlte), dazu
+«nach Fertigstellung» statt «nach **Inbetriebsetzung**» — der volle Sachstand stand die ganze Zeit
+in **FAQ F100** (Rueckwaerts-Diff-Befund); (4) Beleuchtung galt nicht nur fuer Neubauten, § 45a
+nennt «Neubauten, Umbauten **und Umnutzungen**».
+
+**Zwei echte Luecken geschlossen:**
+- **§ 47c BBV I war in der ganzen KB nicht erfasst** (grep auf «47c»: null Treffer) — fossile
+  Brennstoffe im Neubau zulaessig fuer Spitzenlast bis **10 % des Jahres-Gesamtwaermebedarfs** und
+  bei **waermegefuehrten WKK**, **ohne kW-Schwelle**. Die KB fuehrte bisher nur die
+  **Minergie**-Spitzenlastregel (ab 80/100 kW) — Reglement, nicht Recht. → **FAQ F298** neu.
+- **§ 47b Abs. 2/3 BBV I** nicht gefuehrt: Anrechnung nur fuer Anlagen **≤ 8 Jahre**, Befreiung der
+  Bagatell-Erweiterung (< 50 m² neue EBF bzw. ≤ 20 % / ≤ 1000 m²) — wortgleich mit § 47a Abs. 3,
+  beide Paragraphen tragen sie eigenstaendig. → **FAQ F299** neu.
+
+**Nebenbefund im Themenartikel (gleiche Familie, selbst gefunden):** die Kantonstabelle in
+`[[solarpflicht-schweiz-kantone]]` fuehrte fuer **Zuerich** nur «Vorlage Daecher >300 m² — noch
+nicht in Kraft» und las sich damit, als kenne ZH gar keine PV-Pflicht, waehrend die
+Eigenstromerzeugungspflicht 10 W/m² EBF seit **1.9.2022 in Kraft** ist und andere Zeilen derselben
+Tabelle genau diese Pflichtart auffuehren. Zeile auf zwei Ebenen umgestellt.
+
+**Abschlussregel:** grep auf die vier alten Formulierungen ueber `wiki/` und `destillate/` → null
+Treffer; Variantendurchgang auf «10 W/m²» ohne § 47b zeigt nur andere Kantone (korrekt, dort gilt
+meist ein 30-kW-Deckel, den ZH nicht kennt).
+
+**Werkzeuge:** `wiki-konsistenz.sh` **keine Befunde**; `kennwert-recompute.sh` **0 Befunde**;
+`bezugsgroessen-check.py` 160 Kandidaten und `datenstand-waechter.py` 36 Befunde — beide auf dem
+Stand der Vorlaeufe, kein durch diesen Lauf neu entstandener Treffer, nicht einzeln abgearbeitet.
+
+- [x] **A-BLIND Rang 4:** ✓ 17.09.2026 (Run 204). **Naechster Kandidat:** aus demselben Ranking
+  **Rang 5 `[[foerderprogramm-energie-sz-2026]]`** (49 Backlinks) oder **Rang 6
+  `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`** (48) — beide tragen Geldbetraege bzw.
+  schnell alternde Rechtslage und sind damit die ertragreichere Klasse als ein Technik-Destillat.
+  Vor der Wahl je pruefen, ob sie (wie die Raenge 1-3) laengst primaerquellen-gelesen sind.
+
+- [ ] **E-R204-2 (P1, Widerspruch im Bestand):** **Gilt der 30-kW-Deckel der Eigenstrompflicht im
+  Kanton Zuerich ueberhaupt?** Die KB fuehrt ihn an mehreren Stellen als ZH-Regel
+  (`[[enfk-en-104-eigenstromerzeugung]]`, FAQ **F10**, und in der Schwester-KB
+  `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` Abschnitt «Bemessungsformel»).
+  Quelle ist jeweils das **EnFK-Musterformular EN-104, Version Juni 2019, gueltig bis 31.12.2024** —
+  eine Mustervorschrift nach MuKEn 2014, kein ZH-Erlass. **§ 47b Abs. 1 BBV I** kennt dagegen nur
+  «mindestens 10 Watt pro m² Energiebezugsflaeche» und «fuer Photovoltaikanlagen … eine Belegung von
+  hoechstens 70% der anrechenbaren Gebaeudeflaeche»; ein grep ueber den ganzen BBV-I-Volltext
+  (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, Nachtrag 133) findet **«30 kW» nirgends**.
+  **Tragweite:** bei grossen EBF kehrt sich die Aussage um — 6'000 m² EBF ergaeben 60 kW statt 30 kW,
+  bei einem Healthcare-Bau also die doppelte Pflichtanlage. **Naechster Schritt:** das **kantonale**
+  Formular **EN-104-ZH** (nicht das EnFK-Muster) bzw. eine AWEL-Vollzugshilfe gegenlesen; erst danach
+  entscheiden, ob der Deckel in den ZH-Aussagen gestrichen oder belegt wird. Bis dahin steht an allen
+  drei Stellen ein ⚠⚠-Vermerk, die Zahl wurde **nicht** gestrichen (Rule: Beanstandung am Original
+  gegenpruefen, nicht auf Verdacht loeschen). Aufgeworfen Run 204, 17.09.2026.
+
+- [ ] **E-R204-1 (P3):** Fuehrt die **EVEN-Maske** die Formularreihe EN-101 bis EN-141 unveraendert,
+  oder hat der elektronische Vollzug die Gliederung geaendert? Nur mit Login beantwortbar, also
+  empirisch am naechsten realen Fall (Memory `projekt_kispi_even_energienachweis`). Verwandt mit
+  der offenen QES-Ausloesungsfrage in `[[private-kontrolle-zh]]`.
+
 ## Run 201 (16.09.2026) — A-BLIND Rang 64: Private Kontrolle ZH am Original; § 4 BBV I seit 1.4.2024 neu gefasst
 
 `[[private-kontrolle-zh]]` (14 Backlinks in dieser KB, 7 in `planungsgrundlagen`, 1 in `bauprodukte`;

@@ -142,3 +142,22 @@ selbst festgelegten, verursachergerechten Messtarifs — vorher lief dieser Kost
 gemessene Wärmepumpe, PV-Erzeugung, mehrere Mietparteien) wird das ein eigener, wiederkehrender
 Kostenposten. Der LEG-Netzentgelt-Rabatt gilt ausdrücklich **nicht** auf dem Messtarif.
 → [[messtarife-pro-messpunkt-stromvg-2026]], [[BAUHERREN-FAQ]] F262.
+
+
+## Wann die ZH-Eigenstrompflicht NICHT greift — § 47b Abs. 2/3 BBV I (ergänzt Run 204, 17.09.2026)
+
+Die Pflicht zur Eigenstromerzeugung bei Neubauten (**§ 10c EnerG**, konkretisiert in **§ 47b BBV I**:
+mindestens **10 W/m² EBF**, PV-Belegung höchstens **70 %** der anrechenbaren Gebäudefläche) kennt drei
+Ausstiege, die bisher in dieser KB nicht geführt waren:
+
+| Ausstieg | Bedingung | Fundstelle |
+|---|---|---|
+| **Bagatell-Erweiterung** | neu geschaffene EBF **< 50 m²** ODER **≤ 20 % der EBF des Bestandsteils und ≤ 1000 m²** | § 47b Abs. 3 BBV I |
+| **Kompensation über die Hülle** | Grenzwert des gewichteten Energiebedarfs nach **§ 47a** um **20 %** unterschreiten | § 47b Abs. 5 BBV I |
+| (keine Ausnahme, aber eine Grenze) | angerechnet werden nur Anlagen, die **nicht älter als acht Jahre** sind — auf dem Grundstück wie im ZEV | § 47b Abs. 2 BBV I |
+
+Die Bagatellklausel steht wortgleich auch in **§ 47a Abs. 3** für den Grenzwert des gewichteten
+Energiebedarfs. Beide Paragraphen tragen sie eigenständig: eine kleine Erweiterung fällt aus
+**beiden** Pflichten zugleich. Bauherren-Antwort: **F299**.
+Beleg: `[[en-zh-nachweis-uebersicht]]` (A-BLIND-Gegenlesung 17.09.2026),
+`[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`, `[[enfk-en-104-eigenstromerzeugung]]`.

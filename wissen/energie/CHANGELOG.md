@@ -1,5 +1,58 @@
 # CHANGELOG
 
+## 2026-09-17 (Run 204, Abendlauf MacBook Pro) — A-BLIND Rang 4: `en-zh-nachweis-uebersicht` an EnerG/BBV I gegengelesen, vier Praezisierungen, zwei echte Luecken (§ 47c, § 47b Abs. 2/3), ZH-Zeile der Solarpflicht-Tabelle berichtigt
+
+Backlink-Ranking ueber alle 349 Destillate neu gezogen (offener Auftrag aus Run 201/202/203).
+Gewaehlt Rang 4 `en-zh-nachweis-uebersicht` (55 Backlinks, `established`, `gelesen:` ohne
+Seitenangabe/Primaerquellenvermerk seit 07.06.2026). Gegengelesen **nicht** am abgeloesten
+PDF-Formular (ausser Kraft seit 31.12.2025), sondern an den amtlichen Volltexten **EnerG**
+(LS 730.1, Nachtrag 129) und **BBV I** (LS 700.21, Nachtrag 133) — beide dank Cross-KB-grep
+(siebte Pruefung) bereits im Hub-Bestand `wissen/baurecht/raw/`, keine Websuche noetig.
+
+**Bestaetigt:** § 11 Abs. 1 EnerG woertlich, +5 % LZK / 90-%-Auffangregel (§ 11 Abs. 2/4),
+10 W/m² EBF + 70 % Belegung (§ 47b Abs. 1 BBV I), 1000 m² EBF Beleuchtung (§ 45a),
+200'000 kWh/a + 10 Jahre Aufbewahrung (§ 48c Abs. 1 lit. a / Abs. 4).
+
+**Korrigiert (4):** (1) Zitierebene durchgehend zu hoch — die Zahlen traegt die BBV I, nicht das
+EnerG; (2) «20 % Unterschreitung» ohne Bezugsgroesse, richtig der Grenzwert nach § 47a
+(§ 47b Abs. 5); (3) Betriebsoptimierung: Pflicht trifft **alle Nichtwohnbauten**, 200'000 kWh ist
+Befreiungs- statt Ausloeseschwelle, Befreiung bei Grossverbraucher-/KMU-Zielvereinbarung fehlte,
+«nach Fertigstellung» → «nach Inbetriebsetzung» (Rueckwaerts-Diff: FAQ F100 wusste es laengst);
+(4) Beleuchtung gilt auch fuer Umbauten und Umnutzungen (§ 45a).
+
+**Neu geschlossen (2):** **§ 47c BBV I** war in der ganzen KB nicht erfasst (fossile Spitzenlast
+im Neubau bis 10 % des Jahres-Gesamtwaermebedarfs, waermegefuehrte WKK, **ohne kW-Schwelle** —
+nicht zu verwechseln mit der Minergie-Regel ab 80/100 kW) → **FAQ F298**; **§ 47b Abs. 2/3 BBV I**
+(Anrechnung nur fuer Anlagen ≤ 8 Jahre; Befreiung der Bagatell-Erweiterung < 50 m² bzw.
+≤ 20 % / ≤ 1000 m², wortgleich mit § 47a Abs. 3) → **FAQ F299**.
+
+**Zusatzbefund P1, aufgeworfen (nicht geschlossen): der 30-kW-Deckel der Eigenstrompflicht ist
+fuer ZH nicht belegt.** Die KB fuehrt ihn an drei Stellen als ZH-Regel (Destillat
+`enfk-en-104-eigenstromerzeugung`, FAQ **F10**, Schwester-KB `planungsgrundlagen`), Quelle ist
+jeweils das **EnFK-Musterformular EN-104 (Juni 2019, gueltig bis 31.12.2024)**. **§ 47b Abs. 1
+BBV I** kennt keinen kW-Deckel, sondern die 70-%-Belegungsgrenze; «30 kW» kommt im ganzen
+BBV-I-Volltext nicht vor. Tragweite: 6'000 m² EBF ergaeben 60 statt 30 kW. An allen drei Stellen
+⚠⚠-Vermerk gesetzt, Zahl **nicht** gestrichen (Beanstandung erst am kantonalen Formular EN-104-ZH
+gegenpruefen). Cross-KB-Bringschuld an `planungsgrundlagen` im selben Lauf erfuellt. Offen als
+**E-R204-2**.
+
+**Nebenbefund, selbst gefunden:** `wiki/solarpflicht-schweiz-kantone.md` fuehrte fuer Zuerich nur
+die noch nicht in Kraft stehende 300-m²-Vorlage und las sich, als kenne ZH keine PV-Pflicht —
+Zeile auf die zwei Ebenen umgestellt (in Kraft seit 1.9.2022: 10 W/m² EBF nach § 47b BBV I).
+
+**Geaendert:** `destillate/en-zh-nachweis-uebersicht.md` (vier Tabellenzeilen, Bauherren-Transfer,
+Frontmatter `gelesen`/`last_updated`, neuer A-BLIND-Abschnitt), `wiki/energienachweis-zh.md`
+(dieselben vier Zeilen), `wiki/BAUHERREN-FAQ.md` (F298, F299 neu),
+`wiki/heizleistung-und-waermeerzeuger.md` (§ 47c), `wiki/pv-eigenverbrauch-zev.md` (§ 47b Abs. 2/3/5),
+`wiki/solarpflicht-schweiz-kantone.md` (ZH-Zeile), `wiki/QUESTIONS.md`, `wiki/INDEX.md`
+(Zaehlstand maschinell nachgezaehlt: 299 Kernfragen, 349 Destillate), dieser Eintrag,
+`outputs/2026-09-17_energie-run204.md`.
+
+**Werkzeuge:** `wiki-konsistenz.sh` keine Befunde, `kennwert-recompute.sh` 0 Befunde;
+`bezugsgroessen-check.py` 160 Kandidaten / `datenstand-waechter.py` 36 Befunde auf dem Stand der
+Vorlaeufe (kein durch diesen Lauf neu entstandener Treffer). Abschlussregel: grep auf die vier
+alten Formulierungen → null Treffer, Variantendurchgang auf «10 W/m²» geprueft.
+
 ## 2026-09-17 (Run 203, Nachtschicht Mac Mini 13:30-Slot) — E-R201-2 recherchiert: kein neuer Sachstand, MuKEn-2025-ZH-Umstellung bleibt ohne Termin
 
 Kein PDF-Transfer (Inventar seit Run 65 fast erschöpft). Stattdessen die von Run 202 als
