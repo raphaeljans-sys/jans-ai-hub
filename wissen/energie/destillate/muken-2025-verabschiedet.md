@@ -5,7 +5,7 @@ ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung a
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen); 2026-07-20 (amtliche EnDK-Quelle endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf gefunden, per curl+pdftotext gelesen, Volltext-Stichprobe Art. 1.28/1.39/1.40 + 20-W/m²-Kennwert gegengeprüft)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established (primärquellen-verifiziert am Originaltext; adversarial nachgeprüft 2026-07-20 Run 81 — Zahlen-Layer unabhängig bestätigt, zwei materielle Rechtsfehler + eine Auslassung korrigiert; Quellenprovenienz 2026-07-20 abschliessend geklärt — amtliche EnDK-Fassung gefunden und byte-identisch mit bisherigem Spiegel bestätigt, siehe Schlussabschnitt)
-last_updated: 2026-07-23
+last_updated: 2026-09-17
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -140,7 +140,9 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
   eine **separate, engere Vorlage** vorgelegt (Solarpflicht Dächer >300 m² + Langzeitspeicher-
   Auftrag Netzbetreiber), siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Ob/wann die
   volle MuKEn-2025-Übernahme (Fossilverbot, 20-W/m²-PV-Pflicht, Graue-Energie-Modul Teil G) als
-  eigene ZH-Vorlage folgt, ist weiterhin offen.
+  eigene ZH-Vorlage folgt, ist weiterhin offen. **Rechercheversuch 17.09.2026 ohne neuen Sachstand**
+  (WebSearch, Details `wiki/QUESTIONS.md` E-R201-2) — dieselbe Lücke wie beim Solarpflicht-Fahrplan,
+  ab jetzt ebenfalls nur passiv/ereignisgetrieben weiterverfolgen, kein aktiver Wiederholungsversuch.
 - ~~Stand Kt. SZ unveraendert offen.~~ **Erledigt 2026-07-17** — siehe neuer Abschnitt
   «Kanton Schwyz — Übernahmestand MuKEn 2025» unten: SZ hat MuKEn 2025 als Gesamtpaket noch
   nicht übernommen, folgt strukturell noch der MuKEn-2014-Logik.

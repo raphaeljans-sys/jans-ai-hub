@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 2026-09-17 (Run 203, Nachtschicht Mac Mini 13:30-Slot) — E-R201-2 recherchiert: kein neuer Sachstand, MuKEn-2025-ZH-Umstellung bleibt ohne Termin
+
+Kein PDF-Transfer (Inventar seit Run 65 fast erschöpft). Stattdessen die von Run 202 als
+«kleinere offene Position» benannte Frage **E-R201-2** bearbeitet (wann ZH die EN-ZH/EVEN-
+Formularserie von MuKEn-2014- auf MuKEn-2025-Basis umstellt): ein WebSearch («Kanton Zürich
+Energiegesetz MuKEn 2025 Umsetzung Zeitplan 2026») bringt keinen neuen Sachstand — nur den
+bereits bekannten EnDK-Terminplan «bis 2030» ohne ZH-Datum. Die Frage ist strukturell identisch
+mit der in `zh-energiegesetz-revision-solarpflicht-2026.md` bereits sechsfach erfolglos
+recherchierten Kantonsrats-Fahrplan-Frage (dort betreffen KRNr 6062/6063 nur die engere
+Solarpflicht-Vorlage, nicht die MuKEn-2025-Gesamtübernahme). Ein Suchtreffer nannte abweichend
+«4. April 2025» als EnDK-Verabschiedungsdatum — bewusst NICHT übernommen, da das primärquellen-
+verifizierte Datum 29.08.2025 (PDF-Metadaten + Volltext, `muken-2025-verabschiedet.md`) vorgeht.
+**Empfehlung analog Run 95:** aus der aktiven Recherche-Prioritätenliste nehmen, nur passiv/
+ereignisgetrieben weiterverfolgen. Frage bleibt offen (kein ✓), nur der Rechercheversuch ist
+dokumentiert. Geänderte Dateien: `wiki/QUESTIONS.md` (E-R201-2 Rechercheversuch nachgetragen),
+`destillate/muken-2025-verabschiedet.md` (Offene-Punkte-Bullet ergänzt, `last_updated`),
+Bericht `outputs/2026-09-17_energie-run203.md`. Budget rund 0.5 von 5 USD.
+
 ## 2026-09-17 (Run 202, Nachtschicht Mac Mini) — E-R201-1 geklärt: EVEN ist Fachapplikation an der BVV-Plattform, keine zweite Plattform
 
 Kein PDF-Transfer (`pdf-inventar.md` seit Run 65 fast erschöpft, nur noch 2 offene Positionen).

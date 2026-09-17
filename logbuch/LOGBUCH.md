@@ -13347,3 +13347,19 @@ oder ein signiertes PDF verlangt. Nachgetragen: `wissen/energie/wiki/energienach
 `wiki/QUESTIONS.md` E-R201-2 ✓). CHANGELOG in beiden KBs, Bericht
 `wissen/energie/outputs/2026-09-17_energie-run202.md`. Budget rund 0.6 von 5 USD (separates
 Zyklusbudget dieses zweiten Slots). Zyklus sauber beendet, additiv, keine Loeschung.
+
+**NACHTRAG 2026-09-17, dritter Nachtschicht-Zyklus Mac Mini (13:30-Slot) — energie Run 203, kein neuer Sachstand.**
+Prioritaeten 1-2 leer/aktuell (keine pending Tasks, Synobsis Stufe 2 gegengemessen: `vectors.npz`
+neuer als `documents.jsonl`, kein Rebuild noetig). Prioritaet 3 uebersprungen (Fristen-Radar heute
+bereits mehrfach ausfuehrlich bedient). Prioritaet 4 weiterhin `energie` (kein aktiver Taktgeber,
+siehe Korrektur im vorigen Zyklus): die von Run 202 benannte kleinere offene Position **E-R201-2**
+(wann stellt ZH die EN-ZH/EVEN-Formularserie von MuKEn-2014 auf MuKEn-2025 um) per WebSearch
+geprueft. Kein neuer Sachstand gegenueber dem bereits sechsfach erfolglos recherchierten
+Kantonsrats-Fahrplan zur separaten Solarpflicht-Vorlage (`zh-energiegesetz-revision-solarpflicht-2026.md`);
+ein Suchtreffer nannte abweichend «4. April 2025» als EnDK-Verabschiedungsdatum, bewusst NICHT
+uebernommen gegen das primaerquellenverifizierte Datum 29.08.2025. Frage bleibt offen (kein ✓),
+Empfehlung analog Run 95: aus der aktiven Recherche-Prioritaet nehmen, nur passiv/ereignisgetrieben
+weiterverfolgen. Geaenderte Dateien: `wiki/QUESTIONS.md`, `destillate/muken-2025-verabschiedet.md`
+(Offene-Punkte-Bullet + last_updated), `CHANGELOG.md`, Bericht
+`wissen/energie/outputs/2026-09-17_energie-run203.md`. Budget rund 0.5 von 5 USD. Zyklus sauber
+beendet, additiv, keine Loeschung.

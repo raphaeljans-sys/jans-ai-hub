@@ -58,6 +58,23 @@ EN-Formular-Matrix in allen 19 Spalten, §§ 5-7 sinngemäss, «befugt, aber nic
 - [ ] **E-R201-2 (P4): Formularserie steht auf MuKEn 2014.** Die Liste August 2026 führt die Serie
   ausdrücklich als «basierend auf den MuKEn 2014». Wann ZH auf die MuKEn 2025 umstellt und was das für
   die Teilnachweis-Nummerierung heisst, sagt sie nicht. Vgl. `[[muken-2025-verabschiedet]]`.
+  **Rechercheversuch 17.09.2026 (Nachtschicht Mac Mini, 13:30-Slot):** ein WebSearch zu
+  «Kanton Zürich Energiegesetz MuKEn 2025 Umsetzung Zeitplan 2026» bringt keinen neuen Sachstand —
+  die Treffer (Energiehub Gebäude, HEV Schweiz/ZH, Energie Zentralschweiz) bestätigen nur den bereits
+  bekannten EnDK-Terminplan «Umsetzung bis 2030» und dass ZH die MuKEn-2025-Inhalte erst noch in eine
+  EnerG-Revision überführen muss, ohne Datum. **Diese Frage ist strukturell identisch mit der bereits
+  sechsfach erfolglos recherchierten Frage** in `zh-energiegesetz-revision-solarpflicht-2026.md`
+  («Ob/wann die volle MuKEn-2025-Übernahme … als eigene ZH-Vorlage folgt, ist weiterhin offen» — dort
+  KRNr 6062/6063 betreffen nur die engere Solarpflicht-Vorlage, nicht die MuKEn-2025-Gesamtübernahme).
+  Ein Fundstück verdient Vorsicht statt Übernahme: die AI-Zusammenfassung der Suche datiert die
+  EnDK-Verabschiedung auf «4. April 2025» — das widerspricht dem am Original-PDF (Metadaten +
+  Volltext) verifizierten Datum **29.08.2025** in `muken-2025-verabschiedet.md`; nicht übernommen,
+  da eine Suchmaschinen-Zusammenfassung eine primärquellenverifizierte Fassung nicht schlägt.
+  **Empfehlung analog Run 95 (Solarpflicht-Artikel):** aus der aktiven Recherche-Prioritätenliste
+  nehmen, nur passiv/ereignisgetrieben nachführen (neue zh.ch-Medienmitteilung oder EnerG-Botschaft
+  zur MuKEn-2025-Gesamtrevision). Für die Bauherren-Beratung unverändert: die EN-ZH/EVEN-Formularserie
+  bleibt auf MuKEn-2014-Basis, kein Umstellungsdatum bekannt. Nicht als ✓ geschlossen, da die
+  Sachfrage selbst offen bleibt — nur der Rechercheversuch ist dokumentiert.
 - [x] **A-BLIND Rang 64:** ✓ 16.09.2026 (Run 201). **Nächster Kandidat:** Backlink-Ranking neu ziehen
   (Ränge 57-72 sind seit Run 196 weitgehend abgearbeitet).
 
