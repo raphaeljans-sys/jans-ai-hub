@@ -19,6 +19,18 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260917c — bexio: PAT laeuft nach 60 Tagen ab, das JWT-Feld `exp` luegt darueber
+
+Der bexio-Zugang war vom 12.08. bis 17.09.2026 tot (401). Die Connector-Diagnose «Token gueltig
+bis 13.12., Session zurueckgezogen» war falsch: bexio begrenzt Personal Access Tokens serverseitig
+auf hoechstens 60 Tage (Banner im Developer Portal), das Portal fuehrte den Token vom 13.06. mit
+«Expires 12.08.2026 11:04». Massgeblich ist das Portal-Feld, nicht `exp` im JWT. Behoben 17.09.:
+neuer PAT durch Raphael, `~/.bexio.env` auf dem Mac Mini, Ablauf 16.11.2026; `bexio.mjs --test`
+weist die Restlaufzeit aus und warnt ab 14 Tagen, die 401-Meldung nennt die 60-Tage-Grenze.
+Credential-Eingriff: Datei vom Benutzer selbst geschrieben; Spiegelung aufs MacBook Pro vom
+Klassifikator gesperrt und an Raphael uebergeben (alte Datei dort vorher nach
+`~/.bexio.env.alt-260613` schieben). Gleiche Familie wie 260807: ein Feld erst messen, dann glauben.
+
 ## 260911b — V0+ begonnen (Freigabe Raphael 11.09. ~15:10): Vorarbeit V, Auto-Sync 15 Min, Aufsicht teilweise auf dem Mini; Index-Bereinigung und launchd-Installation vom Klassifikator geblockt
 
 **Anlass.** Systemanalyse und Vertiefung vom 11.09.2026 (`docs/konzepte/260911-*`), Korrektur

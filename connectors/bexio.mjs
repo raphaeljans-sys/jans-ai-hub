@@ -114,8 +114,11 @@ async function api(pfad, { methode = 'GET', body = null, roh = false, weich = fa
         : b.abgelaufen
           ? `Er ist am ${b.exp} ABGELAUFEN (seit ${-b.restTage} Tagen) — neuen Token hinterlegen.`
           : `Er laeuft ERST am ${b.exp} ab (noch ${b.restTage} Tage), ist also NICHT abgelaufen: ` +
-            'die Session dahinter wurde beendet oder zurueckgezogen. Ein neuer Token hilft, ' +
-            'ein Warten auf den Ablauf nicht. Gegenprobe am Aussteller: ' +
+            'die Session dahinter wurde beendet oder zurueckgezogen — ODER bexio hat die ' +
+            'PAT-Hoechstlaufzeit von 60 Tagen serverseitig durchgesetzt (belegt 17.09.2026: der ' +
+            'Token vom 13.06. trug exp 13.12., das Portal fuehrte ihn als abgelaufen am 12.08.). ' +
+            'Massgeblich ist das Feld «Expires» unter developer.bexio.com > Personal Access Tokens. ' +
+            'Ein neuer Token hilft, ein Warten nicht. Gegenprobe am Aussteller: ' +
             'curl -s -o /dev/null -w "%{http_code}\\n" -H "Authorization: Bearer $BEXIO_API_TOKEN" ' +
             'https://auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo')
     );
@@ -655,6 +658,10 @@ const main = async () => {
       await api('/2.0/kb_invoice?limit=1');
       console.log('Login OK — Lesezugriff auf kb_invoice funktioniert.');
     }
+    // Restlaufzeit ausweisen: bexio begrenzt PATs auf 60 Tage (Portal-Banner, belegt 17.09.2026).
+    const b = tokenBefund(ladeToken());
+    if (b) console.log(`Token laeuft am ${b.exp} ab (noch ${b.restTage} Tage)` +
+      (b.restTage <= 14 ? ' — ⚠ ERNEUERN: developer.bexio.com > Personal Access Tokens.' : '.'));
     return;
   }
   if (arg('--offen')) {
