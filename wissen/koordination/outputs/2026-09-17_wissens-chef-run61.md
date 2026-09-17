@@ -265,4 +265,12 @@ kein globales Ersetzen, kein Eingriff in `raw/`, keinen Rule-Wortlaut geändert.
 Zeilenersetzungen: die `links:`-Zeile in `baurecht/wiki/baureife-und-erschliessung.md` (um einen
 Eintrag erweitert) und die SIA-2017-Matrixzeile im Register (um den Berichtigungs-Halbsatz
 erweitert). Commit nativ über `nas-commit-now.sh`, Umfang danach per `--numstat` im SSD-Klon
-gemessen.
+gemessen: **+857 / -101** über drei Commits (`c31ac5c29`, `7e41a887e`, `36a0ab256`).
+
+Die 101 entfernten Zeilen sind **nicht** meine: der 15-Minuten-Committer hat um 23:30 einen Teil
+meiner Dateien mitgenommen, und der parallel laufende **energie Run 205** hat danach meine
+Vorbehalte durch die geschlossene Antwort ersetzt — eine gewollte Verbesserung, keine Löschung.
+Jeder meiner Einschübe wurde nach dem Commit einzeln auf Bestand geprüft; keine fremde Arbeit ist
+überschrieben worden. Der Fall zeigt beiläufig, warum Rule `auto-verbesserungen` 260811 auf der
+Messung nach dem Schreiben besteht: ohne sie wäre weder aufgefallen, dass der Cron schneller war,
+noch dass ein zweiter Lauf an denselben Dateien arbeitete.

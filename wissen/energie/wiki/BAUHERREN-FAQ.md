@@ -2958,8 +2958,10 @@ erneuerbar UND löst bei jeder grösseren **Dachsanierung** automatisch eine PV-
 strenger als Bern, das Dachsanierungen gerade ausnimmt. **Genf** (seit 1.9.2025, an der Urne mit
 84,3 % Ja bestätigt) verzichtet ganz auf eine Flächenschwelle: **jede** geeignete Dachfläche bei
 Neubau, Dachsanierung oder grösserer Sanierung ist pflichtig, ab 2030 zusätzlich Grossverbraucher
-unabhängig vom Gebäudealter. **Tessin** (seit 1.1.2024) rechnet wie die ZH-Vorlage in W/m²
-(10 W/m² neue Energiebezugsfläche, gedeckelt auf 30 kW). **Solothurn** (seit 1.1.2023) bleibt
+unabhängig vom Gebäudealter. **Tessin** (seit 1.1.2024) rechnet in W/m² wie ZH
+(10 W/m² neue Energiebezugsfläche), **gedeckelt auf 30 kW** — anders als ZH, wo § 47b Abs. 1
+BBV I keinen kW-Deckel kennt (E-R204-2, 17.09.2026, Run 205: die 10-W/m²-Formel ist in beiden
+Kantonen gleich, der Deckel nicht). **Solothurn** (seit 1.1.2023) bleibt
 inhaltlich beim Bundesminimum (300 m²/20 % aGF). **Wallis** (seit 1.1.2025) verlangt 40 % der
 Baufläche solar UND verbietet fossile Heizungen im Neubau gleich mit — zusätzlich müssen Dächer
 >500 m² binnen **25 Jahren** unabhängig von einer Sanierung nachgerüstet werden, die am weitesten
@@ -4937,7 +4939,9 @@ Recherchelücke; ein sechster automatischer Versuch ist nicht mehr sinnvoll, die
 sofort passiv (Nachtrag bei neuer Medienmitteilung/KEVU-Bericht) statt aktiv weiter. →
 `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Datenstand 2026-07-25 (Run 95).
 Querbezug KB planungsgrundlagen (Formular/Verfahren fuehrend, Wissens-Chef Run 14): die Bedienung des
-Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, max. 30 kW-Grenze, EVEN) in
+Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, **ohne kW-Grenze** — Korrektur
+E-R204-2, 17.09.2026, Run 205: das Formular selbst kennt keinen 30-kW-Deckel, nur die
+70-%-Belegungsgrenze bei hohen Bauten; EVEN) in
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`.
 
 ## F117 — Gilt eine Solarpflicht auch ausserhalb von Zürich/Schwyz?
