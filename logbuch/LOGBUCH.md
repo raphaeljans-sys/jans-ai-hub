@@ -52,8 +52,27 @@ Beleglage aus dem Original (Kayisoglu 16.09. 10:29, fuenf Beilagen).
 md2docx erledigt, Berichtigung Vorleistungs-Mail, RWD-Zargen hoch), 0 entfernt; Praefix-Vergleich
 gegen die Kopie zeigt die ersten 5611 Zeilen unveraendert.
 
-**Mail:** gesendet, bewusst als **kurzer Nachtrag** und nicht als zweites Tagesbriefing — Raphael
-hatte 16 Minuten vor Beginn dieses Laufs die vollstaendige Radar-Mail erhalten, und eine
+**Mail: gesendet 17.09.2026 09:41:17**, Betreff «Hub-Chef 17.09.2026, Nachtrag zum Radar: Der
+Samstag steht dreimal verschieden im Kalender, die Vorleistungen sind laengst draussen», Body 2251
+Zeichen, Versand am Beleg in den Gesendeten gegengeprueft (Konto Exchange). **QS beide Stufen
+gefahren:** `rechtschreibung` **gruen** ohne Aenderung; `layout` **gelb** mit fuenf Befunden, alle
+umgesetzt (Zitat «ab 6.30» auf 06:30 vereinheitlicht, Jahreszahl bei 08.09. und 22.09. ergaenzt,
+Absatz 1 von der Wiederholung des Radar-Inhalts befreit, DOCX-Absatz auf einen Satz, zwei
+Absatzumbrueche fuer Befund und Handgriff); `twin-chef` **Fidelity 86, VEREDELUNGSRUNDE**, alle
+fuenf Eingriffe uebernommen (Artikel «des RHS»; «neu dazugekommen» auf «sehe ich heute zum ersten
+Mal» — die urspruengliche Formulierung behauptete eine Veraenderung, gemessen war nur eine neue
+Sicht; Handgriff-Ende am Samstag-Punkt ergaenzt «Es braucht eine Zeit statt drei»; «Dafuer genuegt
+ein Satz an Albin Spahic»; Verb-Wiederholung «traegt» aufgeloest). **Eine Twin-Ruege geprueft und
+im Kern nicht uebernommen:** der Agent hielt die Verknuepfung «heute um 13:00 klaeren» fuer
+unbelegt, weil das Register nur Hiltmann als Sitzungsteilnehmer nennt. Die Teilnehmerliste aus dem
+eigenen Kalenderabruf von 09:2x traegt jedoch **albin.spahic@**, **michael.spoerri@** und
+**fabian.wuersch@kispi.uzh.ch**, also genau den Vorleistungs-Kreis; die Aussage blieb daher
+inhaltlich stehen und wurde nur in seine praezisere Fassung gebracht. **Zwei eigene Fehler vor dem
+Versand korrigiert:** die Radar-Mail ging um **09:29:51** hinaus und nicht um 09:13 (09:13 war die
+Erstellzeit des Briefings) — der Entwurf nannte die falsche Zeit; und die Wendung «mit am Tisch»
+stand nach der Veredelung zweimal im Text. Gesendet wurde bewusst als **kurzer Nachtrag** und nicht als zweites Tagesbriefing — Raphael
+hatte die vollstaendige Radar-Mail neun Minuten NACH dem Start dieses Laufs erhalten (Radar-Mail
+09:29:51, Chef-Start 09:20) — die beiden Kanaele liefen heute also praktisch gleichzeitig, und eine
 inhaltsgleiche zweite Mail ist genau das, was die Entmailung der Loops verhindern soll
 (Rule 260803). Gesendet wurde nur, was der Radar nicht meldete und was Handeln vor Samstag
 betrifft.

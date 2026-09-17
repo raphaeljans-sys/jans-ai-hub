@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 09:30:46
+Stand: 17.09.2026 09:41:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 09:30:46
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 176272910 logbuch-radar 260917: Nachtrag Vertragsgrundlage HOP2 an Sitzungskreis (17.09. 09:25), Briefing-Versand belegt
+- b57bafebb vollgas-fruehwarnung 260917: ohne Befund, keine Mail (45.87 Mio teuer/Woche, 0 Limit-Ereignisse, 4/4 Briefings geliefert, Radar 8.5h); Destillat-Front seit 30.08. still, inventar.sh --stand weiter UNMESSBAR
