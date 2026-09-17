@@ -1,0 +1,668 @@
+[
+  {
+    "tx_id": 3201,
+    "datum": "2026-03-04",
+    "betrag": 3.7,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 129,
+    "ok": true
+  },
+  {
+    "tx_id": 3206,
+    "datum": "2026-03-07",
+    "betrag": 3.7,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 130,
+    "ok": true
+  },
+  {
+    "tx_id": 3207,
+    "datum": "2026-03-07",
+    "betrag": 5.2,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 131,
+    "ok": true
+  },
+  {
+    "tx_id": 3227,
+    "datum": "2026-03-13",
+    "betrag": 11.3,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 132,
+    "ok": true
+  },
+  {
+    "tx_id": 3266,
+    "datum": "2026-03-24",
+    "betrag": 1.2,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 133,
+    "ok": true
+  },
+  {
+    "tx_id": 3281,
+    "datum": "2026-03-26",
+    "betrag": 13.7,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 134,
+    "ok": true
+  },
+  {
+    "tx_id": 3279,
+    "datum": "2026-03-28",
+    "betrag": 3.9,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 135,
+    "ok": true
+  },
+  {
+    "tx_id": 3280,
+    "datum": "2026-03-28",
+    "betrag": 9.1,
+    "soll": "6640",
+    "haben": "80-2-2",
+    "manual_entry": 136,
+    "ok": true
+  },
+  {
+    "tx_id": 3282,
+    "datum": "2026-03-28",
+    "betrag": 109,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 137,
+    "ok": true
+  },
+  {
+    "tx_id": 3317,
+    "datum": "2026-04-09",
+    "betrag": 1.2,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 138,
+    "ok": true
+  },
+  {
+    "tx_id": 3353,
+    "datum": "2026-04-25",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 139,
+    "ok": true
+  },
+  {
+    "tx_id": 3416,
+    "datum": "2026-05-23",
+    "betrag": 9.1,
+    "soll": "6640",
+    "haben": "80-2-2",
+    "manual_entry": 140,
+    "ok": true
+  },
+  {
+    "tx_id": 3419,
+    "datum": "2026-05-23",
+    "betrag": 190,
+    "soll": "6640",
+    "haben": "80-2-2",
+    "manual_entry": 141,
+    "ok": true
+  },
+  {
+    "tx_id": 3426,
+    "datum": "2026-05-26",
+    "betrag": 67.5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 142,
+    "ok": true
+  },
+  {
+    "tx_id": 3432,
+    "datum": "2026-05-26",
+    "betrag": 45.4,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 143,
+    "ok": true
+  },
+  {
+    "tx_id": 3431,
+    "datum": "2026-05-27",
+    "betrag": 9.1,
+    "soll": "6640",
+    "haben": "80-2-2",
+    "manual_entry": 144,
+    "ok": true
+  },
+  {
+    "tx_id": 3464,
+    "datum": "2026-06-17",
+    "betrag": 3.7,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 145,
+    "ok": true
+  },
+  {
+    "tx_id": 3465,
+    "datum": "2026-06-17",
+    "betrag": 5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 146,
+    "ok": true
+  },
+  {
+    "tx_id": 3468,
+    "datum": "2026-06-18",
+    "betrag": 7.85,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 147,
+    "ok": true
+  },
+  {
+    "tx_id": 3479,
+    "datum": "2026-06-19",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 148,
+    "ok": true
+  },
+  {
+    "tx_id": 3481,
+    "datum": "2026-06-19",
+    "betrag": 78.85,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 149,
+    "ok": true
+  },
+  {
+    "tx_id": 3489,
+    "datum": "2026-06-23",
+    "betrag": 1.85,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 150,
+    "ok": true
+  },
+  {
+    "tx_id": 3491,
+    "datum": "2026-06-23",
+    "betrag": 13.09,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 151,
+    "ok": true
+  },
+  {
+    "tx_id": 3496,
+    "datum": "2026-06-24",
+    "betrag": 3.43,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 152,
+    "ok": true
+  },
+  {
+    "tx_id": 3497,
+    "datum": "2026-06-24",
+    "betrag": 7.64,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 153,
+    "ok": true
+  },
+  {
+    "tx_id": 3514,
+    "datum": "2026-06-29",
+    "betrag": 1.2,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 154,
+    "ok": true
+  },
+  {
+    "tx_id": 3515,
+    "datum": "2026-06-29",
+    "betrag": 2.95,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 155,
+    "ok": true
+  },
+  {
+    "tx_id": 3516,
+    "datum": "2026-06-29",
+    "betrag": 3.05,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 156,
+    "ok": true
+  },
+  {
+    "tx_id": 3524,
+    "datum": "2026-06-30",
+    "betrag": 3.6,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 157,
+    "ok": true
+  },
+  {
+    "tx_id": 3525,
+    "datum": "2026-06-30",
+    "betrag": 4.25,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 158,
+    "ok": true
+  },
+  {
+    "tx_id": 3542,
+    "datum": "2026-07-01",
+    "betrag": 14.5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 159,
+    "ok": true
+  },
+  {
+    "tx_id": 3537,
+    "datum": "2026-07-02",
+    "betrag": 6.1,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 160,
+    "ok": true
+  },
+  {
+    "tx_id": 3549,
+    "datum": "2026-07-08",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 161,
+    "ok": true
+  },
+  {
+    "tx_id": 3555,
+    "datum": "2026-07-11",
+    "betrag": 1.2,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 162,
+    "ok": true
+  },
+  {
+    "tx_id": 3556,
+    "datum": "2026-07-11",
+    "betrag": 6.2,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 163,
+    "ok": true
+  },
+  {
+    "tx_id": 3593,
+    "datum": "2026-07-27",
+    "betrag": 26.2,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 164,
+    "ok": true
+  },
+  {
+    "tx_id": 3591,
+    "datum": "2026-07-28",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 165,
+    "ok": true
+  },
+  {
+    "tx_id": 3596,
+    "datum": "2026-07-29",
+    "betrag": 11.84,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 166,
+    "ok": true
+  },
+  {
+    "tx_id": 3615,
+    "datum": "2026-07-31",
+    "betrag": 235,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 167,
+    "ok": true
+  },
+  {
+    "tx_id": 3625,
+    "datum": "2026-08-04",
+    "betrag": 6.1,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 168,
+    "ok": true
+  },
+  {
+    "tx_id": 3627,
+    "datum": "2026-08-04",
+    "betrag": 1.35,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 169,
+    "ok": true
+  },
+  {
+    "tx_id": 3628,
+    "datum": "2026-08-04",
+    "betrag": 6.99,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 170,
+    "ok": true
+  },
+  {
+    "tx_id": 3643,
+    "datum": "2026-08-12",
+    "betrag": 38.1,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 171,
+    "ok": true
+  },
+  {
+    "tx_id": 3642,
+    "datum": "2026-08-13",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 172,
+    "ok": true
+  },
+  {
+    "tx_id": 3652,
+    "datum": "2026-08-13",
+    "betrag": 5.66,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 173,
+    "ok": true
+  },
+  {
+    "tx_id": 3651,
+    "datum": "2026-08-14",
+    "betrag": 2.75,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 174,
+    "ok": true
+  },
+  {
+    "tx_id": 3655,
+    "datum": "2026-08-14",
+    "betrag": 26.2,
+    "soll": "6570",
+    "haben": "80-2-2",
+    "manual_entry": 175,
+    "ok": true
+  },
+  {
+    "tx_id": 3657,
+    "datum": "2026-08-15",
+    "betrag": 83.7,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 176,
+    "ok": true
+  },
+  {
+    "tx_id": 3678,
+    "datum": "2026-08-18",
+    "betrag": 3.38,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 177,
+    "ok": true
+  },
+  {
+    "tx_id": 3679,
+    "datum": "2026-08-18",
+    "betrag": 8.01,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 178,
+    "ok": true
+  },
+  {
+    "tx_id": 3694,
+    "datum": "2026-08-18",
+    "betrag": 9,
+    "soll": "6559",
+    "haben": "80-2-2",
+    "manual_entry": 179,
+    "ok": true
+  },
+  {
+    "tx_id": 3690,
+    "datum": "2026-08-19",
+    "betrag": 2.69,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 180,
+    "ok": true
+  },
+  {
+    "tx_id": 3691,
+    "datum": "2026-08-19",
+    "betrag": 5.93,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 181,
+    "ok": true
+  },
+  {
+    "tx_id": 3701,
+    "datum": "2026-08-20",
+    "betrag": 5.84,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 182,
+    "ok": true
+  },
+  {
+    "tx_id": 3705,
+    "datum": "2026-08-20",
+    "betrag": 27.19,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 183,
+    "ok": true
+  },
+  {
+    "tx_id": 3704,
+    "datum": "2026-08-21",
+    "betrag": 26.3,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 184,
+    "ok": true
+  },
+  {
+    "tx_id": 3702,
+    "datum": "2026-08-22",
+    "betrag": 23.7,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 185,
+    "ok": true
+  },
+  {
+    "tx_id": 3709,
+    "datum": "2026-08-24",
+    "betrag": 24.25,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 186,
+    "ok": true
+  },
+  {
+    "tx_id": 3716,
+    "datum": "2026-08-24",
+    "betrag": 3.95,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 187,
+    "ok": true
+  },
+  {
+    "tx_id": 3717,
+    "datum": "2026-08-25",
+    "betrag": 7.8,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 188,
+    "ok": true
+  },
+  {
+    "tx_id": 3718,
+    "datum": "2026-08-25",
+    "betrag": 8.1,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 189,
+    "ok": true
+  },
+  {
+    "tx_id": 3722,
+    "datum": "2026-08-26",
+    "betrag": 1.9,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 190,
+    "ok": true
+  },
+  {
+    "tx_id": 3723,
+    "datum": "2026-08-26",
+    "betrag": 1.9,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 191,
+    "ok": true
+  },
+  {
+    "tx_id": 3725,
+    "datum": "2026-08-26",
+    "betrag": 6,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 192,
+    "ok": true
+  },
+  {
+    "tx_id": 3730,
+    "datum": "2026-08-27",
+    "betrag": 5.95,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 193,
+    "ok": true
+  },
+  {
+    "tx_id": 3731,
+    "datum": "2026-08-27",
+    "betrag": 7.1,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 194,
+    "ok": true
+  },
+  {
+    "tx_id": 3732,
+    "datum": "2026-08-27",
+    "betrag": 10.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 195,
+    "ok": true
+  },
+  {
+    "tx_id": 3748,
+    "datum": "2026-08-28",
+    "betrag": 20.3,
+    "soll": "6559",
+    "haben": "80-2-2",
+    "manual_entry": 196,
+    "ok": true
+  },
+  {
+    "tx_id": 3749,
+    "datum": "2026-08-29",
+    "betrag": 23.3,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 197,
+    "ok": true
+  },
+  {
+    "tx_id": 3751,
+    "datum": "2026-08-29",
+    "betrag": 103.45,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 198,
+    "ok": true
+  },
+  {
+    "tx_id": 3777,
+    "datum": "2026-09-05",
+    "betrag": 2.5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 199,
+    "ok": true
+  },
+  {
+    "tx_id": 3780,
+    "datum": "2026-09-08",
+    "betrag": 5,
+    "soll": "6513",
+    "haben": "80-2-2",
+    "manual_entry": 200,
+    "ok": true
+  },
+  {
+    "tx_id": 3782,
+    "datum": "2026-09-08",
+    "betrag": 10.5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 201,
+    "ok": true
+  },
+  {
+    "tx_id": 3784,
+    "datum": "2026-09-08",
+    "betrag": 5.45,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 202,
+    "ok": true
+  }
+]

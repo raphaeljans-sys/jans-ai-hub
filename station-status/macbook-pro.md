@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 11:56:00
+Stand: 17.09.2026 12:06:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 11:56:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7e665aed5 bexio 260917: OIDC auf beiden Stationen eingerichtet, Checkpoints gemessen, --erneuern, Scope bank_payment_show ergaenzt, README/WEGE/Register nachgefuehrt
+- 67dac7c9f bexio 260917: banking/transactions nur ueber PAT (Scope undokumentiert, gemessen), OIDC-Umstellung abgeschlossen, Register

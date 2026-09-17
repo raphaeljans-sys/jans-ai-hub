@@ -489,12 +489,21 @@ Runde 2; die Regeln selbst sind unveraendert in Kraft.)
 - **Gilt fuer:** JEDE Arbeit mit Mails/Belegen (Radar, hub-chef, /morgen, mahnwesen,
   zahlungsabgleich, kostenkontrolle, Offert-/Rechnungspruefung), alle Stationen.
 
-## 260702 — Buchhaltung: bexio fuehrend; buchen NUR nach Einzelfreigabe
+## 260702 — Buchhaltung: bexio fuehrend; Bankbewegungen bucht Claude selbstaendig (Neufassung 260917)
 - **Regel:** bexio ist die Quelle der Wahrheit; OneDrive-Buchhaltungsablage nur
-  Jahres-Archiv. Claude bucht ausschliesslich nach expliziter Einzelfreigabe je vorgelegter
-  Buchungsliste (Trockenlauf zuerst, `--ja`-Muster). NIE automatisch buchen, NIE Zahlungen
-  ausloesen, NIE reconcilen/loeschen/stornieren.
-- **Gilt fuer:** connectors/bexio.mjs, zahlungsabgleich/mahnwesen/kostenkontrolle/hub-chef.
+  Jahres-Archiv. **Neufassung 17.09.2026 (Entscheid Raphael, ersetzt «buchen NUR nach
+  Einzelfreigabe»):** Claude kontiert und bucht die Banktransaktionen **selbstaendig, ohne
+  Betragsgrenze**, monatlich fuer den Vormonat, mit Bericht im Tagesbriefing. Regel-Treffer
+  (`connectors/bexio-kontierungsregeln.json`) werden direkt gebucht; Unklares wird am Beleg
+  geklaert (Mail, Rechnung, Kontoauszug) und dann gebucht, die Klaerung wird zur neuen Regel.
+  **Was sich nicht belegen laesst, geht auf 1090 Transferkonto mit Textpraefix «ABKLAERUNG:»**
+  und in den Bericht, **nie auf ein geratenes Aufwandkonto**. Trockenlauf zuerst, Protokoll je
+  Lauf, Doppelbuchungs-Schutz bleibt. **Unveraendert NIE:** Zahlungen ausloesen oder
+  Zahlungsauftraege erfassen, Rechnungen als bezahlt markieren/reconcilen, loeschen, stornieren.
+  Mahnstufen weiter nach `logbuch/AKTIONS-WHITELIST.md` (A1, A9).
+- **Gilt fuer:** connectors/bexio.mjs, Scheduled Task `bexio-buchen-monatlich`,
+  zahlungsabgleich/mahnwesen/kostenkontrolle/hub-chef. Spec:
+  `wissen/spec/outputs/2026-09-17_bexio-selbstaendig-buchen_spec.md`.
 
 ## 260616/260605 — Keine Disclaimer/Boilerplate in Erzeugnissen
 - **Regel:** Keine Haftungs-/Rechtsberatungs-Disclaimer, kein «Verfasst durch … im

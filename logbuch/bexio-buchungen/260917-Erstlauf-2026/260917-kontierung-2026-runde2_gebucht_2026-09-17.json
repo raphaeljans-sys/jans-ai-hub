@@ -1,0 +1,128 @@
+[
+  {
+    "tx_id": 3228,
+    "datum": "2026-03-13",
+    "betrag": 13.65,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 203,
+    "ok": true
+  },
+  {
+    "tx_id": 3480,
+    "datum": "2026-06-19",
+    "betrag": 5.5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 204,
+    "ok": true
+  },
+  {
+    "tx_id": 3499,
+    "datum": "2026-06-23",
+    "betrag": 10.99,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 205,
+    "ok": true
+  },
+  {
+    "tx_id": 3530,
+    "datum": "2026-06-30",
+    "betrag": 24,
+    "soll": "6940",
+    "haben": "80-2-2",
+    "manual_entry": 206,
+    "ok": true
+  },
+  {
+    "tx_id": 3590,
+    "datum": "2026-07-23",
+    "betrag": 10.99,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 207,
+    "ok": true
+  },
+  {
+    "tx_id": 3653,
+    "datum": "2026-08-15",
+    "betrag": 6,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 208,
+    "ok": true
+  },
+  {
+    "tx_id": 3654,
+    "datum": "2026-08-16",
+    "betrag": 6.95,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 209,
+    "ok": true
+  },
+  {
+    "tx_id": 3703,
+    "datum": "2026-08-21",
+    "betrag": 24,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 210,
+    "ok": true
+  },
+  {
+    "tx_id": 3720,
+    "datum": "2026-08-23",
+    "betrag": 10.99,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 211,
+    "ok": true
+  },
+  {
+    "tx_id": 3719,
+    "datum": "2026-08-25",
+    "betrag": 10.2,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 212,
+    "ok": true
+  },
+  {
+    "tx_id": 3733,
+    "datum": "2026-08-27",
+    "betrag": 16,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 213,
+    "ok": true
+  },
+  {
+    "tx_id": 3747,
+    "datum": "2026-08-28",
+    "betrag": 18.5,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 214,
+    "ok": true
+  },
+  {
+    "tx_id": 3773,
+    "datum": "2026-09-03",
+    "betrag": 8.9,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 215,
+    "ok": true
+  },
+  {
+    "tx_id": 3781,
+    "datum": "2026-09-08",
+    "betrag": 7.3,
+    "soll": "2850",
+    "haben": "80-2-2",
+    "manual_entry": 216,
+    "ok": true
+  }
+]

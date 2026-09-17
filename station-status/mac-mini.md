@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 11:54:33
+Stand: 17.09.2026 12:04:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 11:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 11:54:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7e665aed5 bexio 260917: OIDC auf beiden Stationen eingerichtet, Checkpoints gemessen, --erneuern, Scope bank_payment_show ergaenzt, README/WEGE/Register nachgefuehrt
+- 67dac7c9f bexio 260917: banking/transactions nur ueber PAT (Scope undokumentiert, gemessen), OIDC-Umstellung abgeschlossen, Register

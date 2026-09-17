@@ -1,0 +1,33 @@
+44 Position(en) in der Liste, 14 mit freigabe=true (30 ohne Freigabe uebersprungen)
+
+14 Buchung(en) werden ausgefuehrt:
+  2026-03-13  CHF 13.65  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Marché-5136 Martigny
+  2026-06-19  CHF 5.50  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lanigiro GmbH Bar Basso
+  2026-06-23  CHF 10.99  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Prime Video
+  2026-06-30  CHF 24.00  Soll 6940 Bankspesen  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Balance of service prices
+  2026-07-23  CHF 10.99  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Prime Video
+  2026-08-15  CHF 6.00  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Beck ShopVille
+  2026-08-16  CHF 6.95  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // avec.
+  2026-08-21  CHF 24.00  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Vins de la Bastide SA
+  2026-08-23  CHF 10.99  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Prime Video
+  2026-08-25  CHF 10.20  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Kinderspital Zürich
+  2026-08-27  CHF 16.00  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Vins de la Bastide SA
+  2026-08-28  CHF 18.50  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Vins de la Bastide SA
+  2026-09-03  CHF 8.90  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Kinderspital Zürich
+  2026-09-08  CHF 7.30  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Kinderspital Zürich
+  OK  Tx 3228 gebucht (manual entry 203).
+  OK  Tx 3480 gebucht (manual entry 204).
+  OK  Tx 3499 gebucht (manual entry 205).
+  OK  Tx 3530 gebucht (manual entry 206).
+  OK  Tx 3590 gebucht (manual entry 207).
+  OK  Tx 3653 gebucht (manual entry 208).
+  OK  Tx 3654 gebucht (manual entry 209).
+  OK  Tx 3703 gebucht (manual entry 210).
+  OK  Tx 3720 gebucht (manual entry 211).
+  OK  Tx 3719 gebucht (manual entry 212).
+  OK  Tx 3733 gebucht (manual entry 213).
+  OK  Tx 3747 gebucht (manual entry 214).
+  OK  Tx 3773 gebucht (manual entry 215).
+  OK  Tx 3781 gebucht (manual entry 216).
+
+Protokoll: logbuch/bexio-buchungen/260917-Erstlauf-2026/260917-kontierung-2026-runde2_gebucht_2026-09-17.json

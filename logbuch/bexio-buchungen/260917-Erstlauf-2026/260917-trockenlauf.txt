@@ -1,0 +1,79 @@
+118 Position(en) in der Liste, 74 mit freigabe=true (44 ohne Freigabe uebersprungen)
+
+74 Buchung(en) im TROCKENLAUF:
+  2026-03-04  CHF 3.70  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-03-07  CHF 3.70  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-03-07  CHF 5.20  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-03-13  CHF 11.30  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // CHINARESTAURANT CHOPST
+  2026-03-24  CHF 1.20  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-03-26  CHF 13.70  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-03-28  CHF 3.90  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-03-28  CHF 9.10  Soll 6640 Reisespesen  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof Wiedikon ZH
+  2026-03-28  CHF 109.00  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // APPLE STORE R159
+  2026-04-09  CHF 1.20  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG (8603)
+  2026-04-25  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-05-23  CHF 9.10  Soll 6640 Reisespesen  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof HB Zürich
+  2026-05-23  CHF 190.00  Soll 6640 Reisespesen  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof Zürich HB
+  2026-05-26  CHF 67.50  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Globus Zürich City
+  2026-05-26  CHF 45.40  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // APPLE STORE R159
+  2026-05-27  CHF 9.10  Soll 6640 Reisespesen  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof Wiedikon ZH
+  2026-06-17  CHF 3.70  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-06-17  CHF 5.00  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-06-18  CHF 7.85  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-06-19  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-06-19  CHF 78.85  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // wondershare.com
+  2026-06-23  CHF 1.85  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-06-23  CHF 13.09  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-06-24  CHF 3.43  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-06-24  CHF 7.64  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich
+  2026-06-29  CHF 1.20  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-06-29  CHF 2.95  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-06-29  CHF 3.05  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-06-30  CHF 3.60  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-06-30  CHF 4.25  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-07-01  CHF 14.50  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // FLASH TAKE AWAY
+  2026-07-02  CHF 6.10  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-07-08  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-07-11  CHF 1.20  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-07-11  CHF 6.20  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // ViCAFE Goldbrunnen
+  2026-07-27  CHF 26.20  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SwissSign AG
+  2026-07-28  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-07-29  CHF 11.84  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-07-31  CHF 235.00  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // ART COMPUTER
+  2026-08-04  CHF 6.10  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-08-04  CHF 1.35  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-04  CHF 6.99  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-12  CHF 38.10  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-13  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-08-13  CHF 5.66  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-14  CHF 2.75  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-14  CHF 26.20  Soll 6570 Informatikaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SwissSign AG
+  2026-08-15  CHF 83.70  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-18  CHF 3.38  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-18  CHF 8.01  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-18  CHF 9.00  Soll 6559 Sonstiger Verwaltungsaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SUMUP  *HELVESIA GMBH
+  2026-08-19  CHF 2.69  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-19  CHF 5.93  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-20  CHF 5.84  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-20  CHF 27.19  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-21  CHF 26.30  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-22  CHF 23.70  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-24  CHF 24.25  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-24  CHF 3.95  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+  2026-08-25  CHF 7.80  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-25  CHF 8.10  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-26  CHF 1.90  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-26  CHF 1.90  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-26  CHF 6.00  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-27  CHF 5.95  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-27  CHF 7.10  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-08-27  CHF 10.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-08-28  CHF 20.30  Soll 6559 Sonstiger Verwaltungsaufwand  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // SUMUP  *HELVESIA GMBH
+  2026-08-29  CHF 23.30  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-08-29  CHF 103.45  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon
+  2026-09-05  CHF 2.50  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-09-08  CHF 5.00  Soll 6513 Porti  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG
+  2026-09-08  CHF 10.50  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede
+  2026-09-08  CHF 5.45  Soll 2850 Privatkonto  /  Haben 80-2-2 UBS Kontokorrent Unternehmen  — Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205
+
+TROCKENLAUF — zum Buchen erneut mit  --ja  aufrufen.

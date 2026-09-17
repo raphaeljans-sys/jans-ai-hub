@@ -476,7 +476,7 @@ async function chfId() {
  * die noch KEINE Buchung im Journal haben, werden per Regelwerk einem Konto
  * zugeordnet. Ergebnis: Vorschlagsliste (Konsole + JSON-Datei fuer --buchen).
  */
-async function kontieren(jahr, { zielDatei = null } = {}) {
+async function kontieren(jahr, { zielDatei = null, auto = false } = {}) {
   const [konten, bkonten, tx, journal, regeln] = await Promise.all([
     alleKonten(), bankKonten(), alleBankTx(), journalAlle(), Promise.resolve(ladeKontierungsregeln()),
   ]);
@@ -563,8 +563,12 @@ async function kontieren(jahr, { zielDatei = null } = {}) {
       konto, konto_name: kontoOk ? kontoByNo.get(konto).name : '',
       konto_gueltig: kontoOk, regel: regelHit,
       anzahl_im_feed: t._anzahl || 1, // >1 = Doppelimport-Kopien zusammengefasst; echte Anzahl pruefen
-      freigabe: null, // Raphael setzt true/false — nur true wird gebucht
+      freigabe: null, // true = wird gebucht. Von Hand, oder mit --auto (Regel 260702, Neufassung 17.09.2026)
     });
+    // --auto: NUR eindeutige Regel-Treffer mit gueltigem Konto und ohne Feed-Kopien freigeben.
+    // Alles andere bleibt null und geht in die Beleg-Klaerung des Monatslaufs.
+    const pos = positionen[positionen.length - 1];
+    if (auto && pos.regel && pos.konto_gueltig && pos.anzahl_im_feed === 1) pos.freigabe = true;
   }
   positionen.sort((a, b) => String(a.datum).localeCompare(String(b.datum)));
 
@@ -806,7 +810,7 @@ const main = async () => {
     const jahr = String(arg('--kontieren'));
     if (!/^20\d\d$/.test(jahr)) fail('Bitte Jahr angeben:  --kontieren 2025');
     const ziel = arg('--ziel') && arg('--ziel') !== true ? String(arg('--ziel')) : `bexio-kontierung-${jahr}.json`;
-    const res = await kontieren(jahr, { zielDatei: ziel });
+    const res = await kontieren(jahr, { zielDatei: ziel, auto: !!arg('--auto') });
     if (arg('--json')) { console.log(JSON.stringify(res, null, 2)); return; }
     const offen = res.positionen;
     console.log(`\nJahr ${jahr}: ${offen.length} Banktransaktion(en) ohne Buchung.`);
@@ -835,7 +839,7 @@ const main = async () => {
     });
     return;
   }
-  console.log('Verwendung: --test | --offen | --verzug [--alle] [--json] | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR | --mahnpdf <ID> [--stufe N|--reminder RID] --ziel DIR | --konten [--json] | --buchungen <Jahr> [--json] | --kontieren <Jahr> [--ziel DATEI.json] | --buchen DATEI.json [--ja]');
+  console.log('Verwendung: --test | --offen | --verzug [--alle] [--json] | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR | --mahnpdf <ID> [--stufe N|--reminder RID] --ziel DIR | --konten [--json] | --buchungen <Jahr> [--json] | --kontieren <Jahr> [--auto] [--ziel DATEI.json] | --buchen DATEI.json [--ja]');
 };
 
 main().catch(e => fail(e.message));

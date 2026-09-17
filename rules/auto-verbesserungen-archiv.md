@@ -671,3 +671,13 @@ Methodik-Pflicht 5 in `wissen/normen/training/PROGRAMM.md` (nicht importiert).
 
 Konzept + Messwerte: `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`, Wissen:
 `wissen/claude-code/`.
+
+
+## Abgeloest 17.09.2026 — urspruengliche Fassung 260702 (durch Neufassung ersetzt, Entscheid Raphael)
+
+## 260702 — Buchhaltung: bexio fuehrend; buchen NUR nach Einzelfreigabe
+- **Regel:** bexio ist die Quelle der Wahrheit; OneDrive-Buchhaltungsablage nur
+  Jahres-Archiv. Claude bucht ausschliesslich nach expliziter Einzelfreigabe je vorgelegter
+  Buchungsliste (Trockenlauf zuerst, `--ja`-Muster). NIE automatisch buchen, NIE Zahlungen
+  ausloesen, NIE reconcilen/loeschen/stornieren.
+- **Gilt fuer:** connectors/bexio.mjs, zahlungsabgleich/mahnwesen/kostenkontrolle/hub-chef.
