@@ -53,6 +53,49 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-17 12:57 — [FREI] **Mini-Regellauf, ohne neuen Sachbefund. Der Doppellauf besteht am fuenften Tag fort und ist heute zum zweiten Mal LIVE belegt: die MacBook-Fassung lief waehrend dieses Laufes (Session `b2bc145b`, Wrapper `vollgas-chef-radar`, mtime 12:59).**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **6 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprueft). Symlink zeigt auf die npm-Fassung, Stand 17.09. 05:15 — die als gewedgt gefuehrte Stoerung
+bleibt erledigt, wie an jedem Lauf gegengemessen. Wochenbudget **22.9 %** von 167 Mio bei **43.4 %** verstrichener
+Woche, Vorsprung **-20.6 Punkte**, Ampel FREI (Mini 10.51, MacBook 27.66 Mio, beide Dateien frisch). Keine Drossel
+aktiv, nichts zurueckzuschalten. Speicher Mini: Druckstufe 1, rund 9.0 GB frei+inaktiv+purgeable (vm_stat).
+
+**Feuermechanismen.** Sollstand auf beiden Stationen. Mini: `vollgas-supervisor` weiterhin `.disabled-260729`,
+kein vollgas-Job geladen, `ch.jans.nachtschicht` und seit heute `ch.jans.tailscale-waechter` geladen. MacBook:
+`vollgas-supervisor` und `vollgas-monitor` weiterhin `.disabled-260729`. Mini-Registry unveraendert elf Task-Ordner
+plus der heute neu angelegte `bexio-buchen-monatlich` (monatlich, 2. des Monats 06:20, erster Lauf 02.10.) — kein
+Lern-Loop, faellt nicht unter den Leerlauf-Waechter. Der Endlos-Runner bleibt ausgebaut.
+
+**Doppellauf — Tag fuenf, zum zweiten Mal direkt gemessen (unveraendert Aktion Raphael).** Waehrend dieses Laufes
+lief auf dem MacBook Pro die Session `b2bc145b-98d0-43fa-94b5-902b66a6eff1`, deren Wrapper
+`scheduled-task name="vollgas-chef-radar"` traegt (mtime 12:59, 95 Zeilen). Zwei Stationen fahren denselben Radar
+im selben Slot, seit der Deaktivierung vom 15.09. 13:32 nun den fuenften Tag. Ich deaktiviere weiterhin nicht selbst:
+die MacBook-Registry ist von hier aus nicht schreibbar, Fruehwarnung und heartbeat stehen auf der Ausnahmeliste,
+und der Schritt gehoert laut Chronik 260911b Raphael. **Kostenseite, damit die Groesse benannt ist:** das MacBook
+traegt 27.66 der 38.17 Mio teuren Wochentoken, also 72 %, bei gleichzeitig deutlich geringerem Lern-Ertrag als der
+Mini — der Doppellauf ist der bekannteste Einzelposten darin.
+
+**Liefer-Delta seit 17.09. 00:00 (git, Dateien unter `wissen/`):** twin 11 (Fidelity-Review 09:00 mit Compiler-Fix
+aller Do/Don't-Bloecke, Grenze 34k auf 37k, Mail-Batch 122), energie 5, spec 3 (Spec `bexio selbstaendig buchen`),
+planungsgrundlagen 3, claude-code 3. Ausserhalb `wissen/`: der bexio-Strang mit sieben Buchungsdateien, neuem
+`bexio-auth.mjs` (OIDC mit Refresh-Lock), 88 Buchungen im Erstlauf und der neu gefassten Rule 260702; dazu
+Rule 260917b (kanonische `ssh mini`-Form), Tailscale-Waechter auf beiden Stationen, `zugangsdatei-sync.sh`,
+Chronik- und Register-Nachtraege. **Kein Delta-Null-Loop, keine Ruecktaktung, keine Stilllegung.**
+
+**Selbstkontrolle.** Letzter Mini-Eintrag 00:57, dieser 12:57 — 12.0 h, im Takt, kein verpasster Lauf. `lastRunAt`
+der eigenen Task 10:57Z deckt sich mit diesem Lauf.
+
+**P1** — keiner. Kein Blocker, kein Login-Problem, kein Kontingent-Engpass.
+**P2** — Doppellauf der Aufsicht, Tag fuenf, unveraendert. Drei Tasks (vollgas-chef-radar, vollgas-fruehwarnung,
+heartbeat-daily) feuern auf beiden Stationen. Nur Raphael kann sie in der MacBook-Registry abschalten.
+**P3** — Wochenverbrauch laeuft dem Zeitverlauf 20.6 Punkte hinterher, der groesste Rueckstand seit dem 12.09.
+Das ist kein Engpass, sondern ungenutzte Kapazitaet: bei gleichbleibendem Tempo endet die Woche bei rund 53 %
+des Budgets. Der stehende Entscheid «gleichmaessig ueber die Woche» ist eingehalten, ein Tagesdeckel bleibt
+unnoetig.
+
+---
+
 ## 2026-09-17 00:58 — [FREI] **MacBook-Fassung, Regellauf ohne neuen Sachbefund. Der Doppellauf besteht am vierten Tag fort und ist heute erstmals LIVE belegt: der Mini-Radar lief zeitgleich mit diesem Lauf.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **9 s**, Watchdog 180 s nicht gebraucht, keine Waisen
