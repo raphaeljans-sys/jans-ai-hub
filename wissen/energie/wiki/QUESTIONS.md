@@ -77,6 +77,19 @@ Stand der Vorlaeufe, kein durch diesen Lauf neu entstandener Treffer, nicht einz
   entscheiden, ob der Deckel in den ZH-Aussagen gestrichen oder belegt wird. Bis dahin steht an allen
   drei Stellen ein ⚠⚠-Vermerk, die Zahl wurde **nicht** gestrichen (Rule: Beanstandung am Original
   gegenpruefen, nicht auf Verdacht loeschen). Aufgeworfen Run 204, 17.09.2026.
+  ⚠ **Nachtrag Wissens-Chef Lauf 61 (17.09.2026): «an allen drei Stellen» traf nicht zu.** Der
+  Vorbehalt fehlte an vier weiteren Fundstellen, davon eine in dieser KB selbst:
+  `wissen/energie/wiki/pv-solar-technologien.md` Z. 44 («Neubau Kt. ZH … max. 30 kW», ohne
+  Vorbehalt), `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md` Z. 285-288
+  (Dimensionierungs-Anker, ausdruecklich «Neubau ZH» — die Stelle, an der die Zahl beim
+  Dimensionieren gelesen wird) und Z. 647, sowie
+  `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` Z. 131
+  (Schwellen-Merkposten, schreibt den Deckel zusaetzlich der Quelle «EN-ZH S. 3-4» zu, welche
+  ihn nicht traegt). Alle vier sind im selben Lauf additiv mit dem Kurzvorbehalt versehen worden.
+  **Lehre:** eine Vollstaendigkeitsaussage ueber die eigene Korrektur («steht jetzt ueberall»)
+  ist selbst zu messen, nicht zu behaupten — gleiche Familie wie WC60-1, wo eine Korrektur
+  drei von sechs Stellen erreichte. Die Sachfrage (gilt der Deckel in ZH?) bleibt unveraendert
+  offen; Gegenlesung am kantonalen EN-104-ZH steht weiterhin aus.
 
 - [ ] **E-R204-1 (P3):** Fuehrt die **EVEN-Maske** die Formularreihe EN-101 bis EN-141 unveraendert,
   oder hat der elektronische Vollzug die Gliederung geaendert? Nur mit Login beantwortbar, also

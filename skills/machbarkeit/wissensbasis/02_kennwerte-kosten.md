@@ -86,7 +86,7 @@ schlecht/mittel/top: Verkaufspreis, Mietzins, Baulandpreis pro m²). Ergänzend 
 
 ## Healthcare-Wirtschaftlichkeit (Pflegeheim, Beleg WALD)
 Pflegeplatzkosten/Monat, Hotellerie-Taxe; Abschreibung **33 Jahre linear** (CURAVIVA);
-BWO-Referenzzinssatz **1.75 %**; Unterhalt + Verwaltung je 0.5 %; Bruttorendite (Mietertrag/
+BWO-Referenzzinssatz **1.75 %** (⚠ Studienstand WALD, **nicht als Default rechnen**; aktueller Satz **1.25 %**, unveraendert bestaetigt 01.09.2026 — fuehrend `wissen/immobilienbewertung/wiki/investorenmarkt-makro.md`, Abschnitt «Marktpuls Zins/Referenzzinssatz»; vor jeder Annuitaetsrechnung den dortigen Stand ziehen. Wissens-Chef Lauf 61, 17.09.2026); Unterhalt + Verwaltung je 0.5 %; Bruttorendite (Mietertrag/
 Investition) ~6.8 %, Nettorendite via Annuität ~1.1 % (Sensitivität 2 % Amortisation → 3.3 %).
 
 ## Quellen-Hierarchie Kosten

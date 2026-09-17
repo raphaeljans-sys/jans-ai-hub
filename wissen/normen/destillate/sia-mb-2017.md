@@ -60,6 +60,16 @@ Das Merkblatt beschreibt ein Vorgehen, um das gegenwärtige und zukünftige Pote
     als in Kraft. Beleg: `wissen/architektur-fachwissen/wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`,
     Abschnitt «Geltungsvorbehalt». Der Vorbehalt im Praxis-Transfer («vor Verwendung am
     SIA-Register prüfen») bleibt für die zitierte Norm **SIA 469** bestehen.
+  - ⚠ **Berichtigung der Zuschreibung (Wissens-Chef Lauf 61, 17.09.2026).** Der Punkt wurde
+    **nicht** von aussen geschlossen: derselbe Geltungsstand war in dieser KB bereits am
+    **23.08.2026** aus derselben Primaerquelle erhoben und steht seither in
+    `wissen/normen/wiki/REGISTER.md` Z. 518 (Produktseite shop.sia.ch, abgerufen 23.08.2026,
+    «Bestand damit weiterhin gueltig»). Die Erhebung der KB `architektur-fachwissen` vom
+    15.09.2026 ist damit eine **unabhaengige Zweitbestaetigung**, keine eingeloeste Bringschuld.
+    Der Punkt stand nur deshalb noch als offen, weil er am **Register** statt am **Destillat**
+    geschlossen worden war. Lehre fuer die Cross-KB-Buchhaltung: bevor einer anderen KB eine
+    Eigenleistung zugeschrieben wird, im eigenen Bestand nachsehen, ob der Wert dort schon
+    liegt — die Bringschuld-Regel misst am Zeiger, nicht am Datum.
 - Die Kriterien 4.1 Nr. 1-6 sind auf S. 6 vollständig gelesen, hier aber nur als Titelliste plus Kurzcharakterisierung wiedergegeben; die inhaltlichen Beschreibungstexte sind bewusst nicht ausformuliert übernommen (Urheberrecht).
 - Ziff. 4.2 D Gesellschaft ist im Original knapp gehalten (sozioökonomische Aspekte, Auswirkungen von Umstrukturierungen/Stilllegungen auf Arbeitsplätze in der Region, S. 7); mehr steht dort nicht.
 - Die Grafiken (Werte-Matrix, Überlagerungsbeispiele, Interpretationsfälle auf S. 8, Formularmatrix S. 9) sind bildhaft und im Destillat nur beschrieben, nicht reproduziert.

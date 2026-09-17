@@ -420,7 +420,7 @@ Warmwasseranteil kann das die Förderfähigkeit kippen.
 `[[foerderprogramm-energie-zh-2026]]`; Themenartikel → `[[foerderung-energie-zh]]`. **Datenstand
 2026-07-20:** alle **20 geprüften Fördersätze am amtlichen PDF nachverifiziert und unverändert**
 (adversariale Prüfung Run 81, kein einziger Wert weicht ab); Programm per 20.07.2026 offen, kein
-Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`.
+Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`. Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]].
 
 ---
 
@@ -537,7 +537,7 @@ Erzeuger; bei Wärmepumpen sinkt zudem die nötige Vorlauftemperatur → höhere
 
 **Quelle:** EnergieSchweiz/BFE «Ermittlung der Wärmeerzeugerleistung» (Nr. 2781, 12.2015,
 SIA 384/1) → `[[bfe-waermeerzeugerleistung-2015]]`; Themenartikel → `[[heizleistung-und-waermeerzeuger]]`.
-⚠ Die **Wahl** des Heizsystems (WP ↔ Fernwärme ↔ Pellets) und das fossile Heizverbot → Skill `baurecht`;
+⚠ Die **Wahl** des Heizsystems (WP ↔ Fernwärme ↔ Pellets) und das fossile Heizverbot → Skill `baurecht` Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]].;
 WP-Dimensionierung (JAZ) braucht eigene Detailgrundlage.
 
 ---
@@ -745,7 +745,7 @@ konkretisieren laufend (Klimaschutz-Gesetz). ⚠ **Nachgeführt 2026-08-24:** de
 seit 01.02.2025 in Kraft**, und die **KBOB-Ökobilanzdaten stehen bei Version 9.0 vom 14.07.2026**
 (vorher hier v8.0; nächste umfassende Überarbeitung laut KBOB auf Anfang 2027 angekündigt). Wer
 projektgenau rechnet, zieht die v9.0-Liste, nicht die im Bestand zitierte v8.0. Betriebs-CO₂ über den Strommix nicht beziffert (Annahme, nicht belegt). Energierecht/
-Heizverbot → Skill `baurecht`.
+Heizverbot → Skill `baurecht`. Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]].
 
 ---
 
@@ -977,7 +977,7 @@ sind **Richtwerte** — für ein Projekt gilt der **WPesti-/SIA-384/3:2021-Wert*
 `[[sia-384-3-wpesti-jaz-methode]]`); die WPZ-Buchs-Feldwerte (2017-2019, drehzahlvariabel) sind die
 aktuellste CH-Feldmessung, die FAWA-Absolutwerte (2004) historisch, ihre Relationen/Lehren zeitlos.
 Förder-Mindest-JAZ kantonsabhängig (ZH am aktuellen Förderprogramm/EVEN prüfen). **Systemwahl/Entscheid
-+ fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen: noch aktuellere Feld-
++ fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]]. Offen: noch aktuellere Feld-
 statistik (Anlagen nach 2019), WPesti-Standardwerte.
 
 ---
@@ -1372,7 +1372,7 @@ Baubeginn. PV → Bund (Pronovo), NACH Inbetriebnahme.»** Gemeinden zahlen teil
 1.1.2017) → `[[gebaeudeprogramm-bund-hfm-2015]]`; konkrete ZH-Sätze → `[[foerderprogramm-energie-zh-2026]]`
 / `[[foerderung-energie-zh]]` / F7; PV-Förderung Bund → `[[pv-einmalverguetung-bund-bfe]]`. ⚠
 **Datenstand 2026-06-28:** HFM-2015-Modell stabil; CHF-Sätze kantonal/jährlich, Budget unterjährig
-erschöpfbar — vor Zusage am Standortkanton prüfen. Energierecht/Heizverbot → Skill `baurecht`.
+erschöpfbar — vor Zusage am Standortkanton prüfen. Energierecht/Heizverbot → Skill `baurecht`. Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]].
 
 ---
 
@@ -1476,7 +1476,7 @@ Schweiz → `[[energiefranken-foerder-suchmaschine-ch]]`; **Klimaprämie im Deta
 budgetabhängig (kein Rechtsanspruch); die Klimaprämie läuft **voraussichtlich bis spätestens Ende
 2027** (ältere Seiten mit «bis 2025» sind veraltet) → **vor Zusage standortgenau auf `energiefranken.ch`
 + Standortkanton/Gemeinde + klimaprämie.ch (exakter CHF-Satz + Enddatum) prüfen**. Energierecht/
-Heizverbot → Skill `baurecht`.
+Heizverbot → Skill `baurecht`. Die beiden ZH-Ausnahmen fuer Neubauten (fossile Spitzenlast bis 10 % des jaehrlichen Gesamtwaermebedarfs, waermegefuehrte WKK, je ohne Leistungsschwelle) fuehrt diese KB seit 17.09.2026 selbst: § 47c BBV I → [[F298]].
 
 ---
 

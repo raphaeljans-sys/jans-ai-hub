@@ -203,6 +203,12 @@ Geodaten-Katalog, CMS-Seite — keiner führt einen Kanal-/Leitungskataster).
    Einreichung revidierter Pläne über die Funktion "Mitteilung an Gemeinde" in
    `eBaugesuche.zh.ch`.
 
+**Rechtslage dazu fuehrt `baurecht`** (Zeiger gesetzt Wissens-Chef Lauf 61, 17.09.2026):
+Anschlusspflicht, Nebenleitungen, Kostentragung und Eigentumsuebergang stehen in
+`wissen/baurecht/wiki/baureife-und-erschliessung.md`, Abschnitt «Versorgung & Entsorgung»
+(§§ 53 Abs. 3 / 56 Abs. 1-2 WsG, §§ 97/98 WsV). Diese Seite fuehrt Beschaffung und Geodatum,
+nicht das Recht — gleiche Arbeitsteilung wie bei der Wasserversorgung.
+
 **Widerspruch aus dem Wege-Register aufgelöst:** der Nachtrag vom 08.09.2026 in
 `connectors/WEGE.md` hatte einen «Kanalkatasterauszug bei ERZ» probeweise als
 **kostenpflichtig** eingestuft (ungeprüfte Vermutung im Rahmen der WFS-Sackgassensuche,

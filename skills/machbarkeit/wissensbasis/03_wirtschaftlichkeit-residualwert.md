@@ -51,7 +51,7 @@ Preis des Bestandeserhalts.
 
 ## Healthcare-Rendite (Beleg WALD)
 Bruttorendite = Mietertrag/Investition (~6.8 %); Nettorendite via **Annuität** (BWO-Referenz-
-zinssatz 1.75 %, lineare Abschreibung 33 J CURAVIVA, Unterhalt+Verwaltung je 0.5 %) ~1.1 %;
+zinssatz 1.75 % (⚠ Studienstand WALD, **nicht als Default rechnen**; aktueller Satz **1.25 %**, unveraendert bestaetigt 01.09.2026 — fuehrend `wissen/immobilienbewertung/wiki/investorenmarkt-makro.md`, Abschnitt «Marktpuls Zins/Referenzzinssatz»; vor jeder Annuitaetsrechnung den dortigen Stand ziehen. Wissens-Chef Lauf 61, 17.09.2026), lineare Abschreibung 33 J CURAVIVA, Unterhalt+Verwaltung je 0.5 %) ~1.1 %;
 Sensitivität bei 2 % Amortisation → 3.3 %. Pflegeplatzkosten/Monat + Hotellerie-Taxe als Treiber.
 
 ## Typische Parameter (Defaults, projektweise verifizieren)

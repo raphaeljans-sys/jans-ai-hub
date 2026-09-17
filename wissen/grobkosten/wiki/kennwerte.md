@@ -16,6 +16,12 @@ Quelle der Wahrheit für den Skill `grobkosten-onepager` und den Agenten `grobko
 > - `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` (v2.0 seit 27.07.2026)
 >   zeigt im Feld `quelle_kb` auf diese KB — für den **Wohnbau** ist das korrekt, hier ist
 >   `grobkosten` führend.
+> - `wissen/immobilienbewertung/wiki/lageklasse-landwertanteil.md` Z. 150-153 rechnet aus den
+>   Gewichten des Abschnitts «BKP-Anteilsstruktur MFH Stadt Zürich, Stand 2025» den
+>   Umrechnungsfaktor **BKP 2 → BKP 2+4+5 (1.053)**, der dort in die ganze Spiegelungstabelle
+>   eingeht; bei einer Revision der Anteile mitziehen. Keine Führungsbehauptung — beide KBs
+>   haben eigenen, registrierten Zugang zur ZIW-Primärquelle (nachgetragen Wissens-Chef
+>   Lauf 61, 17.09.2026).
 > - `wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` (Etappe-3-Baustein B5).
 >
 > **Abgrenzung, die nicht verwischt werden darf:** Für **Healthcare** ist diese KB ausdrücklich

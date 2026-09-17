@@ -64,7 +64,8 @@ Drei Vorbehalte, die beim Uebernehmen mitzutragen sind:
 
 Finanzierungs-/Rendite-Parameter:
 - **Abschreibung 33 Jahre linear** (CURAVIVA-Referenz fuer Pflegebauten).
-- **BWO-Referenzzinssatz** (zur Zeit der Studie 1.75 %) fuer die Annuitaet.
+- **BWO-Referenzzinssatz** (zur Zeit der Studie 1.75 %) fuer die Annuitaet. (⚠ Studienstand WALD, **nicht als Default rechnen**; aktueller Satz **1.25 %**, unveraendert bestaetigt 01.09.2026 — fuehrend `wissen/immobilienbewertung/wiki/investorenmarkt-makro.md`, Abschnitt «Marktpuls Zins/Referenzzinssatz»; vor jeder Annuitaetsrechnung den dortigen Stand ziehen. Wissens-Chef Lauf 61, 17.09.2026).
+  Wirkung der Differenz: rund 0.30 Prozentpunkte Annuitaet p.a. bei 33 Jahren Laufzeit.
 - **Unterhalt + Verwaltung je ~0.5 %** der Investition.
 - WALD-Beleg: Bruttorendite (Mietertrag/Investition) ~6.8 %, Nettorendite via Annuitaet ~1.1 %,
   Sensitivitaet bei 2 % Amortisation → 3.3 %.

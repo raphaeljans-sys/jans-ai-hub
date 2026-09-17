@@ -77,6 +77,18 @@ gehoert der Satz in die Klausel «Gewicht des Anliegens schlaegt den Routine-Def
 *Warum:* die Klausel steuert heute jede Anrede-Entscheidung des Zwillings und hat in diesem Lauf
 genau einmal gesteuert und genau einmal danebengelegen.
 
+⚠ **Nachtrag Wissens-Chef Lauf 61 (17.09.2026) — die Frage ist praeziser zu stellen.** Der Lauf vom
+17.09. hat das GEBE-Kriterium an der **Fach-/Empfehlungsanfrage** widerlegt: sie gibt nichts und
+hebt trotzdem (Labinot, Gerry — 2:0), und der **Ankerfall der Klausel selbst** traegt denselben
+Befund seit Langem (Besnik, 21.05.2026, Betreff «Gewerke/Empfehlung», `beziehungsregister.md`
+Z. 166-180, zitiert in `rules/anrede-kontakte.md` Z. 30-32). Der Stand ist damit **3:0**, und der
+dritte Beleg steht seit dem 29.07.2026 in der importierten Rule. Die Eingrenzung ist am 17.09. in
+den Auto-Block kompiliert worden (`rules/jans-dna-facetten.md` Z. 205: «Die Fach-/Empfehlungsanfrage
+ist KEIN Zugeständnis — sie HEBT»), aber **in diese Frage nicht zurueckgeflossen**; der Fragenblock
+260917b desselben Laufs nimmt sie nicht auf. **Praeziser gefragt:** hebt die **Bitte** generell,
+und senkt allein das **Zugestaendnis** (Abgebot, Nachlass, Fristerstreckung)? Der Sachentscheid
+bleibt Deiner; der Wortlaut der Rule ist unangetastet.
+
 **260916b #2 — Wie redest Du Cornelia Gasser (Hobel Genossenschaft) routinemaessig an?** ·
 *Facette: Beziehungsregister*
 Belegt sind zwei Stufen an derselben Person, je nach Anlass: «Sehr geehrte Frau Gasser» vor einer

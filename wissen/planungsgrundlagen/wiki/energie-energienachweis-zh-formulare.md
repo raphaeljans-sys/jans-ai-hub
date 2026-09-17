@@ -121,6 +121,14 @@ für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-Z
   **Dünnschicht 16 m²/kW**. → grober Dachflächen-Check, ob die Pflichtleistung aufs Dach passt.
 - **Befreiung:** Erweiterungen (Anbau/Aufstockung) sind von der Eigenstrom-Anforderung befreit
   (Feld «Befreiung bei Erweiterung», Anteil EBF neu/bestehend).
+  ⚠ **Nur als Bagatellklausel, nicht pauschal** (Wissens-Chef Lauf 61, 17.09.2026): nach
+  **§ 47b Abs. 3 BBV I** ist eine Erweiterung nur befreit, wenn die neu geschaffene EBF
+  **weniger als 50 m²** betraegt **oder** **hoechstens 20 % der EBF des bestehenden Gebaeudeteils
+  und nicht mehr als 1000 m²**. Darueber greift die Eigenstrompflicht (Beispiel: 800 m² neu auf
+  2'000 m² Bestand = 40 % → pflichtig). Erlasswortlaut fuehrend in
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (§ 47 b Abs. 3, Nachtrag 133), Destillat
+  `wissen/energie/wiki/pv-eigenverbrauch-zev.md` (Abschnitt «Wann die ZH-Eigenstrompflicht NICHT
+  greift», Run 204).
 - **Alternativen statt eigener Anlage:** andere Elektrizitätserzeugungsanlage (EN-133) **oder**
   **Ersatzabgabe** gemäss kantonalen Vorgaben.
 - **ZH-Spezifika (EN-ZH S. 3-4):** hohe Bauten PV-Belegung **max 70 %** der anrechenbaren
@@ -128,7 +136,10 @@ für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-Z
   möglich (→4b); ZEV (Zusammenschluss zum Eigenverbrauch) über EN-104-ZH.
 
 **Schwellen-Merkposten (belegt, EN-ZH S. 3-4):**
-- **Eigenstrom** Neubau: min. 10 W/m² EBF (max 30 kW); hohe Bauten PV-Belegung max 70 % anrechenbare
+- **Eigenstrom** Neubau: min. 10 W/m² EBF (max 30 kW — ⚠ die Quellenangabe «EN-ZH S. 3-4» deckt
+  diesen Deckel nicht nachweislich; die ZH-Spezifika-Zeile oben nennt aus derselben Quelle nur die
+  70-%-Belegung. Deckel fuer ZH offen, E-R204-2, siehe Einschub «Bemessungsformel» oben);
+  hohe Bauten PV-Belegung max 70 % anrechenbare
   Gebäudefläche; −20 %-Unterschreitung des Wärmebedarfs → Verzicht auf Eigenstrom (→4b).
 - **Gebäudeautomation EN-141**: Neubauten Gebäudekat. III-XII ab **5000 m² EBF** (→13).
 - **Betriebsoptimierung (BO)**: BO innert **3 Jahren nach Inbetriebsetzung** (§ 13d Abs. 1 EnerG,

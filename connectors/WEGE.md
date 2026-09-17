@@ -506,6 +506,12 @@ Am 09.08.2026 blockiert:
 
 Der Prüfmodus `--nur-pruefen` läuft ohne Beanstandung, ebenso alle lesenden Abfragen.
 
+⚠ **Bevor eine Verweigerung als harte Sperre verbucht wird, das Befehlsformat pruefen.** Eine
+Meldung «Remote Shell Writes» bei einem Fernbefehl an den Mac Mini ist haeufig kein
+Klassifikator-Entscheid gegen die Sache, sondern ein Formfehler am eigenen Befehl (siehe
+«Kanonische Form: `ssh mini '<befehl>'`» im Stationen-Abschnitt weiter unten). Nachgetragen
+Wissens-Chef Lauf 61, 17.09.2026.
+
 ---
 
 ## 5. Werkzeug-Grundversorgung
@@ -1119,6 +1125,14 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   23.08. («scheitert, Mini offline») ist beendet. Regelmässig gegenmessen statt fortschreiben
   (`auto-verbesserungen` 260807, Spiegelfall). Über den Mini stehen Zertifikat und CLI bereit
   (`/Users/raphaeljans/.cli-m365-cert-combined.pem`, `~/Developer/jans-ai-hub/node_modules/.bin/m365`).
+- **Kanonische Form: `ssh mini '<befehl>'`, blank, ohne vorangestellte `-o`-Flags** (Rule
+  `auto-verbesserungen` 260917b, dort die Begruendung). `~/.ssh/config` traegt `ConnectTimeout`
+  und den Dual-Pfad bereits; ein vorangestelltes `-o …` bricht die stationslokale Praefix-Regel
+  `Bash(ssh mini *)`, faellt damit aus der erteilten Vollmacht und wird als «Remote Shell Writes»
+  verweigert — waehrend **lesende** Fernbefehle durchlaufen, weshalb der Formfehler beim Messen
+  nie auffaellt und erst beim Eingriff zuschlaegt. Vor einem Befund «Mini gesperrt» zuerst die
+  blanke Form probieren. Zweitens: `launchctl bootstrap` ueber `ssh` meldet `rc=5, Input/output
+  error`, auch wenn der Job geladen ist — am `launchctl list` und am Lauf messen, nicht am rc.
 - In einer nicht-interaktiven `ssh mini`-Shell liegt `node` **nicht im PATH**: voller Pfad
   `/opt/homebrew/bin/node` oder `export PATH=/opt/homebrew/bin:$PATH` voranstellen, sonst scheitert
   jedes Connector-Script dort mit `No such file or directory: 'node'`.

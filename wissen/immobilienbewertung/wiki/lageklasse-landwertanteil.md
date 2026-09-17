@@ -151,6 +151,9 @@ Landwert je m² Grundstück  =  Anteil(LK) × Neuwert je m² GF × AZ
 **BKP 2 = 3'365 CHF/m² GF** (Preisstand 2025); umgerechnet über die BKP-Anteilsstruktur der
 ZIW-Revision 2025 (BKP 2 = 89.374 %, BKP 4 = 2.808 %, BKP 5 = 1.894 % des Totals) ergibt das
 **BKP 2, 4 + 5 = 3'542 CHF/m² GF** (Faktor 1.053).
+Dieselben Gewichte werden parallel gefuehrt in `wissen/grobkosten/wiki/kennwerte.md`, Abschnitt
+«BKP-Anteilsstruktur MFH Stadt Zürich, Stand 2025» — bei einer Revision der amtlichen Reihe beide
+Stellen pruefen (Zeiger gesetzt Wissens-Chef Lauf 61, 17.09.2026; keine Fuehrungsverteilung).
 
 ### Ergebnis — was der amtliche Bodenpreis für den Landwertanteil bedeutet
 

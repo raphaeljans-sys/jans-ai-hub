@@ -286,6 +286,9 @@ S. 10-11.
 > ist **EBF × 10 W/m² (max. 30 kW)**; Flächenbedarf **8 m²/kW** (mono/polykristallin) bzw.
 > **16 m²/kW** (Dünnschicht) — Quelle Formular EN-104, Detail in
 > `[[energie-energienachweis-zh-formulare]]`.
+> ⚠ Deckel fuer ZH nicht belegt (§ 47b Abs. 1 BBV I kennt keinen kW-Deckel; Befund Run 204, 17.09.2026, offen als E-R204-2) — im ZH-Projekt keinen
+> Deckel zusichern; bei 6'000 m² EBF waeren es 60 kW statt 30 kW. Nachgetragen Wissens-Chef
+> Lauf 61 (17.09.2026), weil die Uebergabe von Run 204 nur die Formularseite erreicht hatte.
 >
 > ⚠ **Flächenkonkurrenz Haustechnik ↔ PV-Pflichtfläche (Wissens-Chef Run 18, 27.07.2026).** Nicht
 > davon ausgehen, dass die von Rückkühlern, Lüftungszentralen oder anderer Dachtechnik belegte
@@ -644,7 +647,8 @@ selbst nicht aufgefunden/gelesen — nur die öffentliche Zusammenfassungs-Brosc
   `wirtschaftlichkeit-rechner` (Annuität, Amortisation).
 - Welches Portal liefert die Dach-/Höhengeometrie → `[[kartenportale-geoportale-uebersicht]]`.
 - Eigenstromerzeugungs-**Pflicht** (Neubau, MuKEn/EN-104) → `[[energie-energienachweis-zh-formulare]]`
-  (EN-104-Detail: EBF × 10 W/m², max 30 kW) bzw. `[[u-werte-grenzwerte-ch]]` (KB energie).
+  (EN-104-Detail: EBF × 10 W/m², max 30 kW — Deckel fuer ZH nicht belegt, E-R204-2)
+  bzw. `[[u-werte-grenzwerte-ch]]` (KB energie).
 - **Brandschutz/Naturgefahren** der Anlage (Brandmauer-Übergang, RWA-Abstand, Feuerwehr ≥30 kW,
   Hagel/Schnee SIA 261) → `[[energie-pv-brandschutz]]`.
 

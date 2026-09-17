@@ -4625,7 +4625,12 @@ Erweiterung des Verteilers. Das Register der Nullform ist nicht Unhoeflichkeit, 
   gültig, weil dort nie ein Du bestand, das hätte fallen können; bei Hansen ist «Guten Tag Herr
   <Vollname>» bereits die gelebte Stufe. Beide Fälle zeigen dasselbe: **eskaliert wird über Verteiler
   und Register, nie über eine Aufwertung der Anrede.**
-- **Die Fach-/Empfehlungsanfrage im Du HEBT auf «Geschätzter <Vorname>» (2 von 2).** «Geschätzter
+- **Die Fach-/Empfehlungsanfrage im Du HEBT auf «Geschätzter <Vorname>» (2 von 2; mit dem
+  Ankerfall Besnik vom 21.05.2026 sind es 3 von 3 — Nachtrag Wissens-Chef Lauf 61, 17.09.2026:
+  die Mail mit dem Betreff «Gewerke/Empfehlung» an den lockersten Du-Kontakt trägt «Geschätzter
+  Besnik», belegt oben Z. 166-180, und steht seit dem 29.07.2026 als Beleg in der importierten
+  `rules/anrede-kontakte.md`. Die Rule steuerte hier also nicht falsch, nur der kompilierte
+  Auto-Block.)** «Geschätzter
   Labinot» und «Geschätzter Gerry» — beide Male, wo die Kontaktliste den Routine-Opener «Hoi»
   führt. Der Zwilling wählte «Hoi Labi» und berief sich dabei ausdrücklich auf die tags zuvor
   kompilierte Klausel «die Bitte um ein Zugeständnis trägt den LOCKERSTEN Opener» (260916). Die
