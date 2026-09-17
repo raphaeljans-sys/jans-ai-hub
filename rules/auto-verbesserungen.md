@@ -14,6 +14,18 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260917 — Freigegebene Auftraege am Stueck durcharbeiten, keine Zwischenstopps
+- **Regel:** Ist ein Auftrag freigegeben, wird er ohne Turn-Ende, ohne «soll ich
+  weitermachen», ohne Warten auf ein Stichwort durchgearbeitet, solange der naechste Schritt
+  umkehrbar ist. Fortschritt hoechstens als Einzeiler nebenbei, nie als Haltepunkt. Der eine
+  Schritt, den Claude nicht selbst ausfuehrt (endgueltige Loeschung, Zahlung, Versand,
+  Systemschalter), wird EINMAL knapp mit dem exakten Klick uebergeben, nicht ueber mehrere
+  Nachrichten wiederholt; alles davor und danach laeuft weiter. Vorgabe Raphael 17.09.2026
+  beim portionsweisen Leeren der iCloud-Fotomediathek («ich hasse wie du immer stoppst und
+  verzoegerst»). Gleiche Familie wie Eintrag 260809 (umkehrbare Arbeit wird getan, nicht
+  vorgelegt).
+- **Gilt fuer:** alle interaktiven Sessions, alle Stationen.
+
 ## 260913 — Praesentationen und Folien als InDesign-Dokument, nie als PPTX
 - **Regel:** Folien, Praesentationen und Sitzungs-/Vortragsvorlagen werden als
   InDesign-Dokument geliefert (`.indd` per InDesign-Scripting, daneben `.idml` und ein PDF
