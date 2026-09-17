@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 17:12:54
+Stand: 17.09.2026 17:23:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 17:12:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8a4df7cb7 nas-selfcommit: 4 Datei(en) 2026-09-17 17:00
+- f49133fe5 Synergie-Lauf 38: SYN-90 neu (Buchungsvollmacht 260702 zitiert A9, das den Zweifelsfall gegenteilig regelt), SYN-91 neu (User-Level-Grenze verbietet, was 260702 erlaubt); Verdrahtung bexio-auth.mjs geprueft, in Ordnung
