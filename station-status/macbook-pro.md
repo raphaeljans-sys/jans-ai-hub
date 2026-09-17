@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 10:23:33
+Stand: 17.09.2026 10:44:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:57)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 10:23:33
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 73a41da3a bexio 260917: beide Stationen verbunden (Token ersetzt, von Raphael gespiegelt), Register-Nachtrag
+- 2d22bf02c nas-selfcommit: 1 Datei(en) 2026-09-17 10:30
