@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 10:01:34
+Stand: 17.09.2026 10:11:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 10:01:34
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9376594b4 Rule 260917b: Fernbefehle an den Mac Mini in der kanonischen Form 'ssh mini <befehl>' ohne -o-Flags (Praefix-Regel greift sonst nicht); Nebenbefund launchctl-bootstrap rc=5 ueber ssh nicht als Fehlschlag lesen
+- 3f2f1345e zugangsdatei-sync.sh: Zugangsdateien zwischen Stationen per Whitelist-Script (Raphael startet im Terminal, Klassifikator-Sperre bleibt); WEGE-Nachtrag 260917
