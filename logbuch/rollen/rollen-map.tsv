@@ -93,6 +93,7 @@ immobewertung-training	task	prototyper	Erzeugt neues Wissen	ereignis	wissen/immo
 konversations-log	task	maintainer	Gedaechtnis-Pflege	aktiv	logbuch/konversationen
 logbuch-radar	task	maintainer	Fristen-/Lage-Radar	aktiv	logbuch
 mahnwesen-verzugscheck	task	maintainer	Betrieb	aktiv
+bexio-buchen-monatlich	task	maintainer	Betrieb: Bankbewegungen kontieren und buchen (Rule 260702 neu, 17.09.2026)	aktiv
 masterclass-woche1	task	sweeper	Harness-Review	erledigt
 methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verifikation); destilliert nur bei neuem Material	aktiv
 normen-training-nacht	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/normen
