@@ -13363,3 +13363,21 @@ weiterverfolgen. Geaenderte Dateien: `wiki/QUESTIONS.md`, `destillate/muken-2025
 (Offene-Punkte-Bullet + last_updated), `CHANGELOG.md`, Bericht
 `wissen/energie/outputs/2026-09-17_energie-run203.md`. Budget rund 0.5 von 5 USD. Zyklus sauber
 beendet, additiv, keine Loeschung.
+
+**NACHTRAG 2026-09-17, vierter Nachtschicht-Zyklus Mac Mini — energie Run 205: E-R204-2 geschlossen, kein 30-kW-Deckel in ZH.**
+Prioritaeten 1-2 leer/gesaettigt (keine pending Tasks; Synobsis Stufe 1+2 bei 853/853,
+`vectors.npz` aktuell, kein Rebuild noetig). Prioritaet 3 uebersprungen (Fristen-Radar heute
+bereits mehrfach ausfuehrlich bedient, zuletzt tenant-hygiene 20:1x). Prioritaet 4/5: die von
+Run 204 (Abendlauf MacBook Pro) offen gelassene P1-Frage **E-R204-2** aufgenommen — trug der in
+mehreren KB-Stellen als ZH-Regel gefuehrte 30-kW-Deckel der PV-Eigenstrompflicht wirklich fuer
+den Kanton Zuerich? Amtliches kantonales Formular **EN-104-ZH** (zh.ch, Version September 2022)
+per `curl`+`pdftotext` gegengelesen: die Formelzeile „EBF neu × 10 W/m²" traegt keine
+Maximalwert-Spalte, einziger Entlastungsmechanismus ist die 70-%-Belegungsgrenze bei hohen
+Bauten — identisch mit § 47b Abs. 1 BBV I. **Der 30-kW-Deckel ist damit als
+EnFK-Mustervorschrift/Regel anderer MuKEn-Kantone eingeordnet, nicht als ZH-Norm gestrichen.**
+Acht Fundstellen in zwei KBs korrigiert (die sechs aus Run 204/Wissens-Chef Lauf 61 plus zwei
+beim Abschluss-Grep neu gefundene Fehlzuschreibungen in `wiki/BAUHERREN-FAQ.md` F116/F117).
+`wiki/QUESTIONS.md` E-R204-2 auf `[x]`, CHANGELOG in beiden KBs nachgefuehrt, Cross-KB-
+Bringschuld an `wissen/planungsgrundlagen` erfuellt. Bericht
+`wissen/energie/outputs/2026-09-17_energie-run205.md`. Budget rund 1.9 von 5 USD. Kein Versand,
+keine Buchung, keine Loeschung. Zyklus sauber beendet, additiv.
