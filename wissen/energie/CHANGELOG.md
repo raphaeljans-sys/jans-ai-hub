@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-17 (Run 205, Nachtschicht Mac Mini) — E-R204-2 geschlossen: kein 30-kW-Deckel in ZH, am amtlichen Formular EN-104-ZH gegengelesen
+
+- Amtliches kantonales Formular **EN-104-ZH** (zh.ch, Version September 2022) via `curl` +
+  `pdftotext -layout` gelesen. Bestaetigt: die Formelzeile „EBF neu × 10 W/m²" traegt keine
+  Maximalwert-Spalte, einziger Entlastungsmechanismus ist die 70-%-Belegungsgrenze bei hohen
+  Bauten — identisch mit § 47b Abs. 1 BBV I. Der 30-kW-Deckel ist damit als **EnFK-Mustervorschrift
+  ausserhalb ZH** eingeordnet, nicht als ZH-Regel gestrichen.
+- Nebenfund am Formular: **PV-Zuschlag 5 kWh/m² zur Deckung der Kuehlung** (Gebaeudekategorien
+  I, II + IV) — bereits an anderer Stelle der KB erfasst.
+- **Sechs Fundstellen korrigiert** (die vier aus Run 204/Lauf 61 plus deren beide Nachbarzeilen):
+  `destillate/enfk-en-104-eigenstromerzeugung.md`, `wiki/BAUHERREN-FAQ.md` F10,
+  `wiki/pv-solar-technologien.md`, `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md`
+  (Bemessungsformel + Schwellen-Merkposten), `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md`
+  (Dimensionierungs-Anker + Querverweis). `wiki/QUESTIONS.md` E-R204-2 auf `[x]` gesetzt, Aufloesung
+  angehaengt. Cross-KB-Bringschuld erfuellt (Rule `wissens-bibliothekar`). Bericht:
+  `outputs/2026-09-17_energie-run205.md`.
+
 ## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB): 30-kW-Vorbehalt vervollstaendigt, sechs stale Weichen umgehaengt
 
 - **WC61-1:** Die Vollstaendigkeitsaussage von Run 204 («bis dahin steht an allen drei Stellen ein

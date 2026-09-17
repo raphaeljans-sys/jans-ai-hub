@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-17 (Run 205, Nachtschicht Mac Mini, Cross-KB-Bringschuld aus `wissen/energie`) — E-R204-2 geschlossen: kein 30-kW-Deckel in ZH
+
+`wissen/energie` Run 205 hat das amtliche kantonale Formular EN-104-ZH gegengelesen (zh.ch,
+Version September 2022): kein kW-Deckel, Entlastung hoher Bauten nur ueber die 70-%-Belegung.
+Die vier hier gefuehrten Fundstellen sind korrigiert: `wiki/energie-energienachweis-zh-formulare.md`
+(Abschnitte «Bemessungsformel» und «Schwellen-Merkposten») und
+`wiki/energie-pv-eignung-typenwahl.md` (Dimensionierungs-Anker und Querverweis-Zeile). Details
+und Beleg fuehrend in `wissen/energie/wiki/QUESTIONS.md` E-R204-2 und
+`wissen/energie/outputs/2026-09-17_energie-run205.md`.
+
 ## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB, Empfaenger-KB: `wissen/energie`)
 
 - **WC61-2 (bestaetigt):** `wiki/energie-energienachweis-zh-formulare.md` fuehrte die Befreiung von

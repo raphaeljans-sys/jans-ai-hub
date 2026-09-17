@@ -62,7 +62,8 @@ Stand der Vorlaeufe, kein durch diesen Lauf neu entstandener Treffer, nicht einz
   schnell alternde Rechtslage und sind damit die ertragreichere Klasse als ein Technik-Destillat.
   Vor der Wahl je pruefen, ob sie (wie die Raenge 1-3) laengst primaerquellen-gelesen sind.
 
-- [ ] **E-R204-2 (P1, Widerspruch im Bestand):** **Gilt der 30-kW-Deckel der Eigenstrompflicht im
+- [x] **E-R204-2 (P1, Widerspruch im Bestand) — GESCHLOSSEN 17.09.2026 (Nachtschicht Mac Mini,
+  Run 205).** **Gilt der 30-kW-Deckel der Eigenstrompflicht im
   Kanton Zuerich ueberhaupt?** Die KB fuehrt ihn an mehreren Stellen als ZH-Regel
   (`[[enfk-en-104-eigenstromerzeugung]]`, FAQ **F10**, und in der Schwester-KB
   `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` Abschnitt «Bemessungsformel»).
@@ -88,8 +89,24 @@ Stand der Vorlaeufe, kein durch diesen Lauf neu entstandener Treffer, nicht einz
   ihn nicht traegt). Alle vier sind im selben Lauf additiv mit dem Kurzvorbehalt versehen worden.
   **Lehre:** eine Vollstaendigkeitsaussage ueber die eigene Korrektur («steht jetzt ueberall»)
   ist selbst zu messen, nicht zu behaupten — gleiche Familie wie WC60-1, wo eine Korrektur
-  drei von sechs Stellen erreichte. Die Sachfrage (gilt der Deckel in ZH?) bleibt unveraendert
-  offen; Gegenlesung am kantonalen EN-104-ZH steht weiterhin aus.
+  drei von sechs Stellen erreichte.
+
+  ✓ **AUFLOESUNG 17.09.2026 (Nachtschicht Mac Mini, Run 205).** Das amtliche kantonale Formular
+  **EN-104-ZH** (`zh.ch/.../projektkontrolle/en_104_zh.pdf`, Version September 2022) wurde per
+  `curl` heruntergeladen und mit `pdftotext -layout` gelesen. Ergebnis: die Formularzeile
+  «berechnete Leistung aufgrund EBF: EBF neu × 10 W/m²» traegt **keine Maximalwert-Spalte und
+  keinen «max. 30 kW»-Vermerk**; einziger Entlastungsmechanismus ist «bei hohen Bauten mindestens
+  70% der anrechenbaren Gebaeudeflaechen belegt» — deckungsgleich mit § 47b Abs. 1 BBV I. Damit
+  ist am Formular selbst bestaetigt, was der Verordnungstext in Run 204 bereits nahelegte: **der
+  30-kW-Deckel ist keine ZH-Regel**, sondern die EnFK-Mustervorschrift (MuKEn 2014) bzw. gilt in
+  anderen MuKEn-Kantonen (z.B. dem SZ-Realbeleg in `[[enfk-en-104-eigenstromerzeugung]]`).
+  Nebenfund am Formular: ein **PV-Zuschlag von 5 kWh/m² zur Deckung der Kuehlung** bei den
+  Gebaeudekategorien I, II und IV — bereits an anderer Stelle der KB erfasst, hier nur bestaetigt.
+  **Korrigiert (alle sechs Fundstellen aus Run 204 + Lauf 61):** `[[enfk-en-104-eigenstromerzeugung]]`,
+  FAQ F10, `wiki/pv-solar-technologien.md`, `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md`
+  (zwei Stellen), `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md` (zwei Stellen).
+  Cross-KB-Bringschuld erfuellt (Rule `wissens-bibliothekar`). Bericht:
+  `wissen/energie/outputs/2026-09-17_energie-run205.md`.
 
 - [ ] **E-R204-1 (P3):** Fuehrt die **EVEN-Maske** die Formularreihe EN-101 bis EN-141 unveraendert,
   oder hat der elektronische Vollzug die Gliederung geaendert? Nur mit Login beantwortbar, also

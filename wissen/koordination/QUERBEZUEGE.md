@@ -5305,7 +5305,7 @@ Befund fiel, seine Substanz nicht.**
 
 ### energie ↔ planungsgrundlagen (Private Kontrolle, CLT-U-Werte) — geprueft 2026-07-22 (Run 12)
 - **0 Kennwert-Widerspruch:** EN-Formular-Matrix, Drei-Unterschriften-Tabelle, EN-104-30-kW-Deckel, CLT-λ (0,12),
-  WDV §8/6 vs. EN-110-ZH-Trennung — alle fassungsgleich. Private-Kontrolle-Verlinkung (Run 11) hält bidirektional.
+  WDV §8/6 vs. EN-110-ZH-Trennung — alle fassungsgleich. ⚠ **Ueberholt (Lauf 61 / energie Run 205, 17.09.2026):** die Uebereinstimmung war echt, aber gegen die **falsche Quelle** gemessen — beide Seiten zitierten das EnFK-**Muster**formular EN-104 (Juni 2019). Das amtliche kantonale **EN-104-ZH** (September 2022) und § 47b Abs. 1 BBV I kennen **keinen kW-Deckel**; fuer ZH gilt EBF x 10 W/m² ohne Obergrenze. Nicht mehr als Bestaetigung des Deckels zitieren. Private-Kontrolle-Verlinkung (Run 11) hält bidirektional.
 - **Befund 1 (VERALTETES Frontmatter, autonom):** energie `private-kontrolle-zh.md` `last_updated` 2026-06-11 trotz
   Run-11-Edit vom 21.07. → auf 2026-07-21 nachgezogen.
 - **Befund 2 (FEHLENDE QUERVERLINKUNG, autonom):** pg `energie-uebersicht` (CLT-Abschnitt) destilliert dieselbe
@@ -5350,7 +5350,7 @@ Befund fiel, seine Substanz nicht.**
 
 ### energie ↔ planungsgrundlagen (Private Kontrolle ZH) — geprueft 2026-07-21 (Run 11)
 - **Anlass:** energie Run 83. **0 Widerspruch** zwischen den KBs: WP-Weichen korrigiert-fassungsgleich,
-  WDV §8 Abs.6 (5 kWh/m² Neubau) vs. EN-110-ZH (12 W/m² Bestand) sauber getrennt, EN-104 30-kW übereinstimmend;
+  WDV §8 Abs.6 (5 kWh/m² Neubau) vs. EN-110-ZH (12 W/m² Bestand) sauber getrennt, EN-104 30-kW übereinstimmend; ⚠ **Ueberholt (Lauf 61 / energie Run 205, 17.09.2026):** die Uebereinstimmung war echt, aber gegen die **falsche Quelle** gemessen — beide Seiten zitierten das EnFK-**Muster**formular EN-104 (Juni 2019). Das amtliche kantonale **EN-104-ZH** (September 2022) und § 47b Abs. 1 BBV I kennen **keinen kW-Deckel**; fuer ZH gilt EBF x 10 W/m² ohne Obergrenze. Nicht mehr als Bestaetigung des Deckels zitieren.
   Formularmatrix EN-101…141 bewusst abgegrenzt (expliziter Querbezug-Block, korrekt umgesetzt).
 - **Befund (mittel):** `energie/destillate/private-kontrolle-zh` und `pg/wiki/energie-private-kontrolle-zh`
   destillieren dasselbe AWEL-Merkblatt, ohne gegenseitigen Verweis. → **beidseitig verlinkt** (pg führend

@@ -19,6 +19,16 @@ Bericht: `outputs/2026-09-17_wissens-chef-run61.md`.
   additiv versehen, Nachtrag an E-R204-2. **Zweiter Lauf in Folge mit diesem Fehlermuster** (WC60-1:
   drei von sechs Stellen). ⚠ Das eigene Register trug ihn mit: `QUERBEZUEGE.md` Z. 5235/5281
   zertifizieren den Deckel aus den Laeufen 11/12 als «fassungsgleich».
+- **WC61-1 noch im selben Lauf ueberholt, im besten Sinn:** die parallel laufende Nachtschicht
+  **energie Run 205** hat den Nachtrag gelesen, die Fundstellenliste uebernommen und E-R204-2
+  **geschlossen** — das amtliche kantonale **EN-104-ZH** (September 2022) kennt wie § 47b Abs. 1
+  BBV I **keinen kW-Deckel**; bei 6'000 m² EBF sind es 60 kW. Alle sechs Fundstellen tragen jetzt
+  die geschlossene Antwort, `grep` auf «offen als E-R204-2» findet null Treffer. Keiner der beiden
+  Laeufe haette den Punkt allein geschlossen: Run 204 kannte vier der sechs Stellen nicht, der
+  Wissens-Chef haette das kantonale Formular nicht gegengelesen. Die zwei Registerzeilen aus den
+  Laeufen 11/12 (Z. 5308, 5353), die den Deckel als «fassungsgleich» zertifizierten, sind als
+  ueberholt gekennzeichnet — die Uebereinstimmung war echt, nur gegen das **Muster**formular
+  gemessen.
 - **WC61-2 bestaetigt:** «Erweiterungen sind von der Eigenstrompflicht befreit» ist in Wahrheit die
   **Bagatellklausel** § 47b Abs. 3 BBV I (< 50 m² ODER ≤ 20 % und ≤ 1000 m²). Am amtlichen Wortlaut
   gegengelesen; 800 m² neu auf 2'000 m² Bestand = 40 % → pflichtig.

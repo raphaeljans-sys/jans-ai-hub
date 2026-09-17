@@ -22,6 +22,34 @@ den Leser beim fossilen Heizverbot an eine KB, die diesen Inhalt regelgemäss ga
 während die eigene, seit heute vollständige Antwort daneben liegt. Niemand hat etwas falsch
 geschrieben; es hat nur niemand die alten Weichen umgelegt, als die eigene Antwort kam.
 
+## Nachtrag noch im selben Lauf — der Befund wurde binnen Minuten überholt, im besten Sinn
+
+Während dieser Lauf schrieb, fuhr auf dem Mac Mini die Nachtschicht **energie Run 205**. Sie hat
+den Nachtrag an `E-R204-2` gelesen, die dort benannte Fundstellenliste übernommen — und die Frage
+**geschlossen**: das amtliche kantonale Formular **EN-104-ZH** (Version September 2022) wurde
+gegengelesen und kennt, wie **§ 47b Abs. 1 BBV I**, **keinen kW-Deckel**. Für den Kanton Zürich gilt
+`EBF × 10 W/m²` ohne Obergrenze; der 30-kW-Deckel ist eine EnFK-Mustervorschrift für Kantone ohne
+eigene Regelung. Bei 6'000 m² EBF sind es damit tatsächlich **60 kW**, nicht 30.
+
+Alle sechs Fundstellen — die zwei aus Run 204 und die vier, die dieser Lauf benannt hat — tragen
+jetzt die **geschlossene Antwort** statt eines Vorbehalts. Nachgemessen: `grep` auf «offen als
+E-R204-2» über `energie/wiki/` und `planungsgrundlagen/wiki/` findet **null Treffer**.
+
+Zwei Dinge sind daran festzuhalten:
+
+01. **Die Bringschuld hat in beide Richtungen funktioniert.** Dieser Lauf lieferte die vollständige
+    Fundstellenliste, der Fachlauf lieferte die amtliche Antwort. Keiner der beiden hätte den Punkt
+    allein geschlossen: Run 204 kannte vier der sechs Stellen nicht, und der Wissens-Chef hätte das
+    kantonale Formular nicht gegengelesen.
+02. **Der Befund WC61-1 bleibt gültig, auch wenn seine Sachfrage erledigt ist.** Beanstandet war
+    nicht der Deckel, sondern die **ungeprüfte Vollständigkeitsaussage** über die eigene Korrektur.
+    Genau diese Lücke hat der Nachtrag geschlossen und damit den Fachlauf vollständig gemacht.
+
+Nachgezogen: die beiden Registerzeilen aus den Läufen 11/12, die den Deckel als «fassungsgleich»
+bzw. «übereinstimmend» zertifizierten (`QUERBEZUEGE.md` Z. 5308 und 5353), sind als **überholt**
+gekennzeichnet. Die Übereinstimmung war echt, nur gegen die falsche Quelle gemessen: beide Seiten
+zitierten das EnFK-**Muster**formular, nicht das kantonale.
+
 ## Bilanz
 
 | | Zahl |

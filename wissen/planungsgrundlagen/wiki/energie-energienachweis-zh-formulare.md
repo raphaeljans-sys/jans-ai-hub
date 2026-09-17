@@ -106,17 +106,21 @@ der EnDK-Plattform verifiziert (`wissen/energie/destillate/enfk-nachweisformular
 **ausserhalb des Kantons Zürich** — genau dort liegt der oben zitierte Realbeleg (Einsiedeln SZ);
 für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-ZH/EVEN» bleibt richtig.
 
-- **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, gedeckelt auf **Maximum
-  30 kW**. ⚠⚠ **Der 30-kW-Deckel ist für den Kanton Zürich nicht belegt** (Befund KB `energie`,
-  Run 204, 17.09.2026, übergeben nach Rule `wissens-bibliothekar`): er stammt aus der
-  MuKEn-2014-Mustervorschrift bzw. dem EnFK-Musterformular EN-104 (Juni 2019, gültig bis
-  31.12.2024). **§ 47b Abs. 1 BBV I** (LS 700.21, Nachtrag 133) verlangt nur «mindestens 10 Watt
-  pro m² Energiebezugsfläche» und «für Photovoltaikanlagen … eine Belegung von höchstens 70% der
+- **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, in ZH **ohne kW-Deckel**.
+  ✓ **E-R204-2 geschlossen (Befund KB `energie`, Run 205, 17.09.2026):** der oft zitierte
+  30-kW-Deckel stammt aus der MuKEn-2014-Mustervorschrift bzw. dem EnFK-Musterformular EN-104
+  (Juni 2019, gültig bis 31.12.2024) und gilt so in anderen MuKEn-Kantonen — **nicht in ZH**.
+  **§ 47b Abs. 1 BBV I** (LS 700.21, Nachtrag 133) verlangt nur «mindestens 10 Watt pro m²
+  Energiebezugsfläche» und «für Photovoltaikanlagen … eine Belegung von höchstens 70% der
   anrechenbaren Gebäudefläche»; ein grep über den ganzen BBV-I-Volltext
-  (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`) findet «30 kW» nirgends. Bei grossen EBF
-  (Healthcare, Verwaltung) kehrt sich die Aussage damit um. Offen als **E-R204-2** in
-  `wissen/energie/wiki/QUESTIONS.md`; Gegenlesung am kantonalen Formular **EN-104-ZH** ausstehend —
-  bis dahin im ZH-Projekt keinen Deckel zusichern. (Beispiel: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
+  (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`) findet «30 kW» nirgends. **Am amtlichen
+  kantonalen Formular EN-104-ZH gegengelesen** (zh.ch, Version September 2022, per
+  `curl`+`pdftotext`): die Formularzeile «EBF neu × 10 W/m²» trägt keine Maximalwert-Spalte;
+  einziger Entlastungsmechanismus ist die 70-%-Belegung bei hohen Bauten. Neu am Formular
+  gefunden: **PV-Zuschlag 5 kWh/m² zur Deckung der Kühlung** (nur Gebäudekategorien I, II + IV).
+  Bei grossen EBF (Healthcare, Verwaltung) ist die ZH-Pflicht damit ein Mehrfaches höher als nach
+  der Mustervorschrift — Beispiel: 6'000 m² EBF ergeben **60 kW**, nicht 30 kW. (Kleinbeispiel
+  unverändert: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
 - **Flächenbedarf je kW (Modul-Annahme im Formular):** **mono-/polykristallin 8 m²/kW** ·
   **Dünnschicht 16 m²/kW**. → grober Dachflächen-Check, ob die Pflichtleistung aufs Dach passt.
 - **Befreiung:** Erweiterungen (Anbau/Aufstockung) sind von der Eigenstrom-Anforderung befreit
@@ -136,9 +140,9 @@ für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-Z
   möglich (→4b); ZEV (Zusammenschluss zum Eigenverbrauch) über EN-104-ZH.
 
 **Schwellen-Merkposten (belegt, EN-ZH S. 3-4):**
-- **Eigenstrom** Neubau: min. 10 W/m² EBF (max 30 kW — ⚠ die Quellenangabe «EN-ZH S. 3-4» deckt
-  diesen Deckel nicht nachweislich; die ZH-Spezifika-Zeile oben nennt aus derselben Quelle nur die
-  70-%-Belegung. Deckel fuer ZH offen, E-R204-2, siehe Einschub «Bemessungsformel» oben);
+- **Eigenstrom** Neubau: min. 10 W/m² EBF (✓ **kein kW-Deckel in ZH**, E-R204-2 geschlossen
+  17.09.2026 — die frühere Quellenangabe «EN-ZH S. 3-4 max 30 kW» war die Mustervorschrift
+  ausserhalb ZH, nicht das kantonale Formular; siehe Einschub «Bemessungsformel» oben);
   hohe Bauten PV-Belegung max 70 % anrechenbare
   Gebäudefläche; −20 %-Unterschreitung des Wärmebedarfs → Verzicht auf Eigenstrom (→4b).
 - **Gebäudeautomation EN-141**: Neubauten Gebäudekat. III-XII ab **5000 m² EBF** (→13).

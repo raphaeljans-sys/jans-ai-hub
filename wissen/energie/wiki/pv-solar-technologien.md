@@ -41,7 +41,9 @@ Flach-, Vakuumröhren- oder unverglaste Kollektoren. Leitprinzip (B. Kämpfen): 
 erfüllt zwei Funktionen.**
 
 ## Pflicht & Grösse
-Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (⚠ Deckel fuer ZH nicht belegt (§ 47b Abs. 1 BBV I kennt keinen kW-Deckel; Befund Run 204, 17.09.2026, offen als E-R204-2)) (Detail → [[BAUHERREN-FAQ]] F10,
+Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, **ohne kW-Deckel** (§ 47b Abs. 1 BBV I und das kantonale
+Formular EN-104-ZH kennen keine Obergrenze; der 30-kW-Deckel gilt nur ausserhalb ZH als
+EnFK-Mustervorschrift — E-R204-2 geschlossen 17.09.2026, Run 205) (Detail → [[BAUHERREN-FAQ]] F10,
 `[[enfk-en-104-eigenstromerzeugung]]`). Typ-Wahl → [[BAUHERREN-FAQ]] F4.
 
 ## Ertrag & Eigenverbrauch (Praxiswerte)

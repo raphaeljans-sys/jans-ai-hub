@@ -283,12 +283,12 @@ S. 10-11.
   ewz-Empfehlung **50 cm Kiesstreifen statt Substrat** unter dem V-Tiefpunkt.
 
 > **Dimensionierungs-Anker (Eigenstrom-Pflicht Neubau ZH):** die **mindestens** nötige PV-Leistung
-> ist **EBF × 10 W/m² (max. 30 kW)**; Flächenbedarf **8 m²/kW** (mono/polykristallin) bzw.
-> **16 m²/kW** (Dünnschicht) — Quelle Formular EN-104, Detail in
+> ist **EBF × 10 W/m², ohne kW-Deckel**; Flächenbedarf **8 m²/kW** (mono/polykristallin) bzw.
+> **16 m²/kW** (Dünnschicht) — Quelle Formular EN-104-ZH, Detail in
 > `[[energie-energienachweis-zh-formulare]]`.
-> ⚠ Deckel fuer ZH nicht belegt (§ 47b Abs. 1 BBV I kennt keinen kW-Deckel; Befund Run 204, 17.09.2026, offen als E-R204-2) — im ZH-Projekt keinen
-> Deckel zusichern; bei 6'000 m² EBF waeren es 60 kW statt 30 kW. Nachgetragen Wissens-Chef
-> Lauf 61 (17.09.2026), weil die Uebergabe von Run 204 nur die Formularseite erreicht hatte.
+> ✓ E-R204-2 geschlossen (17.09.2026, Run 205): § 47b Abs. 1 BBV I und das kantonale Formular
+> EN-104-ZH kennen keinen kW-Deckel — bei 6'000 m² EBF sind es 60 kW, nicht 30 kW. Der 30-kW-Deckel
+> gilt nur ausserhalb ZH als EnFK-Mustervorschrift.
 >
 > ⚠ **Flächenkonkurrenz Haustechnik ↔ PV-Pflichtfläche (Wissens-Chef Run 18, 27.07.2026).** Nicht
 > davon ausgehen, dass die von Rückkühlern, Lüftungszentralen oder anderer Dachtechnik belegte
@@ -647,7 +647,7 @@ selbst nicht aufgefunden/gelesen — nur die öffentliche Zusammenfassungs-Brosc
   `wirtschaftlichkeit-rechner` (Annuität, Amortisation).
 - Welches Portal liefert die Dach-/Höhengeometrie → `[[kartenportale-geoportale-uebersicht]]`.
 - Eigenstromerzeugungs-**Pflicht** (Neubau, MuKEn/EN-104) → `[[energie-energienachweis-zh-formulare]]`
-  (EN-104-Detail: EBF × 10 W/m², max 30 kW — Deckel fuer ZH nicht belegt, E-R204-2)
+  (EN-104-ZH-Detail: EBF × 10 W/m², ohne kW-Deckel — E-R204-2 geschlossen 17.09.2026)
   bzw. `[[u-werte-grenzwerte-ch]]` (KB energie).
 - **Brandschutz/Naturgefahren** der Anlage (Brandmauer-Übergang, RWA-Abstand, Feuerwehr ≥30 kW,
   Hagel/Schnee SIA 261) → `[[energie-pv-brandschutz]]`.
