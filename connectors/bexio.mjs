@@ -114,10 +114,10 @@ function tokenBefund(token) {
 /** Einzige HTTP-Funktion. Schreibende Methoden nur ueber bewusste Aufrufe.
  *  weich=true: wirft bei HTTP-Fehlern eine Exception statt den Prozess zu beenden
  *  (noetig fuer Buchungslaeufe, damit ein Einzelfehler den Lauf + das Protokoll nicht killt). */
-async function api(pfad, { methode = 'GET', body = null, roh = false, weich = false } = {}) {
+async function api(pfad, { methode = 'GET', body = null, roh = false, weich = false, pat = false } = {}) {
   const url = pfad.startsWith('http') ? pfad : BASE + pfad;
   const headers = {
-    'Authorization': 'Bearer ' + await holeToken(),
+    'Authorization': 'Bearer ' + (pat ? ladeToken() : await holeToken()),
     'Accept': roh ? 'application/pdf' : 'application/json',
   };
   if (body) headers['Content-Type'] = 'application/json';
@@ -255,7 +255,11 @@ async function holePdf(id, zielDir) {
 async function alleBankTx() {
   const out = [];
   for (let off = 0; ; off += 500) {
-    const page = await api(`/3.0/banking/transactions?limit=500&offset=${off}`);
+    // Gemessen 17.09.2026: dieser Endpunkt antwortet ueber OIDC mit 403, auch mit bank_payment_show,
+    // accounting_settings_show und finance_reports; ueber den PAT mit 200. Der noetige Scope ist
+    // nicht dokumentiert, das Schreibrecht auf Bankzahlungen bekommt der Dauerzugang bewusst nicht.
+    // Darum laeuft NUR dieser Aufruf ueber den PAT (60 Tage, ~/.bexio.env).
+    const page = await api(`/3.0/banking/transactions?limit=500&offset=${off}`, { pat: true });
     if (!page || !page.length) break;
     out.push(...page);
     if (page.length < 500) break;
