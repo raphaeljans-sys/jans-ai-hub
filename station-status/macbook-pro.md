@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 09:21:55
+Stand: 17.09.2026 09:32:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:21)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 09:21:55
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6b4a523da ag-gruendung-monitor 260917: Status unverändert P1, Kapitaleinzahlung 34 Tage überfällig
+- 176272910 logbuch-radar 260917: Nachtrag Vertragsgrundlage HOP2 an Sitzungskreis (17.09. 09:25), Briefing-Versand belegt

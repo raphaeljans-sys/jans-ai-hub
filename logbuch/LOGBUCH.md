@@ -3,6 +3,61 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 17.09.2026 (09:20 bis 09:5x, Kurzmail als Nachtrag zum Radar) — md2docx per A6 repariert, Samstagskonflikt im Privatkalender gefunden, Vorleistungs-Mail als versendet berichtigt
+
+**Lage des Laufs.** Der Chef ist heute nicht ausgefallen, er lief verspaetet: Start 09:20 CEST
+statt 08:39, weil die ganze MacBook-Loop-Kette erst ab 09:08 nachgeholt wurde. Der
+`logbuch-radar` lief dadurch um 09:13 statt 06:55 und hat, gestuetzt auf `lastRunAt` vom
+16.09., den Chef als ausgefallen bewertet und selbst gemailt (Ausnahme nach Schritt 6, sachlich
+richtig entschieden — zum Zeitpunkt seiner Messung gab es keinen Chef-Lauf von heute). Statt der
+ueblichen 90 Minuten lagen zwischen Radar und Chef sieben Minuten. **Folge fuer diesen Lauf:**
+das Radar-Briefing war beim Start noch nicht geschrieben, die Signale wurden deshalb unabhaengig
+selbst erhoben und erst am Schluss gegen den Radar-Abschnitt gehalten. Der Chef hat darum
+**nicht** das volle Tagesbriefing gesendet, sondern nur das Delta.
+
+**Ausgefuehrt (Whitelist A6) — DOCX-Pipeline repariert.** Ausloeser: Registerzeile
+`heartbeat-daily` 17.09. 08:0x (Mac Mini, md2docx erzeugt kein DOCX). Guards geprueft: umkehrbar
+(Sicherungskopie `md2docx.py.vor-260917` im Session-Scratchpad, Rueckbaubefehl im Register),
+keine Rechteausweitung, nichts geloescht, Betroffene und Umfang protokolliert. Aenderung:
+`skills/studien-generator/tools/md2docx.py` Zeile 49, `os.path.realpath` beidseitig auf
+`os.path.abspath` — gezielt an dieser einen Zeile, kein globales Ersetzen (Rule 260811).
+Ergebnis: `diff` zeigt genau eine geaenderte Zeile und null Loeschungen, `py_compile` sauber,
+Regelweg lokal gefahren und **DOCX 36'722 Bytes** erzeugt; Commit ueber `nas-commit-now.sh`,
+Zielzeile im SSD-Klon gegengelesen. **Ehrlicher Rest:** die Gegenmessung auf dem Mac Mini fehlt.
+Die Schreibprobe per `ssh mini` hat der Auto-Mode-Klassifikator abgewiesen (Grund «Remote Shell
+Writes»); nach Rule `wege-und-vollmachten` nicht umgangen. Die Wirkung dort ist hergeleitet, nicht
+gemessen — der Befund von 08:0x hatte den Patch auf dem Mini selbst auf einer Kopie verifiziert.
+
+**Drei eigene Befunde, die der Radar nicht hatte.** (1) **Samstag 19.09., Privatkalender:** der
+iCloud-Kalender «Privat» traegt um **07:00** den Eintrag «Maria», mitten im Estermann-Einsatz;
+zusammen mit den zugesagten 06:30 und den im Outlook stehenden 08:00 stehen damit drei Zeiten fuer
+denselben Morgen nebeneinander. Der Radar hat ueber Graph nur den Outlook-Kalender gelesen und
+konnte das nicht sehen. Termin **nicht** geaendert (A2 laesst das nur als Vorschlag zu).
+(2) **Berichtigung:** die Vorleistungs-Mail zum Samstagseinsatz gilt im Register seit dem 07.09.
+als liegender Entwurf, ist aber am **09.09.2026 10:58:37** hinausgegangen, zwei Tage vor der
+eigenen Frist; der Entwurf blieb nach dem Senden liegen und sah deshalb bei jeder Zaehlung wie
+ein unerledigter Vorgang aus (Rule 260709 Ziff. 5). Offen ist nur noch die Rueckbestaetigung.
+(3) **Gastzugriff KISPI:** `--gaeste kispi` meldet fuer **alle 28 Gaeste «kein Ablauf»**, auch fuer
+L. Hiltmann, den das Register auf den 22.09. fuehrt. Ob die Ablaeufe real weg sind oder der
+Connector das Feld nicht liest, liess sich nicht entscheiden — beide Graph-Gegenproben endeten mit
+403 am App-only-Zertifikat. Nach Rule `wege-und-vollmachten` als Werkzeugbefund verbucht, **nicht**
+als Entwarnung.
+
+**Gegengeprueft und bestaetigt:** Zargenbestellung RWD Schlatter bis morgen nicht ausgeloest und
+Rohmass-Termin mit A. Spahic nicht gesetzt (Gesendete aller Konten ab 14.09., kein Treffer) —
+deckungsgleich mit der Radar-Zeile, darum keine zweite Meldung, nur die Registerzeile mit der
+Beleglage aus dem Original (Kayisoglu 16.09. 10:29, fuenf Beilagen).
+
+**Register:** 5 Zeilen angehaengt (Samstagskonflikt hoch, Gastzugriff-Werkzeugbefund mittel,
+md2docx erledigt, Berichtigung Vorleistungs-Mail, RWD-Zargen hoch), 0 entfernt; Praefix-Vergleich
+gegen die Kopie zeigt die ersten 5611 Zeilen unveraendert.
+
+**Mail:** gesendet, bewusst als **kurzer Nachtrag** und nicht als zweites Tagesbriefing — Raphael
+hatte 16 Minuten vor Beginn dieses Laufs die vollstaendige Radar-Mail erhalten, und eine
+inhaltsgleiche zweite Mail ist genau das, was die Entmailung der Loops verhindern soll
+(Rule 260803). Gesendet wurde nur, was der Radar nicht meldete und was Handeln vor Samstag
+betrifft.
+
 ## Radar-Briefing 17.09.2026 (09:13): Die Zargen für die KISPI-Türen müssen bis morgen bestellt sein, und die Abrechnung Steinbrüchelstrasse ist seit gestern überfällig
 
 **Zwei Dinge zuerst.** Erstens: RWD Schlatter hat gestern geschrieben, dass die Zargen **bis morgen Freitag** bestellt sein müssen, sonst stehen sie erst in KW 42 zur Montage bereit und die Türblätter in KW 43. Genau auf denselben Freitag hast Du die finale Masskontrolle der Rohmasse gelegt. Zweitens: Die Abrechnung Steinbrüchelstrasse war gestern fällig und ist nicht raus, und Deine Antwort an Aaron Tonet liegt den siebten Tag im Entwurf, an denselben Empfängerkreis.

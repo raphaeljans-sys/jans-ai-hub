@@ -4767,3 +4767,25 @@ Druckstufe 1 (normal).
 
 Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet. Letzte gesendete Mail dieses
 Tasks: weiterhin keine im aktuellen Log-Verlauf.
+
+## 2026-09-17 09:33 — Rohblock (Messung, Bewertung folgt unten)
+
+Tageswerte teuer (in+cache_creation+out), Mio Token, MacBook Pro + Mac Mini:
+
+- 17.09. (Tag laeuft, Stand 09:31): MBP 2.84 · Mini 0.89 · zusammen 3.73
+- 16.09.: MBP 6.85 · Mini 2.99 · zusammen 9.84
+- 15.09.: MBP 10.40 · Mini 3.67 · zusammen 14.07
+- 14.09.: MBP 6.54 · Mini 2.23 · zusammen 8.77
+- 13.09.: MBP keine Zeilen · Mini 0.86 · zusammen 0.86
+- 12.09.: MBP keine Zeilen · Mini 1.39 · zusammen 1.39
+- 11.09.: MBP 4.24 · Mini 2.97 · zusammen 7.21
+- 10.09.: MBP 9.10 · Mini 1.27 · zusammen 10.37
+- 09.09.: MBP 7.35 · Mini 1.17 · zusammen 8.52
+
+Total (inkl. cache_read) 16.09.: MBP 106.31 · Mini 65.16.
+MacBook Pro hat am 12./13.09. (Sa/So) keine einzige usage-Zeile im Fenster — die Station
+war am Wochenende aus, kein Messfehler des 9-Tage-Vorfilters (beide Nachbartage liegen vor).
+Mac Mini durchgehend beliefert.
+
+Beide Stationen gemessen ueber `ssh mini` (Alias, nicht Tailscale-IP), rekursives Glob
+inkl. Subagenten-Transcripts, Zeilenfilter nach timestamp[:10].
