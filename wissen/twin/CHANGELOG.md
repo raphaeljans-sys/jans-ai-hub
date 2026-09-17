@@ -5,6 +5,53 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-17 (Fidelity-Review) — der Compiler las seit Juli nur den halben Regelsatz; die Rüge senkt das Register
+
+Report `outputs/2026-09-17_fidelity.md`. **Gesamt 52**, gemischt zu lesen: die drei Golds sind auf
+**Anrede**-Ebene seit Batch 56 destilliert (Abruf), ihre Texte nirgends (Verallgemeinerung). Golds
+`rj@` Sent 22.06.2026 07:51/08:57/15:20 UTC — dieselbe Sachfrage (private Kontrolle der
+Lüftungsplanung, KISPI) innert neuneinhalb Stunden an drei Empfänger in drei Registern, damit das
+Register die einzige Variable ist. Blindfassungen von einem getrennten Lauf mit Leck- und
+Entscheidprotokoll.
+
+**Zwei strukturelle Befunde, die über den Stiltest hinausgehen.** (1) ⭐⭐ `extract_block()` in
+`skills/twin/tools/build_dna.py` las mit `.search()` je Artikel **nur den ersten** Do/Don't-Abschnitt.
+Drei Artikel führen einen zweiten, regulär geschriebenen Block — zusammen **1'601 B belegter Regeln**,
+seit dem 02.07.2026 still verfallen, ohne Warnung, während sieben Stellen im Korpus auf einen
+Abschnitt «unten» verwiesen, den es in der Zieldatei nie gab. **Berichtigt**, alle Blöcke werden jetzt
+angehängt. (2) Der Block trug an einer Stelle die **widerlegte** Fassung («Emoji nur bei Spiegelung»,
+widerlegt Fidelity 260721) und führte dort aktiv falsch. **Berichtigt.** Beide Funde stammen aus einer
+Engpass-Messung (Korpus 1'834'767 B, kompiliert 1.8 %, 6 von 1'102 H2-Abschnitten).
+
+**Stil-Befunde:** Anrede 0 von 3, aus drei verschiedenen Gründen (Klausel steuerte falsch ·
+Registerloch Scherbl · Regel unvollständig). ⭐⭐ **Die Rüge SENKT das Register über zwei Achsen
+zugleich**: derselbe Empfänger trägt um 10:57 «Werter Cekdar … Dich», um 17:20 «Sehr geehrter Herr
+Cekdar Duran,». ⭐ Die **Zugeständnis-Klausel vom 16.09. verliert sofort ihre Nachbargattung** — die
+Fach-/Empfehlungsanfrage hebt auf «Geschätzter <Vorname>» (vierter Lauf in Folge mit diesem Muster).
+⭐ Der **Betreff hängt an der Gattung**: Anfrage generisch (4:0), laufender Faden mit Projektkürzel
+und Traktandenkette. ⭐ Der **Dank verschwindet im Du nicht, er verschmilzt mit dem Gruss** («Danke und
+lieber Gruss», 2:0). ⭐ Die **Frage steht vor der Erklärung**, mit Wort-Label «; Frage:» (2:0). ⭐ **«wir»
+statt «ich» im Mandat** (0 von 3, häufigste Drift des Laufs). Der **Anlass ist ein Nebensatz**, kein
+eigener Danksatz. **Echo-Falle 6, erstmals mit maschinell prüfbarem Marker**: URLShare-Wrapper +
+ausgeschriebene statt echter Signatur + Fehlerdichte 0; zwei in Batch 56/57 als authentisch geführte
+Mails sind danach `claude-aera`. Keine Erfindung, sechster sauberer Lauf.
+
+**Riegel:** von 34'000 auf **37'000 B** gehoben, dokumentiert im Kopf von `build_dna.py` im Format der
+Anhebung vom 18.08.2026 — dritte Vorlage (10./16./17.09.), Reserve war auf 100 B gefallen, und der
+Compiler-Fix holt 1'601 B zurück, die sonst nicht kompilierbar gewesen wären. 377 B freigeschnitten,
+ausschliesslich Beleg-Prosa über den Zwilling, wörtlich gesichert unter «Freischnitt 260917». Neuer
+Stand 36'892 B, Reserve 108 B; Empfehlung ist nicht die nächste Anhebung, sondern die Teilung des
+Blocks nach Gattung (→ `wiki/QUESTIONS.md` 260917b #6).
+
+Je ein Abschnitt «Fidelity 260917» in allen sechs Facetten; `wiki/QUESTIONS.md` um 260917b #1-#6
+ergänzt. **Zeilenbilanz** gegen Baseline 09:16:52: stimme +47/-4 · denken +19/-1 · haltung +24/-5 ·
+beziehungsregister +34/-2 · fachsignatur +29/-0 · arbeitsweise +34/-3 · QUESTIONS +68/-0. Alle 15
+Löschungen sind die im Report einzeln benannten Ersetzungen und Freischnitte, jede vorab auf genau
+einen Treffer geprüft.
+
+**Kollision:** der Lern-Lauf Batch 122 schrieb parallel (Facetten 09:14, QUESTIONS 09:15, CHANGELOG
+09:16); die Baseline wurde danach neu gezogen, die Abschnittsnamen sind disjunkt.
+
 ## 2026-09-17 — twin-mail-training Batch 122: der Punkt statt des Fragezeichens
 
 Fenster `rj@` Sent Items 15.09.2026 20:01 bis 17.09.2026 08:09 (4 Treffer, alle gesichtet),
