@@ -3,6 +3,19 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-17 — Wissens-Chef Lauf 61: Kante zum Werkleitungskataster gesetzt
+
+- **WC61-4.** `wiki/baureife-und-erschliessung.md` fuehrt die Rechtslage zu Anschlusspflicht,
+  Nebenleitungen, Kostentragung und Eigentumsuebergang (§§ 53 Abs. 3 / 56 Abs. 1-2 WsG, §§ 97/98
+  WsV), sagte aber nirgends, **wo die Leitungen tatsaechlich liegen**. Der am 16.09.2026 in
+  `wissen/planungsgrundlagen/wiki/kartenportale-werkleitungskataster.md` entstandene §8 (Stadt
+  Zuerich, Plananforderung ERZ) haette dort zitiert werden muessen. Zeiger gesetzt, Gegenzeiger
+  drueben ebenfalls, `[[kartenportale-werkleitungskataster]]` in die links-Zeile aufgenommen.
+  Matrixzeile im Register als Abwasser-Schwester der bestehenden Wasserversorgungs-Zeile
+  angelegt — nach de-facto-Bestand, Fuehrung nicht neu verteilt.
+- Nicht geaendert: zum fossilen Heizverbot (§ 47c BBV I) bleibt diese KB beim Erlasswortlaut im
+  `raw/`; die Sachantwort fuehrt `wissen/energie` (F298), dorthin zeigen seit heute die Weichen.
+
 ## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Rueckkante zum ZH-Richtplan-Umsetzungsstand
 
 Befund WC60-3, am Original bestaetigt. `wiki/raumplanung-und-gestaltung.md` fuehrt den kantonalen

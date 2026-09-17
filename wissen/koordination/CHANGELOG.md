@@ -2,6 +2,65 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-17 (Lauf 61, Abendlauf) — eine Korrektur behauptete ihre Vollstaendigkeit, statt sie zu messen, und das Register trug den Fehler mit
+
+Zuschnitt: Workflow mit 7 Meldern auf dem Zuwachs seit Lauf 60, je Meldung ein adversarialer
+Verifikator (13), Gegenpruefung aller tragenden Befunde am Original im Hauptkontext. Delta-Basis
+`8eca226aa` → `6f72d0334`, 128 Commits, 54 Wissens-/Rules-Dateien, nativ im SSD-Klon gemessen.
+Bilanz: **13 Meldungen → 4 wie gemeldet · 5 anderer Zuschnitt · 4 widerlegt**, kein Nullbefund-Feld.
+20 Dateien, alle additiv, keine Loeschung (2 beabsichtigte Zeilenersetzungen).
+Bericht: `outputs/2026-09-17_wissens-chef-run61.md`.
+
+- **WC61-1 ⭐ energie ↔ planungsgrundlagen, Zuschnitt breiter:** die offene Frage `E-R204-2`
+  behauptet, der 30-kW-Vorbehalt stehe «an allen drei Stellen». Er fehlte an **vier weiteren**,
+  davon einer in der fuehrenden KB selbst (`energie/wiki/pv-solar-technologien.md` Z. 44), und an
+  der Stelle, an der die Zahl beim Dimensionieren gelesen wird (`plg/wiki/energie-pv-eignung-
+  typenwahl.md` Z. 285-288). Bei 6'000 m² EBF trennt das 30 von 60 kW Pflichtanlage. Alle vier
+  additiv versehen, Nachtrag an E-R204-2. **Zweiter Lauf in Folge mit diesem Fehlermuster** (WC60-1:
+  drei von sechs Stellen). ⚠ Das eigene Register trug ihn mit: `QUERBEZUEGE.md` Z. 5235/5281
+  zertifizieren den Deckel aus den Laeufen 11/12 als «fassungsgleich».
+- **WC61-2 bestaetigt:** «Erweiterungen sind von der Eigenstrompflicht befreit» ist in Wahrheit die
+  **Bagatellklausel** § 47b Abs. 3 BBV I (< 50 m² ODER ≤ 20 % und ≤ 1000 m²). Am amtlichen Wortlaut
+  gegengelesen; 800 m² neu auf 2'000 m² Bestand = 40 % → pflichtig.
+- **WC61-3 Zuschnitt gedreht:** kein Cross-KB-Widerspruch, sondern **sechs stale Weichen** in
+  `energie/wiki/BAUHERREN-FAQ.md`, die beim Heizverbot an eine KB schicken, der die Matrix (Z. 29)
+  das Fortschreiben ausdruecklich untersagt — waehrend F298 die Antwort seit Run 204 selbst haelt.
+  Der Melder-Vorschlag haette genau die verbotene Fortschreibung ausgeloest. An `baurecht` nichts.
+- **WC61-4 Zuschnitt korrigiert:** Werkleitungskante beidseitig gesetzt. Vorbild ist nicht die
+  Waldabstands-Zeile, sondern die **Wasserversorgungs-Zeile** Z. 34 — gleiches Artikelpaar, gleicher
+  Abschnitt, gleiche Arbeitsteilung, nur Abwasser statt Trinkwasser. Matrixzeile als deren Schwester.
+- **WC61-5 bestaetigt, Schwerpunkt verschoben:** der Geltungsstand SIA 2017 war in `normen` schon am
+  23.08.2026 selbst erhoben (`wiki/REGISTER.md` Z. 518); Lauf 60 schrieb die Leistung
+  `architektur-fachwissen` zu. Der Defekt sitzt **in diesem Register** (Z. 280 «Eigenleistung, die
+  normen fehlt», Z. 283 «Bringschuld nie gezogen») — beide Stellen berichtigt, Matrixzeile Z. 190
+  ebenso, datierte CHANGELOG-Protokolle unangetastet.
+- **WC61-6 bestaetigt:** die kanonische Form `ssh mini '<befehl>'` (Rule 260917b) stand nur in der
+  Rule; `connectors/WEGE.md` kannte sie nicht (grep auf 260917b: null). Zwei Einzeiler gesetzt,
+  darunter im Klassifikator-Abschnitt der Vorspann, eine «Remote Shell Writes»-Verweigerung zuerst
+  am Befehlsformat zu pruefen.
+- **WC61-7 bestaetigt (Pflichtpaar Kennwerte, erster Befund nach zwei Nullbefunden):**
+  BWO-Referenzzins 1.75 % (undatiert, in der Rechenanleitung) gegen belegte 1.25 % (Stichtag
+  01.09.2026). Wirkung rund 0.30 Prozentpunkte Annuitaet p.a. Drei Stellen als Studienstand
+  gekennzeichnet, Matrixzeile angelegt.
+- **WC61-8 Zuschnitt schmaler:** ZIW-Gewichte in `grobkosten` und `immobilienbewertung` parallel
+  gefuehrt, Faktor 1.053 haette bei einer Revision nicht mitgezogen. Zeiger beidseitig, **ohne**
+  Fuehrungszuweisung — die Registerzeile ist Raphael vorgelegt, nicht gesetzt.
+- **WC61-9 Zuschnitt gedreht:** die @-importierte Rule steuerte **richtig** — ihr eigener Ankerfall
+  Besnik (21.05.2026) traegt den Befund seit dem 29.07.2026, Stand 3:0. Falsch steuerte allein der
+  Auto-Block vom 16.09., den die Rekompilierung vom 17.09. bereits korrigiert hat. Rule unberuehrt;
+  dritter Beleg im `beziehungsregister`, Nachtrag an `QUESTIONS` 260916b #1.
+- **Widerlegt (4):** Loeschvorschlag in `baureife-und-erschliessung.md` (destruktiv, Punkt bereits
+  registriert) · Rueckkante Richtplan (falscher Messstand 28.07. statt 24.07.) · «die Ruege senkt»
+  gegen Spahic (Cc, nicht Register) · Rule 260917b gegen Chronik (haette eine **falsche offene
+  Frage** in zwei taeglich gelesene Register geschrieben).
+- **Byte-Riegel:** **36'894 B**, selbst nachgemessen, Reserve **106 B** gegen die heute von 34'000
+  auf 37'000 angehobene Grenze — die Anhebung ist am selben Tag aufgezehrt, die WARN-Schwelle um
+  2'894 B ueberschritten. Kein eigener Befund: der Twin-Harness hat die Lage selbst gemessen und die
+  richtige Empfehlung gezogen (Block nach Gattung teilen, QUESTIONS 260917b #6). Damit ist die
+  Vorlage aus Lauf 60 Punkt 3 eingetreten und ueberholt.
+- **Rueckstau vorgelegt:** die Anrede-Kandidaten sind von vier auf **sechs** gewachsen.
+- Schreib-Kontrolle: alle Edits ankerbasiert, keine Loeschung, kein Rule-Wortlaut, kein `raw/`.
+
 ## 2026-09-17 — Synergie-Lauf 38 (Tagestakt)
 
 Delta-Basis 16.09.2026 17:10, Fenster 24 h, 127 Commits. Strukturelles Delta: ein neuer Connector

@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB, Empfaenger-KB: `wissen/energie`)
+
+- **WC61-2 (bestaetigt):** `wiki/energie-energienachweis-zh-formulare.md` fuehrte die Befreiung von
+  der Eigenstrompflicht pauschal («Erweiterungen (Anbau/Aufstockung) sind … befreit»). Nach
+  **§ 47b Abs. 3 BBV I** ist das eine **Bagatellklausel**: befreit ist nur, wer neu weniger als
+  50 m² EBF schafft oder hoechstens 20 % der EBF des bestehenden Gebaeudeteils und nicht mehr als
+  1000 m². Beispiel 800 m² neu auf 2'000 m² Bestand = 40 % → pflichtig. Additiv praezisiert;
+  Erlasswortlaut fuehrend `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, Destillat
+  `wissen/energie/wiki/pv-eigenverbrauch-zev.md`.
+- **WC61-1 (Zuschnitt breiter als gemeldet):** der 30-kW-Deckel-Vorbehalt aus `wissen/energie`
+  Run 204 hatte nur den Abschnitt «Bemessungsformel» erreicht. Nachgetragen an
+  `wiki/energie-pv-eignung-typenwahl.md` Z. 285-288 (Dimensionierungs-Anker — die Stelle, an der die
+  Zahl beim Dimensionieren gelesen wird) und Z. 647 sowie am Schwellen-Merkposten in
+  `wiki/energie-energienachweis-zh-formulare.md`, wo der Deckel zusaetzlich faelschlich der Quelle
+  «EN-ZH S. 3-4» zugeschrieben war.
+- **WC61-4 (Kante zu `wissen/baurecht`):** Rueckverweis am Ende von §8 Werkleitungskataster auf
+  `baurecht/wiki/baureife-und-erschliessung.md` fuer Anschlusspflicht, Nebenleitungen, Kostentragung
+  und Eigentumsuebergang; Gegenzeiger dort gesetzt, Matrixzeile im Register angelegt.
+
 ## 2026-09-17 — Cross-KB aus `wissen/energie` (Run 202): E-R201-2 geklärt, Sektion «EVEN ↔ die Plattform» ergänzt
 
 Bringschuld aus `wissen/energie` erfüllt (dortiger Run 202 gegen BVV LS 700.6 §§ 19a-19c

@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB): 30-kW-Vorbehalt vervollstaendigt, sechs stale Weichen umgehaengt
+
+- **WC61-1:** Die Vollstaendigkeitsaussage von Run 204 («bis dahin steht an allen drei Stellen ein
+  ⚠⚠-Vermerk», `wiki/QUESTIONS.md` E-R204-2) traf nicht zu. Der Vorbehalt fehlte an vier weiteren
+  Fundstellen, davon **eine in dieser KB selbst**: `wiki/pv-solar-technologien.md` Z. 44. Dort
+  additiv gesetzt; die drei uebrigen liegen in `wissen/planungsgrundlagen` und sind im selben Lauf
+  versehen. Datierter Nachtrag an E-R204-2 gesetzt, bestehender Wortlaut unangetastet. Die Sachfrage
+  (gilt der Deckel in ZH?) bleibt offen, Gegenlesung am kantonalen EN-104-ZH steht aus.
+- **WC61-3:** Sechs Weichen in `wiki/BAUHERREN-FAQ.md` (Z. 423, 540, 748, 980, 1375, 1479) schickten
+  den Leser beim fossilen Heizverbot an den Skill `baurecht` — aus der Zeit, als diese KB zu § 47c
+  BBV I nichts hatte. Seit Run 204 haelt sie die Antwort mit **F298** selbst, und die Fuehrungsmatrix
+  untersagt `baurecht` ausdruecklich, den Inhalt fortzuschreiben. Alle sechs zeigen jetzt zuerst auf
+  [[F298]]; der bestehende Verweis bleibt daneben stehen. Kein Eingriff in `baurecht`.
+- **WC61-2 (Gegenrichtung, in planungsgrundlagen ausgefuehrt):** § 47b Abs. 3 BBV I aus
+  `wiki/pv-eigenverbrauch-zev.md` (Run 204) als Bagatellklausel nach `planungsgrundlagen` uebergeben,
+  wo «Erweiterungen sind befreit» pauschal stand.
+
 ## 2026-09-17 (Run 204, Abendlauf MacBook Pro) — A-BLIND Rang 4: `en-zh-nachweis-uebersicht` an EnerG/BBV I gegengelesen, vier Praezisierungen, zwei echte Luecken (§ 47c, § 47b Abs. 2/3), ZH-Zeile der Solarpflicht-Tabelle berichtigt
 
 Backlink-Ranking ueber alle 349 Destillate neu gezogen (offener Auftrag aus Run 201/202/203).

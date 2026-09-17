@@ -2,6 +2,17 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-17 — Wissens-Chef Lauf 61: Parallelstelle zur BKP-Anteilsstruktur benannt
+
+- **WC61-8 (Zuschnitt schmaler als gemeldet).** `wiki/lageklasse-landwertanteil.md` Z. 150-153
+  rechnet den Umrechnungsfaktor BKP 2 → BKP 2+4+5 (1.053) aus den Gewichten der ZIW-Revision 2025;
+  dieselben Gewichte werden in `wissen/grobkosten/wiki/kennwerte.md` parallel gefuehrt, ohne dass
+  eine der beiden Stellen die andere kannte. Neutraler Parallelstellen-Verweis gesetzt (keine
+  Fuehrungsverteilung — beide KBs haben eigenen, registrierten Zugang zur Primaerquelle). Eine
+  Registerzeile, die die Anteilsstruktur einer KB zuweist, waere ein Koordinationsentscheid und
+  wurde **nicht** gesetzt; sie liegt Raphael im Laufbericht vor.
+- Gegenrichtung (`wissen/grobkosten`): Abnehmer-Block um diese KB ergaenzt.
+
 ## 2026-09-14 (Wissens-Chef Lauf 58, Cross-KB) — ZEV im Ertragswert: Nebenkosten-Durchlauf, kein belegter Ertragshebel
 
 `wiki/ertragswert-dcf.md`, Abschnitt DCF, direkt unter der CF_t-Definition: Querbezug-Absatz zur

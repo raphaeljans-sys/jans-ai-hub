@@ -1,5 +1,15 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-17 — Wissens-Chef Lauf 61: Einordnung der eigenen SIA-2017-Erhebung
+
+- **WC61-5.** Die Erhebung des Geltungsstands von SIA 2017 am SIA-Shop (15.09.2026, Lauf 59) war
+  korrekt und bleibt gueltig. Sie hat aber **keine** Bringschuld der KB `normen` eingeloest, wie der
+  Eintrag vom 16.09. nahelegt: `normen` hatte denselben Stand am **23.08.2026** aus derselben Quelle
+  selbst erhoben (`wissen/normen/wiki/REGISTER.md` Z. 518). Die hiesige Erhebung ist unabhaengige
+  **Zweitbestaetigung** — fachlich wertvoll, aber nicht die Schliessung einer fremden Luecke.
+  Berichtigt im Register `wissen/koordination/QUERBEZUEGE.md`; der Eintrag vom 16.09. bleibt als
+  datiertes Protokoll stehen.
+
 ## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Doppelspur SIA 2017 benannt, Geltungsstand rueckgespiegelt
 
 Befund WC60-5, am Original bestaetigt. `wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md` gibt

@@ -26,12 +26,14 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Referenz-Architekten/-Projekte + Raumtypologien/Parti (wer/was liegt in der Bibliothek) | **architekten-synobsis** | entwurfs-referenzen (verweist per Katalog/Slug) |
 | Entwurfs-Kennwerte je Bauaufgabe (HNF/GF, Programm, Entwurfsregeln, Parameter-Sets) | **entwurfs-referenzen** | architekten-synobsis (nennt die Abnehmer-KB) |
 | Healthcare-Kostenkennwerte CHF/m3 GV + CHF je Pflegeplatz (belegte Realwerte) | **immobilienbewertung** (`realwert-sachwert`) | entwurfs-referenzen, machbarkeit, healthcare-wirtschaftlichkeit, **wettbewerbs-dna** (`wiki/muster/kennwerte-healthcare` — NEU Run 45, 27.08.2026: fuehrte dreimal `grobkosten` als fuehrende CHF/m3-Quelle, additiv praezisiert) — **grobkosten fuehrt Healthcare NICHT** (untersagt seine m3-Werte dafuer ausdruecklich) |
+| **BWO-Referenzzinssatz** (Annuitaet in jeder Wirtschaftlichkeitsrechnung) | **immobilienbewertung** (`wiki/investorenmarkt-makro.md`, Abschnitt «Marktpuls Zins/Referenzzinssatz» — 1.25 %, unveraendert bestaetigt am Stichtag 01.09.2026) | `skills/machbarkeit/wissensbasis` und `skills/healthcare-wirtschaftlichkeit` fuehren **1.75 %** als Studienstand des Goldstandards WALD; seit Lauf 61 (17.09.2026) dort als Studienstand gekennzeichnet und **nicht als Rechen-Default** zu verwenden. Wirkung der Differenz rund 0.30 Prozentpunkte Annuitaet p.a. bei 33 Jahren — NEU Lauf 61 |
 | Kantonaler Energie-Erlassstand ZH (EnerG LS 730.1, BBV I §§ 47-48c) — Wortlaut, §§-Nummern, Fassungsstand/Nachtrag | **baurecht** (`raw/260712_amtlich_zh_energ.md`, `raw/260607_amtlich_zh_bbv1.md`) | energie + planungsgrundlagen (zitieren die raw-Dateien, schreiben den Wortlaut nicht fort) — NEU Run 16 |
 | Grossverbraucherartikel/Zielvereinbarung — Vollzugswege (UZV/KZV/EVA), Behoerdenpraxis AWEL/AfU, Schwellen-Transfer auf Bauaufgaben, SZ-Energierecht (kEnG/kEnV) | **energie** (`grossverbraucherartikel-zielvereinbarung-zh-sz`) | planungsgrundlagen (Formularseite EN-141/BO), baurecht (Erlasswortlaut) — NEU Run 16 |
 | Produkt-/Systemwissen nach BKP (Bauteilaufbauten, Hersteller-/Systemtypen, Verarbeitungs- und Bemusterungspraxis, historische Angebots-/Preisstände als Zeitdokument) | **bauprodukte** | normen (Norm-Fundstellen), grobkosten/immobilienbewertung (Kennwerte), projekt-lessons (Einzelfall) — NEU Run 19 (Erst-Pruefung der KB) |
 | Norm-Fundstellen IN bauprodukte-Artikeln (SIA/VKF/SN EN — Ziffer, Ausgabe, Kennwert, Fassungsstand inkl. **Korrigenda**) | **normen** | bauprodukte verweist dorthin und schreibt Normwortlaut NICHT materiell fort (Rule `normen-referenz`) — NEU Run 19 |
 | Preise/Kennwerte IN bauprodukte-Artikeln | **grobkosten** (BKP-Kennwerte) bzw. **immobilienbewertung** (Ausbaustandard) | bauprodukte fuehrt KEINE Kennwerte fuer Kalkulationen; historische Herstellerpreise nur als **datierter Zeitstand** und nie als heutiger Ansatz — NEU Run 19 |
 | Wasserversorgung ZH: Bezugs-/Anschlusspflicht und **Brauchwassernutzung** (§§ 93-101 WsG, insb. § 97 Abs. 1/3, § 178 WsV, Gebührenkette § 100 i.V.m. §§ 61 f.) | **baurecht** (`wiki/baureife-und-erschliessung.md`, Abschnitt «Versorgung & Entsorgung») | energie (Anwendung/Gebäudetechnik), planungsgrundlagen (Verfahren/Meldung ans Wasserwerk) — NEU Run 20. **P1 GESCHLOSSEN 23.08.2026** (baurecht selbst, ausserhalb der Buch-Run-Serie, Beleg `wiki/QUESTIONS.md` «✅ ERLEDIGT 2026-08-23»): §§ 93-101 WsG + § 178 WsV vollstaendig gelesen und eingearbeitet. Matrixzeile hier nachgezogen 24.08.2026 (`wissen/koordination`, interaktive Pruefung) — der Fachstand war seit einem Tag korrekt, nur diese Zeile hing zurueck |
+| Abwasser/Werkleitungen ZH: **Anschlusspflicht, Nebenleitungen, Kostentragung, Eigentumsuebergang** (§§ 53 Abs. 3 / 56 Abs. 1-2 WsG, §§ 97/98 WsV) | **baurecht** (`wiki/baureife-und-erschliessung.md`, Abschnitt «Versorgung & Entsorgung») | planungsgrundlagen fuehrt **Beschaffung und Geodatum** (`wiki/kartenportale-werkleitungskataster.md` §8 Stadt Zuerich, §§ 1-7 uebrige Betreiber und Kt. SZ) — NEU Lauf 61 (17.09.2026). **Abwasser-Schwester der Zeile darueber**, nach de-facto-Bestand gesetzt, Fuehrung nicht neu verteilt; Anlassfall der neue §8 Werkleitungskataster (WI1585). Zeiger beidseitig gesetzt |
 | Konzessions- und Sondernutzungsrecht **oberirdischer** Gewässer (Gewässerhoheit § 4, Konzession § 68 Abs. 1 lit. c / § 74 WsG; Sondernutzungs-Tatbestände § 119, Konzessionserfordernis § 120, **Konzessionsdauer § 121** WsV) | **baurecht** (Erlasswortlaut) | energie (angewandte Bewilligungs-/Konzessionspraxis je Wärmequelle), planungsgrundlagen (Formular-/Verfahrensseite) — NEU Run 20. **Merkposten:** eine WsV-Konkretisierung der gewässerschutzrechtlichen Bewilligung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur das Erdreich) — Zuordnungen dorthin sind KB-eigene Subsumtion und als solche zu kennzeichnen |
 | Gemessener Ist-Zustand des Arbeitsplatzes/Grundkontexts (Ladeschichten, Byte-/Token-Budget, @-Import-Bestand, Messweg) | **claude-code** (`kontext-architektur`) | spec (`environment-jans-hub`) führt das formale Layer-3-Modell und verweist für Zahlen dorthin — NEU Run 20 |
 | Amt, Adressat und **Kontaktperson** je Deliverable (Zuständigkeit, Direktnummern, Teamzuteilung) | **auflagebereinigung** (`aemter-stadt-zuerich`) | projekt-lessons liefert den **datierten, fall-/gebietsbezogenen** Einzelfall-Stand, nie eine generische Amtszuständigkeit; Kontaktpersonen haben ein Verfallsdatum — NEU Run 20 |
@@ -187,9 +189,71 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Kommunaler Baumschutz / Faellbewilligung** (Stammumfang-Schwellen, BZO-Baumschutzartikel, Vorwirkung laufender BZO-Revisionen) | **baurecht** fuer die Rechtsaussage (§ 234 PBG in `negative-vorwirkung-und-bzo-revision`, § 238a / § 203 PBG; Primaertext Art. 11a BZO Stadt Zuerich in `raw/`, noch nicht destilliert) | `architektur-fachwissen` (`baumschutz-faellbewilligungsschwelle-stadt-zuerich-bzo-teilrevision-2026`, `…-stadt-luzern-2008`: Praxisschwellen aus Stadtseiten, verweist fuer die Rechtslage auf baurecht) — NEU Lauf 58 (14.09.2026), nach de-facto-Bestand |
 | **BBV I Teil I — Private Kontrolle als Rechtsinstitut** (§§ 4-7 und Anhang Ziff. 3: Geltungsbereich, Bericht/QES, Minergie-Abkuerzung § 4 Abs. 4, Befugnis, Liste der Befugten) — **Erlasswortlaut und Fassungsstand** | **baurecht** (`raw/260607_amtlich_zh_bbv1.md`, Fassung Nr. 133) | `energie` (`destillate/private-kontrolle-zh`) gibt den Wortlaut fuer die Praxis zitierfaehig wieder und traegt seit 16.09.2026 den Fuehrungsvermerk; `planungsgrundlagen` (`wiki/energie-private-kontrolle-zh`) fuehrt das **Verfahren** (wer zeichnet welches EN-Formular). Die bestehende Zeile oben deckt nur §§ 47-48c bzw. § 47a — NEU Lauf 60 (16.09.2026) |
 | **Kantonaler Richtplan ZH: laufender Umsetzungsstand** (Teilrevision 2022, Vorlagen 6012/6013/6013a, Kantonsratsberatung, Fertigstellungsdatum) | **planungsgrundlagen** (`wiki/recht-norm-quellenlandkarte`, fuenf datierte Refreshes) | `baurecht` (`wiki/raumplanung-und-gestaltung`) fuehrt die artikelscharfe **Rechtslage** (Art. 8c/8d/18bis/38b RPG, Art. 25a-25g RPV) und traegt seit 16.09.2026 die Rueckkante — NEU Lauf 60 (16.09.2026), nach de-facto-Bestand |
-| **SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken»** (Ablaufschema Ziff. 3, zwoelf Kriterien Ziff. 4, Bewertungsmodell Ziff. 5 — Ziffer, Ausgabe, Seitenbeleg) | **normen** (`destillate/sia-mb-2017`, `status: established`) | `architektur-fachwissen` (`wiki/erhaltungswert-bewertung-sia-merkblatt-2017`) fuehrt dieselben drei Abschnitte materiell parallel (Eigendestillat aus dem Architektur-Archiv, 29.08.2026) und traegt seit 16.09.2026 einen Fuehrungsvermerk; es behaelt die denkmalpflegerische Einordnung **und** den am SIA-Shop erhobenen Geltungsstand (15.09.2026), der in normen als «Offener Punkt» stand und dort nachgetragen ist. **Doppelspur benannt, nicht aufgeloest** — eine Verdichtung waere ein Eingriff in bestehenden Wortlaut und bleibt Entscheid Raphaels — NEU Lauf 60 (16.09.2026) |
+| **SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken»** (Ablaufschema Ziff. 3, zwoelf Kriterien Ziff. 4, Bewertungsmodell Ziff. 5 — Ziffer, Ausgabe, Seitenbeleg) | **normen** (`destillate/sia-mb-2017`, `status: established`) | `architektur-fachwissen` (`wiki/erhaltungswert-bewertung-sia-merkblatt-2017`) fuehrt dieselben drei Abschnitte materiell parallel (Eigendestillat aus dem Architektur-Archiv, 29.08.2026) und traegt seit 16.09.2026 einen Fuehrungsvermerk; es behaelt die denkmalpflegerische Einordnung **und** den am SIA-Shop erhobenen Geltungsstand (15.09.2026), der in normen als «Offener Punkt» stand und dort nachgetragen ist. **Doppelspur benannt, nicht aufgeloest** — eine Verdichtung waere ein Eingriff in bestehenden Wortlaut und bleibt Entscheid Raphaels — NEU Lauf 60 (16.09.2026)  — ⚠ **Berichtigt Lauf 61 (17.09.2026):** der Geltungsstand war in `normen` schon am 23.08.2026 selbst erhoben (`wiki/REGISTER.md` Z. 518); die afw-Erhebung vom 15.09. ist Zweitbestaetigung, keine eingeloeste Bringschuld |
 
 ## Gepruefte Paare
+
+### energie ↔ planungsgrundlagen (30-kW-Deckel, Bagatellklausel) — geprueft 2026-09-17 (Lauf 61, Pflichtpaar), 2 Befunde
+
+- **WC61-1, Zuschnitt breiter als gemeldet.** Die offene Frage `energie/wiki/QUESTIONS.md` E-R204-2
+  behauptet, der Vorbehalt zum 30-kW-Deckel stehe «an allen drei Stellen». Er fehlte an **vier
+  weiteren**: `energie/wiki/pv-solar-technologien.md` Z. 44 (fuehrende KB selbst),
+  `planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md` Z. 285-288 (Dimensionierungs-Anker) und
+  Z. 647, `planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` Z. 131
+  (Schwellen-Merkposten, schreibt den Deckel zusaetzlich der Quelle «EN-ZH S. 3-4» zu). Alle vier
+  additiv versehen, Nachtrag an E-R204-2. Sachfrage bleibt offen (Gegenlesung EN-104-ZH).
+  ⚠ **Dieses Register trug den Fehler mit:** Z. 5235 und 5281 (Laeufe 11/12, Juli 2026) zertifizieren
+  den Deckel als «alle fassungsgleich» bzw. «uebereinstimmend» — beide Zeilen sind Teil des
+  ueberholten Stands und sind bei der Klaerung von E-R204-2 mitzuziehen.
+- **WC61-2, bestaetigt.** `planungsgrundlagen` befreite Erweiterungen pauschal von der
+  Eigenstrompflicht; § 47b Abs. 3 BBV I ist eine **Bagatellklausel** (< 50 m² ODER ≤ 20 % der EBF des
+  bestehenden Gebaeudeteils und ≤ 1000 m²). Am amtlichen Wortlaut gegengelesen, additiv praezisiert.
+- **Fuehrung unveraendert:** planungsgrundlagen fuehrt Verfahren/Formulare/EVEN, energie die
+  Fachphysik, baurecht den Erlasswortlaut im `raw/`. Kein Fuehrungskonflikt.
+- **Positivbefund zur Bringschuld:** energie Run 204 hat den 30-kW-Befund selbst nach
+  planungsgrundlagen getragen, mit Nennung der Empfaenger-KB und Rule-Bezug — die Regel aus
+  `wissens-bibliothekar` (23.08.2026) wirkt. Sie deckt nur nicht ab, dass die **eigene**
+  Vollstaendigkeitsaussage ungeprueft blieb.
+
+### energie (intern, gemeldet als energie ↔ baurecht) — geprueft 2026-09-17 (Lauf 61), 1 Befund, Zuschnitt gedreht
+
+- **WC61-3.** Sechs Weichen in `energie/wiki/BAUHERREN-FAQ.md` (Z. 423, 540, 748, 980, 1375, 1479)
+  delegierten das fossile Heizverbot an den Skill `baurecht`, obwohl Matrixzeile Z. 29 der
+  Empfaenger-KB das Fortschreiben des Erlasswortlauts untersagt und Z. 179 den Inhalt `energie`
+  zuweist, das ihn seit Run 204 mit F298 vollstaendig haelt. Alle sechs zeigen jetzt zuerst auf die
+  eigene Antwort. **An `baurecht` keine Aenderung** — der urspruengliche Melder-Vorschlag haette
+  genau die von der Matrix verbotene Fortschreibung ausgeloest.
+- **Merkposten fuer Raphael (nicht entschieden):** dass Z. 29 (Wortlaut bei baurecht) und Z. 179
+  (Inhalt bei energie) unverbunden nebeneinanderstehen, hat diesen Melder in die Irre gefuehrt. Ob
+  die beiden Zeilen zusammengefuehrt oder gegenseitig verzeigert werden, ist ein Registerentscheid.
+
+### baurecht ↔ planungsgrundlagen (Werkleitungen/Abwasser) — geprueft 2026-09-17 (Lauf 61), 1 Befund, 1 widerlegt
+
+- **WC61-4.** Der am 16.09. entstandene §8 Werkleitungskataster (Stadt Zuerich, Plananforderung ERZ)
+  war in `baurecht/wiki/baureife-und-erschliessung.md` nirgends zitiert, obwohl dort die Rechtslage
+  zu Anschlusspflicht, Nebenleitungen, Kostentragung und Eigentumsuebergang steht. Zeiger beidseitig
+  gesetzt, `[[kartenportale-werkleitungskataster]]` in die links-Zeile, Matrixzeile als Schwester der
+  Wasserversorgungs-Zeile (Z. 34) angelegt — nach de-facto-Bestand, Fuehrung nicht neu verteilt.
+- **Widerlegt:** die gemeldete Rueckkante zum Richtplan-Umsetzungsstand. Der Melder rechnete mit dem
+  falschen Messstand (28.07. statt 24.07.2026); die Zielstelle traegt Kopfstand, fuenf datierte
+  Refreshes und einen eigenen ⚠-Pruefhinweis.
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Pflichtpaar) — geprueft 2026-09-17 (Lauf 61), 2 Befunde
+
+- **WC61-7, bestaetigt.** BWO-Referenzzinssatz: `skills/machbarkeit/wissensbasis` (2 Stellen) und
+  `skills/healthcare-wirtschaftlichkeit` fuehren **1.75 %** undatiert in der Rechenanleitung,
+  `immobilienbewertung/wiki/investorenmarkt-makro.md` belegt **1.25 %** (Stichtag 01.09.2026, an der
+  Primaerquelle bestaetigt). Die 1.75 % sind der Studienstand des Goldstandards WALD — als Beleg
+  richtig, als Rechen-Default falsch. Wirkung rund 0.30 Prozentpunkte Annuitaet p.a. bei 33 Jahren.
+  An allen drei Stellen als Studienstand gekennzeichnet, Matrixzeile angelegt. **Erster Befund in
+  diesem Pflichtpaar nach zwei Nullbefunden in Folge** (Laeufe 59 und 60).
+- **WC61-8, Zuschnitt schmaler.** Die BKP-Gewichte der ZIW-Revision 2025 werden in beiden KBs
+  parallel gefuehrt; `immobilienbewertung` rechnet daraus den Faktor 1.053, der in eine ganze
+  Spiegelungstabelle eingeht, und `grobkosten` fuehrte diesen Abnehmer nicht. Zeiger beidseitig
+  gesetzt, **ohne Fuehrungszuweisung** — beide KBs haben eigenen, registrierten Zugang zur
+  Primaerquelle. Eine Fuehrungszeile waere ein Koordinationsentscheid und ist Raphael vorgelegt.
+  Widerlegt am selben Befund: die behauptete zweite Folge (Herkunftsbeschraenkung nicht mitgereist)
+  steht bereits unter D16 in `immobilienbewertung/wiki/wissensluecken.md`.
 
 ### energie ↔ planungsgrundlagen (Private Kontrolle ZH) — geprueft 2026-09-16 (Lauf 60, Pflichtpaar), BESTAETIGT (2 Befunde)
 
@@ -281,6 +345,14 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   (aktives Normenwerk, kein Rueckzug, kein Nachfolger, Produkt-ID belegt). Genau diese Frage steht in
   `normen/destillate/sia-mb-2017.md` unter «Offene Punkte» als erster Punkt offen. Cross-KB-Bringschuld
   nach Rule `wissens-bibliothekar`, nie gezogen.
+  ⚠ **Berichtigt Lauf 61 (17.09.2026):** die Zuschreibung «echte Eigenleistung, die `normen` fehlt /
+  Bringschuld nie gezogen» traegt nicht. Derselbe Geltungsstand war in `normen` bereits am
+  **23.08.2026** aus derselben Primaerquelle erhoben und steht seither in `normen/wiki/REGISTER.md`
+  Z. 518 (Produktseite shop.sia.ch, abgerufen 23.08.2026). Die afw-Erhebung vom 15.09.2026 ist eine
+  unabhaengige **Zweitbestaetigung**; der Punkt stand nur deshalb noch offen, weil er am **Register**
+  statt am **Destillat** geschlossen worden war. Lehre: bevor einer anderen KB eine Eigenleistung
+  zugeschrieben wird, im eigenen Bestand nachsehen — die Bringschuld-Regel misst am Zeiger, nicht am
+  Datum. Die WC60-5-Doppelspur selbst bleibt unveraendert benannt und unaufgeloest (Entscheid Raphael).
 - **Aktion:** Fuehrungsvermerk vor Abschnitt 3 in afw (normen fuehrt Fundstellen, afw behaelt
   Einordnung und Geltungsstand) + Nachtrag «Beantwortet» am offenen Punkt in normen + Matrixzeile.
   **Die Doppelspur selbst ist benannt, nicht aufgeloest** — eine Verdichtung waere ein Eingriff in

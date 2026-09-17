@@ -1,5 +1,13 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-09-17 — Wissens-Chef Lauf 61: Abnehmer der BKP-Anteilsstruktur nachgetragen
+
+- **WC61-8.** Der Abnehmer-Block in `wiki/kennwerte.md` (Z. 13-17) fuehrte
+  `wissen/immobilienbewertung/wiki/lageklasse-landwertanteil.md` nicht, obwohl dort aus den
+  Gewichten dieses Abschnitts der Faktor 1.053 gerechnet wird, der in eine ganze Spiegelungstabelle
+  eingeht. Eine Revision der amtlichen Reihe haette dort nicht mitgezogen. Zeile ohne
+  Fuehrungsbehauptung ergaenzt; Gegenzeiger drueben gesetzt.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57) — BFS-Reihe beim Teuerungs-Check benannt
 
 **`wiki/kennwerte.md`, Teuerungs-Check:** der Wert «April 2026 = 100.6» ist die Reihe

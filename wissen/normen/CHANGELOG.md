@@ -1,3 +1,16 @@
+## 2026-09-17 — Wissens-Chef Lauf 61: Zuschreibung des SIA-2017-Geltungsstands berichtigt
+
+- **WC61-5 (bestaetigt).** Der am 16.09.2026 in `destillate/sia-mb-2017.md` gesetzte
+  «Beantwortet»-Vermerk schreibt die Klaerung des Geltungsstands der KB `architektur-fachwissen`
+  (15.09.2026) zu. Derselbe Stand war in dieser KB bereits am **23.08.2026** aus derselben
+  Primaerquelle erhoben und steht seither in `wiki/REGISTER.md` Z. 518. Die afw-Erhebung ist damit
+  unabhaengige **Zweitbestaetigung**, keine von aussen eingeloeste Bringschuld; der Punkt stand nur
+  offen, weil er am Register statt am Destillat geschlossen worden war. ⚠-Praezisierungszeile im
+  Destillat gesetzt, Register `wissen/koordination/QUERBEZUEGE.md` an zwei Stellen berichtigt.
+  Der Eintrag vom 16.09. bleibt als datiertes Protokoll unveraendert stehen.
+- Die WC60-5-Doppelspur zum Merkblatt selbst bleibt unveraendert benannt und unaufgeloest
+  (Entscheid Raphael).
+
 ## 2026-09-16 (Normen-Nacht Run 86, MacBook Pro, SIA/VKF) — N85-2 erledigt: Abdeckungsrichtung auf Lignum 4.2, 26 Kernlücken
 
 **Block A (N85-2, Hauptarbeit):** Vollständige Seiten-Inventur der Lignum-Dokumentation

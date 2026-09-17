@@ -5,6 +5,24 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB): dritter Beleg zur Anrede-Klausel, Frage praezisiert
+
+- **WC61-9 (Zuschnitt anders als gemeldet).** Der Melder wollte die @-importierte
+  `rules/anrede-kontakte.md` mit einem Veraltet-Vermerk versehen. **Nicht ausgefuehrt** — Linie
+  Run 32, bestaetigt in den Laeufen 58 und 60: den Wortlaut einer Rule aendert Claude nicht selbst,
+  und der Punkt liegt Raphael als offene Frage vor. Der Verifikator hat zudem gezeigt, dass die
+  Rule gar nicht falsch steuerte: ihr eigener Ankerfall **Besnik (21.05.2026, «Gewerke/Empfehlung»)**
+  ist dieselbe Gattung am lockersten Du-Kontakt und **hebt** — der Stand ist damit **3:0**, nicht
+  2:0, und der dritte Beleg steht seit dem 29.07.2026 in der Rule. Falsch gesteuert hat allein der
+  am 16.09. kompilierte Auto-Block.
+- Ausgefuehrt, beides in Claudes eigener Domaene: `wiki/beziehungsregister.md` um den dritten,
+  aelteren Beleg ergaenzt; `wiki/QUESTIONS.md` 260916b #1 um einen datierten Nachtrag, der die Frage
+  praeziser stellt (hebt die **Bitte** generell, und senkt allein das **Zugestaendnis**?). Der
+  Sachentscheid bleibt bei Raphael.
+- Nicht zum Befund erhoben (widerlegt): der gemeldete Konflikt «die Ruege senkt» gegen den Gegenfall
+  Spahic. Der Lauf-58-Vermerk in der Rule und die offene Frage 260917b #1 decken ihn ab; der
+  Unterschied liegt im Cc, nicht im Register.
+
 ## 2026-09-17 (Fidelity-Review) — der Compiler las seit Juli nur den halben Regelsatz; die Rüge senkt das Register
 
 Report `outputs/2026-09-17_fidelity.md`. **Gesamt 52**, gemischt zu lesen: die drei Golds sind auf

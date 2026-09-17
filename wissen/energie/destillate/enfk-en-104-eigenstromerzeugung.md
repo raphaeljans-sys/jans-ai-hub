@@ -5,39 +5,47 @@ ausgabe: "Version Juni 2019 (Formular-Nr. 403-EN-104-001-ger; gueltig bis 31.12.
 gelesen: "2026-06-06 (1 S., ausgefuelltes JANS-Beispiel)"
 datenstand: "Regel: MuKEn 2014 (Eigenstromerzeugung). ⚠ Diese Formular-Version war bis 31.12.2024 gueltig — fuer aktuelle Baueingaben das geltende kantonale Formular verwenden."
 status: established
-last_updated: "2026-06-06"
+last_updated: "2026-09-17"
 ---
 
 # EN-104 «Eigenstromerzeugung bei Neubauten»
 
 ## Das Wichtigste in 1 Satz
 Jeder Neubau muss einen Teil seines Stroms **selbst erzeugen** (i.d.R. PV); die geforderte
-Leistung berechnet sich aus der Energiebezugsflaeche mit **10 W/m² EBF**, gedeckelt bei **30 kW**.
+Leistung berechnet sich aus der Energiebezugsflaeche mit **10 W/m² EBF**. Der oft zitierte
+**30-kW-Deckel gilt NICHT im Kanton Zuerich** (nur in der EnFK-Mustervorschrift/anderen
+MuKEn-Kantonen) — in ZH entlastet stattdessen die 70-%-Belegungsgrenze grosse/hohe Bauten.
 
+> ✓ **E-R204-2 GESCHLOSSEN (17.09.2026, Nachtschicht Mac Mini, Run 205).** Das amtliche
+> kantonale Formular **EN-104-ZH** (`zh.ch/.../projektkontrolle/en_104_zh.pdf`, Version
+> September 2022, per `curl`+`pdftotext` gegengelesen) bestaetigt den Befund aus Run 204 am
+> Formular selbst, nicht nur am Verordnungstext: die Zeile «berechnete Leistung aufgrund EBF:
+> EBF neu × 10 W/m²» traegt **keine Maximalwert-Spalte und keinen «max. 30 kW»-Vermerk**. Der
+> einzige Entlastungsmechanismus im Formular ist «bei hohen Bauten mindestens 70% der
+> anrechenbaren Gebaeudeflaechen belegt» — identisch mit § 47b Abs. 1 BBV I. **Neu am
+> Formular gefunden:** ein **PV-Zuschlag fuer die Deckung der Kuehlung** von 5 kWh/m² (nur
+> Gebaeudekategorien I, II + IV), bereits andernorts in der KB erfasst (FAQ-Nachbarschaft
+> Kuehlung/Kaeltebedarf). Der 30-kW-Deckel bleibt **fuer die EnFK-Mustervorschrift und andere
+> MuKEn-2014-Kantone** (ausserhalb ZH, z.B. der SZ-Realbeleg unten) korrekt — er ist nur keine
+> ZH-Regel. Der ⚠⚠-Vermerk ist damit aufgeloest, nicht nur zurueckgestellt.
 
-> ⚠⚠ **Offener Widerspruch, aufgeworfen Run 204 (17.09.2026) — fuer den Kanton ZUERICH ist der
-> 30-kW-Deckel nicht belegt.** Der Deckel stammt aus der **Muster**vorschrift (MuKEn 2014 / EnFK-
-> Musterformular EN-104, Version Juni 2019, gueltig bis 31.12.2024). Die ZH-Ausfuehrungsnorm
-> **§ 47b Abs. 1 BBV I** (LS 700.21, Nachtrag 133, am amtlichen Volltext gelesen 17.09.2026)
-> lautet dagegen: «Die Anlage zur Elektrizitaetserzeugung gemaess § 10c EnerG muss mindestens eine
-> Leistung von 10 Watt pro m2 Energiebezugsflaeche aufweisen. Fuer Photovoltaikanlagen wird eine
-> Belegung von hoechstens 70% der anrechenbaren Gebaeudeflaeche verlangt.» — **kein kW-Deckel**;
-> die Entlastung kompakter/hoher Bauten laeuft in ZH ueber die 70-%-Belegungsgrenze. Ein grep ueber
-> den ganzen BBV-I-Volltext findet «30 kW» nirgends. **Folge, falls sich das bestaetigt:** bei
-> grossen EBF (Healthcare, Verwaltung) waere die ZH-Pflicht um ein Vielfaches hoeher als hier
-> gerechnet — 6'000 m² EBF ergaeben 60 kW statt 30 kW. **Nicht stillschweigend uebernehmen und
-> nicht stillschweigend streichen**, bis das kantonale Formular **EN-104-ZH** (nicht das
-> EnFK-Muster) oder eine AWEL-Vollzugshilfe gegengelesen ist → `wiki/QUESTIONS.md` **E-R204-2**.
-
-## Kernregel (MuKEn-2014-Modul «Eigenstromerzeugung»)
-- **Notwendige Leistung = EBF (neu) × 10 W/m²**, **Maximum 30 kW**.
-- Der Deckel bei 30 kW sorgt dafuer, dass auch kompakte/hohe Bauten mit kleinem Verhaeltnis
-  Dachflaeche zu EBF die Vorgabe erfuellen koennen.
-- ⚠ **Dieser Deckel faellt mit MuKEn 2025 ersatzlos weg** (ergaenzt 2026-07-20, Run 81): Art. 1.25
-  MuKEn 2025 kennt keine Obergrenze mehr, und der Kennwert steigt auf 20 W/m² EBF. Fuer grosse
-  Bauten ist das die eigentliche Verschaerfung — bei **10'000 m² EBF steigt die Pflicht von heute
-  max. 30 kW auf 200 kW (Faktor 6,7)**. Solange ZH die MuKEn 2025 nicht umgesetzt hat (Stand
-  20.07.2026: kein Kanton), gilt hier weiterhin 10 W/m² mit 30-kW-Deckel
+## Kernregel — ZWEI REGIME, NICHT VERWECHSELN
+- **Kanton Zuerich (§ 47b Abs. 1 BBV I + Formular EN-104-ZH, massgeblich fuer JANS-Projekte):**
+  Notwendige Leistung = EBF (neu) × 10 W/m², **kein kW-Deckel**. Entlastung kompakter/hoher
+  Bauten ueber die **70-%-Belegungsgrenze** der anrechenbaren Gebaeudeflaeche. Bei grossen EBF
+  (Healthcare, Verwaltung) ist die Pflicht damit ein Mehrfaches hoeher als nach der
+  Mustervorschrift — Beispiel: 6'000 m² EBF ergeben **60 kW**, nicht 30 kW.
+- **EnFK-Mustervorschrift / uebrige MuKEn-2014-Kantone (z.B. Kt. Schwyz, siehe Realbeispiel
+  unten):** Notwendige Leistung = EBF (neu) × 10 W/m², **Maximum 30 kW**. Der Deckel sorgt dort
+  dafuer, dass auch kompakte/hohe Bauten mit kleinem Verhaeltnis Dachflaeche zu EBF die Vorgabe
+  erfuellen koennen — in ZH uebernimmt die 70-%-Belegungsgrenze diese Funktion.
+- ⚠ **Der Mustervorschrift-Deckel faellt mit MuKEn 2025 ersatzlos weg** (ergaenzt 2026-07-20,
+  Run 81): Art. 1.25 MuKEn 2025 kennt keine Obergrenze mehr, und der Kennwert steigt auf
+  20 W/m² EBF. Fuer grosse Bauten in den MuKEn-2014-Kantonen ist das die eigentliche
+  Verschaerfung — bei **10'000 m² EBF steigt die Pflicht von heute max. 30 kW auf 200 kW
+  (Faktor 6,7)**; in ZH war die Zahl wegen des fehlenden Deckels ohnehin nie gedeckelt.
+  Solange ZH die MuKEn 2025 nicht umgesetzt hat (Stand 20.07.2026: kein Kanton), gilt dort
+  weiterhin 10 W/m² ohne Deckel
   → [[muken-2025-verabschiedet]], FAQ F47.
 - **Ersatzabgabe** anstelle einer eigenen Anlage ist nach kantonalen Vorgaben moeglich.
 - Erweiterungen (Anbau, Aufstockung) koennen von der Anforderung befreit sein.
@@ -55,7 +63,9 @@ Leistung berechnet sich aus der Energiebezugsflaeche mit **10 W/m² EBF**, gedec
 ## Bauherren-Transfer
 - **«Muss ich eine PV-Anlage bauen?»** → Bei einem **Neubau ja** (gesetzliche Pflicht in den
   MuKEn-Kantonen, auch ZH). Faustregel: pro m² beheizter Flaeche 10 W PV — ein EFH mit 200 m²
-  EBF braucht also ~2 kW (≈ 16 m² kristalline Module). Gedeckelt bei 30 kW.
+  EBF braucht also ~2 kW (≈ 16 m² kristalline Module). **In ZH ohne kW-Deckel** (Entlastung ueber
+  die 70-%-Belegungsgrenze bei hohen/kompakten Bauten); ausserhalb ZH (EnFK-Mustervorschrift)
+  bei 30 kW gedeckelt — fuer ein EFH ohne praktische Wirkung, erst bei grossen EBF relevant.
 - Die Pflicht ist **klein** im Vergleich zum sinnvollen Optimum: fuer Minergie/Eigenverbrauch
   lohnt meist eine groessere Anlage (→ `[[minergie-besser-planen-bauen]]`).
 - Wer partout keine Anlage will, kann (kantonsabhaengig) eine **Ersatzabgabe** leisten —

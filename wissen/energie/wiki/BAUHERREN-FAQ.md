@@ -265,28 +265,34 @@ der Projektzusage auf minergie.ch prüfen. Übergang: Nachweise nach Version 202
 
 ## F10 — «Muss ich eine PV-Anlage bauen, und wie gross?»
 
-**Kurz:** Bei einem **Neubau ja**. Faustregel: **10 Watt PV je m² beheizter Fläche (EBF)**,
-gedeckelt bei **30 kW**. Ein EFH mit 200 m² EBF braucht also ~2 kW (≈ 16 m² kristalline Module).
+**Kurz:** Bei einem **Neubau ja**. Faustregel: **10 Watt PV je m² beheizter Fläche (EBF)**.
+Im **Kanton Zürich gibt es dafür keinen kW-Deckel** — ein EFH mit 200 m² EBF braucht ~2 kW
+(≈ 16 m² kristalline Module), bei grosser EBF (Healthcare, Verwaltung) steigt die Pflicht linear
+weiter (z.B. 6'000 m² EBF → 60 kW).
 
-**Fachlich:** Die MuKEn-2014-Eigenstromerzeugung (in ZH über das EnerG seit 1.9.2022) verlangt
-notwendige Leistung = EBF × 10 W/m², max. 30 kW. ⚠⚠ **Der 30-kW-Deckel ist für den Kanton Zürich
-nicht belegt** (aufgeworfen Run 204, 17.09.2026): er steht in der Mustervorschrift, nicht in
-**§ 47b Abs. 1 BBV I** — dort 10 W/m² EBF plus eine Belegungsgrenze von höchstens 70 % der
-anrechenbaren Gebäudefläche, **kein kW-Deckel** im ganzen Verordnungstext. Bei grossen EBF
-(Healthcare, Verwaltung) macht das den Unterschied zwischen 30 kW und dem vollen Rechenwert.
-Bis zur Gegenlesung am kantonalen Formular EN-104-ZH die Zahl im ZH-Projekt **nicht** als Deckel
-zusichern → `[[QUESTIONS]]` E-R204-2, `[[en-zh-nachweis-uebersicht]]`. Fläche: ~8 m²/kW (kristallin) bzw. 16 m²/kW
-(Dünnschicht). Alternativ ist (kantonsabhängig) eine **Ersatzabgabe** möglich — meist
-unwirtschaftlich. Die Pflicht ist klein; für Eigenverbrauch/Minergie lohnt oft eine grössere
-Anlage. Indach-/Solardachplatten erfüllen die Pflicht gestalterisch sauber.
+**Fachlich:** Die ZH-Ausführungsnorm **§ 47b Abs. 1 BBV I** verlangt notwendige Leistung =
+EBF × 10 W/m², **ohne Obergrenze**; für hohe/kompakte Bauten greift stattdessen eine Belegungs-
+grenze von höchstens 70 % der anrechenbaren Gebäudefläche. **E-R204-2 geschlossen (17.09.2026,
+Run 205):** der andernorts kursierende 30-kW-Deckel stammt aus der **EnFK-Mustervorschrift**
+(MuKEn 2014) bzw. gilt in anderen MuKEn-Kantonen (z.B. Kt. Schwyz) — nicht in ZH. Bestätigt am
+amtlichen kantonalen Formular **EN-104-ZH** selbst (zh.ch, Version September 2022): die Zeile
+«EBF neu × 10 W/m²» trägt keine Maximalwert-Spalte; der einzige Entlastungsmechanismus ist die
+70-%-Belegung. Zusatzbefund am Formular: ein **PV-Zuschlag von 5 kWh/m² zur Deckung der Kühlung**
+bei den Gebäudekategorien I, II und IV. → `[[QUESTIONS]]` E-R204-2 ✓, `[[en-zh-nachweis-uebersicht]]`.
+Fläche: ~8 m²/kW (kristallin) bzw. 16 m²/kW (Dünnschicht). Alternativ ist (kantonsabhängig) eine
+**Ersatzabgabe** möglich — meist unwirtschaftlich. Die Pflicht ist klein; für Eigenverbrauch/
+Minergie lohnt oft eine grössere Anlage. Indach-/Solardachplatten erfüllen die Pflicht
+gestalterisch sauber.
 
-**Quelle (Audit-Korrektur A-P3 03.9, 24.08.2026):** Operative Rechtsgrundlage ist **§ 10c EnerG
-mit § 47b BBV I** (Kt. Zürich). Das zitierte Formular EnFK EN-104 «Eigenstromerzeugung bei
-Neubauten» (Version Juni 2019, → `[[enfk-en-104-eigenstromerzeugung]]`) war nur bis 31.12.2024
-gültig; der Nachweis läuft in ZH seit 1.1.2026 elektronisch über **EVEN** (`energievollzug.ch`,
-Formular EN-104-ZH, → F12). **Ausblick MuKEn 2025** (Planungshinweis, in ZH noch nicht
-umgesetzt): der 30-kW-Deckel entfällt, massgebend würde stattdessen 20 W/m² EBF. PV-Typ-Wahl
-siehe F4; Brandschutz dachintegrierter PV → Skill `brandschutz`.
+**Quelle (Audit-Korrektur A-P3 03.9, 24.08.2026; Gegenlesung E-R204-2, 17.09.2026):** Operative
+Rechtsgrundlage ist **§ 10c EnerG mit § 47b BBV I** (Kt. Zürich). Das zitierte Formular EnFK
+EN-104 «Eigenstromerzeugung bei Neubauten» (Version Juni 2019, → `[[enfk-en-104-eigenstromerzeugung]]`,
+dort mit 30-kW-Deckel als Mustervorschrift ausserhalb ZH) war nur bis 31.12.2024 gültig; der
+Nachweis läuft in ZH seit 1.1.2026 elektronisch über **EVEN** (`energievollzug.ch`, Formular
+EN-104-ZH, → F12). **Ausblick MuKEn 2025** (Planungshinweis, in ZH noch nicht umgesetzt): in den
+Mustervorschrift-Kantonen entfällt der 30-kW-Deckel dort ebenfalls, massgebend würde 20 W/m² EBF
+— für ZH ohne praktische Änderung, da dort schon heute kein Deckel gilt. PV-Typ-Wahl siehe F4;
+Brandschutz dachintegrierter PV → Skill `brandschutz`.
 
 ---
 
