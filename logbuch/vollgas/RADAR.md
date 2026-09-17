@@ -53,6 +53,89 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-18 00:57 — [FREI] **Mini-Regellauf. NEUER BEFUND P2: das Lauf-Journal `logbuch/laeufe/` hat seit dem 24.08.2026 keine Zeile mehr bekommen — die Rollen-Bilanz misst aus einem trockenen Kanal und faellt am 24.09. auf «keine Daten».**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprueft). Symlink zeigt auf die npm-Fassung (`../lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe`),
+gesetzt 17.09. 05:15, `--version` meldet **2.1.274** — die als gewedgt gefuehrte Stoerung bleibt erledigt, wie an jedem
+Lauf gegengemessen. Wochenbudget **26.2 %** von 167 Mio bei **50.6 %** verstrichener Woche, Vorsprung **-24.4 Punkte**,
+Ampel FREI (Mini 11.66, MacBook 32.04 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurueckzuschalten.
+Speicher Mini: Druckstufe 1, rund 2.2 GB frei+inaktiv+purgeable (vm_stat), Uptime 1 d 15 h, Load 1.48. Der Wert liegt
+deutlich unter dem gestrigen (9.0 GB), ist aber unauffaellig gegengemessen: groesster Einzelprozess 0.6 GB (Microsoft),
+Claude selbst 0.3 GB, nur zwei Session-Prozesse. Druckstufe 1 ist der Normalzustand, keine Massnahme.
+
+**NEUER BEFUND (P2): das Lauf-Journal liegt seit 25 Tagen trocken.** `logbuch/laeufe/` enthaelt genau **eine** Datei,
+`260824-laeufe.jsonl`; die juengste Zeile datiert vom **24.08.2026 10:39**. Ursache ist nicht ein Ausfall, sondern ein
+Kanalwechsel: das Journal wird von `scripts/claude-run.sh` und `scripts/vollgas-schub.sh` geschrieben, und die
+produktive Arbeit laeuft seit dem Ende der Schub-Lanes ueber `scripts/dispatch-run.sh` (Nachtschicht, Protokoll nach
+`dispatch/log/`) sowie ueber die Scheduled Tasks, die beide nicht ins Journal schreiben. **Warum es hierher gehoert:**
+`scripts/rollen-bilanz.sh` nennt in seinem eigenen Kopfkommentar das Lauf-Journal seit dem 11.09.2026 ausdruecklich die
+**Hauptquelle** und fuehrt daneben die Runner-Logs als historisch («seit dem 27.07. keine Zeile mehr; ab dem 26.08. lag
+er ganz ausserhalb jedes 30-Tage-Fensters, und die Bilanz meldete *keine Daten*, waehrend die Loops laut Radar laengst
+lieferten»). **Genau dieser Vorfall wiederholt sich jetzt mit der Nachfolgequelle:** heute ist die Datei 25 Tage alt und
+faellt am **24.09.2026** aus dem 30-Tage-Fenster; ab dann meldet `/rollen` wieder «keine Daten», obwohl die Loops
+liefern. Der Befund hat also ein Datum, an dem er von unsichtbar auf sichtbar springt.
+**Gemessener Weg, nicht geraten:** `dispatch/log/` traegt **391 Protokolle**, davon **117 im 30-Tage-Fenster** — die
+Arbeit ist also vollstaendig belegt, nur am anderen Ort. Eine dritte Quelle laesst sich anhaengen, aber **nicht naiv**:
+`dispatch/log` laeuft seit dem 07.06.2026 durch und **ueberlappt** damit das Journal-Fenster 29.07.–24.08. Der
+Kopfkommentar des Scripts verlangt fuer genau diesen Fall die Doppelzaehlungs-Pruefung («Wer eine neue Quelle anhaengt,
+prueft das erneut»). **Massnahme heute: keine** — das ist eine Design-Entscheidung am Messwerkzeug der Rollen-Bilanz,
+kein Radar-Kerngeschaeft, und sie gehoert nicht in einen unbeaufsichtigten Mitternachtslauf. Vorgelegt mit dem
+vollstaendigen Weg: Quelle `dispatch/log/*.md` anhaengen, Ueberlappung 29.07.–24.08. ausschliessen, Kostenfeld aus dem
+Dispatch-Protokoll ziehen.
+
+**Feuermechanismen.** Sollstand auf beiden Stationen. Mini: sieben `ch.jans`-Jobs geladen, **alle rc=0** (synctask-runner,
+tailscale-waechter, speicher-waechter, transcript-rotation, claude-autoupdate, nachtschicht, wissens-trigger),
+`vollgas-supervisor` weiterhin `.disabled-260729`, kein vollgas-Job geladen. MacBook: `vollgas-supervisor` und
+`vollgas-monitor` weiterhin `.disabled-260729`. Mini-Registry unveraendert elf Task-Ordner plus `bexio-buchen-monatlich`
+(erster Lauf 02.10.). Der Endlos-Runner bleibt ausgebaut.
+
+**P3 launchd rc=127 (MacBook) — heute NICHT entscheidbar, und das ist strukturell.** Der gestrige Eintrag hat die
+Wiedervorlage auf «morgen frueh erneut 127 und neuer Zeitstempel» gesetzt. Gemessen: `launchctl list` zeigt
+`claude-autoupdate` und `wissens-trigger` weiterhin **127**, aber `/tmp/claude-autoupdate.err` traegt unveraendert
+**17.09. 05:15** und `/tmp/claude-autoupdate.out` **16.09. 05:15**. Die 127 sind damit der **Nachhall** des Laufes vom
+17.09., kein neuer Vorfall — der Exit-Status bleibt in der Liste stehen, bis der Job erneut feuert. **Beide Jobs feuern
+morgens (05:15 bzw. 06:30), dieser Lauf ist um 00:57:** ein Mitternachtslauf kann diese Frage grundsaetzlich nie
+beantworten. Zustaendig ist der Mittagslauf 12:57; die Wiedervorlage bleibt bei ihm, unveraendert auf P3.
+**Nachtrag 01:05, nach Erscheinen des MacBook-Eintrags von 00:58:** die parallel laufende MacBook-Fassung hat den Punkt lokal tiefer gemessen und auf **P2** gehoben — beide Jobs rufen ihr Script mit hart kodiertem NAS-Pfad auf, der Fix liegt umkehrbar in der Freigabe-Queue. Das ist die bessere Messung: sie kommt an die Plist heran, was von hier aus nicht geht. **Massgeblich ist ihre Einstufung P2, nicht meine P3-Zeile darueber.** Mein Befund «heute nicht entscheidbar» bleibt fuer das richtig, was er misst (der Exit-Status in `launchctl list` ist um 00:57 der Nachhall des Vortages) — er beantwortet nur nicht die Ursachenfrage, die drueben schon beantwortet ist.
+
+**Liefer-Delta seit dem letzten Lauf (git, Basis `6c35c0e45`, 12 h):** energie 15, koordination 5, planungsgrundlagen 4,
+twin 3, normen 2, immobilienbewertung 2, grobkosten 2, baurecht 2, architektur-fachwissen 1 Datei unter `wissen/`;
+ausserhalb 6 unter `logbuch/`, 3 unter `skills/`, je 1 unter `connectors/` und `tenant-hygiene`. **69 Commits** im
+14-h-Fenster. Inhaltlich tragen ihn wissens-chef Lauf 61 (30-kW-Vorbehalt an vier Stellen vervollstaendigt,
+Bagatellklausel 47b Abs. 3, sechs stale Weichen, SIA-2017-Attribution berichtigt), energie Run 204 sowie die
+Nachtschicht 23:30, die als Run 205 die von Run 204 offen gelassene P1-Frage E-R204-2 geschlossen hat (EN-104-ZH kennt
+keinen kW-Deckel, acht Fundstellen in zwei KBs korrigiert), dazu Synergie-Lauf 38 (SYN-90/91 zur Buchungsvollmacht) und
+der tenant-hygiene-Report. `energie-training` 22:37 hat geliefert. **Kein Loop ohne Delta.**
+
+**Doppellauf — Tag sechs, zum dritten Mal direkt gemessen (unveraendert Aktion Raphael).** Waehrend dieses Laufes lief
+auf dem MacBook Pro die Session `dd046488-b848-459c-9a62-6764d5e2a8ef`, deren Transkript
+`scheduled-tasks/vollgas-chef-radar/SKILL.md` als Auftrag fuehrt; Prozessstart 43 s vor der Messung, also derselbe Slot.
+Die Deaktivierung vom 15.09. 13:32 ist den sechsten Tag unwirksam. Ich deaktiviere weiterhin nicht selbst: die
+MacBook-Registry ist von hier aus nicht schreibbar, Fruehwarnung und heartbeat stehen auf der Ausnahmeliste, und der
+Schritt gehoert laut Chronik 260911b Raphael. Kostenseite unveraendert benannt: das MacBook traegt 32.04 der 43.7 Mio
+teuren Wochentoken, also **73 %**.
+
+**Massnahmen.** Keine.
+
+- **P1** — keiner.
+- **P2 (NEU)** — Lauf-Journal `logbuch/laeufe/` seit 24.08. ohne Zeile; `rollen-bilanz.sh` misst daraus und faellt am
+  **24.09.** auf «keine Daten». Weg gemessen und vorgelegt (dritte Quelle `dispatch/log/`, 117 Laeufe im Fenster,
+  Ueberlappung 29.07.–24.08. ausschliessen).
+- **P2** — Doppellauf der drei umgezogenen Tasks (Radar, Fruehwarnung, heartbeat), sechster Tag; unveraendert Aktion Raphael.
+- **P3 (unveraendert)** — `claude-autoupdate` und `wissens-trigger` auf dem MacBook mit rc=127; heute strukturell nicht
+  entscheidbar (Mitternachtslauf vor dem Morgen-Slot), Wiedervorlage beim Mittagslauf. `wissens-trigger` fehlt weiterhin
+  ein Logpfad in seiner Plist und bleibt darum blind.
+- **P3 (unveraendert)** — zu weit gefasste Allow-Regel in `.claude/settings.local.json`
+  (`Bash(sed 's|.*/500 Invest/||' …)`, `*` vor dem Rest des Befehls). Heute nicht erneut gemeldet; ich fasse sie in
+  einer unbeaufsichtigten Session nicht an.
+- **P3 (unveraendert)** — bauleitung-training und claude-abo-auslastung haben ihren Wochenlauf am Latch verloren;
+  naechste Slots aus der Registry bestaetigt: 21.09. 04:25 bzw. 20.09. 18:07.
+
+**Selbstkontrolle.** Letzter Mini-Eintrag 17.09. 12:57, Abstand **12 h 00 min**, innerhalb der Toleranz von 15 h
+(Takt 12 h + 3 h). `lastRunAt` der eigenen Task 17.09. 22:57Z ist dieser Lauf, kein Aussetzer. Keine Mail (kein
+P1-Blocker, kein geloester P1, Kontingent nicht erschoepft). Regellauf inline gefahren, ohne Subagent, 14 Werkzeugaufrufe.
+
 ## 2026-09-18 00:58 — [FREI] **MacBook-Fassung, Regellauf. Der P3 von gestern ist auf die Ursache heruntergebrochen und wird zu P2: beide rc=127-Jobs rufen ihr Script mit hart kodiertem NAS-Pfad auf und feuern nur einmal taeglich — der Fix liegt umkehrbar in der Freigabe-Queue.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **7 s**, Watchdog 180 s nicht gebraucht, keine Waisen
