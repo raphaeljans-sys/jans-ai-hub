@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 22:53:27
+Stand: 17.09.2026 23:13:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 22:53:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 59d1e3b84 energie Run 204: A-BLIND Rang 4 en-zh-nachweis-uebersicht an EnerG/BBV I — 4 Praezisierungen, 2 Luecken geschlossen (§47c, §47b Abs.2/3), FAQ F298/F299, P1 30-kW-Deckel ZH aufgeworfen
+- 6f72d0334 nas-selfcommit: 1 Datei(en) 2026-09-17 23:00
