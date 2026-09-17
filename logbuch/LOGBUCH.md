@@ -3,6 +3,74 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 17.09.2026 (09:13): Die Zargen für die KISPI-Türen müssen bis morgen bestellt sein, und die Abrechnung Steinbrüchelstrasse ist seit gestern überfällig
+
+**Zwei Dinge zuerst.** Erstens: RWD Schlatter hat gestern geschrieben, dass die Zargen **bis morgen Freitag** bestellt sein müssen, sonst stehen sie erst in KW 42 zur Montage bereit und die Türblätter in KW 43. Genau auf denselben Freitag hast Du die finale Masskontrolle der Rohmasse gelegt. Zweitens: Die Abrechnung Steinbrüchelstrasse war gestern fällig und ist nicht raus, und Deine Antwort an Aaron Tonet liegt den siebten Tag im Entwurf, an denselben Empfängerkreis.
+
+Heute um 13:00 ist die Koordinationssitzung Gruner, Jans und KISPI über Teams. Der Hub-Chef ist heute um 08:39 nicht gelaufen, deshalb kommt dieses Briefing direkt vom Radar und das Tagesbriefing entfällt.
+
+### Erledigt seit gestern
+
+1. **Sensorenfarbe Schiebetüre S2 entschieden**, heute um 08:09. Livdin Bajrami hatte um 06:27 gefragt, ob die gemäss Plan schwarz bestellten Sensoren in Weiss auszuführen seien, was Mehrkosten bedeutet hätte. Deine Antwort: schwarz belassen, der Maler streicht sie weiss. Damit entstehen bei Jegen keine Mehrkosten.
+2. **Korrigierte Planfassung Therapieküche geliefert.** Auf Deine Nachfrage vom 16.09. um 09:58 hat André Zürcher gleichentags um 11:23 bestätigt, dass Deine Korrekturen eingeflossen sind, und den aktuellen Produktionsplan geschickt. Nicklas Rothe ist bis 20.09. abwesend, Zürcher vertritt ihn.
+3. **Fotomediathek in OneDrive vollständig und verifiziert**, gemeldet 16.09. um 09:48: 10'859 von 10'859 Dateien, rund 28 GB, null Abweichungen im Vollabgleich. Die Sperre gegen das Löschen in iCloud ist damit aufgehoben, der Schlussschritt bleibt bei Dir.
+
+### Aus unseren Gesprächen
+
+**Fotomediathek.** In der Nacht wurde am Leeren der iCloud-Mediathek weitergearbeitet. Der erreichte Stand ist nicht belegbar, das Transkript liegt auf keiner der beiden Stationen. Der Schlussschritt bleibt bei Dir.
+
+### Überfällig
+
+1. **Abrechnung Steinbrüchelstrasse**, seit gestern fällig, nicht versandt. Kostendach CHF 1'800.00 exkl. MWST nach Aufwand, Rechnung an die Kundennummer 1291, Die Schweizer Anlagestiftung, vertreten durch Nova Property Fund Management AG. Weil der bexio-Zugang blockiert ist, bleibt dafür nur das bexio-Web.
+2. **Antwort an Aaron Tonet zum Durchleitungsrecht, Tag 7.** Beide Fassungen vom 15.09. liegen unverändert im Entwurf, die kürzere von 14:51 ist inhaltlich fertig. Nova wartet seit dem 10.09., und die Rechnung geht an denselben Kreis.
+3. **Zusammenfassung der Honorarsitzung vom 14.09., Tag 3** im Entwurf an Albin Spahic, Cornelia Schäfer und Claudia Allerkamp.
+4. **Absage an die GLAESER AG, Tag 8** im Entwurf.
+5. **bexio, Tag 40 ohne Zugang.** Heute drei Proben, alle HTTP 401. Fünf offene Rechnungen über CHF 51'400.00 bleiben unverifiziert, darunter KISPI über CHF 17'280.00. Ohne Entscheid stellt bexio am 08.10. auf Advanced um.
+6. **Kapitaleinzahlung AG, CHF 50'000.00, Tag 34** über dem Soll-Termin vom 14.08. Keine neue Mail seit dem 31.08.
+7. **SVA Zürich, Mahnung vom 05.08., Tag 43**, dazu die Beitragsrechnung vom 11.09. Beide nur mit Deinem Login im Portal AHVeasy.
+8. **new copy store, 2. Mahnung über CHF 22.45**, dazu die Weiterleitung der Rechnung 6380066 über CHF 236.10 an das Kinderspital.
+
+### In den nächsten 7 Tagen
+
+1. **Heute, 13:00 bis 14:00:** Koordinationssitzung Gruner, Jans und KISPI über Teams.
+2. **Morgen Freitag 18.09., zwei Dinge am selben Tag.** Die Zargenbestellung bei RWD Schlatter, sonst Montagebereitschaft erst KW 42 und Türblätter KW 43; dazu die finale Masskontrolle der Rohmasse mit Albin Spahic vor Ort. Bis dahin muss die Firma, welche die Leichtbauwände erstellt, alle Türöffnungen fertig haben.
+3. **Samstag 19.09.:** Umbau Schiebetüre und Einbau RHS durch Estermann. Im Kalender steht 08:00, geplant war 06:30.
+4. **Sonntag 20.09.:** Leistungsnachweis für die Sitzung, die Stundenbasis von 405.5 Stunden liegt vor.
+5. **Montag 21.09., 13:30 bis 14:30:** Folgesitzung «Abgleich Umbau PPTS» mit Schäfer, Allerkamp und Spahic. Offen sind die Zahlungsübersicht und der Tarifentscheid zwischen CHF 155.00/h und CHF 160.00/h.
+6. **Donnerstag 24.09.:** nächste Koordinationssitzung 13:00 und Fälligkeit Berufsbildungsfonds Raum- und Bauplanung, CHF 220.00.
+
+### In Beobachtung
+
+1. **Montagebestätigung Jegen:** Du hast sie heute früh verlangt, die Antwort steht aus.
+2. **Werkplan Therapieküche:** die fachliche Gegenkontrolle vor dem Ausdruck für die Baustelle liegt bei uns.
+3. **Microsoft Power Platform** meldet die Dataverse-Dateikapazität zu 100 % belegt. Das betrifft nicht den SharePoint-Speicher, der bei 78 % mit 227 GB Puffer steht. Vor einem Kauf zuerst klären, welche Anwendung überhaupt Dataverse nutzt.
+4. **Stadt Zürich Steueramt:** neue Mitteilung in «Mein Konto», heute um 01:52. Inhalt und Frist sind nur mit Deinem Login sichtbar.
+5. **Nova, Steinbrüchelstrasse:** AfB-Bestätigung zu den Reduits, Kanalisationskataster, Anmeldung Wegrecht WI3366 bis 08.10.
+6. **Thalwil:** Der Begleitbeschrieb Bohlweg 3 ist weiterhin nicht an die Gemeinde gegangen, die Freigabe von Stefan Tschopp fehlt.
+7. **Albertstrasse 7:** KV-Entwurf an Roman Steinmann unversandt, er ist ab 22.09. zurück.
+8. **Gruner Brandschutz:** Jens Ziegel ist bis 05.10. abwesend, Nabiullah Meragi übernimmt.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen.
+
+1. Morgen früh eine Erinnerung an die Zargenbestellung bei RWD Schlatter, gekoppelt an die Masskontrolle vor Ort.
+2. Unverändert die Verschiebung des Termins vom 19.09. von 08:00 auf 06:30.
+
+### Token-Tempo
+
+Vortag 16.09.: MacBook Pro 135.4 Mio. Tokens (USD 112.91 API-Äquivalent), Mac Mini 53.7 Mio. Tokens (USD 35.26), zusammen 189.1 Mio. Tokens und USD 148.17.
+
+### Nur im Logbuch, nicht in der Mail (Hub-Interna, Rule 260803)
+
+**Der Hub-Chef ist heute ausgefallen, und der ganze Morgen lief verspätet an.** `hub-chef-taeglich` hat heute keinen Lauf (letzter Lauf 16.09. 06:39:41Z); dieser Radar startete 07:13:52Z, also 09:13 CEST statt 06:55 CEST. Die übrigen MacBook-Loops liefen alle erst ab 09:11 CEST (`mahnwesen-verzugscheck` 09:11, `zahlungsabgleich` 09:13, `twin-mail-training` und `twin-fidelity-review` 09:15), der `heartbeat-daily` um 08:0x. Muster wie beim Ausfall vom 12. bis 14.09. Die Session `95817ce6` brach um 01:52 mit «API Error: Can't reach the API server — ENOTFOUND» ab; die eigene Gegenmessung um 09:1x zeigt Netz und DNS intakt (ping 1.1.1.1 ohne Verlust, Graph HTTP 200, NAS erreichbar). Registerzeile gesetzt.
+
+**DOCX-Pipeline Mac Mini erneut defekt:** der `heartbeat-daily` meldet heute um 08:0x, dass die gestern vom Hub-Chef gebaute Interpreter-Selbstheilung in `md2docx.py` genau die venvs ausschliesst, die `python-docx` tragen. Eigene Registerzeile vom 17.09. 08:0x, hier nur als Querverweis.
+
+**Dauerregel 260917 nachgetragen:** `rules/auto-verbesserungen.md` trägt seit heute 02:48 (Commit `336916597`) den Eintrag «Freigegebene Auftraege am Stueck durcharbeiten, keine Zwischenstopps», entstanden beim portionsweisen Leeren der iCloud-Fotomediathek. Das zugehörige Transkript ist auf keiner der beiden Stationen auffindbar.
+
+**Laufvermerk 2026-09-17 (Journal):** Register 4 Erledigt (Jegen S2 Sensorenfarbe heute 08:09 beantwortet, Teilerledigung mit offener Montagebestätigung; Röthlisberger Planfassung 16.09. 11:23 geliefert, Gegenkontrolle offen bei JANS; Fotomediathek-Archiv in OneDrive vollständig 10'859/10'859 mit 0 Abweichungen; darin aufgelöst der Beobachtungspunkt «Upload bei 5'596 von 10'856»), 4 neu (RWD Schlatter Zargenbestellung bis 18.09. sonst KW 42/43, hoch; Power Platform Dataverse-Kapazität 100 %; Stadt Zürich Steueramt Mitteilung in «Mein Konto»; Hub-Chef-Ausfall und verspäteter Morgen, hoch), 1 Sammel-Nachtrag (fünf Dauerpunkte je am Beleg gegengeprüft: Tonet Tag 7, Abrechnung Steinbrüchelstrasse seit gestern überfällig, Honorar-Zusammenfassung Tag 3, GLAESER Tag 8, bexio Tag 40, AG Tag 34). 16 Zeilen am Dateiende angehängt, 0 entfernt (Präfix-Vergleich der ersten 5593 Zeilen gegen die Kopie: identisch). Quellen: Mail-Vorfilter 26 h über alle Apple-Mail-Konten (rc 0), Graph rj@ Posteingang, Gesendete, Entwürfe und Kalender bis 24.09., vier Mails im Volltext gelesen (Bajrami 17.09. 06:27, RJ-Antwort 17.09. 08:09, Kayisoglu 16.09. 10:29 samt Beilagenliste, Zürcher 16.09. 11:23), bexio drei Proben je HTTP 401, Task-Registry `list_task_runs`, Lauf-Journal, Konversations-Digest beider Stationen, ccusage beider Stationen. **Werkzeugbefund:** die Graph-Suche nach `folderName: "Drafts"` liefert auch gesendete Kopien, die Entwurfs-Eigenschaft wurde darum je über die Gegenprobe in den Gesendeten geprüft und nicht aus der Trefferliste geschlossen. **Ehrlicher Rest:** das Gesprächstranskript zur Dauerregel 260917 ist auf keiner Station auffindbar, der Arbeitsstand des Mediathek-Leerens bleibt unbelegt. QS: `rechtschreibung` gelb und `layout` gelb, beide Befundlisten umgesetzt (Platzhalter «09:2x» durch die echte Startzeit ersetzt, Verbkongruenz und Komma korrigiert, verbloser Satz ergänzt, Wortwiederholung «Ersteller/erstellt» aufgelöst, Kürzel «LBW-Ersteller» ausgeschrieben, USD vor die Zahl gesetzt, Kalendervorschläge nummeriert, Fälligkeitsmarken in «Überfällig» vereinheitlicht, Dopplungen zu Koordinationssitzung und Chef-Ausfall aufgelöst); dem Layout-Befund folgend sind der Chef-Ausfall aus Titel und Lead-Rang und die Hub-Interna aus der Mail-Fassung genommen (Rule 260803) und stehen nur hier. Korrektur an zwei eigenen Entwurfsformulierungen: «Montage erst KW 42» hiess im Original «für die Montage bereitstehen», und der Zusatz «Zwei-Wochen-Rhythmus» zur Koordinationssitzung widerspricht den Kalenderterminen 17.09. und 24.09., beides bereinigt. **Mail gesendet** (Ausnahme nach Schritt 6): der Hub-Chef ist heute um 08:39 nicht gelaufen, der Radar ist damit der einzige Kanal, und die Zargenfrist läuft morgen ab.
+
 ## Nachtschicht Mac Mini 16.09.2026 (13:30-Slot, Prioritaet 5) — zwei offene Identitaetsfragen synobsis recherchiert
 
 Prioritaeten 1-4 durchgeprueft, alle heute bereits ohne Delta-Potenzial: keine offenen

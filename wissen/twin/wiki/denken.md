@@ -191,7 +191,9 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
   Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
   Raphael eine einzige Perspektive konsequent durchzieht; **einen Entwurf mit seiner
-  Beschreibung eröffnen** (Ortslektüre zuerst, 260804).
+  Beschreibung eröffnen** (Ortslektüre zuerst, 260804); **die fremde Position bleibt in ihrer
+  eigenen Rede stehen («weil Sie finden es gibt kein Auftrag hierfür»), nie zu «aus Ihrer Sicht»
+  geglättet — die Glättung nimmt dem Satz die Zuschreibung (260917).**
 - **Gedankenführung im Eigendokument** (Variantenbilanz, Ortslektüre vor Entwurf, referierte
   Fremdaussage im Protokoll): Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 
@@ -1875,3 +1877,19 @@ Markierung «approximativ» — **die Unschaerfe wird benannt, bevor sie jemand 
   Montage noch bestätigen.»). Keine Überleitung, kein «übrigens». **Wer antwortet, holt sich im
   selben Zug, was er selbst braucht** — dasselbe Muster wie die Kopplung Freigabe/Terminabruf in
   Batch 119.
+
+## Fidelity 260917 — die Frage steht VOR der Erklärung (belegt Fidelity 260917, authentisch)
+
+- **⭐ Raphael fragt zuerst und erklärt danach (2 von 2).** In beiden Anfragen hängt die Frage per
+  Strichpunkt an den ersten Sachsatz («… Baubewilligung**; Frage:** Machst Du Private Kontrolle von
+  Lüftungen? Könntest Du jemand empfehlen?»); der erklärende Absatz («Konkret geht es um …») folgt
+  **danach**. Der Zwilling baute beide Male Erklärung → Absatzwechsel → Frage. Die Umkehrung ist
+  kein Stilspleen: sie erlaubt dem Empfänger, nach zwei Zeilen zu entscheiden, ob der Rest ihn
+  betrifft. Reiht sich zu «Frage zuerst spiegeln» (Kern-Fingerabdruck) und zur Q&A-Kaskade.
+- **Das erklärende «Konkret geht es um …» ist die stehende Brücke** zwischen Frage und Verfahren
+  (2 von 2, wörtlich identisch in beiden Golds). Der Zwilling verwendete sie nicht.
+- **Bestätigt:** der Konditional-Bau «Sollten Sie … bitte ich Sie …» (Bedingung + Folge) wurde
+  getroffen; die dünne Faktenlage bleibt offen, kein Grund wird unterstellt. Verfehlt: Raphael
+  behält die direkte Rede der Gegenposition («weil Sie finden es gibt kein Auftrag hierfür»), der
+  Zwilling glättet sie zu «aus Ihrer Sicht». **Die Glättung der fremden Position ist eine eigene
+  Drift** — sie nimmt dem Satz die Zuschreibung.

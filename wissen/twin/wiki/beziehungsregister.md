@@ -419,7 +419,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
-  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein Zugeständnis: die trägt den LOCKERSTEN Opener («Grüezi Herr <N>» in der Abgebots-Bitte, 260916). «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
+  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein ZUGESTÄNDNIS (Abgebot, Nachlass, Fristerstreckung): die trägt den LOCKERSTEN Opener («Grüezi Herr <N>», 260916). **Die Fach-/Empfehlungsanfrage ist KEIN Zugeständnis — sie HEBT auf «Geschätzter <Vorname>», auch wo die Liste «Hoi» führt (260917, 2:0).** «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -443,7 +443,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Die Bewegung ins Vertrautere ist **nicht
-  monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822).**
+  monoton**; ein Rücksprung ist fast immer ein Cc. **Cc, Gewicht und Telefonat heben nicht automatisch (260822). Die RÜGE senkt über zwei Achsen zugleich (260917): Du → kältestes Sie UND Vorname → «Herr» + wiederaufgenommene Vollform, am selben Tag; eskaliert wird über Verteiler und Register, nie über eine Aufwertung der Anrede.**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
   (Furrer, Stadelmann). Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
@@ -4606,3 +4606,35 @@ Erweiterung des Verteilers. Das Register der Nullform ist nicht Unhoeflichkeit, 
 - **Kein neuer Kontakt für die Rule-Liste beantragt:** Zürcher (Schreinermanufaktur/Röthlisberger)
   und Bajrami (Jegen AG) stehen beide im Sie und beide **nicht** in `rules/anrede-kontakte.md`.
   Bei reinen Sie-Unternehmern trägt der Default die Stufe ohnehin, deshalb hier nur vermerkt.
+
+## Fidelity 260917 — die Rüge SENKT das Register über zwei Stufen an einem Tag (belegt Fidelity 260917, authentisch)
+
+- **⭐⭐ Der Register-Rückfall bei der Rüge.** Beim Fachplaner **Cekdar Duran** (Gruner, Lüftung) ist
+  die Erwärmung bis 19.06.2026 als «Hoi Cekdar» belegt (siehe oben, Batch 55), und am **22.06.2026
+  um 10:57** adressiert Raphael ihn inline noch im Du: «@Cekdar Duran / Werter Cekdar, darf ich
+  **Dich** bitten …». Am **selben Tag um 17:20** trägt die Mahnung um den ausstehenden
+  Lüftungsgrundriss «**Sehr geehrter Herr Cekdar Duran,**» — das kälteste Sie, mit «Herr» **und**
+  wiederaufgenommener Vollform, Bauherrschaft (Würsch, Spörri, Spahic) und Gruner-Vorgesetzter
+  (Kübler) im Cc. Das ist ein Rückfall über **zwei** Achsen zugleich: Register (Du → Sie) und
+  Namensform (Vorname → Herr + Vollform). Quelle: `rj@` Sent 22.06.2026 17:20, authentisch.
+- **Damit ist die kompilierte Lesart zu eng.** Der Block hält bisher fest, im Sie kippe nur die
+  **Namensform** und «ein Rücksprung ist fast immer ein Cc». Hier kippt bei gleichzeitigem Cc **und**
+  Rüge die ganze Stufe, und die zurückgelegte Vollform kommt zurück. Die Linie in
+  `rules/anrede-kontakte.md` («ein Konflikt oder Ultimatum hebt nicht», Lauf 58) trifft zu, sagt aber
+  nur die halbe Wahrheit: **der Konflikt hebt nicht — er senkt.** Die Zeile Hansen bleibt daneben
+  gültig, weil dort nie ein Du bestand, das hätte fallen können; bei Hansen ist «Guten Tag Herr
+  <Vollname>» bereits die gelebte Stufe. Beide Fälle zeigen dasselbe: **eskaliert wird über Verteiler
+  und Register, nie über eine Aufwertung der Anrede.**
+- **Die Fach-/Empfehlungsanfrage im Du HEBT auf «Geschätzter <Vorname>» (2 von 2).** «Geschätzter
+  Labinot» und «Geschätzter Gerry» — beide Male, wo die Kontaktliste den Routine-Opener «Hoi»
+  führt. Der Zwilling wählte «Hoi Labi» und berief sich dabei ausdrücklich auf die tags zuvor
+  kompilierte Klausel «die Bitte um ein Zugeständnis trägt den LOCKERSTEN Opener» (260916). Die
+  Klausel steuerte falsch: **eine Fach- oder Empfehlungsanfrage ist keine Bitte um ein
+  Zugeständnis.** Abgebot, Nachlass und Fristerstreckung senken; die Anfrage, ob jemand eine
+  Leistung übernimmt, hebt. Vierter Lauf in Folge, in dem eine tags zuvor kompilierte Regel an ihrer
+  Nachbargattung verliert.
+- **Registerloch: Gerhard «Gerry» Scherbl** (Wintec AG, HLKS-Gesamtprojektleiter, Private Kontrolle
+  Lüftung) steht seit Batch 56 hier als **Du**-Kontakt mit «Geschätzter Gerry» belegt und fehlt in
+  `rules/anrede-kontakte.md`. Der Blindlauf schloss deshalb korrekt auf den Sie-Default und verfehlte
+  Register und Namensform — kein Zwillingsfehler, ein fehlender Registereintrag. Er ist der sechste
+  offene Kontakt-Kandidat (nach Stadelmann, Horeni, Gasser, Würsch, Eren-Korrektur).

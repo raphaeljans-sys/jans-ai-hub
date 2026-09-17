@@ -158,7 +158,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   im **engsten Peer-Du** die Rohheit des Originals halten;
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
-  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0).
+  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0). **Der Anlass ist der NEBENSATZ, der erste Hauptsatz gehört der Sache («Wie telefonisch bereits erzählt benötigen wir …»); ein eigener Danksatz nur nach einem Gespräch mit eigenem Gewicht. Auch wer den Vorgang NICHT kennt, bekommt keine Vorrede, sondern den Verfahrensabsatz. Vorwurf und Bitte stehen in EINEM Satz, die Wartezeit als eingeschobener Relativsatz (260917).**
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
@@ -181,8 +181,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
   Baustein, nicht in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
-  **dieselbe** Unsicherheit aus vier Richtungen. Der Zwilling glättet beides
-  reflexhaft zu einer bebulleteten, trennscharfen Liste und **erfindet dabei Inhalt**. Schluss
+  **dieselbe** Unsicherheit aus vier Richtungen. Schluss
   knapp: «Danke für die Klärung.» **Auch die Vergabe-Alternative steht als EIN
   Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne jede Begründung**
   der Empfehlung: die Gliederung erzwingt die Erfindung — zwei Listenpunkte verlangen je ein
@@ -4882,3 +4881,35 @@ Die Aufteilung ist ausdruecklich «**approximativ**» markiert — Annahme als A
   die Entscheidung geht 08:09 raus — vor dem üblichen Bürobeginn, aus Apple Mail, ohne Signaturblock.
   Bestätigt das mobile Frühregister (Batch 116/121): **die entscheidbaren Dinge werden vor dem Tag
   weggeräumt.**
+
+## Fidelity 260917 — der Anlass wird EINGEBAUT, nicht vorangestellt (belegt Fidelity 260917, authentisch)
+
+- **Die Regel «beim Anlass beginnen» (260916) ist richtig und in der Form zu grob.** Gold B geht an
+  einen Fachplaner, mit dem Raphael kurz zuvor telefoniert hat. Er dankt dafür **nicht** und stellt
+  das Telefonat **nicht** als eigenen Satz voran, sondern baut es als Nebensatz in den Sachsatz:
+  «**Wie telefonisch bereits erzählt** benötigen wir für unser Projekt KISPI … die private
+  Kontrolle …». Der Zwilling schrieb «Besten Dank für das Telefonat von vorhin.» als eigenen
+  Eröffnungssatz — die richtige Phrase an der falschen Stelle. **Präzisierung: der Anlass ist der
+  Nebensatz, nicht der Hauptsatz; der erste Hauptsatz gehört immer der Sache.** Die Ausnahme bleibt
+  der Dank nach einem Gespräch mit eigenem Gewicht (Beratungsgespräch, Sitzung; Gold A vom 16.09.).
+- **Die Mail an jemanden, der den Vorgang NICHT kennt, bekommt keine längere Vorrede — sie bekommt
+  die Verfahrenskette.** Gold A (Empfänger ohne jeden Vorkontakt zum Vorgang) beginnt gleich wie
+  Gold B: Projekt, Ort, Bedarf, Frage. Der fehlende Kenntnisstand wird **nicht** durch eine
+  Einleitung aufgefangen, sondern durch den zweiten Absatz, der das Verfahren durcherzählt
+  (Formulare → private Kontrollstelle → Plattform → Zugang). Damit ist die Empfehlung vom 16.09.
+  beantwortet: der Zwilling darf die Vorrede auch dort **nicht** behalten.
+- **Das Transmittal-Nominalsatz-Muster gilt nur dem REINEN Transmittal.** Gold C beginnt mit einer
+  Lieferung und führt danach eine Sache; es steht ein **Vollsatz** und eine **Leerzeile** nach der
+  Anrede: «Im Anhang sende ich Ihnen das Tutorial …». Der Zwilling zog den verblosen Nominalsatz
+  ohne Leerzeile vor und berief sich auf die kompilierte Zeile. **Eingegrenzt:** Nominalsatz ohne
+  Leerzeile nur, wenn die Datei der ganze Zweck der Mail ist.
+- **Vorwurf und Bitte stehen in EINEM Satz, nicht in zweien.** Gold C: «Weiter Bitten wir Sie
+  dringendst uns den Grundrissplan der Lüftung, **denn wir seit über zwei Monaten erwarten** per
+  Mail zuzustellen.» — Wartezeit als eingeschobener Relativsatz innerhalb der Bitte. Der Zwilling
+  trennte in Feststellung + Imperativ und nahm der Bitte damit die Schärfe.
+- **Bestätigt:** die Traktanden im laufenden Faden stehen als Fliesstext-Absätze mit je eigener
+  Form (Nominalsatz, Sachzwang im Indikativ, Bitte, Konditional, nackte Fakten), nicht als Liste und
+  nicht nummeriert; der Schluss trägt die entscheidungserheblichen Fakten als unverbundene Sätze
+  ohne «daher» (vierte Endform). Der Zwilling hat beides getroffen.
+
+**Freischnitt 260917 (Beleg-Prosa über den Zwilling, aus dem Do/Don't-Block genommen, Regel unverändert):** «Der Zwilling glättet beides reflexhaft zu einer bebulleteten, trennscharfen Liste und erfindet dabei Inhalt.»

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 09:10:14
+Stand: 17.09.2026 09:20:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 09:10:14
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9dd255294 nas-selfcommit: 2 Datei(en) 2026-09-17 09:00
+- 6b4a523da ag-gruendung-monitor 260917: Status unverändert P1, Kapitaleinzahlung 34 Tage überfällig

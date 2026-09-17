@@ -60,18 +60,36 @@ END = "<!-- END AUTO: facetten -->"
 # Punkt, an dem der Riegel schadet statt schuetzt. Die Kostenrechnung oben ist seit dem
 # 03.08.2026 milder als beschrieben: die Datei ist KEIN @-Import mehr und laedt vor
 # Texterzeugnissen, nicht in jeder Session. Rueckgaengig mit einer Zeile.
-MAX_AUTO_BYTES = 34000        # harte Obergrenze des kompilierten Blocks
-WARN_AUTO_BYTES = 30000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
+#
+# ENTSCHIEDEN 17.09.2026 (Fidelity-Review, dieselbe Lage, dritte Vorlage 10./16./17.09.):
+# Grenze 34000 -> 37000 B, WARN 30000 -> 34000. Zwei Gruende, beide gemessen:
+#   (a) Die Reserve war auf 100 B (0.3 %) gefallen. Die Laeufe vom 15. und 16.09. haben
+#       deshalb belegte Regeln nicht kompiliert und im Bericht als "beim naechsten Mal
+#       wieder verfehlt" ausgewiesen — genau der Zustand, den der Kommentar oben als
+#       "der Riegel schadet statt schuetzt" beschreibt.
+#   (b) Der Sammel-Fix darunter (ALLE Do/Don't-Bloecke statt nur des ersten) holt 1601 B
+#       Regeltext herein, der seit dem 02.07.2026 still verfiel. Ohne Anhebung waere der
+#       Fix nicht kompilierbar.
+# Rueckgaengig mit einer Zeile.
+MAX_AUTO_BYTES = 37000        # harte Obergrenze des kompilierten Blocks
+WARN_AUTO_BYTES = 34000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
 
 # matcht "## Do / Don't ..." bis zur naechsten H2 (##) oder Dateiende; tolerant ggue. Apostroph
 DODONT = re.compile(r"^##\s*Do\s*/\s*Don.?t.*?$(.*?)(?=^##\s|\Z)", re.M | re.S)
 
 
 def extract_block(md: str) -> str:
-    m = DODONT.search(md)
-    if not m:
+    # BERICHTIGT 17.09.2026 (Fidelity-Review): bis hierher las `.search()` nur den ERSTEN
+    # Do/Don't-Abschnitt je Artikel. Drei Artikel fuehren einen zweiten, regulaer
+    # geschriebenen Block ("Do / Don't (Ergaenzung 260702)", "Do / Don't (ergaenzt)") —
+    # stimme.md, haltung.md, arbeitsweise.md, zusammen 1601 B belegter Regeln. Sie sind seit
+    # dem 02.07.2026 still verfallen, ohne Warnung, und sieben Stellen im Korpus verweisen
+    # auf einen Abschnitt "unten", den es in der Zieldatei nie gab. Jetzt werden ALLE
+    # Bloecke in Dateireihenfolge aneinandergehaengt.
+    bloecke = [m.group(1).strip() for m in DODONT.finditer(md)]
+    if not bloecke:
         return "_(kein Do/Don't-Block gefunden)_"
-    return m.group(1).strip()
+    return "\n".join(b for b in bloecke if b)
 
 
 def build_auto() -> str:

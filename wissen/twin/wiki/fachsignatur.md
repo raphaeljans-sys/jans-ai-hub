@@ -3553,3 +3553,32 @@ Feuerpolizei, Meldekarten. Die Phase-5-Nomenklatur ist damit im Korpus durchgaen
   **Maler** weiss» (Gold B), «Antriebsverkleidung», «Sensoren», «Schiebetüre S2» aus dem Zitat. In
   der Mail an den Unternehmer steht der Handwerker, der BKP-Code bleibt der Ablage und der
   Abrechnung vorbehalten — konsistent mit der Kurzform-Drift («der Zylinder», Fidelity 260916).
+
+## Fidelity 260917 — sechster Lauf ohne Erfindung; die Verfahrenskette hält (belegt Fidelity 260917, authentisch)
+
+- **Keine Erfindung, sechster sauberer Lauf in Folge.** Keine Zahl, kein Eigenname, keine Frist,
+  kein Aktenzeichen ausserhalb der Briefe. Nicht ergänzt wurden: Projektnummer 2619, Bauherrschaft,
+  Zonen-/Baurechtsangaben, Prüffristen der privaten Kontrolle, Normverweise zu EN105/EN110, Name
+  oder Firma der privaten Kontrollstelle in der Mail an den Lüftungsplaner. Namentlich die
+  **Kontaminations-Drift wurde vermieden**: der in der Parallelmail genannte Kontrolleur wanderte
+  nicht in die dritte Mail, obwohl er dort sachlich gepasst hätte.
+- **Die Verfahrenskette EN105/EN110 → private Kontrollstelle → Prüfung und Freigabe → Einladung über
+  die Plattform → Zustellung des Zugangs** wurde in beiden Anfragen korrekt und vollständig
+  wiedergegeben, ohne Norm und ohne Paragraf. Bestätigt «der Apparat gehört der Antwort, nie der
+  Frage» (260901).
+- **Verfehlt:** die Anhänge werden zusammengefasst («die zwei Formulare zur Kenntnissnahme»), nicht
+  einzeln aufgezählt — der Zwilling listete «zwei Entwürfe EN105 und einen Entwurf EN110 ZH». Siehe
+  [[stimme]], Fidelity 260917.
+- **Echo-Falle, 6. Beleg — und erstmals ein technisch eindeutiger Erkennungsmarker.** Eine vierte
+  Mail desselben Vorgangs (22.06.2026 09:45, an ein Planerbüro, Sie) war als authentisch
+  klassifiziert und ist es nicht: sie trägt (a) den HTML-Wrapper
+  `Apple-Mail-URLShareUserContentTopClass` / `…WrapperClass` mit `<p style="margin:0.0px …">`
+  Helvetica-Absätzen, (b) einen **ausgeschriebenen** Signaturblock («Raphael Jans, Founder I MD /
+  MSc ETH I SIA / Raphael Jans Architekten ETH/SIA / Grubenstrasse 37 I 8045 Zürich …») statt der
+  echten HTML-Signatur des Kontos, (c) **null** Tippfehler, während die beiden handgetippten
+  Parallelmails desselben Vorgangs dieselben Fehler teilen («Zürichz», «über einen die
+  EVEN-Plattform»), und (d) einen Gedankenstrich in der Betreffzeile. Dieselbe Signatur trägt die
+  Mail «Zugang Zefix Public REST API» vom 21.06.2026. **Merkmalstriade für osascript-erzeugte
+  Claude-Mails: URLShare-Wrapper + ausgeschriebene statt echter Signatur + Fehlerdichte 0.** Beide
+  Mails sind in den Batches 56/57 als authentisch geführt; der daraus destillierte Marker «formell-Sie
+  an 3-plan («Sehr geehrte Damen und Herren»)» ist Echo und nicht als Stilbeleg zu verwenden.

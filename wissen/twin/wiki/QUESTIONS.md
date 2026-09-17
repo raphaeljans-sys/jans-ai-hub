@@ -6628,3 +6628,71 @@ selbst nie setzt.
 
 Status: 260917 #1-#3 **offen**; 260916 #1-#4 und 260916b #1-#3 unverändert offen. #1 hängt
 inhaltlich an 260915 #6 (Terminfrage) — eine Antwort schliesst beide.
+
+
+## 260917b — nach dem Fidelity-Review (drei Golds vom 22.06.2026, dieselbe Sachfrage in drei Registern)
+
+**#1 [Beziehungsregister] ⭐⭐ Die Rüge senkt das Register — ist das Absicht oder der Verteiler?**
+Am 22.06.2026 um 10:57 hast Du Cekdar Duran (Gruner, Lüftung) inline im **Du** angesprochen
+(«Werter Cekdar, darf ich **Dich** bitten …»), drei Tage nach dem gefestigten «Hoi Cekdar». Am
+**selben Tag um 17:20** trägt die Mahnung um den ausstehenden Lüftungsgrundriss «**Sehr geehrter
+Herr Cekdar Duran,**» — kältestes Sie, mit «Herr» und wieder aufgenommener Vollform, Bauherrschaft
+und sein Vorgesetzter im Cc.
+*Konkret:* Ist das Zurückfallen ins kalte Sie ein **bewusstes Signal** an ihn (und an die Mitleser),
+oder ergibt es sich schlicht daraus, dass mit dem grossen Verteiler die förmliche Form fällig wird?
+*Warum:* Der Zwilling blieb auf der Routine-Stufe «Guten Tag Herr Duran» und berief sich auf die
+belegte Linie «ein Konflikt hebt nicht». Die Linie stimmt, sie ist nur unvollständig. Bei «bewusstes
+Signal» wird daraus eine steuerbare Sanktionsstufe; bei «Verteiler» hängt die Form am Cc und der
+Zwilling muss lernen, dass ein Du-Kontakt im grossen Verteiler seine Stufe ganz verliert.
+
+**#2 [Beziehungsregister] Gerhard «Gerry» Scherbl in die Kontaktliste — Du, Dein Entscheid.**
+Er ist seit Batch 56 mit «Geschätzter Gerry» / «Guten Morgen Gerry» aus eigener Hand belegt und
+spiegelt «Hallo Rafi»; in `rules/anrede-kontakte.md` fehlt er.
+*Konkret:* Nehmen wir ihn als **Du** auf, mit «Geschätzter Gerry» als Routine-Default?
+*Warum:* Der Blindlauf schrieb «Geschätzter Herr Scherbl» — Sie, Nachname — und hat dabei
+regelkonform gehandelt: die Liste kennt ihn nicht, also greift der Sie-Default. Das ist kein
+Stilfehler, sondern eine Lücke im Register. Er ist der **sechste** offene Kontakt-Kandidat
+(Stadelmann, Horeni, Gasser, Würsch, Eren-Korrektur, Scherbl).
+
+**#3 [Stimme] Der Betreff hängt an der Gattung — bestätigst Du die Trennlinie?**
+Drei Mails eines Tages: die zwei Anfragen tragen «EVEN-Private Kontrolle» und «Private Kontrolle»,
+die Mail im laufenden Faden «KISPI PPTS: Auflagebereinigung Lüftungsanlage; Private Kontrolle und
+Grundrissplan».
+*Konkret:* Gilt «Anfrage → zwei, drei generische Wörter; laufender Projektfaden → Projektkürzel,
+Doppelpunkt, Traktandenkette»? Und ist der lange Betreff für Dich eine **Ablagehilfe** (Wiederfinden
+im Faden) oder eine Traktandenansage an die Mitleser?
+*Warum:* Die Regel wurde am 16.09. an drei Anfragen gemessen und als generell kompiliert. Sie ist
+jetzt nach Gattung getrennt; Deine Antwort sagt, ob die Trennlinie richtig liegt.
+
+**#4 [Haltung] «wir» oder «ich» — wo verläuft die Grenze?**
+Alle drei Golds sagen «Für **unser** Projekt KISPI … benötigen **wir**», auch in der lockeren
+Anfrage an einen Sub. Kompiliert war bisher «bei unverbindlicher Erstabklärung Ich/neutral, kein
+‹wir›».
+*Konkret:* Trifft «im bezahlten Mandat spreche ich als **wir**, weil ich für die Bauherrschaft
+handle — allein in der unverbindlichen Einschätzung gegenüber einem möglichen Auftraggeber bleibe
+ich beim **ich**»?
+*Warum:* Der Zwilling schrieb dreimal «ich» und wirkte damit wie ein Einzelner, der etwas für sich
+braucht, statt wie der Vertreter einer Bauherrschaft. Das ist die häufigste Drift dieses Laufs.
+
+**#5 [Stimme] «; Frage:» — Schreibgewohnheit oder Absicht?**
+Beide Anfragen hängen die Frage per Strichpunkt an den ersten Sachsatz und markieren sie mit dem
+Wort «Frage:», bevor der erklärende Absatz («Konkret geht es um …») folgt.
+*Konkret:* Setzt Du das Label bewusst, damit der Empfänger nach zwei Zeilen weiss, was von ihm
+verlangt wird — oder schreibst Du einfach in einem Zug und der Strichpunkt ist der Tippfluss?
+*Warum:* Bei «bewusst» bildet der Zwilling es nach (es ist ein starker, wiedererkennbarer Marker);
+bei «Tippfluss» bleibt es Echtheitssignal und er stellt die Frage nur nach vorn, ohne das Label.
+
+**#6 [Harness] Soll der kompilierte Block nach Gattung geteilt werden?**
+Der Auto-Block steht nach diesem Lauf bei **36'892 B** (Grenze heute von 34'000 auf 37'000 gehoben,
+Reserve 108 B). Er wird vor **jedem** Texterzeugnis geladen — auch vor einem Dokument, obwohl gut
+die Hälfte der Regeln Mail-Gattungen betrifft (Anrede, Gruss, Betreff, Bitte-Skala, Anhangszeile).
+*Konkret:* Sollen wir ihn in einen **Mail-Block** und einen **Dokument-/Offerten-Block** trennen, die
+je nach Erzeugnis einzeln geladen werden?
+*Warum:* Das halbiert die Ladekosten je Erzeugnis und nimmt dem Byte-Riegel den Druck, der in drei
+Läufen in Folge dazu geführt hat, dass belegte Regeln **nicht** kompiliert wurden. Die Alternative
+— die Grenze weiter anheben — behandelt das Symptom. Der Umbau kostet einen Lauf; ohne Deinen
+Entscheid fasse ich ihn nicht an.
+
+Status: 260917b #1-#6 **offen**; 260917 #1-#3, 260916 #1-#4, 260916b #1-#3, 260915 #1-#6
+unverändert offen. #1 und #2 gehören zusammen: beide betreffen `rules/anrede-kontakte.md`, die
+Claude nicht selbst ändert.

@@ -46,7 +46,7 @@ except ModuleNotFoundError:
         for _kand in ("~/.venvs/jansdocx/bin/python3", "~/.venvs/pdfforms/bin/python3",
                       "/opt/homebrew/bin/python3", "/usr/bin/python3"):
             _py = os.path.expanduser(_kand)
-            if not os.path.exists(_py) or os.path.realpath(_py) == os.path.realpath(sys.executable):
+            if not os.path.exists(_py) or os.path.abspath(_py) == os.path.abspath(sys.executable):
                 continue
             if subprocess.run([_py, "-c", "import docx"], capture_output=True).returncode == 0:
                 os.environ["JANS_DOCX_REEXEC"] = "1"
