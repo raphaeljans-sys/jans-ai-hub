@@ -43,6 +43,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
+import { holeOidcToken, oidcStatus } from './bexio-auth.mjs';
 
 const BASE = 'https://api.bexio.com';
 const ENV_FILE = join(homedir(), '.bexio.env');
@@ -74,6 +75,25 @@ function ladeToken() {
 }
 
 /**
+ * Zugang in Rangfolge: (1) OpenID Connect mit Refresh-Token aus dem Schluesselbund
+ * (`bexio-auth.mjs`, Dauerloesung seit 17.09.2026), (2) PAT aus ~/.bexio.env (60 Tage).
+ * Scheitert OIDC, wird das GESAGT und nur dann auf den PAT ausgewichen, wenn einer da ist —
+ * ein stiller Rueckfall wuerde den Ausfall der Dauerloesung verdecken.
+ */
+let zugangsart = '';
+async function holeToken() {
+  try {
+    const t = await holeOidcToken();
+    if (t) { zugangsart = 'OIDC'; return t; }
+  } catch (e) {
+    if (!process.env.BEXIO_API_TOKEN && !existsSync(ENV_FILE)) fail('bexio-OIDC gescheitert, kein PAT als Rueckfall: ' + e.message);
+    console.error('WARNUNG: bexio-OIDC gescheitert (' + e.message + ') — Rueckfall auf PAT.');
+  }
+  zugangsart = 'PAT';
+  return ladeToken();
+}
+
+/**
  * Liest die Zeitfelder des Tokens, ohne ihn auszugeben. bexio liefert ein Keycloak-JWT
  * (iss auth.bexio.com), dessen `exp` NICHTS darueber sagt, ob es noch angenommen wird: die
  * Session hinter dem `sid` kann laengst beendet sein. Genau diese Verwechslung fuehrte am
@@ -97,7 +117,7 @@ function tokenBefund(token) {
 async function api(pfad, { methode = 'GET', body = null, roh = false, weich = false } = {}) {
   const url = pfad.startsWith('http') ? pfad : BASE + pfad;
   const headers = {
-    'Authorization': 'Bearer ' + ladeToken(),
+    'Authorization': 'Bearer ' + await holeToken(),
     'Accept': roh ? 'application/pdf' : 'application/json',
   };
   if (body) headers['Content-Type'] = 'application/json';
@@ -659,9 +679,15 @@ const main = async () => {
       console.log('Login OK — Lesezugriff auf kb_invoice funktioniert.');
     }
     // Restlaufzeit ausweisen: bexio begrenzt PATs auf 60 Tage (Portal-Banner, belegt 17.09.2026).
-    const b = tokenBefund(ladeToken());
-    if (b) console.log(`Token laeuft am ${b.exp} ab (noch ${b.restTage} Tage)` +
-      (b.restTage <= 14 ? ' — ⚠ ERNEUERN: developer.bexio.com > Personal Access Tokens.' : '.'));
+    if (zugangsart === 'OIDC') {
+      const o = oidcStatus();
+      console.log(`Zugang: OIDC (erneuert sich selbst). Zuletzt erneuert: ${o.erneuert}. Scopes: ${o.scopes}`);
+    } else {
+      const b = tokenBefund(ladeToken());
+      console.log('Zugang: PAT aus ~/.bexio.env (Dauerloesung: node connectors/bexio-auth.mjs --einrichten).');
+      if (b) console.log(`Token laeuft am ${b.exp} ab (noch ${b.restTage} Tage)` +
+        (b.restTage <= 14 ? ' — ⚠ ERNEUERN: developer.bexio.com > Personal Access Tokens.' : '.'));
+    }
     return;
   }
   if (arg('--offen')) {
