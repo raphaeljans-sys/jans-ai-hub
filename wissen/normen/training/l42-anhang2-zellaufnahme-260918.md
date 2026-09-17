@@ -122,3 +122,51 @@ Trennschaerfe: grau n=35 min 237 max 248 · weiss n=7 min 255 max 255
 | 8 Decke-Decke | 242 | 243 | 243 | 241 | 243 | 242 | 239 | 240 | 240 | `XXXXXXXXX` |
 
 Trennschaerfe: grau n=64 min 239 max 246 · weiss n=8 min 255 max 255
+
+## Verifikation — drei unabhängige Ablesungen je Tabelle
+
+Jede der vier Matrizen wurde dreifach gelesen: (1) rechnerisch durch den Hauptprozess
+(Median je Zelle, oben protokolliert), (2) visuell durch den Hauptprozess am gespreizten
+300-dpi-Rendering, (3) durch je einen unabhängigen Verifikations-Agenten, der **nur das Bild
+und die Legende erhielt, nicht das Vorergebnis**.
+
+| Tabelle | Zellen | Agent bestätigt | Widersprochen | Bemerkung |
+|---|---|---|---|---|
+| A22-1 (S. 51) | 30 | 30 | 0 | Muster zeichengleich |
+| A23-1 (S. 52) | 80 | 80 | 0 | Muster zeichengleich |
+| A24-1 (S. 53) | 42 | 39 | 0 | Agent zählte 13 statt 14 Spalten, siehe unten |
+| A25-1 (S. 54) | 72 | 72 | 0 | Muster zeichengleich |
+| **Summe** | **224** | **221** | **0** | keine einzige Zelle strittig |
+
+**Kein einziger Widerspruch bei 221 unabhängig nachgelesenen Zellen.** Die drei nicht
+bestätigten Zellen sind die 14. Spalte von Tab. A24-1, die der Agent gar nicht als Spalte
+geführt hat — kein Dissens über eine Markierung, sondern über die Spaltenzahl.
+
+### Der eine Dissens und seine Klärung am Original (Methodik-Pflicht 7)
+
+Der Verifikations-Agent für Tab. A24-1 meldete **13 Spalten** und führte als letzte drei
+«Kap. 5.3.» ohne Unterziffer. **Der Hauptprozess hat das am Original entschieden** und den
+Kopfbereich der gedruckten S. 53 eigens gerendert und gelesen. Die Tabelle hat **14 Spalten**:
+
+1 Bauteilabschlüsse an Bauteile ohne Feuerwiderstand (Kap. 4.2.2) · 2 Bauteilabschlüsse an
+Bauteile mit Feuerwiderstand (Kap. 4.2.3) · 3 Elementstösse (Kap. 4.2.4 / 5.3.4) ·
+4 Unterbrüche brandschutztechnisch wirksamer Beplankungen (Kap. 4.2.5) · 5 Hohlräume
+(Kap. 4.2.6) · 6 Längsfugen (Kap. 4.2.7) · 7 Auflager (Kap. 4.2.8 / 5.3.6) · 8 Lagesicherung
+(Kap. 4.2.9 / 5.3.7) · 9 Verbindungsmittel (Kap. 4.2.10 / 5.3.8) · 10 Bauteilfugen
+(Kap. 4.3 / 5.4) · 11 Schmalseitige Bauteilabschlüsse (Kap. 5.3.2) · 12 Flächige
+Bauteilabschlüsse (Kap. 5.3.3) · 13 Zusammenschlüsse (Kap. 5.3.5) · 14 Bauteildurchbrüche
+(Kap. 5.3.9).
+
+Die 13 vom Agenten gelesenen Spalten decken sich zeichengleich mit den ersten 13 der Messung;
+es fehlte ihm allein die 14., in allen drei Zeilen graue Spalte. **Der Befund des Agenten
+wurde also nicht übernommen**, sondern am Original widerlegt — dieselbe Disziplin wie in
+Run 37, nur diesmal mit umgekehrtem Vorzeichen.
+
+### Eine Nebenwirkung der Spreizung, die künftige Läufe kennen müssen
+
+Die Kontrastspreizung bildet **alles unter dem Grauwert 234 auf Schwarz ab**. Der dunkle
+Scanrand am linken Blattrand wird dadurch zu einem schwarzen Balken, der die senkrechte
+Randbeschriftung der Zeilen («Wand-Wand», «Wand-Decke/Dach», «Wand-Decke») verschluckt. Alle
+drei Agenten haben deshalb zu Recht gemeldet, sie fänden keine Randbeschriftung.
+**Das gespreizte Bild taugt zur Zellklassierung, nicht zum Lesen von Randtext** — Letzteres
+ist am ungespreizten Rendering zu tun, wie es der Hauptprozess getan hat.

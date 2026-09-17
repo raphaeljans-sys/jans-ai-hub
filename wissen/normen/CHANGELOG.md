@@ -1,3 +1,48 @@
+## 2026-09-18 (Normen-Nacht Run 87, MacBook Pro, SIA/VKF) — N86-1 erledigt: die vier Anhang-2-Matrizen der Lignum 4.2 Zelle für Zelle aufgenommen
+
+**Ein Arbeitsblock:** die rechnerische Zellaufnahme der Übersichtsmatrizen Tab. A22-1 bis
+A25-1 (gedruckte S. 51-54) nach Methodik-Pflicht 8 — der von Run 86 benannte nächste Schritt
+und die von Run 86 genannte Bedingung für eine Statushebung. Beleg:
+`training/l42-anhang2-zellaufnahme-260918.md`.
+
+- **224 Zellen aufgenommen, 181 massgebend, 43 nicht massgebend, kein Grenzfall.** Weisse
+  Zellen messen exakt 255, graue 237 bis 250; im Bereich 251-254 liegt über alle vier Tabellen
+  hinweg kein einziger Median. Die Klassierung ist damit kein Ermessen, sondern ein sauber
+  bimodaler Befund.
+- **Drei unabhängige Ablesungen je Tabelle** (rechnerisch durch den Hauptprozess, visuell durch
+  den Hauptprozess am gespreizten Rendering, dazu je ein Verifikations-Agent ohne Kenntnis des
+  Vorergebnisses): **221 von 224 Zellen unabhängig bestätigt, 0 Widersprüche.**
+- **Der einzige Dissens war eine Spaltenzahl, kein Wert.** Der Agent für Tab. A24-1 zählte 13
+  statt 14 Spalten. Der Hauptprozess hat das am Original entschieden (eigenes Rendering des
+  Kopfbereichs der S. 53): es sind 14, die 14. ist «Bauteildurchbrüche, Kap. 5.3.9». Der
+  Agentenbefund wurde nicht übernommen (Methodik-Pflicht 7, umgekehrtes Vorzeichen zu Run 37).
+- **Werkzeugbefund, der den ganzen Rückstand erklärt: die Quelle ist ein MRC-Mischraster.**
+  `pdfimages -list` zeigt je Seite eine JPEG-Tonebene mit nur **150 ppi** neben rund 30
+  bitonalen **300-ppi**-Stencils. Zwei Fallen folgen daraus, beide in diesem Lauf zuerst selbst
+  durchlaufen: ein Hintergrundmodell (Perzentil je Spalte) löscht das Signal genau dort, wo die
+  Mehrheit der Zellen markiert ist — richtig ist die Messung gegen das absolute Papierweiss
+  255; und eine verkleinerte Sichtkontrolle kann einen 4-%-Tonunterschied grundsätzlich nicht
+  zeigen. Deshalb hatten die Aufnahme-Agenten von Run 86 die Matrizen zu Recht als «alle Zellen
+  leer» gemeldet. Vorschlag zur Ergänzung von MP 8 liegt als N87-2 bei Raphael, nicht
+  selbständig umgesetzt.
+- **Ein Beleg zu Methodik-Pflicht 13 im eigenen Bestand (N87-3).** Run 33 hatte die
+  Anhang-2-Tabellen als «durchgehend zeilenweise gegen die Bilder geprueft, keine Abweichung
+  gefunden» protokolliert und das Destillat darauf auf `established` gehoben — während von den
+  vier Matrizen **kein einziger Zellinhalt** im Destillat stand. Nicht falsch, aber strukturell
+  blind für das Fehlende. Vermerk inline im Destillat gesetzt (Methodik-Pflicht 9).
+- **Keine Statushebung, aus einem neuen Grund (N87-1).** Die Bedingung aus Run 86 ist erfüllt,
+  aber die Matrizen unterscheiden ihre Zeilen über **Piktogramme**: vier von acht Zeilen der
+  Tab. A23-1 heissen gleich («Wand-Decke»), drei von acht in Tab. A25-1. Das Destillat gibt die
+  Matrizen damit vollständig, aber noch nicht benutzbar wieder. `speculative` bleibt.
+
+Geändert: `destillate/lignum-4-2-anschluesse-feuerwiderstand.md` (neuer Abschnitt mit allen
+vier Matrizen, Frontmatter, Prüfstand, Inline-Vermerk zu Run 33), `destillate/INDEX.md`,
+`wiki/QUESTIONS.md` (N86-1 geschlossen, N87-1 bis N87-3 neu), neu
+`training/l42-anhang2-zellaufnahme-260918.md`, Lauf-Report
+`outputs/2026-09-18_normen-nacht-run87.md`.
+
+Stations-Split eingehalten: keine DIN-, VSS- oder RAL-Position berührt.
+
 ## 2026-09-17 — Wissens-Chef Lauf 61: Zuschreibung des SIA-2017-Geltungsstands berichtigt
 
 - **WC61-5 (bestaetigt).** Der am 16.09.2026 in `destillate/sia-mb-2017.md` gesetzte

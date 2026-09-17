@@ -11,6 +11,48 @@
   korrekt und diente der KB `energie` als Zweitbeleg für ihre Berichtigung (RF1 → RF2 (cr)). Präzisierung
   des Wortlauts ist Entscheid dieser KB; `wissen/energie` hat hier nichts editiert.
 
+## Normen-Nacht Run 87 (18.09.2026) — N86-1 geschlossen: die Anhang-2-Matrizen der Lignum 4.2 sind aufgenommen
+
+**N86-1 erledigt.** Die vier Übersichtsmatrizen Tab. A22-1 bis A25-1 (S. 51-54) sind Zelle für
+Zelle rechnerisch aufgenommen (Methodik-Pflicht 8): **224 Zellen, 181 massgebend, 43 nicht
+massgebend, kein einziger Grenzfall** — weisse Zellen messen exakt 255, graue 237 bis 250, im
+Bereich 251-254 liegt nichts. Drei unabhängige Ablesungen je Tabelle, **221 von 224 Zellen
+unabhängig bestätigt, 0 Widersprüche**. Inhalt im Destillat, Messwerte und Verifikation in
+`training/l42-anhang2-zellaufnahme-260918.md`.
+
+### N87-1 — die Matrix-Zeilen sind ohne Piktogramm-Beschreibung nicht auswählbar (nächster Schritt)
+
+Die Matrizen unterscheiden ihre Zeilen über **Piktogramme**, nicht über die Randbeschriftung:
+Tab. A23-1 führt vier von acht Zeilen als «Wand-Decke», Tab. A25-1 drei von acht. Wer aus dem
+Destillat heraus die richtige Zeile für einen konkreten Anschluss wählen will, kann das
+deshalb nicht — die aufgenommenen Muster sind vollständig, aber noch nicht benutzbar. Zu tun:
+je Zeile die Geometrie beschreiben (durchlaufendes Bauteil, Stichbauteil, T-/Eck-/Kreuzstoss,
+Seite der Brandbeanspruchung) und die Beschreibung an der jeweiligen Piktogrammzeile belegen.
+**Das ist der Grund, warum Run 87 den Status trotz erfüllter Run-86-Bedingung nicht hebt**, und
+der nächste Schritt auf dieser Quelle.
+
+### N87-2 — der Werkzeugbefund gilt über diese Quelle hinaus (Vorschlag an Raphael, keine Pflicht)
+
+Die Matrizen galten vier Läufe lang als leer, weil die Quelle ein **MRC-Mischraster** ist: eine
+JPEG-Tonebene mit 150 ppi neben rund 30 bitonalen 300-ppi-Stencils. Zwei Fallen folgen daraus,
+beide in diesem Lauf zuerst selbst durchlaufen: ein Hintergrundmodell (Perzentil je Spalte)
+löscht das Signal, wo die Mehrheit der Zellen markiert ist — richtig ist die Messung gegen das
+absolute Papierweiss 255; und eine verkleinerte Sichtkontrolle kann einen 4-%-Tonunterschied
+grundsätzlich nicht zeigen. **Vorschlag: Methodik-Pflicht 8 um den Satz ergänzen, dass vor der
+Aufnahme einer Tabelle mit `pdfimages -list` zu prüfen ist, aus welchen Ebenen die Seite
+besteht.** Nicht selbständig umgesetzt; MP 8 ist eine freigegebene Pflicht, ihr Wortlaut wird
+von Claude nicht geändert. Beleg: `training/l42-anhang2-zellaufnahme-260918.md`.
+
+### N87-3 — eine Refuter-Runde hat im eigenen Bestand 224 fehlende Zellen nicht bemerkt (Beleg zu MP 13)
+
+Run 33 (27.07.2026) protokollierte die «Anhang-2-Uebersichtstabellen A.2.2-A.2.5 — durchgehend
+zeilenweise gegen die Bilder geprueft, keine Abweichung gefunden» und hob das Destillat darauf
+auf `established`. Das Destillat enthielt zu diesem Zeitpunkt von den vier Matrizen **keinen
+einzigen Zellinhalt**. Die Aussage war nicht falsch — geprüft waren die Kopfzeilen —, aber sie
+konnte den fehlenden Inhalt strukturell nicht sehen. Das ist Methodik-Pflicht 13 am eigenen
+Bestand, mit Datum und Fundstelle; der Vermerk steht jetzt inline im Destillat. Kein
+Handlungsbedarf, ein Beleg.
+
 ## Normen-Nacht Run 86 (16.09.2026) — N85-2 geschlossen: die Abdeckungsrichtung auf `lignum-4-2`
 
 **N85-2 erledigt.** Seiten-Inventur aller **63 gedruckten Seiten** (S. 2-64) der Lignum 4.2
@@ -27,6 +69,9 @@ der Abdeckungsrichtung steht bei **9 von 9** geprüften Destillaten dieser Reihe
 Stand 30.07.2026). Scheinbefund nach Methodik-Pflicht 7, also eine unabhängige Bestätigung.
 
 ### N86-1 — Die Zellen der Anhang-2-Matrizen sind nie aufgenommen worden (nächste Methode)
+
+✅ **ERLEDIGT am 18.09.2026 (Run 87)** — 224 von 224 Zellen aufgenommen, siehe den Abschnitt
+zu Run 87 zuoberst in dieser Datei. Der Eintrag bleibt als datiertes Protokoll stehen.
 
 Die Abdeckungsrichtung hat aufgenommen, **dass** die vier Übersichtstabellen A22-1 bis A25-1
 (S. 51-54) existieren und welche zehn Anschlusssituations-Spalten sie führen. **Nicht**

@@ -4,8 +4,8 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (Stand Run 86, 16.09.2026: beide Prüfrichtungen sind jetzt auf der gesamten Quelle gelaufen — Refuter-Runden 1-5, Abdeckungsrichtung in Runde 6 über alle 63 gedruckten Seiten, 0 falsche Werte, 26 Kernlücken inline nachgetragen. Keine Statushebung, weil die Zellen der Anhang-2-Matrizen nie rechnerisch aufgenommen wurden; siehe Prüfstand am Ende. Herabgestuft in Run 85 von established)"
-last_updated: 2026-09-16
+status: "speculative (Stand Run 87, 18.09.2026: die in Run 86 als Hebungsbedingung genannte rechnerische Zellaufnahme der vier Anhang-2-Matrizen ist erledigt — 224 von 224 Zellen gemessen, drei unabhängige Ablesungen deckungsgleich, 0 Widersprüche. Keine Hebung, weil die Zeilen der Matrizen nur über die Piktogramme unterscheidbar sind und diese im Destillat noch nicht beschrieben sind (N87-1). Vorstand Run 86, 16.09.2026: beide Prüfrichtungen sind jetzt auf der gesamten Quelle gelaufen — Refuter-Runden 1-5, Abdeckungsrichtung in Runde 6 über alle 63 gedruckten Seiten, 0 falsche Werte, 26 Kernlücken inline nachgetragen. Keine Statushebung, weil die Zellen der Anhang-2-Matrizen nie rechnerisch aufgenommen wurden; siehe Prüfstand am Ende. Herabgestuft in Run 85 von established)"
+last_updated: 2026-09-18
 links: [[REGISTER]]
 ---
 
@@ -563,6 +563,95 @@ Kap. 4.2.1 (gleichwertige Lösungen im Einvernehmen mit der Brandschutzbehörde)
   Bauteilfugen usw.) im Normalfall massgebend sind: A.2.2 brandabschnittsbildende Bauteile an
   nicht brandabschnittsbildende (S. 51), A.2.3 an brandabschnittsbildende (S. 52), A.2.4
   Holzbauteile an Bauteile RF1 (S. 53), A.2.5 Bauteile RF1 an Bauteile RF1 (S. 54).
+  **Der Inhalt der vier Matrizen ist seit Run 87 (18.09.2026) Zelle für Zelle aufgenommen —
+  siehe den eigenen Abschnitt unmittelbar unten.**
+
+#### Anhang 2 — die vier Übersichtsmatrizen Zelle für Zelle (aufgenommen 18.09.2026, Run 87)
+
+Die vier Tabellen beantworten Schritt 4 des Leitfadens in Anhang 1: welche Anschlusssituation
+bei welcher Anschlussgeometrie **im Normalfall massgebend** ist. Bis zum 18.09.2026 war im
+Destillat nur beschrieben, **dass** es sie gibt; der Inhalt der Matrizen fehlte vollständig.
+Er ist jetzt rechnerisch aufgenommen (Methodik-Pflicht 8), Beleg und Messwerte:
+`training/l42-anhang2-zellaufnahme-260918.md`.
+
+**Lesart:** «massgebend» heisst, dass diese Anschlusssituation bei dieser Geometrie im
+Normalfall zu überprüfen ist; «nicht massgebend» heisst, dass sie bei dieser Geometrie im
+Normalfall nicht auftritt. Die Matrizen ersetzen **keine** Einzelfallbeurteilung — Kap. 4.2.1
+und 5.3.1 halten ausdrücklich fest, dass für die Beurteilung eines Bauteilanschlusses **alle
+relevanten** Anschlusssituationen zu berücksichtigen sind.
+
+**Tab. A22-1 (S. 51) — brandabschnittsbildende Bauteile an nicht brandabschnittsbildende
+Bauteile.** Drei Anschlussgeometrien, zehn Anschlusssituationen (Kap. 4.2.2 bis 4.3).
+
+| Anschlussgeometrie | massgebend | nicht massgebend |
+|---|---|---|
+| Wand-Wand | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.7 · 4.2.8 |
+| Wand-Decke/Dach | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.8 |
+| Wand-Decke | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 |
+
+Durchgehend **nie** massgebend sind hier Kap. 4.2.3 (Bauteilabschlüsse an Bauteile MIT
+Feuerwiderstand) und Kap. 4.2.4 (Elementstösse) — beides folgerichtig, weil das
+Gegenstück definitionsgemäss keinen Feuerwiderstand hat. **Immer** massgebend sind
+Kap. 4.2.2, 4.2.5, 4.2.6, 4.2.9, 4.2.10 und 4.3.
+
+**Tab. A23-1 (S. 52) — brandabschnittsbildende Bauteile an brandabschnittsbildende Bauteile.**
+Acht Anschlussgeometrien, dieselben zehn Anschlusssituationen.
+
+| Nr. | Anschlussgeometrie | massgebend | nicht massgebend |
+|---|---|---|---|
+| 1 | Wand-Wand | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.8 |
+| 2 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
+| 3 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
+| 4 | Wand-Decke | 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.4 |
+| 5 | Wand-Wand | 4.2.2 · 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.6 · 4.2.7 · 4.2.8 |
+| 6 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.6 · 4.2.7 |
+| 7 | Wand-Wand | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 · 4.2.8 |
+| 8 | Decke-Decke | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 |
+
+Die Zeilennummern folgen der Reihenfolge der Piktogramme von oben nach unten; die
+Randbeschriftung nennt nur die Bauteilpaarung, nicht die Eckkonstellation, weshalb sich
+mehrere Zeilen im Namen wiederholen. **In allen acht Geometrien massgebend:** Kap. 4.2.3,
+4.2.5, 4.2.9, 4.2.10 und 4.3.
+
+**Tab. A24-1 (S. 53) — brandabschnittsbildende und nicht brandabschnittsbildende Holzbauteile
+an Bauteile RF1.** Drei Anschlussgeometrien, **vierzehn** Spalten: die zehn Holzbau-Situationen
+aus Kap. 4 und zusätzlich vier RF1-Situationen aus Kap. 5; sechs Spalten führen einen
+Doppelverweis (Holzbau-Kapitel und RF1-Kapitel untereinander).
+
+| Anschlussgeometrie | nicht massgebend | alle übrigen |
+|---|---|---|
+| Wand-Wand | 4.2.2 · 4.2.4/5.3.4 · 4.2.8/5.3.6 | massgebend |
+| Wand-Decke/Dach | 4.2.2 · 4.2.4/5.3.4 | massgebend |
+| Wand-Decke | 4.2.2 · 4.2.4/5.3.4 | massgebend |
+
+Die Spaltenfolge lautet: 4.2.2 · 4.2.3 · 4.2.4/5.3.4 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8/5.3.6 ·
+4.2.9/5.3.7 · 4.2.10/5.3.8 · 4.3/5.4 · 5.3.2 · 5.3.3 · 5.3.5 · 5.3.9. **Diese Tabelle ist die
+dichteste der vier:** 35 der 42 Zellen sind massgebend. Wer einen Holz-an-RF1-Anschluss
+beurteilt, arbeitet praktisch den ganzen Katalog ab; die einzige durchgehende Ausnahme sind
+Kap. 4.2.2 (Bauteilabschlüsse an Bauteile OHNE Feuerwiderstand) und Kap. 4.2.4/5.3.4
+(Elementstösse).
+
+**Tab. A25-1 (S. 54) — brandabschnittsbildende Bauteile RF1 an brandabschnittsbildende
+Bauteile RF1.** Acht Anschlussgeometrien, neun Anschlusssituationen (Kap. 5.3.2 bis 5.4).
+Hier ist die Ausnahme die weisse Zelle: **64 der 72 Zellen sind massgebend.**
+
+| Nr. | Anschlussgeometrie | nicht massgebend | alle übrigen |
+|---|---|---|---|
+| 1 | Wand-Wand | 5.3.4 · 5.3.6 | massgebend |
+| 2 | Wand-Decke | 5.3.4 | massgebend |
+| 3 | Wand-Decke | 5.3.4 | massgebend |
+| 4 | Wand-Decke | 5.3.4 | massgebend |
+| 5 | Wand-Wand | 5.3.6 | massgebend |
+| 6 | Wand-Decke | 5.3.4 | massgebend |
+| 7 | Wand-Wand | 5.3.6 | massgebend |
+| 8 | Decke-Decke | — (alle neun massgebend) | massgebend |
+
+**Planungsrelevante Lesart über alle vier Tabellen:** Bauteilfugen (Kap. 4.3 bzw. 5.4),
+Lagesicherung (4.2.9/5.3.7) und Verbindungsmittel (4.2.10/5.3.8) sind in **jeder** der
+22 aufgenommenen Anschlussgeometrien massgebend — sie sind nie die Ausnahme. Elementstösse
+(4.2.4/5.3.4) sind dagegen in 16 der 22 Geometrien nicht massgebend und damit die häufigste
+Entlastung.
+
 - Anhang 3 Beispiele von Anschlusskonstruktionen (S. 55-62): 7 durchgerechnete Beispiele
   (A.3.2 bis A.3.8; S. 55 = Kap. A.3.1 Einleitung, kein eigenes Beispiel), je mit Feuer-
   widerstandsanforderungen + Bauteilaufbau + Nachweis-Vorbereitung (Bauteilnachweis-
@@ -795,6 +884,14 @@ Kap. 4.2.1 (gleichwertige Lösungen im Einvernehmen mit der Brandschutzbehörde)
       Abkuerzungen (Kap. 6), Nachweiswege Kap. 2.2.2 a-d, Anhang-1-Leitfaden (7 Schritte),
       Anhang-2-Uebersichtstabellen A.2.2-A.2.5 — durchgehend zeilenweise gegen die Bilder
       geprueft, keine Abweichung gefunden.
+      ⚠ **Berichtigt 18.09.2026 (Run 87), soweit es die Anhang-2-Tabellen betrifft.** Das
+      Destillat enthielt zu diesem Zeitpunkt von den vier Matrizen ueberhaupt keinen
+      Zellinhalt, sondern nur die Beschreibung ihrer Zeilen- und Spaltenkoepfe. «Keine
+      Abweichung gefunden» konnte darum nur die Koepfe betreffen; dass **224 Zellen
+      vollstaendig fehlten**, hat die Runde nicht bemerken koennen. Kein falscher Wert, aber
+      auch kein Vollstaendigkeitsnachweis — der Fall ist ein datierter Beleg fuer
+      Methodik-Pflicht 13 im eigenen Bestand. Die Statushebung von Run 33 stuetzte sich
+      mithin auf eine zu schmale Pruefrichtung.
 - **Verdikt: 0 Befunde.** Keine Regression zu den Runden 1-3 festgestellt.
 - **Status auf `established` gehoben.** Vierte unabhaengige Refuter-Runde 27.07.2026 (Run 33)
   schliesst mit sauberem Nulldurchgang ab.
@@ -857,19 +954,32 @@ Kap. 4.2.1 (gleichwertige Lösungen im Einvernehmen mit der Brandschutzbehörde)
   Literaturverzeichnis (22 Referenzen), Anhang 1 (7 Schritte) und Anhang 3 (7 Beispiele) waren
   vollständig — dort fand die Abdeckungsrichtung nichts.
 
-### Prüfstand (Stand Run 86)
+### Prüfstand (Stand Run 87)
 
-| Teil | Refuter-Richtung | Abdeckungsrichtung | Bemerkung |
-|---|---|---|---|
-| Kap. 1-3 (S. 4-11) | Runden 1-5 | **Runde 6 (S. 2-11 vollständig)** | BSR 15-15/14-15, Abb. 330-1 Leg. B, Kap. 3.5.2-Einleitung nachgetragen |
-| Kap. 4 (S. 12-33) | Runden 1-5 | **Runde 6 (vollständig)** | Legenden und Anwendungsbedingungen nachgetragen; Legenden-Zuordnung Run 85 korrigiert |
-| Kap. 5 (S. 34-45) | Runden 1-5 | **Runde 6 (vollständig)** | 5.2.1, Installationsverbot, Abb. 540-1 nachgetragen |
-| Kap. 6-7 (S. 46-47) | Runde 5 (Kriterium Schmelzpunkt) | **Runde 6** | Farbraster/Schraffuren nachgetragen, Glossar war vollständig |
-| Anhänge (S. 48-62) | Runden 3-5 | **Runde 6** | ohne Befund; Scan S. 54/56/58 links angeschnitten, Seitenzahlen lesbar |
+| Teil | Refuter-Richtung | Abdeckungsrichtung | Zellaufnahme (MP 8) | Bemerkung |
+|---|---|---|---|---|
+| Kap. 1-3 (S. 4-11) | Runden 1-5 | Runde 6 (S. 2-11 vollständig) | — | BSR 15-15/14-15, Abb. 330-1 Leg. B, Kap. 3.5.2-Einleitung nachgetragen |
+| Kap. 4 (S. 12-33) | Runden 1-5 | Runde 6 (vollständig) | — | Legenden und Anwendungsbedingungen nachgetragen; Legenden-Zuordnung Run 85 korrigiert |
+| Kap. 5 (S. 34-45) | Runden 1-5 | Runde 6 (vollständig) | — | 5.2.1, Installationsverbot, Abb. 540-1 nachgetragen |
+| Kap. 6-7 (S. 46-47) | Runde 5 (Kriterium Schmelzpunkt) | Runde 6 | — | Farbraster/Schraffuren nachgetragen, Glossar war vollständig |
+| Anhänge 1 und 3 (S. 49, 55-62) | Runden 3-5 | Runde 6 | — | ohne Befund; Scan S. 56/58 links angeschnitten, Seitenzahlen lesbar |
+| **Anhang 2, Tab. A22-1 bis A25-1 (S. 51-54)** | — | Runde 6 (nur Kopfzeilen) | **Run 87: 224 von 224 Zellen** | rechnerisch gemessen und von drei unabhängigen Ablesungen bestätigt |
 
-**Damit sind beide Prüfrichtungen auf der gesamten Quelle gelaufen.** Was weiterhin NICHT
-gemessen ist: die Richtigkeit **jeder einzelnen Zelle** der Anhang-2-Matrizen (Tab. A22-1 bis
-A25-1) — dort sind die Ankreuzfelder nie rechnerisch aufgenommen worden (Methodik-Pflicht 8).
-Das ist der nächste Teil, auf dem eine Methode noch nicht gelaufen ist; eine Statushebung auf
-`established` wird in diesem Lauf deshalb **nicht** vorgenommen.
+**Beide Prüfrichtungen sind auf der gesamten Quelle gelaufen, und seit Run 87 ist auch die
+rechnerische Zellaufnahme der vier Anhang-2-Matrizen erledigt** (Beleg
+`training/l42-anhang2-zellaufnahme-260918.md`). Damit ist die Bedingung erfüllt, die Run 86
+für eine Statushebung genannt hatte.
+
+**Trotzdem bleibt der Status `speculative`, aus einem neuen und anderen Grund.** Die Matrizen
+unterscheiden ihre Zeilen über **Piktogramme**, nicht über die Randbeschriftung: in Tab. A23-1
+tragen vier von acht Zeilen dieselbe Bezeichnung «Wand-Decke», in Tab. A25-1 drei von acht.
+Wer die Zeilen aus diesem Destillat heraus auseinanderhalten will, kann es nicht — die
+Bezeichnung allein identifiziert die Anschlussgeometrie nicht. Das Destillat gibt die Matrizen
+damit vollständig, aber noch nicht benutzbar wieder. Die Piktogramme sind zu beschreiben
+(durchlaufendes Bauteil, Stichbauteil, Eck-/Kreuz-/T-Stoss, Seite der Brandbeanspruchung),
+bevor eine Hebung redlich ist; offen als N87-1.
+
+**Was ausserdem nicht geprüft ist:** der Fassungsstand der Publikation (Ausgabe April 2018 auf
+Basis BSV 2015; ob eine neuere Lignum-Fassung vorliegt, hat auch dieser Lauf nicht erhoben —
+unverändert offen seit Run 86).
 
