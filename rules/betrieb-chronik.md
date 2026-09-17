@@ -3445,3 +3445,15 @@ Station. Fuer die Aussensicht ist das richtig (diese Station kann von aussen sch
 Satz «der Waechter ist installiert» ist es zu wenig: dieselbe Luecke wie vor dem 28.08., nur eine
 Etage hoeher. Solange der Mini offen ist, traegt das Fristen-Register den Stand, nicht die gruene
 Statuszeile. Nicht gebaut, nur vermerkt.
+
+**Nachtrag 17.09.2026 09:48 — Mac Mini INSTALLIERT, beide Stationen scharf.** Raphael hat den
+uebergebenen Befehl in einer lokalen Session auf dem Mac Mini (`Macmini.local`) selbst
+beauftragt; damit kein `ssh`-Umweg und kein Klassifikator-Konflikt. Vorher gemessen: keine Plist,
+kein geladener Job. Ausgefuehrt: `cp` der Vorlage nach `~/Library/LaunchAgents/`, `chmod 644`,
+`launchctl bootstrap gui/$(id -u)`. Nachgemessen: `launchctl list` fuehrt
+`ch.jans.tailscale-waechter` mit **last exit code 0**; der RunAtLoad-Lauf schrieb nach
+`/tmp/ch.jans.tailscale-waechter.out` «Tailscale laeuft auf Macmini (100.120.219.12) /
+Subnet-Route 192.168.1.0/24 angekuendigt und freigegeben / Gegenstellen sichtbar», `.err` leer.
+**Rueckweg:** `launchctl bootout gui/$(id -u)/ch.jans.tailscale-waechter` und die Plist loeschen.
+Die oben vermerkte Messluecke des heartbeat (misst nur die lokale Station) besteht fort, ist mit
+der Installation auf beiden Stationen aber ohne akute Folge.
