@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 06:36:12
+Stand: 17.09.2026 06:56:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 06:36:12
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- c9b72ce21 Vollgas-Fruehwarnung 17.09.2026: Regellauf ohne Befund, Logeintrag; MacBook nicht messbar, Messfalle falsches Positiv belegt
+- d4e91154e nas-selfcommit: 1 Datei(en) 2026-09-17 06:45
