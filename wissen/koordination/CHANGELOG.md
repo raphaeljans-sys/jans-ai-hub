@@ -2,6 +2,22 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-17 — Synergie-Lauf 38 (Tagestakt)
+
+Delta-Basis 16.09.2026 17:10, Fenster 24 h, 127 Commits. Strukturelles Delta: ein neuer Connector
+(`connectors/bexio-auth.mjs`, OIDC-Dauerzugang) plus die Neufassung der Buchungsvollmacht (Rule
+`auto-verbesserungen` 260702). Verdrahtung des Connectors vollstaendig geprueft und in Ordnung (README,
+WEGE, Spec, beidseitige Rueckkante, Task auf dem Mac Mini). **Neu: SYN-90** — die Neufassung zitiert A9 der
+`AKTIONS-WHITELIST` als Grundlage, waehrend A9 den Zweifelsfall gegenteilig regelt («Entwurf statt Buchung»
+gegen «1090/ABKLAERUNG») und ein 60-Minuten-Widerrufsfenster traegt, das zu einem Monatslauf nicht passt.
+**Neu: SYN-91** — die User-Level-CLAUDE.md verbietet unter «Grenzen» woertlich «nie Buchungen ohne
+ausdrueckliche Einzelfreigabe», also genau das, was 260702 seit heute erlaubt. Beide Wortlaute sind
+Raphaels Vollmachts- bzw. Sicherheitstext; dieser Lauf hat keinen davon geaendert. Gegengeprueft und nicht
+zum Befund erhoben: `zahlungsabgleich` (kein Widerspruch, Reconcilen ist ausgenommen), Tailscale-Waechter
+Mini (steht im Fristen-Register), fossile ssh-Allowlist-Eintraege (stationslokal, Hygiene).
+Bericht: `outputs/2026-09-17_synergie-lauf-38.md`.
+
+
 ## 2026-09-16 (Lauf 60, Abendlauf) — eine Korrektur erreichte nur die gemeldeten Zeilen, und der Verifikator korrigierte zweimal nicht den Befund, sondern die Handlung
 
 Zuschnitt: Workflow mit 7 Meldern (`model: sonnet`) auf dem Zuwachs seit Lauf 59, je Feld mit
