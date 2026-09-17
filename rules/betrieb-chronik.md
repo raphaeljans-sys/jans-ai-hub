@@ -3414,3 +3414,34 @@ Beide KISPI-Kopien enumerieren bis in die LOS-Ordner; welche der Client bedient,
 Keine Eingriffe von Claude, keine Ordner umbenannt. Empfehlung an Raphael im Gespräch: Restbibliotheken fertig verbinden
 (landen alle im verdoppelten Stamm, das ist dann der eine Ort), KISPI per «Synchronisierung beenden» und neu «Synchronisieren»
 nachziehen, nichts von Hand im Finder verschieben; Phantom `OneDrive-JANS` später über den ACL-Weg vom 10.09. entfernen.
+
+## 260917b — Tailscale-Waechter auf dem MacBook Pro installiert (Auftrag Raphael); Mac Mini bleibt offen, vom Klassifikator geblockt
+
+Auftrag Raphael 17.09.2026 («Waechter jetzt installieren») im Anschluss an den heartbeat-Lauf
+09:41, dessen Check «Erreichbarkeit» wie schon am 28.08., 01.09. und seither taeglich
+«Waechter NICHT installiert» meldete. Der Befund liegt seit dem 26.08.2026 als offene Zeile
+hoher Prioritaet im Fristen-Register; Script und Template lagen seit dem 24.08. bereit und waren
+auf **keiner** Station scharfgestellt — 24 Tage zwischen «gebaut» und «laeuft».
+
+**Ausgefuehrt auf dem MacBook Pro (Persistenz-Klasse, Rule `interaktive-eingriffe`; die
+Ankuendigung ist Raphaels Auftrag selbst):**
+`cp templates/launchd/ch.jans.tailscale-waechter.plist ~/Library/LaunchAgents/`, `chmod 644`,
+`launchctl bootstrap gui/501`. Nachgemessen statt behauptet: `launchctl list` fuehrt
+`ch.jans.tailscale-waechter` mit **last exit code 0**, `run interval = 300 s`, `runatload`;
+der RunAtLoad-Lauf schrieb nach `/tmp/ch.jans.tailscale-waechter.out` «Tailscale laeuft auf
+Macbookpro (100.117.99.62) / Gegenstellen sichtbar», `.err` leer. Ein Vorlauf mit `--pruefen`
+war vor der Installation fehlerfrei (rc=0). **Rueckweg:**
+`launchctl bootout gui/501/ch.jans.tailscale-waechter` und die Plist loeschen.
+
+**Mac Mini NICHT ausgefuehrt.** Der Auto-Mode-Klassifikator von Claude Code verweigerte den
+Weg ueber `ssh mini` mit «Remote Shell Writes». Diese Schicht wird nie umgangen
+(Rule `wege-und-vollmachten`); der fertige Befehl ist Raphael uebergeben. Lesend war der Mini
+erreichbar und im selben Zug gemessen: keine Plist, kein geladener Job, NAS-Mount vorhanden.
+
+**Ein Messbefund nebenbei, der zur Familie 260824 gehoert.** Der heartbeat meldet nach der
+Installation auf dem MacBook Pro «Erreichbarkeit ✅ … Waechter aktiv» und damit **STATUS: Alles
+OK**, obwohl der Waechter auf dem Mac Mini weiterhin fehlt — der Check misst die **lokale**
+Station. Fuer die Aussensicht ist das richtig (diese Station kann von aussen schauen), fuer den
+Satz «der Waechter ist installiert» ist es zu wenig: dieselbe Luecke wie vor dem 28.08., nur eine
+Etage hoeher. Solange der Mini offen ist, traegt das Fristen-Register den Stand, nicht die gruene
+Statuszeile. Nicht gebaut, nur vermerkt.
