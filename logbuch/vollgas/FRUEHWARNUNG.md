@@ -4697,3 +4697,73 @@ Druckstufe 1 (normal).
 
 Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet. Letzte gesendete Mail dieses
 Tasks: weiterhin keine im aktuellen Log-Verlauf.
+
+## 2026-09-17 06:30 — Regellauf (Rohblock zuerst, Bewertung wird ergaenzt)
+
+Messzeitpunkt 2026-09-17 06:30 CEST, Station Mac Mini (Macmini.local), NAS-Mount stand.
+
+Verbrauch teuer / total, je Station und Tag (Mio Token):
+Mac Mini — 11.09. 2.97/84.58 · 12.09. 1.39/38.43 · 13.09. 0.86/28.97 · 14.09. 2.23/56.99 ·
+15.09. 3.67/148.25 · 16.09. 2.99/65.16 · 17.09. bis 06:30 0.57/14.43.
+MacBook Pro — NICHT MESSBAR: auf beiden Pfaden nicht erreichbar (Tailscale 100.117.99.62
+Zeitueberschreitung, mDNS-Name loest nicht auf). Werte werden nicht geschaetzt.
+
+Blockade-Status: strukturell geprueft ueber die letzten 36 h auf dem Mac Mini (25 Dateien im
+Fenster) — kein echtes Usage-/Rate-Limit-Fehlerereignis, weder 5-Stunden- noch Wochenlimit.
+
+Bewertung (nachgetragen 06:45 desselben Laufs).
+
+Kriterium (b) Verbrauch: der Mac Mini liegt am 16.09. bei 2.99 Mio teuer, heute bis 06:30 bei
+0.57 Mio. Das MacBook ist nicht messbar; seine zuletzt gemessenen Tageswerte lagen zwischen
+4.24 und 10.40 Mio teuer. Selbst mit dem hoechsten dieser Werte kaeme die Tagessumme beider
+Stationen auf rund 13 Mio und bliebe damit unter der Zweitages-Schwelle von je ~18 Mio und
+weit unter der Tagesschwelle von ~35 Mio. Kriterium (b) trifft unter jedem plausiblen Wert
+nicht zu; die fehlende MacBook-Messung wird nicht durch eine Schaetzung ersetzt.
+Kriterien (a) und (c) treffen nicht zu (kein einziges echtes Limit-Fehlerereignis).
+
+Operative Briefings — alle vier haben am 16.09. ihr Deliverable erreicht, gemessen vom NAS aus
+(stationsunabhaengig), weil das MacBook heute nicht erreichbar ist: logbuch-radar 07:05
+(Commit `5994c327f`, Briefing und Register), hub-chef-taeglich 08:59 (`830a78e01`, «Briefing
+gesendet»), mahnwesen-verzugscheck 08:06 (`260916_Verzugscheck.md`),
+zahlungsabgleich-check 08:24 (`260916_bexio-Hygiene.md`). Die beiden Finanz-Laeufe sind
+inhaltlich weiterhin durch bexio HTTP 401 blockiert (16.09. Tag 39) — bekannter, vom Radar und
+vom Fristen-Register getragener Dauerbefund, kein neuer Sendegrund. Die heutigen Laeufe waren
+um 06:30 noch nicht faellig. Kriterium (d) trifft nicht zu.
+
+Radar-Herzschlag: juengste `## `-Ueberschrift in RADAR.md ist 2026-09-17 00:58
+(MacBook-Fassung) neben der Mini-Fassung 00:57, rund 5.5 Stunden alt; dazu eine lokale
+Task-Session 17.09. 01:16. Kriterium (e) trifft nicht zu.
+
+Destillat-Aufsicht. Korpus-Queue: 1 und 2 erledigt, 3 (`buero-referenzen`, P1 vollstaendig,
+P2 offen) und 4 (`archiv-fachwissen`) in Arbeit — keine Meldung «KORPUS-QUEUE KOMPLETT»,
+Kriterium (g) trifft nicht zu. Specs liegen fuer beide laufenden Korpora vor (29.08.2026),
+das Spec-Gate haengt nicht. Ertrag ueber `git log --name-only` (nicht mtime): 14.09. 11
+Artikel (11 ohne Twin) · 15.09. 18 (12) · 16.09. 13 (7) · 17.09. bis 06:30 3 (3). Zielwiki
+`architektur-fachwissen` steht bei 481 Artikeln, juengster Stand 16.09. 23:26. Delta-Null-Serie:
+keine. Kriterium (f) trifft nicht zu — Front und Ertrag bewegen sich.
+Stueckkosten: diesmal NUR Mac Mini, weil die zweite Station fehlt — 16.09. 0.23 Mio je Artikel
+(0.43 ohne Twin-Facetten). Dieser Wert ist NICHT mit den Vortagswerten vergleichbar, die beide
+Stationen im Zaehler fuehren; die Reihe bekommt hier bewusst eine Luecke statt einer
+Scheinzahl.
+Mittags-Versuchsslot 13:30: hat geliefert (Logbuch-Abschnitt 15.09. 13:30-Slot, Lauf 16.09.
+13:33 mit Commit 13:45). Das Lauf-Gate hat ihn in den letzten sieben Tagen NIE abgewiesen —
+die vier Abweisungen im `gate-Macmini.log` sind ausnahmslos der taegliche
+Schutzmechanik-Selbsttest um 08:00 mit seiner absichtlich unerfuellbaren Schwelle, keine
+echten Blockaden.
+
+MESSFALLE, neu belegt 17.09.2026 (Gegenstueck zum Messhinweis im Auftrag). Der Auftragstext
+dieses Tasks enthaelt im Messhinweis das Muster `scheduled-task name="logbuch-radar"` woertlich.
+Wer die Task-Sessions ueber den GESAMTEN Dateiinhalt sucht, findet deshalb jede
+Fruehwarnungs-Session als vermeintlichen logbuch-radar-Lauf und jede Session, die selbst nach
+den Mustern gesucht hat, als Treffer fuer alle gesuchten Tasks. Im ersten Durchgang erschienen
+so `logbuch-radar` und `vollgas-chef-radar` faelschlich als lokale Mini-Laeufe. Richtig ist,
+nur die ERSTE User-Eingabe der Session zu pruefen und die eigene Session auszuschliessen —
+dann bleibt von den sechs gesuchten Tasks lokal allein `vollgas-chef-radar`, und die vier
+Briefings sind korrekt als MacBook-Laeufe ausgewiesen. Der Messhinweis warnt vor dem falschen
+Negativ (ungeschuetzte Anfuehrungszeichen), dies hier ist das falsche Positiv derselben Familie.
+
+Speicher Mac Mini zum Messzeitpunkt: 12'178 MB verfuegbar (free+inactive+purgeable),
+Druckstufe 1 (normal).
+
+Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet. Letzte gesendete Mail dieses
+Tasks: weiterhin keine im aktuellen Log-Verlauf.
