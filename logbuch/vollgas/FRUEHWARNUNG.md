@@ -4783,9 +4783,78 @@ Tageswerte teuer (in+cache_creation+out), Mio Token, MacBook Pro + Mac Mini:
 - 09.09.: MBP 7.35 · Mini 1.17 · zusammen 8.52
 
 Total (inkl. cache_read) 16.09.: MBP 106.31 · Mini 65.16.
-MacBook Pro hat am 12./13.09. (Sa/So) keine einzige usage-Zeile im Fenster — die Station
-war am Wochenende aus, kein Messfehler des 9-Tage-Vorfilters (beide Nachbartage liegen vor).
+MacBook Pro hat am 12./13.09. keine einzige usage-Zeile im Fenster. Das ist KEIN Messfehler
+des 9-Tage-Vorfilters (beide Nachbartage liegen vor) und auch nicht schlicht «Wochenende»:
+RADAR.md dokumentiert fuer genau dieses Fenster den App-Latch-Ausfall vom 12. bis 14.09.
+(Mini-App ab 12.09. 22:37 im Latch, Zwischenfreigabe 14.09. 01:41 ohne Wirkung, Mail an rj@
+am 12.09. 13:01, P1 im Fristen-Register inzwischen erledigt). Die Luecke ist die Signatur
+dieses bereits gemeldeten und abgeschlossenen Vorfalls, kein neuer Befund.
 Mac Mini durchgehend beliefert.
 
 Beide Stationen gemessen ueber `ssh mini` (Alias, nicht Tailscale-IP), rekursives Glob
 inkl. Subagenten-Transcripts, Zeilenfilter nach timestamp[:10].
+
+### Bewertung 2026-09-17 — ohne Befund, keine Mail
+
+**Blockade.** Null echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h (strukturell
+gemessen: isApiErrorMessage / type=error / apiErrorStatus=429 mit Limit-Text). Kontrollprobe
+bestanden (344 Zeilen tragen den Teilstring `scheduled-task`), das Muster greift also.
+Weder ein 5-Stunden- noch ein Wochenlimit war erschoepft. Wochensumme teuer 11.-17.09.
+zusammen 45.87 Mio (MBP 30.87 + Mini 15.00), Tagesspitze 15.09. mit 14.07 zusammen — beide
+Schwellen (35 an einem Tag, 18 an zwei Folgetagen) deutlich unterschritten.
+
+**Briefings — alle vier haben ihr Deliverable erreicht.** logbuch-radar 09:13-09:31 (Briefing
+gesendet, Register 5 erledigt / 5 neu, Commits `2e32c0af8` und `176272910`), hub-chef-taeglich
+09:20-09:33 (231 Zeilen, Registerkorrektur nachgetragen), mahnwesen-verzugscheck 09:08-09:11
+(`260917_Verzugscheck.md`, Registerzeile `471cb7943`), zahlungsabgleich-check 09:11-09:13
+(`260917_bexio-Hygiene.md`). Kein Abbruch, kein Kriterium (d).
+
+⚠ **Messfalle wiederholt, hier dokumentiert:** der Task-Opener steht in der JSONL escaped, im
+Wert NACH `json.loads` aber unescaped. Wer wie vorgeschrieben `name=\"<task>\"` gegen den
+bereits geparsten Textwert haelt, bekommt fuer alle fuenf Tasks «keine Session in 72 h» — also
+genau den Totalausfall, den es nicht gibt. Der Hinweis im Auftrag gilt fuer den ROHTEXT der
+Datei (grep), gegen den geparsten Wert ist `name="<task>"` richtig. Erst die Kontrollprobe hat
+den Irrtum aufgedeckt; ohne sie waere heute eine Mail ueber (d) und (e) gleichzeitig rausgegangen.
+
+**Radar-Herzschlag.** Juengster `## `-Eintrag in RADAR.md: 2026-09-17 00:58 (MacBook-Fassung),
+dazu 00:57 die Mini-Fassung — rund 8.5 h alt, unter der 12-h-Schwelle. Session vorhanden
+(`a5d65c15`, vor 8.3 h). Kriterium (e) nicht erfuellt. Der Radar fuehrt seinen eigenen
+Doppellauf-Befund (P2, beide Stationen laufen parallel und ueberschreiben sich in RADAR.md)
+am vierten Tag fort; das ist seine Sache, nicht diese Warnung.
+
+**Liefer-Delta.** Mini-Nachtschicht (`dispatch-versuch1`) vier Slots taeglich inkl.
+Mittags-Slot, alle rc=0: 16.09. 02:37/05:34/13:33/23:34, 17.09. 02:34/05:39, je USD 1.66 bis
+3.13 von 5. Jeder Lauf mit belegtem Ertrag (Fristen-Gruppierung, Synobsis-Identitaetsfragen
+mit Beleg, Cross-KB-Eingang planungsgrundlagen geschlossen, KB `claude-code` Punkt vom 13.08.
+geklaert, `energie` Run 202). Kein Delta-Null-Muster, kein Lauf mit Verbrauch ohne Lieferung.
+
+**Ertrag und Stueckkosten** (Artikel je Tag ueber `git log --name-only`, nicht ueber mtime):
+14.09. 11 Artikel (0.80 Mio/Artikel) · 15.09. 18 (0.78) · 16.09. 13 (0.76) · 17.09. bisher 9
+(0.41, Tag laeuft). Ohne die taeglich beruehrten Twin-Facetten: 11 / 12 / 7 / 3. Die Reihe
+liegt stabil bei rund 0.78 Mio je Artikel.
+
+**Destillat-Aufsicht — zwei Befunde, beide Hub-intern, kein Sendegrund nach 260803:**
+
+(1) *Front seit fuenf Tagen unmessbar.* `inventar.sh --stand` gibt fuer beide offenen Korpora
+`stand=UNMESSBAR grund=training-inventar-fehlt` zurueck: das Werkzeug sucht unter
+`skills/wissens-destillat/training/<korpus>-{sektionen,inventar}.md`, die Inventardateien liegen
+aber unter `wissen/architektur-fachwissen/raw/inventar/<korpus>__*.md` (20 bzw. 23 Dateien,
+vorhanden). Das ist derselbe P2, den der Radar am 12.09. erhoben hat — seither unveraendert.
+Kennzahl (a) bleibt damit blind; gemessen werden kann nur der Ertrag.
+
+(2) *Die Korpus-Front steht seit dem 30.08.2026 still, aber ohne Leerlauf.* Letzter
+Queue-Eintrag zu `buero-referenzen` / `archiv-fachwissen`: 30.08.2026; juengster Lauf-Report in
+`wissen/architektur-fachwissen/outputs/`: 01.09.2026. Die vier zuletzt gepruefen
+Nachtschicht-Zyklen fielen alle auf Prioritaet 5 durch, weil die Prioritaeten 1 bis 4 keine
+gueltige Ziel-KB fanden — sie haben also NICHT am Destillat-Korpus gearbeitet und dort auch
+nichts verbrannt. **Kriterium (f) trifft deshalb nicht:** es gibt keinen Aufwand ohne
+Wissenszuwachs, es gibt auf diesem Korpus gar keinen Aufwand. Das Wiki
+`architektur-fachwissen` steht bei 483 Artikeln (1 established, 290 emerging), seit 15.09. hat
+es genau 1 Artikel bewegt, und der kam vom `wissens-chef`, nicht vom Destillat-Loop.
+Zusammen genommen: der Loop laeuft nicht leer, er laeuft auf diesem Korpus gar nicht mehr an.
+Das gehoert vor den Radar (Takt/Ziel-KB-Aufloesung), nicht in eine Mail an Raphael.
+
+**Korpus-Queue.** Kein `KORPUS-QUEUE KOMPLETT`-Marker, Kriterium (g) nicht erfuellt.
+
+**Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
+Tasks: keine im aktuellen Log-Verlauf.
