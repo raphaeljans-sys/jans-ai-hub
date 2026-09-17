@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 00:55:02
+Stand: 18.09.2026 01:05:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 00:55:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 12eefa93e nas-selfcommit: 3 Datei(en) 2026-09-18 00:45
+- 2fc9dea06 vollgas-radar 260918 00:57: [FREI] 26.2%/50.6% Vorsprung -24.4; NEU P2 Lauf-Journal seit 24.08. trocken (rollen-bilanz blind ab 24.09.); Doppellauf Tag 6 live belegt; kein Loop ohne Delta
