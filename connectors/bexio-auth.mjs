@@ -15,6 +15,7 @@
  *
  * Danach:
  *   node connectors/bexio-auth.mjs --status      # Zugangsart, Scopes, letzte Erneuerung
+ *   node connectors/bexio-auth.mjs --erneuern    # Refresh erzwingen (Wechseltest zwischen Stationen)
  *   node connectors/bexio-auth.mjs --entfernen --ja
  *
  * `bexio.mjs` importiert `holeOidcToken()`; ist OIDC nicht eingerichtet, liefert die
@@ -38,8 +39,10 @@ const REALM = 'https://auth.bexio.com/realms/bexio/protocol/openid-connect';
 const SERVICE = 'jans-bexio-oidc';
 const PORT = 8917;
 const REDIRECT = `http://localhost:${PORT}/callback`;
-// Eng gehalten (Entscheid Raphael 17.09.2026): keine Bankzahlungen, kein Lohn.
-export const SCOPES = 'openid offline_access company_profile kb_invoice_edit accounting contact_show bank_account_show';
+// Eng gehalten (Entscheid Raphael 17.09.2026): keine Bankzahlungen AUSLOESEN, kein Lohn.
+// bank_payment_show (nur lesen) ergaenzt 17.09.2026: `--kontieren` liest /3.0/banking/transactions,
+// das mit bank_account_show allein 403 liefert (gemessen). Scope-Aenderung braucht ein neues --einrichten.
+export const SCOPES = 'openid offline_access company_profile kb_invoice_edit accounting contact_show bank_account_show bank_payment_show';
 const LOCK = join(homedir(), '.cache', 'jans-bexio-oidc.lock');
 
 // --- Schluesselbund ---------------------------------------------------------------------
@@ -50,8 +53,9 @@ function kcGet(account) {
   // 44 = Eintrag fehlt. Alles andere (gesperrter Schluesselbund, keine GUI-Session) ist ein
   // Betriebsfehler und darf nicht wie «nicht eingerichtet» aussehen.
   if (r.status === 44) return null;
-  throw new Error(`Schluesselbund nicht lesbar (security rc=${r.status}): ${String(r.stderr).trim()} ` +
-    '— nach einem Neustart ohne Anmeldung: security unlock-keychain');
+  // 36 = Interaktion nicht erlaubt: typisch fuer ssh-Sessions und launchd ohne GUI-Anmeldung.
+  throw new Error(`Schluesselbund nicht lesbar (security rc=${r.status}${r.status === 36 ? ', gesperrt oder ssh-Session ohne GUI' : ''}) ` +
+    '— in einer ssh-Session zuerst: security unlock-keychain');
 }
 
 function kcSet(account, wert) {
@@ -117,15 +121,15 @@ const frisch = t => t && (jwtFelder(t).exp || 0) * 1000 - Date.now() > 60000;
  * Liefert einen gueltigen Access-Token oder null, wenn OIDC auf dieser Station nicht
  * eingerichtet ist. Wirft, wenn es eingerichtet ist, aber scheitert.
  */
-export async function holeOidcToken() {
+export async function holeOidcToken({ erzwingen = false } = {}) {
   const refresh = kcGet('refresh_token');
   if (!refresh) return null;
   const vorhanden = kcGet('access_token');
-  if (frisch(vorhanden)) return vorhanden;
+  if (!erzwingen && frisch(vorhanden)) return vorhanden;
   return mitLock(async () => {
     // Ein paralleler Lauf kann inzwischen erneuert haben: nach dem Lock neu lesen.
     const jetzt = kcGet('access_token');
-    if (frisch(jetzt)) return jetzt;
+    if (!erzwingen && frisch(jetzt)) return jetzt;
     const j = await tokenEndpunkt({
       grant_type: 'refresh_token',
       refresh_token: kcGet('refresh_token'),
@@ -221,9 +225,10 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   try {
     if (a.includes('--einrichten')) await einrichten();
     else if (a.includes('--status')) status();
+    else if (a.includes('--erneuern')) { await holeOidcToken({ erzwingen: true }); console.log('Erneuert.'); status(); }
     else if (a.includes('--entfernen')) {
       if (!a.includes('--ja')) console.log('TROCKENLAUF: wuerde die vier Schluesselbund-Eintraege von ' + SERVICE + ' loeschen. Mit --ja ausfuehren.');
       else { ['refresh_token', 'access_token', 'client_id', 'client_secret', 'erneuert'].forEach(kcDel); console.log('Entfernt.'); }
-    } else console.log('Verwendung: --einrichten | --status | --entfernen [--ja]');
+    } else console.log('Verwendung: --einrichten | --status | --erneuern | --entfernen [--ja]');
   } catch (e) { console.error('FEHLER: ' + e.message); process.exit(1); }
 }

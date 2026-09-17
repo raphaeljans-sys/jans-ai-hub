@@ -23,7 +23,8 @@ pruefen und reparieren: `bash scripts/wege-doctor.sh`.
 | `connectors/hub-setup.mjs` | Kanonisches Hub-Setup (Stationen, IPs, SSH, Mail, Pfade) + Live-Verbindungscheck + Team-Beweis | `--alles` `--stationen` `--wege` `--check` `--team` | keiner |
 | `connectors/m365-graph.mjs` | M365 zweiter Weg: Graph und SharePoint-REST app-only, unabhaengig von der CLI (Site-/Gaeste-/Gruppenabfragen, Ablaufdaten) | `--selbsttest` `--site` `--gaeste` `--get` `--spo` `--gruppe-mitglieder` | Zertifikat `~/.cli-m365-cert-combined.pem` |
 | `connectors/zefix.mjs` | Handelsregister CH, Firmen-/Namensprüfung | `--firm` `--available` `--search` `--canton` | Basic-Auth `~/.zefix.env` |
-| `connectors/bexio.mjs` | Debitoren, Offene Posten, Mahnwesen, Kontierung | `--offen` `--verzug` `--mahnen` (ohne `--ja` Trockenlauf) `--buchen` | PAT `~/.bexio.env` |
+| `connectors/bexio.mjs` | Debitoren, Offene Posten, Mahnwesen, Kontierung | `--offen` `--verzug` `--mahnen` (ohne `--ja` Trockenlauf) `--buchen` | OIDC aus dem Schlüsselbund (`bexio-auth.mjs`), Rückfall PAT `~/.bexio.env` (60 Tage) |
+| `connectors/bexio-auth.mjs` | bexio-Dauerzugang (OpenID Connect, Refresh-Token im Schlüsselbund) | `--status` `--erneuern` `--einrichten` (nur im eigenen Terminal) | Schlüsselbund `jans-bexio-oidc` |
 | `connectors/claude-usage.mjs` | Auslastung des Claude-Abos ohne Browser | `--alles` `--lokal` `--json` | keiner |
 | `connectors/ebaugesuche-zh.mjs` | Verfahrensstand eigener Baugesuche Kt. ZH | `--liste` `--bericht` `--status` `--refresh` | Playwright-Login, Session ~10 Tage |
 | `connectors/truninger-ds3.mjs` | Projektraum DS3 (KISPI), nur lesend | `--ls` `--suche` `--holen` `--spiegeln` | `~/.truninger-ds3.env` |

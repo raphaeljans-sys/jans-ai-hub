@@ -46,7 +46,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Mail lesen, durchsuchen | Apple Mail (osascript) | Graph `/messages` | MCP Outlook | |
 | Kalender | MCP Outlook `outlook_calendar_search` | Apple Calendar (osascript, **nur iCloud-Kalender**) | ~~Graph `/events`~~ Sackgasse, 403 | Outlook Web |
 | Kontakt ins M365-Adressbuch rj@ (Programm Kontakte) | Kontakte-App via osascript ins Exchange-Konto rj@ (Quelle via `Accounts4.sqlite` ermitteln, `ABDefaultSourceID` temporär umstellen); **Telefonnummern via CNContactStore/Swift nachtragen** (belegt 31.08.2026, siehe Nachtrag) | GUI (Kontakte-App von Hand) | ~~Graph `/users/rj@…/contacts`~~ Sackgasse, 403 — App hat keine Contacts-Berechtigung | Outlook Web |
-| Buchhaltung, Debitoren | `connectors/bexio.mjs` | | | bexio-Weboberfläche |
+| Buchhaltung, Debitoren | `connectors/bexio.mjs` über OIDC (Schlüsselbund, erneuert sich selbst; Stand `node connectors/bexio-auth.mjs --status`) | derselbe Connector über PAT `~/.bexio.env` (läuft nach **60 Tagen** ab, massgeblich ist «Expires» im Developer Portal, nicht `exp` im JWT; belegt 17.09.2026) | in ssh-Sessions ist der Schlüsselbund gesperrt (rc=36): zuerst `security unlock-keychain`, sonst greift der PAT-Rückfall | bexio-Weboberfläche |
 | Handelsregister | `connectors/zefix.mjs` | | | zefix.admin.ch |
 | Projektraum Truninger | `connectors/truninger-ds3.mjs` | | | ds3.data-share.ch |
 | Baugesuchsstand ZH | `connectors/ebaugesuche-zh.mjs` | | | Portal (Mobile ID) |
