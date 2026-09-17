@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 23:43:09
+Stand: 17.09.2026 23:53:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
@@ -12,4 +12,4 @@ Stand: 17.09.2026 23:43:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ee58426cd wissens-chef Lauf 61: Schreib-Kontrolle beziffert (+857/-101 ueber 3 Commits, Herkunft der Loeschungen geklaert)
+- 4c90130ea nas-selfcommit: 3 Datei(en) 2026-09-17 23:45
