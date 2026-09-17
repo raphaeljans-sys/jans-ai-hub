@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 11:45:44
+Stand: 17.09.2026 11:56:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 11:45:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4b84446ac nas-selfcommit: 2 Datei(en) 2026-09-17 11:45
+- 7e665aed5 bexio 260917: OIDC auf beiden Stationen eingerichtet, Checkpoints gemessen, --erneuern, Scope bank_payment_show ergaenzt, README/WEGE/Register nachgefuehrt

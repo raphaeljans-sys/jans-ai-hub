@@ -152,6 +152,9 @@ function frage(text, verdeckt = false) {
 }
 
 async function einrichten() {
+  // --zusatz "scope1 scope2": einmalig weitere Scopes anfordern (Test, welcher Scope ein 403 behebt).
+  const zi = process.argv.indexOf('--zusatz');
+  const zusatz = zi >= 0 ? String(process.argv[zi + 1] || '') : '';
   if (!process.stdin.isTTY) {
     console.error('FEHLER: --einrichten braucht ein echtes Terminal (Secret-Eingabe, Browser-Login).');
     process.exit(2);
@@ -179,7 +182,7 @@ async function einrichten() {
     srv.on('error', reject);
     srv.listen(PORT, '127.0.0.1', () => {
       const url = `${REALM}/auth?` + new URLSearchParams({
-        client_id: clientId, redirect_uri: REDIRECT, response_type: 'code', scope: SCOPES,
+        client_id: clientId, redirect_uri: REDIRECT, response_type: 'code', scope: (SCOPES + ' ' + zusatz).trim(),
         state, code_challenge: challenge, code_challenge_method: 'S256',
       });
       console.log('\nBrowser oeffnet sich; bei bexio anmelden und den Zugriff bestaetigen …');
