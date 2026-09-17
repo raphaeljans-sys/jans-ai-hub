@@ -1222,3 +1222,28 @@ versand-env, dispatch-env), Sicherung des Ziels als `.bak-JJMMTT`, Rechte 600, A
 sha256; gibt nie Inhalte aus. Station = ssh-Alias (`mini`, `macbook`) oder `user@host`
 (Revendo: siehe `hub-setup.mjs --alles`). Claude nennt den exakten Aufruf und misst danach nur
 das Ergebnis (`ls -la`, Connector-Test).
+
+## Nachtrag 17.09.2026 — SharePoint-Versionsrichtlinie PRUEFEN: app-only, kein delegierter Login noetig
+
+Ergaenzt den Nachtrag vom 15.09. oben. Der dort beschriebene delegierte Weg gilt weiterhin fuers **Setzen**.
+Fuer die Frage «greift die Richtlinie?» braucht es ihn NICHT — zwei app-only lesbare CLI-Befehle genuegen:
+
+| Frage | Befehl (app-only, Zertifikat) | Gemessen 17.09.2026 |
+|---|---|---|
+| Fuehrt die Site eine eigene Richtlinie? | `m365 spo site versionpolicy get --siteUrl <site>` | JANS.PROJEKTE: `{"defaultTrimMode":"inheritTenant","defaultExpireAfterDays":null,"majorVersionLimit":-1}` — keine eigene, erbt vom Tenant |
+| Was gilt auf Tenant-Ebene? | `m365 spo tenant settings list` | `EnableAutoExpirationVersionTrim: true`, `ExpireVersionsAfterDays: 30`, `MajorVersionLimit: 500`, `StorageQuota: 1069056` (MB) |
+
+**Der entscheidende Zeiger ist NICHT `MajorVersionLimit` der Bibliothek.** Die Auto-Expiration arbeitet ueber die
+Ablaufzeit und laesst das Anzahl-Limit der einzelnen Bibliothek unveraendert auf 500 stehen. Wer am Bibliotheksfeld
+misst (`Get-PnPList` / `spo list list`), sieht darum auch bei korrekt greifender Richtlinie «500» und schliesst
+faelschlich auf einen Fehlschlag — genau das ist am 15./16.09. passiert.
+
+**Selbstkritischer Vermerk (Rule `wege-und-vollmachten`).** Der Befehl `spo site versionpolicy get` stand seit dem
+14.09. im Register, in der Sackgassen-Zeile (2) des Nachtrags oben. Er wurde zwei Laeufe lang nicht benutzt, waehrend
+die Reports den delegierten Login als einzigen Ausweg fuehrten und ihn als «Aktion Raphael» parkten. Ein vorhandener
+Weg, den niemand findet, ist so gut wie keiner. Beleg: `tenant-hygiene/reports/260917-hygiene.md`.
+
+**Nebenbefund, gleiche Quelle:** `StorageQuota` aus `spo tenant settings list` ist die belegte Quelle fuers
+Speicherkontingent (17.09.2026: 1'069'056 MB = 1044.00 GB). Die Hygiene-Reportreihe rechnete bis dahin mit einem
+angenommenen Wert von 1054 GB und wies die Auslastung dadurch rund 0.75 Prozentpunkte zu niedrig aus. Quota messen,
+nicht annehmen — es aendert sich mit den Lizenzen.
