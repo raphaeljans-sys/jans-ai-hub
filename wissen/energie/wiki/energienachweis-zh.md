@@ -26,8 +26,24 @@ E-Mail-Adresse** beim Sekretariat Private Kontrolle hinterlegt ist (AWEL-Liste S
 2026). Und die Befugnis gilt **je Fachbereich** — **LN-1b** (komplexer WP-Lärmschutz) verlangt
 **Lä**, nicht «Kl». → `[[private-kontrolle-zh]]`, F297.
 
-⚠ **Offen:** Ob der PK-Bericht über EVEN, über die BVV-Plattform (eBaugesuche) oder über beide
-läuft, ist aus Verordnung und AWEL-Liste zusammen nicht entscheidbar (E-R201-1).
+**Verhältnis EVEN ↔ BVV-Plattform geklärt (E-R201-1, ✓ 17.09.2026, am Original BVV LS 700.6
+gelesen).** «Die Plattform» nach §§ 19a–19c BVV ist die **eine** zentrale elektronische
+Baugesuchs-Anwendung des Kantons: die Baudirektion betreibt sie (§ 19a Abs. 1) und stellt über
+die **standardisierte Schnittstelle eCH-0211** die Anbindung der Bauverwaltungsapplikationen der
+Gemeinden, der kantonalen Geschäftskontrolle **und anderer im Bewilligungsverfahren benötigter
+Fachapplikationen** sicher (§ 19a Abs. 2) — dieselbe Plattform, über die auch Vollmachten (§ 6
+Abs. 3), Akteneinsichtsgesuche (§ 6a) und baurechtliche Entscheide (§ 12 Abs. 2/3) laufen, alle mit
+QES nach ZertES. **EVEN ist eine solche angebundene Fachapplikation** (EnDK-Projekt), keine
+zweite, konkurrierende Plattform: die AWEL-Liste nennt EVEN «die Plattform» nur umgangssprachlich
+aus Sicht der Privaten Kontrolle, weil die Person dort arbeitet — der Bericht selbst erreicht die
+Baubewilligungsbehörde über die eCH-0211-Anbindung an die eine Plattform nach §§ 19a–19c BVV, wie
+es § 4 Abs. 2 BBV I verlangt. Die **QES** (§ 4 Abs. 3 BBV I) hängt an der **Bestätigung** — dem
+Akt des Bestätigens in EVEN selbst, nicht an einem separaten Upload-Schritt in eine zweite
+Anwendung. **Bewusst offen bleibt** die rein technische Frage, ob die QES beim Bestätigen in EVEN
+unmittelbar ausgelöst wird (z. B. Swisscom/SwissSign-Dialog) oder ob EVEN vorher ein signiertes
+PDF verlangt — dazu keine Aussage im Verordnungstext, zu prüfen an der EnDK-Schulungsunterlage
+(68 Folien, bereits als Quelle geführt) oder am realen KISPI-Fall. Quelle:
+`wissen/baurecht/raw/260607_amtlich_zh_bvv.md` Abschnitt VII (§§ 19a–19c), Original zhlex LS 700.6.
 
 ## Wozu
 Der Energienachweis belegt gegenüber der Behörde, dass ein Bauvorhaben die energetischen (und

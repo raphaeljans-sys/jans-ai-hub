@@ -207,10 +207,17 @@ Energienachweise → Nachweisformulare → Projektkontrolle.)
 - ⚠ **Datenstand:** seit 1.1.2026 laeuft der ZH-Vollzug elektronisch ueber **EVEN**
   (`energievollzug.ch`); die PDF-Formularlogik bleibt inhaltlich, der Einreichweg ist neu —
   vor Eingabe aktuellen EVEN-Stand pruefen. Vgl. `[[energienachweis-zh]]`, `[[wta-formular-zh-waermetechnische-anlagen]]`.
-- **Verhaeltnis EVEN ↔ BVV-Plattform (§§ 19a-19c BVV) nicht geklaert.** § 4 Abs. 2 BBV I nennt
-  die Bauverfahrens-Plattform, die AWEL-Liste nennt EVEN fuer die Energienachweise. Ob der
-  PK-Bericht ueber EVEN, ueber eBaugesuche oder ueber beide laeuft, ist aus diesen zwei Quellen
-  nicht entscheidbar → offener Punkt **E-R201-1**.
+- **Verhaeltnis EVEN ↔ BVV-Plattform (§§ 19a-19c BVV) geklaert (✓ 17.09.2026, E-R201-1).** Am
+  Original BVV LS 700.6 gelesen: «die Plattform» nach §§ 19a-19c ist die EINE zentrale
+  eBaugesuchs-Anwendung der Baudirektion, angebunden ueber die Schnittstelle eCH-0211 an
+  Gemeinde-Bauverwaltungen, kantonale Geschaeftskontrolle und **andere im Bewilligungsverfahren
+  benoetigte Fachapplikationen** (§ 19a Abs. 2) — EVEN ist eine solche angebundene
+  Fachapplikation, keine zweite Plattform. Die AWEL-Liste nennt EVEN «die Plattform» nur aus
+  Anwendersicht der Privaten Kontrolle. Die QES (§ 4 Abs. 3 BBV I) haengt an der Bestaetigung in
+  EVEN selbst, nicht an einem separaten Upload. Offen bleibt nur die technische Detailfrage, ob
+  EVEN die QES beim Bestaetigen direkt ausloest oder ein vorbereitetes signiertes PDF verlangt —
+  dazu keine Aussage in Verordnung/AWEL-Liste, zu pruefen an der EnDK-Schulungsunterlage oder am
+  realen KISPI-Fall. Vertiefte Fassung: `wiki/energienachweis-zh.md`.
 - **Formularserie steht auf MuKEn 2014.** Wann die Serie auf MuKEn 2025 umgestellt wird, sagt die
   Liste nicht → offener Punkt **E-R201-2**, vgl. `[[muken-2025-verabschiedet]]`.
 - Energierecht (welche Anforderung materiell gilt) → Skill `baurecht`.

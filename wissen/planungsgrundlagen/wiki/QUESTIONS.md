@@ -27,12 +27,19 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Prüfergebnis, **elektronische** Einreichung über die Plattform nach **§§ 19a-19c BVV**, **QES**;
   dazu die EVEN-Hürde (bestätigen kann nur, wessen Befugnis mit E-Mail-Adresse beim Sekretariat
   hinterlegt ist). Korrekturvermerk im Artikel gesetzt, `last_updated` auf 2026-09-16.
-- [ ] **E-R201-2 (Cross-KB aus `wissen/energie`, 16.09.2026, P3): Verhältnis EVEN ↔ BVV-Plattform
-  offen — betrifft diese KB direkt.** § 4 Abs. 2 BBV I nennt für den PK-Bericht die
-  Bauverfahrens-Plattform nach §§ 19a-19c BVV, die AWEL-Liste nennt für die Energienachweise EVEN.
-  Welcher Weg für den PK-Bericht gilt und wo die QES angebracht wird, ist aus beiden Quellen zusammen
-  nicht entscheidbar. Berührt die hier offene Frage **D6** (EVEN-Maskenführung am realen KISPI-Fall) —
-  wer D6 anfasst, klärt diesen Punkt mit. Geführt in `wissen/energie/wiki/QUESTIONS.md` E-R201-1.
+- [x] **E-R201-2 (Cross-KB aus `wissen/energie`, 16.09.2026): Verhältnis EVEN ↔ BVV-Plattform
+  geklärt.** ✓ 17.09.2026 (Nachtschicht Mac Mini). Am Original **BVV LS 700.6**
+  (`wissen/baurecht/raw/260607_amtlich_zh_bvv.md`, §§ 19a-19c) gelesen: «die Plattform» ist die
+  eine zentrale eBaugesuchs-Anwendung der Baudirektion, über die Schnittstelle **eCH-0211**
+  (§ 19a Abs. 2) an Gemeinde-Bauverwaltungen, kantonale Geschäftskontrolle und **andere benötigte
+  Fachapplikationen** angebunden. **EVEN ist eine solche Fachapplikation**, keine zweite,
+  konkurrierende Plattform — die AWEL-Liste nennt EVEN «die Plattform» nur aus Anwendersicht. Die
+  QES (§ 4 Abs. 3 BBV I) hängt an der Bestätigung in EVEN selbst. Nachgetragen in
+  `wiki/energie-even-plattform-bedienung.md` (neue Sektion «EVEN ↔ die Plattform») und
+  `wissen/energie/wiki/energienachweis-zh.md`/`destillate/private-kontrolle-zh.md`. **D6 bleibt
+  im Übrigen offen** (Maskenführung, KISPI-Fall noch nicht abgeschlossen) — nur der
+  Plattform-Verhältnis-Teilaspekt ist geklärt; ebenso offen die rein technische Frage, ob EVEN die
+  QES beim Bestätigen direkt auslöst oder ein signiertes PDF verlangt.
 - [ ] **E-R199-1 (Cross-KB aus `wissen/energie`, 15.09.2026): Übergangsdokument PV-Fassaden verlängert.**
   `wiki/energie-pv-eignung-typenwahl.md` nannte die Geltung «bis 31.12.2024»; Swissolar hat bis Ende 2026
   verlängert (News 11.12.2024, Seite Wissen/Brandschutz abgerufen 15.09.2026). Nachtrag im Artikel gesetzt,

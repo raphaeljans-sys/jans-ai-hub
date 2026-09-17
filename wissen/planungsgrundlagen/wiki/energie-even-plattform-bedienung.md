@@ -1,7 +1,7 @@
 ---
 title: EVEN — Bedienung, Rollen & Workflow (energievollzug.ch)
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-09-17 (Verhältnis EVEN ↔ BVV-Plattform §§ 19a-19c geklärt am Original, E-R201-2/D6-Teilaspekt)
 sources: [EnDK-Schulung «EVEN — elektronischer Vollzug energetischer Nachweise / Schulung der Bewilligungsbehörden in Kantonen mit Privater Kontrolle» Version 1.4 Stand 13.10.2025 (energieagentur-sg.ch, 68 Folien), www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html (abgerufen 04.07.2026), energie-zentralschweiz.ch/vollzug/even (abgerufen 04.07.2026), energievollzug.ch, realer Fallverlauf 2619-KISPI (Projektablage + Büro-Memory, Stand 13.07.2026/Run 20)]
 links: [[energie-energienachweis-zh-formulare]], [[energie-uebersicht]], [[energie-private-kontrolle-zh]], [[kartenportale-gwr-bund]], [[recht-norm-quellenlandkarte]]
 ---
@@ -29,6 +29,29 @@ für Kantone **mit Privater Kontrolle** (= Kt. ZH, siehe `[[energie-private-kont
   geführter Eingabe (Einstieg mit wenigen zentralen Angaben, weitere Felder erst bei Bedarf).
 - **Betreiber/Träger:** Projekt der **EnDK** (Konferenz Kantonaler Energiedirektoren), gestartet
   Ende 2023 von 25 Kantonen; unterstützt von EnergieSchweiz.
+
+### EVEN ↔ «die Plattform» nach BVV §§ 19a-19c (geklärt 17.09.2026, E-R201-2/D6)
+
+Am Original **BVV (LS 700.6)** gelesen (`wissen/baurecht/raw/260607_amtlich_zh_bvv.md`, Abschnitt
+VII): **«die Plattform»** im Rechtssinn der §§ 19a-19c BVV ist die **eine** zentrale elektronische
+Baugesuchs-Anwendung des Kantons ZH (Betrieb Baudirektion, § 19a Abs. 1), über die auch Vollmachten
+(§ 6 Abs. 3), Akteneinsicht (§ 6a) und baurechtliche Entscheide (§ 12 Abs. 2/3) laufen, alle mit
+QES nach ZertES. § 19a Abs. 2 verpflichtet die Plattform, über die **standardisierte Schnittstelle
+eCH-0211** die Bauverwaltungsapplikationen der Gemeinden, die kantonale Geschäftskontrolle **und
+andere im Bewilligungsverfahren benötigte Fachapplikationen** anzubinden — **EVEN ist eine solche
+Fachapplikation**, keine zweite, zur eBaugesuch-Plattform konkurrierende Plattform. Die
+oben zitierte «offene Schnittstelle» (Bullet 2) ist damit rechtlich die eCH-0211-Anbindung nach
+§ 19a Abs. 2 BVV, nicht ein loses Provisorium.
+
+Für den **PK-Bericht** (§ 4 Abs. 2/3 BBV I, seit 1.4.2024) heisst das: die fachkundige
+Kontrollperson bestätigt **in EVEN**, und EVEN reicht über die eCH-0211-Anbindung an «die
+Plattform» bei der Baubewilligungsbehörde ein — die AWEL-Liste, die EVEN umgangssprachlich selbst
+«die Plattform» nennt, meint aus Anwendersicht dasselbe. Die **QES** hängt an der Bestätigung in
+EVEN. **Bewusst offen bleibt** nur die technische Detailfrage, ob EVEN die QES beim Bestätigen
+direkt auslöst (z. B. Swisscom/SwissSign-Dialog) oder ein vorbereitetes signiertes PDF verlangt —
+dazu keine Aussage in Verordnung oder Schulungsunterlage; am realen KISPI-Fall (§ 9 unten) zu
+verifizieren, sobald dort tatsächlich eine PK-Bestätigung ansteht. Vertiefte Fassung mit vollem
+BVV-Wortlaut: `wissen/energie/wiki/energienachweis-zh.md`.
 
 ### Teilnehmende Kantone (Folie 16, Stand 10/2025)
 **Alle Kantone ausser Bern** + **Fürstentum Liechtenstein** (25 Kantone + FL) — die gleiche

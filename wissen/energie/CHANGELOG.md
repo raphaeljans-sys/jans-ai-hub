@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-09-17 (Run 202, Nachtschicht Mac Mini) — E-R201-1 geklärt: EVEN ist Fachapplikation an der BVV-Plattform, keine zweite Plattform
+
+Kein PDF-Transfer (`pdf-inventar.md` seit Run 65 fast erschöpft, nur noch 2 offene Positionen).
+Stattdessen die von Run 201 vorgeschlagene nächste A-BLIND-Vertiefung: die offene Rechtsfrage
+**E-R201-1** (Verhältnis EVEN ↔ BVV-Plattform §§ 19a-19c, wo die QES hängt) am **Original**
+gelesen — `wissen/baurecht/raw/260607_amtlich_zh_bvv.md`, Abschnitt VII «Elektronische Plattform
+für Baugesuche», bereits seit 07.06.2026 im Bestand, bisher nicht für diese Frage konsultiert.
+
+**Befund:** «Die Plattform» nach §§ 19a-19c BVV ist die EINE zentrale eBaugesuchs-Anwendung des
+Kantons (Betrieb Baudirektion, § 19a Abs. 1), über dieselbe Applikation laufen auch Vollmachten
+(§ 6 Abs. 3), Akteneinsicht (§ 6a) und baurechtliche Entscheide (§ 12 Abs. 2/3), alle mit QES. §
+19a Abs. 2 verpflichtet die Plattform zur Anbindung von Gemeinde-Bauverwaltungen, kantonaler
+Geschäftskontrolle und **anderer im Bewilligungsverfahren benötigter Fachapplikationen** über die
+Schnittstelle **eCH-0211**. EVEN ist eine solche Fachapplikation — keine zweite, zur
+eBaugesuch-Plattform konkurrierende Plattform. Die AWEL-Liste, die EVEN selbst «die Plattform»
+nennt, tut dies nur umgangssprachlich aus Anwendersicht der Privaten Kontrolle. Die QES (§ 4
+Abs. 3 BBV I) hängt an der Bestätigung in EVEN selbst, nicht an einem separaten Upload-Schritt.
+
+**Bewusst offen belassen:** die rein technische Frage, ob EVEN die QES beim Bestätigen direkt
+auslöst (Swisscom/SwissSign-Dialog) oder ein vorbereitetes signiertes PDF verlangt — dazu keine
+Aussage in Verordnung oder AWEL-Liste. Zu prüfen an der EnDK-Schulungsunterlage (68 Folien,
+bereits Quelle im Cross-KB-Artikel) oder am realen KISPI-Fall, sobald dort eine PK-Bestätigung
+tatsächlich ansteht.
+
+**Nachgetragen:** `wiki/energienachweis-zh.md` (neuer Absatz ersetzt den ⚠-Offen-Vermerk),
+`destillate/private-kontrolle-zh.md` (Offene-Punkte-Sektion), `wiki/QUESTIONS.md` E-R201-1 auf
+✓ gesetzt. **Cross-KB-Bringschuld erfüllt:** `planungsgrundlagen/wiki/energie-even-plattform-bedienung.md`
+um die Sektion «EVEN ↔ die Plattform nach BVV §§ 19a-19c» ergänzt, dortige `wiki/QUESTIONS.md`
+E-R201-2 auf ✓ gesetzt (D6 selbst bleibt im Übrigen offen — nur der Plattform-Verhältnis-Teilaspekt
+ist geklärt).
+
+Bericht: `outputs/2026-09-17_energie-run202.md`. Werkzeuge nicht erneut gelaufen (reine
+Rechtsauslegung, kein neuer Kennwert/keine neue Bezugsgrösse).
+
 ## 2026-09-16 — Wissens-Chef Lauf 60 (Cross-KB): Fuehrungsvermerk fuer den BBV-I-Erlasswortlaut
 
 Befund WC60-2, am Original bestaetigt. `destillate/private-kontrolle-zh.md` gibt BBV I §§ 4-7 und

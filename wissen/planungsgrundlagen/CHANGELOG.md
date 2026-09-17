@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-17 — Cross-KB aus `wissen/energie` (Run 202): E-R201-2 geklärt, Sektion «EVEN ↔ die Plattform» ergänzt
+
+Bringschuld aus `wissen/energie` erfüllt (dortiger Run 202 gegen BVV LS 700.6 §§ 19a-19c
+gelesen). `wiki/energie-even-plattform-bedienung.md` um die Sektion «EVEN ↔ «die Plattform» nach
+BVV §§ 19a-19c (geklärt 17.09.2026, E-R201-2/D6)» ergänzt: EVEN ist eine an die zentrale
+eBaugesuchs-Plattform angebundene Fachapplikation (eCH-0211, § 19a Abs. 2 BVV), keine zweite
+Plattform; die QES hängt an der Bestätigung in EVEN selbst. `wiki/QUESTIONS.md` E-R201-2 auf ✓
+gesetzt — D6 selbst bleibt im Übrigen offen (Maskenführung, KISPI-Fall unabgeschlossen), nur der
+Plattform-Verhältnis-Teilaspekt ist geklärt. Keine Änderung an Werkzeugen oder Register sonst.
+
 ## 2026-09-16 (spät) — Nachtschicht Mac Mini Prio 5: §8 Stadt Zürich in Werkleitungskataster-Artikel, Kostenfrage geklärt
 
 Cross-KB-Eingang aus `connectors/WEGE.md` (15.09.2026) abgeschlossen (`wiki/QUESTIONS.md`,

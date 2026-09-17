@@ -13182,3 +13182,26 @@ Abschnitt). `wiki/QUESTIONS.md`, `wiki/methoden-register.md` und `CHANGELOG.md` 
 `claude-code` nachgefuehrt, keine Loeschung, nur additive Klaerung.
 
 Budget rund 1.6 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.
+
+**NACHTRAG 2026-09-17, zweiter Nachtschicht-Zyklus Mac Mini — Korrektur zu oben: `energie` hat KEINEN aktiven Taktgeber, war also ein gueltiges Prioritaet-4-Ziel.**
+Der obige Absatz schloss `energie` aus mit Verweis auf «Scheduled Task `energie-training`,
+taeglich, PROGRAMM.md Zeile 5» — das ist die Beschreibung IN der Datei, nicht der Live-Zustand
+(gleiche Falle wie Rule `auto-verbesserungen` 260807, «Konfigurationsfelder erst messen, dann
+glauben»). Gegengeprueft: `~/.claude/scheduled-tasks/energie-training/SKILL.md` traegt
+`enabled: false` und den ausdruecklichen Vermerk «EREIGNIS-TRIGGER statt Zeittakt (Entscheid
+Raphael 26.07.2026) … einziger Startweg `scripts/wissens-trigger.sh`»; `crontab -l` und
+`launchctl list` zeigen keinen aktiven Energie-Job. `energie` ist damit weiterhin ein freies
+Nachtschicht-Ziel (Stand seit 04.08.2026 unveraendert), Prioritaet 4 haette nicht leer sein
+duerfen. Deshalb genutzt: Priotitaet 4, KB `energie`, die von Run 201 (16.09.) vorgeschlagene
+Rechtsfrage **E-R201-1** (Verhaeltnis EVEN ↔ BVV-Plattform §§ 19a-19c, Ort der QES) am Original
+`wissen/baurecht/raw/260607_amtlich_zh_bvv.md` (Abschnitt VII, bereits im Bestand seit
+07.06.2026) geklaert: «die Plattform» ist die eine zentrale eBaugesuchs-Anwendung der
+Baudirektion, EVEN eine daran ueber die Schnittstelle eCH-0211 (§ 19a Abs. 2 BVV) angebundene
+Fachapplikation, keine zweite Plattform; die QES haengt an der Bestaetigung in EVEN selbst.
+Offen bleibt nur die technische Detailfrage, ob EVEN die QES beim Bestaetigen direkt ausloest
+oder ein signiertes PDF verlangt. Nachgetragen: `wissen/energie/wiki/energienachweis-zh.md`,
+`destillate/private-kontrolle-zh.md`, `wiki/QUESTIONS.md` (E-R201-1 ✓); Cross-KB-Bringschuld an
+`wissen/planungsgrundlagen` erfuellt (`wiki/energie-even-plattform-bedienung.md` neue Sektion,
+`wiki/QUESTIONS.md` E-R201-2 ✓). CHANGELOG in beiden KBs, Bericht
+`wissen/energie/outputs/2026-09-17_energie-run202.md`. Budget rund 0.6 von 5 USD (separates
+Zyklusbudget dieses zweiten Slots). Zyklus sauber beendet, additiv, keine Loeschung.

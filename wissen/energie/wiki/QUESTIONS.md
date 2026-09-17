@@ -42,13 +42,19 @@ EN-Formular-Matrix in allen 19 Spalten, §§ 5-7 sinngemäss, «befugt, aber nic
 **Verdichtung:** **F297 neu** (die drei formalen Voraussetzungen der Bestätigung), **F12 berichtigt**,
 `wiki/energienachweis-zh.md` gewachsen. 297 FAQ.
 
-- [ ] **E-R201-1 (P3): Verhältnis EVEN ↔ BVV-Plattform (§§ 19a-19c BVV) ungeklärt.** § 4 Abs. 2 BBV I
-  nennt für den PK-Bericht die Bauverfahrens-Plattform, die AWEL-Liste nennt für die Energienachweise
-  EVEN (`energievollzug.ch`). Ob der Bericht über EVEN, über eBaugesuche oder über beide läuft — und
-  wo genau die QES angebracht wird —, ist aus diesen zwei Quellen nicht entscheidbar. Nächster Schritt:
-  BVV §§ 19a-19c am Original (LS 700.6) lesen und mit der EVEN-Wegleitung abgleichen; Cross-KB
-  `planungsgrundlagen/wiki/energie-even-plattform-bedienung` (dort offene Frage D6, Maskenführung am
-  realen KISPI-Fall) zuerst greppen.
+- [x] **E-R201-1 (P3): Verhältnis EVEN ↔ BVV-Plattform (§§ 19a-19c BVV) geklärt.** ✓ 17.09.2026
+  (Nachtschicht Mac Mini, Run 202). Am Original `wissen/baurecht/raw/260607_amtlich_zh_bvv.md`
+  gelesen: «die Plattform» nach §§ 19a-19c BVV ist die eine zentrale eBaugesuchs-Anwendung der
+  Baudirektion, über die standardisierte Schnittstelle eCH-0211 (§ 19a Abs. 2) an
+  Gemeinde-Bauverwaltungen, kantonale Geschäftskontrolle und **andere benötigte
+  Fachapplikationen** angebunden. EVEN ist eine solche Fachapplikation, keine zweite,
+  konkurrierende Plattform — die AWEL-Liste nennt EVEN «die Plattform» nur umgangssprachlich aus
+  Anwendersicht. Die QES (§ 4 Abs. 3 BBV I) hängt an der Bestätigung in EVEN selbst. **Bewusst
+  offen bleibt** die rein technische Detailfrage, ob EVEN die QES beim Bestätigen direkt auslöst
+  oder ein vorbereitetes signiertes PDF verlangt — dazu keine Aussage in Verordnung/AWEL-Liste;
+  zu prüfen an der EnDK-Schulungsunterlage (68 Folien, bereits Quelle) oder am realen KISPI-Fall.
+  Nachgetragen: `wiki/energienachweis-zh.md`, `destillate/private-kontrolle-zh.md`;
+  Cross-KB-Bringschuld an `planungsgrundlagen/wiki/QUESTIONS.md` (E-R201-2 dort) erfüllt.
 - [ ] **E-R201-2 (P4): Formularserie steht auf MuKEn 2014.** Die Liste August 2026 führt die Serie
   ausdrücklich als «basierend auf den MuKEn 2014». Wann ZH auf die MuKEn 2025 umstellt und was das für
   die Teilnachweis-Nummerierung heisst, sagt sie nicht. Vgl. `[[muken-2025-verabschiedet]]`.
