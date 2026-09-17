@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 12:56:10
+Stand: 17.09.2026 13:06:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 12:56:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6c35c0e45 nas-selfcommit: 2 Datei(en) 2026-09-17 12:45
+- 9f006bcb2 vollgas-radar 260917 12:57: [FREI] 22.7%/43.4% Vorsprung -20.7; NEU P3 launchd rc=127 (claude-autoupdate + wissens-trigger, NAS-Pfad); Doppellauf Tag 5; kein Loop ohne Delta
