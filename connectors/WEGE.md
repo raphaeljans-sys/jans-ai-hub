@@ -1208,3 +1208,17 @@ gleiche Meldung; den Trim-Erfolg app-only an `spo site list` (`StorageUsage`, `V
 
 Beleg: `OneDrive-JANS/06_Fotos-Archiv/_Verifikation/260915-Export-Bericht.md`; Konto des lokalen
 Ordners «OneDrive-JANS» ist admin@raphaeljans.onmicrosoft.com (per Graph verifiziert, nicht rj@).
+
+## Nachtrag 17.09.2026 — Zugangsdateien zwischen den Stationen kopieren: Raphael startet, Claude legt vor
+
+**Sackgasse (nicht erneut laufen):** Claude kopiert Zugangsdateien (`.env`, PEM-Zertifikat,
+Token-Dateien) nicht selbst zwischen Rechnern, weder per `scp`/`rsync` noch per `ssh … cat`.
+Der Auto-Mode-Klassifikator sperrt das, und die Sperre wird **nicht** per Allow-Regel
+ausgehebelt (Rule `wege-und-vollmachten`: wer dort hängenbleibt, legt den fertigen Befehl vor).
+
+**Weg:** `bash /Volumes/daten/jans-ai-hub/scripts/zugangsdatei-sync.sh <holen|bringen> <station> <name>`
+im **Terminal durch Raphael**. Whitelist per `--liste` (m365-cert, hub-env, zefix-env,
+versand-env, dispatch-env), Sicherung des Ziels als `.bak-JJMMTT`, Rechte 600, Abgleich per
+sha256; gibt nie Inhalte aus. Station = ssh-Alias (`mini`, `macbook`) oder `user@host`
+(Revendo: siehe `hub-setup.mjs --alles`). Claude nennt den exakten Aufruf und misst danach nur
+das Ergebnis (`ls -la`, Connector-Test).
