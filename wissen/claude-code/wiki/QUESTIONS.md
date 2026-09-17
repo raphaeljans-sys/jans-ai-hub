@@ -29,6 +29,24 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    (Radar-Briefing 13.08.). Wird er umgesetzt, muss die korrigierte Stelle erhalten bleiben —
    sonst kehrt die falsche Behauptung zurueck.
 
+   > **GEKLAERT — Nachtschicht Mac Mini, 17.09.2026: Weg (a) war zum Zeitpunkt dieser Frage
+   > bereits gegangen, nur an der falschen Stelle gesucht.** Der Selbsttest haengt seit dem
+   > **31.07.2026** (Commit `0b91a8a95`, VOR dieser Frage vom 13.08.) im heartbeat — aber im
+   > **Script**, nicht im Skill-Dokument: `scripts/heartbeat.sh` ruft
+   > `schutzmechanik-selbsttest.sh` auf und fuehrt sein Ergebnis als eigenes Feld
+   > `"schutzmechanik"` im JSON-Output (Zeilen 236-246, 345, nachgemessen 17.09.2026). Der
+   > damalige Beleg `git log --all -S"schutzmechanik" -- skills/heartbeat/SKILL.md` war leer,
+   > weil er nur die **Dokumentationsdatei** durchsuchte, nicht `scripts/heartbeat.sh` — die
+   > Verdrahtung liegt im Script, das Skill-Dokument beschreibt sie separat (seit dem Umbau vom
+   > 28.08., Commit `c09742dab`: `skills/heartbeat/SKILL.md` Zeile 362 zaehlt «Schutzmechanik»
+   > ausdruecklich zu den neun Checks, die `scripts/heartbeat.sh` ausfuehrt). Live erneut
+   > bestaetigt in `CLAUDE.md` (Rollen-Haushalt-Abschnitt, Stand 11.09.2026). **Kein
+   > Doku-Fehler und keine Regression** — der Suchbefehl vom 13.08. war zu eng gefasst (gleiche
+   > Familie wie Rule `auto-verbesserungen` 260807: ein leeres Suchergebnis ist zuerst eine
+   > Aussage ueber das Werkzeug/den Suchradius, nicht ueber die Quelle). Wege (b) und (c) sind
+   > damit gegenstandslos. `wiki/methoden-register.md`, Zeile `260725 Archetypen`, im selben
+   > Lauf nachgezogen.
+
 ## Offen (03.08.2026)
 
 0. **`wissens-chef` laeuft, liefert aber seit dem 31.07.2026 nichts Sichtbares.** Befund der

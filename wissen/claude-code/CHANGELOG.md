@@ -5,6 +5,18 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-17 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS-Eintrag 13.08. geklaert: Schutzmechanik-Selbsttest haengt bereits im heartbeat, Suchradius war zu eng
+
+`wiki/QUESTIONS.md`, Eintrag «Offen (13.08.2026)» Punkt 1, geschlossen. Der damalige Befund
+(«Verdrahtung existierte nie», belegt mit `git log -S"schutzmechanik" -- skills/heartbeat/SKILL.md`)
+durchsuchte nur die Dokumentationsdatei. Die tatsaechliche Verdrahtung liegt seit **31.07.2026**
+(Commit `0b91a8a95`, also vor der Frage) in `scripts/heartbeat.sh` (ruft
+`schutzmechanik-selbsttest.sh` auf, eigenes JSON-Feld), heute nachgemessen (Zeilen 236-246, 345)
+und seit dem 28.08. auch im `SKILL.md` selbst als einer der neun Script-Checks dokumentiert.
+Weg (a) aus der Frage ist damit bereits gegangen, Wege (b)/(c) gegenstandslos. Keine neue
+Recherche noetig, nur Gegenmessung an den drei genannten Dateien. `wiki/methoden-register.md`
+Zeile `260725 Archetypen` im selben Lauf nachgezogen. Additiv, keine Loeschung.
+
 ## 2026-09-11 (Interaktiv Mac Mini, Systemanalyse Hub-Architektur) — Report: Git-Arbeitsbaum auf SMB ist ein Konstruktionsfehler
 
 Neuer Report `outputs/2026-09-11_git-arbeitsbaum-auf-smb-ist-ein-konstruktionsfehler.md` (status established, belegt aus

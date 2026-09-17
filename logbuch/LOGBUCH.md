@@ -13160,3 +13160,25 @@ zwischen den WEGE-Nachtraegen 08.09./15.09. auf). `connectors/WEGE.md` im selben
 korrigiert, QUESTIONS.md-Eintrag und CHANGELOG.md nachgefuehrt.
 
 Budget rund 2.1 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.
+
+## 2026-09-17, Nachtschicht-Zyklus Mac Mini
+
+Prioritaeten 1-2 leer/aktuell: keine pending remote-tasks/sync-tasks; Synobsis Stufe 2
+gegengemessen (`vectors.npz` 853x768 deckungsgleich mit `documents.jsonl`, 853/853 gesaettigt,
+kein Rebuild noetig). Prioritaet 3 uebersprungen: `logbuch/fristen.md` traegt bereits zwei
+ausfuehrliche Nachtschicht-Zusammenstellungen und mehrere Hub-Chef-/Radar-Nachtraege vom
+16.09. — ein weiterer Durchgang haette nichts Neues gebracht. Prioritaet 4 ohne gueltiges
+Ziel: baurecht/normen/planungsgrundlagen/wettbewerbs-dna haben einen eigenen Taktgeber,
+`energie` ebenso (Scheduled Task `energie-training`, taeglich, PROGRAMM.md Zeile 5),
+`bauprodukte` ist seit 15.08. ERLEDIGT, `grobkosten` und `projekt-lessons` sind ausgesetzt.
+Stattdessen Prioritaet 5: KB `claude-code` durchsucht (QUESTIONS.md seit 02.09. unberuehrt,
+laenger nicht bearbeitet als andere KBs), offenen Eintrag «Offen (13.08.2026)» Punkt 1
+geklaert. Befund: der Selbsttest `schutzmechanik-selbsttest.sh` haengt bereits seit
+31.07.2026 (Commit `0b91a8a95`, vor der damaligen Frage) im heartbeat-Script; der 13.08.-Befund
+hatte den Beleg-Grep nur auf die Dokumentationsdatei `skills/heartbeat/SKILL.md` beschraenkt
+und die tatsaechliche Verdrahtung in `scripts/heartbeat.sh` uebersehen. Heute an drei Stellen
+nachgemessen (Script-Zeilen 236-246/345, SKILL.md Zeile 362, CLAUDE.md Rollen-Haushalt-
+Abschnitt). `wiki/QUESTIONS.md`, `wiki/methoden-register.md` und `CHANGELOG.md` von
+`claude-code` nachgefuehrt, keine Loeschung, nur additive Klaerung.
+
+Budget rund 1.6 von 5 USD. Zyklus sauber beendet, additiv, keine Loeschung.
