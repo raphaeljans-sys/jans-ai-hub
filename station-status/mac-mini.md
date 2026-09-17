@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 12:15:05
+Stand: 17.09.2026 12:25:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 12:15:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 210c6c873 nas-selfcommit: 13 Datei(en) 2026-09-17 12:15
+- 39046b0bd rollen-map: bexio-buchen-monatlich (maintainer)

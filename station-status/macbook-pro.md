@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.09.2026 12:16:33
+Stand: 17.09.2026 12:26:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 12:16:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ab30b5ef5 bexio 260917: Rule 260702 neu gefasst (selbstaendig buchen, Entscheid Raphael), --auto, Erstlauf 88 Buchungen, 8 Analogieregeln, Task bexio-buchen-monatlich, Spec, Register
+- 39046b0bd rollen-map: bexio-buchen-monatlich (maintainer)
