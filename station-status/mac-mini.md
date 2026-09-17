@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 20:07:28
+Stand: 17.09.2026 20:28:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 19:59)
@@ -12,4 +12,4 @@ Stand: 17.09.2026 20:07:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c21a5ed88 nas-selfcommit: 4 Datei(en) 2026-09-17 20:00
+- 5b256725d tenant-hygiene 17.09.2026: Report; Versions-Frage app-only geloest (Tenant-Auto-Expiration aktiv), Quota-Korrektiv 1044 GB; Nachtraege fristen.md + WEGE.md
