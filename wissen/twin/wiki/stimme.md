@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 gewichtung: authentisch
-sources: [260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -6061,3 +6061,37 @@ den kompilierten Block erreicht, und was nicht.
   «ein getippter Kurzgruss steht über dem Block, **dessen erste Zeile «Freundliche Grüsse»
   lautet**» ist in diesem zweiten Halbsatz falsch und hat den Zwilling dazu gebracht, in A, B und D
   gar keine Grussformel zu setzen. **Korrigiert.**
+
+## Batch 122 (17.09.2026) — der Punkt statt des Fragezeichens, und das Mass ohne Leerschlag
+
+Quelle: `rj@` Sent Items 15.09.2026 20:01 bis 17.09.2026 08:09, 4 Treffer, davon **2 Golds eigener
+Hand** (Outlook Mobile an einen Schreiner, Apple Mail an einen Türenbauer) und 2 Selbstmails
+`claude-aera` (nur Kontrolle). Metrik über die beiden Golds: 101 Wörter, Satzlänge 12.6 Wörter,
+0 Du-Formen, 0 Apostroph, 0 Ellipsen; Anreden «Geschätzter Herr» und «Guten Morgen Herr», Gruss
+«Freundliche Grüsse». Gewichtung `authentisch`.
+
+- **⭐ Die Rückfrage endet auf einem PUNKT, nicht auf einem Fragezeichen.** Gold B: «Können Sie uns
+  gemäss Terminplsn die Montage noch bestätigen.» — Verbzweitstellung einer Frage, Satzzeichen
+  eines Befehls. ⚠ Das steht quer zu Fidelity 260915 («Terminfrage mit Fragezeichen») und zu
+  Fidelity 260916 («Die Verhandlung … endet auf einem Fragezeichen»). Die Lesart, die alle drei
+  Belege trägt: **das Fragezeichen gehört der Frage, bei der der Empfänger nein sagen darf**
+  (Abgebot, Terminwunsch), **der Punkt der Bestätigung, die er ohnehin schuldet** (Montage gemäss
+  Terminplan). Nicht geglättet, als offene Trennlinie vorgelegt ([[QUESTIONS]] 260917 #1).
+- **⭐ Das Mass steht ohne Leerschlag: «17cm».** Der Mikro-Marker «‹%› mit Leerschlag» gilt dem
+  Prozentzeichen, nicht der Masseinheit. Reiht sich an «CHF 1000.- ohne Apostroph» (Fidelity
+  260916): **die Mikro-Typografie ist am ausgewiesenen Wert streng und am eingestreuten Mass lose.**
+  Der Zwilling setzt in Fliesstext-Mails an den Unternehmer «17cm», nicht «17 cm».
+- **⭐ Fett trägt die Kernforderung, der Fliesstext nur den Rahmen.** Gold A endet mit zwei
+  **vollständig fetten** Zeilen — Bauteil und Mass («Insbesondere geht es um die Tiefe der
+  Abdeckung beim Fenster zum Gang: / Dort muss beim Versatz eine Tiefe von 17cm ausgeführt
+  werden.») —, während die vier Zeilen davor unformatiert bleiben. Dritter Beleg der Fett-Linie
+  nach den beiden Korrektur-Deltas (260915/260916): **das Fett markiert nicht die Struktur, sondern
+  die Stelle, an der ein Fehler teuer wird.**
+- **⭐ Die Betreffzeile trägt das YYMMDD-Prefix der Dateinamen-Konvention:** «260916 Nachfragek
+  Korrigierte Planfassung Ausführungsplan». Die Ablage-Systematik wandert in den Mailbetreff, samt
+  Tippfehler («Nachfragek»). Ergänzt den Betreff-Befund aus Fidelity 260916.
+- **Anrede ohne Komma, in beiden Golds** — «Geschätzter Herr Zürcher», «Guten Morgen Herr Bakrami».
+  Kein Anredekomma, erste Zeile des Bodys, direkt darunter die Sache.
+- **Fehlerdichte 6.9 je 100 Wörter gegen 0** in den beiden `claude-aera`-Selbstmails desselben
+  Fensters — **siebter Vergleich in Folge**. Flüchtigkeiten im Original: «vor mir» (statt von mir),
+  «angepasste Werplan», «keine falsche Planstände», «Terminplsn». Ton übernehmen, nicht die Fehler.

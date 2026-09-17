@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 gewichtung: authentisch
-sources: [260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -3531,3 +3531,25 @@ Feuerpolizei, Meldekarten. Die Phase-5-Nomenklatur ist damit im Korpus durchgaen
 - **Kleindrift:** Raphael verkürzt das Bauteil auf «**der Zylinder**», der Zwilling schrieb
   «Schliesszylinder» aus. In der Leistungsbeschreibung steht die lange Form
   («Verschluss/Schliesssystem ohne Schliesszylinder»), im Gespräch mit dem Unternehmer die kurze.
+
+## Batch 122 (17.09.2026) — das Mass sitzt am Bauteil, und der Planstand ist das Risiko
+
+- **⭐ Die Forderung wird auf ein einziges Mass an einem einzigen Bauteil heruntergebrochen.** Gold A
+  hängt an die allgemeine Bitte um die korrigierte Planfassung den fett gesetzten Kern: «Insbesondere
+  geht es um die Tiefe der Abdeckung beim Fenster zum Gang: Dort muss beim Versatz eine Tiefe von
+  17cm ausgeführt werden.» Ort («Fenster zum Gang»), Bauteil («Abdeckung»), Detailstelle
+  («beim Versatz»), Mass («17cm») — vier Angaben, ein Satz, keine Toleranz, kein «ca.». **Wo eine
+  Ausführung schiefgehen kann, wird sie masslich fixiert, nicht beschrieben.**
+- **⭐ «Gut zur Ausführung» und «Werkplan» als Verfahrensanker.** Der ganze Vorgang wird über zwei
+  Fachbegriffe verortet: die erteilte Freigabe («das Gut zur Ausführung mit Korrekturen gegeben»,
+  datiert auf den 31.08.26) und den geschuldeten korrigierten Werkplan. Der Fachbegriff ersetzt die
+  Erzählung — wer im Ausführungsverfahren steht, weiss aus diesen zwei Wörtern, wer was schuldet.
+- **⭐ Der Planstand auf der Baustelle ist die benannte Gefahr, nicht der Plan selbst.** «Wir drucken
+  diesen nun aus und bringen diesen auf die Baustelle. Es sollen keine falsche Planstände auf der
+  Baustelle geliefert werden.» Der Risikobegriff ist **Planstand-Versionierung**, ein
+  Bauleitungsthema, kein Zeichnungsthema. Dieselbe Sorge trägt der Befund aus Batch 121 (Anhang
+  getauscht, Anhangszeile nicht mitgezogen) von der anderen Seite.
+- **Das Gewerk wird über seinen Handwerker benannt, nicht über den BKP:** «wir streichen diese vom
+  **Maler** weiss» (Gold B), «Antriebsverkleidung», «Sensoren», «Schiebetüre S2» aus dem Zitat. In
+  der Mail an den Unternehmer steht der Handwerker, der BKP-Code bleibt der Ablage und der
+  Abrechnung vorbehalten — konsistent mit der Kurzform-Drift («der Zylinder», Fidelity 260916).
