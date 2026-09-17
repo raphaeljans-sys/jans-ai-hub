@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.09.2026 09:41:02
+Stand: 17.09.2026 09:51:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.09.2026 09:41:02
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b57bafebb vollgas-fruehwarnung 260917: ohne Befund, keine Mail (45.87 Mio teuer/Woche, 0 Limit-Ereignisse, 4/4 Briefings geliefert, Radar 8.5h); Destillat-Front seit 30.08. still, inventar.sh --stand weiter UNMESSBAR
+- df3e34720 tailscale-waechter 260917: auf Mac Mini installiert (Auftrag Raphael), beide Stationen scharf; Chronik-Nachtrag 260917b, Register-Zeile erledigt

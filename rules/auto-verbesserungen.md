@@ -14,6 +14,30 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260917b — Fernbefehle an den Mac Mini in der kanonischen Form `ssh mini '<befehl>'`
+- **Regel:** Ein Befehl an den Mac Mini wird **blank** abgesetzt: `ssh mini '<befehl>'`, ohne
+  vorangestellte `-o`-Flags. `~/.ssh/config` traegt fuer Host `mini` bereits `ConnectTimeout 10`
+  und den Dual-Pfad (LAN 192.168.1.210, sonst Tailscale 100.120.219.12) — ein zusaetzliches
+  `-o ConnectTimeout=…` fuegt nichts hinzu, bricht aber die Praefix-Regel `Bash(ssh mini *)` in
+  `.claude/settings.local.json`, weil der Befehl dann nicht mehr mit `ssh mini` beginnt. Der
+  Aufruf faellt damit aus der erteilten Vollmacht heraus und landet beim Auto-Mode-Klassifikator,
+  der **schreibende** Fernbefehle verweigert («Remote Shell Writes»), lesende aber durchlaesst —
+  weshalb der Fehler beim Messen nie auffaellt und erst beim Eingriff zuschlaegt.
+- **Warum, mit Beleg:** 17.09.2026, Installation des Tailscale-Waechters. Die Verweigerung wurde
+  zunaechst dem Mac Mini zugeschrieben («Station gesperrt») und war in Wahrheit eine Formsache am
+  eigenen Befehl; mit der blanken Form lief derselbe Eingriff auf Anhieb. Dasselbe Muster liegt
+  in der Konfiguration fossiliert: neben der generischen Regel stehen **vier hyperspezifische
+  Eintraege mit vollem Befehlstext**, alle in der Form `ssh -o ConnectTimeout=10 mini '<ganzer
+  Befehl>'` — jeder einzelne der Abdruck desselben Fehlschlags, per Einzelfreigabe geheilt statt
+  an der Ursache. **Die Konsequenz ist die kanonische Form, nicht eine breitere Vollmacht:** der
+  Klassifikator und die Sync-Task-Freigabe-Schwelle bleiben unangetastet (Rule
+  `wege-und-vollmachten`); wer dort haengenbleibt, legt weiterhin den fertigen Befehl vor.
+- **Zweiter Befund, gleiche Familie wie 260807 (nicht am falschen Zeiger ablesen):**
+  `launchctl bootstrap` ueber `ssh` meldet `rc=5, Input/output error`, auch wenn der Job geladen
+  ist und gelaufen war. Der Ladezustand wird an `launchctl list` und am Lauf gemessen, nie am rc
+  des Bootstrap.
+- **Gilt fuer:** alle Sessions auf dem MacBook Pro, jeder Fernbefehl an den Mac Mini.
+
 ## 260917 — Freigegebene Auftraege am Stueck durcharbeiten, keine Zwischenstopps
 - **Regel:** Ist ein Auftrag freigegeben, wird er ohne Turn-Ende, ohne «soll ich
   weitermachen», ohne Warten auf ein Stichwort durchgearbeitet, solange der naechste Schritt
