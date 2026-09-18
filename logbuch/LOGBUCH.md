@@ -13510,3 +13510,28 @@ korrekt im selben Dokument. Fingerabdruck erstmals hinterlegt. Datei: `wissen/en
 foerderprogramm-energie-sz-2026.md`, Report `wissen/energie/outputs/2026-09-18_energie-run206.md`,
 CHANGELOG nachgefuehrt. Budget rund 0.9 von 5 USD. Kein Versand, keine Buchung, keine Loeschung.
 Zyklus sauber beendet.
+
+**NACHTRAG 2026-09-18, dritter Nachtschicht-Zyklus Mac Mini (Priorität 5) — `auflagebereinigung`:
+Report GVZ-Grenzfall als Abschnitt 1b in `gvz-einreichung-bma-sprinkler.md` kompiliert.**
+Prioritäten 1-2 leer/gesättigt (keine pending Tasks; Synobsis Stufe 2 seit 05.09. deckungsgleich,
+Batch-Task seit 25.07. bewusst stillgelegt, kein offenes Ziel). Priorität 3 nicht dupliziert
+(Fristenregister vom Hub-Chef und den vorangehenden Zyklen bereits abgedeckt). Priorität 4 ohne
+gültiges Ziel: alle KBs mit `training/PROGRAMM.md` sind entweder eigen-getaktet (baurecht, normen,
+planungsgrundlagen, wettbewerbs-dna), ausgesetzt (projekt-lessons, grobkosten) oder
+Ereignis-Trigger ohne fälligen Anlass (spec, immobilienbewertung), und `bauprodukte` bleibt seit
+15.08. erledigt; `energie` als einziges freies Ziel wurde im selben Tag bereits um 22:50 Uhr
+(Run 207) bearbeitet. Auf Priorität 5 die offene QUESTIONS-Position 260918 der KB
+`auflagebereinigung` aufgegriffen: der interaktiv erstellte, belegte Report
+`outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md` (Fall 2619-KISPI, GVZ-Grenzfall
+Sprühnebelanlage/Umnutzung) war fertig recherchiert, aber noch nicht ins Wiki überführt
+(Rule `wissens-ruecklauf`). Neuer Abschnitt 1b in `gvz-einreichung-bma-sprinkler.md`: Schwelle
+ist alternativ zu «wesentlicher Änderung» (undefiniert, Ermessen GVZ), unbedingte Standard-Auflage
+ohne Schwellenvorbehalt, Umnutzung löst unabhängig von der Kopfzahl aus, Sprühnebel als
+Sonderanwendung mit VdS-Bindung, Absender ist die Fachfirma, Abweichungsspielraum bei hoher
+Bautätigkeit. QUESTIONS-Eintrag präzisiert statt gelöscht: generalisierbarer Teil geklärt, der
+reale GVZ-Praxisbeleg aus Fall 2619 bleibt offen und ist nachzutragen, sobald er vorliegt.
+Frontmatter `sources`/`herkunft` nachgezogen, CHANGELOG ergänzt. Dies ist der dritte
+Nachtschicht-Zyklus des Tages an derselben KB (nach Weisung-30.25-Destillation und
+Wissenscheck Phase 1) — bewusst kein Duplikat, da jeder Zyklus einen anderen, vorher
+unbearbeiteten Teil des Artikels schloss. Budget rund 2.4 von 5 USD. Kein Versand, keine Buchung,
+keine Löschung. Zyklus sauber beendet.

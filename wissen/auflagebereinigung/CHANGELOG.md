@@ -2,6 +2,28 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-18 (Nachtschicht Mac Mini, Priorität 5, zweiter Slot) — `gvz-einreichung-bma-sprinkler.md`: Grenzfall-Abschnitt 1b aus dem interaktiven Report kompiliert
+
+Wissens-Rücklauf (Rule `wissens-ruecklauf`) für den am selben Tag interaktiv erstellten Report
+`outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md` (Fall 2619-KISPI, Anpassung <10
+Düsen Sprühnebelanlage bei Umnutzung). Der Report war belegt und fertig recherchiert, aber
+noch nicht im Wiki angekommen. Neuer Abschnitt **1b** in `gvz-einreichung-bma-sprinkler.md`
+(zwischen Abschnitt 1 und 2): «wesentliche Änderung» ist in Weisung 20.08 nirgends definiert
+(Ermessen GVZ), die Standard-Auflage der Stadt Zürich ist unbedingt formuliert ohne
+Schwellenvorbehalt, Umnutzung löst die Anpassungspflicht unabhängig von der Kopfzahl aus
+(Ziff. 4.10 Abs. 3 = VKF-BRL 19-15 Ziff. 4.1 Abs. 2), Sprühnebel-/Wassernebelanlagen sind
+Sonderanwendung (Ziff. 4.8, VdS-Bindung, systemgebundene Düsenpositionen), Absender einer
+Eingabe ist die Fachfirma (Ziff. 7.1 Abs. 1/3, QSS-3-Vorprüfung), Abweichungsspielraum bei
+hoher Bautätigkeit/Mieterumbauten (Ziff. 7.1 Abs. 4) als Argument für Spitäler mit
+Dauerumbau. `sources` um Weisung 20.08 Ziff. 4.8/4.10/7.1 ergänzt, `herkunft` nachgezogen.
+«Offene Punkte» präzisiert: der generalisierbare Teil ist geklärt, offen bleibt der
+Praxisbeleg der tatsächlichen GVZ-Antwort im Fall 2619 selbst. QUESTIONS-Eintrag 260918
+entsprechend aktualisiert (nicht gelöscht, da der Fall-Teil real offen bleibt). Neue
+Textabschnitte durchgehend mit echten Umlauten geschrieben (Rule `umlaute-konvention`); die
+bereits bestehenden älteren ae/oe/ue-Verstösse in Abschnitt 1/2 wurden nicht mitkorrigiert
+(bleibt Phase-2-Aufgabe, siehe Health-Check vom selben Tag). Kein Versand, keine Buchung,
+keine Löschung.
+
 ## 2026-09-18 — Wissens-Chef Lauf 62: Fristen-Nachtrag im Querbezug-Kasten
 
 - **WC62-1.** `wiki/gvz-einreichung-bma-sprinkler.md`: Der Querbezug-Kasten zur KB `normen` nannte

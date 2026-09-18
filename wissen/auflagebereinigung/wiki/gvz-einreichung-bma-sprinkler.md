@@ -6,7 +6,8 @@ sources:
   - "GVZ-Weisung 20.07 «Brandmeldeanlagen», 1. Januar 2015 (gvz.ch/_file/271, Volltext gelesen 20.07.2026)"
   - "GVZ-Weisung 20.08 «Sprinkleranlagen», Stand 2015 (gvz.ch/_file/272, Kap. 5–7 gelesen 20.07.2026)"
   - "GVZ-Weisung 30.25 «Alarmübertragung von Brandmelde- und Sprinkleranlagen», 1. März 2022 (rev. 17.07.2023 in Kraft 01.09.2023, rev. 02.12.2024 in Kraft 01.02.2025), Volltext gelesen 18.09.2026 (gvz.ch/_file/1739/30-25-alarmuebertragung-von-brandmelde-und-sprinkleranlagen.pdf)"
-herkunft: "QUESTIONS-Punkt «GVZ-Einreichungsweg BMA/Sprinkler» (Ziff. II.25/II.26 Bauentscheid 2619-KISPI), geschlossen im Dauerschicht-Zyklus 21; Nachtschicht-Zyklus Mac Mini 18.09.2026 (Prioritaet 5): Weisung 30.25 destilliert, «Offene Punkte» geschlossen"
+  - "GVZ-Weisung 20.08 «Sprinkleranlagen», 01.01.2015, Ziff. 4.8/4.10/7.1 am Original gelesen 18.09.2026 (gvz.ch/_file/272)"
+herkunft: "QUESTIONS-Punkt «GVZ-Einreichungsweg BMA/Sprinkler» (Ziff. II.25/II.26 Bauentscheid 2619-KISPI), geschlossen im Dauerschicht-Zyklus 21; Nachtschicht-Zyklus Mac Mini 18.09.2026 (Priorität 5): Weisung 30.25 destilliert, «Offene Punkte» geschlossen; Nachtschicht Mac Mini 18.09.2026 (Priorität 5, zweiter Slot): Report `outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md` als Abschnitt 1b ins Wiki kompiliert"
 ---
 
 # GVZ-Einreichungsweg: Brandmeldeanlagen (BMA) und Sprinkleranlagen (SPA)
@@ -73,6 +74,49 @@ Lagerart, zulaessige Stapelhoehe) + **p/Q-Diagramm** + **hydraulische Berechnung
 mit Isometrien** (guenstigste/unguenstigste Wirkflaeche) + massstaebliche Grundriss-/
 Schnittplaene + Anlageschema + bei Lagern Gestellanordnungen + bei Loeschmittelzusatz
 (Schaum/Frostschutz) **Bewilligung der Gewaesserschutzbehoerde**.
+
+## 1b. Grenzfall: Änderung unter der Zahlenschwelle, «wesentliche Änderung», Sprühnebel als Sonderanwendung (ergänzt 18.09.2026, Fall 2619-KISPI)
+
+Die Zahlenschwelle oben (SPA: mehr als 10 Sprinkler oder 100 m² Bodenfläche) ist **nicht**
+die einzige Auslöseschwelle für die Projektbegutachtung — Weisung 20.08 Ziff. 7.1 nennt sie
+**alternativ** zu «wesentlichen Änderungen». Wer sich bei einer kleinen Anpassung (z. B.
+weniger als 10 geänderte Köpfe) auf die Zahlenschwelle beruft, muss folgende Punkte kennen:
+
+- **«Wesentliche Änderung» ist nirgends definiert** — weder in der Weisung noch im Anhang zu
+  Ziff. 7.1 (der zeigt nur Katasterplan-/Nutzungsplan-Beispiele). Die Einstufung liegt im
+  **Ermessen der GVZ**; ein pauschaler Verzicht auf die Eingabe ist keine sichere Annahme.
+- **Die Standard-Auflage der Stadt Zürich ist unbedingt formuliert** («Vor Ausführungsbeginn
+  sind der GVZ die Projektunterlagen einzureichen und genehmigen zu lassen»), **ohne
+  Schwellenvorbehalt**. Wer sich trotzdem auf die Schwelle beruft, braucht einen **schriftlichen
+  Beleg der GVZ** (Auslegungsanfrage, Antwort ablegen) — sonst bleibt die Auflage bei der
+  feuerpolizeilichen Abnahme formal offen.
+- **Eine gleichzeitige Umnutzung löst die Anpassungspflicht unabhängig von der Kopfzahl aus**
+  (Weisung 20.08 Ziff. 4.10 Abs. 3, deckungsgleich mit VKF-BRL 19-15 Ziff. 4.1 Abs. 2): eine
+  Umnutzung ändert den Nutzungsplan der Anlage und spricht damit unabhängig von der Sprinkler-
+  Anzahl für «wesentlich».
+- **Sprühnebel-/Wassernebelanlagen sind eine Sonderanwendung** (Weisung 20.08 Ziff. 4.8 Abs. 1):
+  sie brauchen die **Einwilligung der Brandschutzbehörde** und einen **Schutzzielnachweis**; der
+  Anhang zu Ziff. 4.8 nennt als Beispiel eine VdS-Zulassung mit VdS-genehmigtem
+  Produktehandbuch, an das die Ausführung ausschliesslich gebunden ist. Düsenpositionen sind
+  damit **systemgebunden** (nicht frei planbar wie bei klassischen Sprinklern) — Bauentscheide
+  sprechen trotzdem pauschal von «Sprinkleranlage», was die Schwelle scheinbar unproblematisch
+  wirken lässt.
+- **Absender einer Eingabe oder Auslegungsanfrage ist die Fachfirma**, nicht der Architekt oder
+  die Bauleitung (Ziff. 7.1 Abs. 1 und 3: Einreichung und Projektverantwortung liegen dort).
+  Unter QSS 3 durchläuft die Anfrage vorgängig die Vorprüfung der QS-verantwortlichen Person
+  ([[brandschutz-auflagen-qss]]).
+- **Abweichungsspielraum bei hoher Bautätigkeit** (Ziff. 7.1 Abs. 4): Bei überdurchschnittlich
+  hoher Bautätigkeit (Beispiel der Weisung: Mieterumbauten) kann nach Rücksprache mit der GVZ
+  objektspezifisch vom Standardvorgehen abgewichen werden. Bei Spitälern mit dauerndem
+  Umbaubetrieb (wie 2619-KISPI) ist das ein prüfbares Argument, um wiederkehrende Klein-
+  anpassungen zu bündeln statt jede einzeln einzugeben.
+
+**Praxisfolge für die Auflagebereinigung:** Vor dem Verzicht auf eine GVZ-Eingabe bei einer
+Anpassung unter der Zahlenschwelle immer die Fachfirma eine schriftliche Auslegungsanfrage an
+die GVZ stellen lassen — mit Verweis auf Umnutzung, Sonderanwendung (falls Sprühnebel/
+Wassernebel) und ggf. Ziff. 7.1 Abs. 4. Erst die schriftliche GVZ-Antwort schliesst die Auflage
+formal, nicht die eigene Schwellenrechnung. Ausführlicher Befund mit Quellen:
+`outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md`.
 
 ## 2. Abnahme — Meldung der Fertigstellung
 
@@ -166,10 +210,14 @@ Online-Anmeldeportal für die Neuaufschaltung existiert nicht — gma.feuerwehr-
 (GMA-Workflow) deckt nur Mutation, Providerwechsel, Ausserbetriebsetzung und Stilllegung
 ab, die Neuaufschaltung läuft über Projektbegutachtung + AAD-Aufschaltauftrag.
 
-- Keine offenen Punkte mehr in diesem Artikel. Bei künftigem Praxisfall verifizieren: ob
-  die «Tarifordnung für die Aufschaltung der Alarmkriterien» (Ziff. 4.1 Abs. 5) aktuelle
-  Frankenbeträge nennt — die hier gelesene Weisung 30.25 verweist nur auf den Titel des
-  separaten Tarifdokuments, ohne Beträge zu nennen.
+- Bei künftigem Praxisfall verifizieren: ob die «Tarifordnung für die Aufschaltung der
+  Alarmkriterien» (Ziff. 4.1 Abs. 5) aktuelle Frankenbeträge nennt — die hier gelesene
+  Weisung 30.25 verweist nur auf den Titel des separaten Tarifdokuments, ohne Beträge zu
+  nennen.
+- **Neu 18.09.2026 (Abschnitt 1b):** Der **Praxisbeleg der GVZ-Antwort im Fall 2619-KISPI**
+  zur Auslegung «wesentliche Änderung» bei der Sprühnebelanlage steht noch aus — sobald die
+  schriftliche Antwort der GVZ vorliegt, hier nachtragen (löst QUESTIONS-Eintrag 260918 der
+  KB `auflagebereinigung`).
 
 **Backlinks:** [[brandschutz-auflagen-qss]] (QS-Stufen/Uebereinstimmungserklaerung) ·
 [[auflagentypen-gewerkzuteilung]] (Zuteilung Ziff. II.25/26 an HLKSE/Fachfirmen) ·
