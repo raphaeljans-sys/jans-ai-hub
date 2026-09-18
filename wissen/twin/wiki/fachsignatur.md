@@ -3599,3 +3599,9 @@ Feuerpolizei, Meldekarten. Die Phase-5-Nomenklatur ist damit im Korpus durchgaen
   zwischen den Gewerken fällt.
 - **Die Vertragsgeschichte als Dateichronologie** (Gold A): drei Angebotsstände mit YYMMDD-Prefix
   belegen den Weg zum unterzeichneten Vertrag — das Ablagesystem ist der Beweis, nicht eine Erzählung.
+
+## Fidelity 260918
+
+Quelle: [[../outputs/2026-09-18_fidelity]]. Siebter Lauf ohne Erfindung: kein Total aus 84 h × CHF 160
+ausgerechnet, weil der Brief es nicht trug. Die Honorarzahlen wurden richtig mit «exkl. MwSt.» und
+Kostendach übernommen; es fehlte das «.-» (3:0 im Gold, siehe [[stimme]] Fidelity 260918).

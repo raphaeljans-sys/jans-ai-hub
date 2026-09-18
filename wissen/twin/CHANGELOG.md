@@ -5,6 +5,21 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-18 — twin-fidelity-review (Gesamt-Fidelity 56; vier Golds 19.01./21.01./19.05.2026)
+
+- Report `outputs/2026-09-18_fidelity.md`: Fachsignatur 75, Denken 65, Haltung 60, Arbeitsweise 55,
+  Stimme 50, Beziehungsregister 35 (Anrede 1 von 4). Gattung Absage erstmals gemessen.
+- Do/Don't geschärft (je exakt ein Treffer): [[stimme]] Service-Satz ungekürzt, auch unter der Absage;
+  Beträge mit «.-»; [[arbeitsweise]] Eingangsdank bleibt eigener erster Satz (3:0);
+  [[beziehungsregister]] Preisangebot inline bleibt «Hoi», Offerte/Absage an neuen Geschäftskontakt
+  «Sehr geehrte/r» (2:0), Ein-Satz-Entgegnung senkt.
+- Freischnitt: Doppelungen im [[stimme]]-Block «Ergaenzung 260702», Wortlaut unter «Freischnitt 260918».
+- Je ein additiver Abschnitt «Fidelity 260918» in allen sechs Facetten; [[QUESTIONS]] 260918b #1-#5 neu.
+- Gehirn neu kompiliert: 36'992 B, Reserve 8 B, Grenze NICHT angehoben. `rules/jans-dna-facetten.md`
+  Kopf: Vermerk zu den sieben «unten»-Verweisen (zeigen ins Wiki).
+- Zeilenbilanz gegen Baseline 05:49: Löschungen stimme 9, beziehungsregister 4, arbeitsweise 1, sonst 0;
+  alle als Ersetzung benannt.
+
 ## 2026-09-18 — twin-mail-training Batch 123 (`rj@` Sent 17.09. 08:09 bis 15:49)
 
 - 7 Treffer gesichtet, **5 Golds eigener Hand** (alle Outlook Mobile), 2 Selbstmails `claude-aera` nur

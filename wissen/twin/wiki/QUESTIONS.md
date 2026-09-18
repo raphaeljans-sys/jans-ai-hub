@@ -6735,3 +6735,47 @@ Dokumente enthält?
 
 Status: 260918 #1-#3 **offen**; 260917b #1-#6, 260917 #1-#3, 260916 #1-#4, 260916b #1-#3,
 260915 #1-#6 unverändert offen. #1 betrifft `rules/anrede-kontakte.md`, die Claude nicht selbst ändert.
+
+## 260918b — nach dem Fidelity-Review (vier Golds: Absage, Offerte, Entgegnung im Sie; Preisangebot im Du)
+
+**#1 [Beziehung] Die erste Offerte an einen neuen Auftraggeber: immer «Sehr geehrter Herr <N>»?**
+Am 19.01.2026 gehen die Honorarofferte an den Fondsverwalter (nach einem Telefonat) und die Absage an
+den Kamera-Händler beide mit «Sehr geehrter Herr <Nachname>» raus. Der Zwilling hatte bei der Offerte
+«Geschätzter Herr» gewählt, weil die Anfrage telefonisch vorbesprochen war.
+*Konkret:* Ist «Sehr geehrter» für Dich der Standard, solange Du jemandem zum ersten Mal ein Angebot
+oder eine Absage schickst, egal wie warm das Telefonat war?
+*Warum:* Die Wiki-Regel «warme Erstanfrage → Geschätzte» steuert sonst jede Erst-Offerte eine Stufe zu
+warm. Eine Antwort legt die Stufe für alle Honorarofferten an Neukunden fest.
+
+**#2 [Beziehung] Die kurze Entgegnung im Streit: bewusst «Guten Tag» statt «Sehr geehrter»?**
+Zwei Tage nach der Absage («Sehr geehrter Herr Agostini») antwortest Du auf seinen Vorwurf mit
+«Guten Tag Herr Agostini» und einem einzigen Satz, vom iPhone.
+*Konkret:* War das bewusst kühler und knapper, oder einfach die iPhone-Kurzform?
+*Warum:* Davon hängt ab, ob der Zwilling im Konflikt die Stufe senkt (Gewicht der eigenen Mail) oder
+nur auf dem Handy. Heute ist es als Gewichtsregel kompiliert.
+
+**#3 [Haltung] Offerte: «Gerne würden wir diesen Auftrag ausführen» — immer im «wir»?**
+In der Offerten-Begleitmail sendest Du «ich … unsere Honorarofferte», den Wunsch nach dem Auftrag
+formulierst Du aber als «würden wir … und würden uns … freuen». Der Zwilling schrieb dort «ich».
+*Konkret:* Ist der Satz über den Auftragswunsch für Dich immer Büro-Stimme («wir»), auch wenn Du die
+Arbeit allein machst?
+*Warum:* Die Offerten-Mail ist eine häufige Gattung; die ich/wir-Grenze liegt dann an einer festen
+Stelle, und der Zwilling muss sie nicht je Mail neu raten.
+
+**#4 [Stimme] Komma nach der Anrede: Zufall oder Kanal?**
+In allen vier Mails vom Januar/Mai 2026 steht die Anrede ohne Komma («Sehr geehrter Herr Steinmann»,
+«Hoi Roman»); die Offerte mit Anhang vom 19.05. trägt dagegen «Geschätzter Roman,» mit Komma.
+*Konkret:* Setzt Du das Komma bewusst (z.B. nur in gewichtigen Mails oder am Desktop), oder ist das
+egal?
+*Warum:* Der Zwilling setzt heute immer ein Komma. Ist es egal, streichen wir den Punkt aus der
+Messung; ist es ein Signal, gehört er in die Regel.
+
+**#5 [Arbeitsweise] Absage: Grund vor dem Entscheid?**
+«Da ich erkannt habe, dass … muss ich dieses Angebot leider vorerst absagen.» Grund zuerst, Entscheid
+am Satzende, dazu «vorerst».
+*Konkret:* Ist das Deine Art, jedem Anbieter abzusagen (Grund, dann Nein, Tür offen lassen), oder war
+«vorerst» hier besonders gemeint?
+*Warum:* Die Gattung Absage war bisher ungemessen; eine Antwort macht sie zu einer festen Form.
+
+Status: 260918b #1-#5 **offen**; 260918 #1-#3, 260917b #1-#6, 260917 #1-#3, 260916 #1-#4,
+260916b #1-#3, 260915 #1-#6 unverändert offen.

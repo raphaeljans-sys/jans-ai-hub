@@ -1907,3 +1907,13 @@ Markierung «approximativ» — **die Unschaerfe wird benannt, bevor sie jemand 
   Gegenseite kann selbst abgleichen. Denken in Nachvollziehbarkeit statt in Argumentation.
 - **Die Informationsfrage an den Anbieter wird mit Screenshot gestellt** (Gold B): «(siehe Anhang)»
   in der Frage selbst — das Bild zeigt, was gemeint ist, der Satz fragt nur, ob es das gibt.
+
+## Fidelity 260918
+
+Quelle: [[../outputs/2026-09-18_fidelity]]. Die Entgegnung auf den Vorwurf ist ein einziger Satz,
+Faktum statt Argument: «Gerne teile ich Ihnen mit, dass ich von der Höhe der Abokosten, zu den von
+Ihnen genannten Kommunikationszeitpunkt keine Kenntnisse hatte.» Die Vorwurfsfrage («Wie stellen Sie
+sich hierzu?») wird nicht beantwortet, sondern mit **der einen Unterscheidung** entkräftet (Kenntnis
+des Abos ja, seiner Höhe nein). Der Zwilling traf den Inhalt; ihm fehlte der kühl-höfliche Rahmen
+«Gerne teile ich Ihnen mit, dass …». In der Absage steht der Grund vor dem Entscheid («Da ich erkennt
+habe, das … muss ich dieses Angebot leider vorerst absagen», Wortlaut).

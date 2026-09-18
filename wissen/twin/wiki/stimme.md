@@ -47,13 +47,13 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - Im vertrauten Register: kurz, direkt, ein Gedanke pro Zeile, Parenthesen-Asides «(…)».
 
 ## Do / Don't für den Zwilling
-- **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
+- **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen mit «.-» (CHF 6’400.-);
   warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler; FG+Block ist der
   Sie-Default:** operative Zwischenfrage/Nachtrag im stehenden Thread →
   Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, im DU; 260911); Lieferung mit Substanz im Du → «Lieber/Bester Gruss, Raphael» auf einer Zeile über dem Block (260915, 3:1); Sie oder Behörde als
   **Adressat** → FG+Block. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread; nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915). Wo ich BITTE, tritt an seine Stelle der VORAUSDANK über dem Gruss (260916, 3 Golds): «Besten Dank für Ihre Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich mich bereits im Voraus.» Im DU verschmilzt er stattdessen mit dem Gruss: «Danke und lieber Gruss» (260917, 2:0), «lieber» klein.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread und unter der ABSAGE an einen Anbieter, ungekürzt «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung.» (260918); nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915). Wo ich BITTE, tritt an seine Stelle der VORAUSDANK über dem Gruss (260916, 3 Golds): «Besten Dank für Ihre Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich mich bereits im Voraus.» Im DU verschmilzt er stattdessen mit dem Gruss: «Danke und lieber Gruss» (260917, 2:0), «lieber» klein.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block; die Grussformel bleibt sichtbare eigene Zeile darüber (260916). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]]. **Betreff nach der GATTUNG (260917): die ANFRAGE ein bis drei generische Wörter, ohne Objekt, Nummer und Doppelpunkt (4:0); die Mail im laufenden Projektfaden dagegen Projektkürzel + Doppelpunkt + Traktandenkette mit Strichpunkt. Das erste Wort nach der Anrede steht GROSS.**
@@ -1178,13 +1178,9 @@ Zwei Befunde aus Gold B (Höhenkoten-Antwort an den Bauherr-Partner Stefan Tscho
   behaelt den Service-Satz auch im knappen Du.
 
 ## Do / Don't (Ergaenzung 260702)
-- **Do:** im warm-sozialen Peer-Du mit «Gel» oeffnen und saloppe Superlative («wäre das Hammer») setzen,
-  die **Wunschzeile den Schluss tragen** lassen (kein zusaetzlicher Gruss); im operativen Du eine ehrliche
-  Selbst-/Annahmen-Nebenzeile mit «…» zulassen; die **fachlich-antwortende** Du-Mail schliesst «Lgr» +
-  behaltener Service-Satz, nur der **reine Doku-/Status-Transmittal** laesst den Service-Satz weg.
-- **Don't:** das warm-soziale Sozial-Du zu einer glatten, gruss-terminierten Sachmail sanieren; im
-  knappen Sozial-Du «Lieber Gruss» an eine Wunschzeile anhaengen; die ehrliche Selbst-Nebenzeile
-  wegglaetten.
+- **Do:** die **Wunschzeile trägt den Schluss** (kein zusätzlicher Gruss); die **fachlich-antwortende**
+  Du-Mail schliesst «Lgr» + behaltener Service-Satz, nur der **reine Doku-/Status-Transmittal** lässt
+  den Service-Satz weg.
 
 ## Mundart-Neujahrsgruss «Es guet's Nöis» im Sie-Behörden-Schluss + Neujahrs-Wunschformeln (belegt Mailbatch 22, authentisch)
 Erweitert die Mundart-Regel (bisher nur rein privat-sozial belegt): ein kurzer **Mundart-
@@ -6171,3 +6167,45 @@ Detailregister `raw/260918-mailbatch-123.md`.
 - **Fehlerdichte 7.7 je 100 Wörter** gegen keinen Slip im gesichteten Kontrolltext, achter Vergleich
   in Folge. Flüchtigkeiten: «Vetrag», «Zahlungstandes», «METALLDECKENBECKLEIDUNG», «Tür-Planeten»
   (vermutlich Autokorrektur), «In Verbindung» mitten im Satz gross. Ton übernehmen, nicht die Fehler.
+
+## Fidelity 260918 (Blindtest gegen vier Golds vom 19.01., 21.01. und 19.05.2026, alle eigener Hand)
+
+Quelle: [[../outputs/2026-09-18_fidelity]]. Golds: Absage an einen Kamera-Händler (Sie, 19.01. 13:18),
+Honorarofferte an einen neuen Auftraggeber (Sie, 19.01. 14:36), Entgegnung auf dessen Vorwurf (Sie,
+21.01. 11:22, iPhone), Preisangebot im Faden an einen Investor (Du, 19.05. 14:44).
+
+- **Der Service-Satz im Wortlaut fehlte im Block, obwohl das Wiki ihn seit Juli kennt (oben Z. 1265).**
+  Der Zwilling kürzte zweimal auf «Für Fragen stehe ich Ihnen gerne zur Verfügung.»; beide Golds tragen
+  «**Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung.**» — auch unter der
+  **Absage** an einen Anbieter, bei der Raphael Käufer ist. Die Regel 260915 («nie, wo ich Auftraggeber
+  bin») gilt der Bitte, nicht der Absage. **Kompiliert.**
+- **Beträge mit «.-»:** «CHF 6’400.- exkl. MwSt.», «CHF 160.-», «CHF 15’000.-» (3:0), der Zwilling
+  0:3. Das Wiki führt den Marker in [[fachsignatur]] («Franken mit Apostroph und ‹.-›»), der Block
+  nicht. **Kompiliert** in den Stimme-Do.
+- **«Im Anhang sende ich Ihnen …», nicht «Anbei erhalten Sie …»** (Gold Honorarofferte). Nicht
+  kompiliert (Reserve), als Beobachtung geführt.
+- **Anrede ohne Schlusskomma 4:4** in diesen Januar-/Mai-Golds, der Zwilling 4:4 mit Komma. Im Mai
+  trägt dieselbe Hand am selben Tag «Geschätzter Roman,» mit Komma — das Komma folgt dem Kanal oder
+  der Zeit, nicht dem Register. Offen ([[QUESTIONS]] 260918b #4).
+- **Ein Satz je Absatz** in der Absage (sechs Absätze, sechs Sätze); der Zwilling fasste je zwei
+  Sätze zusammen.
+- **Die iPhone-Mail trägt die volle Signatur als Klartext** (Gold Entgegnung, 21.01.2026). Damit ist
+  «ausgeschriebene Signatur» allein **kein** Echo-Marker: die Triade aus Befund 8 (260917) greift nur
+  zusammen mit dem URLShare-Wrapper und der Fehlerdichte 0. Wichtig für den Vorfilter.
+
+### Freischnitt 260918 (aus dem Block «Do / Don't (Ergaenzung 260702)», Doppelungen zum Hauptblock)
+
+Wörtlich entfernt, weil im Hauptblock bereits geregelt («Im Peer-Du erlaubt: ‹Gel›-Opener, saloppe
+Superlative … grussloser Wunschsatz», «Ehrliche Selbst-Nebenzeile mit ‹…› stehen lassen», Don't
+«das warm-soziale Sozial-Du glattsanieren oder ‹Lieber Gruss› an eine Wunschzeile anhängen»):
+
+> - **Do:** im warm-sozialen Peer-Du mit «Gel» oeffnen und saloppe Superlative («wäre das Hammer») setzen,
+>   die **Wunschzeile den Schluss tragen** lassen (kein zusaetzlicher Gruss); im operativen Du eine ehrliche
+>   Selbst-/Annahmen-Nebenzeile mit «…» zulassen; die **fachlich-antwortende** Du-Mail schliesst «Lgr» +
+>   behaltener Service-Satz, nur der **reine Doku-/Status-Transmittal** laesst den Service-Satz weg.
+> - **Don't:** das warm-soziale Sozial-Du zu einer glatten, gruss-terminierten Sachmail sanieren; im
+>   knappen Sozial-Du «Lieber Gruss» an eine Wunschzeile anhaengen; die ehrliche Selbst-Nebenzeile
+>   wegglaetten.
+
+Stehen blieben die zwei Aussagen ohne Entsprechung im Hauptblock (Wunschzeile trägt den Schluss;
+Lgr + Service-Satz in der fachlich-antwortenden Du-Mail).

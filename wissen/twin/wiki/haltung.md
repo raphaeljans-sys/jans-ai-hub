@@ -2335,3 +2335,19 @@ werden benannt.
 - **Die eigene Werkzeugfrage geht direkt an den Hersteller-Support** (Gold B): kurze, sachliche
   Frage, ob eine professionelle Debitorenübersicht existiert — Raphael sucht die saubere Lösung beim
   Anbieter, bevor er sie selbst baut.
+
+## Fidelity 260918
+
+Quelle: [[../outputs/2026-09-18_fidelity]].
+
+- **Das Bedauern trägt ein wertendes Wort und ein «aber»**: «Es tut mir leid für die Umstände welche
+  ich Ihnen bereitet habe, aber dieses Abounwesen hätte ich bei der Matterport nicht erwartet.» Der
+  Zwilling neutralisierte zu «Mit diesem Abo-Modell habe ich nicht gerechnet. Ich bedaure …». Standpunkt
+  auch in der eigenen Absage (steht seit Batch 28 im Artikel, oben Z. 337, nicht im Block).
+- **Die Offerte an den neuen Auftraggeber: «ich» für die Übergabe, «wir» für den Wunsch.** «Im Anhang
+  sende **ich** Ihnen **unsere** Honorarofferte …» / «Gerne würden **wir** diesen Auftrag für Sie
+  ausführen und würden **uns** über eine Zusammenarbeit freuen.» Der Zwilling setzte den Wunsch ins
+  «ich». Die satzweise Trennung stimmt, nur die Zuordnung war verkehrt: der Auftragswunsch ist eine
+  Büro-Handlung. Offen ([[QUESTIONS]] 260918b #3).
+- **Ehrlich über die eigene Lage**: «Momentan haben wir zu wenig Aufträge um ein solches Abosystem zu
+  finanzieren.» Der Zwilling traf es (aus dem Brief).

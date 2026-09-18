@@ -158,7 +158,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   im **engsten Peer-Du** die Rohheit des Originals halten;
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
-  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0). **Der Anlass ist der NEBENSATZ, der erste Hauptsatz gehört der Sache («Wie telefonisch bereits erzählt benötigen wir …»); ein eigener Danksatz nur nach einem Gespräch mit eigenem Gewicht. Auch wer den Vorgang NICHT kennt, bekommt keine Vorrede, sondern den Verfahrensabsatz. Vorwurf und Bitte stehen in EINEM Satz, die Wartezeit als eingeschobener Relativsatz (260917).**
+  zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen; **beim ANLASS beginnen, nie bei der Vorgeschichte** — kein Rückblick, keine Überleitung, auch nicht nach einer Weiterverweisung: die Zitatkette und die eingehende Mail erklären (260915/260916, 4:0). **Der Anlass ist der NEBENSATZ, der erste Hauptsatz gehört der Sache («Wie telefonisch bereits erzählt benötigen wir …»); ein eigener Danksatz nur nach einem Gespräch mit eigenem Gewicht; der Dank für die eingegangene MAIL bleibt eigener erster Satz («Besten Dank für Ihre E-Mail.», Du «Danke für Deine E-Mail.»; 260918, 3:0). Auch wer den Vorgang NICHT kennt, bekommt keine Vorrede, sondern den Verfahrensabsatz. Vorwurf und Bitte stehen in EINEM Satz, die Wartezeit als eingeschobener Relativsatz (260917).**
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
@@ -4939,3 +4939,21 @@ Die Aufteilung ist ausdruecklich «**approximativ**» markiert — Annahme als A
 - **Drei zusammenhängende Mails an eine Stelle in 2 h 13 min** (Vertrag → Unterlagen → Korrespondenz):
   Raphael liefert eine Dossier-Anfrage in Tranchen, sobald er das jeweilige Stück beisammen hat, statt
   alles in einer Mail zu bündeln.
+
+## Fidelity 260918 — der Eingangsdank ist kein Vorgeschichte-Satz
+
+Quelle: [[../outputs/2026-09-18_fidelity]]. Drei von drei Golds, die auf eine eingegangene Mail
+**mit Sache** antworten, öffnen mit dem Dank für diese Mail: «Besten Dank für Ihre E-Mail.» (Absage),
+«Besten Dank für Ihre E-Mail und Ihren Beschreibung des Leistungsumfanges.» (Honorarofferte), im Du
+«Danke für Deine E-Mail.» (Preisangebot). Nur die Entgegnung auf den Vorwurf dankt nicht. Der Zwilling
+liess den Dank zweimal weg, wo der Brief ihn nicht erzwang, und berief sich auf «beim ANLASS
+beginnen» und «ein eigener Danksatz nur nach einem Gespräch mit eigenem Gewicht» (260917). Beide
+Regeln galten dem **Telefonat-Dank** und der **Vorgeschichte**, nicht dem Eingangsdank. **Kompiliert**
+als Ausnahme. Wieder das Muster: eine tags zuvor kompilierte Regel verliert an der Nachbargattung.
+
+- **Der Kanalwechsel als Schluss hält** (2:2 über die Läufe): «Ruf mich doch an wenn Du Zeit hast.»,
+  ohne Zweck und ohne Frist.
+- **Label: Wert als Zeile auch im Du-Angebot**: «Stundenansatz: CHF 160.-», «Geschätzter Aufwand: 2
+  Wochen (…) 84h». Der Zwilling schrieb Fliesstext. Nicht kompiliert (Reserve), Beobachtung.
+- **Die Absage stellt den Grund VOR den Entscheid, in einem Satz**: «Da ich erkennt habe, das mit dem Kauf … muss
+  ich dieses Angebot  leider vorerst absagen.» (Wortlaut mit Raphaels Tippfehlern) Der Zwilling setzte den Entscheid voran. Nicht kompiliert.

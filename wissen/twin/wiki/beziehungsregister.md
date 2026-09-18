@@ -409,7 +409,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
 
 ## Do / Don't für den Zwilling
 - **Do:** Register aus Kontakt UND Anlass wählen: Thread-Antwort→Hoi/«Guten Morgen/Abend»,
-  wichtig oder neue Mail mit Anhang→Geschätzter <Vorname> (260915), vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
+  wichtig oder neue Mail mit Anhang→Geschätzter <Vorname> (260915), das Preisangebot INLINE im Faden bleibt «Hoi» (260918), vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
   vertraut-sozialer Peer→«Hoi lieber <Name>» + CH-Koseform, Dienstleister/Freelancer→«Hallo
   <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
@@ -419,7 +419,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
   Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909). Das Anlassgewicht SENKT
   ebenso: die triviale Bestätigung an die namentlich bekannte Amtsperson trägt «Guten Tag Herr
-  <Nachname>» (260910), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein ZUGESTÄNDNIS (Abgebot, Nachlass, Fristerstreckung): die trägt den LOCKERSTEN Opener («Grüezi Herr <N>», 260916). **Die Fach-/Empfehlungsanfrage ist KEIN Zugeständnis — sie HEBT auf «Geschätzter <Vorname>», auch wo die Liste «Hoi» führt (260917, 2:0).** «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
+  <Nachname>» (260910), ebenso die Ein-Satz-Entgegnung auf einen Vorwurf (260918), die Erstkontakt-Quittung nicht: «Sehr geehrte Frau <N>» vor «Besten Dank.» (260915). Gewichtig macht, was ich GEBE (Ergebnis, Recht, Antrag) — nicht Geld, nicht Konflikt und nicht die Bitte um ein ZUGESTÄNDNIS (Abgebot, Nachlass, Fristerstreckung): die trägt den LOCKERSTEN Opener («Grüezi Herr <N>», 260916). **Die Fach-/Empfehlungsanfrage ist KEIN Zugeständnis — sie HEBT auf «Geschätzter <Vorname>», auch wo die Liste «Hoi» führt (260917, 2:0).** «Grüezi» steht im warmen Handwerker-Sie gleichwertig neben «Guten Tag».**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -427,8 +427,8 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz.
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
-  vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
-  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff;
+  vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» für
+  Behörden-/Submissions-Erstmail und für Offerte ODER Absage an einen NEUEN Geschäftskontakt (260918, 2:0). Sammelpostfach: Person im Betreff;
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
   warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
@@ -4678,3 +4678,27 @@ Erweiterung des Verteilers. Das Register der Nullform ist nicht Unhoeflichkeit, 
   `rules/anrede-kontakte.md`; mit diesem Beleg ist er **Du** (Vorname belegt «Werter/Hoi Cekdar»,
   Rückfall 22.06. vorübergehend). Er bleibt Kandidat neben Stadelmann, Horeni, Gasser, Würsch und
   Scherbl — die Aufnahme ist Raphaels Entscheid ([[QUESTIONS]] 260918 #1).
+
+## Fidelity 260918 (vier Golds, Anrede 1 von 4)
+
+Quelle: [[../outputs/2026-09-18_fidelity]].
+
+- **Offerte und Absage an einen NEUEN Geschäftskontakt tragen das kalte «Sehr geehrter Herr <N>»**
+  (19.01.2026, zweimal am selben Tag: Honorarofferte an einen Fondsverwalter nach Telefonat, Absage an
+  einen Händler, dem Raphael zuvor nur namenlos «Guten Tag» schrieb). Der Zwilling schrieb bei der
+  Offerte «Geschätzter Herr», gestützt auf «vermittelte/warme Erstanfrage → Geschätzte/r». Die Regel
+  galt der **Anfrage** (ich will etwas), nicht der **Offerte** (ich biete an). **Kompiliert.**
+- **Die Absage hebt**: im selben Faden vorher namenlos «Guten Tag», zur Absage «Sehr geehrter Herr
+  Agostini». Stützt «gewichtig macht, was ich GEBE» — auch ein Nein ist etwas, das ich gebe.
+- **Die Ein-Satz-Entgegnung auf den Vorwurf SENKT wieder**: zwei Tage später «Guten Tag Herr Agostini»
+  (vom iPhone, ein Satz). Der Zwilling hielt «Sehr geehrter» mit «der belegte Opener gilt innerhalb des
+  Vorgangs». Gleiche Linie wie die triviale Bestätigung (260910): das Gewicht der eigenen Mail
+  entscheidet, nicht der Vorgang. Dass der Händler selbst «Guten Tag Herr Jans» schrieb, ist kein
+  Grund (Spiegel-Verbot bleibt). **Kompiliert.**
+- **Das Preisangebot INLINE im Faden bleibt «Hoi»** (19.05.2026 14:44, «Hoi Roman», Preise und
+  Stundenansatz direkt in der Mail); **28 Minuten später** geht die Offerte als PDF-Anhang mit
+  «Geschätzter Roman,». Das Kriterium ist der Anhang bzw. die neue Mail (260915), nicht das Geld und
+  nicht der Inhalt «Offerte». Der Zwilling hob auf «Geschätzter». **Kompiliert.** Fünfter Lauf in
+  Folge, in dem eine Heberegel ihre Nachbargattung verliert (hier «was ich GEBE» → Preis im Faden).
+- Trajektorie Steinmann belegt: 19.01.2026 «Sehr geehrter Herr Steinmann» (Sie) → 18.03.2026
+  «Geschätzter Roman,» → 19.05.2026 «Hoi Roman» / «Geschätzter Roman,» je nach Anhang.
