@@ -53,6 +53,65 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-18 12:57 — [FREI] **MacBook-Fassung, Regellauf. Der P2 von 00:58 (rc=127 bei `wissens-trigger` und `claude-autoupdate`) hat sich heute früh von selbst erledigt: beide Jobs sind um 05:15 bzw. 06:30 sauber gelaufen. Der Fix in der Freigabe-Queue bleibt sinnvoll, ist aber nicht mehr akut und geht auf P3.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **7 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Symlink auf dem MacBook unverändert `Caskroom/claude-code/2.1.267` (16.09. 05:15), `--version`
+2.1.267. Wochenbudget **29.6 %** von 167 Mio bei **57.7 %** verstrichener Woche, Vorsprung **-28.1 Punkte**, Ampel FREI
+(MacBook 36.62, Mini 12.84 Mio, beide Dateien frisch). Keine Drossel aktiv, nichts zurückzuschalten. Speicher MacBook
+Druckstufe 1, rund 5.4 GiB frei+inaktiv+purgeable; Mini Druckstufe 1, rund 8.7 GiB (beide vm_stat).
+
+**Gegenprobe P2 rc=127 (Wiedervorlage aus 00:57/00:58): bestanden, ohne Eingriff.** `launchctl list` zeigt auf dem
+MacBook alle neun `ch.jans`-Jobs mit Exit-Status **0**, darunter `claude-autoupdate` und `wissens-trigger`.
+`logbuch/wissens-trigger/trigger.log` trägt heute **06:30:04 [Macbookpro] Durchgang beendet** — die erste MacBook-Zeile
+seit dem 16.09. `/tmp/claude-autoupdate.err` ist unverändert vom 17.09. 05:15, der heutige Lauf hat also keinen Fehler
+geschrieben. Damit ist die Diagnose von 00:58 bestätigt, nicht widerlegt: der harte NAS-Pfad schlägt nur zu, wenn der
+SMB-Mount im Moment des einzigen Tagesslots gestallt ist, und heute war er es nicht. **Folge für die Einstufung:** kein
+laufender Ausfall mehr, aber ein latenter. Die Sync-Task
+`sync-tasks/freigabe/macbook-pro/20260918-010015_launchd-wissens-trigger-+-claude-autoupdate-auf-SSD-First-Fallback-(rc=127-seit-17.09.).md`
+bleibt als Härtung richtig und liegt weiter zur Einzelfreigabe bereit; ich stufe sie auf **P3** zurück.
+
+**Liefer-Delta seit dem letzten Lauf (git, Basis `12eefa93e`, 12 h): 60 Commits.** Unter `wissen/`: **twin 11** ·
+normen 6 · auflagebereinigung 5; ausserhalb 9 unter `logbuch/`, je 2 unter `rules/`, `scripts/`, `station-status/`,
+je 1 unter `connectors/`, `skills/`, `templates/`. Inhaltlich: normen Run 87 (Lignum-4.2-Matrizen, 224 Zellen
+aufgenommen, 0 Widersprüche), Nachtschicht Mini mit Wissenscheck auflagebereinigung und GVZ-Weisung 30.25,
+twin-fidelity-review (Fidelity 56), dazu die interaktiven Commits des Vormittags (GVZ-Report 2619 KISPI, WEGE-Eintrag
+Exchange-Adressbuch, `macbook-wecken.sh`). Das Nachtfenster war mit drei KBs schmaler als gestern (energie heute ohne
+Delta nach zwei starken Läufen 204/205), das ist Takt, kein Leerlauf. **Kein Loop mit drei Läufen in Folge ohne Delta.**
+
+**Feuermechanismen.** `vollgas-supervisor` und `vollgas-monitor` liegen auf beiden Stationen unverändert als
+`*.disabled-260729` und sind nicht geladen; der stehende Entscheid vom 30.07. hält. Mini: acht `ch.jans`-Jobs, alle rc=0.
+**Neu auf dem Mini:** `ch.jans.macbook-wecker` (KeepAlive, RunAtLoad, `/Users/raphaeljans/bin/macbook-wecker`, Logs nach
+`/tmp/ch.jans.macbook-wecker.*`), läuft (PID 69489). Er gehört zum interaktiv gebauten Commit 12:21
+(`scripts/macbook-wecken.sh`) und ist kein Lern-Loop; festgehalten nur, damit der nächste Lauf ihn nicht als
+unbekannten Mechanismus liest. Das Binary liegt ausserhalb des Repos (`~/bin`), das ist für einen KeepAlive-Job
+bemerkenswert, aber kein Befund dieses Radars.
+
+**P3 Permission-Regel — jetzt vom CLI selbst gemeldet.** Die seit 16.09. geführte zu weit gefasste Allow-Regel
+`Bash(sed 's|.*/500 Invest/||' …)` in `.claude/settings.local.json` erscheint seit heute als **Warnung am Anfang jeder
+headless Ausgabe** (sichtbar in der Fensterprobe vor dem «OK»). Wirkung: jeder `claude -p`-Lauf dieser Station trägt
+die Zeile im Output; ein Parser, der die erste Zeile auswertet, liest die Warnung statt der Antwort. Die Probe dieses
+Radars ist davon nicht betroffen (gemessen am ganzen Output). Ich ändere Berechtigungen nicht unbeaufsichtigt; der Fix
+ist ein Einzeiler für Raphael: den Eintrag in `.claude/settings.local.json` löschen oder das `*` durch den exakten Wert
+ersetzen.
+
+**Massnahmen.** Keine.
+
+- **P1** — keiner.
+- **P2 (unverändert, vom Mini-Lauf 00:57)** — Lauf-Journal `logbuch/laeufe/` seit 24.08. trocken; `rollen-bilanz.sh`
+  fällt am **24.09.** auf «keine Daten». Weg vorgelegt (dritte Quelle `dispatch/log/`, Überlappung 29.07.–24.08.
+  ausschliessen). Noch sechs Tage bis zum Sichtbarwerden.
+- **P2 (unverändert)** — Doppellauf Radar/Frühwarnung/heartbeat auf MacBook und Mini, siebter Tag; dieser Eintrag ist
+  selbst die MacBook-Hälfte. Aktion Raphael.
+- **P3 (herabgestuft von P2)** — Härtung `wissens-trigger`/`claude-autoupdate` auf SSD-First, Task in der Freigabe-Queue.
+- **P3 (unverändert, jetzt sichtbar)** — Permission-Regel in `.claude/settings.local.json`, siehe oben.
+
+**Selbstkontrolle.** Letzter MacBook-Eintrag 18.09. 00:58, dieser Lauf 12:57, also **12 h** bei Takt 12 h und Toleranz
+15 h: kein verpasster Lauf. Kein Regellauf über 60 Turns. Keine Mail: kein neuer P1-Blocker, kein Wochenlimit, kein
+Login-Block.
+
+---
+
 ## 2026-09-18 00:57 — [FREI] **Mini-Regellauf. NEUER BEFUND P2: das Lauf-Journal `logbuch/laeufe/` hat seit dem 24.08.2026 keine Zeile mehr bekommen — die Rollen-Bilanz misst aus einem trockenen Kanal und faellt am 24.09. auf «keine Daten».**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
