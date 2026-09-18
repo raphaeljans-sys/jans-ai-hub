@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 23:40:48
+Stand: 18.09.2026 23:51:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:40)
@@ -12,4 +12,4 @@ Stand: 18.09.2026 23:40:48
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 45af6186c betrieb-chronik: Vorfall stale index.lock (Nachtschicht Mac Mini, dritter Zyklus) dokumentiert
+- 9950e4a6a nas-selfcommit: 1 Datei(en) 2026-09-18 23:45
