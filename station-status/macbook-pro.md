@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 13:57:25
+Stand: 18.09.2026 14:07:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 18.09.2026 13:57:25
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2fa6c65f8 nas-selfcommit: 8 Datei(en) 2026-09-18 13:45
+- ee9fdc616 macbook-wecker: Wachhaltezeit 5 s -> 90 s (Sperrbildschirm dunkelt sonst nach 15-30 s ab)

@@ -1060,7 +1060,17 @@ Swift-Script via `CNContactStore`, ohne AppleScript und ohne `ABDefaultSourceID`
 `CNSaveRequest.add(contact, toContainerWithIdentifier: "<Quelle>:ABAccount")` direkt ins
 Exchange-Konto schreiben (rj@ = `3BB49493-D2D7-4CD8-BEF1-FA0E788CCE26:ABAccount`; Container
 listen mit `store.containers(matching: nil)`). Telefonnummern werden dabei auf Anhieb
-uebernommen. Nachmessen ueber `predicateForContainerOfContact`. **Nicht pruefbar bleibt die
+uebernommen. Nachmessen ueber `predicateForContainerOfContact`.
+⚠ **Berichtigt am selben Tag: das Anlegen im Konto allein synchronisiert NICHT.** Der Kontakt
+haengt dann nur am `ABAccount`, nicht im Exchange-Ordner «Kontakte» — und nur der Ordner geht
+zum Server und aufs Handy. Belegt: Rothe (31.08., AppleScript-Weg) und Tonet (18.09.) fehlten
+beide auf dem iPhone; Konto roh 21, Ordner roh 19. Der Ordner ist intern eine **Gruppe**
+(rj@ = `EC5077ED-A889-4B48-94B5-CAB7AEC0DE98:ABGroup`). **Pflichtschritt danach:**
+`CNSaveRequest.addMember(contact, to: group)` bzw. AppleScript `add person to group` + `save`
+(bei Rothe warf Swift Fehler 134092, AppleScript trug). Nachmessen mit
+`CNContactFetchRequest`, `unifyResults = false`, Praedikat Container = Ordner.
+**Sackgasse:** `add(contact, toContainerWithIdentifier: "<…>:ABGroup")` meldet OK, legt den
+Kontakt aber still im **iCloud**-Konto an. **Nicht pruefbar bleibt die
 Serverseite:** Graph-Kontakte 403 (siehe unten), claude.ai-M365-Connector ohne `People.Read`.
 
 **Sackgassen, nicht erneut laufen:**
