@@ -4858,3 +4858,67 @@ Das gehoert vor den Radar (Takt/Ziel-KB-Aufloesung), nicht in eine Mail an Rapha
 
 **Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
 Tasks: keine im aktuellen Log-Verlauf.
+
+## 2026-09-18 06:30 CEST — Regellauf Mac Mini (Rohblock zuerst, Bewertung folgt)
+
+Tageswerte teuer (in+cache_creation+out), Mio Token, Mac Mini + MacBook Pro (`ssh macbook`):
+
+- 18.09. (Tag laeuft, Stand 06:30): Mini 0.68 · MBP 1.08 · zusammen 1.76
+- 17.09.: Mini 3.33 · MBP 9.68 · zusammen 13.01
+- 16.09.: Mini 2.99 · MBP 6.85 · zusammen 9.84
+- 15.09.: Mini 3.67 · MBP 10.40 · zusammen 14.07
+- 14.09.: Mini 2.23 · MBP 6.54 · zusammen 8.77
+- 13.09.: Mini 0.86 · MBP 0.00 · zusammen 0.86
+- 12.09.: Mini 1.39 · MBP 0.00 · zusammen 1.39
+- 11.09.: Mini 2.97 · MBP 4.24 · zusammen 7.21
+- 10.09.: Mini 1.27 · MBP 9.10 · zusammen 10.37
+
+Total (inkl. cache_read) 17.09.: Mini 91.77 · MBP 239.05.
+Blockade: 0 strukturelle Usage-/Rate-Limit-Ereignisse in 24 h auf beiden Stationen
+(Kontrollprobe: 719 bzw. 4162 Zeilen mit Teilstring `scheduled-task`, Muster greift).
+Letzte Task-Sessions (UTC): logbuch-radar Mini 18.09. 04:30, MBP 17.09. 07:31 ·
+hub-chef-taeglich MBP 17.09. 07:20 · mahnwesen MBP 17.09. 07:08 · zahlungsabgleich MBP
+17.09. 07:11 · vollgas-chef-radar Mini 17.09. 22:57, MBP 17.09. 22:58.
+
+### Bewertung 2026-09-18 — ohne Befund, keine Mail
+
+**Verbrauch.** Wochensumme teuer 12.-18.09. (18.09. angebrochen) zusammen 49.70 Mio, Spitze
+15.09. mit 14.07. Schwellen (35 an einem Tag, 18 an zwei Folgetagen) deutlich unterschritten.
+Der 17.09. ist mit 13.01 jetzt als ganzer Tag gemessen (Vorlauf 09:33 hatte 3.73 Stand
+Vormittag).
+
+**Blockade.** Keine Usage-/Rate-Limit-Ereignisse, kein 5-Stunden- und kein Wochenlimit
+erschoepft. Kriterien (a) bis (c) nicht erfuellt.
+
+**Briefings.** Die vier Laeufe vom 17.09. (MBP, 09:08 bis 09:31 CEST) haben ihr Deliverable
+erreicht, belegt im Eintrag 17.09. 09:33. Die Laeufe vom 18.09. stehen zum Messzeitpunkt noch
+aus (Radar 06:55, Chef 08:39). Neu: eine `logbuch-radar`-Session startete heute 06:30 CEST auf
+dem **Mac Mini**; ob das ein gewollter Umzug oder ein Doppellauf zur MBP-Instanz ist, misst
+dieser Lauf nicht, er haelt es nur fest. Kriterium (d) nicht erfuellt.
+
+**Radar-Herzschlag.** Juengster RADAR.md-Eintrag 18.09. 00:57 (Mini), Sessions auf beiden
+Stationen 17.09. ~00:57 CEST, also vor 5.5 h. Kriterium (e) nicht erfuellt. Der Radar fuehrt
+seinen neuen P2 selbst (Lauf-Journal `logbuch/laeufe/` ohne Zeilen seit 24.08.). Hinweis dazu
+aus dieser Messung: die Nachtschicht schreibt sehr wohl in `logbuch/laeufe/260917-` und
+`260918-laeufe.jsonl` (sechs Laeufe, alle rc=0, USD 1.66 bis 4.09), nur ohne Feld `task`/`name`.
+Moeglicherweise ist der Kanal also nicht trocken, sondern die Zuordnung leer. Das gehoert zum
+Radar-Befund, nicht in eine Mail.
+
+**Liefer-Delta.** Mini-Nachtschicht 17.09. 02:34/05:39/13:34/23:37, 18.09. 02:38/05:34, alle
+rc=0, mit belegtem Ertrag (u.a. Commit «wissen/auflagebereinigung: GVZ-Weisung 30.25
+destilliert (Nachtschicht Mac Mini 18.09.)»). Mittags-Slot 13:30 hat am 17.09. erneut geliefert.
+Kein Verbrauch ohne Lieferung, keine Delta-Null-Serie.
+
+**Ertrag und Stueckkosten** (git log --name-only, INDEX/QUESTIONS gefiltert): 16.09. 13 Artikel
+(0.76 Mio/Artikel) · 17.09. 20 (0.65) · 18.09. bisher 7 (Tag laeuft). Ohne Twin-Facetten:
+7 / 14 / 1; Stueckkosten 17.09. ohne Twin 0.93.
+
+**Destillat-Aufsicht.** Unveraendert zu gestern: `inventar.sh --stand` weiterhin unmessbar
+(Werkzeug sucht unter `skills/wissens-destillat/training/`, Inventare liegen unter
+`wissen/architektur-fachwissen/raw/inventar/`, 23 bzw. 20 Dateien) — P2 des Radars seit 12.09.
+Wiki `architektur-fachwissen` 483 Artikel, juengster Lauf-Report 01.09. Der Loop laeuft auf
+diesem Korpus nicht an, er verbrennt dort also auch nichts: Kriterium (f) nicht erfuellt.
+Kein `KORPUS-QUEUE KOMPLETT`, Kriterium (g) nicht erfuellt.
+
+**Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
+Tasks: keine im aktuellen Log-Verlauf.
