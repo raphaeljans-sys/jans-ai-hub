@@ -3,9 +3,10 @@ quelle: Vollzugshilfe Förderprogramm Energie 2026 — Förderbedingungen, Förd
 herausgeber: Kanton Schwyz, Umweltdepartement / Amt für Umwelt und Energie (AfU), Kollegiumstrasse 28, 6431 Schwyz (energie@sz.ch, 041 819 20 35)
 ausgabe: 01. Januar 2026 (40 Seiten)
 gelesen: 2026-06-29 (vollständig S. 1-40 via Read)
-datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch). Adversarial gegengeprüft 2026-07-20 (Run 82) und erneut 2026-07-23 (Runde 2): alle 24 CHF-Sätze am frisch gezogenen amtlichen PDF unverändert bestätigt, keine Abweichung.
+datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch). Adversarial gegengeprüft 2026-07-20 (Run 82) und erneut 2026-07-23 (Runde 2): alle 24 CHF-Sätze am frisch gezogenen amtlichen PDF unverändert bestätigt, keine Abweichung. A-BLIND VOLLSTAENDIG am Rendering gegengelesen 2026-09-18 (Run 206, A-BLIND Rang 5 aus dem 349er-Backlink-Ranking): alle 18 Förderbeitrags-Blöcke + Minergie-Tabelle (24 CHF-Werte) einzeln an `pdftotext -layout` je Kapitel geprüft, 24/24 bestätigt; identisches PDF wie Run 82/Runde 2 (CreationDate 23.12.2025, 40 Seiten, unverändert).
+fingerabdruck: "SHA-256 Vollzugshilfe_Foerderprogramm_Energie_2026.pdf 705f0162b62a308a95ea5a59f8090443014498730712a72e007c5e6de56e3bab (sz.ch, geladen 2026-09-18)"
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-09-18
 ---
 
 # Förderprogramm Energie Kanton Schwyz 2026
@@ -70,7 +71,21 @@ Der Kanton Schwyz fördert 2026 die energetische Gebäudesanierung und den Ersat
 - **Faustzahl-Beispiele 2026 (eigene Rechnung, markiert):** *EFH-Heizungsersatz Öl→Luft/Wasser-WP 8 kW_th:* 3'200 + 8 × 120 = **~4'160 CHF**. *Erdsonden-WP 10 kW_th:* 4'800 + 10 × 360 = **~8'400 CHF**. *Solarthermie 6 kW_th:* 2'400 + 6 × 1'000 = **~8'400 CHF**. *Fassadendämmung 200 m²:* 200 × 60 = **12'000 CHF** (mit Gesamtsanierungsbonus +40/m² = total **20'000 CHF**). *Minergie-P-EFH-Gesamtsanierung 180 m² EBF:* 180 × 155 = **~27'900 CHF**. *(Sätze fix, eigene Multiplikation.)*
 - **ZH ↔ SZ — Unterschied in der Mechanik:** ZH zahlt bei der WP eine **Pauschale je Stufe** (Luft/Wasser CHF 2'900 ≤15 kW + 160/zusätzl. kW; Erdsonde 6'800 + 420), SZ rechnet **Grundbeitrag + CHF/kW_th** linear (Luft/Wasser 3'200 + 120/kW_th; Erdsonde 4'800 + 360/kW_th). SZ-Dämmung **CHF 60/m²** ist höher als die ZH-Einzelmassnahme (40/m²), aber ZH hat einen +60/m²-Vollsanierungs-Bonus (bis 100/m²) — bei SZ ist der Bonus +40/m². Max. pro Gesuch: SZ **300'000**, ZH **500'000**.
 
-## Verifikation + Befristung (adversariale Nachprüfung 2026-07-20, Run 82; erneut 2026-07-23, Runde 2)
+## Verifikation + Befristung (adversariale Nachprüfung 2026-07-20, Run 82; erneut 2026-07-23, Runde 2; A-BLIND vollständig 2026-09-18, Run 206)
+
+**Run 206 (18.09.2026), A-BLIND aus dem frischen 349er-Backlink-Ranking (Run 204):** Kandidat Rang 5
+(49 Backlinks). Anders als Runde 1/2 (Stichproben + 24-Werte-Zusammenstellung) wurde hier jeder der
+18 Förderbeitrags-Blöcke einzeln im Originalkontext gelesen (nicht nur die zusammengetragene Tabelle),
+inkl. der beiden gestuften Positionen (Kap. 6, 10: ≤500/>500 kWth) und der Minergie-3×2-Matrix (Kap.
+15). Alle 24 Werte deckungsgleich mit dem Destillat. **Nebenbefund zur bisher offenen
+E-Mail-Diskrepanz** (Runde 2 hatte `energie@sz.ch` im Frontmatter gegen `afu@sz.ch` im PDF-Footer als
+unkorrigierten Nebenbefund stehen lassen): beide Adressen stehen **im selben Dokument** — `afu@sz.ch`
+im Fusszeilen-Briefkopf (S. 40), `energie@sz.ch` im Fliesstext S. 6 als Kontakt der «Energiefachstelle
+des Kantons Schwyz» für Rückfragen. Kein Fehler, zwei unterschiedliche, beide korrekte Kontaktkanäle —
+die frühere Einstufung als offene Diskrepanz war voreilig. Fingerabdruck der PDF-Ausgabe erstmals im
+Frontmatter hinterlegt (fehlte bisher trotz zweier Downloads).
+
+
 **Alle 24 im Destillat genannten CHF-Sätze am heute live abrufbaren amtlichen PDF nachgeprüft — 24 von 24 Positionen unverändert bestätigt**, kein einziger Wert weicht ab (Volltext frisch per `curl` gezogen, `pdftotext -layout`, nicht aus dem Destillat abgeschrieben). Der Zahlenstand trägt per 20.07.2026.
 
 - ⚠ **Rahmenkredit-Befristung neu erfasst:** Der vom Kantonsrat gesprochene Rahmenkredit gilt grundsätzlich **bis 31.12.2028**, muss aber **jährlich neu ins kantonale Budget** aufgenommen werden — Planungssicherheit besteht erst mit **schriftlicher Förderzusage**, nicht schon mit Gesuchseingabe. Quelle: FAQ AfU SZ «Häufig gestellte Fragen zu den Themen Förderprogramm und Energie-Gesetz», Stand 28.08.2025.

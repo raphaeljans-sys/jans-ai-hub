@@ -13494,3 +13494,19 @@ im Artikel bewusst nicht mitkorrigiert (Phase-2-Vorbehalt des Health-Checks resp
 Frontmatter `sources`/`last_updated` nachgezogen. Details: CHANGELOG `wissen/auflagebereinigung/
 CHANGELOG.md`. Budget rund 1.9 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus
 sauber beendet.
+
+**Nachtschicht Mac Mini 2026-09-18 (13:30-Slot, Prioritaet 4) — `energie` Run 206: A-BLIND Rang 5
+vollstaendig, 24/24 Foerdersaetze bestaetigt.** Remote-/Sync-Queues leer, Synobsis Stufe 2 aktuell
+(853/853, Vektorindex 05.09. synchron mit `documents.jsonl`), Fristen-/Pendenzen-Radar bereits vom
+Hub-Chef 08:39 erschoepfend abgedeckt (kein Zusatzentwurf noetig). `bauprodukte` bleibt seit 15.08.
+ERLEDIGT und damit kein gueltiges Ziel; `energie` (zuletzt 17.09. bearbeitet, heute noch nicht) war
+die naechste faellige freie KB. A-BLIND-Warteschlange aus Run 204 fortgesetzt: Rang 5
+`foerderprogramm-energie-sz-2026` gewaehlt (Rang 6 schied als bereits vollstaendig verifiziert aus).
+PDF frisch von sz.ch geladen (SHA-256 gesichert, identische Ausgabe wie Run 82/Runde 2), alle 18
+Foerderbeitrags-Bloecke + Minergie-Matrix einzeln im Original gegengelesen (bisher nur
+Stichprobe/Sammeltabelle) — 24/24 CHF-Werte bestaetigt, keine Abweichung. Bisher offene
+E-Mail-Diskrepanz (energie@sz.ch vs. afu@sz.ch) als Fehlalarm aufgeloest: beide Adressen stehen
+korrekt im selben Dokument. Fingerabdruck erstmals hinterlegt. Datei: `wissen/energie/destillate/
+foerderprogramm-energie-sz-2026.md`, Report `wissen/energie/outputs/2026-09-18_energie-run206.md`,
+CHANGELOG nachgefuehrt. Budget rund 0.9 von 5 USD. Kein Versand, keine Buchung, keine Loeschung.
+Zyklus sauber beendet.

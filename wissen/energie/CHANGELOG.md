@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-18 (Run 206, Nachtschicht Mac Mini 13:30-Slot) — A-BLIND Rang 5 vollstaendig: Foerderprogramm SZ 2026, 24/24 Werte bestaetigt
+
+- A-BLIND aus dem 349er-Backlink-Ranking (Run 204), naechster Kandidat nach Run 205
+  (Rang 6 `leg-lokale-elektrizitaetsgemeinschaft-2026` schied als bereits VOLLSTAENDIG
+  VERIFIZIERT aus, Rang 5 `foerderprogramm-energie-sz-2026` gewaehlt).
+- PDF frisch von sz.ch geladen (SHA-256 705f0162…), identische Ausgabe wie Run 82/Runde-2-Pruefung
+  (CreationDate 23.12.2025, 40 Seiten) — keine neue Fassung.
+- Alle **18 Foerderbeitrags-Bloecke + Minergie-3x2-Matrix (24 CHF-Werte)** einzeln im Original
+  gegengelesen (nicht nur die zusammengetragene Tabelle wie in Runde 1/2) — 24/24 bestaetigt,
+  keine Abweichung.
+- Bisher offene Nebenfeststellung geklaert: `energie@sz.ch` (Frontmatter) vs. `afu@sz.ch`
+  (PDF-Footer) sind **beide korrekt** — zwei verschiedene, im selben Dokument belegte
+  Kontaktkanaele (Fliesstext S. 6 vs. Fusszeile S. 40), kein Fehler.
+- Fingerabdruck erstmals im Destillat-Frontmatter hinterlegt.
+- Datei: `destillate/foerderprogramm-energie-sz-2026.md`. Kein Cross-KB-Fund, kein neuer
+  Wiki-Artikel (Werte bereits korrekt in `wiki/foerderung-energie-sz.md`/`BAUHERREN-FAQ.md`).
+
 ## 2026-09-17 (Run 205, Nachtschicht Mac Mini) — E-R204-2 geschlossen: kein 30-kW-Deckel in ZH, am amtlichen Formular EN-104-ZH gegengelesen
 
 - Amtliches kantonales Formular **EN-104-ZH** (zh.ch, Version September 2022) via `curl` +
