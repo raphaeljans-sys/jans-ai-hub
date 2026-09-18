@@ -3,7 +3,7 @@
 //
 // Ereignisgesteuert (kein Polling): haengt an NSWorkspace.screensDidWake und an
 // der Distributed Notification com.apple.screenIsUnlocked. Der Weckbefehl ist
-// derselbe wie in scripts/macbook-wecken.sh: `ssh macbook 'caffeinate -u -t 5'`.
+// derselbe wie in scripts/macbook-wecken.sh: `ssh macbook 'caffeinate -u -t 90'`.
 //
 // Bauen (auf dem Mac Mini, Binary liegt lokal, damit der Dienst nicht am
 // NAS-Mount haengt):
@@ -52,7 +52,7 @@ func wecken(_ anlass: String) {
         let p = Process()
         p.executableURL = URL(fileURLWithPath: "/usr/bin/ssh")
         p.arguments = ["-o", "BatchMode=yes", "-o", "ConnectTimeout=6",
-                       "macbook", "caffeinate -u -t 5"]
+                       "macbook", "caffeinate -u -t 90"]
         p.standardOutput = FileHandle.nullDevice
         p.standardError = FileHandle.nullDevice
         do {

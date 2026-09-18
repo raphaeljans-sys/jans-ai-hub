@@ -9,7 +9,7 @@
 #
 # Aufruf: bash scripts/macbook-wecken.sh   (Kurzbefehl auf dem Mini: `wach`)
 
-if ssh -o BatchMode=yes macbook 'caffeinate -u -t 5' 2>/dev/null; then
+if ssh -o BatchMode=yes macbook 'caffeinate -u -t 90' 2>/dev/null; then
   echo "MacBook-Display geweckt."
 else
   echo "MacBook nicht erreichbar (schlaeft wirklich, kein Netz oder SSH-Schluessel gesperrt)." >&2
