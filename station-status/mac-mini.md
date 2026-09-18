@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 01:56:38
+Stand: 18.09.2026 02:06:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 01:56:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6e050bba0 normen Run 87 (260918): N86-1 erledigt — die vier Anhang-2-Matrizen der Lignum 4.2 Zelle fuer Zelle aufgenommen (224 Zellen, 181 massgebend, 0 Widersprueche); Werkzeugbefund MRC-Mischraster; kein Statuswechsel (N87-1)
+- d6136d4a9 nas-selfcommit: 2 Datei(en) 2026-09-18 02:00
