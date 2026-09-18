@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 02:29:13
+Stand: 18.09.2026 02:39:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:09)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 02:29:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 64966720e nas-selfcommit: 3 Datei(en) 2026-09-18 02:15
+- 29951e8d3 Nachtschicht: Wissenscheck Phase 1 auflagebereinigung (2026-09-18), Logbuch-Nachtrag
