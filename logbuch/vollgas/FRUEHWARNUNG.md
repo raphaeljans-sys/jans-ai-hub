@@ -4922,3 +4922,48 @@ Kein `KORPUS-QUEUE KOMPLETT`, Kriterium (g) nicht erfuellt.
 
 **Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
 Tasks: keine im aktuellen Log-Verlauf.
+
+## 2026-09-18 07:20 CEST — Regellauf MacBook Pro (Rohblock zuerst, Bewertung folgt)
+
+Zweiter Lauf des Tages; der Mac-Mini-Lauf 06:30 steht direkt darueber. Neu gemessen,
+beide Stationen (`ssh mini`), rekursives Glob inkl. Subagenten, Tagesgruppierung timestamp[:10].
+
+Tageswerte teuer, Mio Token: 18.09. (bis 07:18) MBP 1.71 · Mini 0.70 · zusammen 2.41.
+17.09. MBP 9.68 · Mini 3.33 · zusammen 13.01 (identisch mit der Mini-Messung, Werte reproduziert).
+Total 18.09. bisher: MBP 31.13 · Mini 13.40.
+Blockade: 0 strukturelle Usage-/Rate-Limit-Ereignisse in 24 h auf beiden Stationen
+(Kontrollprobe 4164 bzw. 721 Zeilen mit `scheduled-task`, Muster greift).
+Letzte Task-Sessions (UTC, erste User-Eingabe, eigene Fruehwarnungs-Sessions ausgeschlossen):
+logbuch-radar MBP 18.09. 04:55 · hub-chef/mahnwesen/zahlungsabgleich MBP 17.09. 07:08-07:20 ·
+vollgas-chef-radar MBP 17.09. 22:58, Mini 17.09. 22:57.
+
+### Bewertung 2026-09-18 07:20 (MBP) — ohne Befund, keine Mail
+
+**Verbrauch und Blockade.** Unveraendert zum Mini-Lauf 06:30: 17.09. zusammen 13.01 Mio teuer,
+18.09. bisher 2.41; beide Schwellen weit unterschritten. Kein Limit-Ereignis, kein Wochenlimit.
+Kriterien (a) bis (c) nicht erfuellt.
+
+**Briefings.** logbuch-radar 18.09. hat sein Deliverable erreicht: Session MBP 06:55 CEST,
+Commit `3d17724ff` 07:02 «Briefing geschrieben, RE-00100 erledigt, 3 neu, 2 Nachtraege».
+hub-chef-taeglich (08:39), mahnwesen und zahlungsabgleich sind heute noch nicht faellig; ihre
+Laeufe vom 17.09. sind im Eintrag 17.09. 09:33 als erfolgreich belegt. Kriterium (d) nicht erfuellt.
+
+⚠ **Berichtigung zum Mini-Eintrag 06:30:** die dort festgehaltene «logbuch-radar-Session heute
+06:30 CEST auf dem Mac Mini» ist die Fruehwarnungs-Session selbst (Start 04:30 UTC = 06:30 CEST),
+also genau das am 17.09. dokumentierte falsche Positiv: der Auftragstext enthaelt das Opener-
+Muster woertlich. Mit Ausschluss der eigenen Fruehwarnungs-Sessions findet sich auf dem Mini
+KEINE logbuch-radar-Session; der Radar laeuft wie bisher allein auf dem MacBook. Kein Doppellauf,
+kein Umzug.
+
+**Radar-Herzschlag.** RADAR.md juengster Eintrag 18.09. 00:57 (Mini) und 00:58 (MBP), Commits
+`2fc9dea06`/`770d20b35`, rund 6.3 h alt. Kriterium (e) nicht erfuellt.
+
+**Liefer-Delta und Destillat.** Seit Mitternacht 7 Wiki-Artikel (git log --name-only), dazu
+Nachtschicht 02:38/05:34 mit Commits (auflagebereinigung GVZ-Weisung 30.25, Wissenscheck),
+normen Run 87, twin-fidelity 56. Kein Verbrauch ohne Lieferung. `architektur-fachwissen`
+unveraendert 483 Artikel, Front unmessbar (Werkzeugpfad, P2 des Radars seit 12.09.), Loop
+laeuft dort nicht an, verbrennt also nichts: (f) nicht erfuellt. Kein `KORPUS-QUEUE KOMPLETT`:
+(g) nicht erfuellt.
+
+**Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
+Tasks: keine im aktuellen Log-Verlauf.
