@@ -163,3 +163,4 @@ planungsgrundlagen-fragen	loop	sweeper	Einzellauf 23.08.2026: offene QUESTIONS d
 sia-sweep	loop	sweeper	Einzellauf: Sweep ueber den SIA-Bestand	erledigt	wissen/normen
 normen-training-vollgas	loop	prototyper	Einzellauf 17.08.2026 im Vollgas-Modus	erledigt	wissen/normen
 energie-training-vollgas	loop	prototyper	Einzellaeufe im Vollgas-Modus	erledigt	wissen/energie
+macbook-wecker	script	maintainer	LaunchAgent auf dem Mac Mini: weckt das MacBook-Display bei Aufwachen/Entsperren des Mini (ereignisgesteuert, kein Takt)	aktiv	scripts/macbook-wecker/macbook-wecker.swift

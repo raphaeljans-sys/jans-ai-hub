@@ -1054,6 +1054,15 @@ rj@raphaeljans.ch erscheinen (Programm Kontakte). Der tragende Weg, Schritt fuer
    Laeuft ohne zusaetzlichen TCC-Prompt, wenn der Prozess Contacts-Zugriff hat.
 5. **Exchange nimmt nur EINE URL** (Homepage) — eine zweite Website in die Notiz legen.
 
+**Kuerzerer Weg, belegt 18.09.2026 (Kontakt Aaron Tonet, Nova Property):** alles in EINEM
+Swift-Script via `CNContactStore`, ohne AppleScript und ohne `ABDefaultSourceID` umzustellen:
+`CNMutableContact` fuellen (Name, Firma, Funktion, Telefone, Mail, Adresse, URL) und mit
+`CNSaveRequest.add(contact, toContainerWithIdentifier: "<Quelle>:ABAccount")` direkt ins
+Exchange-Konto schreiben (rj@ = `3BB49493-D2D7-4CD8-BEF1-FA0E788CCE26:ABAccount`; Container
+listen mit `store.containers(matching: nil)`). Telefonnummern werden dabei auf Anhieb
+uebernommen. Nachmessen ueber `predicateForContainerOfContact`. **Nicht pruefbar bleibt die
+Serverseite:** Graph-Kontakte 403 (siehe unten), claude.ai-M365-Connector ohne `People.Read`.
+
 **Sackgassen, nicht erneut laufen:**
 - Graph `/users/rj@raphaeljans.ch/contacts` (lesend wie schreibend): **403**. Die App
   `80c24101` hat Files/Group/Mail/Sites/User, aber **keine Contacts-Berechtigung**. Wer den

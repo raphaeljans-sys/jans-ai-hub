@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 12:24:58
+Stand: 18.09.2026 12:35:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 18.09.2026 12:24:58
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 68b7af75f scripts: macbook-wecken.sh (MacBook-Display vom Mac Mini aus wecken, Clamshell)
+- 3f33c85fa nas-selfcommit: 6 Datei(en) 2026-09-18 12:30
