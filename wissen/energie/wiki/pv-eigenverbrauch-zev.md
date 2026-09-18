@@ -1,7 +1,7 @@
 ---
 title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
-last_updated: 2026-09-14
+last_updated: 2026-09-18
 datenstand: "2023 (ältester zitierter Quellenstand: EnergieSchweiz/Zogg-Planungsgrundlagen «Wärmepumpen, Photovoltaik und Elektromobilität», Version 2.0, 02.07.2023, Basis Forschungsprojekt OPTEG 2016-2021 — trägt Hebel 1 «technisch: WP-Lastmanagement»; die stromrechtlichen Hebel 2/3 ZEV/vZEV/LEG stützen sich auf jüngere Quellen ab 2024/2025 und altern laut Artikeltext selbst schnell, verändern den ältesten Stand aber nicht)"
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[heizleistung-und-waermeerzeuger]], [[elektromobilitaet-ladeinfrastruktur]], [[batteriespeicher]]
@@ -30,6 +30,21 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
   und ist unwirtschaftlich. WP-Schnittstellen für die PV-Steuerung: **SG-Ready**, PV-Eingang, Modbus/TCP,
   künftig SmartGridready; Altgeräte über den **EVU-Sperreingang** nachrüstbar.
   → [[wp-pv-eigenverbrauch-lastmanagement]] (EnergieSchweiz/Zogg 2023).
+- **Nachtrag 18.09.2026 (Run 207, A-BLIND am Original, Kap. 5-9):**
+  - **Schnittstellen und Freigabe:** SG-Ready ist **nicht kompatibel mit der in der Schweiz üblichen
+    EVU-Sperre** (mit dem Netzbetreiber klären; der PV-Eingang lässt sich einfacher kombinieren). Ohne
+    Einzelfreigabe nach WPSM-PV 2022 kommen nur EVU-Sperreingang, SG-Ready und SmartGridready aus;
+    **Modbus braucht eine Einzelfreigabe** des WP-Herstellers. SG-Ready/PV-Eingang heben nur die
+    technischen Speicher an, das Gebäude als Speicher braucht Modbus/SmartGridready mit Raumfühlern.
+  - **Bauweise:** der Gebäudemasse-Speicher ist ein Massivbau-Wert. Wärmekapazität je EBF schwer 0,15,
+    mittel 0,08, leicht (Holzbau) 0,03 kWh/m²K (Anhang 9.1, nach SIA 380/1 B.9) — der Holzbau speichert
+    ein Fünftel, dort bleibt der Puffer-Weg (Faktor ~1,3).
+  - **Zeitsteuerung ohne Zusatzgerät:** Taganhebung (z. B. 10-20 Uhr) statt Nachtabsenkung, Warmwasser im
+    Nachmittagsfenster (z. B. 13-15 Uhr), nie Elektroeinsatz vor der WP → [[F300]].
+  - **Projektablauf:** eine verantwortliche Gesamtplanung, Pufferspeicher +1/3, erste Heizsaison ohne
+    PV-Optimierung, Nachkontrolle nach der ersten Heizsaison, Service nach ~5 Jahren → [[F301]].
+  - **Herkunft der Kennzahlen oben:** «30 → 50 %» stammt aus [[batteriespeicher-heimspeicher-pv-ch]], das
+    «2–3×» aus dem Tarifverhältnis im Einleitungssatz; Zogg nennt beides nicht.
 
 ## Hebel 2 — organisatorisch: den Strom vermarkten (ZEV/vZEV im MFH)
 - Für **am Ort der Produktion selbst verbrauchten** Strom fallen **keine Netznutzungstarife, kein

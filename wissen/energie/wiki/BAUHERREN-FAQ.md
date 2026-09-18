@@ -1,7 +1,7 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-09-15 (Run 199: **F296 neu** «Holzbau + PV: wie wird die DC-Leitung geführt?» (STP V 4.0 Tab. 1 = VKF-BSM 2001-15de Tab. 1, am Original gelesen); **F16 berichtigt** (RF2 (cr) statt RF1 auf/in brennbaren Bauteilen, feuergefährdete Räume zulässig, Brandmauer nach Einbauart, Geltungsbereich Dach); Run 196: **F295 neu** «Vermietetes MFH mit ZEV — müssen die Mieter mitmachen, können sie aussteigen?» (Art. 17 Abs. 3 EnG, Art. 16/18 EnV Stand 1.7.2026, Art. 6b VMWG); **F32 berichtigt** — Mieterrechte am Gesetz neu gefasst, Wahlrecht nur bei Einführung, «keine Nettomiet-Überwälzung» auf Einführungskosten eingegrenzt. Vorher: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
+last_updated: 2026-09-18 (Run 207: **F300 neu** «Wärmepumpe nachts absenken oder ausschalten?» — Taganhebung statt Nachtabsenkung, WW-Nachmittagsfenster; **F301 neu** «PV, WP und Ladestation — wer sorgt fürs Zusammenspiel?» — Projektablauf Zogg Kap. 8; **F31 geschärft** (SG-Ready vs. CH-EVU-Sperre, Modbus-Einzelfreigabe, Holzbau-Fünftel, Herkunft 30→50 % und 2–3× zugeordnet); **F292 präzisiert** (Wärmekapazität je Bauweise 0,15/0,08/0,03 kWh/m²K, Verhältnis ein Fünftel). Vorher: 2026-09-15 (Run 199: **F296 neu** «Holzbau + PV: wie wird die DC-Leitung geführt?» (STP V 4.0 Tab. 1 = VKF-BSM 2001-15de Tab. 1, am Original gelesen); **F16 berichtigt** (RF2 (cr) statt RF1 auf/in brennbaren Bauteilen, feuergefährdete Räume zulässig, Brandmauer nach Einbauart, Geltungsbereich Dach); Run 196: **F295 neu** «Vermietetes MFH mit ZEV — müssen die Mieter mitmachen, können sie aussteigen?» (Art. 17 Abs. 3 EnG, Art. 16/18 EnV Stand 1.7.2026, Art. 6b VMWG); **F32 berichtigt** — Mieterrechte am Gesetz neu gefasst, Wahlrecht nur bei Einführung, «keine Nettomiet-Überwälzung» auf Einführungskosten eingegrenzt. Vorher: 2026-09-11 (Run 191: **F293 neu** «Klimaanlage — brauchen wir eine thermische Simulation?» — für private Bauherren im Kt. ZH nein, Simulationspflicht ist Bauherrenvorgabe der Stadt ZH; **F294 neu** «Grosse Oberlichter — worauf beim Hitzeschutz achten?» — SIA 180 Ziff. 5.2.4.7 g_tot ≤ 0,025/f_g am Original; **F88 und F145 berichtigt** (V3-Pflicht und «MuKEn 2025 erstmals»), stale ⚠ 03.15 entfernt); davor 2026-09-10 (Run 190: **F292 neu** «Holzbau statt Massivbau — mehr Heizenergie wegen fehlender Speichermasse?», Ausnutzungsgrad-Formel am Original gegengelesen; **F2 praezisiert** — Quelle ist ein Kursauszug mit aelteren Normverweisen, nicht SIA 380/1:2016); davor 2026-09-06 (Run 182: **F279 neu** «Duerfen unsere Handwerker keinen Bauschaum mehr verwenden?» — Ausschlussvorgabe 220.05, seit 19.01.2026 auf alle Arten von Ortschaum inkl. Daemmschaum und auf alle BKP ausgeweitet; **F280 neu** «Muessen wir zwingend Recyclingbeton einsetzen?» — 50 % nur beim Neubau Ausschlussvorgabe (220.09), bei der Erneuerung 2 Punkte (220.50), Bezugsgroesse und 25-km-Luftlinien-Ausnahme praezisiert; **F281 neu** «Ist 2023.1 die aktuelle Fassung?» — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu nummerieren, inkl. der Korrigenda 30 % → 80 % bei 230.01. Vorher: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
   **F258 neu** «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein?» —
   Free-Cooling via Erdsonde/Grundwasser loest die Pflicht zur automatischen Sonnenschutz-
   Steuerung NICHT aus (EN-102 Jan. 2020 Kap. 8.1, Ausloeser ist die Kaeltemaschine);
@@ -1541,10 +1541,13 @@ Heizung **etwa verdoppeln** — im Sommer machst Du das **Warmwasser zu 100 % mi
 nötige Bauteil dafür ist **nicht die Batterie, sondern das EMS**; eine Batterie lohnt sich vorerst
 kaum und hilft im Winter nicht.
 
-**Fachlich:** Selbstverbrauchter Strom ist ~**2–3× mehr wert** als eingespeister — jede kWh, die im Haus
-bleibt, spart den vollen Bezugstarif. Die WP hebt den Eigenverbrauch besser als jede Batterie, weil ihr
-**Speicher gratis im Gebäude steckt**: Massivbau EFH **20–60**, MFH **150–450 kWh** thermisch (3 °C
-Temperaturhub ≈ 20 kWh/K), dazu Warmwasserspeicher (EFH 10 / MFH 20 kWh). Bei PV-Überschuss fährt das
+**Fachlich:** Selbstverbrauchter Strom ist ~**2–3× mehr wert** als eingespeister (Tarifverhältnis
+Bezug ~20–25 gegen Einspeisung ~8–10 Rp/kWh, `[[pv-eigenverbrauch-zev]]`; tarifabhängig) — jede kWh, die
+im Haus bleibt, spart den vollen Bezugstarif. Die WP hebt den Eigenverbrauch besser als jede Batterie, weil ihr
+**Speicher gratis im Gebäude steckt**: Massivbau EFH **20–60** kWh thermisch (bis 3 °C Anhebung, 20 kWh je
+1 K), MFH mit 1'000 m² EBF **150–450 kWh**, dazu Warmwasserspeicher (EFH 10 / MFH 20 kWh). ⚠ **Im reinen
+Holzbau** speichert die Gebäudemasse nur rund **ein Fünftel** davon (0,03 statt 0,15 kWh/m²K, Anhang 9.1
+der Quelle nach SIA 380/1 B.9); dort ist der Faktor 2 beim Heizen nicht realistisch, der Puffer-Weg bleibt. Bei PV-Überschuss fährt das
 EMS die WP hoch und «lädt» diese Speicher überhöht. Wieviel das bringt (Steigerungsfaktor über den
 Betrieb ohne Optimierung):
 
@@ -1563,15 +1566,21 @@ wirtschaftlich noch nicht**, hat die schlechtere Ökobilanz und **senkt den Wint
 (nur Tagespufferung). **(3)** Nie den Überschuss in einen **Heizstab «verbraten»**, nur damit die
 Eigenverbrauchszahl steigt — das drückt die Jahresarbeitszahl der WP und ist unwirtschaftlich. Achte
 beim Kauf auf **offene Schnittstellen** (Standard **SmartGridready**; sonst SG-Ready/PV-Eingang/Modbus);
-ältere WP lassen sich über den **EVU-Sperreingang** nachrüsten.
+ältere WP lassen sich über den **EVU-Sperreingang** nachrüsten. Zwei Stolpersteine: **SG-Ready ist nicht
+kompatibel mit der in der Schweiz üblichen EVU-Sperre** — vorher mit dem Netzbetreiber klären, ob er auf die
+Sperre verzichtet (der **PV-Eingang** lässt sich einfacher mit ihr kombinieren); und die Einbindung über
+**Modbus** braucht nach WPSM-PV 2022 weiterhin eine **Einzelfreigabe** des WP-Herstellers, während
+EVU-Sperreingang, SG-Ready und SmartGridready ohne auskommen. Zeitsteuerung und Projektablauf → [[F300]], [[F301]].
 
 **Quelle:** EnergieSchweiz/BFE «Wärmepumpen, Photovoltaik und Elektromobilität — Planungsgrundlagen für
 Wohnbauten» (Autor D. Zogg FHNW, V2.0 02.07.2023; Basis >50 reale Installationen 2016–2021) →
 `[[wp-pv-eigenverbrauch-lastmanagement]]`; Absolut-Ertrag/Eigenverbrauch F18 →
 `[[pv-ertrag-eigenverbrauch-praxis]]`; JAZ/WP-Systemwahl F6 → `[[waermepumpe-systemvergleich]]`;
 Themenartikel → `[[pv-eigenverbrauch-zev]]`. Solarstrom im MFH an Mieter vermarkten → F32. ⚠ **Datenstand
-2026-07-04:** Deckungsgrade sind **Faktoren** (Bestwerte Praxis), keine garantierten %-Werte — projektgenau
-via Simulation (Polysun). Batterie-Wirtschaftlichkeit marktabhängig; Norm SIA 2063 (Lastmanagement) in Vorbereitung.
+2026-07-04, A-BLIND am Original 2026-09-18 (Run 207):** Deckungsgrade sind **Faktoren** (Bestwerte Praxis,
+Abbildung 3 am Original bestätigt), keine garantierten %-Werte — projektgenau via Simulation (Polysun).
+Die Zahl «30 → 50 %» Eigenverbrauch durch Lastverschiebung stammt aus `[[batteriespeicher-heimspeicher-pv-ch]]`,
+nicht aus Zogg. Batterie-Wirtschaftlichkeit marktabhängig; Norm SIA 2063 (Lastmanagement) in Vorbereitung.
 
 ---
 
@@ -9839,7 +9848,7 @@ Zertifizierbare Bauvorhaben sind **Neubau und Erneuerung**; bei der Erneuerung k
 
 **Kurz:** Kaum. Im Hochwinter sind Sonne und innere Wärme deutlich kleiner als die Verluste über Hülle und Lüftung, und dann nutzt auch ein leichter Bau fast alle diese Gratis-Gewinne. Die Speichermasse macht erst einen Unterschied, wenn die Gewinne die Verluste erreichen: in der Übergangszeit und in stark besonnten oder intern belasteten Räumen. Für den Heizwärmebedarf ist sie ein Feinfaktor, der Hebel bleibt die Dämmung. Ihren eigentlichen Wert hat die Masse im **Sommer**, beim Schutz vor Überhitzung.
 
-**Fachlich:** Die Monatsbilanz nach SIA 380/1 zieht von den Verlusten nur die **genutzten** Gewinne ab: Q_ug = η_g · (Q_i + Q_s). Der Ausnutzungsgrad η_g = (1 − γ^a)/(1 − γ^(a+1)) hängt vom Verhältnis γ = Gewinne/Verluste und vom Parameter a = a_0 + τ/τ_0 ab; die Zeitkonstante τ = (C/A_E) · Δθ · t_c · 24 / (Q_T + Q_V) wächst mit der wirksamen Wärmespeicherfähigkeit C. Der Kursauszug nennt a_0 = 1, τ_0 = 15 h für rund um die Uhr benutzte Gebäude und für massive Bauweise C/A_E ≈ 0,5 MJ/m²K; sein Rechenbeispiel (Büro, Zürich, Januar, γ = 0,59) ergibt η_g ≈ 1,0. **Eigene Rechnung mit derselben Formel:** nimmt man zur Illustration an, die Zeitkonstante betrage nur einen Viertel (a ≈ 5 statt ≈ 18), sinkt η_g im selben Januar bloss auf ≈ 0,97. Bei γ = 1 dagegen liegt η_g = a/(a+1) massiv bei ≈ 0,95, leicht bei ≈ 0,84: dort geht beim leichten Bau rund jedes sechste statt jedes zwanzigste Gewinn-Kilowatt verloren. Die Annahme «ein Viertel» ist kein Normwert für Holzbau, sondern zeigt die Empfindlichkeit der Formel.
+**Fachlich:** Die Monatsbilanz nach SIA 380/1 zieht von den Verlusten nur die **genutzten** Gewinne ab: Q_ug = η_g · (Q_i + Q_s). Der Ausnutzungsgrad η_g = (1 − γ^a)/(1 − γ^(a+1)) hängt vom Verhältnis γ = Gewinne/Verluste und vom Parameter a = a_0 + τ/τ_0 ab; die Zeitkonstante τ = (C/A_E) · Δθ · t_c · 24 / (Q_T + Q_V) wächst mit der wirksamen Wärmespeicherfähigkeit C. Der Kursauszug nennt a_0 = 1, τ_0 = 15 h für rund um die Uhr benutzte Gebäude und für massive Bauweise C/A_E ≈ 0,5 MJ/m²K; sein Rechenbeispiel (Büro, Zürich, Januar, γ = 0,59) ergibt η_g ≈ 1,0. **Eigene Rechnung mit derselben Formel:** nimmt man zur Illustration an, die Zeitkonstante betrage nur einen Viertel (a ≈ 5 statt ≈ 18), sinkt η_g im selben Januar bloss auf ≈ 0,97. Bei γ = 1 dagegen liegt η_g = a/(a+1) massiv bei ≈ 0,95, leicht bei ≈ 0,84: dort geht beim leichten Bau rund jedes sechste statt jedes zwanzigste Gewinn-Kilowatt verloren. Die Annahme «ein Viertel» ist kein Normwert für Holzbau, sondern zeigt die Empfindlichkeit der Formel. **Nachtrag 18.09.2026 (Run 207):** Die EnergieSchweiz-Planungsgrundlagen WP/PV (Zogg, V2.0 2023, Anhang 9.1) nennen, mit Verweis auf SIA 380/1 Abschnitt B.9, Wärmekapazitäten je EBF von **0,15 kWh/m²K** (schwer: Stahlbeton, Mauerwerk mit Aussendämmung), **0,08** (mittel: Holz/Beton-Mischbau) und **0,03** (leicht: reiner Holzbau). Der Massivwert passt zum C/A_E ≈ 0,5 MJ/m²K des Kursauszugs (0,15 kWh/m²K = 0,54 MJ/m²K). Das Verhältnis leicht/schwer ist damit **ein Fünftel**, nicht ein Viertel. Eigene Rechnung mit a ≈ 4,4 statt ≈ 18: η_g im Januarbeispiel ≈ 0,96, bei γ = 1 ≈ 0,81 — die Aussage «kaum Mehrbedarf im Hochwinter, spürbarer Verlust erst in der Übergangszeit» bleibt, der Übergangszeit-Verlust ist etwas grösser als oben illustriert. Wo die fehlende Masse wirklich zählt, ist neben dem Sommer die **PV-Eigenverbrauchsoptimierung der Wärmepumpe**: der Holzbau kann nur rund ein Fünftel des Solarüberschusses im Gebäude zwischenspeichern ([[F31]], `[[wp-pv-eigenverbrauch-lastmanagement]]`).
 
 **Bauherren-Transfer:** Die Wahl Holz oder Massiv entscheiden Sie nicht über den Heizwärmebedarf. Für den Winter zählen Dämmung, Luftdichtheit und Kompaktheit ([[F2]]). Wer leicht baut, plant die Speichermasse dort ein, wo sie im **Sommer** fehlt: massive Böden oder Decken, keine flächige Verkleidung der Speicherflächen, wirksamer aussenliegender Sonnenschutz, Nachtauskühlung ([[sommerlicher-waermeschutz]]). Im Energienachweis rechnet die Software die Speicherfähigkeit ohnehin mit; eine Pauschalaussage «Holz braucht mehr Heizenergie» lässt sich aus der Bilanz nicht ableiten.
 
@@ -10147,3 +10156,81 @@ Ermächtigungsnorm EnerG § 10c (LS 730.1, Nachtrag 129). Status **established**
 17.09.2026. Verwandt: [[F298]], `[[en-zh-nachweis-uebersicht]]`,
 `[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`, `[[enfk-en-104-eigenstromerzeugung]]`,
 [[pv-eigenverbrauch-zev]], [[energienachweis-zh]].
+
+## F300 — «Soll ich die Wärmepumpe nachts absenken oder ausschalten, damit sie mehr Solarstrom nutzt?»
+
+**Kurz-Antwort für den Bauherrn:** Nein. Die Nachtabsenkung spart in einem gut gedämmten Haus nichts
+mehr und schadet sogar: am Morgen muss die Wärmepumpe genau dann nachheizen, wenn es draussen am
+kältesten ist und sie am schlechtesten arbeitet, und der Strom dafür kommt vollständig aus dem Netz.
+Besser ist die **Taganhebung**: die Heizkurve insgesamt leicht senken und tagsüber etwa von 10 bis 20 Uhr
+leicht anheben. Das **Warmwasser** lädt die Wärmepumpe in einem festen Fenster am **Nachmittag**, zum
+Beispiel 13 bis 15 Uhr. Beides lässt sich in jedem normalen Wärmepumpenregler einstellen, ohne
+Zusatzgerät.
+
+**Fachliche Begründung.** Die EnergieSchweiz-Planungsgrundlagen (Zogg, V2.0 2023, Kap. 5.4) empfehlen die
+Nachtabsenkung in modernen, gut gedämmten Gebäuden «generell nicht mehr»: die Aufheizphase fällt in die
+Zeit mit tiefster Quellentemperatur und höchster Vorlauftemperatur, besonders bei Luft/Wasser-WP ist der
+COP dann am tiefsten; bei Sole/Wasser-WP ist der Effekt kleiner, aber spürbar. Auch zur
+Eigenverbrauchssteigerung taugt sie nicht, weil der Effizienzverlust den leicht höheren Eigenverbrauch
+nicht wettmacht. Ein **komplettes Abschalten nachts** führt wegen der Trägheit des Gebäudes zu
+Komfortverlusten und setzt eine überdimensionierte WP und eine zu hohe Heizkurve voraus. Die
+Taganhebung schiebt den Betrieb in die warmen, sonnigen Stunden; im Niedertarif darf die Heizkurve
+nicht angehoben und kein Puffer überhöht werden. Für das Warmwasser nennt Kap. 5.3 drei Regeln:
+Fenster auf die PV-Kurve im Jahresmittel, nachmittags (vormittags wird geheizt), nicht über Mittag
+(andere Verbraucher), und lang genug für die Solltemperatur von 55 bzw. 60 °C nach SIA 385/1. Ein
+Elektroeinsatz darf nie **vor** der WP laufen und bei einer modernen WP gar nicht.
+
+**Bauherren-Transfer (eigene Einordnung):** Das ist der günstigste Eigenverbrauchs-Hebel überhaupt, weil
+er nur die Einstellung am Regler braucht: beim Warmwasser verdoppelt schon das Tagesfenster den solaren
+Deckungsgrad (Faktor 2), beim Heizen bringt die reine Zeitsteuerung wenig (Faktor 1,1), dafür braucht es
+das EMS ([[F31]]). Im **Mehrfamilienhaus** gilt eine Ausnahme: die Warmwasser-Zirkulation läuft aus
+hygienischen Gründen ohne Unterbruch (SIA 385/1); nur im Einfamilienhaus darf man sie ausserhalb der
+Bedarfszeiten abschalten. Die Einstellung gehört ins erste Betriebsjahr, zusammen mit der
+Einregulierung der Heizkurve ([[F301]]).
+
+**Quelle:** EnergieSchweiz/BFE «Wärmepumpen, Photovoltaik und Elektromobilität — Planungsgrundlagen für
+Wohnbauten», D. Zogg FHNW, V2.0 02.07.2023, Kap. 3.2, 5.3, 5.4 (S. 14-15, 24-27), am Original gelesen
+18.09.2026 → `[[wp-pv-eigenverbrauch-lastmanagement]]`. Die Uhrzeiten sind Beispiele der Quelle, keine
+Normwerte. Status **established**. Datenstand 2023 (Quelle), geprüft 18.09.2026. Verwandt: [[F31]],
+[[F6]], `[[waermepumpe-systemvergleich]]`, [[pv-eigenverbrauch-zev]].
+
+## F301 — «Wir bauen mit PV, Wärmepumpe und Ladestation. Wer sorgt dafür, dass das zusammenspielt, und was müssen wir festlegen?»
+
+**Kurz-Antwort für den Bauherrn:** Bestimmen Sie **eine Person**, die das Gesamtsystem verantwortet und
+PV-Planer, Elektro, Heizung, Wärmepumpen- und EMS-Lieferanten koordiniert; sonst optimiert jeder nur
+sein Gerät. Legen Sie in der Planung ein **Energiemanagement-System mit offenen Schnittstellen**, die
+Zielkennzahlen und das Monitoring fest. Rechnen Sie die **Einregulierung im ersten Betriebsjahr** als
+eigenen, bezahlten Arbeitsschritt ein: die Wärmepumpe läuft die erste Heizsaison bewusst **ohne**
+Solaroptimierung, erst danach wird diese zugeschaltet. Die Ladestation darf von Anfang an solar laden.
+
+**Fachliche Begründung.** Die Planungsgrundlagen (Zogg, V2.0 2023, Kap. 8) beschreiben den Ablauf in zehn
+Schritten: Gesamtplanung mit einer verantwortlichen Person, Zielkennzahlen per Simulation (Polysun ab
+2022.8 mit PV-WP-Vorlagen), Speicher (Trinkwarmwasser mit einer Tagesladung und 60 °C ohne
+Elektroeinsatz; **Pufferspeicher um ein Drittel des Nennvolumens grösser**, Mischventil nach dem
+Speicher zwingend; Raumfühler, wenn das Gebäude als Speicher dienen soll), Schnittstellen (WP mit
+SG-Ready- oder SmartGridready-Label bzw. freigegebenem Modbus, Ladestation mit variablem Ladestrom,
+Wechselrichter mit Modbus nach SunSpec), Monitoring nach Minergie (Modul «Monitoring+»), Installation
+(WP nach WPSM bis 15 kW Heizleistung, darüber Leistungsgarantie; LAN vor WLAN; im MFH geeichte
+MID-/METAS-Zähler), Inbetriebnahme mit Funktionskontrolle, **erste Betriebsphase ohne PV-Optimierung**,
+Justierung und Aktivierung, zweite Phase mit Vergleich der Kennzahlen, Betrieb mit mindestens jährlicher
+Kennzahlenprüfung und **Service nach rund fünf Jahren**. Die erste Phase darf nur entfallen, wenn die WP
+schon eine Heizsaison einreguliert ist oder eine vom WP-Hersteller freigegebene Kombination vorliegt.
+Im **Mehrfamilienhaus** braucht es zwingend einen zentralen Energiemanager, der auch die Wohnungen im ZEV
+abrechnet, ein Lastmanagement für die Ladestationen (zwei Vielfahrer seriell mit je 4 kW statt 2 × 22 kW:
+40 kW weniger Spitze), Service-Verträge und definierte Betreiber; der Datenzugriff gegenüber Mietern ist
+vorgängig zu regeln.
+
+**Bauherren-Transfer (eigene Einordnung):** Die Gesamtverantwortung ist typischerweise eine
+Architekten- oder Gebäudetechnik-Aufgabe und gehört in den Leistungsbeschrieb, nicht in die Hoffnung,
+dass sich die Unternehmer absprechen. Für die Ausschreibung zählt: EMS als eigene Position, Schnittstelle
+und Freigabe je Gerät benannt (SG-Ready ist nicht mit der Schweizer EVU-Sperre kompatibel, Modbus braucht
+eine Einzelfreigabe → [[F31]]), Inbetriebnahme mit Protokoll und eine Nachkontrolle nach der ersten
+Heizsaison. Ein EMS-Gütesiegel von SmartGridready ist erst im Entstehen und taugt heute noch nicht als
+Ausschreibungskriterium.
+
+**Quelle:** EnergieSchweiz/BFE «Wärmepumpen, Photovoltaik und Elektromobilität — Planungsgrundlagen für
+Wohnbauten», D. Zogg FHNW, V2.0 02.07.2023, Kap. 4.3, 6.4, 7, 8 (S. 19-21, 30-31, 35-49), am Original
+gelesen 18.09.2026 → `[[wp-pv-eigenverbrauch-lastmanagement]]`; EMS-Label SmartGridready (Abruf
+24.08.2026) im selben Destillat. Status **established**. Datenstand 2023 (Quelle), geprüft 18.09.2026.
+Verwandt: [[F31]], [[F300]], [[F32]], [[F39]], `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`,
+`[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`.

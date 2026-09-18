@@ -2841,3 +2841,18 @@ das eine Tabelle in Fliesstext auflöst, verliert die Spaltenzuordnung zuerst. F
 
 **Nächster Zuschnitt:** A-BLIND Rang 64 `private-kontrolle-zh`; E-R199-1 (Übergangsdokument PV-Fassaden,
 Prüfstichtag 31.12.2026).
+
+**Run 207 (18.09.2026, Abendlauf) — A-BLIND Rang 15 `wp-pv-eigenverbrauch-lastmanagement`.** Frisches Backlink-Ranking
+(nur Destillate), Ränge 7-14 nach Blick in `gelesen:`/`verifikation:` ausgeschieden. Original frisch von pubdb.bfe.admin.ch
+(V2.0 unverändert), S. 1-52 gegengelesen, Abbildung 3 als Bild geprüft, Tabelle Anhang 9.1 arithmetisch nachgerechnet
+(Kapazität × EBF × K). Ergebnis: Kernwerte bestätigt, 2 Berichtigungen (SG-Ready «einfachste», Modbus-Einzelfreigabe),
+1 Fremdzuordnung (30→50 %, 2–3× stammen aus anderen Quellen), 3 Unschärfen der Quelle markiert. Grösster Ertrag war
+die **Abdeckungslücke**: «S. 1-16 vollst.» war wahr, aber das PDF hat 78 Seiten — Kap. 5 bis 9 (Betriebsweise,
+Schnittstellen, Projektablauf, Speicherfähigkeit je Bauweise) waren nie destilliert. F300/F301 neu, F31 geschärft,
+F292 präzisiert. Lehre (Methode): **eine Seitenangabe im `gelesen:`-Feld ist gegen die Gesamtseitenzahl zu lesen**;
+«vollständig» bezieht sich auf das Gelesene, nicht auf das Werk.
+
+**Nächster Zuschnitt:** E-R207-2 (Zogg-Praxisbeispiele S. 59-75, gemessene Absolutwerte) oder A-BLIND Rang 16+
+aus demselben Ranking (`wp-pv`-Nachbarn: `batteriespeicher-heimspeicher-pv-ch`, `e-mobilitaet-ladeinfrastruktur-gebaeude-ch`
+— beide stützen sich auf Web-Seiten ohne Fingerabdruck).
+

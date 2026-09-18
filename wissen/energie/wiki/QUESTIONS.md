@@ -2,6 +2,27 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 207 (18.09.2026, Abendlauf) — A-BLIND Rang 15: `wp-pv-eigenverbrauch-lastmanagement` am Original, 2 Berichtigungen, Abdeckung 16 → 52 von 78 Seiten
+
+Frisches Backlink-Ranking (Ränge 1-6 erledigt, Run 204/206). Gewählt: `[[wp-pv-eigenverbrauch-lastmanagement]]`
+(43 Backlinks), `established`, seit 04.07.2026 nie am Original gegengelesen, `gelesen:` «S. 1-16» — das PDF hat
+78 Seiten. Kandidaten Rang 7-14 vorher ausgeschieden: `minergie-produktreglement-2026-1-muken-vergleich`
+(Modell D + Refuter 05.08., Kap. 6-13 am 24.08. nachgelesen), `sia-2024-…` (emerging, Norm kostenpflichtig),
+`waermepumpe-systemvergleich` / `minergie-eco-vorgabenkatalog-…` (emerging, eigene Audits),
+`pv-ertrag-eigenverbrauch-praxis` (verifiziert 23.08.), `kbob-graue-treibhausgasemissionen-2025` (am 24.08. per
+curl neu geladen und gelesen), `denkmalschutz-…` und `zev-eigenverbrauch-mfh-her-2025` (primärquellen-verifiziert).
+
+- [ ] **E-R207-1** Wärmekapazität je EBF nach Bauweise (0,15 / 0,08 / 0,03 kWh/m²K) zitiert Zogg aus «SIA 380/1,
+  Abschnitt B.9» ohne Ausgabejahr. Gegen SIA 380/1:2016 prüfen (Normkauf, zusammen mit E-R148-1). Bis dahin
+  als Sekundärzitat einer amtlichen Publikation verwendbar, Normfundstelle nicht selbst belegt.
+- [ ] **E-R207-2** Anhang 10-12 der Zogg-Publikation (S. 53-78: Ausbaustufen SIA 2060, Stecker/Ladeleistungen,
+  LAN-Varianten, fünf Praxisbeispiele mit kWh-Ergebnissen) nicht destilliert. Die Praxisbeispiele sind die
+  einzigen gemessenen Absolutwerte zur Wirkung der Regelstrategien — Kandidat für einen Folgelauf.
+- [ ] **E-R207-3** Quelle intern unscharf: E-Auto-Batterie S. 9 «20 – 80 kWh» gegen S. 13/Tab. 1 «20...100 kWh»;
+  Reichweite S. 13 «400…600 km» gegen S. 34 «250…600 km»; Nachkontrolle WPSM S. 9 «spätestens drei Betriebsjahre»
+  gegen S. 47 «2-3 Jahre». Nicht auflösbar aus der Quelle; im Destillat markiert, keine Aktion nötig ausser bei
+  einer V3.
+
 ## Run 204 (17.09.2026, Abendlauf MacBook Pro) — A-BLIND Rang 4: `en-zh-nachweis-uebersicht` an EnerG/BBV I, vier Praezisierungen und zwei echte Luecken
 
 Frisches Backlink-Ranking ueber alle **349** Destillate gezogen (Auftrag aus Run 201/202/203).

@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2026-09-18 (Run 207, Abendlauf MacBook Pro) — A-BLIND Rang 15: WP+PV-Planungsgrundlagen am Original, 2 Berichtigungen, Kap. 5-9 neu
+
+- Frisches Backlink-Ranking (nur Destillate); Raenge 7-14 nach `gelesen:`/`verifikation:` ausgeschieden,
+  gewaehlt `wp-pv-eigenverbrauch-lastmanagement` (43 Backlinks, seit 04.07. nie gegengelesen).
+- PDF frisch von pubdb.bfe.admin.ch (SHA-256 0c545bc9…, 78 S., V2.0 unveraendert), S. 1-52 gelesen,
+  Abbildung 3 als Bild geprueft: Kernwerte bestaetigt.
+- **Berichtigt:** SG-Ready nicht «einfachste» Steuerung (PV-Eingang einfacher, LAN weitaus einfachste);
+  Modbus braucht WPSM-PV-Einzelfreigabe. Fremdzuordnung 30→50 % / 2–3× berichtigt. Drei Unschaerfen der
+  Quelle markiert.
+- **Abdeckung 16 → 52 von 78 Seiten:** Kap. 4.3-9.2 neu destilliert (Taganhebung statt Nachtabsenkung,
+  SG-Ready inkompatibel mit CH-EVU-Sperre, SmartGridready-Stufen, Projektablauf, Waermekapazitaet je
+  Bauweise 0,15/0,08/0,03 kWh/m²K).
+- FAQ **F300** und **F301** neu, **F31** geschaerft, **F292** praezisiert; `wiki/pv-eigenverbrauch-zev.md`
+  gewachsen. QUESTIONS E-R207-1 bis -3. Kein Cross-KB-Fund. Bericht `outputs/2026-09-18_energie-run207.md`.
+
 ## 2026-09-18 (Run 206, Nachtschicht Mac Mini 13:30-Slot) — A-BLIND Rang 5 vollstaendig: Foerderprogramm SZ 2026, 24/24 Werte bestaetigt
 
 - A-BLIND aus dem 349er-Backlink-Ranking (Run 204), naechster Kandidat nach Run 205
