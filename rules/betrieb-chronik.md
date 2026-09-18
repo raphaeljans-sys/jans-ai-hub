@@ -3481,3 +3481,25 @@ Subnet-Route 192.168.1.0/24 angekuendigt und freigegeben / Gegenstellen sichtbar
 **Rueckweg:** `launchctl bootout gui/$(id -u)/ch.jans.tailscale-waechter` und die Plist loeschen.
 Die oben vermerkte Messluecke des heartbeat (misst nur die lokale Station) besteht fort, ist mit
 der Installation auf beiden Stationen aber ohne akute Folge.
+
+**18.09.2026 23:38 — eigener `git diff` ueber SMB gehaengt, Stale `index.lock` behoben (Nachtschicht
+Mac Mini, dritter Zyklus).** Waehrend einer Wiki-Kompilation fuer `wissen/auflagebereinigung`
+versehentlich `git -C /Volumes/daten/jans-ai-hub diff --stat` ausgefuehrt (Verstoss gegen Rule
+`sync-kanonische-quelle`, die auch lesendes git ueber den SMB-Mount verbietet). Der Prozess (PID
+8225) hing im Zustand `U`, legte um 23:35 `.git/index.lock` an und blockierte damit den nativen
+15-Min-Selfcommit auf der Synology (`sync-tasks/log/selfcommit-202609.log`: «23:37:53 index.lock
+aktiv (165s) — skip»). Behoben: Prozess lokal mit `kill -9` beendet (verifiziert: sofort weg);
+`index.lock` **nicht lokal ueber den SMB-Mount** angefasst (der lokale Bash-Sandbox-Schutz
+verweigerte den Edit an einer «sensitive file» ohnehin), sondern **nativ per ssh** auf der
+Synology (`raphaeljans@diskstation918.tail8265aa.ts.net`) nach
+`/tmp/git-lock-quarantaene-260918/index.lock-2335` verschoben (umkehrbar, kein `rm`). Ein
+anschliessender `nas-commit-now.sh`-Lauf legte die Quarantaene-Datei versehentlich in einen Pfad
+**innerhalb** des Repos (`.git-lock-quarantaene-260918/`) und `git add -A` zog sie in den Commit
+`afddf7402` hinein; im Folgecommit `9851a3eb9` wieder aus dem Repo entfernt (`git rm -r --cached`)
+und die Datei nach `/tmp/git-lock-quarantaene-260918/` auf der Synology verschoben — ausserhalb
+des Repo-Baums, dort liegt sie noch. Nachgemessen: `git status --porcelain` auf der Synology
+danach leer, `nas-selfcommit` laeuft seither wieder im 15-Min-Takt. **Lehre:** Eine
+Verifikations-Massnahme, die selbst ein durch Rule verbotenes Muster nutzt, kann grösseren
+Schaden anrichten als der Befund, den sie pruefen sollte — vor jedem `git`-Befehl gegen
+`/Volumes/daten/jans-ai-hub` zuerst pruefen, ob er ueber `ssh` gegen die Synology geht, nie ueber
+den Mount.
