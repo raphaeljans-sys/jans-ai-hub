@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 00:52:41
+Stand: 19.09.2026 01:13:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 00:52:41
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 152da90ce nas-selfcommit: 2 Datei(en) 2026-09-19 00:45
+- 9a444df18 vollgas-radar 260919 00:58 Mini: [FREI] 33.0%/64.9% Vorsprung -31.8; alle Loops mit Delta, keine Massnahme; MacBook per ssh nicht erreichbar (nicht messbar)
