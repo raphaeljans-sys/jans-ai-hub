@@ -39,7 +39,7 @@ beziffert und Raphael zur Bestaetigung vorgelegt — nie automatisch ausgefuehrt
 
 ## Phase 1 — Erkennen + Report + sichere Auto-Bereinigung (auto)
 
-1. **Speicher-Ueberblick:** `m365 spo site list --output json` → je Site `Url`, `StorageUsage` (MB), `VersionSize` (bytes), `LastContentModifiedDate`. Tenant-Summe `sum([].StorageUsage)` vs. Limit (~1.03 TB).
+1. **Speicher-Ueberblick:** `m365 spo site list --output json` → je Site `Url`, `StorageUsage` (MB), `VersionSize` (bytes), `LastContentModifiedDate`. Tenant-Summe `sum([].StorageUsage)` vs. Limit. **Limit messen, nicht annehmen:** `m365 spo tenant settings list` Feld `StorageQuota` (MB); Stand 17./18.09.2026 = 1'069'056 MB = **1044.00 GB** (die frueher unterstellten ~1054 GB waren nie gemessen, Report `reports/260917-hygiene.md`).
 2. **Papierkoerbe beziffern** (Sites mit Belegung): je Site beide Stufen
    `m365 spo site recyclebinitem list --siteUrl <url> [--secondary] --query "sum([].to_number(Size))"` und `length(@)`.
 3. **Altlasten klassifizieren:**
