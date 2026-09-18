@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 02:39:30
+Stand: 18.09.2026 02:49:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 02:39:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 29951e8d3 Nachtschicht: Wissenscheck Phase 1 auflagebereinigung (2026-09-18), Logbuch-Nachtrag
+- b72397007 nas-selfcommit: 1 Datei(en) 2026-09-18 02:45
