@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 22:55:25
+Stand: 18.09.2026 23:05:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 22:55:25
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8f72ccc79 energie Run 207: A-BLIND wp-pv-eigenverbrauch-lastmanagement am Original (Zogg V2.0), 2 Berichtigungen, Kap. 5-9 neu, FAQ F300/F301 neu, F31/F292 geschaerft
+- 847a69f79 nas-selfcommit: 2 Datei(en) 2026-09-18 23:00
