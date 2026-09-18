@@ -1,3 +1,10 @@
+## 2026-09-18 (interaktiv, MacBook Pro) — Projekt-Rücklauf 2619 KISPI: Filz-Akustikpaneele im horizontalen Fluchtweg
+
+- Neuer Report `outputs/2026-09-18_filz-akustikpaneele-rf-klasse-fluchtweg.md`: BSR 14-15de (Fassung 01.01.2017)
+  Ziff. 4.2 am Original gelesen (abgehängte Decken im horizontalen Fluchtweg: Löschanlagenkonzept RF2, bauliches
+  Konzept RF1 mit Fussnote [2]); Herstellerangaben zu PET-/Wollfilzpaneelen; Lesehilfe HdM-Deckenspiegel
+  (Elementkürzel D711-x sind Formatcodes). Kein Destillat geändert.
+
 ## 2026-09-18 (Normen-Nacht Run 87, MacBook Pro, SIA/VKF) — N86-1 erledigt: die vier Anhang-2-Matrizen der Lignum 4.2 Zelle für Zelle aufgenommen
 
 **Ein Arbeitsblock:** die rechnerische Zellaufnahme der Übersichtsmatrizen Tab. A22-1 bis
