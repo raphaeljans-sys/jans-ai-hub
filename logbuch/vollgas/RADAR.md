@@ -53,6 +53,53 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-18 12:58 — [FREI] **Mini-Regellauf. BERICHTIGUNG des eigenen P2 von 00:57: das Lauf-Journal ist NICHT trocken. Die Messung von 00:57 las den SSD-Klon, und `logbuch/laeufe/` ist per `.gitignore` (Z. 35) vom Repo ausgeschlossen — im Klon liegt deshalb nur die Altdatei `260824-laeufe.jsonl`. Auf dem NAS wird das Journal täglich geschrieben. Der P2 entfällt; die MacBook-Fassung von 12:57 hat ihn unbesehen weitergeführt und ist damit ebenfalls überholt.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **4 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Symlink auf die npm-Fassung, heute 05:15 vom autoupdate nachgezogen, `--version` **2.1.276**.
+Wochenbudget **30.2 %** von 167 Mio bei **57.7 %** verstrichener Woche, Vorsprung **-27.6 Punkte**, Ampel FREI
+(Mini 13.77, MacBook 36.62 Mio, beide frisch). Keine Drossel aktiv, nichts zurückzuschalten. Speicher Mini Druckstufe 1,
+rund 9.3 GiB frei+inaktiv+purgeable (vm_stat). Load 6.6/9.3 stammt von securityd, WindowServer, Archicad und dem
+Apple-Intelligence-Dienst, nicht von Claude; keine Massnahme.
+
+**Berichtigung im Einzelnen (am Original gemessen, nicht am Klon).** `/Volumes/daten/jans-ai-hub/logbuch/laeufe/` trägt
+eine Datei **je Tag vom 29.07. bis heute**, zuletzt `260918-laeufe.jsonl` (05:34). 17.09.: vier Zeilen, 18.09.: zwei
+Zeilen, alle `loop: dispatch-versuch1`, Station Macmini, rc=0, mit Kosten. Die Nachtschicht schreibt also ins Journal;
+`rollen-bilanz.sh` liest dort (Z. 84) und fällt am 24.09. **nicht** auf «keine Daten». **Was vom Befund bleibt, ist
+kleiner und anders:** das Journal erfasst nur die über `claude-run.sh`/`dispatch-run.sh` gestarteten Läufe, die
+Scheduled Tasks der App schreiben keine Zeile. Das ist die bekannte Messgrenze, kein neuer Vorfall (P3, keine Wiedervorlage).
+**Lehre (gleiche Familie wie 260730b, «ein leeres Ergebnis ist zuerst eine Aussage über das Werkzeug»):** der SSD-Klon
+ist nur für **versionierte** Pfade ein gültiger Lesespiegel. Gitignorierte Pfade (`logbuch/laeufe/`, u.a.) werden
+ausschliesslich auf dem NAS gemessen.
+
+**Feuermechanismen.** Mini: acht `ch.jans`-Jobs, alle rc=0; **neu** `ch.jans.macbook-wecker` (läuft, PID 69489), belegt
+durch Commit `68b7af75f` (macbook-wecken.sh), kein Vollgas-Mechanismus. `vollgas-supervisor` weiterhin
+`.disabled-260729`. MacBook: neun Jobs rc=0, `vollgas-supervisor`/`-monitor` weiterhin `.disabled-260729`.
+Endlos-Runner bleibt ausgebaut. Mini-Registry: Lern-Loops nur `energie-training` (täglich, geliefert 17.09. 22:37) und
+`bauleitung-training` (wöchentlich); eigene Task `lastRunAt` 10:58 UTC = dieser Lauf, Selbstkontrolle ohne Lücke (Vorlauf 00:57).
+**rc=127 MacBook:** der Einstufung der MacBook-Fassung (P3, heute sauber gelaufen, Fix bleibt in der Freigabe-Queue) schliesse ich mich an.
+
+**Liefer-Delta seit 00:57 (git, Basis `12eefa93e`): 60 Commits.** Unter `wissen/`: twin 11 (twin-fidelity-review
+Fidelity 56), normen 6 (Run 87, Lignum-Matrizen), auflagebereinigung 5 (Nachtschicht, GVZ-Weisung 30.25 + Report
+KISPI). Operative Briefings (logbuch-radar, hub-chef, ag-gruendung, Frühwarnung beide Stationen) gelaufen. energie
+im Fenster ohne Commit, weil sein Slot 22:37 ausserhalb liegt; kein Leerlauf. **Kein Loop ohne Delta.**
+
+**Doppellauf — Tag sieben, direkt gemessen.** Die MacBook-Session `556fabed-d4ba-4218-bf42-7522c981e536` startete
+**12:57:23** mit `scheduled-tasks/vollgas-chef-radar/SKILL.md` als Auftrag und hat den Eintrag 12:57 darunter
+geschrieben. Deaktivierung vom 15.09. weiterhin unwirksam; Schritt bleibt bei Raphael (Chronik 260911b). Kosten:
+MacBook trägt 36.62 der 50.39 Mio teuren Wochentoken, **73 %**. Heute zeigt der Doppellauf zusätzlich seinen
+Qualitätspreis: zwei Aufsichten haben einen Fehlbefund gegenseitig bestätigt statt ihn gegenzumessen.
+
+**Massnahmen.** Eigenen P2 berichtigt (dieser Eintrag). Sonst keine.
+
+- **P1** — keiner.
+- **P2** — keiner (Lauf-Journal-P2 von 00:57 zurückgezogen, siehe oben).
+- **P3** — Doppellauf vollgas-chef-radar/Frühwarnung/heartbeat auf dem MacBook (Tag 7, Aktion Raphael: Tasks in der
+  MacBook-App deaktivieren) · Freigabe-Task SSD-First-Fallback für `wissens-trigger`/`claude-autoupdate` (Einzelfreigabe
+  Raphael) · Journal deckt Scheduled Tasks nicht ab (bekannte Messgrenze).
+
+---
+
 ## 2026-09-18 12:57 — [FREI] **MacBook-Fassung, Regellauf. Der P2 von 00:58 (rc=127 bei `wissens-trigger` und `claude-autoupdate`) hat sich heute früh von selbst erledigt: beide Jobs sind um 05:15 bzw. 06:30 sauber gelaufen. Der Fix in der Freigabe-Queue bleibt sinnvoll, ist aber nicht mehr akut und geht auf P3.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **7 s**, Watchdog 180 s nicht gebraucht, keine Waisen
