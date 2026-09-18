@@ -19,6 +19,18 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260918 — Mac Mini: LaunchAgent `ch.jans.macbook-wecker` weckt das MacBook-Display (Auftrag Raphael)
+
+Das MacBook Pro laeuft zugeklappt am externen Bildschirm neben dem Mini und schlaeft am Netzteil
+nicht (`SleepDisabled 1`), nur das Display geht aus; Tastatur/Maus des Mini koennen es nicht
+wecken. Neu: `~/bin/macbook-wecker` (Swift, Quelle `scripts/macbook-wecker/macbook-wecker.swift`)
+haengt an `screensDidWake` und `com.apple.screenIsUnlocked` und setzt
+`ssh macbook 'caffeinate -u -t 5'` ab; von Hand derselbe Weg via `wach`
+(`scripts/macbook-wecken.sh`). Gemessen 12:21 (Display an nach 1 s, Deckel zu) und 12:29 unter
+launchd (simuliertes Entsperr-Ereignis, ssh rc=0). Plist-Vorlage
+`templates/launchd/ch.jans.macbook-wecker.plist`, Log `~/Library/Logs/macbook-wecker.log`.
+Rueckbau: `launchctl bootout gui/$(id -u)/ch.jans.macbook-wecker`, Plist nach `.disabled` schieben.
+
 ## 260917c — bexio: PAT laeuft nach 60 Tagen ab, das JWT-Feld `exp` luegt darueber
 
 Der bexio-Zugang war vom 12.08. bis 17.09.2026 tot (401). Die Connector-Diagnose «Token gueltig

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  JANS MacBook-Wecker — LaunchAgent (nur Mac Mini)
+  ================================================
+  Weckt das Display des MacBook Pro (Clamshell am externen Bildschirm), sobald
+  am Mac Mini das Display aufwacht oder der Bildschirm entsperrt wird.
+  Ereignisgesteuert, kein Takt, keine Claude-Session, kein Kontingentverbrauch.
+
+  Quelle:  /Volumes/daten/jans-ai-hub/scripts/macbook-wecker/macbook-wecker.swift
+  Binary:  ~/bin/macbook-wecker (lokal gebaut, haengt nicht am NAS-Mount)
+  Log:     ~/Library/Logs/macbook-wecker.log
+
+  Installieren:
+    swiftc -O /Volumes/daten/jans-ai-hub/scripts/macbook-wecker/macbook-wecker.swift -o ~/bin/macbook-wecker
+    cp /Volumes/daten/jans-ai-hub/templates/launchd/ch.jans.macbook-wecker.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.macbook-wecker.plist
+
+  Entfernen:
+    launchctl bootout gui/$(id -u)/ch.jans.macbook-wecker
+    mv ~/Library/LaunchAgents/ch.jans.macbook-wecker.plist ~/Library/LaunchAgents/ch.jans.macbook-wecker.plist.disabled
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ch.jans.macbook-wecker</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/raphaeljans/bin/macbook-wecker</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- Braucht die GUI-Session: die Aufwach-/Entsperr-Ereignisse gibt es nur dort. -->
+    <key>LimitLoadToSessionType</key>
+    <string>Aqua</string>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/ch.jans.macbook-wecker.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/ch.jans.macbook-wecker.err</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>
