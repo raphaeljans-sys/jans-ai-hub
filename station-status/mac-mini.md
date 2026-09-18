@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 06:54:25
+Stand: 18.09.2026 07:04:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:46)
@@ -14,4 +14,4 @@ Stand: 18.09.2026 06:54:25
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5862097c0 nas-selfcommit: 3 Datei(en) 2026-09-18 06:45
+- 3d17724ff logbuch-radar 18.09.: Briefing geschrieben, RE-00100 erledigt, 3 neu, 2 Nachtraege (Zargen Fristtag, Dauerpunkte)
