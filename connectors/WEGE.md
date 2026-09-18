@@ -69,6 +69,12 @@ vorher mit ezdxf abflachen), ein 3DSOLID (ACIS) übersteht die Konvertierung nic
 `dwg2SVG` zeigt für korrekte DWGs 1e20-Koordinaten (Render-Bug, nicht Datenfehler — Prüfung
 via `dwg2dxf`-Roundtrip). Belegt am Fall Schmidlin, 13.08.2026.
 
+**Fremd-DWG aus Revit lesen oder ausschneiden** hat keine eigene Tabellenzeile: Weg (Rhino 8 auf
+dem Mac Mini via `rhinocode`) und Sackgasse (LibreDWG `dwg2dxf` rc=0, aber DXF ohne ENTITIES bei
+`AC1024`) stehen im Nachtrag 18.09.2026 am Dateiende; die Sackgasse ist in `skills/pdf2dwg/SKILL.md`
+(«Grenzen») gespiegelt, weil dieser Absatz jenen Abschnitt zum kanonischen Ort erklaert.
+(Querverweis Synergie-Lauf 39, SYN-92, 18.09.2026.)
+
 **Zu Zeile «3D-Hersteller-DWG nach 2D-Plan»** (belegt 20.08.2026, KWC Sirius BS302, 2619 KISPI):
 Hersteller-DWGs aus Revit enthalten oft **ausschliesslich ACIS-Volumenkörper** und keine einzige
 2D-Linie. Beim BS302 waren es 17 3DSOLID auf einem Layer plus rund 300 AEC-Darstellungsobjekte.

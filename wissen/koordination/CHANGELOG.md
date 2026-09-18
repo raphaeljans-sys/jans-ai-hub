@@ -2,6 +2,17 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-18 — Synergie-Lauf 39 (Tagestakt)
+
+Delta-Basis 17.09.2026 17:10, Fenster 24 h, 118 Commits, Uhr ohne Abweichung. Keine neuen Bausteine;
+geaendert ein Skill, zwei Rules, `WEGE.md`. **Neu: SYN-92**: die Revit-DWG-Sackgasse (LibreDWG
+`dwg2dxf` rc=0 ohne ENTITIES bei `AC1024`) stand nur in WEGE, obwohl WEGE den Skill `pdf2dwg` zum
+kanonischen Ort der CAD-Sackgassen erklaert; Querverweise in beiden Dateien gesetzt (additiv, SKILL 98 → 106,
+WEGE 1313 → 1319). **Bewegt:** SYN-86 (Kern geschlossen, (d) offen), SYN-88 (neue Kanal-Achse «Preisangebot
+inline bleibt Hoi», Nebenbefund Kontaktzeile Steinmann; `anrede-kontakte.md` nicht angefasst). Ohne Befund
+geprueft: BWO-Zeiger 1.25 % an allen drei Verbraucher-Stellen, `macbook-wecker` in der rollen-map, Exchange-Kontakt-Weg.
+Bericht: `outputs/2026-09-18_synergie-lauf-39.md`.
+
 ## 2026-09-17 (Lauf 61, Abendlauf) — eine Korrektur behauptete ihre Vollstaendigkeit, statt sie zu messen, und das Register trug den Fehler mit
 
 Zuschnitt: Workflow mit 7 Meldern auf dem Zuwachs seit Lauf 60, je Meldung ein adversarialer

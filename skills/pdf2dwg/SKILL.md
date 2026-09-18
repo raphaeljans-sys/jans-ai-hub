@@ -96,3 +96,11 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
   1e20-Koordinaten (Render-Bug); Koordinaten via `dwg2dxf`-Roundtrip pruefen und
   das Quell-DXF mit dem ezdxf-drawing-Addon rendern (Hintergrund schwarz setzen,
   sonst weisse Striche auf weiss).
+- **Revit-DWG lesen (Planer-Geschossplan, `AC1024`) — `dwg2dxf` taugt hier NICHT**
+  (Querverweis ergaenzt 18.09.2026, Synergie-Lauf 39, SYN-92, active-with-flagging): LibreDWG
+  0.13.3 laeuft mit rc=0 durch und schreibt ein DXF **ohne ENTITIES-Sektion**. Der
+  `dwg2dxf`-Roundtrip oben bleibt als Kontrolle fuer Rhino-geschriebene DWG (`AC1021`)
+  gueltig; nach jeder Wandlung die Entity-Zahl im Modellbereich pruefen. Weg fuer
+  Fremd-DWG (Ausschnitt, Gewerke-Bloecke aufloesen): Rhino 8 auf dem Mac Mini via
+  `rhinocode`, belegt am Fall 2619 KISPI. Volltext: `connectors/WEGE.md`, Nachtrag
+  18.09.2026 «Ausschnitt aus einem Revit-Geschoss-DWG».
