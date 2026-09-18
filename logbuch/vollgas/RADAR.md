@@ -53,6 +53,30 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-19 00:58 — [FREI] **Mini-Regellauf ohne Befund. Alle Loops mit Liefer-Delta, keine Drossel, keine Massnahme. MacBook Pro per ssh nicht erreichbar (Timeout auf 100.117.99.62, schläft vermutlich): Doppellauf-Prüfung und MacBook-Registry diesmal nicht messbar.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **4 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Version **2.1.276**, Symlink unverändert (npm-Fassung, 18.09. 05:15). Wochenbudget **33.0 %** von
+167 Mio bei **64.9 %** verstrichener Woche, Vorsprung **-31.8 Punkte**, Ampel FREI (Mini 16.19, MacBook 38.97 Mio, beide
+frisch). Keine Drossel aktiv, nichts zurückzuschalten. Speicher Mini Druckstufe 1, rund 8.9 GiB frei+inaktiv+purgeable
+(vm_stat), Load 2.5. Selbstkontrolle: letzter Eintrag 18.09. 12:58, 12 h zurück, im Takt; `lastRunAt` 22:58Z ist dieser Lauf.
+
+**Liefer-Delta (git, SSD-Klon lesend, Fenster 12 h).** energie 13 Dateien (Run 207, A-BLIND wp-pv-eigenverbrauch) ·
+koordination 5 (synergie-orchestrator Lauf 39, wissens-chef Lauf 62) · normen 3 (Projekt-Rücklauf Filz-Akustikpaneele) ·
+auflagebereinigung 3 (Nachtschicht) · baurecht 2 (WC62-2). Nachtschicht Mini: Journal `260918-laeufe.jsonl` 4 Läufe, alle
+rc=0, 2.17 bis 3.74 USD, alle mit Commit. Kein Loop ohne Delta; weder Rücktaktung noch Deaktivierung angezeigt.
+
+**Feuermechanismen Mini.** Registry: aktiv nur energie-training, claude-abo-auslastung, bauleitung-training, heartbeat-daily,
+vollgas-fruehwarnung, dieser Radar, bexio-buchen-monatlich; die stillgelegten (planungsgrundlagen-training, baurecht-buch-,
+synobsis-batch-nacht) bleiben aus. launchd: `vollgas-supervisor` nur als `*.disabled-260729` vorhanden, nicht geladen.
+`macbook-wecker` läuft (PID aktiv, Status -15 = letzter Lauf per SIGTERM beendet, kein Befund).
+
+**P3 (zur Kenntnis, erledigt).** Die Nachtschicht hat am 18.09. 23:35 selbst `git diff` über den SMB-Mount abgesetzt,
+eine `index.lock` erzeugt und den Selfcommit einen Takt lang blockiert; selbst behoben und in der Chronik belegt
+(`betrieb-chronik.md`, 18.09. 23:38). Nachgemessen: keine `.git/index.lock` vorhanden, Selfcommits 23:45 bis 00:45 wieder
+im 15-Min-Takt. Kein Handlungsbedarf beim Radar.
+P3: MacBook-Seite (Doppellauf-Prüfung heartbeat/fruehwarnung/Radar, Registry, launchd) im nächsten Lauf nachholen.
+
 ## 2026-09-18 12:58 — [FREI] **Mini-Regellauf. BERICHTIGUNG des eigenen P2 von 00:57: das Lauf-Journal ist NICHT trocken. Die Messung von 00:57 las den SSD-Klon, und `logbuch/laeufe/` ist per `.gitignore` (Z. 35) vom Repo ausgeschlossen — im Klon liegt deshalb nur die Altdatei `260824-laeufe.jsonl`. Auf dem NAS wird das Journal täglich geschrieben. Der P2 entfällt; die MacBook-Fassung von 12:57 hat ihn unbesehen weitergeführt und ist damit ebenfalls überholt.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **4 s**, Watchdog 180 s nicht gebraucht, keine Waisen
