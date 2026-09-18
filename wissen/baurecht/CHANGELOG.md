@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-18 — Wissens-Chef Lauf 62: Frontmatter-Syntax aus Lauf 61 repariert
+
+- `wiki/baureife-und-erschliessung.md` Z. 6 (`links:`): Beim Anhängen von
+  `[[kartenportale-werkleitungskataster]]` hatte Lauf 61 die Klammern verschachtelt
+  (`[[03-erschliessung-landsicherung-teil1], [[kartenportale-werkleitungskataster]]]`). Das war ein
+  eigener Fehler des Wissens-Chefs, gefunden vom Melder des Feldes baurecht ↔ planungsgrundlagen.
+  Auf `[[03-erschliessung-landsicherung-teil1]], [[kartenportale-werkleitungskataster]]` korrigiert.
+  Rein syntaktisch, kein inhaltlicher Eingriff.
+
 ## 2026-09-17 — Wissens-Chef Lauf 61: Kante zum Werkleitungskataster gesetzt
 
 - **WC61-4.** `wiki/baureife-und-erschliessung.md` fuehrt die Rechtslage zu Anschlusspflicht,

@@ -2,6 +2,21 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-18 (Lauf 62, Abendlauf) — ruhiger Tag, ein Befund im Zuschnitt verkleinert, ein eigener Fehler repariert
+
+Zuschnitt: Workflow mit 6 Meldern auf dem Zuwachs seit Lauf 61, je Meldung ein adversarialer Verifikator,
+Gegenpruefung am Original im Hauptkontext. Delta-Basis `6f72d0334` → `847a69f79`, 117 Commits, 65 Dateien.
+Bilanz: **1 Meldung, anderer Zuschnitt**, plus zwei Nebenbefunde aus den Melder-Notizen, beide im Hauptkontext
+bestaetigt. 5 von 6 Feldern ohne neuen Befund, weil der Zuwachs dort Lauf-61-Umsetzung war.
+Bericht: `outputs/2026-09-18_wissens-chef-run62.md`.
+
+- **WC62-1** auflagebereinigung ↔ normen: «3 Arbeitstage» (GVZ 30.25) gegen «3 Tage» (VKF-BRL) ist kantonale
+  Verschaerfung, kein Widerspruch; Querbezug-Kasten in `gvz-einreichung-bma-sprinkler.md` additiv nachgezogen.
+- **WC62-2** eigener Fehler Lauf 61: verschachtelte Klammern in `baurecht/wiki/baureife-und-erschliessung.md` Z. 6
+  repariert.
+- **WC62-3** normen-intern: Rueckkante vom Filz-Report 18.09. ins Destillat `vkf-brl-verwendung-baustoffe`.
+- Byte-Riegel Twin: 36'992 / 37'000 B, Reserve 8 B, kein eigener Befund (twin 260917b #6 offen).
+
 ## 2026-09-18 — Synergie-Lauf 39 (Tagestakt)
 
 Delta-Basis 17.09.2026 17:10, Fenster 24 h, 118 Commits, Uhr ohne Abweichung. Keine neuen Bausteine;

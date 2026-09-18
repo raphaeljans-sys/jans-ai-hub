@@ -2,6 +2,17 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-18 — Wissens-Chef Lauf 62: Fristen-Nachtrag im Querbezug-Kasten
+
+- **WC62-1.** `wiki/gvz-einreichung-bma-sprinkler.md`: Der Querbezug-Kasten zur KB `normen` nannte
+  die Ausserbetriebsetzungs-Frist weiter als «3 Tage vorher, norm-geführt», Abschnitt 3 führt sie
+  seit dem Volltext der GVZ-Weisung 30.25 (Nachtschicht vom selben Tag) als «3 Arbeitstage».
+  Datierter Nachtrag unter dem Kasten gesetzt: **kein Widerspruch**, sondern kantonale Verschärfung
+  der VKF-Mindestfrist (BRL 20-15 Ziff. 3.10, BRL 19-15 Ziff. 4.4, beide an den `normen`-Destillaten
+  gegengelesen). Er stellt zugleich klar, dass der Eintrag unten («korrigiert von 3 Tage») keinen
+  Fehler der VKF-Angabe bedeutet. Additiv, kein bestehender Wortlaut geändert, kein QUESTIONS-Eintrag
+  (die Primärquelle ist gelesen, eine offene Auslegungsfrage besteht nicht).
+
 ## 2026-09-18 — Report «GVZ-Eingabe unter der Schwelle / Sprühnebel» (interaktiv, Fall 2619 KISPI)
 - Neu `outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md`: «wesentliche Änderung» undefiniert, unbedingte Standard-Auflage vs. Schwelle Ziff. 7.1, Sprühnebel als Sonderanwendung Ziff. 4.8, Absender Fachfirma. Am Original der Weisung 20.08 gelesen.
 - QUESTIONS: Praxisbeleg GVZ-Antwort 2619 ausstehend.

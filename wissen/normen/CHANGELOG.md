@@ -1,3 +1,13 @@
+## 2026-09-18 — Wissens-Chef Lauf 62: Rückkante vom Filz-Report ins BRL-14-15-Destillat
+
+- **WC62-3.** `destillate/vkf-brl-verwendung-baustoffe.md` führt die Zellen der Tabelle Ziff. 4.2
+  als «NICHT mit Sicherheit verifiziert», der Report `outputs/2026-09-18_filz-akustikpaneele-rf-klasse-fluchtweg.md`
+  hat am selben Tag die Zellengruppe «Fluchtwege, Gebäude geringer und mittlerer Höhe» der Fassung 2017
+  am Original gelesen, das Destillat kannte ihn aber nicht («Kein Destillat geändert»). Additiver
+  Nachtrag unter der Ziff.-4.2-Zeile mit Verweis und ausdrücklicher Reichweite (nur diese Zellengruppe,
+  nur Stand 2017; die Verschiebungsfrage 2015 → 2017 bleibt offen). Status des Destillats unverändert.
+  Werte aus dem Report übernommen, nicht selbst am PDF nachgelesen.
+
 ## 2026-09-18 (interaktiv, MacBook Pro) — Projekt-Rücklauf 2619 KISPI: Filz-Akustikpaneele im horizontalen Fluchtweg
 
 - Neuer Report `outputs/2026-09-18_filz-akustikpaneele-rf-klasse-fluchtweg.md`: BSR 14-15de (Fassung 01.01.2017)

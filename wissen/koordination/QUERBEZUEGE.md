@@ -193,6 +193,48 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### auflagebereinigung ↔ normen (GVZ-Weisung 30.25 vs. VKF-BRL, Ausserbetriebsetzungs-Frist) — geprueft 2026-09-18 (Lauf 62), 1 Befund, Zuschnitt schmaler
+
+- **WC62-1, gemeldet als Widerspruch, verifiziert als Einordnungsluecke.** `normen` (BRL 20-15 Ziff. 3.10,
+  BRL 19-15 Ziff. 4.4) fuehrt «spaetestens/min. 3 Tage vorher», `auflagebereinigung/wiki/gvz-einreichung-bma-sprinkler.md`
+  Abschnitt 3 seit dem 18.09.2026 «3 Arbeitstage» (GVZ-Weisung 30.25 Ziff. 3.6, Volltext gelesen). Kein
+  Cross-KB-Widerspruch: VKF setzt die Mindestfrist, die GVZ verschaerft sie im Vollzug; die Fuehrung
+  (normen = Normwortlaut, auflagebereinigung = kantonaler Vollzug) ist unveraendert richtig. Der Mangel lag
+  im eigenen Querbezug-Kasten des Artikels, der die Frist weiter als «3 Tage, norm-gefuehrt» nannte.
+  Datierter Nachtrag unter dem Kasten, keine Aenderung an den normen-Destillaten, kein QUESTIONS-Eintrag.
+- **Praezisiert, nicht ueberholt:** das Null-Ergebnis von Run 10 unten («GVZ-Schwellen deckungsgleich mit
+  VKF-BRL», Abschnitt ab Z. 5415) bleibt fuer die **Schwellen** richtig; fuer die **Ausserbetriebsetzungs-Frist**
+  sind die Werte seit 18.09.2026 nicht mehr wortgleich (GVZ strenger). Die Zeile selbst bleibt unveraendert.
+
+### normen (intern, Nebenbefund des Feldes normen ↔ auflagebereinigung) — geprueft 2026-09-18 (Lauf 62), 1 Befund
+
+- **WC62-3.** Der Projekt-Ruecklauf `normen/outputs/2026-09-18_filz-akustikpaneele-rf-klasse-fluchtweg.md`
+  hat die Zellen der BRL 14-15 Ziff. 4.2 (Fassung 2017, Fluchtwege, Gebaeude geringer/mittlerer Hoehe) am
+  Original gelesen; das Destillat `vkf-brl-verwendung-baustoffe`, das genau diese Tabelle als «nicht mit
+  Sicherheit verifiziert» fuehrt, kannte den Report nicht. Rueckkante additiv gesetzt, Reichweite begrenzt.
+  Gleiche Familie wie die Ruecklauf-Rule (`wissens-ruecklauf`): ein Projekt-Ruecklauf, der eine Luecke eines
+  Destillats schliesst, soll das Destillat im selben Zug erreichen.
+
+### baurecht ↔ planungsgrundlagen (Nachkontrolle WC61-4) — geprueft 2026-09-18 (Lauf 62), 0 neue Befunde, 1 eigener Fehler repariert
+
+- Der Zuwachs im Feld stammt vollstaendig aus Lauf 61. Nebenbefund des Melders: beim Anhaengen des Links hatte
+  Lauf 61 die Klammern in der `links:`-Zeile von `baurecht/wiki/baureife-und-erschliessung.md` verschachtelt.
+  Repariert (rein syntaktisch). Waldabstand/Gewaesserraum: kein Zuwachs im Fenster.
+
+### Nullbefunde Lauf 62 (2026-09-18)
+
+- **energie ↔ planungsgrundlagen (Pflichtpaar):** Runs 205-207 beidseitig nachgezogen; `grep` auf SG-Ready/Modbus
+  und `foerderprogramm-energie-sz` in `planungsgrundlagen/wiki/` null Treffer, beide ausserhalb des
+  Ueberschneidungsbereichs. Die 30-kW-Aufloesung (E-R204-2) steht an allen Stellen identisch.
+- **grobkosten ↔ immobilienbewertung ↔ Kostenreferenzen (Pflichtpaar):** Diff zeigt nur die Umsetzung von
+  WC61-7/-8. ZIW-Gewichte und Faktor 1.053 in allen Fundstellen deckungsgleich; jede BWO-Fundstelle mit 1.75 %
+  traegt den Studienstand-Vermerk.
+- **twin ↔ rules:** Auto-Block im Einklang mit den vier Golds des Fidelity-Reviews 18.09. Byte-Riegel: **36'992 B
+  von 37'000 B, Reserve 8 B** (vom Hauptkontext selbst nachgemessen); Teilungsfrage offen als twin 260917b #6.
+- **architektur-fachwissen ↔ normen, energie ↔ normen:** WC61-5 vollstaendig durchgezogen; die drei Normzitate im
+  Run-207-Destillat (SIA 380/1 Anhang B, SIA 385/1, SIA MB 2060) sind je schon registriert (E-R207-1 an E-R148-1,
+  Run 27, WC53-1-Familie).
+
 ### energie ↔ planungsgrundlagen (30-kW-Deckel, Bagatellklausel) — geprueft 2026-09-17 (Lauf 61, Pflichtpaar), 2 Befunde
 
 - **WC61-1, Zuschnitt breiter als gemeldet.** Die offene Frage `energie/wiki/QUESTIONS.md` E-R204-2

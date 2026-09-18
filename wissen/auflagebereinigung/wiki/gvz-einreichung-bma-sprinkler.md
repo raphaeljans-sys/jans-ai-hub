@@ -36,6 +36,17 @@ u.ae. zustaendig, die Anlagen-Schiene BMA/SPA gehoert der GVZ.
 > soll die Warnung dort also einordnen koennen und nicht auf einen scheinbar ungueltigen Stand
 > stossen.
 
+> ⚠ **Fristen-Nachtrag 18.09.2026 (Wissens-Chef Lauf 62).** Der Kasten oben nennt die
+> Ausserbetriebsetzungs-Frist noch als «3 Tage vorher», Abschnitt 3 führt sie seit dem Volltext der
+> GVZ-Weisung 30.25 (18.09.2026) als **«3 Arbeitstage»**. Das ist **kein Widerspruch**, sondern eine
+> kantonale Verschärfung: VKF-BRL 20-15 Ziff. 3.10 («spätestens 3 Tage vorher») und VKF-BRL 19-15
+> Ziff. 4.4 («min. 3 Tage vorher») setzen eine **Mindestfrist** (Normwortlaut, KB `normen` führend);
+> die GVZ-Weisung 30.25 Ziff. 3.6 konkretisiert sie im Kanton Zürich auf Arbeitstage und den
+> GMA-Workflow (Vollzug, dieser Artikel führend). **Im Kanton Zürich gilt praktisch die GVZ-Frist**;
+> sie hält die VKF-Mindestfrist immer ein. Die VKF-Angabe war also nicht falsch, wie der
+> CHANGELOG-Eintrag vom 18.09. («korrigiert von 3 Tage») nahelegen könnte, sondern ist die
+> Mindestanforderung, die der kantonale Vollzug verschärft.
+
 ## 1. Projektbegutachtung — VOR Ausfuehrungsbeginn (Pflichtschritt)
 
 **BMA (Weisung 20.07 Ziff. 7.1):** Projekte (Neuanlagen, wesentliche Erweiterungen/
