@@ -1,16 +1,17 @@
 {
-  "stand": "2026-08-08",
+  "stand": "2026-09-18",
   "kennzahlen": {
-    "echteEingaenge": 50,
-    "unreconciledCredit": 56,
-    "duplikatKandidaten": 84,
-    "duplikatEinzel": 24,
-    "duplikatGruppen": 15,
+    "echteEingaenge": 52,
+    "unreconciledCredit": 64,
+    "duplikatKandidaten": 224,
+    "duplikatEinzel": 53,
+    "duplikatGruppen": 44,
     "phantome": 19,
     "phantomSumme": 81364.7,
-    "verzugFaelle": 5,
-    "verzugSumme": 51400,
-    "eingangOhneBuchung": 1
+    "verzugFaelle": 4,
+    "verzugSumme": 47160,
+    "eingangOhneBuchung": 1,
+    "unrecOhneZwilling": 16
   },
   "verzug": [
     {
@@ -27,36 +28,27 @@
       "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
       "offen": 13600,
       "faellig": "2026-07-20",
-      "letzteFrist": "2026-08-12",
-      "level": 2,
-      "stufe": "Mahnung 1"
+      "letzteFrist": "2026-09-10",
+      "level": 3,
+      "stufe": "Mahnung 2"
     },
     {
       "nr": "RE-00099",
       "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
       "offen": 3680,
       "faellig": "2026-07-20",
-      "letzteFrist": "2026-08-12",
-      "level": 2,
-      "stufe": "Mahnung 1"
+      "letzteFrist": "2026-09-10",
+      "level": 3,
+      "stufe": "Mahnung 2"
     },
     {
-      "nr": "RE-00100",
-      "kunde": "Swiss Central City Real Estate Fund",
-      "offen": 13120,
-      "faellig": "2026-07-30",
-      "letzteFrist": "2026-08-20",
-      "level": 1,
-      "stufe": "Zahlungserinnerung"
-    },
-    {
-      "nr": "RE-00101",
-      "kunde": "Tschopp Gertrud & Stefan",
-      "offen": 6000,
-      "faellig": "2026-07-31",
-      "letzteFrist": "2026-08-16",
-      "level": 1,
-      "stufe": "Zahlungserinnerung"
+      "nr": "RE-00102",
+      "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
+      "offen": 14880,
+      "faellig": "2026-08-27",
+      "letzteFrist": "2026-09-23",
+      "level": 3,
+      "stufe": "Mahnung 2"
     }
   ],
   "phantome": [
@@ -206,16 +198,6 @@
     2561,
     2570,
     2581,
-    3385,
-    3387,
-    3422,
-    3425,
-    3427,
-    3430,
-    3433,
-    3436,
-    3437,
-    3445,
     3458,
     3470,
     3471,
@@ -259,7 +241,157 @@
     3535,
     3536,
     3538,
-    3539
+    3539,
+    3540,
+    3541,
+    3544,
+    3545,
+    3547,
+    3550,
+    3552,
+    3553,
+    3554,
+    3558,
+    3559,
+    3560,
+    3561,
+    3562,
+    3563,
+    3564,
+    3565,
+    3566,
+    3567,
+    3568,
+    3569,
+    3570,
+    3571,
+    3572,
+    3573,
+    3574,
+    3575,
+    3576,
+    3578,
+    3579,
+    3580,
+    3581,
+    3582,
+    3583,
+    3584,
+    3585,
+    3586,
+    3588,
+    3592,
+    3594,
+    3601,
+    3603,
+    3604,
+    3605,
+    3609,
+    3610,
+    3611,
+    3617,
+    3618,
+    3619,
+    3623,
+    3624,
+    3626,
+    3629,
+    3631,
+    3632,
+    3633,
+    3634,
+    3635,
+    3636,
+    3637,
+    3638,
+    3640,
+    3645,
+    3646,
+    3647,
+    3648,
+    3649,
+    3650,
+    3659,
+    3660,
+    3661,
+    3662,
+    3663,
+    3664,
+    3665,
+    3666,
+    3668,
+    3669,
+    3670,
+    3671,
+    3672,
+    3673,
+    3674,
+    3676,
+    3677,
+    3682,
+    3683,
+    3684,
+    3685,
+    3686,
+    3688,
+    3689,
+    3692,
+    3693,
+    3695,
+    3696,
+    3697,
+    3698,
+    3699,
+    3706,
+    3707,
+    3711,
+    3712,
+    3713,
+    3714,
+    3715,
+    3721,
+    3726,
+    3727,
+    3728,
+    3729,
+    3734,
+    3735,
+    3736,
+    3737,
+    3738,
+    3739,
+    3740,
+    3741,
+    3742,
+    3743,
+    3744,
+    3745,
+    3756,
+    3757,
+    3758,
+    3759,
+    3761,
+    3762,
+    3763,
+    3764,
+    3765,
+    3766,
+    3767,
+    3775,
+    3776,
+    3778,
+    3779,
+    3783,
+    3785,
+    3786,
+    3787,
+    3788,
+    3789,
+    3790,
+    3791,
+    3792,
+    3794,
+    3795
   ],
   "einzel": [
     {
@@ -302,48 +434,6 @@
       "datum": "2025-07-22",
       "typ": "CREDIT",
       "betrag": 2154,
-      "titel": "Credit Creditor Reference"
-    },
-    {
-      "id": 3385,
-      "datum": "2026-04-30",
-      "typ": "DEBIT",
-      "betrag": 82.35,
-      "titel": "PayNet Order // E-BILL"
-    },
-    {
-      "id": 3387,
-      "datum": "2026-04-30",
-      "typ": "DEBIT",
-      "betrag": 500,
-      "titel": "Standing order"
-    },
-    {
-      "id": 3433,
-      "datum": "2026-05-26",
-      "typ": "DEBIT",
-      "betrag": 67.5,
-      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Globus Zürich City"
-    },
-    {
-      "id": 3436,
-      "datum": "2026-05-27",
-      "typ": "DEBIT",
-      "betrag": 9.1,
-      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof Wiedikon ZH"
-    },
-    {
-      "id": 3437,
-      "datum": "2026-05-26",
-      "typ": "DEBIT",
-      "betrag": 45.4,
-      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // APPLE STORE R159"
-    },
-    {
-      "id": 3445,
-      "datum": "2026-06-02",
-      "typ": "CREDIT",
-      "betrag": 15000,
       "titel": "Credit Creditor Reference"
     },
     {
@@ -429,6 +519,251 @@
       "typ": "DEBIT",
       "betrag": 119.8,
       "titel": "PayNet Order // E-BILL"
+    },
+    {
+      "id": 3592,
+      "datum": "2026-07-28",
+      "typ": "DEBIT",
+      "betrag": 1545.66,
+      "titel": "Multi e-banking Order"
+    },
+    {
+      "id": 3594,
+      "datum": "2026-07-28",
+      "typ": "DEBIT",
+      "betrag": 2.5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG"
+    },
+    {
+      "id": 3601,
+      "datum": "2026-07-27",
+      "typ": "DEBIT",
+      "betrag": 26.2,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // SwissSign AG"
+    },
+    {
+      "id": 3623,
+      "datum": "2026-07-31",
+      "typ": "DEBIT",
+      "betrag": 51.5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Pusterla AG"
+    },
+    {
+      "id": 3624,
+      "datum": "2026-07-31",
+      "typ": "DEBIT",
+      "betrag": 235,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // ART COMPUTER"
+    },
+    {
+      "id": 3626,
+      "datum": "2026-08-03",
+      "typ": "DEBIT",
+      "betrag": 219.95,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Fust 4435 ZH Birmensdst"
+    },
+    {
+      "id": 3629,
+      "datum": "2026-08-04",
+      "typ": "DEBIT",
+      "betrag": 6.1,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG"
+    },
+    {
+      "id": 3631,
+      "datum": "2026-08-04",
+      "typ": "DEBIT",
+      "betrag": 1.35,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3632,
+      "datum": "2026-08-04",
+      "typ": "DEBIT",
+      "betrag": 6.99,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3692,
+      "datum": "2026-08-18",
+      "typ": "DEBIT",
+      "betrag": 3.38,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3693,
+      "datum": "2026-08-18",
+      "typ": "DEBIT",
+      "betrag": 8.01,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3695,
+      "datum": "2026-08-20",
+      "typ": "DEBIT",
+      "betrag": 430,
+      "titel": "Various standing orders"
+    },
+    {
+      "id": 3711,
+      "datum": "2026-08-20",
+      "typ": "DEBIT",
+      "betrag": 5.84,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3712,
+      "datum": "2026-08-22",
+      "typ": "DEBIT",
+      "betrag": 23.7,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3713,
+      "datum": "2026-08-21",
+      "typ": "DEBIT",
+      "betrag": 24,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Vins de la Bastide SA"
+    },
+    {
+      "id": 3714,
+      "datum": "2026-08-21",
+      "typ": "DEBIT",
+      "betrag": 26.3,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3715,
+      "datum": "2026-08-20",
+      "typ": "DEBIT",
+      "betrag": 27.19,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3721,
+      "datum": "2026-08-24",
+      "typ": "DEBIT",
+      "betrag": 24.25,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede"
+    },
+    {
+      "id": 3726,
+      "datum": "2026-08-24",
+      "typ": "DEBIT",
+      "betrag": 3.95,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // LIDL Fil. 205"
+    },
+    {
+      "id": 3727,
+      "datum": "2026-08-25",
+      "typ": "DEBIT",
+      "betrag": 7.8,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3728,
+      "datum": "2026-08-25",
+      "typ": "DEBIT",
+      "betrag": 8.1,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede"
+    },
+    {
+      "id": 3729,
+      "datum": "2026-08-25",
+      "typ": "DEBIT",
+      "betrag": 10.2,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Kinderspital Zürich"
+    },
+    {
+      "id": 3736,
+      "datum": "2026-08-26",
+      "typ": "DEBIT",
+      "betrag": 3.95,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede"
+    },
+    {
+      "id": 3737,
+      "datum": "2026-08-26",
+      "typ": "DEBIT",
+      "betrag": 6,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3761,
+      "datum": "2026-08-31",
+      "typ": "DEBIT",
+      "betrag": 9,
+      "titel": "Balance of service prices"
+    },
+    {
+      "id": 3762,
+      "datum": "2026-08-28",
+      "typ": "DEBIT",
+      "betrag": 18.5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Vins de la Bastide SA"
+    },
+    {
+      "id": 3763,
+      "datum": "2026-08-28",
+      "typ": "DEBIT",
+      "betrag": 20.3,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // SUMUP  *HELVESIA GMBH"
+    },
+    {
+      "id": 3764,
+      "datum": "2026-08-29",
+      "typ": "DEBIT",
+      "betrag": 23.3,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3765,
+      "datum": "2026-08-31",
+      "typ": "DEBIT",
+      "betrag": 33.9,
+      "titel": "PayNet Order // E-BILL"
+    },
+    {
+      "id": 3766,
+      "datum": "2026-08-29",
+      "typ": "DEBIT",
+      "betrag": 103.45,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3767,
+      "datum": "2026-08-31",
+      "typ": "DEBIT",
+      "betrag": 121.8,
+      "titel": "PayNet Order // E-BILL"
+    },
+    {
+      "id": 3785,
+      "datum": "2026-09-08",
+      "typ": "DEBIT",
+      "betrag": 5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG"
+    },
+    {
+      "id": 3786,
+      "datum": "2026-09-08",
+      "typ": "DEBIT",
+      "betrag": 7.3,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Kinderspital Zürich"
+    },
+    {
+      "id": 3787,
+      "datum": "2026-09-08",
+      "typ": "DEBIT",
+      "betrag": 10.5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede"
+    },
+    {
+      "id": 3795,
+      "datum": "2026-09-16",
+      "typ": "DEBIT",
+      "betrag": 4800,
+      "titel": "Multi e-banking Order"
     }
   ],
   "gruppen": [
@@ -444,6 +779,32 @@
         2130,
         2149,
         2166
+      ]
+    },
+    {
+      "datum": "2026-08-14",
+      "typ": "CREDIT",
+      "betrag": 13120,
+      "anzahl": 3,
+      "ids": [
+        3645,
+        3648,
+        3659
+      ]
+    },
+    {
+      "datum": "2026-08-07",
+      "typ": "CREDIT",
+      "betrag": 6000,
+      "anzahl": 7,
+      "ids": [
+        3633,
+        3634,
+        3635,
+        3636,
+        3637,
+        3638,
+        3640
       ]
     },
     {
@@ -475,6 +836,21 @@
       ]
     },
     {
+      "datum": "2026-07-20",
+      "typ": "DEBIT",
+      "betrag": 430,
+      "anzahl": 7,
+      "ids": [
+        3581,
+        3582,
+        3583,
+        3584,
+        3585,
+        3586,
+        3588
+      ]
+    },
+    {
       "datum": "2026-06-19",
       "typ": "DEBIT",
       "betrag": 430,
@@ -484,16 +860,6 @@
         3476,
         3478,
         3484
-      ]
-    },
-    {
-      "datum": "2026-05-23",
-      "typ": "DEBIT",
-      "betrag": 190,
-      "anzahl": 2,
-      "ids": [
-        3425,
-        3430
       ]
     },
     {
@@ -511,6 +877,39 @@
       ]
     },
     {
+      "datum": "2026-08-16",
+      "typ": "DEBIT",
+      "betrag": 134.9,
+      "anzahl": 3,
+      "ids": [
+        3669,
+        3677,
+        3689
+      ]
+    },
+    {
+      "datum": "2026-07-31",
+      "typ": "DEBIT",
+      "betrag": 119.8,
+      "anzahl": 3,
+      "ids": [
+        3605,
+        3611,
+        3619
+      ]
+    },
+    {
+      "datum": "2026-08-15",
+      "typ": "DEBIT",
+      "betrag": 83.7,
+      "anzahl": 3,
+      "ids": [
+        3668,
+        3676,
+        3688
+      ]
+    },
+    {
       "datum": "2026-06-19",
       "typ": "DEBIT",
       "betrag": 78.85,
@@ -521,13 +920,106 @@
       ]
     },
     {
-      "datum": "2026-05-23",
+      "datum": "2026-08-12",
       "typ": "DEBIT",
-      "betrag": 9.1,
-      "anzahl": 2,
+      "betrag": 38.1,
+      "anzahl": 3,
       "ids": [
-        3422,
-        3427
+        3647,
+        3650,
+        3661
+      ]
+    },
+    {
+      "datum": "2026-07-31",
+      "typ": "DEBIT",
+      "betrag": 32.4,
+      "anzahl": 3,
+      "ids": [
+        3604,
+        3610,
+        3618
+      ]
+    },
+    {
+      "datum": "2026-07-11",
+      "typ": "DEBIT",
+      "betrag": 29.5,
+      "anzahl": 7,
+      "ids": [
+        3561,
+        3564,
+        3567,
+        3570,
+        3573,
+        3576,
+        3580
+      ]
+    },
+    {
+      "datum": "2026-08-14",
+      "typ": "DEBIT",
+      "betrag": 26.2,
+      "anzahl": 3,
+      "ids": [
+        3666,
+        3674,
+        3686
+      ]
+    },
+    {
+      "datum": "2026-08-27",
+      "typ": "DEBIT",
+      "betrag": 16,
+      "anzahl": 3,
+      "ids": [
+        3741,
+        3745,
+        3759
+      ]
+    },
+    {
+      "datum": "2026-07-01",
+      "typ": "DEBIT",
+      "betrag": 14.5,
+      "anzahl": 3,
+      "ids": [
+        3545,
+        3547,
+        3550
+      ]
+    },
+    {
+      "datum": "2026-07-29",
+      "typ": "DEBIT",
+      "betrag": 11.84,
+      "anzahl": 3,
+      "ids": [
+        3603,
+        3609,
+        3617
+      ]
+    },
+    {
+      "datum": "2026-08-27",
+      "typ": "DEBIT",
+      "betrag": 10.5,
+      "anzahl": 3,
+      "ids": [
+        3740,
+        3744,
+        3758
+      ]
+    },
+    {
+      "datum": "2026-09-03",
+      "typ": "DEBIT",
+      "betrag": 8.9,
+      "anzahl": 3,
+      "ids": [
+        3775,
+        3776,
+        3778
       ]
     },
     {
@@ -558,6 +1050,98 @@
       ]
     },
     {
+      "datum": "2026-08-27",
+      "typ": "DEBIT",
+      "betrag": 7.1,
+      "anzahl": 3,
+      "ids": [
+        3739,
+        3743,
+        3757
+      ]
+    },
+    {
+      "datum": "2026-08-16",
+      "typ": "DEBIT",
+      "betrag": 6.95,
+      "anzahl": 3,
+      "ids": [
+        3665,
+        3673,
+        3685
+      ]
+    },
+    {
+      "datum": "2026-07-11",
+      "typ": "DEBIT",
+      "betrag": 6.2,
+      "anzahl": 7,
+      "ids": [
+        3560,
+        3563,
+        3566,
+        3569,
+        3572,
+        3575,
+        3579
+      ]
+    },
+    {
+      "datum": "2026-07-02",
+      "typ": "DEBIT",
+      "betrag": 6.1,
+      "anzahl": 3,
+      "ids": [
+        3540,
+        3541,
+        3544
+      ]
+    },
+    {
+      "datum": "2026-08-15",
+      "typ": "DEBIT",
+      "betrag": 6,
+      "anzahl": 3,
+      "ids": [
+        3664,
+        3672,
+        3684
+      ]
+    },
+    {
+      "datum": "2026-08-27",
+      "typ": "DEBIT",
+      "betrag": 5.95,
+      "anzahl": 3,
+      "ids": [
+        3738,
+        3742,
+        3756
+      ]
+    },
+    {
+      "datum": "2026-08-19",
+      "typ": "DEBIT",
+      "betrag": 5.93,
+      "anzahl": 3,
+      "ids": [
+        3697,
+        3699,
+        3707
+      ]
+    },
+    {
+      "datum": "2026-08-13",
+      "typ": "DEBIT",
+      "betrag": 5.66,
+      "anzahl": 3,
+      "ids": [
+        3663,
+        3671,
+        3683
+      ]
+    },
+    {
       "datum": "2026-06-19",
       "typ": "DEBIT",
       "betrag": 5.5,
@@ -565,6 +1149,20 @@
       "ids": [
         3486,
         3493
+      ]
+    },
+    {
+      "datum": "2026-09-08",
+      "typ": "DEBIT",
+      "betrag": 5.45,
+      "anzahl": 6,
+      "ids": [
+        3788,
+        3789,
+        3790,
+        3791,
+        3792,
+        3794
       ]
     },
     {
@@ -603,6 +1201,61 @@
       ]
     },
     {
+      "datum": "2026-08-14",
+      "typ": "DEBIT",
+      "betrag": 2.75,
+      "anzahl": 3,
+      "ids": [
+        3662,
+        3670,
+        3682
+      ]
+    },
+    {
+      "datum": "2026-08-19",
+      "typ": "DEBIT",
+      "betrag": 2.69,
+      "anzahl": 3,
+      "ids": [
+        3696,
+        3698,
+        3706
+      ]
+    },
+    {
+      "datum": "2026-09-05",
+      "typ": "DEBIT",
+      "betrag": 2.5,
+      "anzahl": 2,
+      "ids": [
+        3779,
+        3783
+      ]
+    },
+    {
+      "datum": "2026-08-13",
+      "typ": "DEBIT",
+      "betrag": 2.5,
+      "anzahl": 3,
+      "ids": [
+        3646,
+        3649,
+        3660
+      ]
+    },
+    {
+      "datum": "2026-07-08",
+      "typ": "DEBIT",
+      "betrag": 2.5,
+      "anzahl": 4,
+      "ids": [
+        3552,
+        3553,
+        3554,
+        3558
+      ]
+    },
+    {
       "datum": "2026-06-19",
       "typ": "DEBIT",
       "betrag": 2.5,
@@ -611,6 +1264,31 @@
         3485,
         3492
       ]
+    },
+    {
+      "datum": "2026-08-26",
+      "typ": "DEBIT",
+      "betrag": 1.9,
+      "anzahl": 2,
+      "ids": [
+        3734,
+        3735
+      ]
+    },
+    {
+      "datum": "2026-07-11",
+      "typ": "DEBIT",
+      "betrag": 1.2,
+      "anzahl": 7,
+      "ids": [
+        3559,
+        3562,
+        3565,
+        3568,
+        3571,
+        3574,
+        3578
+      ]
     }
   ],
   "eingaenge": [
@@ -618,6 +1296,104 @@
       "id": 1,
       "date": "2021-10-01",
       "amount": 2000
+    }
+  ],
+  "unrecEingaenge": [
+    {
+      "id": 348,
+      "date": "2022-12-02",
+      "amount": 26925,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 532,
+      "date": "2023-01-27",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 545,
+      "date": "2023-01-27",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 767,
+      "date": "2023-02-28",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 779,
+      "date": "2023-02-28",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 793,
+      "date": "2023-02-28",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 891,
+      "date": "2023-03-28",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 1034,
+      "date": "2023-04-28",
+      "amount": 1100,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 1313,
+      "date": "2024-02-07",
+      "amount": 5545.55,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 1478,
+      "date": "2024-08-07",
+      "amount": 1621.5,
+      "titel": "Credit Transfer With Agreed Commercial Information"
+    },
+    {
+      "id": 1536,
+      "date": "2024-09-20",
+      "amount": 1500,
+      "titel": "Payment"
+    },
+    {
+      "id": 1953,
+      "date": "2025-05-06",
+      "amount": 1000,
+      "titel": "Credit (Instant Payment)"
+    },
+    {
+      "id": 1972,
+      "date": "2025-05-06",
+      "amount": 1000,
+      "titel": "Credit (Instant Payment)"
+    },
+    {
+      "id": 1992,
+      "date": "2025-05-06",
+      "amount": 1000,
+      "titel": "Credit (Instant Payment)"
+    },
+    {
+      "id": 2016,
+      "date": "2025-05-06",
+      "amount": 1000,
+      "titel": "Credit (Instant Payment)"
+    },
+    {
+      "id": 2040,
+      "date": "2025-05-06",
+      "amount": 1000,
+      "titel": "Credit (Instant Payment)"
     }
   ]
 }
