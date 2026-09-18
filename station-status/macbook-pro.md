@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 14:17:57
+Stand: 18.09.2026 14:28:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:03)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 18.09.2026 14:17:57
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2108db9bb WEGE: Exchange-Kontakt braucht Ordner-Mitgliedschaft (Gruppe Kontakte), sonst kein Sync; Sackgasse ABGroup-Container vermerkt
+- 748233cdf WEGE: Ausschnitt aus Revit-Geschoss-DWG via Rhino auf Mac Mini (LibreDWG-Sackgasse, Gewerke-Bloecke aufloesen), belegt 18.09.2026
