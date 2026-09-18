@@ -3,6 +3,68 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 18.09.2026 (07:00): Heute läuft die Zargenfrist bei RWD Schlatter ab, und bexio ist wieder verbunden
+
+**Zwei Dinge zuerst.** Erstens: Die Zargen für die KISPI-Türen müssen heute bei RWD Schlatter bestellt sein, sonst stehen sie erst in KW 42 bereit und die Türblätter in KW 43. Eine schriftliche Bestellung ist in keinem Konto zu finden, und die Masskontrolle der Rohmasse mit Albin Spahic steht nicht im Kalender. Zweitens: Weil bexio seit gestern wieder verbunden ist, lässt sich die überfällige Abrechnung Steinbrüchelstrasse jetzt erstellen (siehe Überfällig, Punkt 1).
+
+### Erledigt seit gestern
+
+1. **bexio-Zugang wiederhergestellt**, gestern Vormittag mit Dir, auf beiden Stationen, jetzt mit selbsterneuerndem Dauerzugang. Die 40 Tage Ausfall kamen von einem abgelaufenen Token, nicht von einem widerrufenen.
+2. **RE-00100 bezahlt:** die CHF 13'120.00 von Nova (Swiss Central City Real Estate Fund) erscheinen heute in bexio nicht mehr unter den offenen Rechnungen.
+3. **Bankbewegungen 2026 gebucht:** 88 von 118 Transaktionen. Nach Deinem Entscheid von gestern bucht Claude diese ab jetzt selbständig und monatlich.
+4. **RE-00087 an Albin Spahic weitergegeben**, gestern um 11:38 mit Cornelia Schäfer im Cc, samt der Zahlungsnachforschung vom 03.08. Der Ball liegt beim KISPI.
+
+### Aus unseren Gesprächen
+
+1. **bexio.** Drei Handgriffe bleiben bei Dir: 30 Banktransaktionen über rund CHF 12'400 ohne Beleg zuordnen, den neuen monatlichen Buchungslauf einmal per «Run now» freigeben (sonst hängt er am 02.10.), und den vorgeschlagenen Zusatz-Scope `bank_payment_edit` nicht ausführen, ohne ihn zu prüfen: er wäre ein Schreibrecht auf Bankzahlungen.
+2. **Mac Mini, Sicherheit.** In `.claude/settings.local.json` des Mac Mini steht das NAS-Passwort im Klartext, in zwei alten Freigaberegeln. Empfehlung: die beiden Zeilen löschen und das NAS-Passwort wechseln. Claude hat beides bewusst nicht angefasst.
+
+### Überfällig
+
+1. **Abrechnung Steinbrüchelstrasse**, Tag 2 über der Frist vom 16.09. In bexio liegt noch keine Rechnung an die Schweizer Anlagestiftung (Kundennummer 1291, vertreten durch Nova). Kostendach CHF 1'800.00 exkl. MWST nach Aufwand.
+2. **Antwort an Aaron Tonet zum Durchleitungsrecht**, Tag 8 seit seiner Mail vom 10.09. Beide Fassungen vom 15.09. liegen unverändert im Entwurf, die kürzere von 14:51 ist versandbereit.
+3. **Zusammenfassung der Honorarsitzung**, Tag 4 seit der Sitzung vom 14.09., im Entwurf an Albin Spahic. Am Montag ist die Folgesitzung mit demselben Kreis.
+4. **Absage an die GLAESER AG**, Tag 9 seit dem Entwurf vom 10.09.
+5. **Unverändert offen:** Kapitaleinzahlung AG, SVA-Mahnung vom 05.08. (Portal AHVeasy), new copy store.
+
+### In den nächsten 7 Tagen
+
+1. **Heute Freitag 18.09.:** Zargenbestellung RWD Schlatter und Masskontrolle der Rohmasse mit Albin Spahic.
+2. **Samstag 19.09., 06:30 oder 08:00:** Umbau Schiebetüre und Einbau RHS durch Estermann. Im Kalender steht weiterhin 08:00, zugesagt war 06:30, dazu der Privateintrag um 07:00.
+3. **Sonntag 20.09.:** Leistungsnachweis für die Sitzung vom Montag.
+4. **Montag 21.09., 13:30 bis 14:30:** «Abgleich Umbau PPTS» mit Schäfer, Allerkamp und Spahic. Offen sind die Zahlungsübersicht und der Tarif CHF 155.00/h oder CHF 160.00/h.
+5. **Mittwoch 23.09.:** Mahnfrist RE-00102 über CHF 14'880.00. Die Mahnungen mit dem in der Sitzung vom 14.09. genannten Zahlungstermin 25.09. abstimmen.
+6. **Donnerstag 24.09., 13:00:** Koordinationssitzung Gruner, Jans und KISPI; am selben Tag fällig der Berufsbildungsfonds Raum- und Bauplanung, CHF 220.00.
+7. **Freitag 25.09. bis Sonntag 27.09.:** ganztägig «Raphael Jans & Biolley Gressoney», Einladung von Rafael Biolley.
+
+### In Beobachtung
+
+1. **Deckeneinbauten für die Ausschreibung Metalldecke (BKP 283.1):** Auf Deine Bitte vom 17.09. um 15:50 hat bisher nur Cekdar Duran für die Lüftung geantwortet, mit Stückzahlen und ohne Plan. Sprinkler (Jomos), Elektro und Brandmelder (Siemens, Patrick Schatt abwesend) fehlen. Michael Spörri hat Dir den Kontakt von Walter Moscioni bei Jomos geschickt.
+2. **Brandmeldeanlage KISPI:** Yasarcan Cetin hat den BMA-Plan und die Liste für die GVZ-Anmeldung gestern an Fabian Würsch geschickt. Siemens soll anmelden, Nabiullah Meragi reicht ein.
+3. **KISPI-Debitoren:** vier Rechnungen über zusammen CHF 47'160.00, alle Mahnstufe 2 (RE-00087 siehe Erledigt, Punkt 4; RE-00102 siehe 7 Tage, Punkt 5).
+4. **Montagebestätigung Jegen** zur Schiebetüre S2 steht aus.
+5. **Werkplan Therapieküche:** die fachliche Gegenkontrolle vor dem Ausdruck liegt bei uns.
+6. **Steueramt Stadt Zürich:** Mitteilung in «Mein Konto», nur mit Deinem Login abrufbar.
+7. **Nova, Steinbrüchelstrasse:** Anmeldung Wegrecht WI3366 bis 08.10.
+8. **Thalwil:** Begleitbeschrieb Bohlweg 3 weiterhin nicht bei der Gemeinde.
+9. **Albertstrasse 7:** KV-Entwurf an Roman Steinmann, er ist ab 22.09. zurück.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen.
+
+1. Heute ein Termin für die Masskontrolle der Rohmasse mit Albin Spahic, damit die Zargenbestellung darauf aufbauen kann.
+2. Den Samstagseinsatz von 08:00 auf 06:30 verschieben und den Privateintrag um 07:00 klären.
+3. Mittwoch 23.09. eine Erinnerung an die Mahnfrist RE-00102.
+
+### Token-Tempo
+
+Vortag 17.09.: MacBook Pro 186.4 Mio. Tokens (USD 168.15), Mac Mini 88.6 Mio. Tokens (USD 66.03), zusammen 275.0 Mio. Tokens und USD 234.18 (API-Äquivalent).
+
+### Nur im Logbuch, nicht in der Mail (Hub-Interna, Rule 260803)
+
+**Laufvermerk 2026-09-18 (Journal):** Radar pünktlich um 06:55 gestartet. Der Hub-Chef lief gestern (09:20, verspätet, aber gelaufen), heute liegt kein Punkt vor, der Handeln vor 08:39 verlangt: **keine eigene Mail**, das Briefing geht über den Chef. Register: 1 Erledigt (RE-00100 bezahlt, schliesst zwei Zeilen), 3 neu (Deckeneinbauten BKP 283.1, BMA-Anmeldung GVZ, Termin Biolley 25. bis 27.09.), 2 Nachträge (RWD-Zargen Fristtag ohne schriftliche Bestellung; Dauerpunkte Tonet Tag 8, Abrechnung Tag 2, Honorar Tag 4, GLAESER Tag 9, bexio-Zählung beendet, KISPI-Debitoren CHF 47'160.00 mit Mahnfrist RE-00102 am 23.09.). 12 Zeilen am Dateiende angehängt, 0 entfernt, Präfix der ersten 5651 Zeilen identisch. Quellen: Konversations-Destillat 260918, Mail-Vorfilter 26 h (rc 0), Graph rj@ Posteingang, Gesendete und Entwürfe, fünf Mails im Volltext (RJ 17.09. 15:49 und 11:38, Duran 17:02, Cetin 16:27, Spörri 13:37), bexio `--verzug` und `--offen` (beide rc 0, erstmals seit 40 Tagen wieder Daten), Outlook-Kalender bis 26.09. über den M365-Connector, outlook.com per osascript (26 h ohne Eingang und Ausgang), ccusage beider Stationen. **Werkzeugbefund:** `m365-graph.mjs --get …/calendarView` antwortet mit 403 (App-only ohne Kalenderrecht); der Kalender kam über den MCP-Connector. QS: `rechtschreibung` grün (zwei Kommas nach Einschüben übernommen), `layout` gelb, Befunde umgesetzt (Platzhalterzeit ersetzt, Titel gekürzt, Dopplung Abrechnung auf Verweis reduziert, Gesprächssektion nummeriert, Tageszähler mit Bezugspunkt, Sammelzeile mit Lead, Deckeneinbauten aus der 7-Tage-Liste in «In Beobachtung» verschoben, Uhrzeiten in die Leads, Hinweis API-Äquivalent einmal am Schluss). Nicht übernommen: der Layout-Hinweis zur Zuordnung Anlagestiftung/Nova, beides stimmt (die Anlagestiftung wird durch Nova vertreten, im Text jetzt ausgewiesen).
+
 ## Hub-Chef 17.09.2026 (09:20 bis 09:5x, Kurzmail als Nachtrag zum Radar) — md2docx per A6 repariert, Samstagskonflikt im Privatkalender gefunden, Vorleistungs-Mail als versendet berichtigt
 
 **Lage des Laufs.** Der Chef ist heute nicht ausgefallen, er lief verspaetet: Start 09:20 CEST
