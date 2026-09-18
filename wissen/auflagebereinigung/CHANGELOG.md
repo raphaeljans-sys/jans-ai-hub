@@ -2,6 +2,35 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-18 (Nachtschicht Mac Mini, Prioritaet 5) — `gvz-einreichung-bma-sprinkler.md`: Weisung 30.25 destilliert, «Offene Punkte» geschlossen
+
+Anschluss an den Health-Check vom selben Tag (Wissenscheck Phase 1, Eintrag unten): Phase 2
+(ae/oe/ue-Korrektur) bleibt interaktiv reserviert und wurde NICHT ausgefuehrt — stattdessen der
+im Artikel selbst gefuehrte offene Punkt «Weisung 30.25 noch nicht destilliert» bearbeitet
+(Prioritaet 5 des Nachtschicht-Auftrags, kein Ueberschneiden mit der wissenscheck-Aktionsphase).
+GVZ-Weisung 30.25 «Alarmuebertragung von Brandmelde- und Sprinkleranlagen» (1. Maerz 2022, rev.
+17.07.2023/02.12.2024) per WebFetch+pdftotext im Volltext gelesen (gvz.ch/_file/1739). Abschnitt
+3 des Artikels vollstaendig neu geschrieben mit belegten Ziffern: Neuaufschaltungs-Prozess (Ziff.
+3.2, Statuskette Administrativ→Freigegeben/Scharf, Bewilligung 1 Jahr gueltig), 15-Arbeitstage-
+Frist fuer die Anmeldung beim AAD (Ziff. 4.4 Abs. 7 — neu, war im Artikel nicht erfasst und jetzt
+zusaetzlich in die Terminkette im Transfer-Abschnitt aufgenommen), Mutation/Providerwechsel/
+Stilllegung (Ziff. 3.3-3.5, GMA-Webformular, Status «Abschaltung» nicht reaktivierbar),
+Ausserbetriebsetzung >24h korrigiert von «3 Tage» auf die praezisere **«3 Arbeitstage»** vorher
+via GMA-Workflow (Ziff. 3.6) sowie <24h telefonisch mit Verbot regelmaessig wiederkehrender
+Meldungen (Ziff. 3.7). Zweite offene Frage geklaert: kein gesondertes Online-Anmeldeportal fuer
+die Neuaufschaltung — gma.feuerwehr-gvz.ch (GMA-Workflow) deckt nur die Betriebsprozesse
+(Mutation/Wechsel/Ausserbetriebsetzung/Stilllegung) ab, die Neuaufschaltung laeuft ueber
+Projektbegutachtung + AAD-Aufschaltauftrag. Ergaenzung ohne Widerspruch: die Kostenfreiheit nach
+Ziff. 7.7 der Weisungen 20.07/20.08 betrifft nur Projektpruefung/Abnahme/Kontrolle — die
+Aufschaltung/der Betrieb der Alarmuebertragung selbst wird gemaess Tarifordnung jaehrlich
+verrechnet (Ziff. 4.1 Abs. 5), Frankenbetraege nennt die Weisung 30.25 selbst nicht (neuer,
+kleinerer offener Punkt vermerkt). `sources`-Feld und `last_updated` (2026-09-18) im Frontmatter
+nachgezogen. Neue Textabschnitte durchgehend mit echten Umlauten geschrieben (Rule
+`umlaute-konvention`); die bereits bestehenden ae/oe/ue-Verstoesse in Abschnitt 1/2 und im
+Transfer-Teil wurden NICHT mitkorrigiert (bleibt Phase-2-Aufgabe fuer eine interaktive Session,
+siehe Health-Check). Budget dieses Nachtschicht-Zyklus insgesamt rund 1.8 von 5 USD (inkl. der
+vorangehenden Prioritaeten-Pruefung). Kein Versand, keine Buchung, keine Loeschung.
+
 ## 2026-09-18 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A1 · B1 · C0 · D1 · E0 · F4 · G1
 
 Health-Check-Report abgelegt: `outputs/2026-09-18_health-check.md`. Prioritaet 6 gewaehlt

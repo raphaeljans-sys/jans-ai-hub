@@ -13403,3 +13403,22 @@ Primärquellen), drei Artikel mit `last_updated` hinter der tatsaechlichen Datei
 Report `wissen/auflagebereinigung/outputs/2026-09-18_health-check.md`, CHANGELOG nachgefuehrt.
 Phase 2 (Korrekturen) nicht ausgefuehrt — unbeaufsichtigter Lauf, laeuft nur interaktiv. Budget
 rund 2.5 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet, additiv.
+
+**NACHTRAG 2026-09-18, zweiter Nachtschicht-Zyklus Mac Mini (Prioritaet 5) — `auflagebereinigung`:
+Weisung 30.25 destilliert, Artikel `gvz-einreichung-bma-sprinkler.md` «Offene Punkte» geschlossen.**
+Prioritaeten 1-2 leer/gesaettigt (keine pending Tasks; Synobsis Stufe 2 seit 05.09. aktuell,
+853/853 deckungsgleich). Prioritaet 3 nicht dupliziert (Fristenregister am Vortag umfassend
+erhoben, P1 AG-Gruendung unveraendert seit 11.09.). Prioritaet 4 ohne gueltiges Ziel (wie im
+Vorlauf von heute frueh begruendet). Auf Prioritaet 5 den vom heutigen Wissenscheck-Health-Check
+NICHT abgedeckten offenen Punkt im Artikel selbst bearbeitet (nicht Phase 2 des wissenscheck,
+die bleibt interaktiv): GVZ-Weisung 30.25 «Alarmuebertragung von Brandmelde- und
+Sprinkleranlagen» per WebFetch+pdftotext volltext gelesen und in Abschnitt 3 destilliert —
+Neuaufschaltungs-Statuskette, 15-Arbeitstage-Anmeldefrist beim AAD (neu, in die Terminkette
+aufgenommen), Mutation/Providerwechsel/Stilllegung, Ausserbetriebsetzungsfrist von «3 Tage» auf
+praezise «3 Arbeitstage» korrigiert, Kostenpositionen geklaert (Projektpruefung kostenlos,
+Aufschaltung/Betrieb jaehrlich nach Tarifordnung verrechnet). Beide «Offenen Punkte» des
+Artikels geschlossen. Neue Textabschnitte mit echten Umlauten; bestehende ae/oe/ue-Verstoesse
+im Artikel bewusst nicht mitkorrigiert (Phase-2-Vorbehalt des Health-Checks respektiert).
+Frontmatter `sources`/`last_updated` nachgezogen. Details: CHANGELOG `wissen/auflagebereinigung/
+CHANGELOG.md`. Budget rund 1.9 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus
+sauber beendet.
