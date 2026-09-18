@@ -1280,3 +1280,34 @@ Weg, den niemand findet, ist so gut wie keiner. Beleg: `tenant-hygiene/reports/2
 Speicherkontingent (17.09.2026: 1'069'056 MB = 1044.00 GB). Die Hygiene-Reportreihe rechnete bis dahin mit einem
 angenommenen Wert von 1054 GB und wies die Auslastung dadurch rund 0.75 Prozentpunkte zu niedrig aus. Quota messen,
 nicht annehmen — es aendert sich mit den Lizenzen.
+
+## Nachtrag 18.09.2026 — Ausschnitt aus einem Revit-Geschoss-DWG (Planer-Deckenspiegel): LibreDWG trägt nicht, Rhino auf dem Mac Mini schon
+
+Belegt am Fall 2619 KISPI, HdM-Deckenspiegel OG1 (`S-ARC_3600_DS-01_XX_DECKENS-OG1.dwg`, 19 MB,
+`AC1024`, Revit-Export), Auftrag: Sektor 41 als leichtes DWG ausschneiden.
+
+- **Sackgasse LibreDWG 0.13.3:** `dwg2dxf` läuft mit rc=0 durch, schreibt aber ein DXF **ohne
+  ENTITIES-Sektion** (3 von 90 Layern, doppelte Handles, namenloser BLOCK_RECORD); `-m` liefert
+  169 Byte. Das sieht nach Erfolg aus und ist keiner: nach der Wandlung immer die Entity-Zahl
+  im Modellbereich prüfen. Für Rhino-geschriebene DWG (`AC1021`) taugt `dwg2dxf` dagegen gut,
+  also als **Kontrollweg des Ergebnisses** (Roundtrip + ezdxf-Rendering nach PNG).
+- **Weg, der trägt (Mac Mini, dialogfrei):** leeres `.3dm` in Metern mit `rhino3dm` schreiben,
+  `open -a "Rhino 8"`, dann `DOTNET_ROLL_FORWARD=Major rhinocode -r <ID> script <datei.py>` mit
+  `Rhino.RhinoApp.RunScript('_-Import "<pfad>" _Enter', True)`. Der Import-Dialog kam **nicht**
+  (anders als am 20.08. mit `doc.Import()`). Rund 100'000 Objekte in etwa zwei Minuten. Läufe
+  sind asynchron: Logdatei schreiben und auf «DONE» warten. Pfade mit Halbgeviertstrich
+  (OneDrive-Bibliothek) meiden, im Scratchpad arbeiten und danach kopieren.
+- **Falle Gewerke-Blöcke:** Planer-DWG aus Revit tragen die Deckeneinbauten (Leuchten, HLK,
+  Elektro, Sprinkler, PEZ/WLAN) und den Architektur-Link als **geschossweite Blockreferenzen**
+  (je eine Instanz, 180 x 100 m). Wer nach Bounding-Box filtert und grosse Objekte weglässt,
+  verliert genau den Inhalt, um den es geht. Richtig: diese Instanzen mit
+  `InstanceObject.Explode(False)` eine Ebene auflösen, die Teile samt Transformation einzeln
+  gegen das Fenster prüfen, temporär ins Dokument legen, exportieren, wieder löschen.
+  Wegzulassen sind die breiten Polylinien auf Layer `0` und die Hatches auf `A-VIEW-DETAIL`
+  (Ausschnittmasken der Revit-Ansichten, rendern als schwarze Balken).
+- **Fenster bestimmen ohne Bildschirm:** Texte des Sektor-PDF (PyMuPDF `get_text("words")`,
+  unrotierte Koordinaten, **nicht** `page.rect` bei rotierten Seiten) gegen die Texte des DWG
+  matchen, Ähnlichkeitstransformation per Least Squares, Gegenprobe über alle gemeinsamen
+  Strings (hier 617 von 636 Treffer innerhalb 1 m, Massstab 1:49.9).
+- Rhino beenden: `osascript … to quit`, den Sichern-Dialog mit «Änderungen zurücksetzen»
+  schliessen (Hilfsdokument im Scratchpad).
