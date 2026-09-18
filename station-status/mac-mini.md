@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 20:05:07
+Stand: 18.09.2026 20:25:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 20:05:07
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7c7e6c9d9 nas-selfcommit: 2 Datei(en) 2026-09-18 20:00
+- ab70c7907 tenant-hygiene 260918: 828.71 GB / 79.38 %, +1.99 GB/Tag (Versionen), Register-Nachtrag Pruefpunkt 15.10., Quota im Skill gemessen
