@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-18 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A1 · B1 · C0 · D1 · E0 · F4 · G1
+
+Health-Check-Report abgelegt: `outputs/2026-09-18_health-check.md`. Prioritaet 6 gewaehlt
+(Sammel-Health-Check aller KBs vom 01.09., budgetgerechte Groesse mit 7 Artikeln). Top-Funde:
+(1) `gvz-einreichung-bma-sprinkler.md` traegt zum DRITTEN Mal in Folge (21.07./01.09./18.09.)
+unbehobene ae/oe/ue-Verstoesse, dazu fehlendes `links:`-Frontmatterfeld (nutzt `herkunft:`);
+(2) `raw/_INGESTED.md` seit KB-Gruendung (04.06.) nicht nachgefuehrt, Luecke jetzt sechs statt
+drei fehlende Primärquellen (VRG/PBG, eBaugesucheZH-Handbuch neu dazugekommen); (3)
+`formular-verifizierung.md` (status `established`!) traegt selbst 14 ae/oe/ue-Verstoesse,
+seit dem Sammelfund vom 21.07. aus der Nachverfolgung gefallen. Neu erkannt: bei drei Artikeln
+(`aemter-stadt-zuerich`, `gvz-einreichung-bma-sprinkler`, `vorgehen-auflagebereinigung`) wurde
+`last_updated` bei additiven Wissens-Chef-Nachtraegen nicht mitgezogen (Datei-mtime vs. Feld
+verglichen). `fristenlogik-bauentscheid-zh.md` weiterhin Promotion-Kandidat emerging→established
+(seit 25.08. unveraendert offen, Quellenlage seither weiter gewachsen). Phase 2 (Aktionen)
+nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-09-15 (Cross-KB-Eingang aus `wissen/normen` Run 85) — WC57-N1 beantwortet, Fassungsvorbehalt SN EN 62368-1 aufgelöst
 
 `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`, nur additiv: Nachtrag unter dem

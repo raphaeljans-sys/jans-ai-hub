@@ -13381,3 +13381,25 @@ beim Abschluss-Grep neu gefundene Fehlzuschreibungen in `wiki/BAUHERREN-FAQ.md` 
 Bringschuld an `wissen/planungsgrundlagen` erfuellt. Bericht
 `wissen/energie/outputs/2026-09-17_energie-run205.md`. Budget rund 1.9 von 5 USD. Kein Versand,
 keine Buchung, keine Loeschung. Zyklus sauber beendet, additiv.
+
+**NACHTRAG 2026-09-18, Nachtschicht-Zyklus Mac Mini — Wissenscheck Phase 1 `auflagebereinigung`
+(Prioritaet 6).** Prioritaeten 1-2 leer/gesaettigt (keine pending Tasks; Synobsis Stufe 2 seit
+16.09. aktuell). Prioritaet 3 (Fristen-Radar) nicht dupliziert: das Register traegt bereits ein
+aktuelles P1 (AG-Gruendung-Monitor, Kapitaleinzahlung CHF 50'000, unveraendert seit 11.09.) und
+einen umfassenden Radar-/Hub-Chef-Lauf vom Vortag — kein neuer Entwurf noetig. Prioritaet 4 ohne
+gueltiges Ziel: alle KBs mit `training/PROGRAMM.md` sind entweder ausgeschlossen (baurecht,
+normen, planungsgrundlagen, wettbewerbs-dna), ausgesetzt (grobkosten, projekt-lessons) oder als
+KEIN gueltiges Ziel markiert (spec: Ereignis-Trigger; bauprodukte: seit 15.08. erledigt) bzw.
+erst gestern trainiert (energie, immobilienbewertung). Prioritaet 5 (offene QUESTIONS
+recherchieren) an mehreren KBs geprueft (claude-code, firmengruendung-ch, entwurfs-referenzen)
+— offene Punkte dort sind entweder Entscheidungsfragen an Raphael oder projektabhaengig
+blockiert, kein bounded Rechercheziel gefunden. Auf Prioritaet 6 ausgewichen: Wissens-Health-Check
+`auflagebereinigung` (7 Wiki-Artikel, seit dem Sammel-Check vom 01.09. nicht einzeln geprüft).
+Ergebnis A1·B1·C0·D1·E0·F4·G1: `gvz-einreichung-bma-sprinkler.md` traegt zum dritten Mal in
+Folge unbehobene ae/oe/ue-Verstoesse (seit 21.07.), `formular-verifizierung.md` (status
+established) erstmals seit demselben Fund wieder mit 14 eigenen ae/oe/ue-Treffern belegt,
+`raw/_INGESTED.md` seit KB-Gruendung nicht nachgefuehrt (Luecke jetzt sechs statt drei
+Primärquellen), drei Artikel mit `last_updated` hinter der tatsaechlichen Datei-mtime.
+Report `wissen/auflagebereinigung/outputs/2026-09-18_health-check.md`, CHANGELOG nachgefuehrt.
+Phase 2 (Korrekturen) nicht ausgefuehrt — unbeaufsichtigter Lauf, laeuft nur interaktiv. Budget
+rund 2.5 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet, additiv.
