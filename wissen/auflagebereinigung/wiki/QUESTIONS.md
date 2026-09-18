@@ -120,3 +120,5 @@ eigenes, vom kantonalen eBaugesucheZH getrenntes System** betreibt. Volltext, Zi
 Quelle jetzt in [[fristenlogik-bauentscheid-zh]], Abschnitt «Projektänderung nach
 Baurechtsentscheid». Rueckmeldung an `wissen/twin/wiki/QUESTIONS.md` 260910 #3 erfolgt im
 selben Lauf (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld).
+
+- **260918 — GVZ-Praxis «wesentliche Änderung» bei Löschanlagen:** Wie stuft die GVZ eine Anpassung von weniger als 10 Düsen einer Sprühnebelanlage bei gleichzeitiger Umnutzung (Büro zu Klinik) ein, und genügt ein Schreiben der Fachfirma zur Erfüllung der Standard-Auflage? Antwort aus Fall 2619 KISPI nachtragen. Vorarbeit: `outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md`.

@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-18 — Report «GVZ-Eingabe unter der Schwelle / Sprühnebel» (interaktiv, Fall 2619 KISPI)
+- Neu `outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md`: «wesentliche Änderung» undefiniert, unbedingte Standard-Auflage vs. Schwelle Ziff. 7.1, Sprühnebel als Sonderanwendung Ziff. 4.8, Absender Fachfirma. Am Original der Weisung 20.08 gelesen.
+- QUESTIONS: Praxisbeleg GVZ-Antwort 2619 ausstehend.
+
 ## 2026-09-18 (Nachtschicht Mac Mini, Prioritaet 5) — `gvz-einreichung-bma-sprinkler.md`: Weisung 30.25 destilliert, «Offene Punkte» geschlossen
 
 Anschluss an den Health-Check vom selben Tag (Wissenscheck Phase 1, Eintrag unten): Phase 2
