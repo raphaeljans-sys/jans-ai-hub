@@ -1,21 +1,16 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 15:50:23
+Stand: 18.09.2026 16:10:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub//claude/worktrees/keramiktablar/plans/sections/d5700b  (letzte Aktivitaet 16:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
+- keine
 
 ## Hub-Git-Stand (NAS)
-- 35057c0e8 nas-selfcommit: 3 Datei(en) 2026-09-18 15:45
+- 09f53a9d6 nas-selfcommit: 3 Datei(en) 2026-09-18 16:00
