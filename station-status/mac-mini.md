@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 18.09.2026 22:49:27
+Stand: 18.09.2026 22:59:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.09.2026 22:49:27
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a82deebb8 nas-selfcommit: 4 Datei(en) 2026-09-18 22:45
+- 8f72ccc79 energie Run 207: A-BLIND wp-pv-eigenverbrauch-lastmanagement am Original (Zogg V2.0), 2 Berichtigungen, Kap. 5-9 neu, FAQ F300/F301 neu, F31/F292 geschaerft
