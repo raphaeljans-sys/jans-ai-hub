@@ -3059,3 +3059,45 @@ Items paaren. (4) `Drafts` nur als Zuwachs; die zwei Apple-Mail-Entwürfe vom 24
 **Batch 65** auf `claude-aera` prüfen, unverändert offen. (5) **Weiterhin offen aus 121:**
 `stilmetrik.py` um eine Kanal-Spalte erweitern — in diesem Lauf nur umgangen, indem die
 Signaturblöcke vor der Messung entfernt wurden.
+
+
+## Batch 123 (18.09.2026) — `rj@` Sent 17.09. 08:09 bis 17.09. 15:49 · **die Weiterleitung zählt als Faden**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 123 (18.09.2026)» in [[stimme]], [[denken]],
+[[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]; [[QUESTIONS]] 260918 #1-#3)
+· Detailregister: `raw/260918-mailbatch-123.md`
+
+**Abgedeckt:** `rj@` Sent Items **17.09.2026 08:09 bis 17.09.2026 15:49** (Ortszeit), alle 7 Treffer
+(`totalResultCount: 7`). `mail@` Sent Items im selben Fenster: **0 Treffer**; beide Konten sind
+lückenlos bis zum Laufzeitpunkt (18.09.2026 03:40) gesichtet. `mdfind -name Begleitmail`: 15 Dateien,
+**kein Zuwachs**.
+
+**Vorfilter:** keine Dublette (Grenze aus 122 sauber), 2 Selbstmails `claude-aera` (Radar-Briefing,
+Hub-Chef-Nachtrag 17.09.; nur Kontrolle), **5 Golds eigener Hand**, alle Outlook Mobile. Kein
+Korrektur-Delta in diesem Fenster. Kein Fidelity-Review seit 17.09., keine Kollision. ⚠ Die in der
+Weiterleitung 11:38 mitgeführten eigenen Mails vom **03.08.2026** (11:58, 12:25) gehören ins
+August-Fenster und wurden NICHT erneut destilliert; die Gegenseite ist Fremdtext.
+
+**Verbraucht — nicht erneut destillieren:** «Geschätzter Albin,» Vertrag + Chronologie 17.09. 09:25 ·
+«Guten Tag» Support-Frage 17.09. 10:56 · «Geschätzter Albin,» Rechnungsunterlagen A) B) C) 17.09. 11:21 ·
+«Hoi Albin,» Weiterleitung RE-00087 17.09. 11:38 · «Geschätzte Alle» Sammelabfrage Deckeneinbauten mit
+Frist 17:00 17.09. 15:49.
+
+**Kernbefunde:** (1) ⭐⭐ **Weiterleitung = Faden, nicht Lieferung**: gleicher Kontakt, gleiches Thema,
+17 min Abstand, neue Mail mit Anhang «Geschätzter», WG mit Anhang «Hoi» — schärft die Trennlinie
+260915b. (2) ⭐⭐ **Der Rüge-Rückfall ist vorgangsgebunden**: Lüftungsplaner 22.06. «Sehr geehrter Herr
+<Vollname>» → 17.09. wieder Du, Vollform nur noch als Adressierung im Verteiler. (3) ⭐⭐ **Sammelabfrage
+als Ausfüll-Formular** (Gewerkekürzel, Position, «_ _ _», Planlegenden-Code; Frist 17:00 im Betreff,
+1 h 11 min). (4) ⭐ **Paralleles A) B) C)-Gerüst je Mandatsteil**. (5) ⭐ **Kontaktblock mitten im
+Satz**, dritte Form der Kontakt-Nullform. (6) ⭐ **Kleines «dich»** am Schluss einer langen Mail, Du-Quote
+0.75. (7) ⭐ **BKP-Hauptgruppe im Mailkörper** (283 statt 283.1), Material im Wort. (8) ⭐ **Chronologie
+als YYMMDD-Ordnernamen** statt Herleitung. (9) ⭐ **Mahnungen liegen bei, werden nicht ausgesprochen**.
+(10) ⭐ **Echte Informationsfrage endet auf «?»** (stützt 260917 #1). (11) Fehlerdichte **7.7 je 100 W**
+gegen keinen Slip im Kontrolltext, achter Vergleich in Folge.
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 17.09.2026 15:49** Ortszeit (`afterDateTime` UTC
+`2026-09-17T13:49:50`), `order: oldest`. (2) `mail@` **Sent Items ab 17.09.2026 15:49**, dieselbe
+Grenze. (3) `mdfind -name Begleitmail` auf Zuwachs (Stand 15). (4) `Drafts` nur als Zuwachs; die zwei
+Apple-Mail-Entwürfe vom 24.03.2026; der Rest von **Batch 65** auf `claude-aera` prüfen, unverändert
+offen. (5) **Weiterhin offen aus 121:** `stilmetrik.py` um eine Kanal-Spalte erweitern; neu: Rubriken
+ohne Satzzeichen verzerren die Satzlänge (29.2 statt real rund 15).

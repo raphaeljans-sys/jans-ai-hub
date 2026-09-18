@@ -5,6 +5,19 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-18 — twin-mail-training Batch 123 (`rj@` Sent 17.09. 08:09 bis 15:49)
+
+- 7 Treffer gesichtet, **5 Golds eigener Hand** (alle Outlook Mobile), 2 Selbstmails `claude-aera` nur
+  als Kontrolle; `mail@` leer, `mdfind Begleitmail` ohne Zuwachs. Detailregister
+  `raw/260918-mailbatch-123.md`, Register `raw/_INGESTED.md` nachgeführt.
+- Je ein Abschnitt «Batch 123 (18.09.2026)» in allen sechs Facetten-Artikeln (`last_updated`
+  2026-09-18, Quelle in `sources` ergänzt); [[QUESTIONS]] 260918 #1-#3 neu.
+- Kernbefunde: Weiterleitung zählt als Faden (Hoi) statt als Lieferung (Geschätzter); Rüge-Rückfall
+  vorgangsgebunden; Sammelabfrage als Ausfüll-Formular mit Frist im Betreff; Kontaktblock mitten im
+  Satz; kleines «dich» (Du-Quote 0.75); Fehlerdichte 7.7 je 100 W.
+- Keine Statusänderung (alle sechs Artikel bereits `established`). Kein Eingriff in
+  `rules/anrede-kontakte.md` (Kandidat Lüftungsplaner als Frage 260918 #1 vorgelegt).
+
 ## 2026-09-17 — Wissens-Chef Lauf 61 (Cross-KB): dritter Beleg zur Anrede-Klausel, Frage praezisiert
 
 - **WC61-9 (Zuschnitt anders als gemeldet).** Der Melder wollte die @-importierte

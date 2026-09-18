@@ -6708,3 +6708,30 @@ Entscheid fasse ich ihn nicht an.
 Status: 260917b #1-#6 **offen**; 260917 #1-#3, 260916 #1-#4, 260916b #1-#3, 260915 #1-#6
 unverändert offen. #1 und #2 gehören zusammen: beide betreffen `rules/anrede-kontakte.md`, die
 Claude nicht selbst ändert.
+
+## 260918 (Batch 123)
+
+**#1 [Beziehung] Lüftungsplaner Gruner in die Kontaktliste — im Du?**
+Nach der Rüge vom 22.06.2026 («Sehr geehrter Herr <Vollname>») steht er am 17.09.2026 wieder im Du
+(«bitte ich dich <Vorname Nachname> …», Sammelverteiler). Er fehlt in `rules/anrede-kontakte.md`.
+*Konkret:* Ist er für Dich ein Du-Kontakt mit Routine-Opener «Hoi Cekdar», und war das Sie vom 22.06.
+ein bewusster Schritt nur für die Rüge?
+*Warum:* Ohne Eintrag schliesst der Zwilling auf den Sie-Default oder schreibt die Rüge-Stufe fort.
+Die Aufnahme in die Rule ist Dein Entscheid.
+
+**#2 [Arbeitsweise] Anhangszeile: Dateinamen einzeln oder zusammengefasst?**
+Am 17.09. nennst Du in zwei Mails jede Datei mit vollem Namen (Vertrag, Stundenlisten, Mahnungen);
+am 22.06. fasst Du drei Formulare zu «Im Anhang die zwei Formulare zur Kenntnissnahme» zusammen.
+*Konkret:* Trifft «Belege für Buchhaltung oder Vertrag → jede Datei einzeln mit Namen; Unterlagen zur
+Kenntnis → zusammengefasst»?
+*Warum:* Der Zwilling hat heute zwei widersprechende Regeln im Wiki und wählt je nach Tagesstand.
+
+**#3 [Arbeitsweise] Die Weiterleitung mit «Hoi»: Regel oder Zufall?**
+Drei Mails an Albin in 2 h 13 min: zwei neue Mails mit Anhang «Geschätzter Albin», die Weiterleitung
+(WG) mit Anhang «Hoi Albin».
+*Konkret:* Ist die Weiterleitung für Dich eine Fortsetzung des Gesprächs (daher «Hoi»), auch wenn sie
+Dokumente enthält?
+*Warum:* Dann gilt «Weiterleitung = Faden» allgemein und der Zwilling hebt beim WG nie.
+
+Status: 260918 #1-#3 **offen**; 260917b #1-#6, 260917 #1-#3, 260916 #1-#4, 260916b #1-#3,
+260915 #1-#6 unverändert offen. #1 betrifft `rules/anrede-kontakte.md`, die Claude nicht selbst ändert.
