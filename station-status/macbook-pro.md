@@ -1,11 +1,13 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 13:50:28
+Stand: 19.09.2026 14:11:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/architektur/grundrisse/verkaeufer/9129a3  (letzte Aktivitaet 13:50)
+- Developer/jans/ai/hub//claude/worktrees/architektur/grundrisse/verkaeufer/9129a3  (letzte Aktivitaet 14:08)
 - Developer/jans/ai/hub//claude/worktrees/brave/maxwell/d58db9  (letzte Aktivitaet 13:43)
-- Developer/jans/ai/hub//claude/worktrees/house/plan/dwg/pdf/4d94ea  (letzte Aktivitaet 13:48)
+- Developer/jans/ai/hub//claude/worktrees/finanzierung/liegenschaft/6359b9  (letzte Aktivitaet 14:08)
+- Developer/jans/ai/hub//claude/worktrees/forstweg/55/projekt/d2fdbf  (letzte Aktivitaet 14:11)
+- Developer/jans/ai/hub//claude/worktrees/house/plan/dwg/pdf/4d94ea  (letzte Aktivitaet 14:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -20,4 +22,4 @@ Stand: 19.09.2026 13:50:28
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 47826dafc nas-selfcommit: 1 Datei(en) 2026-09-19 13:45
+- 0b96f7b88 nas-selfcommit: 3 Datei(en) 2026-09-19 14:00

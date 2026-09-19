@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19 — Wissens-Ruecklauf aus Auftrag «Verkaufsgrundrisse 1:100 aus Plan-Scans»
+
+Neuer Report `outputs/2026-09-19_bestandesplan-scan-zu-verkaufsgrundriss.md`: wiederholbarer Weg
+vom Handy-Scan alter Plankopien zum massstaeblichen Vektor-Grundriss (Wandmaske, Entzerrung per
+Homographie, Kalibrierung an Oeffnungsmassen, Geometrie als Daten, SVG zu PDF 1:100, DXF) samt
+Fallstricken. Kein Wiki-Artikel angelegt; Kandidat fuer einen Artikel «Bestandesaufnahme ab
+Planunterlagen», sobald ein zweiter Fall vorliegt. Generator:
+`30 JANS AI HUB OUTPUT/260919-Verkaufsgrundrisse-1-100/Quelle/grundrisse.py`.
+
 ## 2026-09-17 (Run 205, Nachtschicht Mac Mini, Cross-KB-Bringschuld aus `wissen/energie`) — E-R204-2 geschlossen: kein 30-kW-Deckel in ZH
 
 `wissen/energie` Run 205 hat das amtliche kantonale Formular EN-104-ZH gegengelesen (zh.ch,
