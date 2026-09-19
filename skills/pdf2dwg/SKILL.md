@@ -67,9 +67,16 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
 > **(a) Stationsverfuegbarkeit** — LibreDWG und das venv `~/.venvs/pdf2dwg` gibt es nur auf
 > dem Mac Mini, nicht auf dem MacBook Pro; zur DWG-Kontrolle auf dieser Station taugen der
 > Rueckimport nach Rhino und die Formatkennung `head -c 6 datei.dwg` (`AC1021` = 2007,
-> `AC1027` = 2013, `AC1032` = 2018). **(b) Der Nachbarweg** fuer 3D-Hersteller-DWG (ACIS
-> oder Mesh) nach 2D-Plan laeuft ueber Rhino an der besetzten Station, nicht ueber diesen
-> Skill. Vor jedem CAD-Auftrag beide Seiten lesen (Rule `wege-und-vollmachten`).
+> `AC1027` = 2013, `AC1032` = 2018). **Vom MacBook Pro aus bleibt die Erzeugung selbst
+> trotzdem sofort moeglich** (belegt 19.09.2026, Ansichten Verkaufsgrundriss-Auftrag):
+> ezdxf steht im venv `~/.venvs/volumen3d` (nicht nur in `~/.venvs/pdf2dwg`) und schreibt
+> ein eigenstaendiges DXF; DXF per `scp` auf den Mac Mini, dort `dxf2dwg` mit vollem Pfad
+> `/opt/homebrew/bin/dxf2dwg` (liegt nicht im nicht-interaktiven `ssh`-`PATH`, Rule
+> `auto-verbesserungen` 260917b gilt sinngemaess auch fuer `dwg2dxf`/`dwgread`), DWG per
+> `scp` zurueck. Kanonischer Befehl bleibt blank `ssh mini '<befehl>'`. **(b) Der
+> Nachbarweg** fuer 3D-Hersteller-DWG (ACIS oder Mesh) nach 2D-Plan laeuft ueber Rhino an
+> der besetzten Station, nicht ueber diesen Skill. Vor jedem CAD-Auftrag beide Seiten lesen
+> (Rule `wege-und-vollmachten`).
 
 - **Rasterbilder im PDF** (Fotos, gerenderte Ansichten, Logos) werden NICHT
   uebernommen — nur Vektoren und Text.

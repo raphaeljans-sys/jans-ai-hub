@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19c — Wissens-Ruecklauf: DWG-Export vom MacBook Pro ohne lokales LibreDWG
+
+Neuer Report `outputs/2026-09-19_dwg-export-vom-macbook-pro-via-ssh-mini.md`: Folgeauftrag
+verlangte `.dwg` fuer zwei neu gezeichnete Ansichten. Weg belegt: ezdxf steht auch im venv
+`~/.venvs/volumen3d` (nicht nur `~/.venvs/pdf2dwg`), DXF per `scp` zum Mac Mini, dort
+`/opt/homebrew/bin/dxf2dwg` (voller Pfad zwingend, Homebrew fehlt im nicht-interaktiven
+ssh-PATH), DWG per `scp` zurueck. `skills/pdf2dwg/SKILL.md` Grenzen-Abschnitt ergaenzt.
+
 ## 2026-09-19 — Wissens-Ruecklauf: Kanton und Stadt Bern, amtliche Geodaten maschinell
 
 Neuer Report `outputs/2026-09-19_kanton-bern-geodaten-endpunkte.md`: OEREB-Webservice Kanton Bern
