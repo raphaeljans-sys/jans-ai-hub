@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 13:42:48
+Stand: 19.09.2026 13:53:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 13:42:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d8777c85f md2docx.py auf Rule dokument-layout-standard gebracht: Tabellen rahmenlos mit festen Spaltenbreiten, Heading-Theme-Fonts entfernt (H1 18/H2 12, Zeilenabstand 1.4), Fusszeile mit Seite X von Y; Optionen --footer, --tabellenlinien, --spalten; BUILD-ANLEITUNG nachgezogen
+- 47826dafc nas-selfcommit: 1 Datei(en) 2026-09-19 13:45
