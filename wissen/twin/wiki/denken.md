@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-09-18
+last_updated: 2026-09-19
 gewichtung: authentisch
-sources: [260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1917,3 +1917,23 @@ sich hierzu?») wird nicht beantwortet, sondern mit **der einen Unterscheidung**
 des Abos ja, seiner Höhe nein). Der Zwilling traf den Inhalt; ihm fehlte der kühl-höfliche Rahmen
 «Gerne teile ich Ihnen mit, dass …». In der Absage steht der Grund vor dem Entscheid («Da ich erkennt
 habe, das … muss ich dieses Angebot leider vorerst absagen», Wortlaut).
+
+## Batch 124 (19.09.2026) — die Frist kommt vom Bau, und das Gebaute ist die Vorlage
+
+Quelle: `rj@` Sent Items 17.09.2026 15:49 bis 18.09.2026 20:54, 6 Treffer, davon **2 Golds eigener Hand** (beide Outlook Mobile), 1 Dublette der Grenze, 1 Hub-Chef-Selbstmail `claude-aera` (Kontrolle) und 2 Selbstmails ohne Sprachmaterial (nicht ausgewertet). Gewichtung `authentisch` für den Rahmen; der Block unter der Signatur von Gold A ist `claude-aera` (Hub-Report belegt). Detailregister `raw/260919-mailbatch-124.md`.
+
+- **⭐ Die Frist ist ein Bauereignis, keine Antwortzeit.** Gold B (18.09. 14:54) schliesst mit
+  «Termin: Morgen, Samstag 19.09.26, 06:30 wird der LBW Sturz erstellt.» Gesetzt wird nicht «bitte
+  bis …», sondern der Moment, in dem die Baustelle eine Tatsache schafft; der Grund der Eile (danach
+  ist der Sturz geschlossen) bleibt unausgesprochen, weil ihn jeder Empfänger kennt. Gegenstück zu
+  Batch 123 (Frist «bis heute 17:00 Uhr» im Betreff einer Sammelabfrage): dort eine gesetzte, hier
+  eine vom Ablauf diktierte Frist. Für den Zwilling: wo ein Bauschritt die Frist macht, den Bauschritt
+  nennen, nicht eine Uhrzeit für die Antwort.
+- **⭐ Das Gebaute als Vorlage.** Für die Anschlusspunkte einer neuen Schiebetüre verweist Raphael
+  nicht auf Norm oder Datenblatt, sondern auf eine bereits eingebaute Türe derselben Art: «A) … den
+  Revisionsdeckel zu öffnen / B) Zu schauen wo dort die Steckdose positioniert wurde / C) Analog dieser
+  Stelle … einzuplanen». Denken in Analogie zum Bestand; der erste Schritt ist Nachsehen.
+- **Urteil und Beleg getrennt** (Gold A): der Rahmen über der Signatur bittet um die Einschätzung des
+  Fachmanns und liefert dazu Plan, Betriebskonzept mit Seitenzahl und Plangrundlagen; eine eigene
+  Beurteilung steht nur im Hub-Block darunter (`claude-aera`, nicht gewertet). Ob deren Schluss
+  («keine wesentliche Änderung») Raphaels Vorgabe war, ist offen ([[QUESTIONS]] 260919 #1).

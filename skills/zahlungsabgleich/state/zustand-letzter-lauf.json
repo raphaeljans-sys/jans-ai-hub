@@ -1,11 +1,11 @@
 {
-  "stand": "2026-09-18",
+  "stand": "2026-09-19",
   "kennzahlen": {
     "echteEingaenge": 52,
     "unreconciledCredit": 64,
-    "duplikatKandidaten": 224,
-    "duplikatEinzel": 53,
-    "duplikatGruppen": 44,
+    "duplikatKandidaten": 225,
+    "duplikatEinzel": 52,
+    "duplikatGruppen": 45,
     "phantome": 19,
     "phantomSumme": 81364.7,
     "verzugFaelle": 4,
@@ -391,7 +391,8 @@
     3791,
     3792,
     3794,
-    3795
+    3795,
+    3796
   ],
   "einzel": [
     {
@@ -757,13 +758,6 @@
       "typ": "DEBIT",
       "betrag": 10.5,
       "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Migros M Schmiede"
-    },
-    {
-      "id": 3795,
-      "datum": "2026-09-16",
-      "typ": "DEBIT",
-      "betrag": 4800,
-      "titel": "Multi e-banking Order"
     }
   ],
   "gruppen": [
@@ -805,6 +799,16 @@
         3637,
         3638,
         3640
+      ]
+    },
+    {
+      "datum": "2026-09-16",
+      "typ": "DEBIT",
+      "betrag": 4800,
+      "anzahl": 2,
+      "ids": [
+        3795,
+        3796
       ]
     },
     {

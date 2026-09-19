@@ -6779,3 +6779,29 @@ am Satzende, dazu «vorerst».
 
 Status: 260918b #1-#5 **offen**; 260918 #1-#3, 260917b #1-#6, 260917 #1-#3, 260916 #1-#4,
 260916b #1-#3, 260915 #1-#6 unverändert offen.
+
+## 260919 (Batch 124)
+
+**#1 [Haltung/Denken] «Sachlage Einschätzung JANS» unter der Signatur: bewusst mitgeschickt?**
+Deine Mail an die Sprinkler-Fachfirma vom 18.09. (13:42) endet mit Gruss und Signatur; darunter steht
+eine siebenteilige Beurteilung, deren Punkte 1 bis 5 aus dem Hub-Report desselben Mittags stammen. Der
+Report neigte zu «wesentliche Änderung, Eingabe nötig», der Block in der Mail schliesst «keine
+wesentliche Änderung».
+*Konkret:* Hast Du den Schluss (Punkt 7) selbst vorgegeben und den Block bewusst als
+Argumentationshilfe für die Fachfirma angehängt? Oder ist er beim Zusammenkopieren mitgekommen?
+*Warum:* Im ersten Fall ist «eigene Einschätzung unter der Signatur beilegen» eine Arbeitsform, die der
+Zwilling kennen muss (und der Schluss ist Deine fachliche Linie). Im zweiten gilt weiter: alles unter
+der Signatur wird nie gewertet, und der Zwilling erzeugt so einen Block nie von sich aus.
+
+**#2 [Stimme] Kostet der Einschub das Fragezeichen?**
+Am selben Tag: «Darf ich Sie Bitten … im Werkplan zu vermassen**?**» (kurzer Satz) und «Darf ich Sie
+Bitten die … Projekteingabe … in Absprache mit <zwei Adresszeilen> zu tätigen**, danke.**» (Satz durch
+eingesetzte Zeilen unterbrochen).
+*Konkret:* Setzt Du «, danke.» dort, wo der Satz durch einen Einschub zu lang geworden ist, um noch als
+Frage zu enden?
+*Warum:* Das wäre neben «nein sagen dürfen» (260917 #1) die zweite Erklärung für den Punkt statt des
+Fragezeichens. Der Zwilling setzt heute überall «?»; mit der Antwort kann er den Schluss der langen
+Bitte richtig wählen.
+
+Status: 260919 #1-#2 **offen**; 260918b #1-#5, 260918 #1-#3, 260917b #1-#6, 260917 #1-#3,
+260916 #1-#4, 260916b #1-#3, 260915 #1-#6 unverändert offen.

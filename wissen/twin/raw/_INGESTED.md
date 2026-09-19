@@ -3101,3 +3101,42 @@ Grenze. (3) `mdfind -name Begleitmail` auf Zuwachs (Stand 15). (4) `Drafts` nur 
 Apple-Mail-Entwürfe vom 24.03.2026; der Rest von **Batch 65** auf `claude-aera` prüfen, unverändert
 offen. (5) **Weiterhin offen aus 121:** `stilmetrik.py` um eine Kanal-Spalte erweitern; neu: Rubriken
 ohne Satzzeichen verzerren die Satzlänge (29.2 statt real rund 15).
+
+
+## Batch 124 (19.09.2026) — `rj@` Sent 17.09. 15:49 bis 18.09. 20:54 · **der Einschub trägt den Satz, der Hub-Befund reist unter der Signatur**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 124 (19.09.2026)» in [[stimme]], [[denken]],
+[[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]; [[QUESTIONS]] 260919 #1-#2;
+Präzisierung zur zehnten Falle in `CLAUDE.md`) · Detailregister: `raw/260919-mailbatch-124.md`
+
+**Abgedeckt:** `rj@` Sent Items **17.09.2026 15:49 bis 18.09.2026 20:54** (Ortszeit), alle 6 Treffer
+(`totalResultCount: 6`). `mail@` Sent Items im selben Fenster: **0 Treffer**; beide Konten sind
+lückenlos bis zum Laufzeitpunkt (19.09.2026 08:55) gesichtet. `mdfind -name Begleitmail`: 15 Dateien,
+**kein Zuwachs**. NAS war beim Start nicht gemountet, über `ensure-nas-mounted.sh` geheilt.
+
+**Vorfilter:** 1 Dublette der Grenze (15:49-Mail, verbraucht in 123), 1 Hub-Chef-Selbstmail
+`claude-aera` (Kontrolle + Sendejournal), 2 Selbstmails ohne Sprachmaterial (nicht ausgewertet, Inhalt
+bewusst nicht protokolliert), **2 Golds eigener Hand**, beide Outlook Mobile. In Gold A ist der Block
+unter der Signatur `claude-aera` (Hub-Report `wissen/auflagebereinigung/outputs/2026-09-18_gvz-eingabe-
+unter-schwelle-spruehnebel.md` belegt); gewertet nur der Rahmen. Kein Fidelity-Review seit 18.09.
+kollidiert.
+
+**Verbraucht — nicht erneut destillieren:** «Geschätzter Herr <Nachname>» Sprinkler/Behördeneingabe
+18.09. 13:42 (Rahmen) · «Geschätzter Herr <Nachname>» Anschlusspunkte Schiebetüre 18.09. 14:54.
+
+**Kernbefunde:** (1) ⭐⭐ **Hub-Befund unter der Signatur**, dokumentarisch belegt; dritter Beleg der
+Schnittregel, erster mit Hub-Quelle. (2) ⭐⭐ **Der Einschub trägt den Satz**, Datei und Adresszeilen an
+der Nennstelle, viermal in zwei Tagen. (3) ⭐ @-Erwähnung als Registerschalter bestätigt; neu zwei @ auf
+einer Zeile mit gemeinsamem «Euch». (4) ⭐ **Der Einschub kostet das Fragezeichen** («, danke.» statt
+«?», → 260919 #2). (5) ⭐ **Frist als Bauereignis** («06:30 wird der LBW Sturz erstellt»). (6) ⭐ **Das
+Gebaute als Vorlage** (A) öffnen B) nachsehen C) analog planen). (7) ⭐ **Einschätzung beim Fachmann**,
+Briefvorlage vom Architekten, Eingabe durch die Fachfirma. (8) ⭐ Bauteil-ID der Türliste als Betreff.
+(9) ⭐ Mass ohne Leerschlag, zweiter Beleg. (10) ⭐ **Sendejournal mit Vorbehalt**: Journalzeile belastet
+nur bei passendem Kanal (Gold D aus 123 bleibt `authentisch`). (11) Fehlerdichte **4.5 je 100 W** gegen
+0 im Hub-Block derselben Mail, neunter Vergleich in Folge.
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 18.09.2026 20:54** Ortszeit (`afterDateTime` UTC
+`2026-09-18T18:54:05`), `order: oldest`. (2) `mail@` **Sent Items ab 18.09.2026 20:54**, dieselbe
+Grenze. (3) `mdfind -name Begleitmail` auf Zuwachs (Stand 15). (4) `Drafts` nur als Zuwachs; die zwei
+Apple-Mail-Entwürfe vom 24.03.2026; der Rest von **Batch 65** auf `claude-aera` prüfen, unverändert
+offen. (5) **Weiterhin offen aus 121:** `stilmetrik.py` um Kanal-Spalte und Signatur-Schnitt erweitern.

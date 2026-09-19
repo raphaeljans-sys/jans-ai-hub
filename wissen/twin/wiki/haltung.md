@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-09-18
+last_updated: 2026-09-19
 gewichtung: authentisch
-sources: [260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2351,3 +2351,20 @@ Quelle: [[../outputs/2026-09-18_fidelity]].
   Büro-Handlung. Offen ([[QUESTIONS]] 260918b #3).
 - **Ehrlich über die eigene Lage**: «Momentan haben wir zu wenig Aufträge um ein solches Abosystem zu
   finanzieren.» Der Zwilling traf es (aus dem Brief).
+
+## Batch 124 (19.09.2026) — der Fachmann urteilt, der Architekt liefert zu
+
+Quelle: `rj@` Sent Items 17.09.2026 15:49 bis 18.09.2026 20:54, 6 Treffer, davon **2 Golds eigener Hand** (beide Outlook Mobile), 1 Dublette der Grenze, 1 Hub-Chef-Selbstmail `claude-aera` (Kontrolle) und 2 Selbstmails ohne Sprachmaterial (nicht ausgewertet). Gewichtung `authentisch` für den Rahmen; der Block unter der Signatur von Gold A ist `claude-aera` (Hub-Report belegt). Detailregister `raw/260919-mailbatch-124.md`.
+
+- **⭐ Die Einschätzung bleibt beim Fachmann.** Gold A bittet die Sprinkler-Fachfirma «zur
+  Einschätzung», ob Auslöser getauscht werden müssen, und dankt im Voraus «für Ihre finale
+  Einschätzung, Mitteilung und Ausführung»: drei Schritte, alle beim Empfänger. Raphael liefert die
+  Grundlagen (Plan, Betriebskonzept mit Seitenzahl der Geräteliste, Plangrundlagen DWG + PDF), er
+  nimmt das Urteil nicht vorweg. Auch die Behördeneingabe geht über die Fachfirma, der Architekt legt
+  die Briefvorlage bei. Verantwortung dort lassen, wo sie fachlich liegt, und ihr die Arbeit so weit
+  vorbereiten, dass nur noch das Urteil fehlt.
+- **Widerspruch markiert, nicht geglättet:** unter der Signatur derselben Mail steht eine Beurteilung
+  mit dem Titel «Einschätzung JANS», die das Urteil doch vorwegnimmt. Sie ist Hub-Text (Report belegt,
+  0 Slips) und zählt nicht als Haltungsbeleg. Offen bleibt, ob Raphael die Einschätzung bewusst als
+  Argumentationshilfe mitgibt oder ob sie beim Zusammenkopieren mitgereist ist ([[QUESTIONS]] 260919
+  #1).

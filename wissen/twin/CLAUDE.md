@@ -1130,3 +1130,20 @@ Suchtreffers wird beim Zuschnitt **nicht gelesen**; erst nach dem Festlegen der 
 und dem Verfassen der Blindfassung wird der Volltext (`read_resource`) geoeffnet und die
 Bewertung vorgenommen. Damit ist der Test wirklich blind, ohne dass die Auswahl selbst
 aufwendiger wird — die Auswahlfelder waren immer schon ausreichend.
+
+**Präzisierung zur zehnten Falle, neu 19.09.2026 (Batch 124) — eine Journalzeile allein belastet
+nicht.** Das Hub-Chef-Briefing vom 18.09.2026 führt unter «Erledigt (autonom)» auch «RE-00087 an
+<Bauherrenseite> weitergegeben». Diese Weiterleitung ist Gold D aus Batch 123: Outlook Mobile,
+Exchange-Message-ID, eine handgetippte Zeile, also Raphaels eigene Hand. Die Rubrik mischt eigene
+Hub-Handlungen mit beobachteten Ereignissen (im selben Block «RE-00100 … bezahlt»). **Regel:** ein
+Sendejournal-Eintrag belastet eine Mail erst, wenn der **Kanal** übereinstimmt (Hub-Versand =
+Apple Mail `<UUID@raphaeljans.ch>` bzw. URLShare-Wrapper; Exchange `…@ZR2P278MB1112…` aus Outlook
+Mobile ist Raphaels Gerät). Stimmt der Kanal nicht, bleibt die Mail `authentisch`, und die
+Journalzeile wird als Ereignismeldung gelesen.
+
+**Dritter Beleg für den Schnitt am ersten Signaturblock, erster mit Hub-Quelle (Batch 124).** In
+einer Outlook-Mobile-Mail vom 18.09.2026 steht unter der Signatur ein betitelter Befundblock, dessen
+Punkte aus `wissen/auflagebereinigung/outputs/2026-09-18_gvz-eingabe-unter-schwelle-spruehnebel.md`
+stammen (Datei 52 min vor Versand). Der Schnitt aus [[fachsignatur]] (Fidelity 260830) gilt damit
+auch für Hub-Material, nicht nur für Chat-Rohmaterial, und auch dann, wenn der Block für den
+Empfänger formatiert ist.

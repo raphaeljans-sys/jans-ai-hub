@@ -5,6 +5,22 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-19 — twin-mail-training Batch 124 (`rj@` Sent 17.09. 15:49 bis 18.09. 20:54)
+
+- 6 Treffer gesichtet, **2 Golds eigener Hand** (beide Outlook Mobile), 1 Dublette der Grenze, 1
+  Hub-Chef-Selbstmail `claude-aera` (Kontrolle), 2 Selbstmails ohne Sprachmaterial nicht ausgewertet;
+  `mail@` leer, `mdfind Begleitmail` ohne Zuwachs. Detailregister `raw/260919-mailbatch-124.md`,
+  Register `raw/_INGESTED.md` nachgeführt.
+- Je ein Abschnitt «Batch 124 (19.09.2026)» in allen sechs Facetten-Artikeln (`last_updated`
+  2026-09-19, Quelle in `sources` ergänzt); [[QUESTIONS]] 260919 #1-#2 neu; `CLAUDE.md` um die
+  Präzisierung zur zehnten Falle (Journalzeile belastet nur bei passendem Kanal) und den dritten
+  Beleg des Signatur-Schnitts ergänzt.
+- Kernbefunde: Hub-Befund unter der Signatur einer Outlook-Mobile-Mail, belegt durch den
+  auflagebereinigung-Report desselben Mittags (nicht Stilquelle); der Einschub trägt den Satz (Datei,
+  Adresse an der Nennstelle); Frist als Bauereignis; das Gebaute als Vorlage; Einschätzung beim
+  Fachmann; Fehlerdichte 4.5 je 100 W gegen 0 im Block derselben Mail.
+- Keine Statusänderung (alle sechs Artikel bereits `established`). Kein Eingriff in Rules.
+
 ## 2026-09-18 — twin-fidelity-review (Gesamt-Fidelity 56; vier Golds 19.01./21.01./19.05.2026)
 
 - Report `outputs/2026-09-18_fidelity.md`: Fachsignatur 75, Denken 65, Haltung 60, Arbeitsweise 55,
