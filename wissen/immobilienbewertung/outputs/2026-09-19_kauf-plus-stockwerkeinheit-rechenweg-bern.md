@@ -34,6 +34,16 @@ Einheiten im Stockwerkeigentum, sind vier Grössen zu rechnen, sonst täuscht de
    minus Bau, Reserve, Begründung, Mietausfall) ÷ (1 + Erwerbsnebenkosten). Als Reihe über die
    Sanierungstiefen zeigen: der Verhandlungsspielraum hängt fast ganz an der Sanierungstiefe.
 
+> **⚠ Korrektur am selben Tag (19.09.2026, nachmittags), nach Eingang der amtlichen Schätzung:**
+> Schritt 3 gilt nur für ein **vermietbares** Haus. Das Objekt war leer und von Grund auf
+> sanierungsbedürftig; die Orientierung über Quartier-Bestandesmieten hat den Wert heute deshalb
+> um rund die Sanierungskosten überschätzt, und die Aussage «Paket rund ein Viertel unter dem
+> Ertragswert» war falsch (tatsächlich lag das Paket 40 bis 50 % über dem Verkehrswert der
+> Schätzung). Für leere oder sanierungsbedürftige Objekte gilt der Residualweg, den auch die
+> Schätzung ging: **Ertragswert nach Sanierung minus aufgelaufene Rückstellungen minus dringende
+> Sanierung.** Ohne Zustandsangabe ist Schritt 3 als Obergrenze zu kennzeichnen, nicht als
+> Orientierung. Der Satz unten zur Anfechtung bleibt als Mechanik richtig, sein Zahlenbeispiel nicht.
+
 **Lehre des Falls:** Eine ungewöhnlich hohe Marge ist kein Zeichen eines guten Projekts, sondern
 eines tiefen Preises. Liegt das Paket der Verkäuferin deutlich unter der Orientierung des heutigen
 Ertragswerts (hier rund ein Viertel), sind Ablehnung oder spätere Anfechtung wahrscheinlich

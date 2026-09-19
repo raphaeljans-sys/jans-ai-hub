@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19 (nachmittags) — Ankauf gepfändeter Liegenschaften; Korrektur am Rechenweg vom Mittag
+
+- Neuer Report `outputs/2026-09-19_ankauf-gepfaendeter-liegenschaften-schkg.md` (anonymisiert):
+  Verfügungsbeschränkung und Freihandverkauf gepfändeter Grundstücke (SchKG Art. 96, 101, 116,
+  136, 143b), Folgen für Entwicklerstrukturen (Sachleistung an den Schuldner, Verrechnung,
+  Anfechtung nach Art. 287), Vorkaufsfall (OR 216c), Grundbucheinsicht (ZGB 970), Blockade eines
+  Ersatzneubaus durch Stockwerkeigentum (ZGB 712f), Bewertungsmuster einer Schätzung im
+  Betreibungsverfahren (Ertragswert nach Sanierung minus Rückstellungen minus dringende Sanierung).
+  Alle Artikel am Fedlex-Volltext geprüft.
+- Korrektur in `outputs/2026-09-19_kauf-plus-stockwerkeinheit-rechenweg-bern.md`, Abschnitt 1:
+  Die Orientierung über Quartiermieten gilt nur für ein vermietbares Haus; beim leeren,
+  sanierungsbedürftigen Objekt überschätzte sie den Wert um rund die Sanierungskosten. Als
+  datierter Vermerk eingefügt, übriger Text unverändert.
+- Kandidat für `wiki/residualwertmethode.md`: das Schätzungsmuster aus Abschnitt 4 des neuen
+  Reports; noch nicht eingepflegt.
+
 ## 2026-09-19 — Wissens-Rücklauf: Kauf gegen Barpreis plus Stockwerkeinheit (Forstweg 55, Bern)
 
 - Neuer Report `outputs/2026-09-19_kauf-plus-stockwerkeinheit-rechenweg-bern.md`: Rechenweg
