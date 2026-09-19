@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 09:01:34
+Stand: 19.09.2026 09:11:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
+- /private/tmp/claude/501//Users/raphaeljans/Developer/jans/ai/hub/24069679/35aa/4a6f/b5ef/26fdc94262e4/scratchpad  (letzte Aktivitaet 09:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +19,4 @@ Stand: 19.09.2026 09:01:34
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 24d0c5159 twin-mail-training Batch 124: rj@ Sent 17.09.2026 15:49 bis 18.09.2026 20:54
+- da6c46567 vollgas-fruehwarnung: Regellauf 19.09. MBP nach Shutdown, ohne Befund, keine Mail
