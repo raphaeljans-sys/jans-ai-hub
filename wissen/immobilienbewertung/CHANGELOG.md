@@ -2,6 +2,18 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19 — Wissens-Rücklauf: Tragbarkeit Renditeobjekt 2026, Mietrecht nach Sanierung, Marktdaten Bern
+
+- Neuer Report `outputs/2026-09-19_renditeobjekt-tragbarkeit-mietrecht-marktdaten-bern.md`:
+  SBVg-Revision per 01.01.2025 (25 %/10 Jahre für Renditeobjekte keine Selbstregulierung mehr,
+  Bankpraxis unverändert), Faustregel tragbare Hypothek ≈ 14 × Sollmiete, Baukredit-Deckel 70 %
+  (ERV Art. 72e), Überwälzungssatz nach BGer 4A_75/2022, Formularpflicht Kanton Bern, Marktdaten
+  Stadt Bern/Länggasse (CSL 2026, Statistik Stadt Bern 11.2025), Erwerbsnebenkosten Kanton Bern.
+  Kandidat für ein Gemeinde-Blatt Bern unter `wiki/marktdaten-gemeinden/`; nicht angelegt, weil
+  der Berner Rendite-Zuschlag hergeleitet und nicht gemessen ist.
+- → übergeben an `wissen/grobkosten`: acht reale Sanierungsabrechnungen Altbau-MFH der Stadt Bern
+  (Abschnitt 4 des Reports); Zeiger in `wissen/grobkosten/wiki/QUESTIONS.md` gesetzt.
+
 ## 2026-09-17 — Wissens-Chef Lauf 61: Parallelstelle zur BKP-Anteilsstruktur benannt
 
 - **WC61-8 (Zuschnitt schmaler als gemeldet).** `wiki/lageklasse-landwertanteil.md` Z. 150-153

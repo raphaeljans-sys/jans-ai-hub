@@ -2331,3 +2331,10 @@ kostenlos via GeoShop beziehen»; «Planauskünfte sind kostenlos»). Die Vermut
 «kostenpflichtig» im WEGE-Nachtrag 08.09. war eine ungeprüfte Annahme im Rahmen der
 WFS-Sackgassensuche, kein Gegenbeleg — im Artikel und in `connectors/WEGE.md` selbst
 korrigiert.
+
+## 2026-09-19 — Connector für den Kanton Bern?
+
+Die Endpunkte für Bern (ÖREB-JSON mit Geometrie, AV-WFS, GWR, städtischer Baulinienkataster und
+Bauinventar) sind belegt in `outputs/2026-09-19_kanton-bern-geodaten-endpunkte.md`. Ein Connector
+`geo-be.mjs` nach dem Muster `geo-zh.mjs` existiert nicht. Bauen, sobald ein zweiter Berner Fall
+vorliegt; bis dahin genügt der Report.

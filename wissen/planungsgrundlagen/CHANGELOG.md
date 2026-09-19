@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19 — Wissens-Ruecklauf: Kanton und Stadt Bern, amtliche Geodaten maschinell
+
+Neuer Report `outputs/2026-09-19_kanton-bern-geodaten-endpunkte.md`: OEREB-Webservice Kanton Bern
+(JSON mit Geometrie, inkl. Baulinien als Koordinaten), AV-WFS geodienste.ch (Gebaeudegrundrisse),
+GWR-API (Wohnungen mit Flaeche/Zimmer), staedtische ArcGIS-Dienste Baulinienkataster und Bauinventar;
+Rechenweg «Baufeld aus Baulinien» mit shapely; Fallstrick: OEREB fuehrt das Bauinventar der Stadt
+Bern als Thema ohne Daten. Kein Wiki-Artikel angelegt (erster Berner Fall). Offener Punkt
+Connector `geo-be.mjs` in `wiki/QUESTIONS.md` vermerkt.
+
 ## 2026-09-19 — Wissens-Ruecklauf aus Auftrag «Verkaufsgrundrisse 1:100 aus Plan-Scans»
 
 Neuer Report `outputs/2026-09-19_bestandesplan-scan-zu-verkaufsgrundriss.md`: wiederholbarer Weg

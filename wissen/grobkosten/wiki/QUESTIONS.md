@@ -1321,3 +1321,14 @@ richtige Aggregationsstufe: erkannt, richtig charakterisiert und trotzdem nie ü
   erkennbare JANS-Faustannahmen, plausibel und im Band, aber ohne Provenienz-Tag (Audit C,
   Health-Check 21.07.2026). Unkritisch, aber bei Gelegenheit mit einer Herleitung/Quelle
   hinterlegen, sobald eine verfügbar ist.
+
+## 2026-09-19 — Übergabe aus `wissen/immobilienbewertung`: Sanierungskennwerte Altbau-MFH Stadt Bern
+
+Bring-Schuld bei KB grobkosten. Der Abschnitt «Umbau / Sanierung» in `wiki/kennwerte.md` führt bisher
+einen einzigen Einzelfall (2620 Albertstrasse). Aus einem Finanzierungsfall liegen acht reale
+Abrechnungen von Immobilien Stadt Bern vor (Baujahre 1877 bis 1926, saniert 2011 bis 2021): BKP 2
+inkl. Honorare 650 bis 1'134 CHF/m³ GV (Median rund 825), total rund 2'200 bis 3'700 CHF/m² GF
+(Median 2'860), nicht indexiert, MwSt.-Behandlung ungeklärt. Quelle und Tabelle:
+`wissen/immobilienbewertung/outputs/2026-09-19_renditeobjekt-tragbarkeit-mietrecht-marktdaten-bern.md`
+Abschnitt 4. Offen: Bauflyer als `raw/` ingestieren, mit BFS «Renovation MFH» indexieren, Band für
+«Gesamtsanierung Altbau» bilden.

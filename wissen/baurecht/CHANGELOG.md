@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-19 — Wissens-Rücklauf: erster Berner Fall (Stadt Bern, Bauklassen und Baulinien)
+
+- Neuer Report `outputs/2026-09-19_stadt-bern-bauklassen-baulinien-besitzstand.md`: Nutzungsmass der
+  Stadt Bern ohne Ausnützungsziffer (Bauklasse = Vollgeschosse, BO Art. 28, 44, 46), Attika Art. 32,
+  Gebäudestellung und Grenzanbau Art. 47, 50, 52, Baulinien nach Art. 96a bis 96c BauG (Art. 90/91
+  seit 01.04.2017 aufgehoben), Besitzstand Art. 3 BauG und Art. 4 BO, Wohnraumschutz Art. 16a BO.
+  Am Originaltext gelesen. Bewusst nur Report, kein Wiki-Artikel: die KB führt ZH und SZ; ein
+  Berner Artikel wird erst bei einem zweiten Fall angelegt.
+
 ## 2026-09-18 — Wissens-Chef Lauf 62: Frontmatter-Syntax aus Lauf 61 repariert
 
 - `wiki/baureife-und-erschliessung.md` Z. 6 (`links:`): Beim Anhängen von
