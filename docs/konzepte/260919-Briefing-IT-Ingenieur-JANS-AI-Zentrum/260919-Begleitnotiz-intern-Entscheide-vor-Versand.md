@@ -6,7 +6,7 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **00.1 Versandbereit bis auf fünf Entscheide.** Vor dem Versand brauche ich von Dir: Bestellform, Wachstumsziel, Hub-Schnitt, Bewertungsraster und die Anbieterliste, dazu die Termine in den Platzhalterlinien. Zehn weitere Entscheide gehören in den Workshop von AP0 und halten den Versand nicht auf.
 
-**00.2 Zwei Stufen beim Versand.** Zuerst geht nur die zweiseitige Anfrage hinaus. Das Briefing und Beilage 1 folgen nach der Geheimhaltungsvereinbarung, der Befundkatalog liegt an der Begehung auf. Drei Prüfer haben unabhängig gewarnt: das volle Briefing beschreibt zusammen mit Firmenname und Mailadresse, wie das System angreifbar ist.
+**00.2 Zwei Stufen beim Versand.** Zuerst geht nur die zweiseitige Anfrage hinaus. Das Briefing und Beilage 1 folgen nach der Geheimhaltungsvereinbarung, der Befundkatalog liegt an der Begehung auf. Drei Prüfer haben unabhängig gewarnt: Das volle Briefing beschreibt zusammen mit Firmenname und Mailadresse, wie das System angreifbar ist.
 
 **00.3 Das Briefing ist auf dem Hybrid gebaut.** Geprüft wurden Cloud-first, eigener Server und Hybrid. Alle drei Richter des Panels wählen den Hybrid als Rückgrat: kleiner Kern zuerst, Ausbau nur bei geschäftlichem Auslöser.
 
@@ -18,9 +18,9 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 ## 01 Wie das Briefing entstanden ist
 
-**01.1 Ist-Analyse.** Zehn parallele, rein lesende Analyse-Läufe über je ein Subsystem, 120 belegte Befunde, zusammengeführt im Befundkatalog (48 Seiten). Drei Kernzahlen habe ich an der Quelle nachgemessen: 2'543 Läufe mit 43 % Fehlläufen, 46 Task-Definitionen und 346 Stall-Meldungen des Keepalive am 17.09.2026. Letztere sind eine einzige Episode von 03:15 bis 09:07, nicht 346 Abrisse. Den Fehler hat die Gegenprüfung gefunden, er ist überall korrigiert.
+**01.1 Ist-Analyse.** Zehn parallele, rein lesende Analyse-Läufe über je ein Subsystem, 120 belegte Befunde, zusammengeführt im Befundkatalog (55 Seiten). Drei Kernzahlen habe ich an der Quelle nachgemessen: 2'543 Läufe mit 43 % Fehlläufen, 46 Task-Definitionen und 346 Stall-Meldungen des Keepalive am 17.09.2026. Letztere sind eine einzige Episode von 03:15 bis 09:07, nicht 346 Abrisse. Den Fehler hat die Gegenprüfung gefunden, er ist überall korrigiert.
 
-**01.2 Panel in der Bilanz.** A Cloud-first: plus kleinster Eigenbetrieb, trägt Mitarbeitende und Mandanten am besten; minus zehn bis zwölf Anbieterbeziehungen, erzwingt faktisch den API-Betrieb, keine Sofortmassnahme vor dem 02.10. B Eigener Server: plus höchste Datenhoheit, härteste Abnahmetests; minus rund ein Dutzend selbst betriebene Dienste, teuerste und längste Variante, Klumpenrisiko Büro. C Hybrid: plus ein Host, eine Datenbank, Ausbau nur bei Auslöser, Sofortmassnahmen, Eigenleistung beziffert; minus Aufwände im Entwurf rund um die Hälfte zu tief (in 05 korrigiert), Geräteverwaltung und Mandantenfeld zu spät (im Briefing vorgezogen).
+**01.2 Panel in der Bilanz.** A Cloud-first: plus kleinster Eigenbetrieb, trägt Mitarbeitende und Mandanten am besten; minus zehn bis zwölf Anbieterbeziehungen, erzwingt faktisch den API-Betrieb, keine Sofortmassnahme vor dem 02.10. B Eigener Server: plus höchste Datenhoheit, härteste Abnahmetests; minus rund ein Dutzend selbst betriebene Dienste, teuerste und längste Variante, Klumpenrisiko Büro. C Hybrid: plus ein Host, eine Datenbank, Ausbau nur bei Auslöser, Sofortmassnahmen, Eigenleistung beziffert; minus Aufwände im Entwurf um rund die Hälfte zu tief (in 05 korrigiert), Geräteverwaltung und Mandantenfeld zu spät (im Briefing vorgezogen).
 
 **01.3 Gegenprüfung.** Sechs Prüfer haben Briefing, Beilage und diese Notiz gelesen: skeptischer Ingenieur, Faktencheck, Rechtschreibung, Layout, Stil-Gate, Vertraulichkeit. Eingearbeitet sind unter anderem: Offerte verlangt nicht mehr gratis, was AP0 bezahlt liefert; Abnahmewerte sind als Vorschlagswerte markiert; «gemeinsame» Pakete haben eine Abgrenzung; Repository wird nur einmal geschnitten; sechs statt vierzehn Fragen.
 
@@ -32,7 +32,7 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **02.2 NAS-Backup nachweisen.** Im DSM prüfen, ob Hyper Backup läuft, wohin, wann zuletzt. Eine Datei wirklich zurückholen. Im Hub steht dazu nur eine Zeile vom 10.06.2026, das Volume ist zu 93 % belegt.
 
-**02.3 Zweiter Alarmkanal.** Push-Kanal und ein externer Dead-Man-Switch für Tagesbriefing und Fristen-Radar. Der Mail-Weg ist mindestens dreimal still ausgefallen.
+**02.3 Zweiter Alarmkanal.** Push-Kanal und ein externer Dead-Man-Switch für Tagesbriefing und Fristen-Radar. Der Mailweg ist mindestens dreimal still ausgefallen.
 
 **02.4 Git-Konto prüfen.** Zwei-Faktor, Branch-Schutz, Schreibrecht des Deploy-Schlüssels der Synology.
 
@@ -54,11 +54,11 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **03.2 Wachstumsziel.** Wie viele Mitarbeitende und Stationen bis wann? Das Audit vom 10.06.2026 nennt bis zu fünf weitere Stationen. Vorschlag: bei «einige Mitarbeitende» bleiben, eine Zahl braucht der Ingenieur erst beim Auslöser von AP14.
 
-**03.3 Hub-Schnitt.** Neun Hubs in drei Gruppen, in Stufe 1 technisch nur drei Zonen (Briefing 04.3 und 04.6). Der Schnitt ist mein Vorschlag aus Geschäftsmodell und Service-Katalog, im Repo gab es dazu kein Konzept. Vorschlag: so versenden, AP0 darf ihn korrigieren.
+**03.3 Hub-Schnitt.** Neun Hubs in drei Gruppen, in Stufe 1 technisch nur drei Zonen (Briefing 04.3 und 04.6). Der Schnitt ist mein Vorschlag aus Geschäftsmodell und Service-Katalog, im Repository gab es dazu kein Konzept. Vorschlag: so versenden, AP0 darf ihn korrigieren.
 
-**03.4 Bewertungsraster und Form.** Gewichte 30, 20, 20, 15, 15, Bindefrist drei Monate, höchstens zehn Seiten. Im Briefing 07.3 und AP10 stehen zudem drei Platzhalter für Dein Zeitbudget, Deine Entscheidfrist und die Servicezeiten. Vorschlag: ein Tag je Woche, Entscheid innert fünf Arbeitstagen, Servicezeiten werktags 07:00 bis 18:00.
+**03.4 Bewertungsraster und Form.** Gewichte 30, 20, 20, 15, 15; Bindefrist drei Monate; höchstens zehn Seiten. Im Briefing 07.3 und AP10 stehen zudem drei Platzhalter für Dein Zeitbudget, Deine Entscheidfrist und die Servicezeiten. Vorschlag: ein bis zwei Tage je Woche (in Umschaltphasen zwei), Entscheid innert fünf Arbeitstagen, Servicezeiten werktags 07:00 bis 18:00.
 
-**03.5 Anbieterliste und Vereinbarung.** Mindestens drei Anbieter, damit die Offerten vergleichbar sind. Namen kenne ich keine und erfinde keine. Auf Zuruf recherchiere ich eine Liste nach dem Profil in 07, je Eintrag mit Quelle. Die Anfrage kündigt eine Geheimhaltungsvereinbarung des Büros an. Kein Vorschlag, mir fehlt eine Vorlage: entweder stellt sie Deine Rechtsfachperson, oder Du akzeptierst die des Anbieters, dann passe ich Anfrage 04.2 an.
+**03.5 Anbieterliste und Vereinbarung.** Mindestens drei Anbieter, damit die Offerten vergleichbar sind. Namen kenne ich keine und erfinde keine. Auf Zuruf recherchiere ich eine Liste nach dem Profil in 07, je Eintrag mit Quelle. Die Anfrage kündigt eine Geheimhaltungsvereinbarung des Büros an. Kein Vorschlag, mir fehlt eine Vorlage: Entweder stellt sie Deine Rechtsfachperson, oder Du akzeptierst die des Anbieters, dann passe ich Anfrage 04.2 an.
 
 ## 04 Entscheide für den Workshop von AP0
 
@@ -74,11 +74,11 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **04.6 Datenstandort.** Ist die Schweiz zwingend oder genügt die EU mit Vertrag? Vorschlag: vorher die Geheimhaltungsklauseln der Bauherrschaften im Gesundheitswesen prüfen lassen.
 
-**04.7 Rollenteilung.** Vorschlag: Die KI baut weiterhin Skills, Wissen und Harness über Vorschläge, Plattform, Identität, Netz, Secrets und Policy laufen nur über den Ingenieur.
+**04.7 Rollenteilung.** Vorschlag: Die KI baut weiterhin Skills, Wissen und Harness über Vorschläge; Plattform, Identität, Netz, Secrets und Policy laufen nur über den Ingenieur.
 
 **04.8 Privat und Geschäft.** Vorschlag: private Mailkonten und private Scripts (IPTV) aus dem Geschäfts-Hub herauslösen.
 
-**04.9 Umfang vor Migration.** Welche der 46 Task-Definitionen und der 21 nie aufgerufenen Skills überhaupt weiterleben. Vorschlag: ich lege Dir vor AP6 eine Streichliste vor. Jede gestrichene Routine spart Ingenieurtage.
+**04.9 Umfang vor Migration.** Welche der 46 Task-Definitionen und der 21 nie aufgerufenen Skills leben überhaupt weiter? Vorschlag: Ich lege Dir vor AP6 eine Streichliste vor. Jede gestrichene Routine spart Ingenieurtage.
 
 **04.10 Wartungsmodell.** Reaktionszeiten, Patch-Fenster, Stellvertretung im Notfall. Vorschlag: aus den Offerten übernehmen und vergleichen.
 
@@ -102,7 +102,7 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **05.3 Herleitung.** Stufe 1 und Eigenleistung sind die Hüllkurve dreier Richterwerte für den Umfang des Hybrid-Entwurfs. Das Briefing hat Stufe 1 um Geräteverwaltung, Red-Team-Suite und Rückbau erweitert, das untere Ende gilt also für einen kleineren Umfang. Die Ausbaupakete stützen sich auf den Entwurf (33 bis 59 Tage, abzüglich der vorgezogenen Geräteverwaltung); das Studio-Hosting hat das Panel nicht beziffert. Die Kalenderdauer ist der Panelwert von 16 bis 25 Wochen mal 1.5 für Deine Verfügbarkeit.
 
-**05.4 Tagessatz.** Unbekannt und unbelegt, vom Ingenieur zu offerieren. Mit der Panel-Annahme von CHF 1'200 bis 1'800 je Tag läge Stufe 1 bei rund CHF 72'000 bis 180'000, die Erstbestellung bei CHF 30'000 bis 72'000, die Wartung bei CHF 1'200 bis 3'600 je Monat. Ein Prüfer hält das gesuchte Profil für eher am oberen Rand oder darüber. Die Entwürfe Cloud-first und eigener Server bezifferten sich selbst auf CHF 85'000 bis 185'000 beziehungsweise CHF 100'000 bis 265'000, mit anderen Tagessätzen und Abgrenzungen. Normalisiert bleibt der Hybrid laut Panel rund einen Viertel bis einen Drittel günstiger als Cloud-first.
+**05.4 Tagessatz.** Unbekannt und unbelegt, vom Ingenieur zu offerieren. Mit der Panel-Annahme von CHF 1'200 bis 1'800 je Tag läge Stufe 1 bei rund CHF 72'000 bis 180'000, die Erstbestellung bei CHF 30'000 bis 72'000, die Wartung bei CHF 1'200 bis 3'600 je Monat. Ein Prüfer sieht das gesuchte Profil eher am oberen Rand oder darüber. Die Entwürfe Cloud-first und eigener Server bezifferten sich selbst auf CHF 85'000 bis 185'000 beziehungsweise CHF 100'000 bis 265'000, mit anderen Tagessätzen und Abgrenzungen. Normalisiert bleibt der Hybrid laut Panel rund einen Viertel bis einen Drittel günstiger als Cloud-first.
 
 **05.5 Warnzeichen in einer Offerte.** Stufe 1 deutlich unter 50 Ingenieurtagen (dann fehlen Freigabeschicht oder Datenschutz), Wartung unter einem Tag je Monat bei vielen selbst betriebenen Diensten, keine ausgewiesene Eigenleistung, kein Zeitbedarf des Inhabers, mehr als eine Handvoll selbst betriebener Dienste.
 
@@ -132,13 +132,13 @@ Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Nur für den Inhaber, ni
 
 **08.3 Versand 2, nach der Vereinbarung.** Unterordner `260919-Versand-2-nach-Geheimhaltung/` mit genau zwei Dateien: Briefing und Beilage 1 als PDF. Nie MD, DOCX oder HTML an Dritte. Je Empfänger empfiehlt sich ein eigenes PDF mit Firmenname in der Fusszeile, das erzeuge ich auf Zuruf.
 
-**08.4 Nur zur Einsicht.** Der Befundkatalog ist auch nach der Vereinbarung eine ausführbare Anleitung. Einsicht an der Begehung, Abgabe nur an den Anbieter, der AP0 erhält, und erst nachdem 02.5 bis 02.7 geschlossen sind.
+**08.4 Nur zur Einsicht.** Der Befundkatalog ist auch nach der Vereinbarung eine ausführbare Anleitung. Einsicht an der Begehung, Abgabe nur an den Anbieter, der AP0 erhält, und erst nachdem 02.4 bis 02.7 und 02.9 geschlossen sind.
 
 ## 09 To-do in dieser Reihenfolge
 
 **09.1 Bis 02.10.2026.** bexio-Monatslauf eingrenzen (02.1).
 
-**09.2 Diese Woche.** Backup-Nachweis und zweiter Alarmkanal (02.2, 02.3). 02.4 bis 02.9 auf Zuruf, die Klickwege liefere ich.
+**09.2 Diese Woche.** Backup-Nachweis und zweiter Alarmkanal (02.2, 02.3). 02.4 bis 02.9 auf Zuruf, die Klickwege liefere ich. 02.4 bis 02.7 und 02.9 müssen vor dem Versand von Briefing und Beilage erledigt sein.
 
 **09.3 Vor dem Versand.** Die fünf Entscheide aus 03, Termine in die Platzhalterlinien von Anfrage und Briefing.
 

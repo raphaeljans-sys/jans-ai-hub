@@ -27,7 +27,7 @@ Raphael Jans Architekten ETH/SIA · Grubenstrasse 37 · 8045 Zürich · Stand 19
 | AP4 | Secrets und Least Privilege | AP10 | Rückbau, Übergabe, Wartung |
 | AP5 | Daten und Sync | | |
 
-**02.2 Randbedingungen.** macOS bleibt für CAD, Render und Layout, Microsoft 365 und bexio bleiben, Claude bleibt die KI-Engine. Schweizer DSG, ein Teil der Bauherrschaften stellt erhöhte Anforderungen an Vertraulichkeit. Das Büro hat keine IT-Fachperson und sucht eine Lösung mit Wartungsvertrag. Umbau in Etappen mit Parallelbetrieb und Haltepunkten, die laufenden Bauprojekte dürfen nicht stehen.
+**02.2 Randbedingungen.** macOS bleibt für CAD, Render und Layout; Microsoft 365 und bexio bleiben; Claude bleibt die KI-Engine. Es gilt das Schweizer DSG. Ein Teil der Bauherrschaften stellt erhöhte Anforderungen an Vertraulichkeit. Das Büro hat keine IT-Fachperson und sucht eine Lösung mit Wartungsvertrag. Umbau in Etappen mit Parallelbetrieb und Haltepunkten, die laufenden Bauprojekte dürfen nicht stehen.
 
 ## 03 Gesuchtes Profil
 
@@ -39,11 +39,11 @@ Raphael Jans Architekten ETH/SIA · Grubenstrasse 37 · 8045 Zürich · Stand 19
 
 **04.1 Interesse.** Ihre Interessensmeldung mit zwei bis drei Referenzen bis ________________ an rj@raphaeljans.ch.
 
-**04.2 Geheimhaltung.** Darauf erhalten Sie die Geheimhaltungsvereinbarung des Büros. Nach Unterzeichnung folgen das Briefing (rund zwölf Seiten mit Befund, Zielbild, Paketen und Abnahmekriterien) und die Architektur-Beilage. Der Befundkatalog mit 120 belegten Befunden liegt an der Begehung zur Einsicht auf.
+**04.2 Geheimhaltung.** Darauf erhalten Sie die Geheimhaltungsvereinbarung des Büros. Nach Unterzeichnung folgen das Briefing (rund dreizehn Seiten mit Befund, Zielbild, Paketen und Abnahmekriterien) und die Architektur-Beilage. Der Befundkatalog mit 120 belegten Befunden liegt an der Begehung zur Einsicht auf.
 
 **04.3 Begehung.** Termin im Büro mit Einsicht in das laufende System: ________________.
 
-**04.4 Offerte.** AP0 als Festpreis, Stundenansätze, Richtpreise je Paket mit Annahmen, Wartungspauschale. Eingang bis ________________.
+**04.4 Offerte.** AP0 als Festpreis mit Kostendach für die Sofortmassnahmen, Stundenansätze, Richtpreise je Paket mit Annahmen, Richtwert der Wartung. Eingang bis ________________.
 
 **04.5 Vergabe.** Entscheid bis ________________, zuerst AP0.
 
