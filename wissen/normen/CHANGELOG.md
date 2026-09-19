@@ -1,3 +1,29 @@
+## 2026-09-19 (Normen-Nacht Run 88, MacBook Pro, SIA/VKF) — N87-1 erledigt, `lignum-4-2` auf `established` gehoben
+
+**Zwei Arbeitsblöcke auf `destillate/lignum-4-2-anschluesse-feuerwiderstand.md`.**
+
+- **Block 1, N87-1: Piktogramme der Anhang-2-Matrizen aufgenommen.** 33 Piktogramme in 22 Zeilen
+  (S. 51-54, 600 dpi, Präfix `l42-r88-`): Stossform, Brandseite, Weiterleitungsweg, Flächenton
+  jedes der 81 Arme **gemessen** (drei Klassen BLAU/GRAU/WEISS, scharf getrennt). Zwei blinde
+  Prüf-Agenten: 33/33 Stossformen, 81/81 Armtöne, 33/33 Flammen-/Pfeillagen bestätigt, 0
+  Widersprüche; die eine Unsicherheit vom Hauptprozess am Original entschieden. Die
+  Matrixtabellen tragen jetzt eine Spalte «Piktogramm». Tonzuordnung (BLAU = RF1, GRAU = babb
+  Holz, WEISS = nicht babb) **abgeleitet** aus Tabellentiteln und Farbfamilie der Legende Kap. 6,
+  als solche markiert. Anlage `training/l42-anhang2-piktogramme-260919.md`.
+- **Block 2: Refuter-Runde auf die ~30 Inline-Nachträge der Abdeckungsrunde Run 86**, die nie
+  widerlegt worden waren. Zwei blinde Pakete mit je einem untergeschobenen Falschwert — **2/2
+  erkannt**. Destillat: **2 Kernbefunde** inline korrigiert (Kap. 5.2.1 «sinngemäss» steht nicht
+  im Original; Kap. 5.2.2 Installationsverbot war auf Betonschichten ausgedehnt, steht aber nur
+  im Estrich-Absatz), 2 Nebenbefunde, **0 falsche Zahlenwerte**. Fünf Refuter-Meldungen trafen
+  Verdichtungsfehler des Pakets, nicht des Destillats — nicht übernommen (Methodik-Pflicht 7).
+- **Fassungsstand erhoben:** Herausgeber-Shop führt 4.2 als 2018, 64 S. = Hausexemplar.
+- **Status `speculative` → `established`**, Begründung und Restvorbehalte im Prüfstand des
+  Destillats. INDEX nachgeführt. QUESTIONS: N87-1 geschlossen, neu N88-1 (Installationsverbot
+  Beton, fachlich offen), N88-2 (Methodenbeobachtung Paketfehler), N88-3 (nächster Lauf).
+- Selbstkorrekturen im Lauf, vor Übernahme: zwei Plausibilitätsaussagen Geometrie/Zellmuster
+  aus dem Gedächtnis waren falsch, eine Armzahl verzählt — alle am Messprotokoll berichtigt.
+- Report `outputs/2026-09-19_normen-nacht-run88.md`. Stations-Split eingehalten (kein DIN/VSS/RAL).
+
 ## 2026-09-18 — Wissens-Chef Lauf 62: Rückkante vom Filz-Report ins BRL-14-15-Destillat
 
 - **WC62-3.** `destillate/vkf-brl-verwendung-baustoffe.md` führt die Zellen der Tabelle Ziff. 4.2

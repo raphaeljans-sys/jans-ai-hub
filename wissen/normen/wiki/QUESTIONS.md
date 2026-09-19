@@ -11,6 +11,45 @@
   korrekt und diente der KB `energie` als Zweitbeleg für ihre Berichtigung (RF1 → RF2 (cr)). Präzisierung
   des Wortlauts ist Entscheid dieser KB; `wissen/energie` hat hier nichts editiert.
 
+## Normen-Nacht Run 88 (19.09.2026) — N87-1 geschlossen, `lignum-4-2` auf `established` gehoben
+
+**N87-1 erledigt.** Die 33 Piktogramme der 22 Matrix-Zeilen (Tab. A22-1 bis A25-1, S. 51-54)
+sind aufgenommen: Stossform (T, L, Kreuz, Flucht), Brandseite, Weiterleitungsweg und der
+gemessene Flächenton jedes der 81 Arme. Zwei blinde Prüf-Agenten, 0 Widersprüche. Die
+Matrixtabellen im Destillat tragen jetzt eine Spalte «Piktogramm»; die Zeilen sind nur aus
+Randbeschriftung **und** Piktogramm zusammen eindeutig. Beleg
+`training/l42-anhang2-piktogramme-260919.md`.
+
+**Zusätzlich gefahren:** Refuter-Runde auf die rund 30 Nachträge der Abdeckungsrunde Run 86,
+die selbst nie widerlegt worden waren. 2 von 2 untergeschobenen Kontrollwerten erkannt, 2
+Kernbefunde inline korrigiert, 0 falsche Zahlenwerte. Danach Status `established`.
+
+### N88-1 — Gilt das Installationsverbot der Kap. 5.2.2 auch für Betonschichten? (fachlich offen, P3)
+
+Lignum 4.2, S. 35: das Verbot, Installationen (z.B. Heizungsrohre) in brandschutztechnisch
+wirksamen Schichten zu führen, steht im Absatz über **fugenlose Estriche** (30 mm/50 mm) und
+bezieht sich auf «diese» Schichten. Der folgende Absatz zu **Normalbeton** (60 mm/80 mm) als
+Brandschutzbekleidung wiederholt es nicht. Das Destillat hatte es bis Run 88 auf Beton
+ausgedehnt (korrigiert). Sachlich liegt die Übertragung nahe (gleiche Funktion als Bekleidung),
+belegt ist sie nicht. Klärungsweg: Lignum 4.1 [7], auf die die Stelle verweist, am Original
+nachlesen (`destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` führt das
+Thema); sonst Brandschutzbehörde. Bis dahin im Projekt vorsichtshalber wie Estrich behandeln.
+
+### N88-2 — Aussagenpakete erzeugen eigene Fehler (Methodenbeobachtung, keine Pflicht)
+
+Von 30 Paketaussagen der Refuter-Runde trafen **fünf Meldungen Verdichtungsfehler des Pakets**,
+nicht des Destillats (eine falsche Legendenzuordnung, ein zu weit gefasster Verweis, drei
+Seitenangaben). Die Pakete wurden vom Hauptprozess aus dem Destillat verdichtet; genau dabei
+entstanden die Fehler. Folge für jede Runde mit blinden Paketen: jede Refuter-Meldung wird am
+**Destillattext** entschieden, nicht am Paket (sonst werden richtige Stellen «korrigiert»).
+Möglicher Ausbau: Pakete als wörtliche Auszüge des Destillats bilden statt als Paraphrase.
+Beobachtung einmal belegt, **nicht** als Pflicht vorgeschlagen.
+
+### N88-3 — nächster Lauf
+
+Die Abdeckungsrichtung auf `lignum-4-1` und `lignum-lignatec` (so bereits von Run 87 benannt),
+vorab mit `pdfimages -list` prüfen, ob auch diese Quellen MRC-Mischraster sind.
+
 ## Normen-Nacht Run 87 (18.09.2026) — N86-1 geschlossen: die Anhang-2-Matrizen der Lignum 4.2 sind aufgenommen
 
 **N86-1 erledigt.** Die vier Übersichtsmatrizen Tab. A22-1 bis A25-1 (S. 51-54) sind Zelle für
@@ -20,7 +59,7 @@ Bereich 251-254 liegt nichts. Drei unabhängige Ablesungen je Tabelle, **221 von
 unabhängig bestätigt, 0 Widersprüche**. Inhalt im Destillat, Messwerte und Verifikation in
 `training/l42-anhang2-zellaufnahme-260918.md`.
 
-### N87-1 — die Matrix-Zeilen sind ohne Piktogramm-Beschreibung nicht auswählbar (nächster Schritt)
+### ~~N87-1 — die Matrix-Zeilen sind ohne Piktogramm-Beschreibung nicht auswählbar~~ ✅ ERLEDIGT Run 88 (19.09.2026)
 
 Die Matrizen unterscheiden ihre Zeilen über **Piktogramme**, nicht über die Randbeschriftung:
 Tab. A23-1 führt vier von acht Zeilen als «Wand-Decke», Tab. A25-1 drei von acht. Wer aus dem

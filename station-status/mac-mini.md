@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 09:05:31
+Stand: 19.09.2026 09:26:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 09:05:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8ce9e3bb1 logbuch-radar 19.09.2026: Register +7 Zeilen (GVZ Ziegel abwesend, Zargen Frist verstrichen, josmos-Adresse, Tx 3796, Sicherheit), Radar-Briefing, eigene Mail (Chef heute nicht gelaufen)
+- 254fdf0dd nas-selfcommit: 1 Datei(en) 2026-09-19 09:15

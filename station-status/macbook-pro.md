@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 09:11:52
+Stand: 19.09.2026 09:22:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
@@ -19,4 +19,4 @@ Stand: 19.09.2026 09:11:52
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- da6c46567 vollgas-fruehwarnung: Regellauf 19.09. MBP nach Shutdown, ohne Befund, keine Mail
+- 254fdf0dd nas-selfcommit: 1 Datei(en) 2026-09-19 09:15

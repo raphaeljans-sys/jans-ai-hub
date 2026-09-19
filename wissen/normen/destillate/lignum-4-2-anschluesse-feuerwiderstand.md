@@ -4,8 +4,8 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (Stand Run 87, 18.09.2026: die in Run 86 als Hebungsbedingung genannte rechnerische Zellaufnahme der vier Anhang-2-Matrizen ist erledigt — 224 von 224 Zellen gemessen, drei unabhängige Ablesungen deckungsgleich, 0 Widersprüche. Keine Hebung, weil die Zeilen der Matrizen nur über die Piktogramme unterscheidbar sind und diese im Destillat noch nicht beschrieben sind (N87-1). Vorstand Run 86, 16.09.2026: beide Prüfrichtungen sind jetzt auf der gesamten Quelle gelaufen — Refuter-Runden 1-5, Abdeckungsrichtung in Runde 6 über alle 63 gedruckten Seiten, 0 falsche Werte, 26 Kernlücken inline nachgetragen. Keine Statushebung, weil die Zellen der Anhang-2-Matrizen nie rechnerisch aufgenommen wurden; siehe Prüfstand am Ende. Herabgestuft in Run 85 von established)"
-last_updated: 2026-09-18
+status: "established (gehoben Run 88, 19.09.2026: beide Prüfrichtungen auf allen Teilen gelaufen, auch auf den Run-86-Nachträgen — Refuter-Runde 8 mit 30 Aussagen, 2 von 2 untergeschobenen Kontrollwerten erkannt, 2 Kernbefunde in Kap. 5.2.1/5.2.2 am Original entschieden und inline korrigiert; Anhang-2-Piktogramme aufgenommen und von zwei blinden Agenten ohne Widerspruch bestätigt (N87-1 geschlossen); Fassungsstand 2018 beim Herausgeber belegt. Restvorbehalte im Prüfstand am Ende. Vorstand: speculative (Stand Run 87, 18.09.2026: die in Run 86 als Hebungsbedingung genannte rechnerische Zellaufnahme der vier Anhang-2-Matrizen ist erledigt — 224 von 224 Zellen gemessen, drei unabhängige Ablesungen deckungsgleich, 0 Widersprüche. Keine Hebung, weil die Zeilen der Matrizen nur über die Piktogramme unterscheidbar sind und diese im Destillat noch nicht beschrieben sind (N87-1). Vorstand Run 86, 16.09.2026: beide Prüfrichtungen sind jetzt auf der gesamten Quelle gelaufen — Refuter-Runden 1-5, Abdeckungsrichtung in Runde 6 über alle 63 gedruckten Seiten, 0 falsche Werte, 26 Kernlücken inline nachgetragen. Keine Statushebung, weil die Zellen der Anhang-2-Matrizen nie rechnerisch aufgenommen wurden; siehe Prüfstand am Ende. Herabgestuft in Run 85 von established))"
+last_updated: 2026-09-19
 links: [[REGISTER]]
 ---
 
@@ -450,8 +450,10 @@ K30-RF1; Zwischenräume mit Baustoffen der RF1 hohlraumfrei auszufüllen (Beispi
 nicht brennbare Dämmung, Beton, Sand; Nachtrag Run 86).
 
 **5.2.1 Allgemeines (S. 35; Nachtrag Run 86, fehlte):** Für Anschlüsse von Bauteilen RF1 mit
-Holzanteilen gelten die **Ausführungsbestimmungen aus Kap. 3 sinngemäss**, sofern nachfolgend
-nichts Abweichendes definiert ist; einzusetzen sind Produkte gemäss Kap. 3.4.
+Holzanteilen gelten die **Ausführungsbestimmungen gemäss Kap. 3**, sofern nachfolgend nichts
+Abweichendes definiert ist; einzusetzen sind Produkte gemäss Kap. 3.4. [⚠ Run 88, Refuter-Runde
+am Rendering S. 35 bestätigt: hier stand «sinngemäss» — das Wort steht nicht im Original, die
+Vorgabe ist unmittelbar, nicht bloss sinngemäss.]
 
 **5.2.2 Brandschutzbekleidung mit Baustoffen RF1 (Tabelle 522-1, S. 35):** Für 30 Minuten
 Feuerwiderstandsdauer: Bekleidung K30-RF1 (VKF-Anerkennung Registergruppe 230
@@ -466,10 +468,16 @@ gewandte Seite: bei Bekleidungen K auf ΔTMW = 250 °C / ΔTmax = 270 °C begren
 abschnittsbildenden Bauteilen auf ΔTMW = 140 °C / ΔTmax = 180 °C. Ergänzend Kap. 5.2.2, S. 35:
 Brandschutzbekleidung mind. K30-RF1 für Bauteile RF1 mit 30 und 60 Min. FW-Dauer, mind.
 K60-RF1 für solche mit 90 Min. Mindestbewehrungsüberdeckungen gemäss Norm SIA 262 [15]
-einzuhalten. ⚠ **Nachtrag Run 86 (ausführungsrelevant): In Estrich- bzw. Betonschichten, die als
-Brandschutzbekleidung angerechnet werden, ist die Führung von Installationen (z.B. Heizungsrohren)
-NICHT zulässig** (Verweis [7]); Fugen und Ränder sind mit vergleichbaren Materialien zu schliessen
-(Mineralwolle mit Schmelzpunkt ≥ 1'000 °C, Brandschutzsilikon).
+einzuhalten. ⚠ **Nachtrag Run 86 (ausführungsrelevant), Reichweite berichtigt Run 88: In den fugenlosen
+zement- oder kalziumsulfatgebundenen Estrichschichten, die als Brandschutzbekleidung wirken
+(30 mm bzw. 50 mm), ist die Führung von Installationen (z.B. Heizungsrohren) NICHT zulässig**
+(Verweis [7]); Fugen und Ränder sind dort mit Materialien vergleichbarer Qualität auszuführen
+(Mineralwolle mit Schmelzpunkt ≥ 1'000 °C, Brandschutzsilikon usw.). [Run 88, am Rendering S. 35
+abgelesen: das Verbot steht im Estrich-Absatz und bezieht sich auf «diese» Schichten; der
+anschliessende Absatz zu Betonschichten (60 mm/80 mm) wiederholt es **nicht**. Die frühere
+Fassung «Estrich- bzw. Betonschichten» dehnte es ohne Beleg auf Beton aus. Ob es für Beton
+sinngemäss gilt, sagt die Quelle nicht; für die Planung vorsichtshalber gleich behandeln und
+mit der Brandschutzbehörde klären.]
 
 **5.2.3 Fugenausbildung von Brandschutzbekleidungen (S. 36):** Unterkonstruktion/Befestigung/
 Fugenausbildung gemäss VKF-Anerkennung; dahinter liegende brennbare Schichten während der
@@ -494,8 +502,8 @@ Kap. 4.2.1 (gleichwertige Lösungen im Einvernehmen mit der Brandschutzbehörde)
   der Hohlraum vollständig mit Baustoffen der RF1 auszufüllen und zusätzlich eine der Lösungen
   umzusetzen (Bauteilaufbau wie in der Bauteilfläche bzw. separater Fugennachweis gemäss [6],
   oder Fugenausbildung gemäss Kap. 5.4). Legende 5: Brandschutzbekleidung Ktt-RF1, Überlappung
-  mit Bauteil K30-RF1 c ≥ 50 mm, K60-RF1 c ≥ 80 mm. Die drei Abdeckungsvarianten (Nachtrag
-  Run 86): Legende 3 Abdeckung **ohne freie Plattenränder** · Legende 4 Abdeckung durch
+  mit Bauteil K30-RF1 c ≥ 50 mm, K60-RF1 c ≥ 80 mm. Weitere Abdeckungsvarianten (Nachtrag
+  Run 86; neben der überlappenden Brandschutzbekleidung der Legende 5): Legende 3 Abdeckung **ohne freie Plattenränder** · Legende 4 Abdeckung durch
   **vollflächige Beplankung des Bauteils** · Legende 6 Abdeckung durch **Vollquerschnitt**.
 - 5.3.5 Zusammenschlüsse (S. 41): bei identischer FW-Dauer der Bekleidungen feuerwiderstands-
   fähige Zusammenführung möglich; weisen die Bekleidungen je Bauteil eine unterschiedliche
@@ -531,7 +539,7 @@ Kap. 4.2.1 (gleichwertige Lösungen im Einvernehmen mit der Brandschutzbehörde)
   Bauteile umlaufend abzuschliessen** (Kap. 5.3.2/5.3.3); Fugenbreite > 80 mm = Bauteilöffnung,
   brandschutztechnisch wie Bauteil. Fugenausbildungs-Varianten der Abb. 540-1 (Nachtrag Run 86,
   fehlten ganz): 1 Abdichtung **beidseitig** mit Klebeband/Fugenband/Dichtungsmasse (Bild 1,
-  f ≤ 2 mm) · 2 Mineralwolle, Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³, ganzer Hohlraum ausgefüllt ·
+  f ≤ 2 mm, sowie Bild 2a, f ≤ 80 mm; Run 88) · 2 Mineralwolle, Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³, ganzer Hohlraum ausgefüllt ·
   3 Verfüllen der Anschlussfuge mit Mörtel/Fugenspachtel, ganzer Hohlraum ausgefüllt ·
   4 VKF-anerkanntes Fugenabdichtungssystem, Registergruppe 224 [2], Rahmenbedingungen siehe
   Tab. 441-1.
@@ -574,6 +582,28 @@ Destillat nur beschrieben, **dass** es sie gibt; der Inhalt der Matrizen fehlte 
 Er ist jetzt rechnerisch aufgenommen (Methodik-Pflicht 8), Beleg und Messwerte:
 `training/l42-anhang2-zellaufnahme-260918.md`.
 
+**Zeilenschlüssel (Piktogramme aufgenommen 19.09.2026, Run 88; Beleg
+`training/l42-anhang2-piktogramme-260919.md`).** Jede Zeile trägt links ein Piktogramm:
+gelbes Quadrat = Anschlussknoten, Doppellinien = anschliessende Bauteile, grosse Flamme =
+Brandseite, Pfeil = Weiterleitungsweg über den Knoten, kleine Flamme = Seite, auf die der
+Brand weitergeleitet werden könnte (dieselbe Bildsprache wie Abb. 421-1, S. 13). Stossformen:
+**T** = ein Bauteil läuft beidseits weiter, das andere endet am Knoten · **L** = Ecke ·
+**Kreuz** · **Flucht** = zwei Elemente stossen in einer Linie stumpf aneinander. Wand-Wand-
+Zeilen sind Grundrisse, Wand-Decke und Decke-Decke Schnitte. **Die Randbeschriftung allein
+identifiziert eine Zeile nicht, das Piktogramm allein auch nicht** (die Paare Z. 1/2, 5/6 und
+7/8 der Tab. A23-1/A25-1 sind im Bild gleich und unterscheiden sich nur in der Beschriftung);
+erst beides zusammen ist eindeutig.
+
+**Bauteiltöne (abgeleitet, keine eigene Legende im Anhang 2):** gemessen sind drei Klassen,
+BLAU (RGB ~215/240/247), GRAU (244-251 neutral) und WEISS (255). A23-1 zeichnet alle Arme
+grau, A25-1 alle blau, A22-1 in jedem Piktogramm genau einen grauen und einen weissen Arm,
+A24-1 blau und grau gemischt. Daraus und in derselben Farbfamilie wie die Legende Kap. 6
+(S. 46: Blau = nicht brennbar, Grau = brennbar mit FW ≥ 30 Min., Weiss = ohne weitere Aussage;
+die Piktogramme sind aber deutlich heller als die dortigen Swatches): **BLAU = Bauteil RF1 ·
+GRAU = brandabschnittsbildendes Holzbauteil · WEISS = nicht brandabschnittsbildendes
+Bauteil.** In A24-1 sind alle Holzarme grau, obwohl der Titel auch nicht babb Holzbauteile
+nennt; dort heisst Grau nur «Holzbauteil».
+
 **Lesart:** «massgebend» heisst, dass diese Anschlusssituation bei dieser Geometrie im
 Normalfall zu überprüfen ist; «nicht massgebend» heisst, dass sie bei dieser Geometrie im
 Normalfall nicht auftritt. Die Matrizen ersetzen **keine** Einzelfallbeurteilung — Kap. 4.2.1
@@ -583,11 +613,11 @@ relevanten** Anschlusssituationen zu berücksichtigen sind.
 **Tab. A22-1 (S. 51) — brandabschnittsbildende Bauteile an nicht brandabschnittsbildende
 Bauteile.** Drei Anschlussgeometrien, zehn Anschlusssituationen (Kap. 4.2.2 bis 4.3).
 
-| Anschlussgeometrie | massgebend | nicht massgebend |
-|---|---|---|
-| Wand-Wand | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.7 · 4.2.8 |
-| Wand-Decke/Dach | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.8 |
-| Wand-Decke | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 |
+| Anschlussgeometrie | Piktogramm (je zwei Varianten) | massgebend | nicht massgebend |
+|---|---|---|---|
+| Wand-Wand | T im Grundriss: (a) nicht babb Wand läuft durch, babb Wand endet · (b) babb Wand läuft durch, nicht babb Wand endet; Brand auf einer Seite der endenden Wand | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.7 · 4.2.8 |
+| Wand-Decke/Dach | T im Schnitt: (a) nicht babb Decke/Dach läuft durch, babb Wand endet darunter · (b) babb Decke/Dach läuft durch, nicht babb Wand endet; Brand auf einer Wandseite unter der Decke | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 · 4.2.8 |
+| Wand-Decke | T im Schnitt: (a) nicht babb Wand läuft durch, babb Decke schliesst seitlich an · (b) babb Wand läuft durch, nicht babb Decke schliesst seitlich an; Brand unter der Decke, Weiterleitung auf die Oberseite | 4.2.2 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.3 · 4.2.4 |
 
 Durchgehend **nie** massgebend sind hier Kap. 4.2.3 (Bauteilabschlüsse an Bauteile MIT
 Feuerwiderstand) und Kap. 4.2.4 (Elementstösse) — beides folgerichtig, weil das
@@ -597,20 +627,26 @@ Kap. 4.2.2, 4.2.5, 4.2.6, 4.2.9, 4.2.10 und 4.3.
 **Tab. A23-1 (S. 52) — brandabschnittsbildende Bauteile an brandabschnittsbildende Bauteile.**
 Acht Anschlussgeometrien, dieselben zehn Anschlusssituationen.
 
-| Nr. | Anschlussgeometrie | massgebend | nicht massgebend |
-|---|---|---|---|
-| 1 | Wand-Wand | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.8 |
-| 2 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
-| 3 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
-| 4 | Wand-Decke | 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.4 |
-| 5 | Wand-Wand | 4.2.2 · 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.6 · 4.2.7 · 4.2.8 |
-| 6 | Wand-Decke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.6 · 4.2.7 |
-| 7 | Wand-Wand | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 · 4.2.8 |
-| 8 | Decke-Decke | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 |
+| Nr. | Anschlussgeometrie | Piktogramm | massgebend | nicht massgebend |
+|---|---|---|---|---|
+| 1 | Wand-Wand | T: Wand läuft durch, zweite Wand endet; Brand auf einer Seite der endenden Wand | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.8 |
+| 2 | Wand-Decke | T: Decke läuft durch, Wand endet darunter; Brand auf einer Wandseite | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
+| 3 | Wand-Decke | T: Wand läuft durch, Decke schliesst seitlich an; Brand unter der Decke, Weiterleitung auf die Oberseite | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 |
+| 4 | Wand-Decke | Kreuz: Wand und Decke kreuzen sich; Brand in einem Quadranten, Weiterleitung in alle drei übrigen | 4.2.3 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.4 |
+| 5 | Wand-Wand | L: Eckstoss zweier Wände; Brand im Innenwinkel, Weiterleitung diagonal zur Aussenecke | 4.2.2 · 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.6 · 4.2.7 · 4.2.8 |
+| 6 | Wand-Decke | L: Eckstoss Wand/Decke; Brand im Innenwinkel, Weiterleitung zur Aussenecke | 4.2.2 · 4.2.3 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.4 · 4.2.6 · 4.2.7 |
+| 7 | Wand-Wand | Flucht: zwei Wandelemente stossen in einer Linie aneinander; Brand auf einer Seite, Weiterleitung quer durch den Stoss | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 · 4.2.8 |
+| 8 | Decke-Decke | Flucht: zwei Deckenelemente stossen in einer Linie aneinander; Brand unten, Weiterleitung nach oben durch den Stoss | 4.2.3 · 4.2.4 · 4.2.5 · 4.2.8 · 4.2.9 · 4.2.10 · 4.3 | 4.2.2 · 4.2.6 · 4.2.7 |
 
 Die Zeilennummern folgen der Reihenfolge der Piktogramme von oben nach unten; die
-Randbeschriftung nennt nur die Bauteilpaarung, nicht die Eckkonstellation, weshalb sich
-mehrere Zeilen im Namen wiederholen. **In allen acht Geometrien massgebend:** Kap. 4.2.3,
+Randbeschriftung nennt nur die Bauteilpaarung, nicht die Stossform, weshalb sich mehrere
+Zeilen im Namen wiederholen. **Seit Run 88 ist die Stossform je Zeile aufgenommen** (Spalte
+«Piktogramm»): die drei «Wand-Decke»-Zeilen 2, 3, 4 und die Zeile 6 trennen sich eindeutig in
+Wand unter durchlaufender Decke · Decke seitlich an durchlaufender Wand · Kreuzung · Ecke.
+**Planungsrelevante Lesart:** Elementstösse (4.2.4) sind genau bei der Wand-Ecke (Z. 5) und
+den beiden Flucht-Stössen (Z. 7, 8) massgebend; Bauteilabschlüsse durchgehend/an Bauteile
+ohne FW (4.2.2) entfallen genau bei Kreuzung und Flucht-Stössen (Z. 4, 7, 8) und bleiben
+bei allen T- und L-Geometrien massgebend. **In allen acht Geometrien massgebend:** Kap. 4.2.3,
 4.2.5, 4.2.9, 4.2.10 und 4.3.
 
 **Tab. A24-1 (S. 53) — brandabschnittsbildende und nicht brandabschnittsbildende Holzbauteile
@@ -618,11 +654,11 @@ an Bauteile RF1.** Drei Anschlussgeometrien, **vierzehn** Spalten: die zehn Holz
 aus Kap. 4 und zusätzlich vier RF1-Situationen aus Kap. 5; sechs Spalten führen einen
 Doppelverweis (Holzbau-Kapitel und RF1-Kapitel untereinander).
 
-| Anschlussgeometrie | nicht massgebend | alle übrigen |
-|---|---|---|
-| Wand-Wand | 4.2.2 · 4.2.4/5.3.4 · 4.2.8/5.3.6 | massgebend |
-| Wand-Decke/Dach | 4.2.2 · 4.2.4/5.3.4 | massgebend |
-| Wand-Decke | 4.2.2 · 4.2.4/5.3.4 | massgebend |
+| Anschlussgeometrie | Piktogramm (RF1 = blau, Holz = grau) | nicht massgebend | alle übrigen |
+|---|---|---|---|
+| Wand-Wand | T im Grundriss, drei Varianten: (a) Holzwand läuft durch, RF1-Wand endet · (b) RF1-Wand läuft durch, Holzwand endet · (c) RF1 bildet die endende Wand und einen Arm des durchlaufenden Zugs, der andere Arm ist Holz | 4.2.2 · 4.2.4/5.3.4 · 4.2.8/5.3.6 | massgebend |
+| Wand-Decke/Dach | T im Schnitt: (a) Holzdecke/-dach läuft durch, RF1-Wand endet darunter · (b) RF1 bildet die endende Wand und einen Deckenarm, der andere Deckenarm ist Holz | 4.2.2 · 4.2.4/5.3.4 | massgebend |
+| Wand-Decke | T im Schnitt: (a) Holzwand läuft durch, RF1-Decke schliesst seitlich an · (b) RF1-Wand läuft durch, Holzdecke schliesst seitlich an | 4.2.2 · 4.2.4/5.3.4 | massgebend |
 
 Die Spaltenfolge lautet: 4.2.2 · 4.2.3 · 4.2.4/5.3.4 · 4.2.5 · 4.2.6 · 4.2.7 · 4.2.8/5.3.6 ·
 4.2.9/5.3.7 · 4.2.10/5.3.8 · 4.3/5.4 · 5.3.2 · 5.3.3 · 5.3.5 · 5.3.9. **Diese Tabelle ist die
@@ -635,16 +671,19 @@ Kap. 4.2.2 (Bauteilabschlüsse an Bauteile OHNE Feuerwiderstand) und Kap. 4.2.4/
 Bauteile RF1.** Acht Anschlussgeometrien, neun Anschlusssituationen (Kap. 5.3.2 bis 5.4).
 Hier ist die Ausnahme die weisse Zelle: **64 der 72 Zellen sind massgebend.**
 
-| Nr. | Anschlussgeometrie | nicht massgebend | alle übrigen |
-|---|---|---|---|
-| 1 | Wand-Wand | 5.3.4 · 5.3.6 | massgebend |
-| 2 | Wand-Decke | 5.3.4 | massgebend |
-| 3 | Wand-Decke | 5.3.4 | massgebend |
-| 4 | Wand-Decke | 5.3.4 | massgebend |
-| 5 | Wand-Wand | 5.3.6 | massgebend |
-| 6 | Wand-Decke | 5.3.4 | massgebend |
-| 7 | Wand-Wand | 5.3.6 | massgebend |
-| 8 | Decke-Decke | — (alle neun massgebend) | massgebend |
+| Nr. | Anschlussgeometrie | Piktogramm (wie Tab. A23-1, alle Bauteile RF1) | nicht massgebend | alle übrigen |
+|---|---|---|---|---|
+| 1 | Wand-Wand | T: Wand läuft durch, zweite Wand endet | 5.3.4 · 5.3.6 | massgebend |
+| 2 | Wand-Decke | T: Decke läuft durch, Wand endet darunter | 5.3.4 | massgebend |
+| 3 | Wand-Decke | T: Wand läuft durch, Decke schliesst seitlich an | 5.3.4 | massgebend |
+| 4 | Wand-Decke | Kreuz | 5.3.4 | massgebend |
+| 5 | Wand-Wand | L-Ecke | 5.3.6 | massgebend |
+| 6 | Wand-Decke | L-Ecke | 5.3.4 | massgebend |
+| 7 | Wand-Wand | Flucht-Stoss | 5.3.6 | massgebend |
+| 8 | Decke-Decke | Flucht-Stoss | — (alle neun massgebend) | massgebend |
+
+Die acht Geometrien und Flammenlagen sind Zeile für Zeile **identisch mit Tab. A23-1** (von
+einem blinden Prüf-Agenten Zeile für Zeile verglichen, keine Abweichung, Run 88).
 
 **Planungsrelevante Lesart über alle vier Tabellen:** Bauteilfugen (Kap. 4.3 bzw. 5.4),
 Lagesicherung (4.2.9/5.3.7) und Verbindungsmittel (4.2.10/5.3.8) sind in **jeder** der
@@ -954,32 +993,84 @@ Entlastung.
   Literaturverzeichnis (22 Referenzen), Anhang 1 (7 Schritte) und Anhang 3 (7 Beispiele) waren
   vollständig — dort fand die Abdeckungsrichtung nichts.
 
-### Prüfstand (Stand Run 87)
+### Siebte Runde (19.09.2026, Normen-Nacht Run 88) — Piktogramme des Anhangs 2 (N87-1)
 
-| Teil | Refuter-Richtung | Abdeckungsrichtung | Zellaufnahme (MP 8) | Bemerkung |
+- **Anlage:** Piktogrammspalte der S. 51-54 bei 600 dpi gerendert (Präfix `l42-r88-`), je
+  Piktogramm Stossform, Flammenlage und Pfeilverlauf aufgenommen, der Flächenton **jedes Arms
+  gemessen** (Median-RGB, drei scharf getrennte Klassen). Zwei blinde Prüf-Agenten ohne
+  Vorergebnis und ohne Messscript. Beleg: `training/l42-anhang2-piktogramme-260919.md`.
+- **Ergebnis:** 33 Piktogramme in 22 Zeilen, **33/33 Stossformen, 81/81 Armtöne und 33/33
+  Flammen-/Pfeillagen von beiden Agenten unabhängig bestätigt, 0 Widersprüche.** Die eine
+  Unsicherheit (A22-1 Z. 3 oben, oberer Arm) hat der Hauptprozess abseits des Pfeilsaums
+  nachgemessen: 91 % der Pixel exakt 255, also WEISS.
+- **Tonzuordnung abgeleitet:** der Anhang 2 hat keine eigene Legende für die Bauteiltöne; die
+  Zuordnung BLAU = RF1, GRAU = babb Holzbauteil, WEISS = nicht babb Bauteil folgt aus den
+  Tabellentiteln und passt in der Farbfamilie zur Legende Kap. 6 (S. 46), nicht aber im Tonwert
+  (Piktogramm-Grau 244-251 gegen Legenden-Grau 198). Im Text oben als abgeleitet markiert.
+- **Selbstkorrektur im Lauf:** die erste Fassung der Plausibilitätsprüfung Geometrie gegen
+  Zellmuster enthielt zwei aus dem Gedächtnis formulierte Fehlaussagen (4.2.2 bei der L-Ecke,
+  Auflager in A22-1); beide vor der Übernahme am Run-87-Messprotokoll korrigiert.
+
+### Achte Runde (19.09.2026, Normen-Nacht Run 88) — Refuter-Richtung auf die Nachträge der sechsten Runde
+
+- **Warum:** die sechste Runde (Run 86) hat rund 30 Kernlücken **inline nachgetragen**. Diese
+  Nachträge waren selbst nie gegen das Original widerlegt worden; die Refuter-Runden 1-5
+  lagen zeitlich davor. Ohne diese Runde wäre die Abdeckungsrichtung der letzte ungeprüfte
+  Schreibvorgang gewesen.
+- **Anlage:** 30 Aussagen in zwei blinden Paketen (S. 6-29 und S. 28-46), je ein bewusst
+  **untergeschobener Falschwert** als Kontrolle (Kap. 4.3 «höheren» statt «geringeren»
+  Feuerwiderstandsdauer; Abb. 434-1 b ≥ 150 statt ≥ 200 mm). Zwei Refuter-Agenten mit eigenen
+  Renderings bis 500 dpi (Präfixe `refA-`, `refB-`).
+- **Kontrollen: 2 von 2 erkannt.** Die Prüfstufe konnte also widerlegen; eine
+  Bestätigungsquote ohne diese Gegenprobe wäre kein Qualitätsnachweis (Vorschlag Run 50).
+- **Ergebnis für das Destillat: 2 Kernbefunde, 2 Nebenbefunde, 0 falsche Zahlenwerte**, alle
+  vom Hauptprozess am eigenen Rendering der S. 35 bzw. an den Refuter-Ausschnitten entschieden
+  und inline korrigiert (Methodik-Pflicht 9):
+  1. **Kap. 5.2.1:** «Ausführungsbestimmungen aus Kap. 3 **sinngemäss**» — das Wort steht nicht
+     im Original; die Vorgabe gilt unmittelbar. (Abschwächung, Fehlertyp «Relation».)
+  2. **Kap. 5.2.2:** das Installationsverbot war auf «Estrich- **bzw. Betonschichten**»
+     ausgedehnt; im Original steht es im Estrich-Absatz und bezieht sich auf «diese» Schichten,
+     der Beton-Absatz wiederholt es nicht. (Überdehnung des Geltungsbereichs.)
+  3. Neben: Kap. 5.3.4 nannte «die drei Abdeckungsvarianten», Legende 5 ist faktisch eine vierte;
+     Abb. 540-1 Legende 1 steht auch in Bild 2a (f ≤ 80 mm), nicht nur in Bild 1.
+- **Scheinbefunde, nicht übernommen (Methodik-Pflicht 7):** fünf Refuter-Meldungen trafen
+  Verdichtungsfehler **des Aussagenpakets**, nicht des Destillats — Legende B der Abb. 330-1
+  (das Destillat führt sie korrekt als «Verschliessen der Aussparung»), der Verweis auf
+  Kap. 4.3.3/4.3.4 Bild 1a (im Destillat korrekt auf gleitende Anschlüsse beschränkt) und drei
+  Seitenangaben zu Abb. 442-1, 443-1 und Kap. 5.3.7 (im Destillat richtig: S. 32, S. 33,
+  S. 43). **Lehre:** wer ein Aussagenpaket aus einem Destillat verdichtet, erzeugt dabei eigene
+  Fehler; jede Refuter-Meldung ist deshalb gegen den Destillattext zu halten, nicht gegen das Paket.
+
+### Fassungsstand (erhoben Run 88)
+
+Der Herausgeber-Shop (`lignum.ch/shop/lignum-dokumentationen/dokumentation-brandschutz-2015/`,
+Abruf 19.09.2026) führt die Publikation 4.2 unverändert als **2018, A4, farbig, 64 Seiten** —
+deckungsgleich mit dem Hausexemplar (Impressum S. 64, April 2018). Eine neuere Fassung ist dort
+nicht ausgewiesen. Rechtsgrundlage bleibt die BSV 2015; die BSV 2026 ist nicht in Kraft
+(`wiki/REGISTER.md`). Der seit Run 86 offene Punkt ist damit geschlossen.
+
+### Prüfstand (Stand Run 88)
+
+| Teil | Refuter-Richtung | Abdeckungsrichtung | Zell-/Bildaufnahme (MP 8) | Bemerkung |
 |---|---|---|---|---|
-| Kap. 1-3 (S. 4-11) | Runden 1-5 | Runde 6 (S. 2-11 vollständig) | — | BSR 15-15/14-15, Abb. 330-1 Leg. B, Kap. 3.5.2-Einleitung nachgetragen |
-| Kap. 4 (S. 12-33) | Runden 1-5 | Runde 6 (vollständig) | — | Legenden und Anwendungsbedingungen nachgetragen; Legenden-Zuordnung Run 85 korrigiert |
-| Kap. 5 (S. 34-45) | Runden 1-5 | Runde 6 (vollständig) | — | 5.2.1, Installationsverbot, Abb. 540-1 nachgetragen |
-| Kap. 6-7 (S. 46-47) | Runde 5 (Kriterium Schmelzpunkt) | Runde 6 | — | Farbraster/Schraffuren nachgetragen, Glossar war vollständig |
-| Anhänge 1 und 3 (S. 49, 55-62) | Runden 3-5 | Runde 6 | — | ohne Befund; Scan S. 56/58 links angeschnitten, Seitenzahlen lesbar |
-| **Anhang 2, Tab. A22-1 bis A25-1 (S. 51-54)** | — | Runde 6 (nur Kopfzeilen) | **Run 87: 224 von 224 Zellen** | rechnerisch gemessen und von drei unabhängigen Ablesungen bestätigt |
+| Kap. 1-3 (S. 4-11) | Runden 1-5; Nachträge Run 86 in Runde 8 | Runde 6 (S. 2-11 vollständig) | — | ohne Befund in Runde 8 |
+| Kap. 4 (S. 12-33) | Runden 1-5; Nachträge in Runde 8 | Runde 6 (vollständig) | — | Kontrollwert 4.3 erkannt; Destillat ohne Befund |
+| Kap. 5 (S. 34-45) | Runden 1-5; Nachträge in Runde 8 | Runde 6 (vollständig) | — | **5.2.1 und 5.2.2 korrigiert (Run 88)** |
+| Kap. 6-7 (S. 46-47) | Runde 5; Legende in Runde 8 | Runde 6 | Swatches gemessen Run 88 | ohne Befund |
+| Anhänge 1 und 3 (S. 49, 55-62) | Runden 3-5 | Runde 6 | — | ohne Befund |
+| Anhang 2, Zellen (S. 51-54) | drei unabhängige Ablesungen (Run 87) | Run 87: 224/224 Zellen | rechnerisch | 0 Widersprüche |
+| Anhang 2, Piktogramme (S. 51-54) | zwei blinde Agenten (Run 88) | Run 88: 33/33 Piktogramme | Armtöne gemessen | 0 Widersprüche; Tonzuordnung abgeleitet |
 
-**Beide Prüfrichtungen sind auf der gesamten Quelle gelaufen, und seit Run 87 ist auch die
-rechnerische Zellaufnahme der vier Anhang-2-Matrizen erledigt** (Beleg
-`training/l42-anhang2-zellaufnahme-260918.md`). Damit ist die Bedingung erfüllt, die Run 86
-für eine Statushebung genannt hatte.
+**Status seit Run 88: `established`.** Begründung: (1) beide Prüfrichtungen sind auf **allen**
+Teilen gelaufen, auch auf den Nachträgen der Abdeckungsrunde; (2) die Refuter-Stufe hat
+nachweislich widerlegt (2 von 2 Kontrollen), ihre Bestätigungen tragen also; (3) jeder
+Kernbefund der Runden 5-8 ist vom Hauptprozess am Original entschieden und inline korrigiert;
+(4) in acht Runden wurde **kein einziger falscher Zahlenwert** des Bestands gefunden — alle
+Befunde seit Runde 4 waren Zuordnungen, Reichweiten und Lücken; (5) der Fassungsstand ist
+belegt. Die Hebung ist **nicht** mit einer befundlosen Runde begründet: die letzte Runde hatte
+Befunde, und sie sind behoben.
 
-**Trotzdem bleibt der Status `speculative`, aus einem neuen und anderen Grund.** Die Matrizen
-unterscheiden ihre Zeilen über **Piktogramme**, nicht über die Randbeschriftung: in Tab. A23-1
-tragen vier von acht Zeilen dieselbe Bezeichnung «Wand-Decke», in Tab. A25-1 drei von acht.
-Wer die Zeilen aus diesem Destillat heraus auseinanderhalten will, kann es nicht — die
-Bezeichnung allein identifiziert die Anschlussgeometrie nicht. Das Destillat gibt die Matrizen
-damit vollständig, aber noch nicht benutzbar wieder. Die Piktogramme sind zu beschreiben
-(durchlaufendes Bauteil, Stichbauteil, Eck-/Kreuz-/T-Stoss, Seite der Brandbeanspruchung),
-bevor eine Hebung redlich ist; offen als N87-1.
-
-**Was ausserdem nicht geprüft ist:** der Fassungsstand der Publikation (Ausgabe April 2018 auf
-Basis BSV 2015; ob eine neuere Lignum-Fassung vorliegt, hat auch dieser Lauf nicht erhoben —
-unverändert offen seit Run 86).
-
+**Restvorbehalte, die mit dem Status nicht verschwinden:** die Tonzuordnung der Piktogramme
+ist abgeleitet, nicht legendiert; ob das Installationsverbot der Kap. 5.2.2 auch für
+Betonschichten gilt, sagt die Quelle nicht; die Detailskizzen der Kap. 4 und 5 sind für eine
+Projektanwendung weiterhin am Original zu lesen (siehe «Offene Punkte»).
