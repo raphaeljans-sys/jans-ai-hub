@@ -1,11 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 15:33:39
+Stand: 19.09.2026 15:43:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/architektur/grundrisse/verkaeufer/9129a3  (letzte Aktivitaet 15:30)
-- Developer/jans/ai/hub//claude/worktrees/forstweg/55/projekt/d2fdbf  (letzte Aktivitaet 15:33)
-- Developer/jans/ai/hub//claude/worktrees/house/plan/dwg/pdf/4d94ea  (letzte Aktivitaet 15:11)
+- Developer/jans/ai/hub//claude/worktrees/forstweg/55/projekt/d2fdbf  (letzte Aktivitaet 15:37)
+- Developer/jans/ai/hub//claude/worktrees/house/plan/dwg/pdf/4d94ea  (letzte Aktivitaet 15:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -20,4 +20,4 @@ Stand: 19.09.2026 15:33:39
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 42473400a nas-selfcommit: 6 Datei(en) 2026-09-19 15:30
+- 4291b0ded KB immobilienbewertung: Ankauf gepfändeter Liegenschaften (SchKG), Korrektur Rechenweg vom Mittag; Fristen-Register: Verfahrensstand Forstweg 55 vor Angebot klären
