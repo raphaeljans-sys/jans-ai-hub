@@ -1,11 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 16:04:36
+Stand: 19.09.2026 16:25:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/architektur/grundrisse/verkaeufer/9129a3  (letzte Aktivitaet 15:48)
-- Developer/jans/ai/hub//claude/worktrees/forstweg/55/projekt/d2fdbf  (letzte Aktivitaet 15:37)
-- Developer/jans/ai/hub//claude/worktrees/house/plan/dwg/pdf/4d94ea  (letzte Aktivitaet 15:45)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -20,4 +18,4 @@ Stand: 19.09.2026 16:04:36
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ff69fac08 nas-selfcommit: 3 Datei(en) 2026-09-19 16:00
+- e39dafe2b nas-selfcommit: 3 Datei(en) 2026-09-19 16:15
