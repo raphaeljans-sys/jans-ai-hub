@@ -53,6 +53,27 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-19 12:58 — [FREI] **Mini-Regellauf ohne Befund. Alle Loops mit Liefer-Delta, keine Drossel, keine Massnahme. Doppellauf MacBook unverändert (P3, Aktion Raphael).**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Symlink npm-Fassung, heute 05:15 nachgezogen. Wochenbudget **41.1 %** von 167 Mio bei **72.0 %**
+verstrichener Woche, Vorsprung **-31.0 Punkte**, Ampel FREI (MacBook 51.51, Mini 17.06 Mio, beide frisch). Zur Kenntnis:
+MacBook seit 09:07 **+10.4 Mio** in rund vier Stunden (interaktive Arbeit, u.a. Briefing IT-Ingenieur `15deb832f`), bei
+diesem Vorsprung unkritisch. Speicher Mini Druckstufe 1, rund 9.3 GiB frei+inaktiv+purgeable (vm_stat), Load 2.7.
+Selbstkontrolle: letzter Mini-Eintrag 00:58, 12 h zurück, im Takt; `lastRunAt` 10:58Z ist dieser Lauf.
+
+**Liefer-Delta (git, SSD-Klon lesend, Basis `152da90ce` vor 00:58).** twin 12 (Batch 124, Fidelity 19.09.) · energie 8 ·
+normen 7 (normen-nacht Run 88, lignum-4-2 established) · claude-code 2 (Wissens-Rücklauf). Nachtschicht Mini
+(`260919-laeufe.jsonl` auf dem NAS): 2 Läufe 02:36/05:37, rc=0, 2.20 und 3.17 USD. Kein Loop ohne Delta.
+
+**Feuermechanismen.** Mini-Registry unverändert (aktiv: energie-training, claude-abo-auslastung, bauleitung-training,
+heartbeat-daily, vollgas-fruehwarnung, dieser Radar, bexio-buchen-monatlich); heartbeat-daily ohne Lauf heute ist korrekt
+(nur Mo bis Fr). launchd beide Stationen: `vollgas-supervisor` (und MacBook `-monitor`) nur `.disabled-260729`, nicht
+geladen; alle geladenen Jobs Exit 0 (Mini `macbook-wecker` -15 = SIGTERM des Vorlaufs, bekannt). MacBook per ssh erreichbar.
+
+- **P3 (unverändert, Aktion Raphael)** — Doppellauf Radar/Frühwarnung/heartbeat in beiden Registries; die MacBook-Fassung
+  des Radars schrieb heute 09:07 einen eigenen Eintrag. Keine neue Vorlage.
+
 ## 2026-09-19 09:07 — [FREI] **MacBook-Fassung, nachgeholter Lauf nach Shutdown. Kein Befund, keine Massnahme. Das MacBook war vom 18.09. 23:37 bis rund 08:50 aus (hub-chef belegt den Shutdown); die App hat die verpassten Slots nach dem Start gebündelt nachgefeuert.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
