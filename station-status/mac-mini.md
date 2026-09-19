@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 14:54:41
+Stand: 19.09.2026 15:04:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 14:54:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a7477d2d6 nas-selfcommit: 4 Datei(en) 2026-09-19 14:45
+- 5c0d48ed2 KB immobilienbewertung: Wissens-Rücklauf Forstweg 55 Bern (Kauf plus Stockwerkeinheit, Berner Rechtsgrundlagen, Datenzugänge)
