@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 06:41:46
+Stand: 19.09.2026 06:52:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 06:41:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0f12360c0 vollgas-fruehwarnung: Regellauf 19.09. Mini, ohne Befund; MacBook nicht messbar
+- 8e6eee970 nas-selfcommit: 2 Datei(en) 2026-09-19 06:45
