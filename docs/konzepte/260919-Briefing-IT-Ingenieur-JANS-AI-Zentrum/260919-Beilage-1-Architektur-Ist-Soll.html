@@ -1,0 +1,152 @@
+<!doctype html><html lang="de-CH"><head><meta charset="utf-8">
+<title>JANS AI Zentrum: Architektur Ist und Soll</title>
+<link rel="stylesheet" href="../../../templates/jans-studienblatt/jans.css"><link rel="stylesheet" href="../../../templates/jans-studienblatt/accent.css">
+<style>
+  svg text{font-family:"DM Sans",sans-serif; fill:#1A1A1A;}
+  svg .m{font-family:"Fragment Mono",monospace;}
+  svg .g{fill:#6A6A6A;}
+  svg .a{fill:#A23E30;}
+  svg .bx{fill:#fff; stroke:#1A1A1A; stroke-width:1;}
+  svg .bxh{fill:#fff; stroke:#CBCBCB; stroke-width:1;}
+  svg .bxf{fill:#1A1A1A; stroke:#1A1A1A;}
+  svg .bxs{fill:#F4F4F4; stroke:#1A1A1A; stroke-width:1;}
+  svg .ln{stroke:#1A1A1A; stroke-width:1; fill:none;}
+  svg .lna{stroke:#A23E30; stroke-width:1.2; fill:none; stroke-dasharray:4 3;}
+  svg .lnh{stroke:#CBCBCB; stroke-width:1; fill:none;}
+  .sec{margin-top:4.2mm;}
+  .kpi .kfig{font-size:20px;}
+  td{font-size:8.6px; padding:0.55mm 3mm 0.55mm 0;}
+  th{padding-bottom:0.9mm;}
+</style></head>
+<body class="accent"><div class="page">
+
+  <div class="mast">
+    <div class="kicker">Beilage 1 · Briefing und Offertanfrage IT-Ingenieur</div>
+    <div class="brand">RAPHAEL JANS ARCHITEKTEN ETH/SIA</div>
+  </div>
+  <hr class="rule top">
+
+  <div class="title">JANS AI Zentrum: Architektur Ist und Soll</div>
+  <div class="subtitle">Vom selbst gebauten Hub zur fachgerecht gebauten Plattform mit Fach-Hubs · Stand 19.09.2026 · Entwurf zur Offertstellung, vertraulich</div>
+
+  <div class="kpi">
+    <div class="k">
+      <div class="klab">Kritische Befunde</div>
+      <div class="kfig">25<small>&thinsp;von 120</small></div>
+      <div class="knote">Ist-Analyse 19.09.2026, zehn Subsysteme, jeder Befund belegt</div>
+    </div>
+    <div class="k">
+      <div class="klab">Fehlläufe der Automatik</div>
+      <div class="kfig">43<small>&thinsp;%</small></div>
+      <div class="knote">1'091 von 2'543 unbeaufsichtigten Läufen, 29.07. bis 19.09.2026</div>
+    </div>
+    <div class="k">
+      <div class="klab">Tests · CI · Restore-Proben</div>
+      <div class="kfig">0<small>&thinsp;· 0 · 0</small></div>
+      <div class="knote">bei 84 Shell-Scripts, 19 Connectoren und 6 TB Bürodaten</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sechead"><span class="no">01</span><div class="ttl">Ist: alles hängt an einem Netzlaufwerk <span class="q">· drei Macs, ein NAS, sieben Scheduler, fünf Datei-Queues</span></div></div>
+    <svg viewBox="0 0 760 214" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <rect class="bx" x="0" y="4" width="218" height="40"/><text x="8" y="21" font-size="11.5" font-weight="600">Mac mini</text><text class="g" x="8" y="35" font-size="9">Always-On und zugleich CAD-Arbeitsplatz</text>
+      <rect class="bx" x="0" y="54" width="218" height="40"/><text x="8" y="71" font-size="11.5" font-weight="600">MacBook Pro (mobil)</text><text class="g" x="8" y="85" font-size="9">trägt 34 von 46 Routinen samt Aufsicht</text>
+      <rect class="bx" x="0" y="104" width="218" height="40"/><text x="8" y="121" font-size="11.5" font-weight="600">MacBook 3</text><text class="g" x="8" y="135" font-size="9">Lernbetrieb, nur lokal startbar</text>
+      <path class="lna" d="M218 24 L282 60"/><path class="lna" d="M218 74 L282 74"/><path class="lna" d="M218 124 L282 88"/>
+      <rect class="bxf" x="282" y="22" width="196" height="104"/>
+      <text x="291" y="40" font-size="11.5" font-weight="600" style="fill:#fff">Synology NAS (Baureihe 2018)</text>
+      <text x="291" y="55" font-size="9.2" style="fill:#fff">93 % belegt · Backup nicht belegt</text>
+      <text class="m" x="291" y="74" font-size="8.2" style="fill:#D8D8D8">Dateiserver</text>
+      <text class="m" x="291" y="86" font-size="8.2" style="fill:#D8D8D8">+ kanonische Hub-Quelle</text>
+      <text class="m" x="291" y="98" font-size="8.2" style="fill:#D8D8D8">+ Git-Committer, Queues, Logs</text>
+      <text class="m" x="291" y="110" font-size="8.2" style="fill:#D8D8D8">+ Leitplanken (24 Rules per Import)</text>
+      <text class="m a" x="282" y="141" font-size="8.6">SMB-Mount: bis 346 Abrisse je Tag</text>
+      <path class="ln" d="M478 60 L542 24"/><path class="ln" d="M478 74 L542 74"/><path class="ln" d="M478 88 L542 124"/>
+      <rect class="bx" x="542" y="4" width="218" height="40"/><text x="550" y="21" font-size="11.5" font-weight="600">GitHub (einziges Off-Site)</text><text class="g" x="550" y="35" font-size="9">135 Commits je Tag, 94 % Bot, ungeprüft</text>
+      <rect class="bx" x="542" y="54" width="218" height="40"/><text x="550" y="71" font-size="11.5" font-weight="600">Microsoft 365 · bexio · Portale</text><text class="g" x="550" y="85" font-size="9">19 Eigenbau-Connectoren, Secrets an 5 Orten</text>
+      <rect class="bx" x="542" y="104" width="218" height="40"/><text x="550" y="121" font-size="11.5" font-weight="600">Claude (Abo-Login je Station)</text><text class="g" x="550" y="135" font-size="9">Desktop-App als Scheduler, 66 h Ausfall belegt</text>
+      <rect class="bxs" x="0" y="156" width="760" height="54"/>
+      <text x="8" y="173" font-size="10.6" font-weight="600">Betriebs-Klebstoff, der diese Bauweise am Leben hält</text>
+      <text class="m g" x="8" y="188" font-size="8.4">22 Wächter- und Heil-Scripts (4'077 Zeilen Bash) · 7 Scheduler, 5 Datei-Queues · Alarm nur über Apple Mail</text>
+      <text class="m g" x="8" y="201" font-size="8.4">Edit direkt in Produktion · Schutz fast nur per Prompt-Regel · Berechtigung Bash(*) ohne Deny-Liste</text>
+    </svg>
+  </div>
+
+  <div class="sec">
+    <div class="sechead"><span class="no">02</span><div class="ttl">Soll: eine Plattform, mehrere Hubs <span class="q">· die Fachsubstanz bleibt, der Klebstoff wird durch Standardbausteine ersetzt</span></div></div>
+    <svg viewBox="0 0 760 330" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <text class="m g" x="0" y="11" font-size="8.2" letter-spacing="1">NUTZER</text>
+      <g font-size="10.4" font-weight="500">
+        <rect class="bxh" x="64" y="0" width="166" height="20"/><text x="72" y="14">Inhaber</text>
+        <rect class="bxh" x="238" y="0" width="166" height="20"/><text x="246" y="14">Mitarbeitende</text>
+        <rect class="bxh" x="412" y="0" width="166" height="20"/><text x="420" y="14">Partnerbüros</text>
+        <rect class="bxh" x="586" y="0" width="174" height="20"/><text x="594" y="14">Bauherrschaften</text>
+      </g>
+      <rect class="bxf" x="0" y="28" width="760" height="20"/><text x="8" y="42" font-size="10.2" style="fill:#fff" font-weight="600">Identität und Rollen</text><text class="m" x="128" y="42" font-size="8.2" style="fill:#D8D8D8">ein Konto je Person · MFA · Geräteverwaltung · Mandanten: Einzelfirma, AG, Partner</text>
+      <text class="m g" x="0" y="66" font-size="8.2" letter-spacing="1">FACH-HUBS · bauen JANS und Claude auf der Plattform weiter</text>
+      <g>
+        <rect class="bx" x="0" y="72" width="120" height="76"/><text x="6" y="88" font-size="11" font-weight="600">Wissens-Hub</text><text class="g" x="6" y="103" font-size="8.6">19 Wissensbasen,</text><text class="g" x="6" y="115" font-size="8.6">Normen, Baurecht,</text><text class="g" x="6" y="127" font-size="8.6">Kennwerte,</text><text class="g" x="6" y="139" font-size="8.6">Lern-Loops</text>
+        <rect class="bx" x="128" y="72" width="120" height="76"/><text x="134" y="88" font-size="11" font-weight="600">Studien-Hub</text><text class="g" x="134" y="103" font-size="8.6">Machbarkeit, Volumen,</text><text class="g" x="134" y="115" font-size="8.6">Bewertung, Ankauf,</text><text class="g" x="134" y="127" font-size="8.6">Energie,</text><text class="g" x="134" y="139" font-size="8.6">Wettbewerb</text>
+        <rect class="bx" x="256" y="72" width="120" height="76"/><text x="262" y="88" font-size="11" font-weight="600">Projekt-Hub</text><text class="g" x="262" y="103" font-size="8.6">Ausschreibung bis</text><text class="g" x="262" y="115" font-size="8.6">Kostenkontrolle,</text><text class="g" x="262" y="127" font-size="8.6">je Projekt und</text><text class="g" x="262" y="139" font-size="8.6">Mandant getrennt</text>
+        <rect class="bx" x="384" y="72" width="120" height="76"/><text x="390" y="88" font-size="11" font-weight="600">Office-Hub</text><text class="g" x="390" y="103" font-size="8.6">Korrespondenz, Fristen,</text><text class="g" x="390" y="115" font-size="8.6">bexio, Mahnwesen,</text><text class="g" x="390" y="127" font-size="8.6">zwei Rechtsträger</text>
+        <rect class="bx" x="512" y="72" width="120" height="76"/><text x="518" y="88" font-size="11" font-weight="600">Akquise-Hub</text><text class="g" x="518" y="103" font-size="8.6">Website, LinkedIn,</text><text class="g" x="518" y="115" font-size="8.6">Telesales, Leads,</text><text class="g" x="518" y="127" font-size="8.6">Demo-Studio</text>
+        <rect class="bx" x="640" y="72" width="120" height="76"/><text x="646" y="88" font-size="11" font-weight="600">Kundenportal</text><text class="g" x="646" y="103" font-size="8.6">Studios und Berichte</text><text class="g" x="646" y="115" font-size="8.6">mit Anmeldung, Ablauf,</text><text class="g" x="646" y="127" font-size="8.6">Protokoll,</text><text class="g" x="646" y="139" font-size="8.6">Hosting CH/EU</text>
+      </g>
+      <text class="m a" x="0" y="168" font-size="8.2" letter-spacing="1">PLATTFORM-HUB · baut und verantwortet der Ingenieur</text>
+      <rect x="0" y="174" width="760" height="104" fill="#fff" stroke="#A23E30" stroke-width="1.3"/>
+      <g font-size="10.2" font-weight="600">
+        <text x="8" y="191">Laufzeit und Job-System</text><text x="198" y="191">Daten</text><text x="388" y="191">Integration</text><text x="578" y="191">Sicherheit und DSG</text>
+        <text x="8" y="241">Wissensdienst</text><text x="198" y="241">Backup und Notfall</text><text x="388" y="241">Monitoring und Alarm</text><text x="578" y="241">Delivery</text>
+      </g>
+      <g font-size="8.4">
+        <text class="g" x="8" y="204">eine Queue mit Zustand, Retry,</text><text class="g" x="8" y="215">Budget; Agenten in Sandbox</text>
+        <text class="g" x="198" y="204">Git für Code, Datenbank für</text><text class="g" x="198" y="215">Zustand, Objektspeicher</text>
+        <text class="g" x="388" y="204">MCP-Server je Domäne, Secrets-</text><text class="g" x="388" y="215">Speicher, Least Privilege M365</text>
+        <text class="g" x="578" y="204">Freigabeschicht ausserhalb der</text><text class="g" x="578" y="215">KI, Audit-Log, Datenklassen</text>
+        <text class="g" x="8" y="254">Volltext- und Vektorsuche über</text><text class="g" x="8" y="265">alle Wissensbasen, Provenienz</text>
+        <text class="g" x="198" y="254">3-2-1, Restore-Probe, RPO/RTO,</text><text class="g" x="198" y="265">M365- und bexio-Sicherung</text>
+        <text class="g" x="388" y="254">unabhängig vom Überwachten,</text><text class="g" x="388" y="265">Push-Alarm, Kosten je Lauf</text>
+        <text class="g" x="578" y="254">Review, CI, Evals, Staging,</text><text class="g" x="578" y="265">Releases statt Edit in Produktion</text>
+      </g>
+      <path class="lnh" d="M190 180 V272 M380 180 V272 M570 180 V272 M6 226 H754"/>
+      <text class="m g" x="0" y="296" font-size="8.2" letter-spacing="1">FUNDAMENT</text>
+      <g font-size="9.6" font-weight="500">
+        <rect class="bxs" x="0" y="302" width="182" height="26"/><text x="6" y="319">Server (Linux, headless, USV)</text>
+        <rect class="bxs" x="190" y="302" width="182" height="26"/><text x="196" y="319">Mac-Worker (Mail, CAD, Render)</text>
+        <rect class="bxs" x="380" y="302" width="182" height="26"/><text x="386" y="319">Dateiserver, 3-2-1-Backup</text>
+        <rect class="bxs" x="570" y="302" width="190" height="26"/><text x="576" y="319">Netz in Zonen, Fernzugang mit ACL</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="sec">
+    <div class="sechead"><span class="no">03</span><div class="ttl">Zu offerierende Leistungspakete <span class="q">· Details und Abnahmekriterien im Briefing, Abschnitt 06</span></div></div>
+    <table>
+      <colgroup><col style="width:7%"><col style="width:33%"><col style="width:46%"><col style="width:14%"></colgroup>
+      <thead><tr><th>Nr.</th><th>Paket</th><th>Ergebnis</th><th>Priorität</th></tr></thead>
+      <tbody>
+        <tr><td class="num">AP0</td><td class="k">Audit und Zielarchitektur</td><td>verifizierte Befunde, Architekturentscheid mit Varianten, Festpreis für AP1 ff.</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP1</td><td class="k">Fundament: Server, Netz, Geräte, Identität</td><td>neustartfeste Zentrale, Zonen, MDM, ein Konto je Person</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP2</td><td class="k">Daten, Sync und Backup</td><td>SMB aus dem kritischen Pfad, Repo-Schnitt, 3-2-1 mit Restore-Probe</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP3</td><td class="k">Laufzeit und Job-System</td><td>ein Scheduler mit Zustand, Retry, Budget; Fehlläufe unter 5 %</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP4</td><td class="k">Sicherheit, Secrets, Freigabeschicht</td><td>Least Privilege, Sandbox, Schutz gegen Prompt-Injection, Audit-Log</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP5</td><td class="k">Datenschutz nach DSG</td><td>Datenklassen, Personendaten aus Git, Bearbeitungsverzeichnis, Verträge</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP6</td><td class="k">Monitoring, Alarm, Notfallhandbuch</td><td>Ausfall in Minuten gemeldet, Runbooks, Kostenübersicht</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+        <tr><td class="num">AP7</td><td class="k">Integrations-Hub (MCP) und Delivery (CI, Evals)</td><td>typisierte Werkzeuge, Tests, Staging, Releases</td><td><span class="st mid"><span class="dot"></span>soll</span></td></tr>
+        <tr><td class="num">AP8</td><td class="k">Wissensplattform mit Hybrid-Suche</td><td>Suche über alle Wissensbasen, Provenienz, Evaluations-Sets</td><td><span class="st mid"><span class="dot"></span>soll</span></td></tr>
+        <tr><td class="num">AP9</td><td class="k">Mehrbenutzer, Mandanten, Kundenportal</td><td>Rollen für Mitarbeitende und Partner, Studios mit Anmeldung</td><td><span class="st ok"><span class="dot"></span>Ausbau</span></td></tr>
+        <tr><td class="num">AP10</td><td class="k">Betrieb und Wartung</td><td>Wartungsvertrag mit Reaktionszeiten, Patch-Fenster, halbjährliches Review</td><td><span class="st bad"><span class="dot"></span>muss</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="foot">
+    <div class="legend"><span><span class="dot bad"></span>muss, Stufe 1</span><span><span class="dot mid"></span>soll, Stufe 2</span><span><span class="dot ok"></span>Ausbau, Stufe 3</span></div>
+    <div class="src">
+      <div class="txt">Quelle: Ist-Analyse vom 19.09.2026 (Befundkatalog, Anhang zum Briefing), Systemanalyse des Hub vom 11.09.2026, Hub-Audit vom 12.08.2026. Das Zielbild ist ein Vorschlag des Auftraggebers; der Ingenieur bestätigt oder korrigiert es in AP0.</div>
+      <div class="pg">JANS AI ZENTRUM · BEILAGE 1<br>19.09.2026</div>
+    </div>
+  </div>
+
+</div></body></html>
