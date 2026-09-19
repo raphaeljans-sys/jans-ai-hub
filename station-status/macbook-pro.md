@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 11:26:00
+Stand: 19.09.2026 11:36:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/jans/ai/hub/architecture/4e38fe  (letzte Aktivitaet 11:22)
+- Developer/jans/ai/hub//claude/worktrees/jans/ai/hub/architecture/4e38fe  (letzte Aktivitaet 11:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 19.09.2026 11:26:00
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 289214f9a nas-selfcommit: 7 Datei(en) 2026-09-19 11:15
+- 15deb832f Briefing IT-Ingenieur JANS AI Zentrum: Anfrage, Briefing, Beilage Ist/Soll, Befundkatalog (120 Befunde), Begleitnotiz; Fristen-Eintrag bexio 02.10.; Wissens-Ruecklauf claude-code
