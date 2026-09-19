@@ -1,15 +1,21 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.09.2026 23:26:23
+Stand: 19.09.2026 09:01:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 104497998 wissens-chef Lauf 62: WC62-1 GVZ-Frist eingeordnet (auflagebereinigung), WC62-2 links-Syntax baurecht repariert, WC62-3 Rueckkante Filz-Report ins BRL-14-15-Destillat, Register + Bericht
+- 24d0c5159 twin-mail-training Batch 124: rj@ Sent 17.09.2026 15:49 bis 18.09.2026 20:54

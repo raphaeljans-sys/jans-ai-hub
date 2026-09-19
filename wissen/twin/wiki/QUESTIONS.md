@@ -6805,3 +6805,46 @@ Bitte richtig wählen.
 
 Status: 260919 #1-#2 **offen**; 260918b #1-#5, 260918 #1-#3, 260917b #1-#6, 260917 #1-#3,
 260916 #1-#4, 260916b #1-#3, 260915 #1-#6 unverändert offen.
+
+
+## 260919b — nach dem Fidelity-Review (vier Golds 2025: Erst-Offerte, Rüge-Antwort, Rechnung im Sie; Absage-Quittung im Du)
+
+**#1 [Beziehung] ⭐⭐ Neukontakt über einen Du-Kontakt: «Geschätzte» statt «Sehr geehrte»?**
+Am 05.09.2025 schreibst Du der Neukundin, die über Peter Weisser kam, «Geschätzte Frau Frick»; am
+07.08.2025 der Buchhaltung bei Nova (Thomas Angerer im Cc) «Geschätzte Frau Siegel». Sechs Stunden
+später bekommt der externe Bewirtschafter, der die Rechnung beanstandet hat, «Sehr geehrter Herr
+Häfele». Die Offerte an Roman Steinmann (19.01.2026) trägt ebenfalls «Sehr geehrter».
+*Konkret:* Wärmt es für Dich die Anrede, wenn jemand über einen Du-Kontakt zu Dir kommt (vermittelt
+oder aus dessen Haus), und bleibt es beim «Sehr geehrte», wo keine solche Brücke besteht?
+*Warum:* Der Zwilling schrieb in beiden Brücken-Fällen «Sehr geehrte», weil er seit gestern jede
+Offerte an einen Neukontakt kalt adressiert. Mit Deiner Antwort wird aus drei widersprüchlichen Zeilen
+eine Regel.
+
+**#2 [Echo] Pool-Stufenliste (05.09.2025) und «Kurz zusammengefasst:» (07.08.2025): aus ChatGPT?**
+Beide Passagen sehen aus wie eingefügt: die Pool-Liste beginnt mit «Hier eine einfache Übersicht in
+vier Stufen:», hat fette Nummernköpfe und „…“-Gänsefüsschen; die Studienlieferung an Thomas hat
+Fettblöcke und zwei gesetzte Gedankenstriche. Beide sind im Wiki als Deine Marker geführt.
+*Konkret:* Hast Du diese Texte (ganz oder als Grundlage) aus einem KI-Werkzeug übernommen?
+*Warum:* Bei Ja werden sie als Stilquelle gestrichen (Echo-Schutz), und der Zwilling baut keine
+Stufenskalen und Fett-Zusammenfassungen mehr nach. Aus dem Gehirn ist die Stufenskala vorsorglich schon
+entfernt.
+
+**#3 [Arbeitsweise] Verlangte Angaben in den Betreff: bewusst für die Buchhaltung?**
+Nach der Beanstandung vom 07.08.2025 hast Du Adresse, Ort, Objekt und Grundstücknummer wörtlich in den
+neuen Betreff geschrieben.
+*Konkret:* Machst Du das, damit die Gegenseite die Mail ohne Öffnen zuordnen und verbuchen kann?
+*Warum:* Dann gilt «was der Empfänger zum Ablegen braucht, gehört in den Betreff» als Regel (auch für
+Rechnungen und Bewilligungsunterlagen), und 260917b #3 ist zugleich beantwortet.
+
+**#4 [Arbeitsweise] Absage-Quittung: der Service-Satz bleibt, auch wenn der Auftrag weg ist?**
+Christoph hat am 30.06.2025 die TDD-Offerte abgesagt; Deine Antwort quittiert das ohne Kommentar,
+bietet die Leistungen für später an, dankt, und schliesst mit «Bei Fragen oder Unklarheiten stehe ich
+Dir jederzeit gerne zur Verfügung.»
+*Konkret:* Ist der Service-Satz für Dich hier bewusst die offene Tür, oder gehört er einfach unter jede
+Mail, in der eine Rechnung erwähnt ist?
+*Warum:* Der Zwilling hatte ihn weggelassen. Die heute kompilierte Fassung deckt beides; Deine Antwort
+sagt, welche Begründung stimmt, und damit, ob er auch unter einer Absage-Quittung ohne Rechnung steht.
+
+Status: 260919b #1-#4 **offen**; 260919 #1-#2, 260918b #1-#5, 260918 #1-#3, 260917b #1-#6,
+260917 #1-#3, 260916 #1-#4, 260916b #1-#3, 260915 #1-#6 unverändert offen. #1 berührt
+`rules/anrede-kontakte.md` nicht (keine neuen Du-Kandidaten).

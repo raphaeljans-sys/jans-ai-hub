@@ -5,6 +5,20 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 
+## 2026-09-19 — twin-fidelity-review (Gesamt-Fidelity 60; vier Golds 30.06./07.08. zweimal/05.09.2025)
+
+- Report `outputs/2026-09-19_fidelity.md`: Fachsignatur 75, Denken 75, Stimme 60, Arbeitsweise 60,
+  Haltung 45, Beziehungsregister 45 (Anrede 2 von 4). Eingangsdank hält auch an der Rüge-Antwort (3/3).
+- Block geändert (je exakt ein Treffer, Wortlaut vorher in der Facette): [[haltung]] «wir/unser»
+  Default auch in Erst-Offerte/Rechnung (3:0); [[beziehungsregister]] «Sehr geehrte» nur für NICHT
+  vermittelte Neukontakte (2:1); [[stimme]] Service-Satz auch bei nur gemeldeter Rechnung und unter der
+  empfangenen Absage.
+- Echo-Schutz: Pool-Stufenliste (Frick 05.09.2025) und Studienlieferung 07.08.2025 als AI-Paste-Verdacht
+  markiert; «Entscheidungs-Skala + Praxis-Einordnung» aus dem Block gestrichen (Freischnitt 260919 in
+  [[haltung]]); Vorbehalte additiv in [[denken]] und [[arbeitsweise]].
+- Je ein additiver Abschnitt «Fidelity 260919» in allen sechs Facetten; [[QUESTIONS]] 260919b #1-#4 neu.
+- Gehirn neu kompiliert: 36'998 B, Reserve 2 B, Grenze NICHT angehoben.
+
 ## 2026-09-19 — twin-mail-training Batch 124 (`rj@` Sent 17.09. 15:49 bis 18.09. 20:54)
 
 - 6 Treffer gesichtet, **2 Golds eigener Hand** (beide Outlook Mobile), 1 Dublette der Grenze, 1

@@ -3,6 +3,76 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 19.09.2026 (09:25): Zargen RWD Schlatter ohne schriftliche Bestellung, Jens Ziegel bis 05.10. abwesend
+
+**Warum der Radar heute selbst meldet:** Der Hub-Chef ist heute nicht gelaufen (das MacBook Pro war bis kurz vor 09:00 nicht erreichbar, sein nächster Lauf ist erst morgen). Dieses Briefing geht deshalb ausnahmsweise direkt an Dich.
+
+**Zwei Dinge zuerst.**
+
+1. **Zargen RWD Schlatter:** Die Frist lief gestern ab, und in keinem Konto liegt eine schriftliche Bestellung. War sie telefonisch, ist nichts zu tun. Sonst am Montag bei Herrn Kayisoglu nachfassen, da die Zargen sonst aus KW 42 und die Türblätter aus KW 43 rutschen.
+2. **Jens Ziegel abwesend:** Du hast Jomos gestern gebeten, die GVZ-Eingabe der Sprinkleranpassung in KW 39 mit Nabiullah Meragi und Jens Ziegel abzustimmen. Jens Ziegel ist laut Abwesenheitsnotiz bis 05.10. weg, seine Vertretung für das KISPI ist Nabiullah Meragi. Jens Ziegel fehlt damit auch an der Koordinationssitzung vom 24.09.
+
+### Erledigt seit gestern
+
+1. **GVZ-Eingabe Sprühnebelanlage angestossen**, gestern 13:42 an Jomos (Walter Moscioni, Tim Harder), Gruner und KISPI, mit der Vorlage für das Schreiben von Jomos an die GVZ und den Therapieküchenplänen. Der ältere Apple-Mail-Entwurf an Herrn Harder von 13:25 ist damit überholt und kann weg.
+2. **Samstagseinsatz auf 06:30 bestätigt**, gestern 14:54 an Jegen, Estermann und KISPI, zusammen mit der Bitte, alle Anschlusspunkte der Elektrifizierung der Schiebetüre S2 anzugeben.
+3. **Deckenspiegel OG1 Sektor 41** als leichtes DWG (1.6 MB statt 19 MB) im LOS 283.10 unter «01 HdM Deckenspiegel OG1 Sektor 41» abgelegt, für die Ausschreibung Metalldecke.
+4. **Kontakte Aaron Tonet und Nicklas Rothe** liegen jetzt im synchronisierten Exchange-Ordner und sollten damit auf dem Handy erscheinen (dort noch nicht gegengeprüft).
+
+### Aus unseren Gesprächen
+
+1. **Falsche Jomos-Adresse im Mai.** Die beiden Mails vom 07.05. zur Sprühnebelanlage gingen an `tim.harder@josmos.ch` statt an jomos.ch. Ob Herr Harder sie erhalten hat, ist offen; Deine GVZ-Argumentation stützt sich auf sein Telefonat vom selben Tag. Der falsche Vorschlag steckt noch in der Outlook-Adressliste und lässt sich nur im Web-Outlook entfernen.
+2. **MacBook-Display wecken.** Der Dienst `ch.jans.macbook-wecker` auf dem Mac Mini weckt das MacBook-Display, sobald Du den Mini entsperrst; von Hand geht es mit «wach» im Terminal des Mini.
+3. **Systemzugang.** Einen Vollzugriff erteilt sich Claude nicht. Die Rückfragen kommen von der Desktop-Steuerung (Zustimmung je App und Session) und von macOS selbst, nicht aus der Claude-Code-Freigabeliste, die bereits vollständig ist.
+
+### Überfällig
+
+1. **Abrechnung Steinbrüchelstrasse**, Tag 3 über der Frist vom 16.09. In bexio liegt noch keine Rechnung an die Schweizer Anlagestiftung (Kostendach CHF 1'800.00 exkl. MWST nach Aufwand).
+2. **Antwort an Aaron Tonet zum Durchleitungsrecht**, Tag 9. Beide Entwürfe vom 15.09. liegen unverändert, die kürzere Fassung von 14:51 ist versandbereit.
+3. **Zusammenfassung der Honorarsitzung** vom 14.09., Tag 5 im Entwurf. Die Folgesitzung ist am Montag.
+4. **Absage an die GLAESER AG**, Tag 10.
+5. **Unverändert offen:** Kapitaleinzahlung AG, SVA-Mahnung vom 05.08. (Portal AHVeasy), new copy store.
+
+### In den nächsten 7 Tagen
+
+1. **Sonntag 20.09.:** Leistungsnachweis für die Sitzung vom Montag.
+2. **Montag 21.09.:** Zargenbestellung bei RWD Schlatter bestätigen lassen; 13:30 bis 14:30 «Abgleich Umbau PPTS» (Teams) mit Cornelia Schäfer, Claudia Allerkamp und Albin Spahic, offen sind Zahlungsübersicht und Tarif CHF 155.00/h oder CHF 160.00/h.
+3. **KW 39:** GVZ-Eingabe der Sprinkleranpassung durch Jomos, Abstimmung über Nabiullah Meragi.
+4. **Mittwoch 23.09.:** Mahnfrist RE-00102 über CHF 14'880.00, abgestimmt auf den Zahlungstermin 25.09. aus der Sitzung vom 14.09.
+5. **Donnerstag 24.09., 13:00:** Koordinationssitzung Gruner, Jans und KISPI (ohne Jens Ziegel); am selben Tag Berufsbildungsfonds Raum- und Bauplanung, CHF 220.00.
+6. **Freitag 25.09.:** Zahlungstermin KISPI; 25. bis 27.09. ganztägig «Raphael Jans & Biolley Gressoney».
+
+### In Beobachtung
+
+1. **Deckeneinbauten Metalldecke (BKP 283.1):** Sprinkler, Elektro und Brandmelder fehlen weiterhin, nur die Lüftung hat geliefert.
+2. **Schiebetüre S2:** Antwort von Jegen und KISPI zu den Anschlusspunkten; Michael Spörri ist ab Montag zurück.
+3. **KISPI-Debitoren:** vier Rechnungen über CHF 47'160.00, alle Mahnung 2.
+4. **UBS:** Am 16.09. stehen zwei Belastungen über je CHF 4'800.00 in bexio; ob einmal oder doppelt bezahlt wurde, zeigt nur der Kontoauszug.
+5. **Brandmeldeanlage:** GVZ-Anmeldung liegt bei KISPI und Siemens.
+6. **Privat:** Galaxus-Rechnung CHF 89.90, zahlbar bis 09.10.; Mitteilung Steueramt in «Mein Konto».
+7. **Sicherheit:** Deine Mail an Dich selbst vom 18.09. um 20:52 ohne Betreff enthält eine passwortartige Zeichenfolge im Klartext und liegt inzwischen auch in iCloud. Falls es ein Zugangswort ist, die Mail überall löschen. Dazu unverändert das NAS-Passwort im Klartext in den Einstellungen des Mac Mini.
+8. **Nova, Steinbrüchelstrasse:** Anmeldung Wegrecht WI3366 bis 08.10.
+9. **Thalwil:** Begleitbeschrieb Bohlweg 3 weiterhin nicht bei der Gemeinde.
+10. **Albertstrasse 7:** KV-Entwurf an Roman Steinmann, er ist ab 22.09. zurück.
+11. **Freigabe:** Auf dem MacBook Pro wartet seit gestern 01:00 ein Task, der zwei Hintergrunddienste auf den SSD-Klon umstellt; freigeben kannst nur Du.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen.
+
+1. Montag 21.09., 08:00: Anruf RWD Schlatter wegen der Zargen.
+2. Mittwoch 23.09.: Erinnerung an die Mahnfrist RE-00102.
+
+### Token-Tempo
+
+Vortag 18.09.: MacBook Pro 151.9 Mio. Tokens (USD 120.62), Mac Mini 106.6 Mio. Tokens (USD 96.51), zusammen 258.5 Mio. Tokens und USD 217.13 (API-Äquivalent).
+
+### Nur im Logbuch, nicht in der Mail (Hub-Interna, Rule 260803)
+
+**Laufvermerk 2026-09-19 (Journal):** Radar erst um 08:54 CEST gestartet (Task-Registry `lastRunAt` 06:54:49Z), zusammen mit `zahlungsabgleich-check` und `twin-*` um 08:51 nachgeholt. `hub-chef-taeglich` hat heute keinen Lauf (lastRunAt 18.09. 06:39Z, nextRunAt 20.09.), `konversations-log` ebenfalls nicht; die Frühwarnung des Mini meldete um 06:31 `ssh macbook` Timeout. Widerspruch zur Session d6d8bba9 vom 18.09. («Dein MacBook schläft gar nicht, am Netzteil ist der Ruhezustand abgeschaltet»): heute früh war es weder per ssh erreichbar noch liefen seine Loops. Ursache offen; Kandidaten sind Akkubetrieb, abgemeldete Claude-App oder ein Netzproblem. **Entscheid Mail:** Präzedenz 17.09. (Chef am Tag selbst nicht gelaufen), darum eine eigene Mail; ein Punkt, der vor 08:39 Handeln verlangt hätte, lag nicht vor. Register: 22 Zeilen am Dateiende angehängt (5671 auf 5693), 0 entfernt; 1 Erledigt (Deckenspiegel Sektor 41), 6 neu (GVZ-Eingabe/Ziegel abwesend, Schiebetüre S2 Anschlusspunkte, Galaxus, Sicherheit passwortartige Mail, M. Winter Kenntnisnahme, josmos-Adresse, Tx 3796), 3 Nachträge (Zargen Frist verstrichen, Dauerpunkte, Betrieb). Quellen: Konversations-Extrakt beider Stationen selbst gezogen (`konversations-extract.sh 26`, rc 0, 41 Sessions, Auswertung durch Haiku-Subagent und am Digest gegengelesen; der Subagent löste einen Klassifikator-Hinweis «Auto-Mode Bypass» aus, seine Aussagen wurden deshalb nur nach eigener Gegenprobe übernommen, zwei seiner Angaben waren falsch: «RE-00102 Mahnfrist abgelaufen» und «MacBook Pro noch 401»), Mail-Vorfilter 26 h (rc 0), Graph rj@ Gesendete und Entwürfe, drei Mails im Volltext (RJ 18.09. 13:42 und 14:54, Autoreply Ziegel), Entwurf 13:25 im Volltext, Mails Winter und Galaxus per osascript, outlook.com 26 h ohne Eingang und Ausgang, bexio `--verzug --json` rc 0, Outlook-Kalender bis 26.09. über den M365-Connector, ccusage beider Stationen.
+
+**Mail: gesendet 19.09.2026 09:03** über `scripts/versand-mail-senden.sh` (Konto Exchange), Betreff «Radar 19.09.2026: Zargen RWD Schlatter ohne schriftliche Bestellung, Jens Ziegel bis 05.10. abwesend», Body 5'654 Bytes Plain Text; per Graph nachgemessen: genau eine Zustellung im Posteingang rj@ (07:03:45Z, ungelesen, internetMessageId `<DB99702E-…@raphaeljans.ch>`), zwei gleichnamige Reste im Entwurfsordner wie bei früheren Läufen. **QS:** `rechtschreibung` gelb, alle drei Befunde übernommen (Bezug «Er» auf Ziegel eindeutig gemacht, «Jomos» statt «JOMOS», «die Mail überall löschen») plus Stilhinweis doppeltes «sonst»; `layout` gelb, übernommen: Platzhalterzeit ersetzt, Titel gekürzt, Datumsform 05.10. vereinheitlicht, «Zwei Dinge zuerst» nummeriert, Spörri-Rückkehr nach «In Beobachtung», Markdown für die Mail entfernt. Nicht übernommen: Vereinheitlichung der Tageszähler unter «Überfällig» und Auflösung der Sammelzeile (bewusst knapp, Details im Register). Nachträglich präzisiert: Handy-Synchronisation Tonet/Rothe als «noch nicht gegengeprüft».
+
 ## Hub-Chef 18.09.2026 (08:39 bis 08:4x, Tagesbriefing gesendet) — Radar hat nicht gemailt, darum volles Briefing; Zargenfrist heute und Samstag-Zeit zuoberst
 
 **Pflichtlektuere:** Radar-Abschnitt 18.09. 07:00 gelesen; der Radar hat heute **nicht** gemailt (Regelfall nach Ein-Mail-Prinzip), darum traegt dieses Briefing seine operativen Punkte vollstaendig weiter. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut**, obwohl der Monitor lief (Commit `24c2e4594`, «0 neue Mails, 35 Tage ueberfaellig, P1 unveraendert»); Befund im Briefing als Punkt 7 der 7-Tage-Liste mitgefuehrt. Konversations-Destillat `260918-konversationen.md` gelesen (fuenf Themen, alle 17.09. vormittags, vom Radar verarbeitet).

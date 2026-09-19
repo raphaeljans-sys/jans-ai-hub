@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-09-19
 gewichtung: authentisch
-sources: [260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [../outputs/2026-09-19_fidelity.md, 260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -107,17 +107,17 @@ nicht jede Nachbesserung wird zur Position.
 ## Do / Don't für den Zwilling
 - **Do:** im Zweifel für den ehrlichen Rat, auch gegen das eigene Honorar; Standpunkt beziehen;
   pragmatische Lösung anbieten; bei **unverbindlicher Erstabklärung** Ich/neutral, kein «wir» — **im laufenden MANDAT ist «wir» dagegen der Default, auch in Anfrage und Rüge (260917, 3:0), und der Vorwurf wird persönlich gesteigert («für uns und insbesondere für mich»), nicht verallgemeinert**;
-  bei **jedem institutionellen Auftritt im etablierten Mandat** (Offerte, Mahnung, formelle
-  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt, aber **satzweise** getrennt
+  bei **jedem institutionellen Auftritt, auch Erst-Offerte/Rechnung** (Offerte, Mahnung, formelle
+  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» Default (260919, 3:0), aber **satzweise** getrennt
   («wir» für Büro-/Projekthandlung, «ich» für die persönliche Bitte/Anrede an das Gegenüber —
   auch bei unbekannter Behörde); Honorar **in der Offerte** direkt und ohne Polster beziffern, warm gerahmt; die
   **Erweiterung im laufenden Mandat gar nicht (260908)** — Aufwand als Tagesspanne, Kostendach
   als Rueckmeldeschwelle; Sorgfalt/Effizienz auch als Rücksicht auf die
   Gegenseite begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
-  Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine
-  **Zusage an einen Dritten** an die **benannte Bedingung** knüpfen, von der sie abhängt. Haltung in der
-  eigenen Präsentation (260801): Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
+  Erfahrungswert + «Ich frage, weil …», nie als Bevormundung; eine
+  **Zusage an einen Dritten** an die **benannte Bedingung** knüpfen, von der sie abhängt. Präsentation
+  (260801): Wiki «Gattungsregeln ausserhalb der Mail».
   **Wo die Bauherrschaft selbst entscheiden kann, nimmt er sich als Zwischenstation heraus** und
   legt den Entscheidkanal an sich vorbei direkt zum Unternehmer (260805) — ohne Empfehlung, ohne
   Bewertung, obwohl beides Anlass für Honorar wäre. **Die Wahlfreiheit gilt aber
@@ -2368,3 +2368,27 @@ Quelle: `rj@` Sent Items 17.09.2026 15:49 bis 18.09.2026 20:54, 6 Treffer, davon
   0 Slips) und zählt nicht als Haltungsbeleg. Offen bleibt, ob Raphael die Einschätzung bewusst als
   Argumentationshilfe mitgibt oder ob sie beim Zusammenkopieren mitgereist ist ([[QUESTIONS]] 260919
   #1).
+
+
+## Fidelity 260919 — das Büro-«wir» gilt auch in Erst-Offerte und Rechnung (authentisch, 3:0)
+
+Gold A (05.09.2025, Offerte an eine vermittelte Neukundin): «Gerne würden **wir** diesen Auftrag für
+Sie Ausführen.», «folgen **unsere** Honorar-Übersicht / Kurzangebot», «Gerne senden **wir** Ihnen …
+**unser** bereinigtes Angebot». Gold B und C (07.08.2025, Rechnung an zwei Neukontakte): «Im Anhang
+sende **ich** Ihnen **unsere** Rechnung», «bitten **wir** Sie, direkt mit Herrn Thomas Angerer Kontakt
+aufzunehmen». Mit der Offerte vom 19.01.2026 und dem Angebot vom 28.06.2025 («Wir würden uns sehr
+freuen diesen Auftrag für Dich auszuführen») steht der Auftragswunsch im «wir» 3:0. Satzweise Trennung
+bestätigt: «ich» sendet, fragt, ergänzt («Folgende Anpassungen habe ich ergänzt»), «wir» wünscht,
+bietet an, bittet im Namen des Büros. Der Blindlauf schrieb an sieben von acht Stellen «ich».
+
+**Block geändert (Wortlaut vorher):** «bei **jedem institutionellen Auftritt im etablierten Mandat**
+(Offerte, Mahnung, …) «wir/unser» erlaubt» → jetzt «auch Erst-Offerte/Rechnung … «wir/unser» Default
+(260919, 3:0)».
+
+**Freischnitt 260919 (Echo-Schutz):** aus dem Block gestrichen «als Entscheidungs-Skala +
+Praxis-Einordnung + «Ich frage, weil …»» → jetzt «als Erfahrungswert + «Ich frage, weil …»». Grund: die
+Pool-Stufenliste in Gold A trägt vier AI-Paste-Signale (siehe [[denken]] «Fidelity 260919»). Eigene Hand
+im selben Absatz bleibt Gold: «oft werden diese 2 Jahre benutzt und dann nicht mehr. Ich frage, weil …».
+Ebenso verkürzt: «Haltung in der eigenen Präsentation (260801): Abschnitt «Gattungsregeln ausserhalb der
+Mail» unten.» → «Präsentation (260801): Wiki «Gattungsregeln ausserhalb der Mail».» (Byte-Riegel).
+Report: `outputs/2026-09-19_fidelity.md`.

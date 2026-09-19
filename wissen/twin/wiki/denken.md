@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-09-19
 gewichtung: authentisch
-sources: [260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [../outputs/2026-09-19_fidelity.md, 260919-mailbatch-124.md, 260918-mailbatch-123.md, 260917-mailbatch-122.md, 260916-mailbatch-121.md, ../outputs/2026-09-15_fidelity.md, ../outputs/2026-09-11_fidelity.md, 260911-mailbatch-119.md, ../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1937,3 +1937,24 @@ Quelle: `rj@` Sent Items 17.09.2026 15:49 bis 18.09.2026 20:54, 6 Treffer, davon
   Fachmanns und liefert dazu Plan, Betriebskonzept mit Seitenzahl und Plangrundlagen; eine eigene
   Beurteilung steht nur im Hub-Block darunter (`claude-aera`, nicht gewertet). Ob deren Schluss
   («keine wesentliche Änderung») Raphaels Vorgabe war, ist offen ([[QUESTIONS]] 260919 #1).
+
+
+## Fidelity 260919 — Vorbehalt: das «Vier-Stufen-Entscheidungsmodell» ist vermutlich eingefügter Modelltext
+
+Der Abschnitt «Die budgettreibende Entscheidung als Stufenmodell isolieren» (Mailbatch 12, Frick
+05.09.2025) stützt sich auf eine Passage mit vier Echo-Signalen: generische Eröffnung «Hier eine einfache
+Übersicht in vier Stufen:», fett gesetzte Nummernköpfe mit kursivem Einschub, typografische Gänsefüsschen
+„Planschbecken“ und („High-End“) statt Guillemets, `class="p1"`-Absätze mitten in einer sonst in
+Aptos-`div` getippten Mail. Nach der Zwei-Signal-Regel (`CLAUDE.md`) ist die Liste **`claude-aera`-
+äquivalent und keine Stilquelle**, ebenso vermutlich der Satz «Meist bewegt man sich in der Praxis
+zwischen Stufe 2 und 4» (Beginn desselben `p3`-Absatzes). **Gold bleibt** Raphaels eigene Fortsetzung:
+«Ist das Pool gewünscht, oft werden diese 2 Jahre benutzt und dann nicht mehr. Ich frage, weil die
+Auslegung der Gebäudetechnik vom Pool-Ausbaustandard abhängt und grundsätzlich ein signifikanter
+Budgetposten darstellt. Aus den Plänen kann ich keine Rückschlüsse auf die Fragen finden.» Das Muster
+«kostentreibende Variable benennen → Budget-Konsequenz → Frage» hält; die **Stufenskala als Form** ist
+nicht belegt. Der Block führte sie als «Entscheidungs-Skala + Praxis-Einordnung» ([[haltung]]); dort am
+19.09.2026 gestrichen. Bestätigung offen: [[QUESTIONS]] 260919b #2.
+
+Getroffen im Blindlauf: Aufbau der Erst-Offerte (Dank → Auftragswunsch → Honorar inline → Angebot zur
+Bereinigung mit Datum → «Frage:» → Pool mit Begründung) und der Rüge-Antwort (Dank → korrigierte
+Lieferung → Liste der Ergänzungen, **keine Entschuldigung**). Report: `outputs/2026-09-19_fidelity.md`.

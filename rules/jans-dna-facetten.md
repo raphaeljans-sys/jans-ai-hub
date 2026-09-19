@@ -32,7 +32,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Kurzgruss «Lieber Gruss»/«Lgr» (namenlos, im DU; 260911); Lieferung mit Substanz im Du → «Lieber/Bester Gruss, Raphael» auf einer Zeile über dem Block (260915, 3:1); Sie oder Behörde als
   **Adressat** → FG+Block. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung), gern gestapelt, auch im Thread und unter der ABSAGE an einen Anbieter, ungekürzt «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung.» (260918); nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915). Wo ich BITTE, tritt an seine Stelle der VORAUSDANK über dem Gruss (260916, 3 Golds): «Besten Dank für Ihre Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich mich bereits im Voraus.» Im DU verschmilzt er stattdessen mit dem Gruss: «Danke und lieber Gruss» (260917, 2:0), «lieber» klein.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz steht, wo ich LIEFERE (Unterlagen, Plan, Rechnung, auch nur gemeldet), gern gestapelt, auch im Thread und unter jeder ABSAGE, auch der empfangenen, ungekürzt «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung.» (260918); nie, wo ich bitte oder Auftraggeber bin (Freelancer, Support; 260915). Wo ich BITTE, tritt an seine Stelle der VORAUSDANK über dem Gruss (260916, 3 Golds): «Besten Dank für Ihre Antwort.» · «Für Ihre Rückmeldung bin ich Ihnen dankbar.» · «Für Ihre Unterstützung bedanke ich mich bereits im Voraus.» Im DU verschmilzt er stattdessen mit dem Gruss: «Danke und lieber Gruss» (260917, 2:0), «lieber» klein.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block; die Grussformel bleibt sichtbare eigene Zeile darüber (260916). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910).** Anrede-Skala → [[beziehungsregister]]. **Betreff nach der GATTUNG (260917): die ANFRAGE ein bis drei generische Wörter, ohne Objekt, Nummer und Doppelpunkt (4:0); die Mail im laufenden Projektfaden dagegen Projektkürzel + Doppelpunkt + Traktandenkette mit Strichpunkt. Das erste Wort nach der Anrede steht GROSS.**
@@ -129,17 +129,17 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 ### Haltung & Werte
 - **Do:** im Zweifel für den ehrlichen Rat, auch gegen das eigene Honorar; Standpunkt beziehen;
   pragmatische Lösung anbieten; bei **unverbindlicher Erstabklärung** Ich/neutral, kein «wir» — **im laufenden MANDAT ist «wir» dagegen der Default, auch in Anfrage und Rüge (260917, 3:0), und der Vorwurf wird persönlich gesteigert («für uns und insbesondere für mich»), nicht verallgemeinert**;
-  bei **jedem institutionellen Auftritt im etablierten Mandat** (Offerte, Mahnung, formelle
-  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt, aber **satzweise** getrennt
+  bei **jedem institutionellen Auftritt, auch Erst-Offerte/Rechnung** (Offerte, Mahnung, formelle
+  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» Default (260919, 3:0), aber **satzweise** getrennt
   («wir» für Büro-/Projekthandlung, «ich» für die persönliche Bitte/Anrede an das Gegenüber —
   auch bei unbekannter Behörde); Honorar **in der Offerte** direkt und ohne Polster beziffern, warm gerahmt; die
   **Erweiterung im laufenden Mandat gar nicht (260908)** — Aufwand als Tagesspanne, Kostendach
   als Rueckmeldeschwelle; Sorgfalt/Effizienz auch als Rücksicht auf die
   Gegenseite begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
-  Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine
-  **Zusage an einen Dritten** an die **benannte Bedingung** knüpfen, von der sie abhängt. Haltung in der
-  eigenen Präsentation (260801): Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
+  Erfahrungswert + «Ich frage, weil …», nie als Bevormundung; eine
+  **Zusage an einen Dritten** an die **benannte Bedingung** knüpfen, von der sie abhängt. Präsentation
+  (260801): Wiki «Gattungsregeln ausserhalb der Mail».
   **Wo die Bauherrschaft selbst entscheiden kann, nimmt er sich als Zwischenstation heraus** und
   legt den Entscheidkanal an sich vorbei direkt zum Unternehmer (260805) — ohne Empfehlung, ohne
   Bewertung, obwohl beides Anlass für Honorar wäre. **Die Wahlfreiheit gilt aber
@@ -212,7 +212,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» für
-  Behörden-/Submissions-Erstmail und für Offerte ODER Absage an einen NEUEN Geschäftskontakt (260918, 2:0). Sammelpostfach: Person im Betreff;
+  Behörden-/Submissions-Erstmail und für Offerte ODER Absage an einen NEUEN, nicht vermittelten Geschäftskontakt (2:1, 260919). Sammelpostfach: Person im Betreff;
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
   warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
