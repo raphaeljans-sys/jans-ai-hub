@@ -1,14 +1,18 @@
 # Anhang: Befundkatalog Ist-Analyse JANS AI Hub (intern)
 
-Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Anhang zum Briefing «JANS AI Zentrum» · **Vertraulich. Weitergabe an den Ingenieur erst nach unterzeichneter Geheimhaltungsvereinbarung.**
+Raphael Jans Architekten ETH/SIA · Stand 19.09.2026 · Anhang zum Briefing «JANS AI Zentrum» · **Vertraulich. Einsicht an der Begehung, Abgabe nur an den Auftragnehmer von AP0.**
 
 ## 00 Lesehilfe
 
-**00.1 Herkunft.** Zehn parallele, rein lesende Analyse-Läufe vom 19.09.2026 über den Git-Spiegel des Hub (Commit 379a4ba76) und die nicht versionierten NAS-Ordner. Jeder Befund trägt einen Beleg (Datei, Zeile oder Abschnitt) oder eine datierte Eigenmessung. Inhalte von Secret-Dateien wurden nicht gelesen; IP-Adressen, Kennungen und Personennamen Dritter sind bewusst nicht übernommen.
+**00.1 Herkunft.** Zehn parallele, rein lesende Analyse-Läufe vom 19.09.2026 über den Git-Spiegel des Hub (Commit 379a4ba76) und die nicht versionierten NAS-Ordner. Jeder Befund trägt einen Beleg (Datei, Zeile oder Abschnitt) oder eine datierte Eigenmessung. Inhalte von Secret-Dateien wurden nicht gelesen. IP-Adressen, Tenant- und App-Kennungen sowie Personennamen Dritter sind nicht übernommen. Produkt-, Hoster- und Stationsbezeichnungen, Dateipfade und Commit-Kennungen sind enthalten.
 
 **00.2 Aufbau.** Je Subsystem: Ist-Zustand, Schwachstellen nach Schweregrad (kritisch, hoch, mittel, niedrig) mit Klasse und Beleg, Kennzahlen mit Quelle, offene Fragen. Die aus den Befunden abgeleiteten Leistungspakete stehen im Briefing, nicht hier.
 
-**00.3 Zählung.** 120 Schwachstellen über zehn Subsysteme. Mehrere Befunde erscheinen aus verschiedenen Blickwinkeln mehrfach (SMB-Mount, M365-App-Rechte, Personendaten im Git, fehlende Tests); das ist Absicht und zeigt die Querschnittsthemen.
+**00.3 Zählung.** 120 Schwachstellen über zehn Subsysteme: 25 kritisch, 52 hoch, 41 mittel, 2 niedrig. Mehrere Befunde erscheinen aus verschiedenen Blickwinkeln mehrfach (SMB-Mount, Rechte der Microsoft-365-Anbindung, Personendaten im Git, fehlende Tests); das ist Absicht und zeigt die Querschnittsthemen.
+
+**00.4 Zählweisen und bekannte Abweichungen.** Die zehn Läufe haben unabhängig gemessen, einzelne Grössen weichen darum voneinander ab. Massgebend sind: Aufsichtsausfall 66 Stunden (rechnerisch 65 h 51 min, einzelne Abschnitte nennen 65 h). Ertraglose Läufe «über 600 in einer Nacht» (677), beziehungsweise 699 Läufe der vier Lanes über zwei Kalendertage. 19 Wissensbasen (Verzeichnisse unter `wissen/` ohne `tools`; einzelne Abschnitte zählen 20 mit `tools` oder nennen 22 aus der Aufgabenstellung). 43 Agenten plus eine README-Datei. Rund 30 launchd-Labels. 12 Task-Definitionen des Mac mini im Spiegel (am 11.09.2026 waren 8 live). «Keepalive-Stalls» sind Minutenmeldungen des Wächters, keine einzelnen Abrisse: die 346 Meldungen vom 17.09.2026 sind eine einzige Episode von 03:15 bis 09:07, die 275 vom 07.09.2026 fallen mit dem NAS-Ausfall von rund 5.5 Stunden zusammen. Zur USV gibt es keine Dokumentation; die einzige Erwähnung steht im Fristen-Register als vermutete Ursache eines Büroausfalls im Juli 2026.
+
+**00.5 Weitergabe.** Der Katalog ist auch nach unterzeichneter Geheimhaltungsvereinbarung eine ausführbare Anleitung. Einsicht an der Begehung, Abgabe nur an den Anbieter, der AP0 erhält, und erst nachdem die Sofortmassnahmen zu den Ausführungskanälen und zur mobilen Station geschlossen sind (Begleitnotiz 02.5 bis 02.7).
 
 ## 01 Infrastruktur und Netz
 
