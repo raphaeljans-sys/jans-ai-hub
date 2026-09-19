@@ -5,6 +5,10 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-19 (Interaktiv MacBook Pro, Auftrag Raphael) — Wissens-Ruecklauf aus dem Briefing IT-Ingenieur «JANS AI Zentrum»
+
+- outputs: acht verallgemeinerbare Lehren fuer agentische Plattformen (Policy-Gate nur mit Credential-Isolation, Leser und Handelnder trennen, Profile auch interaktiv, Hubs sind Grenzen, kleiner Kern mit Ausloeser, ungeeignete Abnahmekennzahlen, Review-Oekonomie, Werkzeugbefund md2docx), `outputs/2026-09-19_agentische-plattform-lehren-aus-ist-analyse-und-panel.md`. Quelle: `docs/konzepte/260919-Briefing-IT-Ingenieur-JANS-AI-Zentrum/` (Befundkatalog mit 120 Befunden, Panel mit drei Entwuerfen und drei Richtern). Kein Wiki-Artikel angelegt; Kandidat fuer `wiki/` waere «agentische-sicherheit», sobald ein zweiter Beleg vorliegt.
+
 ## 2026-09-17 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS-Eintrag 13.08. geklaert: Schutzmechanik-Selbsttest haengt bereits im heartbeat, Suchradius war zu eng
 
 `wiki/QUESTIONS.md`, Eintrag «Offen (13.08.2026)» Punkt 1, geschlossen. Der damalige Befund
