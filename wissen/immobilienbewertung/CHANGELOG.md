@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-19 — Wissens-Rücklauf: Kauf gegen Barpreis plus Stockwerkeinheit (Forstweg 55, Bern)
+
+- Neuer Report `outputs/2026-09-19_kauf-plus-stockwerkeinheit-rechenweg-bern.md`: Rechenweg
+  Barpreis plus zurückbehaltene Einheit (Hochrechnung auf 100 %, Paketwert, Orientierung des
+  heutigen Ertragswerts aus amtlichen Stadtteilmieten, tragbarer Barpreis je Sanierungstiefe),
+  drei Einbindungsmodelle der Eigentümerschaft, Art. 21 OR als Preisrisiko.
+- Berner Rechtsgrundlagen präzisiert: Handänderungssteuer Bemessung auf allen Leistungen
+  (Art. 6/6a HStG), Formularpflicht mit korrekter Grundlage Art. 135a EG ZGB (BWO-Verzeichnis nennt
+  fälschlich die Kantonsverfassung), Bauordnung Stadt Bern Art. 28/30/46.
+- Datenzugänge Bern (ÖREB-JSON, belex-API, Bauinventar-Suche, Flatfox-API) als Kandidaten für
+  `wiki/datenquellen-registry.md` notiert; noch nicht eingepflegt.
+- Ergänzt den Report vom selben Tag zu Tragbarkeit und Marktdaten, ohne ihn zu überschreiben.
+
 ## 2026-09-19 — Wissens-Rücklauf: Tragbarkeit Renditeobjekt 2026, Mietrecht nach Sanierung, Marktdaten Bern
 
 - Neuer Report `outputs/2026-09-19_renditeobjekt-tragbarkeit-mietrecht-marktdaten-bern.md`:
