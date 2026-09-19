@@ -5005,3 +5005,47 @@ Gate-Log: am 17./18.09. nur die Selbsttest-Abweisungen, keine echte Abweisung.
 
 **Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
 Tasks: keine im aktuellen Log-Verlauf.
+
+## 2026-09-19 09:10 CEST — Regellauf MacBook Pro (Rohblock zuerst, Bewertung folgt)
+
+Nachgeholter Lauf nach dem MacBook-Shutdown 18.09. 23:37 (Beleg hub-chef `3ba5e98d0`). Beide
+Stationen gemessen (`ssh mini`), rekursives Glob inkl. Subagenten, Zeilenfilter timestamp[:10].
+Tageswerte teuer / total, Mio Token:
+MacBook Pro: 15.09. 10.40 / 191.41 · 16.09. 6.85 / 106.31 · 17.09. 9.68 / 239.05 ·
+18.09. 5.50 / 93.64 · 19.09. (bis 09:10) 2.46 / 46.06.
+Mac Mini: 15.09. 3.67 / 148.25 · 16.09. 2.99 / 65.16 · 17.09. 3.33 / 91.77 ·
+18.09. 4.48 / 101.71 · 19.09. 0.61 / 18.00.
+Zusammen teuer: 17.09. 13.01 · 18.09. 9.98 · 19.09. bisher 3.07.
+Blockade: 0 strukturelle Usage-/Rate-Limit-Ereignisse in 24 h auf beiden Stationen
+(Kontrollprobe: 296 bzw. 80 Dateien mit `scheduled-task` in der ersten Eingabe, Muster greift).
+Kein Wochenlimit.
+Letzte Task-Sessions (UTC, eigene Fruehwarnungs-Sessions ausgeschlossen): logbuch-radar MBP
+19.09. 06:54 · hub-chef-taeglich MBP 19.09. 06:59 · zahlungsabgleich-check MBP 19.09. 06:51 ·
+mahnwesen-verzugscheck MBP 18.09. 06:06 · vollgas-chef-radar MBP 19.09. 07:06, Mini 18.09. 22:58.
+
+### Bewertung 2026-09-19 09:10 (MBP) — ohne Befund, keine Mail
+
+**Verbrauch und Blockade.** 18.09. zusammen 9.98 Mio teuer, 17.09. 13.01; beide Schwellen (b)
+weit unterschritten. Kein Limit-Ereignis, kein Wochenlimit. Kriterien (a) bis (c) nicht erfuellt.
+Die Mini-Werte des 06:31-Eintrags sind reproduziert (18.09. 4.48).
+
+**Briefings.** Nach dem Shutdown hat die App die Slots nach rund 08:50 CEST gebuendelt
+nachgefeuert. logbuch-radar hat sein Deliverable erreicht: Commit `8ce9e3bb1` 09:05 «Radar-Briefing,
+eigene Mail» (Ausnahme 2 des Ein-Mail-Prinzips, weil der Chef-Lauf noch nicht gelaufen war).
+hub-chef-taeglich `3ba5e98d0` 09:06: bewusst still beendet, weil der Radar bereits gemailt hat —
+regelkonform, kein Abbruch. zahlungsabgleich-check 19.09. 08:51 CEST: Session bis zum Schlussbericht
+gelaufen (Tx 3796 neu, read-only, NAS-Mount per Guard wiederhergestellt). mahnwesen-verzugscheck
+laeuft werktaeglich, heute Samstag nicht faellig; Lauf 18.09. mit Schlussbericht (KISPI im Verzug,
+im Register). Kriterium (d) nicht erfuellt.
+
+**Radar-Herzschlag.** RADAR.md erste `## `-Ueberschrift 19.09. 09:07 (MBP), Session 07:06 UTC,
+Commit `b3d06890b`; Mini 00:58. Kriterium (e) nicht erfuellt.
+
+**Liefer-Delta und Destillat.** 18.09.: 10 Wiki-Artikel per git (4 ohne Twin); 19.09. bisher 7
+(1 ohne Twin). Nachtschicht Mini 19.09. mit Commits (`cd115403d` 02:35). Kein Verbrauch ohne
+Lieferung. Stueckkosten 18.09. beide Stationen: 9.98 Mio / 10 Artikel = 1.00 Mio (ohne Twin
+2.50 Mio). `architektur-fachwissen` unveraendert 483 Artikel, Front weiter unmessbar (P2 Radar seit
+12.09.), Loop laeuft dort nicht an: (f) nicht erfuellt. Kein `KORPUS-QUEUE KOMPLETT`: (g) nicht erfuellt.
+
+**Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
+Tasks: keine im aktuellen Log-Verlauf.
