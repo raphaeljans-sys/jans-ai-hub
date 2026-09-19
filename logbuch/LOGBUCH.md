@@ -13535,3 +13535,24 @@ Nachtschicht-Zyklus des Tages an derselben KB (nach Weisung-30.25-Destillation u
 Wissenscheck Phase 1) — bewusst kein Duplikat, da jeder Zyklus einen anderen, vorher
 unbearbeiteten Teil des Artikels schloss. Budget rund 2.4 von 5 USD. Kein Versand, keine Buchung,
 keine Löschung. Zyklus sauber beendet.
+
+## 2026-09-19 02:3x Nachtschicht Mac Mini — Fristen-Radar: KISPI-Samstagstermin (heute 06:30) geprueft, Kalenderluecke weiterhin offen
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks/sync-tasks-mac-mini leer; Synobsis Stufe 2
+weiterhin aktuell, 853/853, `vectors.npz` vom 05.09. deckungsgleich mit `documents.jsonl`,
+keine Aenderung noetig). Prioritaet 3 gezogen, weil der Estermann/Jegen-Termin **heute**
+stattfindet: der Hub-Chef hatte am 18.09. 06:43 gemeldet, dass Outlook den eigenen Termin
+weiterhin auf 08:00-09:00 fuehrt statt der zugesagten 06:30, dazu ein kollidierender
+Privateintrag um 07:00 («Maria»), sowie dass die Ruecklaeufer-Bestaetigung von A. Spahic zu
+Mobiliar/Bodenschutz noch aussteht. Per M365-Graph-Connector (Postfach rj@, nur Mail, kein
+SMB) das Fenster seit 18.09. 06:45 durchsucht: Raphael selbst bestaetigt 06:30 schriftlich in
+einer eigenen Mail an Bajrami/Wuersch/Spahic vom 18.09. 12:54 («Termin: Morgen, Samstag
+19.09.26, 06:30 wird der LBW Sturz erstellt»); eine Mail, die die Outlook-Korrektur oder die
+Spahic-Bestaetigung bestaetigt, wurde nicht gefunden. Kalenderzugriff selbst ist dem
+Graph-App-Zertifikat verwehrt (403 auf `/calendarView`), daher nur der Mail-Umweg moeglich,
+keine direkte Kalender-Verifikation. Zusammenstellung (keine eigene Aktion, kein Versand,
+Rule 260803) oben in `logbuch/fristen.md` als dringender Eintrag vorangestellt, weil der
+Termin in wenigen Stunden beginnt und eine Kalenderluecke fuer Raphael selbst relevant sein
+kann, auch wenn die inhaltliche Zusage laengst schriftlich steht.
+
+Budget rund 2.0 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet.
