@@ -74,6 +74,32 @@ geladen; alle geladenen Jobs Exit 0 (Mini `macbook-wecker` -15 = SIGTERM des Vor
 - **P3 (unverändert, Aktion Raphael)** — Doppellauf Radar/Frühwarnung/heartbeat in beiden Registries; die MacBook-Fassung
   des Radars schrieb heute 09:07 einen eigenen Eintrag. Keine neue Vorlage.
 
+## 2026-09-19 12:58 — [FREI] **MacBook-Regellauf ohne Befund. Alle Loops mit Liefer-Delta, keine Drossel, keine Massnahme. Neu nur ein P3: das CLI druckt bei jedem Start eine Warnung über eine veraltete Wildcard-Regel in `settings.local.json`.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **8 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Symlink unverändert `Caskroom/claude-code/2.1.267`. Wochenbudget **40.9 %** von 167 Mio bei
+**72.0 %** verstrichener Woche, Vorsprung **-31.1 Punkte**, Ampel FREI (MacBook 51.51, Mini 16.82 Mio, beide frisch).
+MacBook seit 09:07 **+10.43 Mio** (Nachhol-Welle plus interaktive Arbeit am Briefing IT-Ingenieur, Commit `15deb832f`);
+der Vorsprung schrumpft damit um 3.9 Punkte, bleibt aber deutlich negativ. Speicher Druckstufe 1, rund 4.1 GiB
+frei+inaktiv+purgeable (vm_stat), Load 4.1 (fallend von 20.6 im 15-Min-Mittel). Selbstkontrolle: letzter Eintrag
+09:07, 4 h zurück, im Takt; `lastRunAt` 10:58Z ist dieser Lauf.
+
+**Liefer-Delta (git, SSD-Klon, seit 09:00).** twin 9 Dateien (Fidelity-Review 19.09.) · normen 7 (Run 88, lignum-4-2
+→ established) · claude-code 2 (Wissens-Rücklauf Briefing). Nachtschicht Mini heute 2 Läufe (02:36, 05:37), rc=0.
+Kein Loop ohne Delta; weder Rücktaktung noch Deaktivierung angezeigt.
+
+**Feuermechanismen.** MacBook-Registry wie Sollstand, alle Nachhol-Läufe inzwischen durch (auch `vollgas-fruehwarnung`
+09:09). launchd MacBook und Mini: `vollgas-supervisor`/`-monitor` nur als `*.disabled-260729`, nicht geladen; alle
+geladenen Jobs Exit 0, `macbook-wecker` Mini -15 wie bisher. Mini-Registry unverändert (13 Ordner).
+
+- **P3 (neu, Aktion Raphael, kein Eingriff durch den Radar)** — `.claude/settings.local.json` Zeile 19 trägt eine
+  Einweg-Freigabe `Bash(sed 's|.*/500 Invest/||' …/tool-results/bwjaoq471.txt)` aus einer früheren Session. Das CLI
+  liest das `*` in `.*` als Wildcard und druckt bei **jedem** `claude -p`-Start eine Warnung auf die Ausgabe (hier vor
+  dem «OK» der Probe). Harmlos für den Betrieb, verschmutzt aber jede headless-Ausgabe, die ein Script wörtlich
+  auswertet. Vorschlag: die Zeile streichen (Freigabe für eine einzelne Temp-Datei, ohne Nutzen). Der Radar ändert
+  Berechtigungskonfiguration nicht selbst.
+- **P3 (unverändert, Aktion Raphael)** — Doppellauf Radar/Frühwarnung/heartbeat auf MacBook und Mini.
+
 ## 2026-09-19 09:07 — [FREI] **MacBook-Fassung, nachgeholter Lauf nach Shutdown. Kein Befund, keine Massnahme. Das MacBook war vom 18.09. 23:37 bis rund 08:50 aus (hub-chef belegt den Shutdown); die App hat die verpassten Slots nach dem Start gebündelt nachgefeuert.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
