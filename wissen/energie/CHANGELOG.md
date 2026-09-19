@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-19 (Run 208, Nachtschicht Mac Mini) — WP+PV-Planungsgrundlagen fertig gelesen: Anhang 10-12, Abdeckung 52 → 78 von 78 Seiten
+
+- Direkte Fortsetzung von Run 207 (E-R207-2 dort als Kandidat benannt). PDF erneut geladen, SHA-256
+  identisch (unveraendert V2.0). S. 53-78 vollstaendig gelesen (`pdftotext -layout`).
+- **Neu destilliert:** Anhang 10 (SIA-2060-Ausbaustufen, Steckertypen Typ1/Typ2/CCS/CHAdeMO,
+  AC/DC-Ladeleistungstabelle 4/11/22 kW), Anhang 11 (LAN-Einbindung EFH/MFH), Anhang 12 (fuenf
+  Praxisbeispiele mit realen Messwerten: EFH Remigen, MFH Wettingen, MFH Wetzikon, Areal
+  Moeriken-Wildegg, Areal Erlenmatt Ost).
+- **Ergiebigster Fund:** BFE-Pilotprojekt Moeriken (3 baugleiche Gebaeude verglichen, [MOERIKEN II 2022])
+  belegt **Faktor 5 mehr Speicherkapazitaet durch Gebaeudemasse statt Speicherueberhoehung, ohne
+  Effizienzverlust** (Raumtemperatur-Hub 1-2 K statt 5-10 K) — spezifischer als der bisher gefuehrte
+  generische «Faktor 2»-Satz (S. 15). In `wiki/pv-eigenverbrauch-zev.md` nachgetragen.
+- Kein Widerspruch zum Bestand, keine Korrektur noetig — reine Ergaenzung. Kein Cross-KB-Fund.
+- **Abdeckung 52 → 78 von 78 Seiten**, Destillat damit vollstaendig gegen die Quelle gelesen.
+- QUESTIONS E-R207-2 geschlossen (✓ 19.09.2026); E-R207-1 (SIA-380/1-Normfundstelle) und E-R207-3
+  (interne Quellen-Unschaerfen) bleiben offen. Bericht `outputs/2026-09-19_energie-run208.md`.
+
 ## 2026-09-18 (Run 207, Abendlauf MacBook Pro) — A-BLIND Rang 15: WP+PV-Planungsgrundlagen am Original, 2 Berichtigungen, Kap. 5-9 neu
 
 - Frisches Backlink-Ranking (nur Destillate); Raenge 7-14 nach `gelesen:`/`verifikation:` ausgeschieden,

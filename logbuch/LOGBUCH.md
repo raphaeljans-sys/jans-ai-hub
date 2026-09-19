@@ -13556,3 +13556,28 @@ Termin in wenigen Stunden beginnt und eine Kalenderluecke fuer Raphael selbst re
 kann, auch wenn die inhaltliche Zusage laengst schriftlich steht.
 
 Budget rund 2.0 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet.
+
+## 2026-09-19, Nachtschicht-Zyklus Mac Mini — KB energie: Anhang 10-12 der Zogg-Publikation (WP+PV+E-Mob) fertig destilliert, Destillat jetzt 78/78 Seiten
+
+Prioritaeten 1-2 leer/gesaettigt (kein remote-task/sync-task; Synobsis Stufe 2 seit 25.07.2026
+bei 853/853, launchd-Job stillgelegt, kein gueltiges Ziel mehr). Prioritaet 3 (Fristen-Register)
+erst vor Kurzem (16.09.) und im 02:3x-Slot heute frisch geprueft, kein neues operatives Delta seit
+dann. Prioritaet 4 gezogen: `bauprodukte` schliesst sich in der eigenen PROGRAMM.md seit 15.08.2026
+explizit als Nachtschicht-Ziel aus (Inventar 0 offen), `energie` war damit das einzige freie Ziel.
+Deren eigene Warteschlange («Neuer Antrieb ab 24.08.2026») nannte E-R207-2 als naechsten Kandidaten,
+von Run 207 (18.09.2026) selbst benannt: Anhang 10-12 (S. 53-78) der Zogg-Publikation «Waermepumpen,
+Photovoltaik und Elektromobilitaet» waren nach dem A-BLIND-Lauf des Vortags (S. 1-52) noch offen.
+
+PDF frisch von pubdb.bfe.admin.ch geladen, SHA-256 identisch zum Frontmatter-Fingerabdruck
+(unveraendert V2.0). S. 53-78 vollstaendig gelesen: SIA-2060-Ausbaustufen, Steckertypen,
+Ladeleistungstabelle, LAN-Einbindung, sowie fuenf Praxisbeispiele mit realen Messwerten. Ergiebigster
+Fund: das BFE-Pilotprojekt Moeriken-Wildegg (drei baugleiche Gebaeude verglichen) belegt Faktor 5 mehr
+Speicherkapazitaet durch Gebaeudemasse statt Speicherueberhoehung, ohne Effizienzverlust — spezifischer
+als der bisher gefuehrte generische Faktor-2-Satz. In `wissen/energie/destillate/
+wp-pv-eigenverbrauch-lastmanagement.md` (neue Sektion) und den Themenartikel
+`wiki/pv-eigenverbrauch-zev.md` nachgetragen. Kein Widerspruch zum Bestand, kein Cross-KB-Fund.
+Register nachgefuehrt: `destillate/INDEX.md`, `wiki/QUESTIONS.md` (E-R207-2 geschlossen, E-R207-1/-3
+bleiben offen), `CHANGELOG.md`, `training/curriculum.md`, `raw/_INGESTED.md`. Bericht
+`wissen/energie/outputs/2026-09-19_energie-run208.md`.
+
+Budget rund 3.0 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet.

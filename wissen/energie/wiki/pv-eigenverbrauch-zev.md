@@ -1,7 +1,7 @@
 ---
 title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
-last_updated: 2026-09-18
+last_updated: 2026-09-19
 datenstand: "2023 (ältester zitierter Quellenstand: EnergieSchweiz/Zogg-Planungsgrundlagen «Wärmepumpen, Photovoltaik und Elektromobilität», Version 2.0, 02.07.2023, Basis Forschungsprojekt OPTEG 2016-2021 — trägt Hebel 1 «technisch: WP-Lastmanagement»; die stromrechtlichen Hebel 2/3 ZEV/vZEV/LEG stützen sich auf jüngere Quellen ab 2024/2025 und altern laut Artikeltext selbst schnell, verändern den ältesten Stand aber nicht)"
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[heizleistung-und-waermeerzeuger]], [[elektromobilitaet-ladeinfrastruktur]], [[batteriespeicher]]
@@ -20,7 +20,10 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
   bei PV-Überschuss hoch und speichert die Energie **thermisch** — im Warmwasser-/Pufferspeicher oder in
   der **Gebäudemasse** (Betondecken, EFH 20–60 / MFH 150–450 kWh, gratis). Sommer: Warmwasser bis 100 %
   aus PV. Mit intelligenter Regelung lässt sich der **solare Deckungsgrad der WP ~verdoppeln** (Faktor 2
-  beim Heizen mit Gebäudemasse-Nutzung).
+  beim Heizen mit Gebäudemasse-Nutzung). **Real gemessen** im BFE-Pilotprojekt Möriken-Wildegg (3 baugleiche
+  MFH verglichen): die Gebäudemasse als Speicher bringt gegenüber reiner Speicherüberhöhung **Faktor 5 mehr
+  nutzbare Speicherkapazität — ohne Komforteinbusse** (Raumtemperatur-Hub nur 1–2 K statt 5–10 K
+  Speichertemperatur-Schwankung).
 - **Reihenfolge:** (1) Lasten in die Sonne schieben (WP-WW/Heizen nachmittags, E-Auto tagsüber) → Eigen-
   verbrauch oft von ~30 auf ~50 %; (2) Speicher/Gebäudemasse per EMS überhöhen; **(3) erst danach**
   Batterie — sie **rechnet sich wirtschaftlich noch nicht**, hat die schlechtere Ökobilanz und **hilft dem

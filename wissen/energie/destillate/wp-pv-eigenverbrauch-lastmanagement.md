@@ -4,10 +4,10 @@ herausgeber: EnergieSchweiz / Bundesamt für Energie BFE (Autor Prof. Dr. David 
 ausgabe: Version 2.0, 02.07.2023 (mit Elektromobilität ergänzt; V1.0 01.10.2021)
 url: https://pubdb.bfe.admin.ch/de/publication/download/10636
 fingerabdruck: SHA-256 0c545bc969115c3388c9bc4e145b2da698dd016c5e429a8cd1cc9064395497d0 (6'893'635 Bytes, 78 Seiten, PDF-CreationDate 10.09.2023), geladen 2026-09-18
-gelesen: 2026-07-04 (S. 1-16 vollst.); E-Mobilitaets-Teil ergaenzt 2026-07-11 aus dem Zogg-Fachartikel HK-Gebaeudetechnik 4/24 (S. 52-57 vollst.); **2026-09-18 A-BLIND (Run 207): S. 1-52 vollstaendig am Original gegengelesen (pdftotext -layout, Abbildung 3 als Bild geprueft)**, Kap. 4.2-9.2 neu destilliert; Anhang 10-12 (S. 53-78) nicht gelesen
-datenstand: 2023 (Basis Forschungsprojekt OPTEG 2016, >50 reale Installationen 2016–2021); SIA 2063 (Energie-/Lastmanagement) weiterhin **in Vorbereitung** — geprueft 2026-08-24 an der SIA-Publikationsliste Stand 30.07.2026, dort nicht gelistet; Quelle am 2026-09-18 unveraendert V2.0
+gelesen: 2026-07-04 (S. 1-16 vollst.); E-Mobilitaets-Teil ergaenzt 2026-07-11 aus dem Zogg-Fachartikel HK-Gebaeudetechnik 4/24 (S. 52-57 vollst.); **2026-09-18 A-BLIND (Run 207): S. 1-52 vollstaendig am Original gegengelesen (pdftotext -layout, Abbildung 3 als Bild geprueft)**, Kap. 4.2-9.2 neu destilliert; **2026-09-19 (Run 208): S. 53-78 vollstaendig gelesen (Fingerabdruck erneut gegen S. 1 geprueft, unveraendert), Anhang 10-12 destilliert — S. 1-78 damit vollstaendig**
+datenstand: 2023 (Basis Forschungsprojekt OPTEG 2016, >50 reale Installationen 2016–2021); SIA 2063 (Energie-/Lastmanagement) weiterhin **in Vorbereitung** — geprueft 2026-08-24 an der SIA-Publikationsliste Stand 30.07.2026, dort nicht gelistet; Quelle am 2026-09-18 unveraendert V2.0; Fingerabdruck am 2026-09-19 erneut geprueft, unveraendert
 status: established
-last_updated: 2026-09-18 (Run 207, A-BLIND: 2 Berichtigungen, Kap. 5-9 neu, Speicherfaehigkeit je Bauweise)
+last_updated: 2026-09-19 (Run 208: Anhang 10-12 vollstaendig destilliert, 5 Praxisbeispiele mit Messwerten)
 ---
 
 # WP + PV — Eigenverbrauchsoptimierung & Lastmanagement (EnergieSchweiz/Zogg 2023)
@@ -300,15 +300,48 @@ Bauherren-Transfer stammen aus einer anderen Quelle. **Unschaerfen der Quelle ma
 20–80 vs. 20–100 kWh; «ab CHF 1'000» exkl. Installation. **Abdeckung:** die Angabe «S. 1-16 vollst.» traf
 zu, deckte aber nur 16 von 78 Seiten; Kap. 4.2 bis 9.2 sind jetzt destilliert.
 
+## Anhang 10-12 (S. 53-75, Run 208, 2026-09-19): Grundinstallation, Stecker, LAN, fuenf Praxisbeispiele
+
+**Anhang 10 — Grundinstallation und Ladestationen (SIA 2060).** Ausbaustufen A-C («Grundinstallation
+mit Steuerung»: Zuleitung/Schutzeinrichtungen vorbereiten, C1 horizontal ueber den Parkplaetzen, C2 bis
+zur Ladestations-Position) und D («Ladestationen»). SIA 2060 empfiehlt die Grundinstallation fuer
+**60-100 % aller Parkplaetze** bei Neubauten/umfassenden Sanierungen. Ladeleistungstabelle (Tab. 7,
+S. 56): 32 A dreiphasig = **22 kW** (MFH-Maximum), 16 A dreiphasig = **11 kW** (EFH-Maximum), 6 A
+dreiphasig = **4 kW** (Minimum, regelbar bis 1,4 kW einphasig). DC-Schnellladen ausser Haus 50-350 kW;
+bidirektionales DC-Laden zu Hause noch teuer, max. ±20 kW. Steckertypen: Typ 1 (veraltet, einphasig),
+**Typ 2** (heutiger CH-Standard, dreiphasig AC, nur PWM-Kommunikation, **kein** Auslesen des
+Batteriestands), CCS/CHAdeMO (DC-Schnellladen, intelligente Kommunikation inkl. SoC, vorbereitet fuer
+bidirektionales Laden).
+
+**Anhang 11 — LAN-Einbindung.** EFH: Geraete direkt am Home-Router (IP-Neuvergabe bei Routerwechsel
+beachten). MFH: **separater Router mit Subnetz** empfohlen, damit die WP-/Ladestations-Steuerung vom
+Hausnetz unabhaengig bleibt; Internet-Zugang der Geraete bleibt fuer Service-Zwecke noetig.
+
+**Anhang 12 — fuenf Praxisbeispiele mit realen Messwerten:**
+
+| Objekt | Bauweise | PV | WP-Einbindung | Batterie | Kernbefund (gemessen) |
+|---|---|---|---|---|---|
+| EFH Remigen AG | Minergie Glas-Stahlbau | 23,5 kWp verteilt Dach/Carport | Inverter-WP Stiebel Eltron, MODBUS/TCP, volles Thermomanagement | 12 kWh / 8 kW | 2 E-Autos solaroptimiert geladen; Sommer sehr hoher Eigenverbrauch trotzdem Ueberschuss; **trotz grosszuegiger Batterie** Netzbezug im Dez./Jan. (Nebel-Kanton AG) |
+| MFH Wettingen AG | Minergie-A-Sanierung, 3 Whg. | 15 kWp Ost-West | On-off-WP, EVU-Sperre | keine | Minergie-Monitoring+: **gemessene MKZ besser als berechnet**; gemessene JAZ leicht unter Planwert, aber im gruenen Bereich; PV-optimierter Boiler-Elektroeinsatz erhoehte den Verbrauch unnoetig (2019-2021) → **2022 komplett deaktiviert** |
+| MFH Wetzikon ZH | Minergie-P-Eco, Lehmbauweise, 10 Whg. | 86 kWp Dach + 3 Fassaden (O/W/S) | On-off-WP, EVU-Sperre, Natural-Cooling ueber Erdsonden | 63 kWh | 4 Ladestationen + 1 Car-Sharing-EV; hoher Eigenverbrauch dank E-Mobilitaet im Sommer, trotzdem Ueberschuss; trotz grosser Batterie Netzbezug Nov.-Jan. |
+| Areal Moeriken-Wildegg AG (4 MFH, 35 Whg.) | Minergie-P-Eco Holz/Misch | 160 kWp Dach+Fassaden+Bruestungen | 4 on-off-WPs, verteiltes EMS ("verteilte Intelligenz"), KNX-Raumbedienung | keine | **BFE-Pilotprojekt [MOERIKEN II 2022], 3 baugleiche Gebaeude verglichen:** volles Thermomanagement (Geb. 3) steigert den **solaren Deckungsgrad der WP um Faktor 2** gegenueber Standard-Speicherueberhoehung (Geb. 2, S. 71/Abb. 54) — **und die nutzbare Speicherkapazitaet um Faktor 5** gegenueber reiner Speicherueberhoehung, **ohne Effizienzverlust** (Raumtemperatur-Hub nur 1-2 K statt 5-10 K Speichertemperatur-Schwankung). Batterie waere im Winter wirkungslos (kein Ueberschuss zum Laden) |
+| Areal Erlenmatt Ost, Basel | gemischt, ~200 Whg. + Gewerbe | 530 kWp (Ziel 650, Stand 2023) | 3 zentrale Grosswaermepumpen + 13 dezentrale WW-WP | keine (2 bidirektionale EVs als Puffer) | **BFE-Pilotprojekt [ERLEN 2022]:** 2 bidirektionale Ladestationen (EV-Tec/Nissan, je 40 kWh) fuers **Peak Shaving** — reale Messung 12.09.2019 zeigt reduzierte Netz-Bezugsspitzen; Hochrechnung auf **~60-Fahrzeug-Flotte** (ZHAW) zeigt Lastspitzenreduktion sogar unter das Niveau ohne E-Mobile |
+
 ## Offene Punkte
-- Konkrete kWh-/CHF-Endergebnisse der 5 Praxisbeispiele (Kap. 12, S. 59–75: EFH Remigen, MFH
-  Wettingen/Wetzikon, Areal Moeriken, Erlenmatt Ost) noch nicht destilliert; ebenso Anhang 10
-  (Ausbaustufen SIA 2060, Stecker, AC-/DC-Ladeleistungen, S. 53-57) und 11 (LAN-Varianten, S. 58).
-- Absolute solare Deckungsgrade in % (statt Faktoren) nennt die Quelle nicht generisch — projektgenau via
-  Simulation (Polysun, mit hinterlegtem SG-Ready-Regler). Verweis Norm **SIA 2063** (integrales Energie-/
-  Lastmanagement) noch in Vorbereitung.
-- Die Waermekapazitaeten je Bauweise (0,15 / 0,08 / 0,03 kWh/m²K) zitiert die Quelle aus SIA 380/1 B.9 ohne
-  Ausgabejahr; gegen die Norm selbst nicht geprueft (E-R207-1).
+- Waermekapazitaeten je Bauweise (0,15 / 0,08 / 0,03 kWh/m²K, S. 9) zitiert die Quelle aus SIA 380/1 B.9
+  ohne Ausgabejahr; gegen die Norm selbst nicht geprueft (E-R207-1, Normkauf noetig).
+- Quelle intern unscharf an drei Stellen (E-Auto-Kapazitaet, Reichweite, WPSM-Nachkontrollfrist) — aus der
+  Quelle nicht aufloesbar, im Destillat markiert, keine Aktion noetig ausser bei einer V3 (E-R207-3).
+- **E-R207-2 mit diesem Lauf geschlossen:** S. 53-78 (Anhang 10-12) sind destilliert, das Destillat deckt
+  damit die vollen 78 Seiten der Quelle ab.
+
+**Bauherren-Transfer:** Der wichtigste einzelne Messwert des ganzen Werks steckt hier, nicht im
+generischen Tabellenteil (S. 15): **Faktor 5 mehr nutzbare Speicherkapazitaet durch die Gebaeudemasse
+statt technischer Speicherueberhoehung — ohne Komforteinbusse.** Das rechtfertigt den Mehraufwand einer
+Raumtemperatur-gefuehrten EMS-Loesung gegenueber der einfacheren Puffer-Ueberhoehung, wenn eine
+Bauherrschaft zwischen beiden waehlt. Alle fuenf Objekte zeigen zudem uebereinstimmend: **eine Batterie
+loest das Winterproblem nicht** (Netzbezug bleibt in den nebligen/sonnenarmen Monaten bestehen, auch bei
+grosszuegiger Dimensionierung) — deckt sich mit der bereits destillierten Kernaussage (S. 12).
 
 **Backlinks:** Absolut-Ertrag/Eigenverbrauch [[pv-ertrag-eigenverbrauch-praxis]] · JAZ/WP-Systemwahl
 [[waermepumpe-systemvergleich]] / [[wpz-buchs-feldmessung-jaz-2016-2019]] · PV-Marktpreise

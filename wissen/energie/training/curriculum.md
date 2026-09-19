@@ -2856,3 +2856,18 @@ F292 präzisiert. Lehre (Methode): **eine Seitenangabe im `gelesen:`-Feld ist ge
 aus demselben Ranking (`wp-pv`-Nachbarn: `batteriespeicher-heimspeicher-pv-ch`, `e-mobilitaet-ladeinfrastruktur-gebaeude-ch`
 — beide stützen sich auf Web-Seiten ohne Fingerabdruck).
 
+**Run 208 (19.09.2026, Nachtschicht Mac Mini) — `wp-pv-eigenverbrauch-lastmanagement` fertig gelesen, Anhang 10-12.**
+Direkte Fortsetzung von Run 207 (E-R207-2 selbst als Kandidat benannt). PDF erneut geladen, SHA-256 identisch
+(unverändert V2.0). S. 53-78 vollständig gelesen: Anhang 10 (SIA-2060-Ausbaustufen A-D, Steckertypen, AC/DC-
+Ladeleistungstabelle 4/11/22 kW), Anhang 11 (LAN-Einbindung EFH/MFH), Anhang 12 (fünf Praxisbeispiele mit realen
+Messwerten). **Ergiebigster Fund:** BFE-Pilotprojekt Möriken-Wildegg ([MOERIKEN II 2022], 3 baugleiche Gebäude
+verglichen) belegt **Faktor 5 mehr Speicherkapazität durch Gebäudemasse statt Speicherüberhöhung, ohne
+Effizienzverlust** (Raumtemperatur-Hub 1-2 K statt 5-10 K) — spezifischer als der bisher geführte generische
+«Faktor 2»-Satz (S. 15, ohne Vergleichsgruppe). In `wiki/pv-eigenverbrauch-zev.md` nachgetragen. Kein Widerspruch
+zum Bestand. Abdeckung 52 → **78 von 78 Seiten**, Destillat damit vollständig gegen die Quelle gelesen.
+E-R207-2 geschlossen; E-R207-1 (SIA-380/1-Normfundstelle) und E-R207-3 (interne Quellen-Unschärfen) bleiben offen.
+
+**Nächster Zuschnitt:** A-BLIND Rang 16+ aus demselben Ranking (`batteriespeicher-heimspeicher-pv-ch`,
+`e-mobilitaet-ladeinfrastruktur-gebaeude-ch`) oder ein rotierender Themenkreis im Volltext (Fenster/Verglasung,
+Dämmstoffe, Schadstoffe, Lüftung — vom Audit noch nicht berührt).
+

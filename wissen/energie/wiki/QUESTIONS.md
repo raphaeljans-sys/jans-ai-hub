@@ -2,6 +2,23 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 208 (19.09.2026, Nachtschicht Mac Mini) — `wp-pv-eigenverbrauch-lastmanagement` fertig gelesen: Anhang 10-12, Abdeckung 52 → 78 von 78 Seiten
+
+Direkte Fortsetzung von Run 207 (E-R207-2 war dort selbst als Kandidat fuer den Folgelauf benannt). PDF
+erneut von pubdb.bfe.admin.ch geladen, SHA-256 identisch zum Frontmatter-Fingerabdruck (unveraendert V2.0).
+S. 53-78 vollstaendig gelesen (`pdftotext -layout`): Anhang 10 (SIA-2060-Ausbaustufen, Steckertypen,
+AC/DC-Ladeleistungstabelle), Anhang 11 (LAN-Einbindung EFH/MFH), Anhang 12 (fuenf Praxisbeispiele mit
+realen Messwerten: EFH Remigen, MFH Wettingen, MFH Wetzikon, Areal Moeriken-Wildegg, Areal Erlenmatt Ost),
+Literaturverzeichnis. Ergiebigster Einzelfund: das BFE-Pilotprojekt Moeriken (3 baugleiche Gebaeude
+verglichen) belegt **Faktor 5 mehr Speicherkapazitaet durch Gebaeudemasse statt Speicherueberhoehung, ohne
+Effizienzverlust** — ein spezifischerer, staerker belegter Wert als der generische «Faktor 2»-Satz auf
+S. 15, den die KB bisher als Kernaussage fuehrte. In den Themenartikel [[pv-eigenverbrauch-zev]]
+nachgetragen. Kein Widerspruch zum bestehenden Destillat gefunden; Ergaenzung, keine Korrektur.
+
+- [x] **E-R207-2** ✓ 19.09.2026 — Anhang 10-12 destilliert (neue Sektion im Destillat + Tabelle der fuenf
+  Praxisbeispiele), `gelesen:` jetzt S. 1-78 vollstaendig. Kein Cross-KB-Fund (`planungsgrundlagen` und
+  `bauprodukte` fuehren keine abweichenden Aussagen zu SIA 2060/Ladeinfrastruktur).
+
 ## Run 207 (18.09.2026, Abendlauf) — A-BLIND Rang 15: `wp-pv-eigenverbrauch-lastmanagement` am Original, 2 Berichtigungen, Abdeckung 16 → 52 von 78 Seiten
 
 Frisches Backlink-Ranking (Ränge 1-6 erledigt, Run 204/206). Gewählt: `[[wp-pv-eigenverbrauch-lastmanagement]]`
