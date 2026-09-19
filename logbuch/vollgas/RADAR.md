@@ -53,6 +53,34 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-19 09:07 — [FREI] **MacBook-Fassung, nachgeholter Lauf nach Shutdown. Kein Befund, keine Massnahme. Das MacBook war vom 18.09. 23:37 bis rund 08:50 aus (hub-chef belegt den Shutdown); die App hat die verpassten Slots nach dem Start gebündelt nachgefeuert.**
+
+**Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **5 s**, Watchdog 180 s nicht gebraucht, keine Waisen
+(`ps` gegengeprüft). Symlink MacBook unverändert `Caskroom/claude-code/2.1.267` (16.09. 05:15). Wochenbudget **34.7 %**
+von 167 Mio bei **69.7 %** verstrichener Woche, Vorsprung **-35.0 Punkte**, Ampel FREI (MacBook 41.08, Mini 16.82 Mio,
+beide frisch). Keine Drossel aktiv, nichts zurückzuschalten. Speicher MacBook Druckstufe 1, rund 5.0 GiB
+frei+inaktiv+purgeable (vm_stat), Uptime 17 Min, Load 5.0 (Start-Last der Nachhol-Welle).
+Selbstkontrolle: letzter MacBook-Eintrag 18.09. 12:57, der 00:50-Slot fiel in den Shutdown (kein Versagen des Radars,
+sondern Station aus); der Mini-Eintrag 00:58 hat das Fenster gedeckt. `lastRunAt` 07:06Z ist dieser Lauf.
+
+**Nachhol-Welle 08:51 bis 09:07 (Registry MacBook).** twin-mail-training, twin-fidelity-review, zahlungsabgleich-check,
+logbuch-radar, hub-chef-taeglich, konversations-log, normen-training-nacht und dieser Radar feuerten innerhalb von
+16 Minuten. Nicht nachgeholt (Stand 09:07): `vollgas-fruehwarnung` (lastRunAt 18.09.); die Mini-Fassung lief aber um
+06:34 und deckt den Tag. normen-training-nacht läuft damit ausnahmsweise tagsüber statt 01:28; einmalig, kein Eingriff.
+
+**Liefer-Delta (git, SSD-Klon, seit 18.09. 12:50).** energie 14 Dateien · twin 12 (Batch 124 heute 08:58) ·
+koordination 5 · auflagebereinigung 4 · normen 3 · baurecht 2. Nachtschicht Mini: 18.09. 4 Läufe, 19.09. bisher 2
+(02:36, 05:37), alle rc=0, 2.17 bis 3.74 USD. Kein Loop ohne Delta; weder Rücktaktung noch Deaktivierung angezeigt.
+
+**Feuermechanismen.** MacBook launchd: `vollgas-supervisor`/`-monitor` nur als `*.disabled-260729`, nicht geladen; alle
+geladenen `ch.jans`/`com.jans`-Jobs Exit 0. Mini launchd: Supervisor ebenfalls nur `.disabled-260729`, Nachtschicht
+geladen, `macbook-wecker` aktiv. Mini-Registry unverändert (13 Ordner).
+
+- **P3 (unverändert, Aktion Raphael)** — Doppellauf Radar/Frühwarnung/heartbeat auf MacBook und Mini besteht weiter:
+  alle drei sind in beiden Registries aktiv. Damit ist der offene Punkt aus dem Mini-Eintrag 00:58 nachgeholt.
+- **P3** — Nachhol-Welle nach Shutdown bündelt Lern- und Briefing-Loops in 16 Minuten auf eine frisch gestartete
+  Station. Heute ohne Folgen (Druckstufe 1), zur Kenntnis.
+
 ## 2026-09-19 00:58 — [FREI] **Mini-Regellauf ohne Befund. Alle Loops mit Liefer-Delta, keine Drossel, keine Massnahme. MacBook Pro per ssh nicht erreichbar (Timeout auf 100.117.99.62, schläft vermutlich): Doppellauf-Prüfung und MacBook-Registry diesmal nicht messbar.**
 
 **Lage.** PATH-Probe `/opt/homebrew/bin/claude` «OK», rc=0 in **4 s**, Watchdog 180 s nicht gebraucht, keine Waisen
