@@ -4967,3 +4967,41 @@ laeuft dort nicht an, verbrennt also nichts: (f) nicht erfuellt. Kein `KORPUS-QU
 
 **Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
 Tasks: keine im aktuellen Log-Verlauf.
+
+## 2026-09-19 06:31 CEST — Regellauf Mac Mini (Rohblock zuerst, Bewertung folgt)
+
+Messzeitpunkt 2026-09-19 06:31 CEST, Station Mac Mini (Macmini.local), NAS-Mount ok.
+Tageswerte Mac Mini, teuer / total, Mio Token (rekursives Glob, 205 Dateien, Zeilenfilter je Tag):
+13.09. 0.86 / 28.97 · 14.09. 2.23 / 56.99 · 15.09. 3.67 / 148.25 · 16.09. 2.99 / 65.16 ·
+17.09. 3.33 / 91.77 · 18.09. 4.48 / 101.71 · 19.09. (bis 06:31) 0.60 / 17.10.
+MacBook Pro: nicht messbar (ssh macbook Timeout auf 100.117.99.62, schlaeft vermutlich).
+Blockade Mini: 0 strukturelle Usage-/Rate-Limit-Ereignisse in 24 h (Kontrollprobe: 93 Sessions
+mit `scheduled-task` in der ersten Eingabe, Muster greift). Kein Wochenlimit.
+Letzte Task-Session Mini: vollgas-chef-radar 18.09. 22:58 UTC (= 19.09. 00:58 CEST).
+
+### Bewertung 2026-09-19 06:31 (Mini) — ohne Befund, keine Mail
+
+**Verbrauch und Blockade.** Mini 18.09. teuer 4.48 Mio, MacBook nicht messbar; selbst mit dem
+MBP-Hoechstwert der Vorwoche (9.68 am 17.09.) weit unter den Schwellen (b). Kein Limit-Ereignis,
+kein Wochenlimit (Mini). Kriterien (a) bis (c) nicht erfuellt (MBP-Anteil von (a) nicht messbar).
+
+**Briefings.** Sessions liegen auf dem MacBook, per ssh nicht lesbar. Belegt ueber Commits:
+logbuch-radar 18.09. `3d17724ff` 07:02 «Briefing geschrieben», hub-chef 18.09. `fb2e91598` 08:44
+«Tagesbriefing gesendet 08:43». logbuch-radar 19.09. ist erst um 06:55 faellig. mahnwesen und
+zahlungsabgleich: kein Commit-Beleg 18.09., Session nicht messbar. Kriterium (d) nicht erfuellt
+(kein Beleg fuer einen Abbruch).
+
+**Radar-Herzschlag.** RADAR.md erste `## `-Ueberschrift 19.09. 00:58 (Mini), Commit 01:00,
+Session 22:58 UTC; rund 5.5 h alt. Kriterium (e) nicht erfuellt.
+
+**Liefer-Delta und Destillat.** 18.09.: 10 Wiki-Artikel per git (4 ohne Twin), dazu energie
+Run 207, normen Run 87, wissens-chef 62, auflagebereinigung GVZ 30.25, synergie 39. Nachtschicht
+19.09. 02:36 und 05:37 rc=0 (Lauf-Journal NAS, 2.20 bzw. 3.17 USD); 05:37 hat
+`wissen/energie/wiki/pv-eigenverbrauch-zev.md` geschrieben. Kein Verbrauch ohne Lieferung.
+Stueckkosten 18.09. nur Mini: 4.48 Mio / 10 Artikel = 0.45 Mio (ohne Twin 1.12 Mio); MBP-Anteil
+fehlt, Wert daher Untergrenze. `architektur-fachwissen` Front weiter unmessbar (P2 Radar seit
+12.09.), Loop laeuft dort nicht an: (f) nicht erfuellt. Kein `KORPUS-QUEUE KOMPLETT`: (g) nicht erfuellt.
+Gate-Log: am 17./18.09. nur die Selbsttest-Abweisungen, keine echte Abweisung.
+
+**Ergebnis: kein Meldekriterium erfuellt, keine Mail versendet.** Letzte gesendete Mail dieses
+Tasks: keine im aktuellen Log-Verlauf.
