@@ -3,6 +3,20 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 19.09.2026 (08:59 bis 09:1x, nachgeholter Lauf) — ohne eigene Mail, still beendet: der Radar hat um 09:03 das volle Briefing gesendet
+
+**Grund in einem Satz:** Der Radar hat um 09:03 selbst gemailt (in der Annahme, der Chef laufe heute nicht), sein Briefing traegt alle operativen Punkte, und mein Delta enthaelt nur Hub-Interna; eine zweite Mail sechs Minuten spaeter waere Doppelmeldung (Rule 260803).
+
+**Laufumstand:** `hub-chef-taeglich` wurde nach dem Neustart des MacBook Pro um 08:59 nachgeholt, lief also doch (die Radar-Aussage «nächster Lauf erst morgen» trifft nicht zu, still berichtigt). Die Radar-Mail war zum Startzeitpunkt noch nicht versandt; der Chef hat auf ihren Abschluss gewartet (Sent-Vermerk im Radar-Abschnitt 09:05 gemessen), bevor er den Sendeentscheid traf.
+
+**Ursache des MacBook-Ausfalls (offene Frage des Radars beantwortet, gemessen):** `last` zeigt ein geordnetes **Herunterfahren am 18.09.2026 um 23:37** und den Neustart am 19.09.2026 um 08:51 (`uptime` 10 min um 09:01). Kein Schlafzustand, kein Netzproblem: das Geraet war aus. Wer oder was heruntergefahren hat (Hand, Update, Stromausfall mit geordnetem Shutdown), ist nicht belegt. Folge: konversations-log, logbuch-radar, twin, zahlungsabgleich und heartbeat liefen erst ab 08:51 nach; `stationen-watchdog --briefing` rc 1 (git-auto-sync 9 h 34, synctask-runner 9 h 50 ohne Herzschlag) erklaert sich daraus, `launchctl list` zeigt beide Jobs wieder geladen mit Status 0.
+
+**Eigene Signale:** Freigabe `--kurz` rc 1: mac-mini 0 · macbook-pro 1, **32 h** alt (launchd wissens-trigger + claude-autoupdate auf SSD-First-Fallback, `20260918-010015_…`); Sendegrund 5 formal erfuellt, aber vom Radar heute unter «In Beobachtung» Punkt 11 bereits gemeldet, darum Verweis statt Wiederholung. bexio `--verzug` rc 0: unveraendert vier KISPI-Rechnungen CHF 47'160.00 (RE-00087 156 Tg, RE-00098/-099 61 Tg, RE-00102 Frist bis 23.09.); `--abgleich` rc 0: nur Altbestand, kein KISPI-Eingang. Kalender 19. bis 26.09. (M365-Connector): deckungsgleich mit dem Radar; der Termin «Lbw schiebetüren erstellen» steht weiterhin 08:00 bis 09:00, ist aber vorbei und inhaltlich per Mail 18.09. 14:54 auf 06:30 bestaetigt. RWD Schlatter: keine Mail an rwdschlatter.ch seit 15.09. ausser der Deckenanfrage vom 17.09. (Graph `recipient`-Suche), Befund des Radars bestaetigt; Wortlaut Kayisoglu 16.09.: «Sofern die Zargen bis Freitag bestellt werden können, werden diese voraussichtlich in KW 42 für die Montage bereitstehen.» Mail-Vorfilter 26 h rc 0; einziges Delta nach dem Radar-Scan: iCloud 19.09. 08:59:26 «Passwort zurücksetzen» und 08:59:49 «Anmeldung von einem unbekannten Gerät» bei Galaxus, 23 s nacheinander und unmittelbar nach dem Neustart, mit hoher Wahrscheinlichkeit Raphael selbst; kein Sendegrund, hier festgehalten fuer den Fall, dass er es nicht war.
+
+**Aktionen:** keine. Mahnaktion bewusst nicht (A1/A9 nur interaktiv; Zahlungstermin 25.09.). Kein A2-Kalendereintrag (kein neuer, per Mail eindeutig bestaetigter Termin; die Radar-Vorschlaege bleiben Vorschlaege). Remote-/Sync-Queue: keine offenen Tasks fuer diese Station ausser dem Freigabe-Eintrag.
+
+Hub-Chef-Lauf ohne eigenen Befund, still beendet.
+
 ## Radar-Briefing 19.09.2026 (09:25): Zargen RWD Schlatter ohne schriftliche Bestellung, Jens Ziegel bis 05.10. abwesend
 
 **Warum der Radar heute selbst meldet:** Der Hub-Chef ist heute nicht gelaufen (das MacBook Pro war bis kurz vor 09:00 nicht erreichbar, sein nächster Lauf ist erst morgen). Dieses Briefing geht deshalb ausnahmsweise direkt an Dich.
