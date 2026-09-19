@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.09.2026 17:08:11
+Stand: 19.09.2026 17:28:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.09.2026 17:08:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d1cccab19 nas-selfcommit: 3 Datei(en) 2026-09-19 17:00
+- ffa25fb0d synergie-orchestrator: Lauf 40 (Tagestakt 19.09.) - SYN-93 MacBook-DWG-Weg pdf2dwg->WEGE gespiegelt, SYN-27 nachgefuehrt (md2docx Formstandard, Listen offen)
