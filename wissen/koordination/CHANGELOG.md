@@ -2,6 +2,15 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-19 — Synergie-Lauf 40 (Tagestakt)
+
+Delta-Basis 18.09.2026 17:10, 114 Commits (gemessen im SSD-Klon, lesendes git ueber SMB im Timeout).
+- **SYN-93 neu, umgesetzt:** MacBook-Weg zu DWG (ezdxf/volumen3d → scp → `/opt/homebrew/bin/dxf2dwg` auf dem Mac Mini)
+  als Querverweis in `connectors/WEGE.md` nachgetragen (active-with-flagging, 1319 → 1330, 0 entfernt).
+- **SYN-27 nachgefuehrt:** md2docx.py auf Formstandard (`d8777c85f`), Listen-Teil offen, Zeilenangabe aktualisiert.
+- Geprueft ohne Befund: tenant-hygiene Quota, Facetten-Auto-Block, BUILD-ANLEITUNG.
+Bericht: `outputs/2026-09-19_synergie-lauf-40.md`.
+
 ## 2026-09-18 (Lauf 62, Abendlauf) — ruhiger Tag, ein Befund im Zuschnitt verkleinert, ein eigener Fehler repariert
 
 Zuschnitt: Workflow mit 6 Meldern auf dem Zuwachs seit Lauf 61, je Meldung ein adversarialer Verifikator,

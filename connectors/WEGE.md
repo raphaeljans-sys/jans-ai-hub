@@ -75,6 +75,17 @@ dem Mac Mini via `rhinocode`) und Sackgasse (LibreDWG `dwg2dxf` rc=0, aber DXF o
 («Grenzen») gespiegelt, weil dieser Absatz jenen Abschnitt zum kanonischen Ort erklaert.
 (Querverweis Synergie-Lauf 39, SYN-92, 18.09.2026.)
 
+**DWG erzeugen, wenn die Arbeit auf dem MacBook Pro laeuft** (belegt 19.09.2026, Ansichten zum
+Verkaufsgrundriss-Auftrag): LibreDWG fehlt dort, der Weg ist trotzdem kurz. DXF lokal mit ezdxf
+aus `~/.venvs/volumen3d` schreiben, per `scp` auf den Mac Mini, dort
+`ssh mini '/opt/homebrew/bin/dxf2dwg -y --as r2000 <datei.dxf>'` (voller Pfad Pflicht: in der
+nicht-interaktiven ssh-Shell fehlt `/opt/homebrew/bin` im PATH, gleiche Falle wie `node` weiter
+unten und `brew` in `rules/betrieb-chronik.md`), DWG per `scp` zurueck, `/tmp` drueben aufraeumen.
+Volle Schrittfolge samt Abnahmekriterium (`dwgread` endet mit SUCCESS, MATERIAL-Warnungen bleiben):
+`skills/pdf2dwg/SKILL.md` («Grenzen», Punkt a) und
+`wissen/planungsgrundlagen/outputs/2026-09-19_dwg-export-vom-macbook-pro-via-ssh-mini.md`.
+(Querverweis Synergie-Lauf 40, SYN-93, 19.09.2026.)
+
 **Zu Zeile «3D-Hersteller-DWG nach 2D-Plan»** (belegt 20.08.2026, KWC Sirius BS302, 2619 KISPI):
 Hersteller-DWGs aus Revit enthalten oft **ausschliesslich ACIS-Volumenkörper** und keine einzige
 2D-Linie. Beim BS302 waren es 17 3DSOLID auf einem Layer plus rund 300 AEC-Darstellungsobjekte.
