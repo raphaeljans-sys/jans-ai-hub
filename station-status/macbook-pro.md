@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 17:27:06
+Stand: 19.09.2026 17:37:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:19)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 19.09.2026 17:27:06
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ffa25fb0d synergie-orchestrator: Lauf 40 (Tagestakt 19.09.) - SYN-93 MacBook-DWG-Weg pdf2dwg->WEGE gespiegelt, SYN-27 nachgefuehrt (md2docx Formstandard, Listen offen)
+- 5279b1d00 nas-selfcommit: 3 Datei(en) 2026-09-19 17:30
