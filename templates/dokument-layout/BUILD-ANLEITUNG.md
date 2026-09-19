@@ -22,8 +22,41 @@ Enthaelt alle Helper (h1, h2, para, paraRich, stamm, itemBold, itemNum, tcell) k
 5. PDF: `soffice --headless --convert-to pdf "<datei>.docx"`
 6. Seitenanzahl pruefen: `pdfinfo "<datei>.pdf" | grep Pages`
 
-Alternative fuer MD-Quellen: `skills/studien-generator/tools/md2docx.py <datei>.md --pdf`
-(python-docx, JANS-Layout Cambria 11pt).
+## Alternative fuer MD-Quellen: md2docx.py
+
+`python3 /Volumes/daten/jans-ai-hub/skills/studien-generator/tools/md2docx.py <datei>.md --pdf`
+(python-docx). Seit 19.09.2026 erfuellt der Aufruf **ohne Optionen** die Rule
+`dokument-layout-standard.md`: Cambria 11 pt mit Zeilenabstand 1.4, H1 18 pt, H2 12 pt,
+Tabellen rahmenlos ohne Schattierung mit 10 pt Zellschrift und festen, aus dem Inhalt
+geschaetzten Spaltenbreiten, Fusszeile 8 pt (links Verfasser · Mail · Datum, rechts
+«Seite X von Y»). Das Datum der Fusszeile kommt aus dem Dateinamen (`YYMMDD-…` oder
+`JJJJ-MM-TT…`), sonst gilt das lokale Tagesdatum.
+
+| Option | Wirkung |
+|---|---|
+| `--footer "<Text>"` | linker Fusszeilentext statt des Defaults; `{datum}` wird ersetzt, `""` laesst links leer |
+| `--tabellenlinien` | Gitterlinien behalten, nur fuer interne Arbeitsdokumente; ausgehend gilt rahmenlos |
+| `--spalten "1,4,2"` | Spaltenanteile von Hand fuer Tabellen mit so vielen Spalten, mehrfach angebbar; zu knappe Anteile werden auf die Mindestbreite angehoben |
+
+In der MD-Quelle steuerbar: die Trennzeile setzt die Ausrichtung je Spalte (`:---` links,
+`:---:` zentriert, `---:` rechts), reine Zahlenspalten werden ohne Angabe rechtsbuendig. Eine
+leere Kopfzeile (`| | |`) ergibt eine Tabelle ohne Kopf, passend fuer Stammdaten-Raster.
+
+Der Konverter warnt auf stderr, wenn eine Tabelle nicht ohne Umbruch auf die
+Satzspiegelbreite passt oder die Bemerkungsspalte unter 25 % bleibt. Dann gilt die Rule:
+Querformat oder weniger Spalten, nicht Spalten einengen. Die Warnung ersetzt die
+Sichtkontrolle nicht, die Breiten sind geschaetzt.
+
+**Schrift im PDF:** `pdffonts` zeigt **Caladea**, nicht Cambria. Cambria liegt auf den
+Stationen nur im Word-Bundle, LibreOffice ersetzt sie durch die metrisch gleiche Caladea.
+Das ist der Sollzustand. Ein Fehler waere **Carlito** oder eine andere Sans: dann tragen
+Styles noch Theme-Font-Verweise (`w:asciiTheme` schlaegt ein gesetztes `w:ascii`). Die Falle
+trifft jeden python-docx-Generator, der die Heading-Styles der Vorlage nutzt und nur
+`font.name` setzt; am 19.09.2026 war md2docx.py der einzige im Hub (`jans_docx.py` setzt die
+Schrift je Run und ist nicht betroffen).
+
+Offen bleibt im Konverter die Listen-Neuregelung (Hinweis oben, SYN-27): «- »-Zeilen werden
+weiterhin Word-Bullets.
 
 ## Detail-Parameter (DXA)
 

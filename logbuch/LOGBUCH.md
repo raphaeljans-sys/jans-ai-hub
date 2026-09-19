@@ -13665,3 +13665,20 @@ bleiben offen), `CHANGELOG.md`, `training/curriculum.md`, `raw/_INGESTED.md`. Be
 `wissen/energie/outputs/2026-09-19_energie-run208.md`.
 
 Budget rund 3.0 von 5 USD. Kein Versand, keine Buchung, keine Loeschung. Zyklus sauber beendet.
+
+## 2026-09-19, Nachtschicht-Zyklus Mac Mini (13:30-Slot) — KB architekten-synobsis: eine offene Identitaetsfrage recherchiert
+
+Prioritaeten 1-2 leer/gesaettigt (kein remote-task/sync-task; Synobsis Stufe 2 weiterhin
+853/853, `vectors.npz` deckungsgleich mit `documents.jsonl`, kein gueltiges Ziel fuer
+Prioritaet 2). Prioritaet 3 bereits heute frueh durch `logbuch-radar` umfassend abgedeckt
+(NEU/NACHTRAG/ERLEDIGT-Eintraege 09:1x-09:2x in `logbuch/fristen.md`), kein neues Delta seit
+dann. Prioritaet 4 ohne gueltiges Ziel: `bauprodukte` seit 15.08.2026 ERLEDIGT (eigene
+PROGRAMM.md schliesst sich als Nachtschicht-Ziel aus), `energie` heute bereits im vorherigen
+Zyklus trainiert (Run 208, Zogg-Anhang 10-12 destilliert). Prioritaet 5 gezogen: aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` den offenen Eintrag **Bawa Cheffrey** per
+Websuche geklaert — korrekt **Geoffrey Bawa** (1919-2003), sri-lankischer Architekt,
+fuehrender Kopf des Tropical Modernism (Parlamentsgebaeude Kotte, Heritance Kandalama Hotel,
+Lunuganga). Additiver Recherche-Vermerk in `wiki/QUESTIONS.md`, CHANGELOG-Eintrag ergaenzt.
+Keine Aenderung an der NAS-Quelle, kein Versand, keine Buchung, keine Loeschung.
+
+Budget rund 2.1 von 5 USD. Zyklus sauber beendet.

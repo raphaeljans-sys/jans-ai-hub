@@ -4,6 +4,19 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-09-19 (Mac Mini, Nachtschicht 13:30-Slot, Prioritaet 5) — Eine offene Identitaetsfrage recherchiert
+
+Prioritaeten 1-4 heute bereits abgedeckt (keine offenen Remote-/Sync-Tasks; Synobsis Stufe 2
+gegengemessen, `vectors.npz` weiterhin 853x768 deckungsgleich mit `documents.jsonl`; Fristen-
+Radar heute bereits umfassend durch `logbuch-radar` erhoben, Nachtrag 09:1x-09:2x; die beiden
+freien Trainings-KBs `energie` (Artikel `pv-eigenverbrauch-zev.md` heute bereits gewachsen)
+und `bauprodukte` (ERLEDIGT seit 15.08.2026) sind fuer Prioritaet 4 kein gueltiges Ziel).
+Stattdessen ein weiterer offener Eintrag aus `wiki/QUESTIONS.md` per Websuche geklaert (Muster
+der vorherigen RECHERCHIERT-Eintraege fortgefuehrt): **Bawa Cheffrey**, korrekt **Geoffrey Bawa**
+(1919-2003), sri-lankischer Architekt, fuehrender Kopf des Tropical Modernism (Parlamentsgebaeude
+Kotte, Heritance Kandalama Hotel, Lunuganga). Keine Aenderung an der NAS-Quelle, nur additiver
+Recherche-Vermerk in `wiki/QUESTIONS.md`.
+
 ## 2026-09-16 (Mac Mini, Nachtschicht 13:30-Slot, Prioritaet 5) — Zwei weitere offene Identitaetsfragen recherchiert
 
 Prioritaet 1-4 heute bereits abgedeckt (keine offenen Remote-/Sync-Tasks; Synobsis Stufe 2

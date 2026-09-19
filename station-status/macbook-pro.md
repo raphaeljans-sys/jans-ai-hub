@@ -1,9 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 13:19:29
+Stand: 19.09.2026 13:40:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
+- Developer/jans/ai/hub//claude/worktrees/architektur/grundrisse/verkaeufer/9129a3  (letzte Aktivitaet 13:39)
+- Developer/jans/ai/hub//claude/worktrees/brave/maxwell/d58db9  (letzte Aktivitaet 13:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +20,4 @@ Stand: 19.09.2026 13:19:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3511061aa nas-selfcommit: 3 Datei(en) 2026-09-19 13:15
+- d34b8ac66 nas-selfcommit: 3 Datei(en) 2026-09-19 13:30
