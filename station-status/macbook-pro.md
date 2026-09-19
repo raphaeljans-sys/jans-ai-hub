@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.09.2026 13:09:10
+Stand: 19.09.2026 13:19:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
@@ -18,4 +18,4 @@ Stand: 19.09.2026 13:09:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a4bfffca3 vollgas-radar 260919 12:58 MacBook: [FREI] 40.9%/72.0% Vorsprung -31.1; alle Loops mit Delta, keine Massnahme; P3 Wildcard-Warnung settings.local.json
+- 3511061aa nas-selfcommit: 3 Datei(en) 2026-09-19 13:15
